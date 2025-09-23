@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "dcbee644-01df-48f9-9168-9d7d26d01250",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "In the past people built many bridges from wood.  \nWood bridges could catch fire very easily.  \nThis was also true for old train bridges.  \nThe steel wheels on the steel tracks sometimes created a spark.  \nThe spark could fall on the wood and start a fire.  \nThe fire could burn the bridge down completely.",
+    "version": 11,
+    "created_at": "2025-09-01 17:20:57.231314",
+    "updated_at": "2025-09-01 17:20:57.231318",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "12fca24c-7cfb-4932-b3ca-e3c475025627",
+    "approval": "FAIL",
+    "grade": 2,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6506 is critically below the 0.75 minimum. The core message of the original text was lost.\n\n- Primary Failure (Meaning): The original text establishes a direct causal link: wood bridges were 'susceptible to fire'. Your version separates this into two disconnected facts ('people built bridges from wood' and 'Wood bridges could catch fire'), which fails to preserve the original's core meaning of inherent risk.\n- Secondary Failure (Fidelity): The BERTScore of 0.8988 is below the required 0.90 threshold. This confirms a loss of important phrasing and detail from the original text.\n- Vocabulary Violation: The word 'spark' is classified as C1. Its use in an A2 text is a severe violation of the standard. An A2-level description is required.\n- Suggestion: Rephrase to restore the direct link between the material and the danger. For example: 'In the past, bridges made of wood could burn very easily.'\n- Suggestion: Remove the C1 word 'spark'. Replace it with a simple A2 description, such as 'a very small, hot light' or 'a tiny piece of fire'.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8988,
+      "meaningbert": 0.6506
+    },
+    "created_at": "2025-09-01 17:21:19.495346"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "dcbee644-01df-48f9-9168-9d7d26d01250",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "In the past people built many bridges from wood.  \nWood bridges could catch fire very easily.  \nThis was also true for old train bridges.  \nThe steel wheels on the steel tracks sometimes created a spark.  \nThe spark could fall on the wood and start a fire.  \nThe fire could burn the bridge down completely.",
+    "version": 11,
+    "created_at": "2025-09-01 17:20:57.231314",
+    "updated_at": "2025-09-01 17:20:57.231318",
+    "metrics_meaningbert": 0.6506,
+    "metrics_cefr_compliance": "A2"
+  }
+}

@@ -1,0 +1,413 @@
+{
+  "session_id": "0f98a23e-0a9c-41a8-aade-f4058710bee5",
+  "created_at": "2025-09-01 17:26:37.895431",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:26:37.970309",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "101-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Human rights are basic freedoms that all people should have.  \nWasfia gave her life to support human rights.  \nShe saw many help projects in her country.  \nThese projects taught women and girls.  \nBut often the projects stopped.  \nWhen they stopped, the women got nothing.  \nWasfia saw Bangladesh needed to help itself.  \nSo she mixed two passions: climbing and human rights.  \nShe wanted to change how people view women.  \nShe started climbing while working on help campaigns in Tibet and Nepal.  \nBangladesh is a flat country by the sea.  \nMost people have never seen a mountain.  \nHer project is working.  \nOther people in Bangladesh are paying attention.  \nPeople around the world are also noticing.",
+      "timestamp": "2025-09-01 17:26:37.970735",
+      "metadata": {
+        "text_id": "c3d9e3ee-bb8d-4327-b82f-f43d416aaea6",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:26:40.313538",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4572e492-bafd-4e51-841a-b41f181149f7",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The statement 'Wasfia gave her life' is a critical error. The original text states she 'dedicated her life', which means she has spent her life working on a cause, not that she died for it. This is an instant failure.\n\nAdditional failures detected:\n- Meaning Preservation Failure. The MeaningBERT score of 0.73 is below the 0.75 threshold. This is a direct result of the factual error, which fundamentally changes the core message about Wasfia's commitment.\n- Fidelity Failure. The BERTScore of 0.88 is below the required 0.90. The simplification process lost too much lexical detail from the original text.\n- CEFR Compliance Failure. The text was classified as B1, not the required A2. This is due to specific linguistic violations.\n- B1 Vocabulary. The word 'basic' is not on the A2 word list.\n- B1 Grammar. The sentence 'Human rights are basic freedoms that all people should have' uses a 'that-clause', which is a B1 structure.\n- B1 Grammar. The sentence 'She wanted to change how people view women' uses a noun clause ('how people view women'), which is a B1 structure.\n\nSuggestion: Correct the factual error immediately. Rephrase 'dedicated her life' using A2 vocabulary, such as 'worked her whole life to support'. Remove the word 'basic'. Split the complex sentences into simple A2 structures. For example: 'She wanted to change what people think about women.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8807,
+          "meaningbert": 0.7316
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:26:49.445942",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Human rights are rights for all people.  \nWasfia worked her whole life to support human rights.  \nShe saw many help projects in Bangladesh.  \nThese projects taught women and girls.  \nOften the projects stopped.  \nWhen they stopped, women got nothing.  \nWasfia saw Bangladesh needed to help itself.  \nSo she mixed two passions: climbing and human rights.  \nShe wanted people to think differently about women.  \nShe started climbing while working on help campaigns in Tibet and Nepal.  \nBangladesh is a flat country by the sea.  \nMost people have never seen a mountain.  \nHer project is working.  \nPeople in Bangladesh are paying attention.  \nPeople around the world are also noticing.",
+      "timestamp": "2025-09-01 17:26:49.446307",
+      "metadata": {
+        "text_id": "538180f6-700c-4293-94ab-34d619b2ab97",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:27:20.151196",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e181a73d-a379-4b28-8728-9e5c77f390da",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary failure is a catastrophic loss of meaning and fidelity, evidenced by metrics that fall far below the minimum standard. The MeaningBERT score of 0.7182 is below the required 0.75, and the BERTScore of 0.8788 is below the required 0.90. This indicates that in the process of simplification, the core message and key lexical items were destroyed.\n\n- Meaning Loss: The original text conveys a strong sense of purpose with phrases like 'dedicated her life', 'change attitudes', and 'doing the trick'. Your output reduces these to weaker, less impactful statements like 'worked her whole life', 'wanted people to think differently', and 'is working'. This simplification is too aggressive and loses the essential meaning.\n\n- Fidelity Loss: Key terms from the original text were oversimplified, causing the low BERTScore. 'Humanitarian projects' became 'help projects', and 'taking notice' became 'paying attention'. This damages the lexical connection to the source material.\n\n- CEFR Compliance Failure: The text is also an instant failure on CEFR compliance. The classifier rated the output as B1, not the required A2. This is an unacceptable deviation from the target level.\n\nSuggestion: The text must be completely rewritten. Focus on preserving the original's intent and key vocabulary while using A2 structures. Do not dilute strong concepts like 'changing attitudes'. The goal is simplification, not evisceration of meaning. You must achieve scores of at least 0.75 on MeaningBERT and 0.90 on BERTScore while ensuring the final text classifies as A2.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8788,
+          "meaningbert": 0.7182
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:27:26.559525",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Human rights are rights for all people.  \nWasfia gave her life to human rights.  \nShe saw many human rights projects in Bangladesh.  \nThese projects taught women and girls.  \nOften the projects stopped.  \nWhen they stopped, women got nothing.  \nWasfia saw that Bangladesh needed to stand up for itself.  \nSo she mixed two passions: climbing and human rights.  \nShe wanted to change thoughts about women.  \nShe began climbing while working on projects in Tibet and Nepal.  \nBangladesh is a flat country by the sea.  \nMost people have never seen a mountain.  \nHer project is working.  \nPeople in Bangladesh notice it.  \nPeople around the world also notice it.",
+      "timestamp": "2025-09-01 17:27:26.559753",
+      "metadata": {
+        "text_id": "2c01bf8e-e2ae-4434-b6a9-77b7319ed11c",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:27:46.909968",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ac64b203-4800-4afc-a6b5-816d88a1d837",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text states Wasfia 'dedicated her life', which means she worked very hard for a cause. Your output states she 'gave her life', which incorrectly implies she died. This is a critical error and an instant failure. This factual error is confirmed by the MeaningBERT score of 0.6792, which is far below the required 0.75, indicating a severe loss of the original meaning. The BERTScore of 0.88 is also below the 0.90 threshold, indicating a failure to retain key lexical details. Suggestion: Correct the factual error immediately. Replace 'gave her life' with 'worked very hard for human rights' to accurately reflect the meaning of 'dedicated'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8806,
+          "meaningbert": 0.6792
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:27:50.392859",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Human rights are rights for all people.  \nWasfia worked very hard for human rights.  \nShe saw many human rights projects in Bangladesh.  \nThese projects taught women and girls.  \nOften the projects stopped.  \nWhen they stopped, women got nothing.  \nWasfia saw that Bangladesh needed to stand up for itself.  \nSo she mixed two passions: climbing and human rights.  \nShe wanted to change thoughts about women.  \nShe began climbing while working on projects in Tibet and Nepal.  \nBangladesh is a flat country by the sea.  \nMost people have never seen a mountain.  \nHer project works.  \nPeople in Bangladesh notice it.  \nPeople around the world also notice it.",
+      "timestamp": "2025-09-01 17:27:50.394118",
+      "metadata": {
+        "text_id": "d62aa242-9da0-4b0d-9317-e95768e860cf",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:28:14.088019",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5b0c9698-d271-47a3-82f5-4458f2f8faa4",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6507 is critically below the required 0.75 threshold. This indicates a severe loss of the original text's core message.\n\n- Fidelity Failure: The BERTScore of 0.8783 is also below the minimum requirement of 0.90. Key concepts were lost during simplification.\n- Causality Lost: The original text establishes a clear reason for Wasfia's actions: foreign projects failed, so she created her own initiative. Your version presents these as disconnected facts ('Often the projects stopped.' and 'Wasfia saw that Bangladesh needed to stand up for itself.'), completely severing the logical link.\n- Intensity Lost: The original states Wasfia 'dedicated her life' and wanted to 'change attitudes'. Your version weakens this to 'worked very hard' and 'change thoughts', which does not convey the same level of commitment or impact.\n- Over-simplification: The text has been broken down into so many short, choppy sentences that it reads like a list, not a narrative. This fragmentation is the direct cause of the meaning loss.\n\nSuggestion: Reintroduce simple A2 connectors like 'but' and 'so' to link ideas. Combine sentences to restore the cause-and-effect relationship. For example: 'Many projects for women stopped, and the women got nothing. So, Wasfia knew Bangladesh needed to help itself.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8783,
+          "meaningbert": 0.6507
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:28:19.611359",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Human rights are rights that all people have.  \nWasfia gave her whole life to human rights.  \nShe saw many projects that taught women and girls in Bangladesh.  \nMany of these projects stopped, and the women got nothing.  \nSo Wasfia knew Bangladesh needed to help itself.  \nShe mixed two passions: climbing and human rights.  \nShe wanted to change thoughts about women\u2019s role.  \nShe began climbing while she worked on projects in Tibet and Nepal.  \nBangladesh is a flat country by the sea.  \nMost people there have never seen a mountain.  \nHer project works.  \nPeople in Bangladesh notice it, and people around the world notice it too.",
+      "timestamp": "2025-09-01 17:28:19.613010",
+      "metadata": {
+        "text_id": "1f614cc4-e9e4-4b13-805e-e3419d8506e4",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:28:45.595146",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "29398cd1-f6e8-4cbe-9b84-9d0cd549ce8b",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6565 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text. The text also fails the fidelity check, with a BERTScore of 0.884, which is below the 0.90 minimum.\n\n- Meaning Loss: The original text establishes a clear cause-and-effect relationship: because projects failed, Wasfia saw a need for self-reliance, and therefore she combined her passions to change attitudes. Your version breaks this into a series of disconnected statements ('So Wasfia knew Bangladesh needed to help itself. She mixed two passions... She wanted to change thoughts...'). This oversimplification destroys the logical flow and weakens the central argument.\n\n- Fidelity Loss: Key concepts from the original were lost. The phrase 'stand up for itself' was reduced to 'help itself', losing the nuance of empowerment. The impactful idea of 'change attitudes towards women' was flattened into 'change thoughts about women\u2019s role'.\n\n- Structural Simplification: The text has been simplified to the point of being disjointed. The sentences are too short and lack the simple connectors (like 'because' or 'so') needed to link ideas at an A2 level.\n\nSuggestion: Re-write the text to restore the logical connections between ideas. Use simple connectors like 'so' and 'because' to explain *why* Wasfia took action. Rephrase sentences to more accurately reflect the meaning of key original phrases like 'stand up for itself' and 'change attitudes' using simple A2 vocabulary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.884,
+          "meaningbert": 0.6565
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:29:02.429053",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Human rights are the rights that every person has.  \nWasfia gave her whole life to human rights.  \nShe saw many projects that taught women in Bangladesh.  \nShe also saw projects that taught girls.  \nBecause many of these projects stopped, the women got nothing.  \nSo she thought Bangladesh must stand up for itself.  \nShe mixed two passions: climbing and human rights.  \nShe wanted to change how people think about women.  \nShe began climbing while she worked on projects in Tibet and Nepal.  \nBangladesh is a flat country by the sea.  \nMost people there have never seen a mountain.  \nHer project is working.  \nPeople in Bangladesh notice it.  \nPeople around the world notice it too.",
+      "timestamp": "2025-09-01 17:29:02.429362",
+      "metadata": {
+        "text_id": "0b9f2e55-f7ad-4883-8a2c-e87484555cf8",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:29:29.637571",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5965b625-b8d5-4031-8353-9af073127307",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6534 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message and logical connections.\n\n- Primary Failure: The text was over-simplified to the point of losing meaning. By breaking every concept into a separate, short sentence, you destroyed the causal links present in the original text. For example, the original states she combined her passions 'in order to' change attitudes. Your version presents these as two disconnected facts, losing the sense of purpose.\n- Secondary Failure: The BERTScore of 0.8781 is below the required 0.90. This reflects the loss of key phrasing and nuance, such as replacing 'dedicated her life' with 'gave her whole life', and 'doing the trick' with the generic 'is working'.\n- Structural Defect: The text reads like a list of disconnected facts rather than a coherent narrative. The relationship between ideas is not preserved.\n\nSuggestion: Recombine some of the short sentences using A2 connectors like 'so' and 'because' to restore the logical flow. The goal is simplification, not fragmentation. Ensure that the purpose and result of an action are linked within the same sentence or consecutive sentences. For example, connect the idea of mixing passions with the goal of changing how people think.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8781,
+          "meaningbert": 0.6534
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:29:35.814646",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Human rights are the rights that every person has.  \nWasfia gave her whole life to human rights.  \nShe saw many projects that taught women and girls.  \nMany of these projects stopped, so the women got nothing.  \nBecause this happened, she thought Bangladesh must stand up for itself.  \nShe mixed two passions: climbing and human rights.  \nShe mixed them in order to change how people think about women.  \nShe began climbing while she worked on projects in Tibet and Nepal.  \nBangladesh is a flat country by the sea.  \nMost people there have never seen a mountain.  \nHer project is working, so people in Bangladesh notice it.  \nPeople around the world notice it too.",
+      "timestamp": "2025-09-01 17:29:35.816428",
+      "metadata": {
+        "text_id": "bbb9c9b5-3ba5-47ca-8ab9-58ea6caa5161",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:29:58.222397",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "82450e81-17cb-4a66-86eb-14b2f64bbccd",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6295 is critically below the required 0.75 threshold. This indicates a severe failure to preserve the core message of the original text. The text also fails the fidelity check, with a BERTScore of 0.8855, which is below the 0.90 minimum.\n\n- Meaning Loss: The original text explains Wasfia's motivation, which comes from seeing humanitarian projects fail and leave women with nothing. Your version states the facts separately but loses this crucial cause-and-effect relationship. The core message about her motivation is lost.\n\n- Fidelity Loss: Key phrases that carry meaning, such as 'doing the trick' and 'sitting up and taking notice', have been replaced with overly simplistic terms like 'is working' and 'notice it'. This simplification strips the text of its intended impact and lexical accuracy, causing the low BERTScore.\n\n- Over-simplification: The text has been broken down into a series of short, disconnected sentences. This makes the text sound robotic and removes the narrative flow that connects Wasfia's experiences to her actions.\n\nSuggestion: Restore the core meaning by clearly linking the failure of previous projects to Wasfia's decision to act. Rephrase to better capture the success of her campaign without using complex words. Combine some of the shortest sentences using simple connectors like 'and' or 'so' to improve readability and restore logical flow.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8855,
+          "meaningbert": 0.6295
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:30:09.281230",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Human rights are the rights that every person has.  \nWasfia spent her whole life on human rights.  \nShe saw many projects that taught women and girls.  \nMany of these projects stopped and the women got nothing.  \nBecause the projects stopped, she thought Bangladesh must stand up for itself.  \nShe mixed her two passions, climbing and human rights.  \nShe did this to change how people think about women.  \nShe began climbing while she worked on projects in Tibet and Nepal.  \nBangladesh is a flat country by the sea.  \nMost people there have never seen a mountain.  \nHer campaign is making people pay attention.  \nPeople in Bangladesh are sitting up and noticing it.  \nPeople around the world notice it too.",
+      "timestamp": "2025-09-01 17:30:09.281706",
+      "metadata": {
+        "text_id": "75bb036b-ed7f-4e81-9eb8-617341e1cb25",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:30:33.956139",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f3dc3c95-c3ba-4e7a-be3d-e949c57aa4ed",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.659 is significantly below the required 0.75 threshold. This indicates the core message and the logical connections of the original text were lost during simplification.\n\n- The text fails the primary meaning check. The original text establishes a strong reason for Wasfia's actions: projects failed, so she acted. Your version presents a series of simple facts that weaken this cause-and-effect relationship, resulting in the low MeaningBERT score.\n- The text fails the fidelity check. The BERTScore of 0.8869 is below the 0.90 minimum. Key concepts were oversimplified, losing lexical precision.\n- Vocabulary Violation: The word 'campaign' is B1 level. It must be replaced. All words must be strictly A2.\n\nSuggestion: Rephrase to restore the logical link between the failed projects and Wasfia's decision. Replace 'campaign' with an A2 alternative like 'her work' or 'her project'. The text must not only be simple; it must accurately convey the full meaning of the original.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8869,
+          "meaningbert": 0.659
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:30:43.098732",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Human rights are the rights that every person has.  \nWasfia spent her whole life on human rights.  \nShe saw many projects that taught women and girls.  \nMany of these projects stopped and the women got nothing.  \nBecause the projects stopped, she thought Bangladesh must stand up for itself.  \nShe mixed her two passions, climbing and human rights.  \nShe did this to change how people think about women.  \nShe began climbing while she worked on projects in Tibet and Nepal.  \nBangladesh is a flat country by the sea.  \nMost people there have never seen a mountain.  \nHer work brings attention.  \nPeople in Bangladesh are sitting up and noticing it.  \nPeople around the world notice it too.",
+      "timestamp": "2025-09-01 17:30:43.099336",
+      "metadata": {
+        "text_id": "2063d732-595c-4eab-8d97-63d003e222cc",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:31:04.679684",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "066fd751-93d8-484a-964c-765160a773af",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6443 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text.\n\n- Primary Deviation (MeaningBERT): The original text establishes a direct causal link: Wasfia saw failed projects and therefore started her campaign as a way for Bangladesh to 'stand up for itself'. Your version separates these into disconnected facts ('she thought Bangladesh must stand up for itself' and 'She mixed her two passions'), which weakens the central argument and motivation.\n\n- Secondary Deviation (BERTScore): The BERTScore of 0.8852 is below the 0.90 minimum. This is a result of oversimplification that lost lexical fidelity. Key phrases like 'humanitarian projects' and 'change attitudes' were replaced with generic terms, losing important detail from the source.\n\n- Structural Compliance: While the text successfully uses A2 vocabulary and simple sentence structures, this is irrelevant due to the failure to maintain the original meaning. Adherence to CEFR level does not compensate for factual and semantic degradation.\n\nSuggestion: Rewrite to restore the cause-and-effect relationship. Combine the ideas to show that her campaign was the direct answer to the problem of failed projects. Rephrase to more accurately reflect the concept of 'changing attitudes' towards women as the goal.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8852,
+          "meaningbert": 0.6443
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:31:09.433059",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Human rights are the rights that every person has.  \nWasfia spent her whole life working for human rights.  \nShe saw many humanitarian projects that taught women and girls.  \nMany of these projects stopped and left the women with nothing.  \nBecause the projects stopped, she decided Bangladesh must stand up for itself.  \nShe combined her two passions: climbing and human rights.  \nShe did this to change attitudes toward women in Bangladesh.  \nShe began climbing while she worked on projects in Tibet and Nepal.  \nBangladesh is a flat country by the sea.  \nMost people there have never seen a mountain.  \nHer campaign brings attention to women\u2019s rights.  \nPeople in Bangladesh are sitting up and noticing it.  \nPeople around the world notice it too.",
+      "timestamp": "2025-09-01 17:31:09.435388",
+      "metadata": {
+        "text_id": "c527d2ab-6dd2-42da-87bc-8aab0b83978a",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:31:38.958488",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c6f05a0f-0ecc-4d45-80cd-37f52904314c",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8906 is below the required 0.90 threshold. This indicates a loss of key phrasing and meaning from the original text. The text also fails on CEFR compliance.\n\n- Fidelity Failure: The primary cause for the low BERTScore is the alteration of meaning. The original text states the campaign is 'doing the trick', which means it is succeeding. Your version, 'Her campaign brings attention', changes the meaning from success to simple awareness.\n\n- CEFR Compliance Failure: The text was classified as B1, not A2. This is an automatic failure. The B1 classification is a result of specific vocabulary and grammar violations.\n\n- Vocabulary Violation: You used the C1 word 'humanitarian' and the B1 word 'campaign'. These words are too advanced for the A2 level and must be replaced.\n\n- Structural Violation: The text uses B1 grammatical structures. The sentence 'Human rights are the rights that every person has' uses a relative 'that-clause'. The sentence 'She began climbing while she worked on projects...' uses the subordinating conjunction 'while'. These structures are too complex for A2.\n\n- Suggestion: Restore the original meaning of success. Replace 'Her campaign brings attention' with 'Her work is successful'. Remove the word 'humanitarian'; use 'projects to help people' instead. Remove the word 'campaign'; use 'her work'. Break complex sentences into simple A2 sentences. For example: 'Every person has rights. These are called human rights.' And: 'She worked on projects in Tibet and Nepal. At that time, she began climbing.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8906,
+          "meaningbert": 0.7586
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:32:00.432622",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Every person has rights.  \nThese are called human rights.  \n\nWasfia spent her whole life working for human rights.  \nShe saw many projects to help people.  \nThe projects taught women and girls.  \nMany of these projects stopped.  \nThey left the women with nothing.  \nThe projects stopped.  \nShe thought Bangladesh must help itself.  \n\nShe mixed her two passions.  \nOne is climbing.  \nThe other is human rights.  \nShe wanted people? Actually keep: She wanted people to think better about women in Bangladesh.  \n\nShe worked on projects in Tibet and Nepal.  \nShe began climbing then.  \n\nBangladesh is a flat country by the sea.  \nMost people there have never seen a mountain.  \n\nHer work is successful.  \nPeople in Bangladesh are sitting up and noticing it.  \nPeople around the world notice it too.",
+      "timestamp": "2025-09-01 17:32:00.433685",
+      "metadata": {
+        "text_id": "554c88ca-dd06-43b2-8a7e-094bdab6468b",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:32:24.947839",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "95dc02c7-dc1b-4364-b1c4-94465347bbb2",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The submission fails on two critical metrics. The MeaningBERT score of 0.6751 is significantly below the required 0.75 threshold. The BERTScore of 0.8506 is also below the required 0.90. These failures indicate a severe loss of the original text's core message and factual phrasing.\n\n- Meaning Preservation Failure (MeaningBERT 0.6751): The original text establishes a clear cause-and-effect relationship: failed projects motivated Wasfia to combine her passions to change attitudes. Your version presents these as a series of disconnected facts, losing this central narrative. The simplification is too extreme.\n\n- Fidelity Failure (BERTScore 0.8506): Key phrases that carry specific meaning, such as 'international humanitarian projects', 'change attitudes', and 'stand up for itself', were replaced with overly generic terms like 'projects to help people', 'think better', and 'help itself'. This results in a significant loss of lexical detail.\n\n- Content Error: The text contains an unedited note: 'She wanted people? Actually keep: She wanted people to think better about women in Bangladesh.' This is an instant failure of quality control.\n\n- Structural Flaw: The sentence 'The projects stopped.' is repeated back-to-back, which is grammatically awkward and demonstrates poor editing.\n\nSuggestion: Restore the logical connection between sentences. Use simple connectors like 'so' or 'because' to show that the failed projects caused Wasfia to act. Remove the editing note and the repeated sentence. Re-evaluate the simplification of key terms to retain more of the original's specific meaning while remaining at an A2 level.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8506,
+          "meaningbert": 0.6751
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "a27d3b5e-eced-43dd-b8f2-405d9fbbd3e4",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "A big ground shake is when the ground shakes a lot. Big ground shakes can break buildings and bridges. Luckily, bridges do not fall down very often. This is true for new bridges, especially. Engineers design safer bridges in places with big ground shakes. They build on strong ground that does not move much.",
+    "version": 2,
+    "created_at": "2025-08-31 23:40:27.661840",
+    "updated_at": "2025-08-31 23:40:27.661878",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "4906e757-efd4-4132-b724-639dc7350c4a",
+    "approval": "FAIL",
+    "grade": 2,
+    "feedback": "FAIL: Meaning Preservation and Fidelity Failure. The MeaningBERT score of 0.6697 is below the required 0.75. The BERTScore of 0.8931 is below the required 0.90.\nDetected deviations:\n- MeaningBERT below threshold indicates loss of the core message about modern bridges being designed to resist movement.\n- BERTScore below threshold shows loss of key lexical details such as 'Engineers have learned' and 'resistant to movement'.\nSuggestion: Restore the phrase 'Engineers have learned' instead of 'Engineers design' and include 'resistant to movement' to recover both meaning and factual fidelity.",
+    "metrics": {
+      "cefr_compliance": "B1",
+      "bertscore": 0.8931,
+      "meaningbert": 0.6697
+    },
+    "created_at": "2025-08-31 23:40:45.285798"
+  },
+  "attempt_number": 2,
+  "best_attempt": {
+    "id": "b8101770-2f88-4708-a7fe-86d470a9c823",
+    "cefr_level": "A2",
+    "text_id": "02-a2",
+    "text_translated": "An earthquake is when the ground shakes a lot.\nEarthquakes can break buildings and bridges.\nLuckily, bridges do not fall down very often.\nThis is true for new bridges, especially.\nEngineers design safer bridges in places with earthquakes.\nThey build on strong ground that does not move much.",
+    "version": 1,
+    "created_at": "2025-08-31 23:39:39.015596",
+    "updated_at": "2025-08-31 23:39:39.015607",
+    "metrics_meaningbert": 0.8445,
+    "metrics_cefr_compliance": "A2"
+  }
+}

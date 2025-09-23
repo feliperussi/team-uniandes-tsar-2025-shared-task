@@ -1,0 +1,413 @@
+{
+  "session_id": "2d2dcb1d-daa5-48d6-8a64-b59649709f0b",
+  "created_at": "2025-09-01 17:08:13.801997",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:08:14.951916",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "42-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Campbell is a writer who studies story patterns.  \nLuke is a young hero in a space movie.  \nObi\u2011Wan is a wise teacher who helps Luke.  \nHan Solo is a brave friend of Luke.  \nR2D2 is a small robot that helps the heroes.  \nC3PO is a talking robot who helps the heroes.  \nDarth Vader is a bad man who wants to stop Luke.  \nDeath Star is a huge space station that can destroy planets.  \n\nThe hero first says no to the adventure.  \nBut a teacher appears to help.  \nThe hero then decides to start the adventure.  \nHe goes into a new place.  \nIn the new place he faces many tests.  \nHe fights a bad guy.  \nHe meets friends.  \nHe gets ready for a hard test.  \nIn the story, Luke\u2019s teacher is Obi\u2011Wan.  \nLuke\u2019s friends are Han Solo, R2D2 and C3PO.  \nLuke\u2019s bad guy is Darth Vader.  \nAll this happens inside the Death Star.",
+      "timestamp": "2025-09-01 17:08:14.952099",
+      "metadata": {
+        "text_id": "68514551-0d9e-408a-b49e-2bf6fd508c07",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:08:17.297511",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1a0da3ac-a71c-4c70-b0c5-40ca337e1c48",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6656 is significantly below the required 0.75 threshold. The core message was lost.\n- The primary failure is a loss of meaning. The original text explains a specific theory from a person named Campbell, using a story as an example. Your version separates the character definitions from the story description, which breaks the logical flow and loses the central point that this is Campbell's analysis.\n- The text also fails the fidelity check. The BERTScore of 0.8482 is below the 0.90 minimum. This is a direct result of replacing all key phrases from the original ('refuses the call to adventure', 'cross the threshold', 'special world') with generic, simpler terms ('says no', 'start the adventure', 'new place'). This simplification was too aggressive and sacrificed fidelity.\n- Vocabulary Violation: The definition 'Obi-Wan is a wise teacher' uses the B1-level word 'wise'. This is an unacceptable deviation from the A2 vocabulary standard.\n- Suggestion: The text must be rewritten to preserve the original's structure. State that Campbell describes a pattern, then use the story of Luke to show that pattern. Do not separate the definitions. Remove the B1 word 'wise' and replace it with an A2 phrase like 'a teacher who knows many things'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8482,
+          "meaningbert": 0.6656
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:08:26.057802",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Campbell studies story patterns.  \nHe says a hero says no to the call to adventure.  \nThen a mentor appears.  \nThe hero meets the mentor.  \nThe hero decides to go across the threshold.  \nHe enters a special world.  \nIn the special world the hero faces many tests.  \nHe meets friends.  \nHe fights an enemy.  \nHe prepares for a final test.  \n\nIn the Star Wars story Luke is the hero.  \nObi\u2011Wan is a teacher who knows many things.  \nHe helps Luke.  \nHan Solo, R2D2 and C3PO are Luke\u2019s friends.  \nDarth Vader is the enemy.  \nAll of this happens inside the Death Star, the special world.",
+      "timestamp": "2025-09-01 17:08:26.058001",
+      "metadata": {
+        "text_id": "6ecb35ae-1d3e-4f70-b821-a7d382192338",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:09:09.462893",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c7cea549-1e3e-44cf-8f5f-78f91ff99581",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.863 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text. The text also fails the CEFR compliance check, registering as B1 instead of the required A2. This is a complete failure to meet the standard.\n\nDetected Deviations:\n- Vocabulary Violation: The word 'mentor' is C1 level. The word 'threshold' is C1 level. The word 'enemy' is B1 level. These are not A2 vocabulary. Their use is a direct violation of the A2 standard.\n- Grammar Violation: The sentence 'Obi\u2011Wan is a teacher who knows many things' uses a relative clause ('who...'). This is a B1 grammatical structure and is too complex for the A2 level.\n- CEFR Classification Failure: The combination of advanced vocabulary and B1 grammar caused the text to be classified as B1, failing the core requirement.\n\nCorrective Path:\n- Suggestion: Remove all words above the A2 level. Replace 'mentor' with 'a wise helper' or 'an old teacher'. Replace 'threshold' with 'the door' or 'the start'. Replace 'enemy' with 'a bad person'.\n- Suggestion: Split the complex sentence. Do not use 'who'. Write: 'Obi-Wan is a teacher. He knows many things. He helps Luke.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.863,
+          "meaningbert": 0.8535
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:09:27.714768",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Campbell studies story patterns.  \nHe says a hero says no to the call.  \nThen an old teacher appears.  \nThe hero meets the old teacher.  \nThe hero decides to go across the door.  \nHe enters a special world.  \nIn the special world the hero faces many tests.  \nHe meets friends.  \nHe fights a bad person.  \nHe prepares for a final test.  \n\nIn the Star Wars story Luke is the hero.  \nObi\u2011Wan is a teacher.  \nHe knows many things.  \nHe helps Luke.  \nHan Solo, R2D2 and C3PO are Luke\u2019s friends.  \nDarth Vader is a bad person.  \nAll of this happens inside the Death Star, the special world.",
+      "timestamp": "2025-09-01 17:09:27.715151",
+      "metadata": {
+        "text_id": "df259128-8e04-4122-a53d-9df3d42df93a",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:09:54.200050",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9a8e11d9-8d28-4d01-b0e1-e683bf17503b",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for failure is the MeaningBERT score of 0.6569, which is substantially below the required 0.75 threshold. This indicates a severe loss of the original text's core message. A secondary failure is the BERTScore of 0.8528, which is below the 0.90 minimum, indicating a loss of key vocabulary and phrasing.\n\n- Meaning Loss: The original text establishes a cause-and-effect relationship: the mentor appears, helps the hero, and as a result, the hero decides to 'cross the threshold'. Your version presents these as disconnected events: 'Then an old teacher appears. The hero meets the old teacher. The hero decides to go across the door.' This fragmentation destroys the logical connection.\n\n- Lexical Fidelity Loss: The phrase 'cross the threshold' is a key concept. Your replacement, 'go across the door', is a literal and nonsensical simplification that loses the intended metaphorical meaning.\n\n- Concept Dilution: The original specifies the hero prepares for their 'biggest challenge'. Your version weakens this to 'a final test', which is not equivalent and loses the sense of scale and importance.\n\n- Over-simplification: The text has been broken down into sentences that are too simple, resembling an A1 level. This excessive simplification is the root cause of the low meaning and fidelity scores.\n\nSuggestion: Re-write to connect the ideas using simple A2 connectors like 'so' and 'because'. Restore the cause-and-effect logic. Do not replace key conceptual phrases like 'cross the threshold' with overly literal and inaccurate simplifications; instead, explain them simply if needed or use a closer A2 equivalent like 'enter the new world'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8528,
+          "meaningbert": 0.6569
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:10:08.566850",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Campbell studies story patterns.  \nHe says a hero first says no to the call.  \nThen a mentor appears and helps the hero.  \nBecause the mentor helps, the hero decides to cross the threshold.  \nHe then enters the new world.  \nIn the new world the hero faces many tests.  \nHe meets friends.  \nHe fights a bad person.  \nHe prepares for his biggest challenge.  \n\nIn the Star Wars story Luke is the hero.  \nObi\u2011Wan is the mentor.  \nHe helps Luke.  \nHan Solo, R2D2 and C3PO are Luke\u2019s friends.  \nDarth Vader is the bad person.  \nAll of this happens inside the Death Star, the special world.",
+      "timestamp": "2025-09-01 17:10:08.567173",
+      "metadata": {
+        "text_id": "0e299e15-b294-47ba-8c0f-08d16b9f8e56",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:10:43.350291",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "acb6c865-165e-43eb-9c44-bbefdd13418e",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8675 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original text.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is an automatic failure. The cause is the use of vocabulary that is too advanced for the A2 level.\n- Vocabulary Violation: The words 'mentor', 'threshold', and 'challenge' are B1/C1 level vocabulary. These words are not on the A2 list and are too difficult for the target reader. They were used directly from the source text without simplification.\n- Lexical Loss: The original text specifies 'fighting enemies' (plural) and that R2D2 and C3PO are 'robots'. Your version simplifies this to 'fights a bad person' (singular) and omits the detail about the robots. This loss of specific information contributed to the low BERTScore.\n\nSuggestion: Replace the B1/C1 vocabulary immediately. 'Mentor' must be changed to 'teacher' or 'helper'. 'Threshold' must be rephrased as 'the start of the new world' or 'the door'. 'Challenge' must be changed to 'difficult test' or 'big problem'. Restore the lost details. Change 'a bad person' to 'bad people'. State that R2D2 and C3PO are robots.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8675,
+          "meaningbert": 0.8408
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:10:52.676510",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Campbell studies story patterns.  \nHe says a hero first says no to the call.  \nThen a helper appears and helps the hero.  \nBecause the helper helps, the hero decides to cross the door.  \nHe then enters the new world.  \nIn the new world the hero faces many tests.  \nHe meets friends.  \nHe fights bad people.  \nHe prepares for his big problem.  \n\nIn the Star Wars story Luke is the hero.  \nObi\u2011Wan is the helper.  \nHe helps Luke.  \nHan Solo, R2D2 and C3PO are Luke\u2019s friends.  \nR2D2 and C3PO are robots.  \nDarth Vader? Actually Darth Vader is the bad person.  \nAll of this happens inside the Death Star, the special world.",
+      "timestamp": "2025-09-01 17:10:52.676995",
+      "metadata": {
+        "text_id": "631df727-1684-4d32-adac-272d816e1108",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:11:17.574870",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c37a3349-67b1-4d7f-ab58-2dd7697a2434",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on two critical metrics. The MeaningBERT score of 0.7091 is below the required 0.75 threshold, and the BERTScore of 0.8588 is below the required 0.90. This indicates a significant loss of the original text's core message and lexical detail.\n\n- Meaning Loss: The original text describes a connected process (e.g., 'The next stage consists of...'). Your version is a series of disconnected, simple statements that reads like a list. The relationship between the events is lost.\n- Fidelity Loss: Key phrases were oversimplified, losing their specific meaning. 'biggest challenge' became 'big problem', and 'refuses the call to adventure' became 'says no to the call'. This simplification was too aggressive and damaged the meaning.\n- Structural Error: The sentence 'Darth Vader? Actually Darth Vader is the bad person.' uses a question mark incorrectly. This is not a question; it is a statement of fact.\n\nSuggestion: Re-write to restore the logical connections between sentences. Combine some of the shortest sentences using 'and' or 'so'. Rephrase to better match the meaning of the original concepts like 'challenge' and 'refuse'. Correct the sentence about Darth Vader to be a simple statement.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8588,
+          "meaningbert": 0.7091
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:11:25.566286",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Campbell studies story patterns.  \nHe says a hero first does not answer the call.  \nThen a helper appears and helps the hero.  \nBecause the helper helps, the hero decides to cross the threshold.  \nHe enters the special world.  \nIn the special world the hero faces many tests and meets friends.  \nHe also fights enemies.  \nHe prepares for his biggest challenge.  \n\nIn the Star Wars story Luke is the hero.  \nObi\u2011Wan is the helper.  \nHe helps Luke.  \nHan Solo, R2D2 and C3PO are Luke\u2019s friends.  \nDarth Vader is the enemy.  \nAll of this happens inside the Death Star, the special world.",
+      "timestamp": "2025-09-01 17:11:25.566754",
+      "metadata": {
+        "text_id": "c63257da-5c2f-4a05-ac56-92e497da674c",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:11:50.176820",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "75c806c0-6f33-4e72-8edf-11be7a416fe9",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8703 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\n- Lexical Fidelity Loss: The low BERTScore is caused by oversimplification. The original phrase 'refuses the call to adventure' was reduced to 'does not answer the call', losing important lexical detail.\n- Vocabulary Violation: The text fails to adhere to the A2 vocabulary standard. It includes the B1 words 'challenge' and 'enemy', and the C1 word 'threshold'. These words are too advanced and must be replaced.\n- Factual Addition: The sentence 'Campbell studies story patterns' is an addition. The original text does not state this. You must only simplify the provided text, not add new information.\n\nSuggestion: Replace all words above the A2 level immediately. 'Challenge' must become 'biggest test' or 'hardest problem'. 'Enemy' must become 'the bad person'. 'Threshold' must become 'the entrance'. Remove the sentence 'Campbell studies story patterns'. Re-integrate more of the original's specific phrasing to meet the 0.90 BERTScore requirement.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8703,
+          "meaningbert": 0.8419
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:12:00.643944",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: First the hero refuses the call.  \nThen a helper appears.  \nThe helper helps the hero.  \nBecause of the helper, the hero goes to the entrance.  \nThe hero enters the special world.  \nIn the special world the hero faces many tests.  \nThe hero meets friends.  \nThe hero also fights the bad person.  \nThe hero prepares for his biggest test.  \n\nIn the Star Wars story Luke is the hero.  \nObi\u2011Wan is the helper.  \nHe helps Luke.  \nHan Solo, R2D2 and C3PO are Luke\u2019s friends.  \nDarth Vader is the bad person.  \nAll of this happens inside the Death Star, the special world.",
+      "timestamp": "2025-09-01 17:12:00.644484",
+      "metadata": {
+        "text_id": "8863c0ed-f998-4e12-bc02-f3c3c707d10e",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:12:29.436681",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "58e603e3-1399-4808-b9c8-ce1199a2308d",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text attributes the hero's journey structure to a specific person: 'According to Campbell'. Your output completely removes this attribution. This is a critical factual error and an instant failure. The text is no longer an explanation of Campbell's theory; it is an incorrect statement of general fact.\n\n- Meaning Preservation Failure: The MeaningBERT score of 0.66 is significantly below the required 0.75. This metric confirms that by removing 'Campbell', you lost the core message of the original text.\n- Fidelity Failure: The BERTScore of 0.85 is below the 0.90 threshold. This reflects the removal of key vocabulary such as 'Campbell', 'adventure', and 'threshold', which were essential to the original's specific meaning.\n- The simplification of 'enemies' to 'the bad person' is acceptable, but the omission of the source is not.\n\nSuggestion: You must re-introduce the source of the information. Start the text by stating that a person named Campbell described this story structure. For example: 'A writer named Campbell says heroes in stories follow a plan.' This restores factual integrity and will correct the meaning and fidelity scores.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8588,
+          "meaningbert": 0.6628
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:12:50.205439",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Campbell is a writer.  \nA writer named Campbell says heroes follow a plan.  \nFirst the hero says no to the call.  \nThen a helper appears.  \nThe helper helps the hero cross the entrance.  \nThe hero goes into the special world.  \nIn the special world the hero faces many tests.  \nThe hero meets friends.  \nThe hero also fights the bad person.  \nThe hero prepares for the biggest test.  \nIn the Star Wars story Luke is the hero.  \nLuke is a young man.  \nObi\u2011Wan is a helper.  \nObi\u2011Wan helps Luke.  \nHan Solo is a friend.  \nR2D2 is a robot.  \nC3PO is a robot.  \nDarth Vader is the bad person.  \nThe special world is the Death Star.  \nDeath Star is a big space station.",
+      "timestamp": "2025-09-01 17:12:50.206067",
+      "metadata": {
+        "text_id": "cb5c05c2-1c36-4c19-9a35-c125f39e8167",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:13:18.485256",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "edb714ae-2ae1-4770-82c6-23d27007b87e",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8425 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\n- Lexical Fidelity Lost: Key phrases were oversimplified, destroying their specific meaning. 'Refuses the call to adventure' became 'says no to the call'. 'Cross the threshold' became 'cross the entrance'. This level of simplification is unacceptable and damages the text's fidelity.\n\n- Structural Disconnection: The original text connects ideas. For example, it lists 'Han Solo and the robots R2D2 and C3PO' as friends. Your output separates them into disconnected facts: 'Han Solo is a friend. R2D2 is a robot. C3PO is a robot.' This loses the explicit relationship that they are all friends of the hero.\n\n- Overly Simplistic Structure: The text is a list of short, disconnected sentences. This is below the A2 standard, which requires the use of simple connectors to link ideas. The original uses 'but' to show contrast; your text uses 'Then', which only shows sequence and loses the original meaning.\n\n- Added Information: You added unrequested information such as 'Luke is a young man' and 'Death Star is a big space station'. While simple, this is not a simplification of the original text; it is an addition of new facts, which is not the task.\n\nSuggestion: Retain more of the original vocabulary. Combine sentences using A2 connectors like 'and' and 'but' to restore the logical flow. Do not add information that was not present in the source text. Ensure relationships between characters, places, and actions are explicitly stated as they are in the original.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8425,
+          "meaningbert": 0.7943
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:13:33.795639",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Campbell says the hero refuses the call to adventure.  \nBut a mentor appears.  \nThe mentor helps the hero cross the threshold.  \nThe hero goes into the special world.  \nIn the special world the hero faces many tests.  \nThe hero meets friends.  \nHan Solo, R2D? Actually R2D2, and C3PO are friends.  \nThe hero also fights the enemy.  \nThe enemy is Darth Vader.  \nThe hero prepares for the biggest challenge.  \n\nIn Star Wars Luke is the hero.  \nObi\u2011Wan is the mentor.  \nObi\u2011Wan helps Luke.  \nHan Solo, R2D2, and C3PO are Luke\u2019s friends.  \nDarth Vader is the enemy.  \nThe special world is the Death Star.",
+      "timestamp": "2025-09-01 17:13:33.797161",
+      "metadata": {
+        "text_id": "52355aa5-d279-4753-ba0b-e8def8e96d43",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:14:02.867394",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5e0179ad-03a1-4f4a-ac07-430eb6317c66",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The text introduces an error not present in the original. The sentence 'Han Solo, R2D? Actually R2D2, and C3PO are friends.' contains a typo and a conversational correction ('R2D? Actually...') which is a factual deviation from the source text 'R2D2'.\n\n- Fidelity Failure: The BERTScore of 0.8612 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text, failing to maintain lexical fidelity.\n\n- Vocabulary Non-Compliance: The text uses multiple words that are above the A2 level. This is a critical failure. The following words must be replaced with A2 alternatives: 'mentor' (C1), 'threshold' (C1), 'enemy' (B1), 'challenge' (B1).\n\n- Structural Defect: The text is excessively fragmented into short, disconnected sentences. While A2 requires simplicity, this level of separation damages the logical flow of the original paragraph.\n\nSuggestion: Correct the factual error regarding R2D2 immediately. Replace all B1 and C1 vocabulary with A2-level words or simple definitions. Combine some of the very short sentences using simple connectors like 'and' or 'so' to improve readability without increasing complexity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8612,
+          "meaningbert": 0.868
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:14:06.666355",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Campbell says the hero first says no to the call, and then a guide appears and helps the hero cross the first step. The hero goes into the special world. In that world the hero faces many tests and meets friends. The friends are Han Solo, R2D2 and C3PO. The hero also fights a bad guy. The bad guy is Darth Vader. The hero gets ready for the biggest hard test.\n\nIn Star Wars the hero is Luke. Obi\u2011Wan is the guide. Obi\u2011Wan helps Luke. Han Solo, R2D2 and C3PO are Luke\u2019s friends. Darth Vader is the bad guy. The special world is the Death Star.",
+      "timestamp": "2025-09-01 17:14:06.668397",
+      "metadata": {
+        "text_id": "2740aa69-4a62-4588-9b8f-14a9f14dcb2b",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:14:30.797553",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "797c0768-b24c-4702-beee-4d45c7ca8fa3",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on two critical metrics. The MeaningBERT score of 0.7271 is below the required 0.75 threshold, indicating a failure to preserve the core message. The BERTScore of 0.8955 is below the required 0.90, indicating a significant loss of key words and phrasing from the original text.\n\nDetected Deviations:\n- Meaning Loss: The original text's key concept 'call to adventure' was reduced to 'the call'. The word 'adventure' is central to the meaning and its removal is a critical error.\n- Fidelity Loss: The specific term 'cross the threshold' was replaced with 'cross the first step'. This simplification loses the specific, important meaning from the source material.\n- Phrasing Degradation: The phrase 'biggest challenge' was rephrased to 'biggest hard test'. This is unnatural and poor phrasing, even for A2 level.\n- Structural Disconnection: The original text connects the enemy and the location with 'the enemy is Darth Vader inside the special world of the Death Star'. Your version splits this into two separate sentences, losing the direct relationship.\n\nCorrective Path:\n- Restore the key noun 'adventure'. The phrase must be 'call to adventure'.\n- Rephrase the concept of 'threshold' without losing its meaning. Suggestion: '...helps the hero go into the new world for the first time.'\n- Use natural A2 phrasing. Replace 'biggest hard test' with 'biggest challenge' or 'most difficult test'.\n- Combine the sentences about the enemy and the location to restore the original's direct link. Suggestion: 'The bad guy is Darth Vader, and the special world is the Death Star.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8955,
+          "meaningbert": 0.7271
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:14:39.913564",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Campbell says the hero first says no to the call to adventure. Then a guide appears. The guide helps the hero cross the threshold. The hero enters the special world. In that world the hero faces many tests. The hero meets friends. The friends are Han Solo, R2D2 and C3PO. The hero also fights a bad guy. The bad guy is Darth Vader. The special world is the Death Star. The hero gets ready for the biggest challenge.\n\nIn Star Wars the hero is Luke. Obi\u2011Wan is the guide. Obi\u2011Wan helps Luke. Han Solo, R2D2 and C3PO are Luke\u2019s friends. Darth Vader is the bad guy. The special world is the Death Star.",
+      "timestamp": "2025-09-01 17:14:39.914283",
+      "metadata": {
+        "text_id": "42c1b6dc-8dba-42d5-ac81-604a5588e7a8",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:15:04.690272",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "817b28fc-19f1-4a32-9713-9243ee23d897",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8978 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text, compromising its fidelity.\n\n- Vocabulary Violation: The text retains the C1 word 'threshold'. This is unacceptable for the A2 level.\n- Vocabulary Violation: The text retains the B1 word 'challenge'. This is unacceptable for the A2 level.\n- Lexical Loss: The original text specifies 'the robots R2D2 and C3PO'. Your version omits the word 'robots', which is a loss of factual detail and contributes to the low fidelity score.\n- Structural Deviation: The complete restructuring of the text into two separate paragraphs, while attempting simplification, created too much distance from the original phrasing, causing the fidelity metric to fail.\n\nSuggestion: Restore the word 'robots' to the text. Replace 'threshold' with a simple A2 phrase like 'the entrance to the new world'. Replace 'challenge' with an A2 phrase like 'biggest problem' or 'hardest fight'. Re-integrate the examples into the main description to improve fidelity to the source text's structure.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8978,
+          "meaningbert": 0.7995
+        }
+      }
+    }
+  ]
+}

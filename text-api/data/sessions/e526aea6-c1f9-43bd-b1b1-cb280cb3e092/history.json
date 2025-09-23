@@ -1,0 +1,413 @@
+{
+  "session_id": "e526aea6-c1f9-43bd-b1b1-cb280cb3e092",
+  "created_at": "2025-09-01 17:15:48.016619",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:15:49.090358",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "66-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: PricewaterhouseCoopers is a big company that does research.  \nIt made a worldwide survey.  \nMore than 40,000 people answered.  \nThe people were born between 1983 and 1993 or older.  \nThe survey asked about work place culture.  \nIt also asked about talking at work.  \nIt asked about work styles.  \nIt asked about pay system.  \nIt asked about career growth.  \nIt asked about balance between work and life.  \n\nDeloitte is another big company that does research.  \nIt made a different worldwide survey.  \nMore than 10,000 young people answered.  \nThe survey asked how they see risks and chances.  \nIt asked about the complicated world of work.",
+      "timestamp": "2025-09-01 17:15:49.090499",
+      "metadata": {
+        "text_id": "fed9106b-5174-4e02-9b69-91d09cc5be4d",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:15:53.365033",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "39df5d87-4026-49a0-b895-fe20deac2524",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5945 is significantly below the required 0.75 threshold. This indicates a severe loss of the original text's core message. The text has been simplified to the point of losing its meaning.\n- Fidelity Failure: The BERTScore of 0.856 is also below the 0.90 minimum. This confirms that key words and phrasing from the original source were not adequately preserved.\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is an automatic failure. The cause is the direct use of B1-level vocabulary which should have been simplified.\n- Vocabulary Violation: You used the B1 words 'worldwide', 'growth', 'balance', and 'complicated'. These are not A2 words and are unacceptable.\n- Structural Error: The text is broken into excessively short, repetitive sentences. This A1-level structure, combined with B1 vocabulary, fails to meet the A2 standard. The connection between the two surveys is lost.\n- Suggestion: Rephrase to explain that both surveys are about young people at work. Replace the B1 words immediately. 'Worldwide' must be 'all over the world'. 'Career growth' must be 'getting a better job'. 'Complicated' must be 'not easy'. Combine the repetitive 'It asked about...' sentences using 'and'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.856,
+          "meaningbert": 0.5945
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:15:59.474360",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: PricewaterhouseCoopers is a big company that does research.  \nIt made a survey all over the world.  \nMore than 40,000 people answered.  \nThe people were born between 1983 and 1993 or were older.  \nThe survey asked about work place culture, talking at work, work styles, pay system, getting a better job and work and life.  \n\nDeloitte is another big company that does research.  \nIt made a different survey all over the world.  \nMore than 10,000 young people answered.  \nThe survey asked how they see problems and chances in a work world that is not easy.",
+      "timestamp": "2025-09-01 17:15:59.474588",
+      "metadata": {
+        "text_id": "dd6af45f-1731-455b-a090-15151b3212b9",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:16:21.124057",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e11b720d-4034-415a-8000-73f6da717e8b",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on two critical metrics. The MeaningBERT score of 0.5293 is catastrophically below the required 0.75 threshold. The BERTScore of 0.8728 is also below the 0.90 minimum. This indicates a severe deviation from the original text's core message and lexical content.\n\n- MeaningBERT Failure: The score of 0.5293 shows that the core meaning was lost. The original text is about two specific, large-scale corporate surveys. Your output oversimplifies this to 'a big company that does research', which loses the formality and significance of the original message.\n\n- BERTScore Failure: The score of 0.8728 reflects an excessive replacement of key terms. Replacing 'millennial and non-millennial responses' and 'perceptions of the threats and opportunities' with much simpler phrases created too much distance from the source text's specific vocabulary.\n\n- Over-simplification: While the text achieves an A2 classification, it does so by sacrificing essential information and nuance. The goal is to simplify, not to strip the text of its core purpose.\n\nSuggestion: You must rephrase to preserve more of the original meaning. Do not reduce the concept of a 'global survey' to just 'a survey all over the world'. Retain key terms like 'millennial' and provide a simple definition. The simplification of the Deloitte survey's purpose from 'perceptions of threats and opportunities' to 'how they see problems and chances' is too drastic and must be revised to be more faithful to the source.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8728,
+          "meaningbert": 0.5293
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:16:24.791631",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: PricewaterhouseCoopers is a big company that gives advice.  \nIt did a global survey.  \nMore than 40,000 people answered.  \nThe people were millennials (born between 1983 and 1993) or older.  \nThe survey asked about workplace culture.  \nIt also asked about communication at work.  \nIt also asked about working styles.  \nIt also asked about pay structure.  \nIt also asked about career development.  \nIt also asked about work\u2011life balance.  \n\nDeloitte is a big company that gives advice.  \nIt did another global survey.  \nMore than 10,000 millennials answered.  \nThe survey asked about their view of threats.  \nIt also asked about their view of opportunities.  \nThe view is about the world of work.",
+      "timestamp": "2025-09-01 17:16:24.791833",
+      "metadata": {
+        "text_id": "9d937b07-f7b4-496e-bfcb-7ca97f6067d1",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:16:51.795230",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9ec72a31-324c-450d-bc14-952488a006cc",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text specifies 'non-millennial responses'. Your output states 'The people were millennials... or older.' This is a factual error, as a non-millennial can also be younger than the specified age range. This is an instant failure and invalidates the entire text.\n\nAdditional failures were detected across all subsequent checks:\n- Meaning Preservation Failure. The MeaningBERT score of 0.7205 is below the required 0.75 threshold. The simplification has lost too much of the original message's nuance.\n- Fidelity Failure. The BERTScore of 0.8643 is below the required 0.90. Key vocabulary from the original text was lost, reducing lexical accuracy.\n- CEFR Compliance Failure. The text was classified as B1, not the required A2. This is because you failed to simplify B1 and B2 level vocabulary. Terms like 'workplace culture', 'communication', 'career development', and 'work-life balance' are not A2 level.\n\nCorrective Actions:\n- Fix the factual error immediately. Replace 'older' with an accurate A2-level description for 'non-millennial', such as 'people from other age groups'.\n- You must simplify all concepts to an A2 level. Do not use compound nouns like 'workplace culture' or 'pay structure'. Rephrase them using simple words. For example, 'workplace culture' must be changed to 'how it feels to work at a company'. 'Career development' must be changed to 'how to get a better job in the company'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8643,
+          "meaningbert": 0.7205
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:17:05.321306",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: PricewaterhouseCoopers is a big company that gives advice.  \nIt did a big survey in many countries.  \nMore than 40,000 people answered.  \nThe people were millennials (born 1983 to 1993).  \nThey also included people from other age groups.  \nThe survey asked how it feels to work at a company.  \nIt also asked how people talk at work.  \nIt also asked how people work.  \nIt also asked how pay works.  \nIt also asked how to get a better job in the company.  \nIt also asked how work and life fit together.  \n\nDeloitte is a big company that gives advice.  \nIt did another big survey in many countries.  \nMore than 10,000 millennials answered.  \nThe survey asked what they think are problems in work.  \nIt also asked what they think are chances in work.",
+      "timestamp": "2025-09-01 17:17:05.321652",
+      "metadata": {
+        "text_id": "de2b98b3-ea37-4e19-9ebd-ffd27cf84c1e",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:17:31.131314",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f7072896-361d-453e-a014-1b24f3cf621d",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.522 is catastrophically below the required 0.75 threshold. This indicates a severe deviation from the original text's core message.\n\n- Fidelity Failure: The BERTScore of 0.8437 is below the required 0.90. Key concepts from the original text like 'workplace culture', 'career development', and 'perceptions of the threats and opportunities' were lost due to oversimplification.\n\n- CEFR Compliance Failure: The text was classified as B1, not A2. This is an instant failure. The text repeatedly uses grammatical structures that are too complex for the A2 level.\n\n- Structural Error: The sentence 'PricewaterhouseCoopers is a big company that gives advice' uses a 'that-clause', which is a B1 structure.\n\n- Structural Error: The sentences 'The survey asked how it feels to work...', 'It also asked how people talk at work', and 'The survey asked what they think are problems...' all use indirect questions. This is a B1 grammatical form and is not permitted at the A2 level.\n\nSuggestion: Eliminate all B1 grammatical structures. Rephrase complex clauses into separate, simple sentences. For example, instead of 'a company that gives advice', write 'This is a company. It gives advice.' Instead of using indirect questions like 'The survey asked how...', use a simpler structure like 'The survey had questions about work.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8437,
+          "meaningbert": 0.522
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:17:41.131607",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: PricewaterhouseCoopers is a company.  \nIt gives advice.  \n\nIt did a global survey.  \nThe survey was in many countries.  \n\nMore than 40,000 people answered.  \nThe people were millennials.  \nThey were born between 1983 and 1993.  \n\nThe survey also included other age groups.  \n\nThe survey had questions about workplace culture.  \nThe survey had questions about communication at work.  \nThe survey had questions about working styles.  \nThe survey had questions about pay structure.  \nThe survey had questions about career development.  \nThe survey had questions about work and life balance.  \n\nDeloitte is a company.  \nIt gives advice.  \n\nIt did another global survey.  \nThe survey was in many countries.  \n\nMore than 10,000 millennials answered.  \n\nThe survey had questions about threats at work.  \nThe survey had questions about opportunities at work.  \nThe survey had questions about the future of work.",
+      "timestamp": "2025-09-01 17:17:41.131976",
+      "metadata": {
+        "text_id": "dcb5b02c-be08-4d7f-a712-6026431bd65c",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:18:06.136232",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "475adc51-96b5-46c2-a075-25aab5ba452c",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8391 is below the required 0.90. This indicates a significant loss of key phrasing from the original text due to excessive simplification.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is a direct violation of the core requirement.\n- Vocabulary Violation (B1/B2 Words): You failed to simplify required vocabulary. The text incorrectly uses the B2 word 'workplace' and the B1 words 'global', 'communication', 'development', and 'balance'. These words are too advanced for the A2 level.\n- Structural Flaw: The text is broken into excessively short, repetitive sentences. This unnatural structure contributed to the low fidelity score and poor readability. For example, repeating 'The survey had questions about...' six times is incorrect.\n- Factual Deviation: The phrase 'the future of work' is an interpretation, not a direct simplification of the original text's 'the complex world of work'. This introduces information not present in the source.\n\nSuggestion: Replace all B1/B2 vocabulary with A2-level phrases. 'Global' must be replaced with 'in many countries'. 'Workplace culture' must be simplified to 'how people feel at work'. Combine the overly fragmented sentences to create a more natural flow while still using simple connectors like 'and'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8391,
+          "meaningbert": 0.7706
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:18:14.905864",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: PricewaterhouseCoopers is a company that gives advice.  \nIt did a survey in many countries.  \nThe survey included more than 40,000 people.  \nSome of the people were millennials.  \nMillennials were born between 1983 and 1993.  \nThe survey also included people of other ages.  \nThe survey asked how people feel at work.  \nIt asked about talking at work.  \nIt asked about ways of working.  \nIt asked about pay.  \nIt asked about job growth.  \nIt asked about time for work and home.  \n\nDeloitte is a company that gives advice.  \nIt did another survey in many countries.  \nThe survey included more than 10,000 millennials.  \nThe survey asked about problems at work.  \nIt also asked about chances at work.",
+      "timestamp": "2025-09-01 17:18:14.906289",
+      "metadata": {
+        "text_id": "662fa25b-ee06-4869-8621-ae7dbddab105",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:18:46.207321",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a13cc99e-7b47-48ba-b6db-7a5007414b87",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5798 is catastrophically below the required 0.75 threshold. This indicates a severe failure to preserve the core message of the original text. The oversimplification has destroyed the meaning.\n\n- Fidelity Failure: The BERTScore of 0.8427 is also below the 0.90 minimum. This is a direct result of replacing specific concepts like 'workplace culture' and 'career development' with overly simplistic phrases, losing critical lexical detail.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is an immediate failure.\n\n- B1 Vocabulary Violation: The analysis identified the words 'growth' and 'ages' as B1 level. These are not compliant with the A2 standard and must be removed.\n\n- Structural Defect: The text has been broken down into too many short, disconnected sentences. This atomization is the primary cause of the meaning loss. While A2 requires simple sentences, it does not require a complete loss of narrative cohesion.\n\nSuggestion: Reconstruct the text. Combine the list of survey topics into one or two sentences using simple connectors like 'and'. Replace the B1 vocabulary immediately. 'Job growth' must be rephrased to something like 'getting a better job'. 'People of other ages' must be rephrased to 'older and younger people'. The text must be rewritten to convey the information as a coherent summary, not a list of isolated facts.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8427,
+          "meaningbert": 0.5798
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:18:55.696105",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: PricewaterhouseCoopers is a company that gives advice.  \nIt did a survey in many countries.  \nThe survey included more than 40,000 people.  \nSome of the people were millennials.  \nThey were born between 1983 and 1993.  \nOther people were older and younger.  \nThe survey asked about how people work together and communication.  \nIt also asked about ways of working and pay.  \nIt asked about getting a better job.  \nIt also asked about time for work and home.  \n\nDeloitte is a company that gives advice.  \nIt did another survey in many countries.  \nThe survey included more than 10,000 millennials.  \nThe survey asked about problems at work and about good things at work.",
+      "timestamp": "2025-09-01 17:18:55.696643",
+      "metadata": {
+        "text_id": "d4c4a94d-4100-44ed-8de5-b8fd125d03f1",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:19:23.835028",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f2887439-86c1-495f-bc62-707e95196ea2",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary failure is a catastrophic loss of meaning and fidelity. The MeaningBERT score of 0.5802 is far below the required 0.75 threshold. The BERTScore of 0.8495 is also below the 0.90 minimum. This indicates the simplification was too aggressive, losing the core concepts of the original text.\n\n- Meaning Preservation Failure: The original text mentions a study about 'perceptions of the threats and opportunities in the complex world of work'. Your output, 'problems at work and about good things at work', is a gross oversimplification that fails to capture the meaning of 'perceptions' and 'opportunities'.\n\n- Fidelity Failure: Key lexical items from the original text such as 'workplace culture', 'career development', and 'work-life balance' were completely lost. Your replacements are too generic and do not maintain fidelity to the source material.\n\n- CEFR Compliance Failure: The text was classified as B1, not A2. This is an automatic failure. The B1 word 'communication' was used directly. This is unacceptable.\n\n- Vocabulary Violation: The B1 word 'communication' must be replaced. It is not A2-compliant.\n\nSuggestion: Re-write the text. You must restore the original meaning using only A2 vocabulary and structures. Replace 'communication' with an A2 phrase like 'how people talk to each other'. Rephrase the section about the Deloitte survey to better reflect the concepts of 'threats' and 'opportunities' without using those specific words. For example: 'The survey asked what millennials think is difficult or bad for their jobs, and what they think is helpful or good for their jobs in the future.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8495,
+          "meaningbert": 0.5802
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:19:30.736120",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: PricewaterhouseCoopers is a company that gives advice.  \nIt did a survey in many countries.  \nThe survey included more than 40,000 people.  \nSome of the people were millennials.  \nThey were born between 1983 and 1993.  \nOther people were older or younger.  \nThe survey asked about how people work together.  \nThe survey asked how people talk to each other.  \nIt also asked about ways of working.  \nIt also asked about pay.  \nIt also asked how people can get a better job.  \nIt also asked about time for work and home.  \n\nDeloitte is a company that gives advice.  \nIt did another survey in many countries.  \nThe survey included more than 10,000 millennials.  \nThe survey asked what millennials think is difficult for their jobs.  \nThe survey also asked what they think is helpful for their jobs.",
+      "timestamp": "2025-09-01 17:19:30.736671",
+      "metadata": {
+        "text_id": "d34511a5-3047-46ac-9eda-4cfc685f8fc1",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:20:00.719245",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "49a1cd68-8888-4365-a7b1-7eefa44ce550",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5867 is critically below the 0.75 minimum. The BERTScore of 0.8421 is also below the 0.90 threshold. This indicates a severe loss of the original text's core message and lexical detail.\n\n- Primary Failure (Meaning): The original text links the survey to a list of specific business topics. Your version breaks this into many separate, repetitive sentences. This fragmentation destroys the relationship between the concepts and dilutes the overall meaning.\n\n- Secondary Failure (CEFR Compliance): The classifier rated the text as B1, not the required A2. This is an automatic failure. The cause is the use of B1 grammatical structures.\n\n- Grammatical Error: The sentences 'The survey asked what millennials think is difficult for their jobs' and '...what they think is helpful for their jobs' use indirect questions. This is a B1 structure and is not permitted for A2.\n\n- Lexical Error: Key concepts like 'global survey', 'workplace culture', 'career development', 'perceptions', 'threats', and 'opportunities' were completely removed instead of being simplified. This explains the low BERTScore.\n\n- Suggestion: Rephrase the B1 indirect questions into simple A2 statements. Example: 'The survey asked about difficult things and helpful things for their jobs.' Combine the list of survey topics into a single, more cohesive sentence using simple connectors like 'and'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8421,
+          "meaningbert": 0.5867
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:20:12.985037",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: PricewaterhouseCoopers is a company that gives advice.  \nIt did a global survey.  \nThe survey included more than 40,000 people.  \nSome of the people were millennials.  \nThey were born between 1983 and 1993.  \nOther people were older or younger.  \nThe survey asked about workplace culture, communication and working styles.  \nIt also asked about pay, career development and work\u2011life balance.  \n\nDeloitte is a company that gives advice.  \nIt did a global survey.  \nThe survey included more than 10,000 millennials.  \nThe survey asked about threats and opportunities for their jobs.",
+      "timestamp": "2025-09-01 17:20:12.985846",
+      "metadata": {
+        "text_id": "9e500e3b-3c63-4759-b2c4-27afcc253e04",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:20:38.891282",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "34a8cccd-6e66-4a7f-be96-f8098bff3a93",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary failure is a catastrophic loss of meaning and fidelity. The MeaningBERT score of 0.7018 is well below the required 0.75 threshold. The BERTScore of 0.8694 is also below the 0.90 minimum. This indicates that your simplification has removed too much of the original text's core message and key vocabulary. A secondary, but also critical, failure is the CEFR compliance. The text was classified as B1, not the required A2.\n\nDetected Deviations:\n- MeaningBERT Failure: The score of 0.7018 shows a failure to preserve the original meaning. The original text mentions a study about millennials' 'perceptions of the threats and opportunities in the complex world of work'. Your version, 'threats and opportunities for their jobs', is an oversimplification that loses the crucial concepts of 'perception' and 'complexity'.\n- BERTScore Failure: The score of 0.8694 confirms a significant loss of key words. Terms like 'responses', 'participated', and 'perceptions' were completely removed, damaging the text's fidelity to the source.\n- CEFR Compliance Failure: The text is rated B1. This is unacceptable. The cause is the direct use of B1 and B2 vocabulary without simplification.\n- Vocabulary Violation: You used the words 'global' (B1), 'communication' (B1), 'development' (B1), 'balance' (B1), and 'workplace' (B2). These words are not on the A2 list and must be replaced.\n\nCorrective Path:\n- Replace all B1/B2 vocabulary immediately. 'Global' must be changed to 'in many countries'. 'Workplace culture' must be rephrased to something like 'how people work together'. 'Career development' must be simplified to 'getting a better job in the future'.\n- Restore the lost meaning. The text must explain that the Deloitte survey was about what young people *think* or *feel* about problems and good things at work.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8694,
+          "meaningbert": 0.7018
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:20:49.955345",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: PricewaterhouseCoopers is a company that gives advice.  \nIt did a survey in many countries.  \nThe survey had more than 40,000 responses.  \nSome respondents were millennials.  \nThey were born between 1983 and 1993.  \nOther respondents were older or younger.  \nThe survey asked how people work together.  \nIt also asked about talking at work.  \nIt asked about how people work.  \nIt asked about pay.  \nIt asked about getting a better job in the future.  \nIt asked about time for work and life.  \n\nDeloitte is a company that gives advice.  \nIt did a survey in many countries.  \nThe survey had more than 10,000 millennials.  \nIt asked what they think about problems and good things in the hard work world.",
+      "timestamp": "2025-09-01 17:20:49.955963",
+      "metadata": {
+        "text_id": "3b799e15-1a0e-43fb-951d-8787d90eca1c",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:21:16.982018",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "433aac43-2459-4456-83cd-745d27962c61",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6093 is significantly below the required 0.75 threshold. This indicates a severe loss of the original text's core message.\n\n- Primary Failure (Meaning): The original text describes two large, global surveys with specific topics. Your version oversimplifies these to the point of losing meaning. The concept of 'perceptions of the threats and opportunities in the complex world of work' is not adequately captured by 'what they think about problems and good things in the hard work world'.\n- Secondary Failure (Fidelity): The BERTScore of 0.8469 is below the 0.90 minimum. Key lexical items from the original were lost, contributing to the meaning degradation.\n- Tertiary Failure (CEFR Compliance): The text was classified as B1, not A2. This is an automatic failure. The sentences 'PricewaterhouseCoopers is a company that gives advice' and 'Deloitte is a company that gives advice' use a relative clause ('that gives...'), which is a B1 grammatical structure. The sentence 'It asked what they think about...' uses an indirect question, also a B1 structure.\n\nSuggestion: Rephrase to restore the lost meaning regarding the survey's topics. Eliminate all B1 grammatical structures. Break down sentences containing relative clauses and indirect questions into simpler, separate A2 sentences. For example, rewrite 'a company that gives advice' as 'a company. It gives advice.'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8469,
+          "meaningbert": 0.6093
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:21:21.075079",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: PricewaterhouseCoopers is a company.  \nIt gives advice.  \nIt did a survey.  \nThe survey was in many countries.  \nIt collected more than 40\u202f000 responses.  \nSome respondents were millennials.  \nMillennials were born between 1983 and 1993.  \nOther respondents were older or younger.  \nThe survey asked about workplace culture.  \nIt asked about communication.  \nIt asked about working styles.  \nIt asked about pay structure.  \nIt asked about career development.  \nIt asked about work\u2011life balance.  \n\nDeloitte is a company.  \nIt gives advice.  \nIt did a survey.  \nThe survey was in many countries.  \nIt collected more than 10\u202f000 responses.  \nAll respondents were millennials.  \nThe survey asked how they see problems in work.  \nIt also asked how they see good things in work.",
+      "timestamp": "2025-09-01 17:21:21.075565",
+      "metadata": {
+        "text_id": "819d81d1-d267-4447-a181-31ce7bf53a71",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:21:44.606282",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ebb08771-a71f-4e78-9b34-a5f78d04e101",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6674 is substantially below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text. The BERTScore of 0.8404 is also below the minimum 0.90, confirming a significant loss of key factual phrasing.\n\n- MeaningBERT Failure: The original text discusses 'perceptions of the threats and opportunities in the complex world of work'. Your version, 'how they see problems in work' and 'how they see good things in work', is an oversimplification that loses the nuance of perception and complexity. This is the primary cause of the low score.\n\n- BERTScore Failure: Key lexical items from the original text such as 'global survey', 'participated in a study', and 'perceptions' were completely removed. This loss of fidelity to the source is unacceptable.\n\n- CEFR Compliance Failure: The classifier rated the text B1, not the required A2. This is a direct result of using unsimplified B1 and B2 vocabulary. The words 'workplace', 'communication', 'development', and 'balance' are not A2-level terms and must be rephrased.\n\n- Structural Failure: The text is a series of disconnected, robotic sentences. While avoiding complex structures, this fragmentation damages readability and contributes to the loss of meaning.\n\nSuggestion: You must rephrase the text to restore the original meaning regarding 'perceptions of threats and opportunities'. Replace all B1/B2 vocabulary with A2-level explanations. For example, 'workplace culture' must become 'how people feel at work'. 'Communication' must become 'how people talk to each other'. Combine some of the repetitive sentences using 'and' to create a more natural flow.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8404,
+          "meaningbert": 0.6674
+        }
+      }
+    }
+  ]
+}

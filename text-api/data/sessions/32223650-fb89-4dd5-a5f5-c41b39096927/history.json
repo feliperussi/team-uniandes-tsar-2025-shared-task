@@ -1,0 +1,598 @@
+{
+  "session_id": "32223650-fb89-4dd5-a5f5-c41b39096927",
+  "created_at": "2025-08-31 23:50:38.256706",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:50:38.274124",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "03-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A tribute is a boy or girl chosen for the Hunger Games.  \nThe Hunger Games is a game on TV.  \nIt happens every year.  \nLong ago, areas fought against the Capitol.  \nNow the Capitol punishes them with this game.  \nEach area sends one boy and one girl.  \nThey must be 12 to 18 years old.  \nThey pick names from a hat.  \nThe tributes fight until only one is alive.  \nThe whole country must watch on TV.",
+      "timestamp": "2025-08-31 23:50:38.274267",
+      "metadata": {
+        "text_id": "ea819a5d-0171-4e6d-8007-78d71644b00e",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 23:50:38.278981",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e089afdc-6713-476b-b6a1-3e2c1c3efb55",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The writer added an unverified time frame in the sentence 'Long ago, areas fought against the Capitol.' The original text does not specify that the rebellion happened \u2018long ago.\u2019",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8636,
+          "meaningbert": 0.6928
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:51:00.176218",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Tributes are boys or girls chosen for the Hunger Games.  \nThe Hunger Games is a game on TV.  \nIt happens every year.  \nAreas fought the Capitol.  \nNow the Capitol punishes them with this game.  \nEach area sends one boy and one girl.  \nThey must be 12 to 18 years old.  \nThey pick names from a hat.  \nThe tributes fight until only one is alive.  \nThe whole country must watch on TV.",
+      "timestamp": "2025-08-31 23:51:00.176469",
+      "metadata": {
+        "text_id": "33de9b36-36a4-476f-adc4-cc68bdff0c32",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:51:18.793015",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7aa23993-9843-489e-a241-1f59d34836c2",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6616 is too low. The original text emphasizes that the Capitol uses the Hunger Games to punish districts for rebelling. The writer\u2019s output removes the concept of 'rebelling' and replaces 'districts' with 'areas', losing the core message. FAIL: Fidelity Failure. The BERTScore of 0.8612 is below the required 0.90. Key terms like 'rebelling' and the causal reminder function were dropped, weakening factual detail.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8612,
+          "meaningbert": 0.6616
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:51:48.460260",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Hunger Games is on TV.  \nIt happens every year.  \nThe Capitol uses the Hunger Games to punish districts for rebelling.  \nEach district sends one boy and one girl.  \nThey are 12 to 18 years old.  \nThey pick names from a hat.  \nThe boys and girls in the game are \u2018tributes\u2019.  \nThe tributes fight until only one is alive.  \nThe whole country must watch on TV.",
+      "timestamp": "2025-08-31 23:51:48.460692",
+      "metadata": {
+        "text_id": "0bc49f85-be43-4f6d-bfb5-a3c4a4df3890",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 23:52:01.865385",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c202b8da-8d07-4ac4-806f-6fd790086265",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8833 is below the required 0.90. Key phrases like \u201care an annual event\u201d were replaced with \u201chappens every year,\u201d losing important lexical detail. The original phrase \u201cchosen from each district by lottery\u201d was simplified to \u201cpick names from a hat,\u201d reducing precision. Suggestion: Restore the phrase \u201care an annual event\u201d and use \u201cchosen from each district by lottery\u201d to preserve factual phrasing and increase BERTScore.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8833,
+          "meaningbert": 0.7962
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:52:28.995999",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Hunger Games are an annual event on television.  \nThe Capitol uses this event to punish districts for rebelling.  \nEvery year one boy and one girl are chosen.  \nThey are chosen from each district by lottery.  \nThe chosen teenagers are \u2018tributes\u2019.  \nA \u2018tribute\u2019 is a chosen teenager.  \nThe tributes fight until only one is alive.  \nThe whole country must watch the games on television.",
+      "timestamp": "2025-08-31 23:52:28.996651",
+      "metadata": {
+        "text_id": "c3684a66-33d1-4c46-9614-5714a552145c",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:52:44.404471",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6040c861-a06f-472c-8048-442c8c6146be",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Deep Qualitative Audit. The text uses vocabulary above A2 level. Detected B1/C1 words: annual, punish, districts, lottery, Hunger, tribute. Suggestion: Replace \u201cannual\u201d with \u201cevery year\u201d, \u201cpunish\u201d with \u201cmake sorry\u201d, \u201cdistricts\u201d with \u201careas\u201d, \u201clottery\u201d with \u201cdraw\u201d, avoid \u201ctribute\u201d by using \u201cchosen young person\u201d, and rephrase \u201cThe Hunger Games\u201d context in simpler terms.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9012,
+          "meaningbert": 0.8532
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:53:13.541046",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Every year, the Capitol makes the areas feel sorry.  \nIt shows big games on TV.  \nThey choose one boy and one girl from each area by draw.  \nThey are called tributes.  \nTributes are chosen young people.  \nThe tributes fight until only one is alive.  \nThe whole country must watch the games on TV.",
+      "timestamp": "2025-08-31 23:53:13.545367",
+      "metadata": {
+        "text_id": "4f4283a9-3068-4968-b386-072e4acf8579",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-08-31 23:53:31.761949",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a047dcf2-68be-40e7-acc2-e545eb7d318e",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The rewrite of the first sentence 'Every year, the Capitol makes the areas feel sorry.' changes the original meaning 'the Capitol uses the Hunger Games to remind the districts that they are being punished for rebelling.'\n- 'areas' replaces 'districts', altering the official term and context.\n- 'makes them feel sorry' removes the concept of punishment and rebellion.\n- MeaningBERT score of 0.5966 and BERTScore of 0.8712 confirm significant meaning and fidelity loss.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8712,
+          "meaningbert": 0.5966
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:54:09.483163",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Every year, the Capitol punishes the districts for fighting it.  \nIt uses the Hunger Games for this.  \nThey choose one boy and one girl from each district by draw.  \nThey are called tributes.  \nA tribute is a young person in the Hunger Games.  \nTributes fight until only one person is alive.  \nThe whole country must watch the games on television.",
+      "timestamp": "2025-08-31 23:54:09.486049",
+      "metadata": {
+        "text_id": "aa929a32-c8f7-4854-a992-dac74517b1e8",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 23:54:23.929981",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1032722f-4582-4a3f-ba0f-10b6010e9a93",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The writer\u2019s output omits the age range \"12 to 18\" for the chosen participants, removing a key factual detail from the original.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.89,
+          "meaningbert": 0.6135
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:54:59.422741",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Every year the Capitol uses the Hunger Games to punish the districts.  \nIt does this because the districts fight the Capitol.  \nThey choose one boy and one girl from each district by draw.  \nThey are 12 to 18 years old.  \nThey call them tributes.  \nTributes are the young people in the Hunger Games.  \nTributes fight until only one person is alive.  \nThe whole country must watch the Games on TV.",
+      "timestamp": "2025-08-31 23:54:59.425016",
+      "metadata": {
+        "text_id": "a6c429e7-ef5e-4681-9bde-226ea2b5dfcb",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:55:20.462300",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ddb2d8ac-a1fd-40cd-8076-ac29da55a7c8",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The MeaningBERT score of 0.7136 is below the required 0.75. The BERTScore of 0.8877 is below the required 0.90.\n- The summary removes the phrase \"annual event\", omitting a key detail.\n- The original clause \"remind the districts that they are being punished for rebelling\" is simplified to \"punish ... because they fight\", losing the nuance of \"remind\".\n- The term \"lottery\" is replaced with \"draw\", reducing lexical precision.\n- \"Compete in a battle\" is changed to \"fight until only one person is alive\", dropping the word \"battle\".\nSuggestion: Restore \"annual event\", reintroduce \"remind the districts that they are being punished for rebelling\", use the exact term \"lottery\", and keep the word \"battle\" to preserve meaning and improve metric scores.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8877,
+          "meaningbert": 0.7136
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:55:41.886786",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Every year the Capitol holds the Hunger Games.  \nIt is an annual event.  \nThe Capitol uses the Games to remind the districts.  \nThe Capitol punishes the districts for rebelling.  \nThe Capitol chooses one boy and one girl from each district.  \nThey use a lottery.  \nThe teens are 12 to 18 years old.  \nThe chosen teens compete in a battle.  \nThey are the tributes.  \nA tribute is a teenager in the Games.  \nTributes fight until only one survives.  \nThe whole nation must watch the Games on television.",
+      "timestamp": "2025-08-31 23:55:41.887233",
+      "metadata": {
+        "text_id": "6a4f4423-fbf7-4457-b116-2be24793f2f6",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:56:02.986999",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "58c0fffe-7e53-4c31-b1ac-75a3b975200e",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8817 is below the required 0.90, indicating key lexical details were lost or altered.\n- The clause \u201cforced to watch the event on television\u201d was changed to \u201cmust watch the Games on television,\u201d removing the sense of compulsion and altering reference.\n- The phrase \u201cremind the districts that they are being punished for rebelling\u201d was split into separate sentences and lost the wording \u201cthat they are being,\u201d reducing semantic nuance.\nSuggestion: Restore exact original phrasing such as \u201cforced to watch the event on television\u201d and keep the clause \u201cthat they are being punished for rebelling\u201d intact to improve lexical fidelity and meet the BERTScore requirement.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8817,
+          "meaningbert": 0.8383
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:56:38.652385",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Every year the Capitol holds the Hunger Games.  \nThe Capitol uses the Games to remind the areas that they are being punished for rebelling.  \nThe Capitol picks one boy and one girl from each area.  \nThey pick names from a box.  \nThe teens are 12 to 18 years old.  \nThe chosen teens compete in a fight.  \nThey are the tributes.  \nA tribute is a teenager in the Games.  \nTributes fight until only one survives.  \nThe whole country is forced to watch the event on television.",
+      "timestamp": "2025-08-31 23:56:38.654844",
+      "metadata": {
+        "text_id": "1c3283ff-faaa-4045-b971-e6067cac59df",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 23:56:56.674204",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c6e25958-cb56-4592-ac0a-a4eddc968cca",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8934 is below the required 0.90.\n- BERTScore below threshold indicates significant loss of key terms and factual phrasing.\n- The word \"districts\" was replaced with \"areas\", reducing the specific reference.\n- The term \"battle\" was changed to \"fight\", losing the original nuance.\nSuggestion: Use \"districts\" instead of \"areas\". Keep \"battle\" instead of \"fight\". Restore original phrasing to improve fidelity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8934,
+          "meaningbert": 0.8383
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:57:28.108095",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Every year the Capitol punishes the districts with the Hunger Games.  \nThe Capitol picks one boy and one girl from each district.  \nThey pick names from a box.  \nThe teenagers are 12 to 18 years old.  \nThe chosen teens compete in a battle.  \nThey are the tributes.  \nA tribute is a teenager in the Games.  \nTributes battle until only one survives.  \nEveryone in the country must watch the Games on TV.",
+      "timestamp": "2025-08-31 23:57:28.110474",
+      "metadata": {
+        "text_id": "2efa756c-d0cb-4f23-b1ef-0ab21eaff1d6",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:57:45.138827",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0b4bbbd6-d029-4987-b049-f8e02053a407",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8828 is below the required 0.90. This indicates a significant loss of key terms and phrasing from the original. Deviations detected:\n- The word \u201clottery\u201d is replaced with \u201cpick names from a box,\u201d losing the exact term.\n- The phrase \u201cfor rebelling\u201d is omitted, removing the core reason for punishment.\n- \u201cAnnual event\u201d is simplified to \u201cevery year,\u201d reducing precise lexical overlap.\nSuggestion: Restore the term \u201clottery,\u201d reintroduce \u201cfor rebelling,\u201d and keep \u201cannual event\u201d to improve fidelity and meet the required BERTScore.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8828,
+          "meaningbert": 0.845
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:58:18.386842",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Hunger Games are an annual event.  \nThe Capitol punishes the districts for rebelling.  \nIt uses the Games to remind the districts of this.  \nEvery year there is a lottery in each district.  \nEach lottery chooses one boy and one girl.  \nThe teenagers are 12 to 18 years old.  \nPeople call the chosen teenagers tributes.  \nA tribute is a teenager in the Games.  \nTributes compete in a battle until only one survives.  \nEveryone in the country must watch the Games on television.",
+      "timestamp": "2025-08-31 23:58:18.390059",
+      "metadata": {
+        "text_id": "02bc5f37-14af-44cc-bd8a-fd963724721f",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 23:58:33.480880",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4b961ee5-6128-4638-8917-caab25d387f2",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8945 is below the required 0.90. This indicates a significant loss of key lexical details from the original text.\n- BERTScore 0.8945 < 0.90 threshold.\n- The original passive phrase \"are being punished for rebelling\" was turned into the active \"punishes the districts for rebelling,\" reducing fidelity.\n- The strong nuance of \"forced to watch\" was weakened to \"must watch,\" losing the original sense of compulsion.\nSuggestion: Restore the exact phrasing \"are being punished for rebelling\" and use \"forced to watch\" instead of \"must watch\" to raise your BERTScore above 0.90 and preserve key details.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8945,
+          "meaningbert": 0.864
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:59:16.448989",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 12,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Hunger Games happen every year.  \nThe Capitol uses the Games.  \nIt does this to show the areas.  \nThe areas are being punished for rebelling.  \nEvery year each area picks one boy and one girl.  \nThey pick them by chance.  \nThe teenagers are 12 to 18 years old.  \nPeople call the teenagers they pick 'tributes'.  \n'Tributes' are the teenagers in the Games.  \nThe tributes fight until only one survives.  \nEveryone in the country is forced to watch the Games on TV.",
+      "timestamp": "2025-08-31 23:59:16.452364",
+      "metadata": {
+        "text_id": "dd7dc82a-ecec-422d-8088-e7804f65da81",
+        "version": 12
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 23:59:33.468133",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "99a65add-2bfc-4a31-82a4-d5fec83e2866",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7417 is below the required 0.75, indicating loss of core meaning. FAIL: Fidelity Failure. The BERTScore of 0.8813 is below the required 0.90, showing loss of key terms. Specific issues: - Replacing \u201cdistricts\u201d with \u201careas\u201d removes the political term and weakens the message. - Splitting \u201cuses the Games to remind the districts that they are being punished for rebelling\u201d into two sentences loses the causal emphasis and nuance. - Omitting the phrase \u201cremind the districts\u201d and the linking word \u201cbecause\u201d reduces the original\u2019s clarity about purpose. Suggestion: Use \u201cdistricts\u201d instead of \u201careas.\u201d Restore the full phrase \u201cThe Capitol uses the Hunger Games to remind the districts that they are being punished for rebelling.\u201d Combine into one sentence to preserve causality and meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8813,
+          "meaningbert": 0.7417
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:00:03.148288",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 13,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Hunger Games happen every year.  \nThe Capitol uses the Hunger Games to remind the districts that the Capitol punishes them for rebelling.  \nEvery year each district picks one boy and one girl by chance.  \nThey are 12 to 18 years old.  \nA 'tribute' is a teenager in the Games.  \nThe tributes fight until only one survives.  \nEveryone in the country has to watch the Games on TV.",
+      "timestamp": "2025-09-01 00:00:03.150404",
+      "metadata": {
+        "text_id": "503be1c8-0d74-4465-a3c2-d84e48aa5deb",
+        "version": 13
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 00:00:22.712825",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d3eba3a3-3f0c-45a8-b1ba-21f3f334368d",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. Classifier rated B1. Detected B1/C1 vocabulary and structures:\n- The word \"remind\" is B1 level, not allowed in A2.\n- The word \"districts\" is B1 level, not allowed in A2.\n- The word \"tribute\" is C1 level, far above A2.\n- The sentence \"The Capitol uses the Hunger Games to remind the districts that the Capitol punishes them for rebelling.\" uses a that-clause, a B1 structure.\nSuggestion: Replace \"remind\" with \"help to remember\"; change \"districts\" to \"areas\"; use \"chosen teenagers\" instead of \"tribute\"; split long sentences and avoid that-clauses. Ensure only A2 words and simple connectors (and, but, so, because).",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9018,
+          "meaningbert": 0.8409
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:00:53.601672",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 14,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Hunger Games happen every year.\nThe Capitol does the Hunger Games every year.\nIt helps people to remember.\nThe Capitol punishes the areas for rebelling.\nEvery year each area picks one boy and one girl by chance.\nThey are 12 to 18 years old.\nThe chosen teenagers fight until only one person survives.\nEveryone in the country has to watch the Games on TV.",
+      "timestamp": "2025-09-01 00:00:53.604714",
+      "metadata": {
+        "text_id": "9b972c9d-2b3f-4bc1-9d0f-b93333b7efca",
+        "version": 14
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 00:01:08.898039",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c30d8729-b58c-4607-b936-37ec7f1e521d",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. Missing mention that the chosen teenagers are called \"tributes\". The original text states \"The chosen teenagers are called 'tributes'.\" Suggestion: Add a sentence stating that the chosen teenagers are called tributes.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9218,
+          "meaningbert": 0.6014
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:01:28.799762",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 15,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Hunger Games happen every year.  \nThe Capitol does the Hunger Games every year.  \nIt helps people to remember.  \nThe Capitol punishes the areas for rebelling.  \nEvery year each area picks one boy and one girl by chance.  \nThey are 12 to 18 years old.  \nThe chosen teenagers are called tributes.  \nThe chosen teenagers fight until only one person survives.  \nEveryone in the country has to watch the Games on TV.",
+      "timestamp": "2025-09-01 00:01:28.806460",
+      "metadata": {
+        "text_id": "a50eddc4-210c-43a7-9f22-e897f8ebbd61",
+        "version": 15
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:01:45.418021",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "204444af-0cf0-4456-9609-9f17eeb95f3e",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7109 is below the required 0.75. FAIL: Fidelity Failure. The BERTScore of 0.8887 is below the required 0.90.\nDetected issues:\n- MeaningBERT score of 0.7109; must be 0.75 or higher.\n- BERTScore of 0.8887; must be 0.90 or higher.\nSuggestion: Restore key original words and phrasing such as \u201cdistricts,\u201d \u201clottery,\u201d and \u201cannual event.\u201d Use clearer phrases to match the original meaning and increase lexical overlap.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8887,
+          "meaningbert": 0.7109
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:02:08.066861",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 16,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Hunger Games are an annual event.  \nThe Capitol uses this event to punish the districts.  \nIt reminds the districts that they rebelled.  \nEvery year the Capitol chooses one boy and one girl by lottery.  \nThey come from each district.  \nThey are 12 to 18 years old.  \nThese chosen teenagers are called tributes.  \nThe tributes must fight until only one person survives.  \nThe whole country must watch on television.",
+      "timestamp": "2025-09-01 00:02:08.071343",
+      "metadata": {
+        "text_id": "a82d0267-914d-4c8e-b986-6eca27aaecde",
+        "version": 16
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:02:31.195883",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8dfafdc0-3120-44b4-9100-4c085a59a7d4",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Audit Failure. The text uses B1 level words that are not allowed at A2 level: 'annual', 'punish', 'districts', 'lottery'. Suggestion: Change 'The Hunger Games are an annual event.' to 'The Hunger Games happen every year.' Suggestion: Replace 'uses this event to punish the districts.' with 'uses this event to show the areas are in trouble.' Suggestion: Replace 'chooses one boy and one girl by lottery' with 'chooses one boy and one girl by a random draw.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9053,
+          "meaningbert": 0.8203
+        }
+      }
+    }
+  ]
+}

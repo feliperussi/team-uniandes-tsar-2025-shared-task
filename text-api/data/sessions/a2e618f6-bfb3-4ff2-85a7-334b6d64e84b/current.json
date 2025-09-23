@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "f0c9825f-f224-41bd-80a1-bf0596aa919c",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Sometimes we dream about a phone call from an old friend.  \nSometimes we dream about the death of someone close.  \nThese dreams just happen.  \nThey are not a message about the future.  \nWe often forget our dreams about these things.  \nWe forget them when they do not happen.",
+    "version": 11,
+    "created_at": "2025-09-01 17:59:09.916612",
+    "updated_at": "2025-09-01 17:59:09.916613",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "b2ebed85-2651-4fc8-a029-54abdf961901",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation Failure. The provided text fails on two critical metrics. The MeaningBERT score of 0.616 is substantially below the required 0.75 threshold, and the BERTScore of 0.876 is below the 0.90 minimum.\n\n- Meaning Loss: The original text establishes a direct contrast between 'coincidence' and 'prophecy'. Your version, 'These dreams just happen. They are not a message about the future,' fails to capture the specific concept of coincidence (things happening by chance). This is a critical loss of the core message.\n\n- Fidelity Loss: The low BERTScore is a direct result of removing key vocabulary from the original text. Words like 'coincidence', 'prophecy', 'result', and 'likely' were eliminated, which degraded the text's fidelity to the source.\n\n- Nuance Loss: The original states we 'probably choose to forget' dreams. Your version, 'We often forget', changes the meaning from a potential choice to a simple frequency.\n\n- Suggestion: You must reintroduce the core contrast. Rephrase to explain that dreams happen by chance, not as messages. Example: 'These dreams happen by chance. They are not messages about the future.'\n\n- Suggestion: Restore the lost nuance. Rephrase to include the idea of choice. Example: 'We often choose to forget the dreams that do not happen.'",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.876,
+      "meaningbert": 0.616
+    },
+    "created_at": "2025-09-01 17:59:42.407397"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "106aacba-c89b-4134-bb5a-09051b80329a",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Sometimes we dream about a phone call from an old friend.  \nSometimes we dream about the death of someone close.  \nThese dreams are probably the result of coincidence.  \nThey are not a message about the future.  \nWe probably choose to forget all the times we dream.  \nWe forget such events when they do not happen.",
+    "version": 10,
+    "created_at": "2025-09-01 17:58:38.114488",
+    "updated_at": "2025-09-01 17:58:38.114493",
+    "metrics_meaningbert": 0.8205,
+    "metrics_cefr_compliance": "A2"
+  }
+}

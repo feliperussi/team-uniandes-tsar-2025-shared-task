@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "5db1ded2-29d5-4a42-976e-0dd7c5819866",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Boats and trains can make a bridge fall down. These accidents almost never happen. The reasons are different for boats and trains. For a train, its speed is the reason it can make a bridge fall. For a boat, its weight is the reason it can make a bridge fall. This can happen even if the boat is moving slowly. We can make bridges safer. We need to plan for these problems. New technology can find weak parts of a bridge. Safer places to work also help. Better bridge designs help too. These things can help to stop these bad accidents.",
+    "version": 6,
+    "created_at": "2025-09-01 10:41:02.290918",
+    "updated_at": "2025-09-01 10:41:02.290925",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "485d9f54-7e78-408a-b373-deeaa10a7d28",
+    "approval": "FAIL",
+    "grade": 4,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6441 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\n- The original text explains the causal mechanism: 'velocity of the impact' and 'very large mass'. Your version simplifies this to 'speed is the reason' and 'weight is the reason', which loses the explanatory power of how these factors cause a collapse.\n- The original text emphasizes that planning is 'the best way' to avoid failures, making it the primary solution. Your version weakens this by listing it as one of several things that 'help', diminishing its importance.\n- While the BERTScore of 0.913 is acceptable, the low MeaningBERT score demonstrates that while you used similar words, the underlying meaning and emphasis were not preserved.\n\nSuggestion: Restore the lost meaning. Rephrase to explain the cause more directly. Example: 'A train moves very fast. This speed can make a bridge fall.' and 'A boat is very heavy. This weight can make a bridge fall.' Restore the original's emphasis on planning by stating: 'The most important way to stop accidents is to plan for them.'",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.913,
+      "meaningbert": 0.6441
+    },
+    "created_at": "2025-09-01 10:41:27.377486"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "babb974f-0e5c-46b3-aea3-1f09e29ec91e",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Boats and trains can make a bridge fall down. These accidents almost never happen. They happen for different reasons.\n\nA train can make a bridge fall. This happens because the train hits it very fast. A boat can also make a bridge fall. This is because boats have a very large mass. It can happen even if the boat is moving slowly.\n\nWe can make bridges safer. We need to plan for these problems. New technology can find weak parts of a bridge. Safer places to work also help. And better bridge designs help too. These things can help. Then, there will be fewer bad accidents.",
+    "version": 3,
+    "created_at": "2025-09-01 10:39:05.653606",
+    "updated_at": "2025-09-01 10:39:05.653608",
+    "metrics_meaningbert": 0.753,
+    "metrics_cefr_compliance": "A2"
+  }
+}

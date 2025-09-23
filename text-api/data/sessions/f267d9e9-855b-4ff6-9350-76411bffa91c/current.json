@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "988ba5bf-ae59-407c-a58b-adfca6ebb67d",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "For the last ten years, people criticized big supermarkets. They said the supermarkets did many bad things. They threw away a lot of food. They did not pay their suppliers enough money. They also used too much plastic for their packaging.\n\nPackaging is the paper or plastic around food. This plastic was bad for the environment.\n\nBut now, supermarkets are starting to change. Customers were very angry about all the plastic that is thrown away. So, some big UK supermarkets made a serious promise. They will change their packaging and use less plastic.",
+    "version": 16,
+    "created_at": "2025-08-31 21:14:47.876365",
+    "updated_at": "2025-08-31 21:14:47.876380",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "6b864c15-f547-4bb8-aea2-4c90bd7a726f",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.658 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message and intensity of the original text. The text also fails the fidelity check, with a BERTScore of 0.8963, below the minimum of 0.90.\n\n- MeaningBERT Failure: The original text uses strong phrasing like 'come under fire with accusations of various unethical acts'. Your version, 'people criticized big supermarkets', is too weak and fails to convey the severity of public condemnation and formal accusations. The core meaning is diluted.\n\n- BERTScore Failure: The score is below the minimum because key lexical items were over-simplified, losing factual precision. 'Major supermarket chains' became 'big supermarkets'. The powerful concept of 'consumer backlash' was reduced to 'Customers were very angry'. This loss of specific vocabulary damages the text's fidelity to the source.\n\n- Structural Compliance: While the sentence structure and vocabulary are generally appropriate for the A2 level, this does not compensate for the primary failure to preserve meaning.\n\nSuggestion: You must rephrase to better capture the original's meaning. The simplification was too aggressive. Restore the concept of strong public anger and formal complaints. Use phrases that carry more weight than 'criticized' while remaining at an A2 level, such as 'Many people said the supermarkets did wrong things'. Restore key descriptive words like 'major' to improve fidelity.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8963,
+      "meaningbert": 0.658
+    },
+    "created_at": "2025-08-31 21:15:19.160871"
+  },
+  "attempt_number": 16,
+  "best_attempt": {
+    "id": "9b1433df-9b89-44f6-8184-6c35012aca0c",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "For the last ten years, people said big supermarkets did many wrong things. They wasted a lot of food. They did not pay their suppliers enough money. They also used too much plastic for their packaging.\n\nPackaging is the paper or plastic around food. This plastic was bad for the environment.\n\nBut now, supermarkets are starting to change. Many customers were unhappy about the plastic waste. So, some big UK supermarkets made a special agreement. They agreed to change their packaging and use less plastic.",
+    "version": 4,
+    "created_at": "2025-08-31 21:05:45.955536",
+    "updated_at": "2025-08-31 21:05:45.955544",
+    "metrics_meaningbert": 0.6642,
+    "metrics_cefr_compliance": "A2"
+  }
+}

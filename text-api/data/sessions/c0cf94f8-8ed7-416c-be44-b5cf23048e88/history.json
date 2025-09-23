@@ -1,0 +1,228 @@
+{
+  "session_id": "c0cf94f8-8ed7-416c-be44-b5cf23048e88",
+  "created_at": "2025-09-01 10:50:59.403961",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:50:59.414982",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "93-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The rover checks the air around it from time to time, and in 2014 it found the air had methane, which is a basic organic molecule and an important part of natural gas. One of the things about methane is that it only lasts for a few hundred years. This means that something, somewhere on Mars, is creating a new supply of it. According to NASA, Mars releases thousands of tons of methane at once, and the amount of it goes up and down with the seasons, almost as if the planet is breathing it.",
+      "timestamp": "2025-09-01 10:50:59.416286",
+      "metadata": {
+        "text_id": "216d0e77-439e-4520-b4da-647b4f15b400",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-09-01 10:50:59.427711",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8c4eb53d-f9a9-458b-9d59-d1d0737976c1",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2' instead of the target 'B1'. This is likely due to overly complex sentence structures. For example, the first sentence, 'The rover checks the air around it from time to time, and in 2014 it found the air had methane, which is a basic organic molecule and an important part of natural gas,' combines multiple clauses using 'and' and 'which'. This level of complexity is more typical of B2. Suggestion: Split this into shorter sentences. For example: 'The rover checks the air around it from time to time. In 2014, it found methane in the air. Methane is a basic organic molecule and an important part of natural gas.' A similar issue exists with the final sentence. Additionally, the keyword 'methane' was provided for definition but was not defined in the output, which is a requirement.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9594,
+          "meaningbert": 0.8405
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:51:18.222012",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The rover checks the air around it from time to time. In 2014, it found methane in the air. Methane is a basic organic molecule and an important part of natural gas. One of the things about methane is that it only lasts for a few hundred years. This means that something, somewhere on Mars, is creating a new supply of it. According to NASA, Mars releases thousands of tons of methane at once. The amount of it goes up and down with the seasons, almost as if the planet is breathing it.",
+      "timestamp": "2025-09-01 10:51:18.222555",
+      "metadata": {
+        "text_id": "7720781a-7e19-489c-ad30-9d213ab208b9",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:51:43.171752",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4bb7ad73-ad25-469c-b7d3-d98ae27a963d",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'A2', which is below the required 'B1' target. While the simplification successfully preserved facts and meaning, as indicated by the high BERTScore and MeaningBERT scores, it was too aggressive in its simplification. The primary issue is the consistent replacement of original vocabulary with A1/A2 level words instead of B1 alternatives. For example, 'analyses' was changed to 'checks' (A1) and 'periodically' became 'from time to time' (A1 phrase). A B1-level simplification might use 'studies' or 'regularly'. Additionally, the text consists of a series of short, simple sentences, resulting in a choppy flow that is characteristic of an A2 level. To improve, combine some sentences to create more complex structures and use appropriate B1 vocabulary to meet the target CEFR level.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9573,
+          "meaningbert": 0.8547
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:52:03.019724",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The rover regularly studies the air around it, and in 2014 it found methane, which is a basic organic molecule and an important part of natural gas. One feature of methane is that it only survives for a few hundred years, which means that something, somewhere on Mars, is creating a new supply of it. According to NASA, Mars releases thousands of tons of methane at a time, and the level of it rises and falls with the seasons, almost as if the planet is breathing it.",
+      "timestamp": "2025-09-01 10:52:03.020474",
+      "metadata": {
+        "text_id": "04b12b20-560d-45d9-bdaa-6650a8f7f9bd",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 10:52:31.517320",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9ffee3b2-c09f-4ff8-b861-55b9c8b0dff0",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The output was classified as 'B2' because the sentence structures are too complex for the target B1 level. While the text is factually accurate and preserves the original meaning very well, it fails the core requirement of the task. For example, the sentence 'The rover regularly studies the air around it, and in 2014 it found methane, which is a basic organic molecule and an important part of natural gas' is a compound-complex sentence that combines multiple ideas using 'and' and a 'which' clause. This structure is too advanced for B1. To correct this, split the long sentences into shorter ones. Suggestion: 'The rover regularly studies the air around it. In 2014, it found methane. Methane is a basic organic molecule and an important part of natural gas.' Applying this principle to the entire text will bring it into B1 compliance.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.962,
+          "meaningbert": 0.9419
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:52:45.556180",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The rover regularly studies the air around it. In 2014, it found methane, which is a basic organic molecule and an important part of natural gas. One feature of methane is that it only survives for a few hundred years. This means that something, somewhere on Mars, is creating a new supply of it. According to NASA, Mars releases thousands of tons of methane at a time. The level of it rises and falls with the seasons, almost as if the planet is breathing it.",
+      "timestamp": "2025-09-01 10:52:45.558168",
+      "metadata": {
+        "text_id": "9d256390-faad-4445-b07a-aaaf886c8d64",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 10:53:09.636018",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2013d456-f863-4837-8af0-463a565b2002",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The output was classified as 'B2', which is above the required 'B1' target level. While the text successfully preserved the original meaning and facts, its sentence structure is too advanced. The sentence 'In 2014, it found methane, which is a basic organic molecule and an important part of natural gas' uses a non-defining relative clause ('which is...') that increases its complexity beyond the B1 level. To correct this, the sentence should be split into two simpler ones. Suggestion: 'In 2014, it found methane. Methane is a basic organic molecule and an important part of natural gas.' This adjustment would simplify the structure to meet the B1 requirement while retaining all necessary information.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.964,
+          "meaningbert": 0.9359
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:53:20.621544",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The rover regularly studies the air around it. In 2014, it found methane. Methane is a basic organic molecule and an important part of natural gas. One feature of methane is that it only survives for a few hundred years. This means that something, somewhere on Mars, is creating a new supply of it. According to NASA, Mars releases thousands of tons of methane at a time. The level of it rises and falls with the seasons, almost as if the planet is breathing it.",
+      "timestamp": "2025-09-01 10:53:20.624283",
+      "metadata": {
+        "text_id": "03d4334c-8e98-4fda-8db4-96e0bde22f00",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:53:43.687703",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "041a50d9-5065-4532-9e9f-f1b44dcfd892",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2', which is above the target 'B1' level. While the simplification successfully maintained factual integrity and meaning, its grammatical structure is too advanced. The primary issue is the final sentence: 'The level of it rises and falls with the seasons, almost as if the planet is breathing it.' The use of 'as if' to create a hypothetical comparison is a B2-level structure. To meet the B1 requirement, this could be rephrased into two simpler sentences, for example: 'The amount of methane changes with the seasons. It is like the planet is breathing.' The repeated use of other complex sentences also contributed to the higher CEFR rating.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9635,
+          "meaningbert": 0.9412
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:54:01.553487",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The rover regularly studies the air around it. In 2014, it found methane. Methane is a basic organic molecule and an important part of natural gas. One feature of methane is that it only survives for a few hundred years. So, something, somewhere on Mars, is creating a new supply of it. According to NASA, Mars releases thousands of tons of methane at a time. The level of methane rises and falls with the seasons. It is almost like the planet is breathing it.",
+      "timestamp": "2025-09-01 10:54:01.555930",
+      "metadata": {
+        "text_id": "00d19dde-a1a7-4de8-8e7d-9bfec4d16ba3",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:54:25.469615",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "31eec319-3218-4367-96c1-86f4b28e1b71",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'A2' instead of the target 'B1'. While the simplification is factually accurate and preserves the original meaning very well, it is too simple. The original complex sentences were broken down into too many short, simple sentences, creating a choppy text that lacks the sentence variety expected at the B1 level. For example, the sentences 'The level of methane rises and falls with the seasons. It is almost like the planet is breathing it.' could be combined into a single, more fluent B1 sentence: 'The level of methane rises and falls with the seasons, almost like the planet is breathing it.' To reach the B1 target, focus on combining some of the simpler sentences using B1 connectors like 'so', 'because', or 'which' to improve flow and structural complexity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9586,
+          "meaningbert": 0.9083
+        }
+      }
+    }
+  ]
+}

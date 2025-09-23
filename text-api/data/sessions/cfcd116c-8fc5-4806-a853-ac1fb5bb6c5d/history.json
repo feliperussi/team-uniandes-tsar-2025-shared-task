@@ -1,0 +1,80 @@
+{
+  "session_id": "cfcd116c-8fc5-4806-a853-ac1fb5bb6c5d",
+  "created_at": "2025-09-01 17:33:02.857740",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:33:02.880292",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "24-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Chloe has two pet rats, Zena and Roxy. She knows they are not usual pets, and she has forgotten how many times she has patiently tried to explain to people that rats are not dirty. She also says that rats can be great pets if you look after them properly. However, she understands why people respond badly. She did not like rats also before her friend Martin showed her his rats, and she saw how affectionate and smart they were. Last year, when one of Martin's rats had babies, Chloe decided she would like to have two of them.",
+      "timestamp": "2025-09-01 17:33:02.880412",
+      "metadata": {
+        "text_id": "e4391a54-4b01-444a-9108-2289ef06432b",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-09-01 17:33:03.787576",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a8718071-5464-4bc2-833a-e1ebb2ecf39e",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'A2', which is below the required 'B1' target. While the submission is factually correct and preserves the original meaning well, the simplification was too aggressive for the B1 level. This is primarily due to the consistent replacement of B1 vocabulary (like 'typical', 'intelligent', 'react') with simpler A2 alternatives ('usual', 'smart', 'respond'). Furthermore, complex sentence structures from the original were broken down into shorter, simpler sentences, which also contributed to the lower CEFR rating. To meet the B1 requirement, the writer should aim to retain some B1-level vocabulary and use B1 connectors to build sentences with slightly more complexity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.972,
+          "meaningbert": 0.8471
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:33:12.026118",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Chloe has two pet rats, Zena and Roxy, and she knows they are not typical pets, but she has lost count of how many times she has patiently tried to explain to people that rats aren't dirty and can be great pets if you look after them properly. However, she understands why people react badly. She didn't like rats either until her friend Martin showed her his rats, and she saw how affectionate and intelligent they were. Last year, when one of Martin's rats had babies, Chloe decided she would like to have two of them.",
+      "timestamp": "2025-09-01 17:33:12.026996",
+      "metadata": {
+        "text_id": "7a72a36b-6f26-4c74-9e72-1cad8bf85932",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-09-01 17:33:31.442067",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8386d2a9-a43a-47e5-86d2-bc75e9ea0b04",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "This is an excellent submission that passes all checks. Factual integrity is perfectly maintained. The high MeaningBERT (0.88) and BERTScore (0.98) confirm that the original meaning and key details were successfully preserved. The output correctly achieves a B1 classification. The vocabulary substitutions, such as changing 'fantastic' to 'great' and 'correctly' to 'properly', are well-chosen for the target level. The use of the connector 'However' also improves the flow for a B1 reader. For future improvement, consider replacing the B2-level word 'affectionate' with a more common B1 alternative like 'loving' or 'friendly' to ensure all vocabulary is fully accessible.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9837,
+          "meaningbert": 0.8751
+        }
+      }
+    }
+  ]
+}

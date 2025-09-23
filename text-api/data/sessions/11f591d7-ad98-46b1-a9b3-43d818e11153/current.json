@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "925e8542-1502-41b2-9ec6-f46631721146",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Writing down your dreams can help you start lucid dreaming.  \nLucid dreaming means you know you are dreaming.  \nIn a lucid dream you can control the story and actions.  \nYou can change a bad dream into a safe dream.  \nYou can decide what happens in the dream.  \nYou may still want normal dreams because your mind can show thoughts.",
+    "version": 11,
+    "created_at": "2025-09-01 17:18:53.142155",
+    "updated_at": "2025-09-01 17:18:53.142159",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "b5d914fe-c940-4e82-bdd2-0bc90339a89e",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation Failure. The text fails on two critical metrics. The MeaningBERT score of 0.7294 is below the required 0.75 threshold, and the BERTScore of 0.8758 is below the required 0.90. This indicates a significant loss of the original text's core message and specific vocabulary.\n\n- Meaning Loss: The original text explains that the subconscious can tell you what is on your mind. Your version, 'your mind can show thoughts', is a vague simplification that loses this specific and important concept.\n- Fidelity Loss: The low BERTScore is a direct result of removing key original phrases like 'subconscious', 'direct the plot', and 'affect the events'. These must be represented with simpler, but equivalent, A2 phrasing.\n- Vocabulary Violation: The word 'means' is B2 level. It is not permitted. An A2 text cannot contain B2 vocabulary.\n\nSuggestion: Rephrase the definition of lucid dreaming to avoid the word 'means'. For example: 'In lucid dreaming, you know you are dreaming.' Restore the lost meaning of the final sentence. Change 'your mind can show thoughts' to 'your mind can tell you important things'.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8758,
+      "meaningbert": 0.7294
+    },
+    "created_at": "2025-09-01 17:19:19.025266"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "755ff786-707f-4c72-9f98-47bcf435fa56",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Lucid dreaming is when you know you are dreaming.  \nYou can also affect the events of your dream.  \nSome people think writing dreams down can open mind to this.  \nYou write a dream in a notebook.  \nThen you may remember the dream better.  \nYou may change a bad dream into a safe dream.  \nYou can direct the plot of the dream like a film director.  \nYour subconscious can tell you what is on your mind.  \nYou might want to keep those dreams too.",
+    "version": 2,
+    "created_at": "2025-09-01 17:13:33.794049",
+    "updated_at": "2025-09-01 17:13:33.794050",
+    "metrics_meaningbert": 0.8821,
+    "metrics_cefr_compliance": "A2"
+  }
+}

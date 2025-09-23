@@ -1,0 +1,413 @@
+{
+  "session_id": "264fe293-43e2-4d1f-bba5-15c236a8f35d",
+  "created_at": "2025-09-01 17:06:53.118667",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:06:54.389472",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "38-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Often wild animals go into cities to find food.  \nA baboon is a big monkey that lives in Africa.  \nIn Cape Town, baboons now go into home areas.  \nThese areas are at the city\u2019s outside part.  \nThey open rubbish bins.  \nThey eat fruit from gardens.  \nSome brave baboons even go into people\u2019s houses.  \nThey take food from kitchen cupboards and fridges.  \nBaboons can be mean.  \nThey attacked many pet animals.  \nBecause of this, many city people do not like them.",
+      "timestamp": "2025-09-01 17:06:54.389599",
+      "metadata": {
+        "text_id": "122288e1-82d5-408b-b467-0ae32b3dc1d6",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:07:03.019992",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c1f1bfd1-cce2-493f-90fc-12f55e6b4505",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.668 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text.\n\n- The primary failure is the loss of specific meaning through oversimplification. The original text describes a conflict. Your version reduces this to a list of facts.\n- The word 'aggressive' was replaced with 'mean'. 'Aggressive' describes a specific, dangerous behavior. 'Mean' is a general, childish term that does not convey the same level of threat.\n- The phrase 'don't welcome their presence' was replaced with 'do not like them'. The original phrase explains that residents have a problem with the animals being in their area. Your version only describes a simple feeling, which is a weaker and less accurate representation of the situation.\n- The extreme simplification into very short, disconnected sentences breaks the cause-and-effect logic present in the original text.\n\nSuggestion: Restore the core meaning. Rephrase to show the baboons are a direct problem for residents. Use A2 words that are more precise. For example, change 'Baboons can be mean' to 'Baboons can be dangerous'. Change 'many city people do not like them' to 'many city people are not happy that the baboons are there'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9026,
+          "meaningbert": 0.668
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:07:12.058906",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Often wild animals go into cities to find food.  \nA baboon is a big monkey that lives in Africa.  \nIn Cape Town, baboons now go into the outside part of town.  \nThey open rubbish bins.  \nThey eat fruit from gardens.  \nSome brave baboons even go into people\u2019s houses.  \nThey take food from kitchen cupboards and fridges.  \nBaboons can be dangerous.  \nThey have attacked many pet animals.  \nBecause of this, many people in the city are not happy.  \nThey do not want the baboons there.",
+      "timestamp": "2025-09-01 17:07:12.059481",
+      "metadata": {
+        "text_id": "656eb4ab-49c9-4a1c-b746-554b937bc62c",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:07:38.486503",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "793a19b9-cbc8-4e6d-8d12-18721d7f732c",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6482 is significantly below the required 0.75 threshold. This failure is caused by the insertion of the sentence 'A baboon is a big monkey that lives in Africa.' This sentence is not in the original text. Adding new information not present in the source text fundamentally alters the meaning and results in an automatic failure. The omission of the word 'orchards' also contributes to a loss of meaning from the original text. Suggestion: Do not add sentences that introduce new factual information. The definition of a keyword must be handled separately, not inserted into the body of the simplified text itself.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9088,
+          "meaningbert": 0.6482
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:07:51.259942",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Often wild animals go into cities to find food.  \nIn Cape Town, baboons now go into the outside part of town.  \nThey open rubbish bins.  \nThey eat fruit from gardens and orchards.  \nSome brave baboons even go into people\u2019s houses.  \nThey take food from kitchen cupboards and fridges.  \nBaboons can be dangerous.  \nThey have attacked many pet animals.  \nBecause of this, many people in the city are not happy.  \nThey do not want the baboons there.",
+      "timestamp": "2025-09-01 17:07:51.261461",
+      "metadata": {
+        "text_id": "cc4d3c52-c996-41b7-ba46-60bb3796ba07",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:08:18.828695",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "61c28972-89ef-4548-9088-0665c03c19d0",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6465 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\n- Primary Deviation: The original text establishes a direct causal link: 'Baboons can be aggressive and have attacked a lot of pet animals, so understandably, many city residents don't welcome their presence.' Your version breaks this into disconnected statements: 'Baboons can be dangerous. They have attacked many pet animals. Because of this, many people in the city are not happy.' This simplification loses the specific meaning of 'aggressive' and the nuance of 'understandably', weakening the cause-and-effect relationship.\n\n- Secondary Deviation: The phrase 'don't welcome their presence' is a specific concept implying the residents view the animals as a problem. Your replacement, 'are not happy' and 'do not want the baboons there', is factually correct but loses this specific meaning, contributing to the low score.\n\n- Positive Observation: The text correctly passed the CEFR A2 classification, used appropriate A1/A2 vocabulary, and employed simple sentence structures. However, these successes are irrelevant due to the failure to preserve meaning.\n\n- Suggestion: Restore the direct link between the baboons' dangerous behavior and the residents' reaction. The simplification was too extreme and damaged the core logic of the original statement. Rephrase to show that *because* the baboons are dangerous, people do not want them in the city.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9188,
+          "meaningbert": 0.6465
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:08:38.387316",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Often wild animals go into cities to find food.  \nIn Cape Town, baboons now go into the edge of the town.  \nThey open rubbish bins.  \nThey eat fruit from gardens and orchards.  \nSome brave baboons even go into people\u2019s houses.  \nThey take food from kitchen cupboards and fridges.  \nBaboons can be dangerous.  \nThey attacked many pet animals.  \nBecause baboons are dangerous, many people do not want them.  \nThey do not want baboons in the city.",
+      "timestamp": "2025-09-01 17:08:38.387698",
+      "metadata": {
+        "text_id": "4e119ad7-5da9-4d48-8c49-04dbc6f1944b",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:09:09.477571",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "174d3352-f656-4336-8b7c-f85f003c2cda",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6901 is significantly below the required 0.75 threshold. The core message has been degraded.\n\n- The original text establishes a clear cause and effect: baboons are aggressive and attack pets, 'so understandably' residents do not welcome them. Your version breaks this direct link, stating 'Baboons can be dangerous' and then separately 'many people do not want them'. This loses the specific reasoning.\n\n- The original states the baboons come into 'residential areas... to feed'. Your version simplifies this to 'the edge of the town', losing the critical context that they are entering places where people live specifically to find food.\n\n- The phrase 'don't welcome their presence' has a specific nuance that is lost when replaced with the blunt 'do not want them'.\n\nSuggestion: Restore the lost meaning. Rephrase to show that people do not want the baboons *because* they attack pets. Re-introduce the reason the baboons come to the city, which is 'to find food'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9161,
+          "meaningbert": 0.6901
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:09:20.392546",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Baboons are big monkeys that live in the wild.  \nOften wild animals go into cities to find food.  \nIn Cape Town, baboons go into houses.  \nThey also go into gardens where people live.  \nThey open rubbish bins.  \nThey eat fruit from gardens and orchards.  \nSome brave baboons even go into people\u2019s houses.  \nThey take food from kitchen cupboards and fridges.  \nBaboons can be dangerous.  \nThey have hurt many pet animals.  \nBecause they hurt pets, many residents do not welcome their presence.  \nResidents do not want baboons in the city.",
+      "timestamp": "2025-09-01 17:09:20.392880",
+      "metadata": {
+        "text_id": "fdfd6552-05d7-4c20-92d0-713bb7b2a08d",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:09:47.409538",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "27100135-c0d5-42fb-9915-8efc2b1bf711",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6601 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text.\n\n- Primary Failure: The output breaks the original text's logical flow. The original explains that baboons come into the city *to look for food*. Your version presents this as two separate facts, weakening the cause-and-effect relationship and damaging the core meaning.\n- Vocabulary Violation: The B2-level word 'presence' was used. This is an unacceptable deviation from the A2 vocabulary standard.\n- Structural Flaw: The text is overly simplistic and repetitive. The final two sentences, 'many residents do not welcome their presence' and 'Residents do not want baboons in the city,' are redundant. This is poor simplification.\n\nSuggestion: Rephrase to connect the sentences logically. Replace the word 'presence' with a simple A2 phrase like 'them being there'. Remove the final redundant sentence.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9032,
+          "meaningbert": 0.6601
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:10:00.786239",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Baboons are wild animals.  \nThey often go into cities to find food.  \nIn Cape Town they go into houses near the city.  \nThey open rubbish bins.  \nThey eat fruit from gardens and orchards.  \nSome brave baboons go into people\u2019s houses.  \nThey take food from kitchen cupboards and fridges.  \nBaboons can be dangerous.  \nThey hurt many pet animals.  \nBecause of this, many residents do not like them being there.",
+      "timestamp": "2025-09-01 17:10:00.786635",
+      "metadata": {
+        "text_id": "274f8e15-217f-44b6-ae0e-8ccded057a04",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:10:29.659952",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6c0a0c61-bcc1-4df8-ab64-c369b568c709",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6613 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message and logical flow of the original text.\n\n- Meaning Preservation Failure: The output breaks the original text into a list of simple, disconnected facts. This loses the cause-and-effect relationships. For example, the original links the baboons' actions directly to their search for food, a connection that is weakened in your version.\n\n- Vocabulary Violation: The word 'residents' is used. This is a B1-level word and is not appropriate for an A2 text. An A2 alternative like 'people who live there' is required.\n\n- Grammatical Violation: The final sentence, '...many residents do not like them being there,' uses a gerund structure ('being') after the verb 'like'. This is a B2-level grammatical structure and is too complex for A2.\n\nSuggestion: Rephrase sentences to restore the logical connections from the original text. Replace the B1 word 'residents' with an A2 alternative. Reconstruct the final sentence to eliminate the B2 gerund structure; for example, 'many people do not want the baboons there'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9081,
+          "meaningbert": 0.6613
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:10:43.355215",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Baboons are wild animals.  \nThey often look for food.  \nThey go into cities because they look for food.  \nIn Cape Town they go into houses.  \nThey open rubbish bins.  \nThey eat fruit from gardens and orchards.  \nSometimes brave baboons go into people's houses.  \nThey take food from kitchen cupboards and fridges.  \nThey can be dangerous.  \nThey hurt many pet animals.  \nBecause of this, many people who live there do not want baboons.",
+      "timestamp": "2025-09-01 17:10:43.355637",
+      "metadata": {
+        "text_id": "a2358e26-24c7-4647-bb91-e1c7b8793635",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:11:12.942094",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "47ee6e25-226a-434a-90dc-5f57d02e7cc4",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6213 is significantly below the required 0.75 threshold. This indicates a severe loss of the original text's core message.\n\n- Primary Failure: The original text explains a general concept (wild animals coming to cities for food) and uses the Cape Town baboons as a specific example. Your version reduces this to a simple list of facts about baboons, losing the main idea.\n- Fidelity Failure: The BERTScore of 0.8953 is below the 0.90 minimum. This is a direct result of omitting key factual details like 'South Africa' and 'residential areas'.\n- Structural Damage: The text is broken into excessively short, choppy sentences. This destroys the logical flow. For example, 'They often look for food. They go into cities because they look for food.' is repetitive and less clear than the original's explanation.\n- Loss of Nuance: The original states baboons come into 'residential areas on the edge of the city'. Your version says they 'go into houses', which is an oversimplification and not entirely accurate.\n\nSuggestion: Rewrite to restore the original meaning. Start by explaining that wild animals sometimes go to cities for food. Then, use the baboons in Cape Town, South Africa as your example. Combine short sentences using simple connectors like 'and' or 'so' to create a logical flow. You must re-introduce the specific location 'South Africa'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8953,
+          "meaningbert": 0.6213
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:11:25.560417",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Wild animals sometimes go to cities to find food.  \nIn Cape Town, South Africa, baboons do this.  \nBaboons are large monkeys.  \nThey live in homes on the edge of the city.  \nThey open rubbish bins.  \nThey eat fruit from gardens and orchards.  \nSometimes they go into houses.  \nThey take food from kitchen cupboards and fridges.  \nBaboons can be aggressive and they attack many pet animals.  \nBecause of this, many city residents do not want baboons.",
+      "timestamp": "2025-09-01 17:11:25.561523",
+      "metadata": {
+        "text_id": "7e2e034d-392e-434c-bed2-79ad4f5488ed",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:11:44.141086",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3bb6c5cc-bfcf-4635-9476-5f3727f0b064",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The sentence 'They live in homes on the edge of the city' is factually incorrect. The original text states baboons come into residential areas to find food; it does not state that they live in the homes. This is a critical misrepresentation of the source material.\n\n- Factual Error: The sentence 'Baboons are large monkeys' is an addition of information not present in the original text. You must only simplify the provided text, not add new facts.\n- B1 Vocabulary Violation: The word 'aggressive' is B1 level. It was not simplified to an A2 equivalent.\n- B1 Vocabulary Violation: The phrase 'on the edge of the city' uses the B1 word 'edge'. This was not simplified.\n\nSuggestion: Correct the primary factual error. The text must state that baboons 'go into areas where people live'. Remove the sentence 'Baboons are large monkeys'. Replace 'aggressive' with an A2 phrase like 'can be angry and fight'. Rephrase 'on the edge of the city' to 'in the parts of the city that are near the countryside'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9086,
+          "meaningbert": 0.7541
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:11:54.663843",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Wild animals sometimes go to cities to find food.  \nIn Cape Town, South Africa, baboons do this.  \nThey go into areas where people live near the countryside.  \nThey open rubbish bins.  \nThey eat fruit from gardens and orchards.  \nSometimes they go into houses.  \nThey take food from kitchen cupboards and fridges.  \nBaboons can be angry and fight.  \nThey attack many pet animals.  \nBecause of this, many city residents do not want baboons.",
+      "timestamp": "2025-09-01 17:11:54.664398",
+      "metadata": {
+        "text_id": "c7e2def1-3590-4e5a-9a55-8686ad095501",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:12:29.429773",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "78f5229b-9800-4b2f-95aa-02f77fbfa564",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6771 is below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text.\n\n- The primary error is the translation of the concept 'aggressive'. Your phrase 'can be angry and fight' is not an accurate A2 equivalent. 'Aggressive' describes a consistent behavioral trait, while 'angry and fight' describes a temporary emotional state and action. This semantic shift is unacceptable and is the main reason for the low meaning score.\n- The phrase 'many city residents do not want baboons' is an oversimplification of 'many city residents don't welcome their presence'. The original implies a reaction to the animals being in their space, while your version is a more simplistic statement of dislike. This also contributes to the loss of meaning.\n- The text is structurally simple and uses A2 vocabulary correctly, but this does not compensate for the failure to maintain the original meaning.\n\nSuggestion: Restore the original meaning with A2-compliant language. Rephrase 'Baboons can be angry and fight' to 'Baboons can be dangerous and sometimes they attack'. Rephrase 'many city residents do not want baboons' to 'many people in the city are not happy about the baboons'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9067,
+          "meaningbert": 0.6771
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:12:47.957690",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Wild animals sometimes go to cities to find food.  \nIn Cape Town, South Africa, baboons do this.  \nThey go into areas where people live near the countryside.  \nThey open rubbish bins.  \nThey eat fruit from gardens and orchards.  \nSometimes they go into houses.  \nThey take food from kitchen cupboards and fridges.  \nBaboons can be dangerous and sometimes they attack.  \nThey attack many pet animals.  \nBecause of this, many people in the city are not happy about the baboons.",
+      "timestamp": "2025-09-01 17:12:47.958324",
+      "metadata": {
+        "text_id": "b0166410-081d-42a1-a8fb-e0be2b046a88",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:13:13.293224",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b25c8609-a10e-4a17-af00-27e1dc63c8b4",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6786 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text.\n\nThe primary failure is over-simplification. The original text was broken into too many short, disconnected sentences, which destroyed the logical connections between ideas.\n\nThe original text links the baboons' aggression directly to the residents' feelings: 'Baboons can be aggressive... so understandably, many city residents don't welcome their presence.' Your version separates this into three sentences, weakening the cause-and-effect relationship.\n\nThe phrase 'don't welcome their presence' has a specific meaning that was lost when replaced with the more general 'are not happy'. The original implies a desire for the animals to leave; your version is a simple statement of emotion.\n\nSuggestion: Recombine sentences to restore the logical flow. The goal is simplification, not fragmentation. For example: 'Baboons can be dangerous and they attack pet animals, so many people in the city are not happy they are there.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9067,
+          "meaningbert": 0.6786
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:13:25.224375",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Wild animals sometimes go to cities to find food.  \nIn Cape Town, South Africa, baboons do this.  \nBaboons are large monkeys.  \nThey go into areas where people live near the city edge.  \nThey open rubbish bins.  \nThey eat fruit from gardens and orchards.  \nSome brave baboons go into houses.  \nThey take food from kitchen cupboards and fridges.  \nBaboons can be dangerous and they attack pet animals.  \nSo many city residents do not want them there.",
+      "timestamp": "2025-09-01 17:13:25.225367",
+      "metadata": {
+        "text_id": "e9737fc8-3376-4c35-968c-6282e80634d0",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:13:56.757050",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0d2f5172-75bb-4a2b-a0c1-5545f5faa27a",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6993 is below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text.\n\n- Primary Meaning Loss: The original text states 'so understandably, many city residents don't welcome their presence.' Your version, 'So many city residents do not want them there,' loses the critical concept of 'understandably'. This removes the logical connection that the residents' feelings are a direct and reasonable result of the baboons' dangerous behavior.\n- Vocabulary Violation: The B1-level word 'edge' was used in the sentence '...near the city edge.' This word is above the A2 level and must be replaced.\n\nSuggestion: Restore the lost meaning. Rephrase the final sentence to show *why* residents do not want baboons there. Example: 'Because baboons can be dangerous, people do not want them there.' Suggestion: Replace the word 'edge' with an A2 alternative like 'end' or 'side'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9092,
+          "meaningbert": 0.6993
+        }
+      }
+    }
+  ]
+}

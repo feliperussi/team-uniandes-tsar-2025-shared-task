@@ -1,0 +1,117 @@
+{
+  "session_id": "c325557c-5e1e-4d48-a9a4-3386573694cc",
+  "created_at": "2025-09-01 17:15:56.264629",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:15:58.199840",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "67-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: United States is a country in North America.  \nErik Weihenmayer lives in the United States.  \nHe is an adventurer.  \n\nMorocco is a country in North Africa.  \nErik rides a bike in the deserts of Morocco.  \n\nGrand Canyon is a huge valley in the United States.  \nErik kayaks in the Grand Canyon.  \n\nEverest is the highest mountain in the world.  \nErik climbs Everest.  \n\nErik cannot see.  \nHe has not been able to see since he was 13 years old.  \n\nHe also helps people with disabilities.  \nHe wants them to live active lives.  \n\nHe leads groups of young people who cannot see on climbing trips.",
+      "timestamp": "2025-09-01 17:15:58.200497",
+      "metadata": {
+        "text_id": "965b6cf6-686d-4092-b2a8-757b9cc5e880",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:15:58.248663",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7c5248e4-18de-4490-ae79-bcbb1f7e061d",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7161 is significantly below the required 0.75 threshold. The text fails to preserve the core message of the original. Fidelity Failure: The BERTScore of 0.8519 is also below the 0.90 minimum. This indicates a severe loss of key phrasing and vocabulary from the original text. Loss of Narrative: The original text presents Erik as a 'multi-adventurer' by listing his amazing achievements together. Your version breaks these achievements into separate, disconnected facts. This destroys the narrative and the sense of wonder. Incorrect Tense: The original uses past tense ('ridden', 'kayaked', 'climbed') to describe completed achievements. Your use of present simple ('rides', 'kayaks', 'climbs') changes the meaning to habitual actions, which is a factual deviation from the source. Structural Over-simplification: The text is excessively fragmented into short sentences. This makes it read like a list, not a coherent paragraph, which is the primary cause of the low meaning scores. Suggestion: Recombine the sentences about his adventures using the connector 'and'. For example: 'He rides a bike in Morocco, kayaks in the Grand Canyon, and climbs Everest.' This restores the idea of multiple accomplishments. Suggestion: Use the correct tense to describe past events. Suggestion: Do not add definitional sentences into the main body of the text; they disrupt the flow and are not part of the original narrative.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8519,
+          "meaningbert": 0.7161
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:16:05.553351",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Erik Weihenmayer is from the United States. He is an adventurer. He rode a bike in Morocco's deserts and kayaked in Grand Canyon. He also climbed Everest. He has been blind since he was 13 years old. He also helps people with disabilities to live active lives. He leads groups of young blind people on climbing trips.",
+      "timestamp": "2025-09-01 17:16:05.553500",
+      "metadata": {
+        "text_id": "c8135aaa-1840-43c2-8b7e-a5d23ca273dc",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 8/10 - FAIL",
+      "timestamp": "2025-09-01 17:16:31.408076",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "04b96d68-3c87-4a0d-98a0-21243a276d9c",
+        "grade": 8,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Compliance. The text fails the deep qualitative audit. The word 'blind' is identified as a B1-level vocabulary item. The protocol requires strict adherence to the A2 word list. Any word outside this list constitutes a failure. Additionally, there is a minor grammatical error. The definite article 'the' is missing before 'Grand Canyon'. Suggestion: Replace the B1 word 'blind' with an A2-compliant phrase. Example: 'He cannot see'. Correct the grammatical error to 'kayaked in the Grand Canyon'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9508,
+          "meaningbert": 0.9037
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:16:41.715257",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Erik Weihenmayer is from the United States. He likes adventure. He rode a bike in the deserts of Morocco. He kayaked in the Grand Canyon. He also climbed Everest. He cannot see. He was 13 when this happened. He also helps people to live active lives. He leads groups of young people who cannot see on climbing trips.",
+      "timestamp": "2025-09-01 17:16:41.715562",
+      "metadata": {
+        "text_id": "f0002aa9-fa2e-412a-8e8a-fe83408f6c88",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-09-01 17:17:05.322440",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1296ae9b-13f1-487e-8711-e4352461bfce",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text successfully meets all A2 requirements.\n\n- Factual Integrity: The core facts of the original text are maintained.\n- Metrics Compliance: All metrics are well within the required thresholds. MeaningBERT at 0.85 and BERTScore at 0.93 confirm high fidelity. The CEFR Classifier correctly identifies the text as A2.\n- Vocabulary Control: The vocabulary is strictly limited to the A2 level. Simplifications such as 'blind' to 'cannot see' and 'expeditions' to 'trips' are executed correctly.\n- Structural Simplicity: The text is composed of short, simple sentences, which is ideal for the A2 standard.\n- Point of Minor Information Loss: The original text specifies that Erik helps 'people with disabilities'. Your version states he 'helps people'. While this does not constitute a failure, it is a loss of specific information. For a perfect score, this detail should be retained using A2 language.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9327,
+          "meaningbert": 0.8501
+        }
+      }
+    }
+  ]
+}

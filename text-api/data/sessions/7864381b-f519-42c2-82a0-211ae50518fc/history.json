@@ -1,0 +1,413 @@
+{
+  "session_id": "7864381b-f519-42c2-82a0-211ae50518fc",
+  "created_at": "2025-09-01 17:13:18.486169",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:13:18.540487",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "113-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Venom is a special liquid. Some animals have it. It can hurt or kill other animals.\nAnti-venom is a special medicine. It stops venom from hurting you.\n\nMost spiders have venom. They use it to catch their food. It makes their food stop or die. It is not for humans. Only 25 types of spiders make venom. This venom can really hurt people. Spider bites can hurt. But they do not often kill people.\n\nThe Sydney funnel-web spider is in Australia. It is a famous spider. It has not killed anyone from 1981. This is because we have anti-venom now.\n\nBe careful with hairy spiders. Tarantulas are hairy spiders. Do not make them angry. When they are not safe, they protect themselves. They throw out many small hairs. These hairs stick in your skin or eyes. They make you itch.",
+      "timestamp": "2025-09-01 17:13:18.540645",
+      "metadata": {
+        "text_id": "35394ec1-16b9-4461-b5fe-3a598bfafe81",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:13:20.575030",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b20f630f-6636-481c-bcbb-4d3b9596874d",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5488 is significantly below the required 0.75. This indicates a failure to preserve the core message and structure of the original text. The writer's output begins with two paragraphs explicitly defining 'venom' and 'anti-venom'. While these are relevant keywords, the original text does not start with such definitions; its core message is a narrative about spider venom, its purpose, and specific examples. Adding this introductory content fundamentally alters the original text's message and flow. Additionally, the BERTScore of 0.8775 is below the required 0.90, indicating a significant loss of key words and factual phrasing from the original. This is due to numerous lexical changes throughout the text, such as replacing 'stunning or killing their prey' with 'catch their food. It makes their food stop or die', and 'since anti-venom was developed' with 'because we have anti-venom now'. While simplification is necessary for A2, the cumulative effect of these changes, combined with the added content, results in a low fidelity to the original. Suggestion: Do not add new narrative content, such as explicit definitions, that is not present in the original text's narrative flow. Focus solely on simplifying the provided original text. Maintain closer lexical fidelity to the original text where A2 vocabulary allows, to improve BERTScore.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8775,
+          "meaningbert": 0.5488
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:13:38.853565",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Most spiders have venom. They use it to stun their prey. They use it to kill their prey. Prey is their food. It is not for humans.\n\nOnly 25 spider species have venom. This venom can harm humans. Spider bites can be painful. But they rarely kill people.\n\nThe Sydney funnel-web spider is in Australia. It is a famous spider. It has not killed anyone since 1981. This is because anti-venom was made in 1981.\n\nBe careful with hairy spiders. Tarantulas are hairy spiders. Do not make them angry. When they feel danger, they protect themselves. They throw out irritating hairs. These hairs stick in your skin. They can stick in your eyes.",
+      "timestamp": "2025-09-01 17:13:38.853895",
+      "metadata": {
+        "text_id": "11dc531b-5be5-405f-bb14-d2b73ce81893",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:14:02.869855",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ad655da3-3a90-461f-8ae9-b8340cd3ab70",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5898 is significantly below the required 0.75, indicating a substantial loss of the original text's core message and nuanced relationships between ideas. The text also failed CEFR compliance by being classified as B1. Deviations: Meaning Preservation: The original text's emphasis on the primary purpose of venom for prey 'rather than attacking humans' is diluted by separating these concepts into disconnected sentences. For example, 'It is not for humans' is presented as a standalone fact, losing the contrast. Meaning Preservation: The use of discourse markers like 'In fact' and 'although' in the original text conveyed important emphasis and conditional relationships. Their removal flattens the meaning and reduces the impact of statements about rarity and pain. CEFR Compliance: The text was classified as B1, not A2. This is due to the inclusion of vocabulary above the A2 level. Vocabulary: The word 'species' is a B1 word. Vocabulary: The word 'painful' is a B1 word. Vocabulary: The word 'rarely' is a B1 word. Vocabulary: The word 'irritating' is a B1 word. Vocabulary: The word 'stick' (meaning attach) is a B1 word. Corrective Path: Rephrase sentences to explicitly link the purpose of venom to prey and contrast it with humans, using simple A2 connectors. Reintroduce the sense of rarity and conditionality using A2-appropriate phrasing. Replace all B1 vocabulary with simpler A2 equivalents. For example, 'species' could be 'types of spiders', 'painful' could be 'it hurts a lot', 'rarely' could be 'not often', 'irritating' could be 'makes you itch', 'stick' could be 'go into'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9045,
+          "meaningbert": 0.5898
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:14:18.381234",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Most spiders have venom. Venom is a special liquid. They use it to stun or kill their food. They do not use it to attack people.\n\nOnly 25 types of spiders have venom that can harm people. Spider bites can hurt a lot. But they do not often kill people.\n\nThe Sydney funnel-web spider lives in Australia. It is a famous spider. It has not killed anyone since 1981. This is because anti-venom was made in 1981. Anti-venom is a special medicine for venom.\n\nBe careful with hairy spiders. Tarantulas are hairy spiders. Do not make them angry. When they feel danger, they protect themselves. They throw out hairs that make you itch. These hairs can go into your skin. They can go into your eyes.",
+      "timestamp": "2025-09-01 17:14:18.381523",
+      "metadata": {
+        "text_id": "08bafb07-1311-4e93-9c88-edbcb1031c67",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:14:43.635707",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "82d07382-ed7f-49fc-982f-ccfa5c44e26b",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The MeaningBERT score of 0.5452 is too low, indicating a significant loss of the original text's core message and nuance. The BERTScore of 0.8992 is also below the required 0.90, showing a loss of key lexical detail.\n\nDeviations:\n- MeaningBERT Failure: The original text emphasizes that venom is for prey 'rather than attacking humans' and that only '25 of the known spider species produce venom which can actually harm humans'. Your version simplifies this to 'They do not use it to attack people' and 'Only 25 types of spiders have venom that can harm people', losing the crucial contrast and the specific context of 'known species' and 'actually harm'. The specific defense mechanism of 'urticating hairs' is reduced to 'hairs that make you itch', losing precision and the specific nature of the defense. The original's emphasis on 'rarely deadly' is also softened.\n- BERTScore Failure: Key phrases and words from the original were lost or overly simplified. Examples include 'serves the purpose of', 'rather than', 'in fact', 'known spider species', 'produce venom which can actually harm', 'although', 'painful', 'deadly', 'notorious', 'produced any fatalities', 'developed', 'take care not to rub...up the wrong way', 'ejecting a cloud of urticating hairs', 'irritating hairs', 'embed themselves', and 'attacker'. The addition of 'lives in Australia' is also a deviation from the original content, introducing new information.\n\nSuggestion: Re-evaluate the core message of each sentence in the original text. Ensure that the simplified version retains the precise relationships and distinctions (e.g., 'rather than', 'only X of Y'). Use more direct translations of key terms where possible, even if simplified, to maintain lexical fidelity. For example, 'urticating hairs' could be 'special hairs that make you itch' to retain more detail. Ensure no new information is added that was not present in the original text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8992,
+          "meaningbert": 0.5452
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:15:04.687516",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Most spiders have venom. Venom is a special liquid. They use it to stun or kill their food. They use it for this, not to attack people.\n\nOnly 25 known types of spiders have venom that can truly harm people. Spider bites can hurt. But they almost never kill people.\n\nThe Sydney funnel-web spider is a famous spider from Australia. It has not killed anyone since 1981. This is because anti-venom was made in 1981. Anti-venom is a special medicine for venom.\n\nBe careful with hairy spiders like tarantulas. Do not make them angry. When they feel danger, they protect themselves. They throw out special hairs that make you itch. These hairs can stick in your skin or eyes.",
+      "timestamp": "2025-09-01 17:15:04.687870",
+      "metadata": {
+        "text_id": "0aa55e5e-5d97-4021-ab8e-ca4ca290c015",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:15:31.759336",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "add3bcd8-87ef-44ab-a514-69a749f8f18a",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5937 is significantly below the required 0.75. While the BERTScore of 0.9085 indicates good lexical fidelity, the overall meaning and nuance of the original text have been lost or significantly altered. Specific deviations include: 1. The word 'notorious' (implying a well-known negative reputation or danger) was replaced with 'famous' (a neutral or positive term). This fundamentally changes the perception of the Sydney funnel-web spider from a dangerous creature to merely a well-known one, losing the original's emphasis on its dangerous nature and the importance of anti-venom. 2. The phrase 'rather than attacking humans' which clearly states the primary purpose of venom is for prey, not humans, was simplified to 'not to attack people'. This loses the comparative nuance of the original statement regarding the venom's intended use. 3. The overall tone regarding the inherent danger of certain spiders is softened in the simplified text, deviating from the original's more informative and cautionary stance. Suggestion: Rephrase the description of the Sydney funnel-web spider to retain its dangerous connotation using A2 vocabulary. For example, 'The Sydney funnel-web spider is a very dangerous spider from Australia.' Rephrase the purpose of venom to clearly state its primary use for prey, not for people, for example, 'They use it to stun or kill their food. They do not use it to attack people.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9085,
+          "meaningbert": 0.5937
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:15:55.276408",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Most spiders have venom. Venom is a special liquid. They use it to stun or kill their food. They do not use it to attack people.\n\nOnly 25 known types of spiders have venom that can truly harm people. Spider bites can hurt. But they almost never kill people.\n\nThe Sydney funnel-web spider is a very dangerous spider from Australia. It has not killed anyone since 1981. This is because anti-venom was made in 1981. Anti-venom is a special medicine for venom.\n\nBe careful with hairy spiders like tarantulas. Do not make them angry. When they feel danger, they protect themselves. They throw out special hairs that make you itch. These hairs can stick in your skin or eyes.",
+      "timestamp": "2025-09-01 17:15:55.276841",
+      "metadata": {
+        "text_id": "d9c82c5d-c44d-4ed0-a4b1-f63d54687b4f",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:16:15.431657",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4c479a39-b684-4220-9c3d-c98557add24a",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5959 is significantly below the required 0.75. While the individual facts are present, the overall semantic coherence and the nuanced relationships between ideas from the original text have been lost due to over-simplification and fragmentation of sentences. For example, the original text states 'Spider venom is present in most species and serves the purpose of stunning or killing their prey rather than attacking humans.' Your version breaks this into multiple, disconnected sentences: 'Most spiders have venom. Venom is a special liquid. They use it to stun or kill their food. They do not use it to attack people.' This atomization dilutes the explicit 'purpose' and 'rather than' contrast, weakening the core message's semantic density. The original's emphasis on the *reason* for venom (prey, not humans) is less clear in the simplified version. You must ensure that even with simplification, the semantic connections and the overall message's emphasis are maintained. Suggestion: Rephrase sentences to maintain the logical flow and explicit connections between ideas, even if using simpler vocabulary and grammar. Do not break down complex ideas into so many separate, short sentences that the original meaning's nuance is lost.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9074,
+          "meaningbert": 0.5959
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:16:36.334445",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Most spiders have venom. Venom is a special liquid. Spiders use this venom to stun or kill their food, but not to attack people.\n\nOnly 25 types of spiders have venom that can truly harm people. Spider bites can hurt, but they almost never kill people.\n\nThe Sydney funnel-web spider is a very dangerous spider from Australia. It has not killed anyone since 1981. This is because anti-venom was made in 1981. Anti-venom is a special medicine for venom.\n\nBe careful with hairy spiders like tarantulas. Do not make them angry. When they feel danger, they protect themselves. They throw out special hairs. These hairs make you itch. They can get into your skin or eyes.",
+      "timestamp": "2025-09-01 17:16:36.334865",
+      "metadata": {
+        "text_id": "0f39dd7c-1f59-4da2-a1d3-d00cdb579a8d",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:17:00.332420",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e0b18edd-22ec-4881-a98f-f9c034de3008",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5801 is significantly below the required 0.75. While the individual facts are present, the overall coherence and the nuanced message of the original text have been lost in the simplification. The original text conveys a more reassuring message about the limited danger spiders pose to humans, despite having venom, by structuring information to emphasize primary purpose (prey, not humans) and rarity of harm. Your version presents a series of disconnected facts, diluting this overarching meaning. For example, the original's flow from 'rather than attacking humans' to 'only 25... can actually harm humans' and 'rarely deadly' creates a specific emphasis that is not fully captured by the fragmented sentences in your output. The original's narrative structure is lost. Suggestion: Rephrase to maintain the logical flow and emphasis of the original text, ensuring the relationship between ideas is clear, even with simpler vocabulary. Combine related ideas into slightly longer, but still A2-appropriate, sentences to improve coherence.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9069,
+          "meaningbert": 0.5801
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:17:25.178553",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Most spiders have venom. Venom is a special liquid. Spiders use this venom to stun or kill their food, not to attack people.\nOnly 25 types of spiders have venom that can really hurt people. Spider bites can hurt, but they nearly never kill people.\nThe Sydney funnel-web spider is a very dangerous spider from Australia. But it has not killed anyone since 1981. This is because anti-venom was made in 1981. Anti-venom is a special medicine for venom.\nBut be careful with hairy spiders like tarantulas. Do not make them angry. When they feel danger, they protect themselves. They throw out special hairs. These hairs make you itch. They can get into your skin or eyes.",
+      "timestamp": "2025-09-01 17:17:25.179025",
+      "metadata": {
+        "text_id": "f5319873-c6fe-4b74-a97f-e40c1aebbee2",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:17:55.516171",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "bd73f7cb-fe13-4c56-96c5-da5cfdd2c5d2",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5592 is significantly below the required 0.75. This indicates a substantial loss of the original text's core message, nuances, and specific details, despite retaining general facts. The simplification process has stripped away critical aspects of meaning.\n\nDetected Deviations:\n1.  Meaning Loss (Purpose of Venom): The original states, 'Spider venom is present in most species and serves the purpose of stunning or killing their prey rather than attacking humans.' Your version, 'Spiders use this venom to stun or kill their food, not to attack people,' separates these ideas, weakening the direct contrast and the emphasis on the primary purpose. The added sentence 'Venom is a special liquid' is an unnecessary detail that does not contribute to the core message about the venom's purpose.\n2.  Meaning Loss (Reputation): The original uses 'Australia's notorious Sydney funnel-web spider.' Your version, 'The Sydney funnel-web spider is a very dangerous spider from Australia,' loses the specific nuance of 'notorious,' which conveys a widely known and feared reputation beyond just being 'very dangerous.'\n3.  Meaning Loss (Idiomatic Expression): The original phrase 'take care not to rub hairy spiders like tarantulas up the wrong way' is an idiom. While 'Do not make them angry' is an A2 simplification, it completely loses the idiomatic nuance and specific cultural context of the original expression.\n4.  Meaning Loss (Specificity of Defense Mechanism): The original describes 'ejecting a cloud of urticating hairs. These irritating hairs then embed themselves in the skin or eyes of the attacker.' Your version, 'They throw out special hairs. These hairs make you itch. They can get into your skin or eyes,' is too vague. 'Special hairs' lacks the specificity of 'urticating' or 'irritating,' which describe the exact nature of the harm. Furthermore, 'embed themselves' is a more precise and stronger verb than 'get into,' conveying how the hairs become fixed in the skin or eyes. The detailed description of the defense mechanism's effect and method is significantly diluted.\n\nSuggestion: Rephrase the text to ensure that the specific purpose, reputation, idiomatic expressions, and detailed descriptions of mechanisms are preserved more accurately, even when simplifying vocabulary. Focus on conveying the full scope of the original meaning, not just the basic facts.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9129,
+          "meaningbert": 0.5592
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:18:20.711900",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Most spiders have venom. Venom is a special liquid. Spiders use this venom to stun or kill their food. They do not attack people with it.\nOnly 25 types of spiders have venom that can really hurt people. Spider bites can hurt. But they nearly never kill people.\nThe Sydney funnel-web spider is from Australia. Many people know this spider. They think it is very dangerous. But it has not killed anyone since 1981. This is because anti-venom was made in 1981. Anti-venom is a special medicine for venom.\nBut be careful with hairy spiders like tarantulas. Do not annoy them. When they feel danger, they protect themselves. They throw out hairs that make you itch. These hairs can go deep into your skin or eyes.",
+      "timestamp": "2025-09-01 17:18:20.712390",
+      "metadata": {
+        "text_id": "7fd38afb-aaa1-428b-aee8-ec8c4c0aa16c",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:18:46.203380",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "aaa5a740-5c08-43cf-8c49-3b83f82aea49",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5696 is significantly below the required 0.75. While the factual information is largely present, the core message and the nuanced emphasis of the original text have been lost. The original text aims to dispel common fears about spiders by highlighting that venom is primarily for prey, few species harm humans, and even notorious spiders are no longer deadly due to anti-venom. Your simplified version presents these facts but loses the overarching reassuring tone and the direct counter-argument to common misconceptions. For example, the original's 'rather than attacking humans' clearly contrasts the purpose of venom, which is weakened by your 'They do not attack people with it.' Similarly, the original's 'In fact, only 25...' emphasizes a correction of a common belief, which is lost in 'Only 25 types of spiders have venom'. The direct link between the Sydney funnel-web spider's notoriety and the reassurance of no fatalities due to anti-venom is also diluted by splitting the information and adding subjective statements like 'Many people know this spider. They think it is very dangerous.' This separation weakens the original's clear message of reassurance against a known threat. Suggestion: Rephrase sentences to maintain the original's emphasis on dispelling fear and providing reassurance. Ensure the connection between common fears and factual counter-arguments is clearer. Strengthen the contrast between spider use of venom for prey and their interaction with humans.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.906,
+          "meaningbert": 0.5696
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:19:02.983942",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Most spiders have venom. Venom is a special liquid. Spiders use this venom to stun or kill their food. They do not use it to attack people.\nMany people think all spiders are dangerous. But this is not true. Only 25 types of spiders have venom that can really hurt people. Spider bites can hurt. But they nearly never kill people.\nThe Sydney funnel-web spider is from Australia. People think it is very dangerous. But it has not killed anyone since 1981. This is because anti-venom was made in 1981. Anti-venom is a special medicine for venom.\nBut be careful with hairy spiders like tarantulas. Do not annoy them. When they feel danger, they protect themselves. They throw out hairs that make you itch. These hairs can go deep into your skin or eyes.",
+      "timestamp": "2025-09-01 17:19:02.984427",
+      "metadata": {
+        "text_id": "03c6b505-cac2-4821-9c16-0536035975b6",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:19:34.842297",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6a79187d-908b-4338-8bdc-8c25fbf4f1af",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5729 is significantly below the required 0.75. This indicates a substantial loss of the original text's core message and semantic nuance. The simplified text deviates from the original's precise factual reporting by introducing interpretive statements and weakening the explicit connections between ideas. Specific deviations include: The original states the purpose of venom as 'serves the purpose of stunning or killing their prey rather than attacking humans', clearly linking purpose and contrast. Your version separates this into 'Spiders use this venom to stun or kill their food. They do not use it to attack people.', which dilutes the direct contrast and the explicit statement of purpose. The original presents facts directly: 'In fact, only 25 of the known spider species produce venom which can actually harm humans'. Your version adds an interpretive layer: 'Many people think all spiders are dangerous. But this is not true. Only 25 types of spiders have venom that can really hurt people.' This shifts the semantic focus from direct factual reporting to correcting a common misconception, altering the original's intent. Suggestion: Rephrase sentences to maintain the explicit purpose and contrast as presented in the original. Remove interpretive statements that are not directly present in the original text. Focus on direct factual simplification without adding new semantic layers.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9017,
+          "meaningbert": 0.5729
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:19:50.495900",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Most spiders have venom. Venom is a special liquid. Spiders use this venom to stun or kill their food. This is its purpose. It is not for attacking people.\nOnly 25 types of spiders have venom that can really hurt people. Spider bites can hurt. But they nearly never kill people.\nThe Sydney funnel-web spider is from Australia. People think it is very dangerous. But it has not killed anyone since 1981. This is because anti-venom was made in 1981. Anti-venom is a special medicine for venom.\nBut be careful with hairy spiders like tarantulas. Do not bother them. When they feel danger, they protect themselves. They throw out hairs that make you itch. These hairs can go deep into your skin or eyes.",
+      "timestamp": "2025-09-01 17:19:50.497575",
+      "metadata": {
+        "text_id": "23cdcd9d-98e9-4c0a-b54d-76db81692e03",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:20:24.613443",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "05e02582-5bc3-4ff2-a116-1ef8b20bed62",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5831 is significantly below the required 0.75. This indicates a failure to preserve the core message and its nuances. The original text's precise semantic connections and specific descriptive language have been lost through oversimplification. For instance, the original explicitly states the purpose of venom as 'stunning or killing their prey rather than attacking humans', directly linking purpose and non-aggression towards humans. Your version separates these ideas into multiple sentences ('Spiders use this venom to stun or kill their food. This is its purpose. It is not for attacking people.'), which dilutes the direct semantic relationship. Furthermore, the specific scientific descriptions of 'ejecting a cloud of urticating hairs' and 'embed themselves' were replaced with overly general phrases like 'throw out hairs that make you itch' and 'go deep into your skin or eyes', losing the original's lexical precision and specific mechanism. This level of semantic divergence is unacceptable for the required fidelity.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.907,
+          "meaningbert": 0.5831
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:20:41.800859",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Most spiders have venom. Venom is a special liquid. Spiders use this venom to stun or kill their food, not to attack people.\nOnly 25 types of spiders have venom that can really hurt people. Spider bites can hurt. But they nearly never kill people.\nThe Sydney funnel-web spider is from Australia. People think it is very dangerous. But it has not killed anyone since 1981. This is because anti-venom was made in 1981. Anti-venom is a special medicine for venom.\nBut be careful with hairy spiders like tarantulas. Do not bother them. When they feel danger, they protect themselves. They throw out a cloud of hairs. These hairs make you itch. The hairs stick in your skin or eyes.",
+      "timestamp": "2025-09-01 17:20:41.801511",
+      "metadata": {
+        "text_id": "8bd38e42-0a51-40af-9e5a-89cee1ee689d",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:21:11.310330",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1bc42340-3ab1-4e9f-b8a0-0151106f2a69",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5628 is significantly below the required 0.75, indicating a failure to preserve the core message and semantic nuances of the original text. While the individual facts are present, the overall meaning and emphasis have been diluted through over-simplification and restructuring. Specific deviations include: The original's more precise phrasing, such as 'serves the purpose of stunning or killing their prey', is simplified to 'use this venom to stun or kill their food', losing the formal and direct statement of purpose. The output adds explanatory sentences like 'Venom is a special liquid' and 'Anti-venom is a special medicine for venom' which are not present in the original text and alter the semantic content. The original's concise statement 'Australia's notorious Sydney funnel-web spider has not produced any fatalities since anti-venom was developed in 1981' is broken into multiple sentences, adding 'People think it is very dangerous' and separating the cause-effect relationship, which dilutes the original's directness. The idiom 'rub hairy spiders like tarantulas up the wrong way' is simplified to 'Do not bother them', losing the specific nuance of the original phrase. The descriptive terms 'ejecting a cloud of urticating hairs' and 'embed themselves' are replaced with less precise phrases like 'throw out a cloud of hairs' and 'stick in your skin or eyes', reducing the fidelity of the original's description. Suggestion: Rephrase the text to maintain the semantic density and specific relationships of the original, even when simplifying vocabulary and grammar. Avoid adding information not explicitly stated in the source text. Focus on simplifying the expression of the original meaning, not altering the meaning itself.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.913,
+          "meaningbert": 0.5628
+        }
+      }
+    }
+  ]
+}

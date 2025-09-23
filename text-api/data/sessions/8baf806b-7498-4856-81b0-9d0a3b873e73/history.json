@@ -1,0 +1,80 @@
+{
+  "session_id": "8baf806b-7498-4856-81b0-9d0a3b873e73",
+  "created_at": "2025-09-01 10:51:45.375610",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:51:45.392905",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "105-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In general, more people are learning English than all other languages together, and it is also the language that is spoken in the most countries. However, Chinese has by far the largest number of native speakers. There does not seem to be a strong connection between how many native speakers a language has and the number of people who learn it, but there is a stronger link between the number of learners and how many countries have speakers.",
+      "timestamp": "2025-09-01 10:51:45.393058",
+      "metadata": {
+        "text_id": "ae93bbe9-b898-41a7-8856-dfab9788e1b4",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 10:51:45.397312",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8c32257e-be1b-4a88-8514-5127b08c954f",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The output was classified as 'A2', which is below the required 'B1' target. The text is factually correct and preserves the original meaning well, as shown by the high BERTScore (0.96) and MeaningBERT (0.88) scores. However, the simplification was too effective, resulting in a text that is linguistically too simple for the B1 level. This is likely because key B1/B2 vocabulary such as 'correlation' and 'overall' were replaced with simpler A2/B1 alternatives like 'connection' and 'in general'. To meet the B1 requirement, consider reintroducing slightly more complex but still clear vocabulary. For instance, 'There seems to be a weak connection' could be a suitable B1 alternative to 'There does not seem to be a strong connection'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9659,
+          "meaningbert": 0.882
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:52:06.984617",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Generally, more people are learning English than all other languages together, and it is also the language that is spoken in the most countries. However, Chinese has by far the largest number of native speakers. There seems to be only a weak connection between the number of native speakers a language has and the number of people who learn it, but there is a stronger link between the number of learners and how many countries have speakers.",
+      "timestamp": "2025-09-01 10:52:06.985990",
+      "metadata": {
+        "text_id": "f820e8df-429d-44f5-b6d4-ad6da2529d8b",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 10:52:26.087775",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "878d373f-f67a-445d-ad27-09c5bf80fa5a",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "This is an exemplary simplification that passes all diagnostic checks. Factual integrity is perfectly maintained. The MeaningBERT (0.88) and BERTScore (0.97) are both well above the required thresholds, confirming excellent preservation of the original message and key phrasing. The CEFR B1 classification is accurate. The vocabulary substitutions are particularly effective; replacing 'correlation' with 'connection' and 'Overall' with 'Generally' are perfect examples of reducing complexity while retaining precise meaning for a B1 audience. The output is clear, fluent, and serves as a model for successful text simplification.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9717,
+          "meaningbert": 0.8826
+        }
+      }
+    }
+  ]
+}

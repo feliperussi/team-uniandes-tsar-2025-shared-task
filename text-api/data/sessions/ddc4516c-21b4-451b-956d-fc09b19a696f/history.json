@@ -1,0 +1,413 @@
+{
+  "session_id": "ddc4516c-21b4-451b-956d-fc09b19a696f",
+  "created_at": "2025-09-01 17:13:25.222515",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:13:25.291654",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "50-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many people do not understand they add to the throw\u2011away clothes problem.  \nThey give their old clothes to charity.  \nCharity shops cannot sell all the old clothes.  \nQuick style clothes become old very fast.  \nThey are often low quality and people cannot reuse them.  \nPeople do not want to buy them used.  \nPeople throw away a lot of clothes.  \nCharities send some unsold clothes to other countries.  \nThis creates more money and nature problems.",
+      "timestamp": "2025-09-01 17:13:25.291825",
+      "metadata": {
+        "text_id": "54fab668-13c1-42ae-bb03-bf842d04035b",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:13:29.281217",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "83b948e1-c55b-4286-b835-d26f2f98bca0",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8839 is below the required 0.90 threshold. This indicates an unacceptable loss of key words and phrasing from the original text. The simplification has damaged the lexical integrity of the output.\n\n- Vocabulary Violation: The word 'used' is B1 level. This is a direct violation of the A2 standard. The text must not contain vocabulary above the target level.\n\n- Structural Complexity: The sentence 'Many people do not understand they add to the throw\u2011away clothes problem' uses a subordinate clause ('they add...'). This structure is too complex for A2 and leans towards B1.\n\n- Fidelity Loss: The low BERTScore was caused by substitutions like 'environmental problems' to 'nature problems' and 'disposable clothing' to 'throw-away clothes'. While the meaning is similar, the lexical distance from the source text is too great, triggering the fidelity failure.\n\nSuggestion: Replace the B1 word 'used'. Rephrase as 'People do not want to buy clothes other people had before'. Split the first sentence into two simple sentences: 'Many people add to the throw-away clothes problem. They do not understand this.' Re-evaluate word choices to stay closer to the source text's vocabulary where possible.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8839,
+          "meaningbert": 0.8073
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:13:46.668134",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many people add to the throw\u2011away clothes problem.  \nThey do not understand this.  \nThey give their old clothes to charity.  \nCharity shops cannot sell all the old clothes.  \nFast clothes become old very fast.  \nThey are often low quality.  \nPeople do not want to buy clothes other people had before.  \nPeople throw away a lot of clothes.  \nCharities send some clothes that are not sold to other countries.  \nThis creates more money problems.  \nThis creates more nature problems.",
+      "timestamp": "2025-09-01 17:13:46.668467",
+      "metadata": {
+        "text_id": "fa440b64-0800-49ef-8ae4-46ef366ac494",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:14:12.173720",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "276fe6d3-7004-4ae5-9a64-5fc6ebf3adac",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.87 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text. The oversimplification of core concepts caused this failure. The term 'fast fashion' was replaced with 'fast clothes', losing a specific concept. The phrase 'buy it second-hand' was replaced with 'buy clothes other people had before'; the term 'second-hand' is more precise for this level. The concept of 'environmental problems' was simplified to 'nature problems', which is an unnatural phrasing. The text is broken into too many short, disconnected sentences, which contributes to the loss of fidelity. Suggestion: Reintroduce key terms like 'fast fashion' and 'second-hand'. Combine some sentences using simple connectors like 'and' or 'but' to restore the relationship between ideas.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8699,
+          "meaningbert": 0.781
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:14:24.222303",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many people add to throw\u2011away clothes problem but may not notice it.  \nThey give their old clothes to charity.  \nCharity shops cannot sell all of them.  \nFast fashion becomes old very fast and is often low quality.  \nPeople do not want to buy fast fashion second\u2011hand.  \nA lot of clothes are thrown away.  \nSome unsold clothes are sent to other countries.  \nThis creates more money problems and more environmental problems.",
+      "timestamp": "2025-09-01 17:14:24.222617",
+      "metadata": {
+        "text_id": "ee65ae29-b390-45d4-9274-160aaf4a1501",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:14:49.134696",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7b7599d8-f1ff-4539-9cae-86a1bef2fd93",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.893 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\n- Fidelity Loss: Key terms from the original text were oversimplified, causing the score drop. 'Disposable clothing problem' was changed to 'throw-away clothes problem' and 'unwanted clothes' became 'old clothes'. This reduces lexical precision below the minimum standard.\n- Vocabulary Violation: The word 'environmental' is B1 level. Its use is a direct violation of the A2 vocabulary standard. This word must be simplified.\n\nSuggestion: Rephrase to restore key terms from the original text where it does not violate A2 complexity. Replace the B1 word 'environmental' with an A2-level concept, such as 'problems for nature' or 'problems for our world'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.893,
+          "meaningbert": 0.8364
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:14:59.032999",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many people add to the disposable clothing problem.  \nThey may not notice it.  \nThey give their unwanted clothes to charity.  \nCharity shops cannot sell all of them.  \nFast fashion becomes old very fast and is often low quality.  \nPeople do not want to buy fast fashion second\u2011hand.  \nA lot of clothes are thrown away.  \nSome unsold clothes are sent to other countries.  \nThis creates more money problems and more problems for nature.",
+      "timestamp": "2025-09-01 17:14:59.033788",
+      "metadata": {
+        "text_id": "5b33a8af-19de-4725-8a7c-0ba2a59771c3",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:15:21.065969",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2935318e-8300-42a5-84f2-3d287bda0745",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8915 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text.\n\n- Fidelity Loss: The score dropped because key terms were oversimplified. 'Huge quantities' was reduced to 'A lot'. 'Economic and environmental problems' was reduced to 'money problems and more problems for nature'. This loss of specific vocabulary is unacceptable.\n- CEFR Compliance Failure: The text was classified as B1, which is too complex. The A2 standard was not met.\n- Structural Error: The use of the passive voice in 'A lot of clothes are thrown away' and 'Some unsold clothes are sent to other countries' is a B1 grammatical structure. This is a direct violation of A2 structural simplicity.\n\nSuggestion: Eliminate all uses of the passive voice. Rephrase sentences to use an active subject, for example, 'People throw away a lot of clothes'. Restore more precise vocabulary from the original text to meet the fidelity requirement.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8915,
+          "meaningbert": 0.8136
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:15:27.407151",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many people add to the disposable clothing problem.  \nThey may not notice it.  \nThey give their unwanted clothes to charity.  \nCharity shops cannot sell all of them.  \nFast fashion becomes old very fast and is often low quality.  \nPeople do not want to buy fast fashion second\u2011hand.  \nPeople throw away huge quantities of clothes.  \nPeople send some unsold clothes to other?  \nPeople send some unsold clothes to other countries.  \nThis creates economic problems and environmental problems.",
+      "timestamp": "2025-09-01 17:15:27.407457",
+      "metadata": {
+        "text_id": "3b2546de-899e-4134-890e-a69ecef7acd4",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:15:49.094940",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "de45f525-4956-4b0e-8a6d-5fae74b83385",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.883 is below the required 0.90. This indicates that key words and phrasing from the original text were not adequately preserved.\n\n- Vocabulary Violation: The B1 words 'economic' and 'environmental' were used. These words are above the A2 level and were not defined. All vocabulary must be strictly A2.\n- Lexical Simplification: The text lost precision by oversimplifying. For example, 'donate their unwanted clothes' was reduced to 'give their unwanted clothes', and 'sent abroad' became 'send to other countries'. This contributed to the low fidelity score.\n- Output Error: The text contains a typographical error and an incomplete sentence: 'People send some unsold clothes to other?'. This is unacceptable.\n\nSuggestion: Restore more precise A2-level vocabulary from the original text to meet the fidelity requirement. Replace the B1 words 'economic' and 'environmental' with simpler A2 concepts, such as 'problems with money' and 'problems for nature'. Proofread the output to eliminate all errors.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.883,
+          "meaningbert": 0.8043
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:16:02.110167",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many people add to the disposable clothing problem.  \nThey may not notice it.  \nThey donate their unwanted clothes to charity.  \nCharity shops cannot sell all of them.  \nFast fashion becomes old very fast and is low quality.  \nPeople do not want to buy fast fashion second\u2011hand.  \nPeople throw away huge quantities of clothes.  \nPeople send some unsold clothes abroad.  \nThis creates money problems.  \nThis also creates nature problems.",
+      "timestamp": "2025-09-01 17:16:02.111248",
+      "metadata": {
+        "text_id": "221bea45-0663-4223-a025-130916210488",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:16:24.788659",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7be3a31e-a7fd-4814-af98-6d915bd69c61",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8829 is below the required 0.90 threshold. This is an instant failure. The text also fails the CEFR compliance check, registering as B1 instead of the required A2.\n\n- Fidelity Failure (BERTScore): The score is too low because key lexical items from the original text were lost. Replacing 'economic and environmental problems' with 'money problems' and 'nature problems' is an oversimplification that reduces fidelity to the source material.\n\n- CEFR Compliance Failure (B1 Classification): The text was classified as B1. This is unacceptable. The analysis indicates the use of the B1-level verb 'donate'. This word is too advanced for the A2 standard.\n\n- Vocabulary Violation: The word 'donate' is B1 level. It must be replaced.\n\nSuggestion: Replace the B1 verb 'donate' with an A2 alternative like 'give'. Restore the meaning of 'economic and environmental problems' using simple A2 terms. The text must be rewritten to meet the 0.90 BERTScore minimum and achieve an A2 classification.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8829,
+          "meaningbert": 0.8533
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:16:31.414075",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many people add to the disposable clothing problem.  \nThey may not notice it.  \nThey give their unwanted clothes to charity.  \nCharity shops cannot sell all the clothes.  \nFast fashion becomes old very fast and is low quality.  \nPeople do not want to buy fast fashion second hand.  \nPeople throw away many clothes.  \nClothes that are not sold are sent abroad.  \nThis creates money problems.  \nIt also creates nature problems.",
+      "timestamp": "2025-09-01 17:16:31.414374",
+      "metadata": {
+        "text_id": "3d05d9af-be83-45cf-8d8a-f78609bfeef6",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:17:02.144494",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "13cdc3ea-205d-43a1-ba76-839160172ca5",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8839 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text.\n- Fidelity Failure: The BERTScore is too low. Key terms from the original text were oversimplified, causing a loss of precision. The phrase 'economic and environmental problems' was replaced with 'money problems' and 'nature problems'. 'Huge quantities' was reduced to 'many clothes'. This damages the text's fidelity to the source.\n- CEFR Compliance Failure: The text was classified as B1, which is too complex for the A2 standard. The required level is exactly A2. While sentence structure is simple, the density of A2-level concepts ('charity', 'fashion', 'quality', 'abroad') likely caused the incorrect classification.\n- Structural Weakness: The output is a list of disconnected simple sentences. This is more characteristic of A1 than A2. A2 level requires the use of simple connectors to link ideas.\n- Suggestion: Restore key vocabulary from the original text to meet the BERTScore requirement. Re-use terms like 'economic' and 'environmental' if they can be simply defined, or find closer A2 synonyms.\n- Suggestion: Combine some sentences using simple A2 connectors like 'but' and 'so' to create a more natural paragraph and ensure a correct A2 classification. Example: 'They give their unwanted clothes to charity, but charity shops cannot sell all the clothes.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8839,
+          "meaningbert": 0.8405
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:17:12.868314",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many people add to the disposable clothing problem. They may not notice it. They give unwanted clothes to charity, but shops cannot sell them all. Fast fashion becomes old very fast and is low quality. People do not want to buy fast fashion second\u2011hand. So many clothes are thrown away. People send unsold clothes abroad. This creates economic and environmental problems.",
+      "timestamp": "2025-09-01 17:17:12.869957",
+      "metadata": {
+        "text_id": "0132466e-5c7b-4991-bf4d-e7dcf69d4136",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:17:36.836887",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "23e708d5-6d28-4bb0-a914-200868fa4a67",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance Failure. The text was classified as B1, which is above the required A2 level.\n\n- Vocabulary Violation: The text uses the words 'economic' and 'environmental'. These are B1-level words and are not compliant with the A2 standard.\n- Sentence Analysis: The final sentence, 'This creates economic and environmental problems,' is the direct cause of the B1 classification. A2-level texts must not use this level of abstract vocabulary.\n- Structural Integrity: While the sentence structures are generally simple and appropriate for A2, the vocabulary failure is absolute.\n\nSuggestion: You must replace the B1 words. Rephrase the final sentence to describe the problems using simple A2 concepts. For example: 'This causes problems for money and for nature.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.924,
+          "meaningbert": 0.8448
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:17:46.281854",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many people add to the clothing waste problem.  \nThey may not notice it.  \nThey give unwanted clothes to charity, but shops cannot sell them all.  \nFast fashion becomes old very fast and is low quality.  \nPeople do not want to buy fast fashion second\u2011hand.  \nSo many clothes are thrown away.  \nPeople send unsold clothes abroad.  \nThis causes problems for money and for nature.",
+      "timestamp": "2025-09-01 17:17:46.282442",
+      "metadata": {
+        "text_id": "ef452ede-e789-4f1c-a6a8-5f23d009a217",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:18:14.891615",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "768d5c52-f736-4156-99de-7419533165c8",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8857 is below the required 0.90 threshold. This indicates an unacceptable loss of key words and phrasing from the original text.\n\n- Lexical Deviation: The simplification process removed too many key terms from the original text. Words like 'disposable', 'donate', and the concept of 'recycle' were lost. This caused the fidelity score to drop below the minimum requirement.\n- Vocabulary Violation: The text uses the B1-level word 'waste'. All vocabulary must conform to the A2 standard. This is a clear violation.\n\nSuggestion: Rephrase to restore lost concepts. Instead of 'low quality', write 'low quality, so it is hard to use again' to reintroduce the 'recycle' idea. Replace the B1 word 'waste'. Use 'the problem of throwing away clothes' instead of 'the clothing waste problem'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8857,
+          "meaningbert": 0.823
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:18:26.872898",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many people add to the problem of throwing away clothes.  \nThey donate unwanted clothes to charity.  \nThey may not notice it.  \nCharity shops can not sell all the clothes.  \nFast fashion becomes old very fast.  \nIt is low quality, so it is hard to use again.  \nPeople do not want to buy fast fashion second\u2011hand.  \nSo many clothes are thrown away.  \nUnsold clothes are sent abroad.  \nThis creates money problems and nature problems.",
+      "timestamp": "2025-09-01 17:18:26.873477",
+      "metadata": {
+        "text_id": "5fe29ad6-e283-431c-97a9-0a45b7a95940",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:18:51.549698",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ef8c7eaa-d3f5-4d78-aa27-f85be99967fc",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8817 is below the required 0.90 threshold. This indicates a significant loss of key words and factual phrasing from the original text.\n\n- Fidelity Loss: The score is low because key terms like 'recycle', 'economic', and 'environmental' were replaced with overly simple phrases ('use again', 'money problems', 'nature problems'). This reduces lexical fidelity to the source text below the minimum standard.\n\n- Vocabulary Violation: A qualitative audit reveals a critical error. The word 'donate' is B1 level and is not permitted in an A2 text. It must be replaced with an A2 equivalent.\n\nSuggestion: Replace 'donate' with 'give'. To meet the fidelity requirement, rephrase to better reflect the original's key terms. For example, change 'nature problems' to 'problems for the environment' to improve lexical accuracy.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8817,
+          "meaningbert": 0.8205
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:18:55.703085",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many people add to the problem of throwing away clothes.  \nThey give unwanted clothes to charity.  \nThey may not notice it.  \nCharity shops cannot sell all the clothes.  \nFast fashion becomes old very fast.  \nIt is low quality, so people cannot recycle it.  \nPeople do not want to buy fast fashion second\u2011hand.  \nSo many clothes are thrown away.  \nCharity shops send unsold clothes abroad.  \nThis creates money problems and problems for the environment.",
+      "timestamp": "2025-09-01 17:18:55.703518",
+      "metadata": {
+        "text_id": "06f663fe-de05-4946-96ce-ca14f4a8972d",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:19:25.216128",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "451f287c-4965-4dc4-8fb3-2293ce0b7fd2",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8852 is below the required 0.90 threshold. This indicates an unacceptable loss of key words and phrasing from the original text, even though the core meaning was preserved. The simplification was too aggressive, sacrificing lexical precision. Specific deviations include: The term 'disposable clothing problem' was replaced with 'problem of throwing away clothes'. This simplification loses lexical precision. The phrase 'Huge quantities' was simplified to 'So many clothes', which is less precise and lowers the fidelity score. The original text's causal link '...problem because they donate...' was broken into separate sentences, weakening the direct logical connection. Suggestion: Revise the text to increase lexical fidelity while maintaining A2 simplicity. Restore the direct causal link using 'because'. Re-evaluate simplifications of key terms like 'disposable' and 'huge quantities' to find closer A2-level equivalents.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8852,
+          "meaningbert": 0.826
+        }
+      }
+    }
+  ]
+}

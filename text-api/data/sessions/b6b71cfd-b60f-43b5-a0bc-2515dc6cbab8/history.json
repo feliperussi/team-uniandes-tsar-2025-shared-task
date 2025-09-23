@@ -1,0 +1,80 @@
+{
+  "session_id": "b6b71cfd-b60f-43b5-a0bc-2515dc6cbab8",
+  "created_at": "2025-09-01 17:14:26.148989",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:14:29.886956",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "54-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Faith47 lives in Cape Town, South Africa.  \nShe paints big, bright pictures of people and animals.  \nShe likes to explore different places.  \nHer pictures are on pavements, in empty factories, and on abandoned cars.  \nStreet art is art made on public walls or streets.  \nMost street art is short\u2011time.  \nIt will soon be taken away by weather or city cleaners.  \nFor her, this shows that life changes, ending and starting again.",
+      "timestamp": "2025-09-01 17:14:29.887076",
+      "metadata": {
+        "text_id": "8f114371-da45-4ef1-8900-402e81f77ae4",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:14:30.805470",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "78f70ca5-d2e3-4cb4-9a39-92df296cc68f",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text states Faith47 'is from Cape Town', which refers to her origin. Your text states she 'lives in Cape Town', which refers to her current residence. This is an unverified and inaccurate change of fact. Adherence to the source text's facts is the absolute first priority.\n\n- Vocabulary Error: The term 'short-time' is awkward and not standard English. While 'temporary' is a B1 word that requires replacement, a better A2 phrase would be 'does not last for a long time'.\n\nSuggestion: Correct the first sentence to 'Faith47 is from Cape Town, South Africa.' to restore factual integrity. Replace 'short-time' with a natural A2 phrase like 'does not last long'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9162,
+          "meaningbert": 0.8086
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:14:39.908954",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Faith47 is from Cape Town, South Africa.  \nShe paints big, bright pictures of people and animals.  \nShe likes to explore different places.  \nHer pictures are on pavements, in empty factories, and on abandoned cars.  \nStreet art is art made on public walls or streets.  \nMost street art does not last long.  \nWeather or city cleaners will soon take it away.  \nFor her, this shows that life changes, ending and starting again.",
+      "timestamp": "2025-09-01 17:14:39.909849",
+      "metadata": {
+        "text_id": "31b5cdbd-0ffd-48c0-91f3-ded6c9afa1ce",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-09-01 17:15:00.878262",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "db138400-b932-4b4e-89a8-a4314f13d999",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text meets all A2 requirements. Factual integrity is maintained, meaning preservation metrics are high (MeaningBERT: 0.822, BERTScore: 0.9145), and the CEFR classifier correctly identifies the text as A2.\n\nDiagnostic Audit:\n- Vocabulary Control: Excellent. The vocabulary is strictly confined to the A1 and A2 levels. No words exceed the A2 standard.\n- Structural Simplicity: The text correctly uses short, simple sentences. The simplification of complex ideas from the original text is effective.\n- Keyword Definition: The definition provided for 'street art' is clear, simple, and uses A2-level vocabulary.\n- Point of Improvement: The final sentence, \"For her, this shows that life changes, ending and starting again,\" uses a 'that-clause' which is a B1-level structure. While the text passes overall, a stricter A2 construction would be to split this into two sentences. Suggestion: Rephrase to \"For her, this shows how life changes. It is always ending and starting again.\"",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9145,
+          "meaningbert": 0.822
+        }
+      }
+    }
+  ]
+}

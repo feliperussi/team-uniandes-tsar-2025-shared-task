@@ -1,0 +1,413 @@
+{
+  "session_id": "bd2dd91a-3377-4536-8224-6dccecd321e9",
+  "created_at": "2025-09-01 17:21:15.831794",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:21:16.979164",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "80-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Dogs live in groups.  \nThey learn that people give food to small cute dogs.  \nSo those dogs ask for food for all the group.  \nSome dogs also learn to use the city subway.  \nThey use it to move from one area to another.  \nScientists do not know how dogs know when to leave the train.  \nOne idea is that they use their very good smell.  \nThey know the smells of their favorite stops.  \nAnother chance is that they hear the names of stations.  \nBoth ideas are possible.  \nNow subway people see dogs on trains every day.  \nThe dogs travel mostly unseen by locals.",
+      "timestamp": "2025-09-01 17:21:16.979288",
+      "metadata": {
+        "text_id": "0af447ca-2232-4c65-8129-aa9ca9f26b41",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:21:17.004106",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9c57548b-b3f3-4239-9706-d61bb6a00d7f",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8968 is below the required 0.90 threshold. This indicates an unacceptable loss of key words and phrasing from the original text. This is the primary reason for failure.\nFAIL: CEFR Compliance. The text was classified as B1. The target level is A2. This is a secondary failure.\n- Deviation: B1 vocabulary was used. The words 'cute' and 'subway' are not A2 level and must be replaced.\n- Deviation: The phrase 'Another chance' is an awkward and imprecise simplification of 'Another possibility'. It does not fit the context.\n- Deviation: The phrase 'subway people' is not standard English for 'passengers'.\n- Deviation: The word 'unseen' is a B-level concept using a negative prefix. It is too complex for A2.\nSuggestion: Replace 'cute' with an A2 adjective like 'nice'. Replace 'subway' with a descriptive phrase like 'trains under the city'. Rephrase 'Another chance is that...' to 'Another idea is...'. Rephrase 'Now subway people see dogs...' to 'Now, people on the trains see dogs...'. Rephrase 'The dogs travel mostly unseen by locals' to 'Local people do not often see them'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8968,
+          "meaningbert": 0.7784
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:21:23.581431",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Dogs live in groups.  \nThey learn that people give food to small nice dogs.  \nSo those dogs ask for food for the whole group.  \nSome dogs also learn to use trains under the city.  \nThey use the trains to move from one area to another.  \nScientists do not know how dogs know when to leave the train.  \nOne idea is that they use their very good smell.  \nThey know the smells of places they like.  \nAnother idea is that they hear the names of stations.  \nBoth ideas are possible.  \nNow people on the trains see dogs every day.  \nPeople nearby do not often see them.",
+      "timestamp": "2025-09-01 17:21:23.581653",
+      "metadata": {
+        "text_id": "9e6c5825-b628-4362-b8da-1f98c35563f9",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:21:47.468931",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d96f197f-2ee8-45c8-973c-1fae588ebb47",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The final sentence of the output fundamentally misrepresents the original text. The original states that dogs 'travel largely unnoticed by locals', meaning people on the trains are so used to them they no longer pay attention. Your output, 'People nearby do not often see them', is a completely different and incorrect statement.\n\n- Meaning Preservation Failure: This factual error is confirmed by the metrics. The MeaningBERT score of 0.637 is catastrophically below the required 0.75 threshold. The core message about the dogs becoming a normal, unnoticed part of the commute has been lost.\n- Fidelity Failure: The BERTScore of 0.8879 is below the 0.90 minimum. This reflects a failure to retain key lexical details from the source.\n- Vocabulary Violation: The word 'nearby' is B1 level. It is not permitted in an A2 text.\n\nSuggestion: The final concept must be rewritten entirely. The new text must convey that people who ride the trains are now very used to seeing the dogs. Remove the word 'nearby' and correct the meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8879,
+          "meaningbert": 0.637
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:22:00.327849",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Dogs live in groups.  \nThey learn that people give food to small nice dogs.  \nThose dogs ask for food for the whole group.  \nSome dogs also learn to use trains under the city.  \nThey use the trains to move from one area to another.  \nPeople do not know how dogs know when to leave the train.  \nOne idea is that they use their very good smell.  \nThey know the smells of places they like.  \nAnother idea is that they hear the words of stations.  \nBoth ideas can be true.  \nPeople on the trains now see the dogs a lot.",
+      "timestamp": "2025-09-01 17:22:00.328237",
+      "metadata": {
+        "text_id": "fb635a9e-7d90-4274-9d07-444a565e07c4",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:22:22.172120",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "56c90c73-dcf9-479d-a1b7-393970e9abe2",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6361 is catastrophically below the required 0.75 threshold. This indicates a severe failure to preserve the core message of the original text. The simplification process has resulted in factual distortion.\n\n- Primary Failure (MeaningBERT): The score of 0.6361 is an instant disqualification.\n- Secondary Failure (BERTScore): The BERTScore of 0.8844 is below the 0.90 minimum.\n- Factual Inaccuracy: The final sentence is a complete reversal of the original's meaning. The original states dogs travel 'largely unnoticed'. Your version, 'People on the trains now see the dogs a lot,' implies they are highly noticed. This is an unacceptable error.\n- Meaning Loss: The phrase 'hear the words of stations' is a poor simplification of 'recognise the names of stations'. The critical concept of 'names' has been lost.\n\nSuggestion: You must rewrite the text to preserve the original meaning. Rephrase the final sentence to correctly state that people are so used to the dogs that they do not notice them. Restore the concept of the dogs recognizing the 'names' of the stations. The goal is simplification, not alteration of facts.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8844,
+          "meaningbert": 0.6361
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:22:35.268625",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Dogs live in groups.  \nThey learn that people give food to small cute dogs.  \nThose small dogs ask for food for the whole group.  \nSome dogs also learn to use the city train.  \nThey use the train to go.  \nThey go from one area to another.  \nScientists do not know how dogs know when to get off.  \nOne idea is that they use their good smell.  \nThey smell the places they like.  \nAnother idea is that they hear the names of stations.  \nBoth ideas may be true.  \nPeople on the trains are used to the dogs.  \nThey do not notice them.",
+      "timestamp": "2025-09-01 17:22:35.269032",
+      "metadata": {
+        "text_id": "0b7d1580-c020-4efa-8c47-2b45231d906a",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:23:06.452885",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3d489f48-ab11-4dc3-b084-97263408f9d9",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5973 is significantly below the required 0.75 threshold. The text was oversimplified to the point of losing the original message's nuance and factual detail.\n\n- Primary Failure (Metrics): Your text fails on two critical metrics. The MeaningBERT score (0.5973) and BERTScore (0.8843) are both too low. This happened because you replaced specific concepts with overly simple phrases. For example, 'humans are more likely to give food' became 'people give food', which loses the key idea of probability. 'travel largely unnoticed' became 'do not notice them', which is an inaccurate absolute statement.\n- B1 Vocabulary Violation: The text uses the B1 word 'cute'. It also uses the B1 structure 'are used to'. These are not A2 compliant.\n- Structural Degradation: The sentences are excessively short and disconnected. The sequence 'They use the train to go. They go from one area to another.' is grammatically correct but stylistically poor and unnatural for A2. It demonstrates a failure to use basic conjunctions.\n\nSuggestion: Restore the original meaning by using more precise A2 vocabulary. Combine the excessively short sentences. Replace 'cute' with an A2 alternative like 'nice'. Rephrase 'are used to the dogs' to something like 'think the dogs on the train are normal'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8843,
+          "meaningbert": 0.5973
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:23:12.747107",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Dogs live in packs.  \nThey have learned that people often give food to small nice dogs.  \nThose small dogs ask for food for the whole pack.  \nSome dogs have learned to use the city train.  \nThey ride the train to go from one area to another.  \nScientists do not know how the dogs know when to get off.  \nOne idea is that they use their good smell to find places they like.  \nAnother idea is that they hear the names of stations.  \nBoth ideas may be true.  \nPeople on the train think the dogs on the train are normal and usually do not notice them.",
+      "timestamp": "2025-09-01 17:23:12.747484",
+      "metadata": {
+        "text_id": "f9140e95-f05b-4934-ad92-d69485a7e701",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:23:37.158125",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6bea8656-e21b-4dfe-a297-5dc0a2531f8a",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.62 is catastrophically below the required 0.75 threshold. The simplification has destroyed the core message and logical connections of the original text.\n\n- Primary Failure (MeaningBERT): The original text establishes a clear cause-and-effect: packs learn humans favor cute dogs, SO they send those dogs to beg. Your version breaks this into three disconnected statements, completely losing the strategic reason behind the action. The meaning is not preserved.\n\n- Secondary Failure (BERTScore): The BERTScore of 0.8937 is below the required 0.90. This is a direct result of over-simplification. Key terms like 'metro system', 'territory', 'excellent sense of smell', and 'destinations' were replaced with generic words like 'city train', 'area', 'good smell', and 'places', losing critical lexical fidelity.\n\n- Structural Degradation: The sentence 'One idea is that they use their good smell to find places they like' is a severe dilution of the original concept, which was about recognizing specific scents tied to specific destinations. Your version is vague and loses this important detail.\n\n- Suggestion: Restore the cause-and-effect relationship. Combine the first three sentences using 'so'. Example: 'People give food to small dogs, so the pack sends the small dogs to ask for food.'\n\n- Suggestion: Rephrase to restore lost meaning. The concept of 'recognising scents' must be preserved. Change 'find places they like' to something more accurate, such as 'they know the smell of the right station'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8937,
+          "meaningbert": 0.62
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:23:45.377075",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: People give food to small cute dogs.  \nSo the pack sends those dogs to beg for food.  \nThe dogs beg for the whole pack.  \nSome dogs learned to use the city metro system.  \nThey ride the metro to travel.  \nThey travel from one part of their territory to another.  \nScientists do not know how the dogs know when to get off.  \nOne idea is that they use their excellent sense of smell.  \nThey recognise the scent of their favourite stations.  \nAnother idea is that they hear station names in announcements.  \nBoth ideas may be true.  \nMetro passengers are used to seeing dogs on trains.  \nThe dogs travel mostly unnoticed by locals.",
+      "timestamp": "2025-09-01 17:23:45.377445",
+      "metadata": {
+        "text_id": "0d41f044-ae17-4b12-930e-a9783ab42a1c",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:24:17.329167",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4c9d255f-b75b-4520-9802-448911224922",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8955 is below the required 0.90. This indicates a loss of key phrasing from the original text. For example, 'have now got so used to the sight of' was replaced with 'are used to seeing', losing lexical detail.\n\nAdditionally, the text fails the CEFR compliance check.\n\nCEFR Classification Error: The text was classified as B1, not the required A2.\nB1/B2 Vocabulary Violation: The text includes words above the A2 level. 'Territory' is a B2 word. 'Cute' is a B1 word.\nB1 Grammar Violation: The sentence 'Metro passengers are used to seeing dogs on trains' uses the 'be used to + -ing' structure, which is a B1 grammatical form.\n\nSuggestion: Replace 'territory' with an A2 word like 'area'. Replace 'cute' with an A2 word like 'nice'. Rephrase the sentence 'Metro passengers are used to seeing dogs on trains' to avoid the B1 structure. Use a simpler A2 construction like: 'Passengers see dogs on trains often, so it is normal for them.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8955,
+          "meaningbert": 0.8502
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:24:29.212170",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: People give food to small nice dogs.  \nThe pack sends those dogs to beg for food.  \nThe dogs beg for the whole pack.  \nSome dogs learned to use the city metro system.  \nThey ride the metro to travel.  \nThey travel from one part of their area to another.  \nScientists do not know how the dogs know when to get off.  \nOne idea is that they use their excellent sense of smell.  \nThey recognise the scent of their favourite stations.  \nAnother idea is that they hear station names spoken.  \nBoth ideas may be true.  \nPeople now see dogs on trains often, so it is okay for them.  \nThe locals do not notice the dogs.",
+      "timestamp": "2025-09-01 17:24:29.212682",
+      "metadata": {
+        "text_id": "4e4dfffa-cc96-492f-91fb-4aaba529c6c2",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:25:00.992226",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "84465590-6ada-4df3-beae-cae32349a422",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The submission fails on multiple critical metrics and contains qualitative errors.\n\nPrimary Failure: The MeaningBERT score of 0.7446 is below the required 0.75 threshold, and the BERTScore of 0.8865 is below the required 0.90. This indicates a significant loss of meaning and fidelity from the original text. The cause-and-effect relationship in the final sentence ('passengers got so used to the sight... that they travel largely unnoticed') was lost and replaced with a weak and imprecise statement ('it is okay for them').\n\nSecondary Failures:\n- Factual Inaccuracy: The sentence 'Both ideas may be true' was added. This is an interpretation, not a fact stated in the original text. Do not add information.\n- B1 Vocabulary Violation: The word 'spoken' is B1 level. All vocabulary must be strictly A2 or below. This is a direct violation of the CEFR A2 standard.\n\nCorrective Actions:\n- Suggestion: Restore the original meaning. Rephrase the final sentences to show that because people are used to seeing the dogs, the dogs are not noticed. Example: 'People are now used to the dogs on the trains. The local people do not notice them.'\n- Suggestion: Remove the sentence 'Both ideas may be true' entirely.\n- Suggestion: Replace the B1 word 'spoken'. Rephrase the sentence. Example: 'Another idea is that they hear people say the station names.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8865,
+          "meaningbert": 0.7446
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:25:12.434625",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: People give food to small nice dogs.  \nThe pack sends those dogs to beg for food.  \nThe dogs beg for the whole pack.  \nSome dogs learned to use the city metro system.  \nThey ride the metro to travel.  \nThey travel from one part of their area to another.  \nScientists do not know how the dogs know when to get off.  \nOne idea is that they use their excellent sense of smell.  \nThey recognise the scent of their favourite stations.  \nAnother idea is that they hear the station names.  \nPeople now see dogs on trains a lot.  \nPeople who live there do not notice the dogs.",
+      "timestamp": "2025-09-01 17:25:12.435074",
+      "metadata": {
+        "text_id": "d5662dfa-7e36-46ce-9c71-f0d8a0cb468e",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:25:44.269609",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "350d21af-9614-4a83-91bc-9e76baf10d21",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for failure is the MeaningBERT score of 0.676, which is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\n- MeaningBERT Failure: The original text establishes a clear cause-and-effect relationship: 'humans are more likely to give food to smaller, cuter dogs SO those dogs are sent to beg'. Your version breaks this into two disconnected statements: 'People give food to small nice dogs. The pack sends those dogs to beg for food.' The removal of the logical connector 'so' destroys the core meaning.\n\n- Fidelity Failure: The BERTScore of 0.8895 is below the minimum requirement of 0.90. This is a result of over-simplification. Key concepts like 'more likely' and 'largely unnoticed' were completely removed, not simplified. This damages the fidelity to the source text.\n\n- Structural Degradation: The output is a list of choppy, disconnected sentences. While simplicity is required for A2, your text has been simplified to the point of losing coherence. The logical flow between ideas has been eliminated.\n\n- Suggestion: Restore the meaning by re-introducing simple A2 connectors. Combine the first three sentences to re-establish the cause-and-effect logic. Rephrase the final sentences to include the concept of people being 'used to' the dogs, which is why they are 'unnoticed'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8895,
+          "meaningbert": 0.676
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:25:53.804009",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: People give food to small nice dogs.  \nHumans are more likely to give food to small nice dogs.  \nThe pack sends those dogs to beg for food.  \nThose dogs beg for the whole pack.  \nSome dogs have learned to use the city train system.  \nThey ride the train to travel.  \nThey travel from one part of their area to another.  \nScientists do not know how dogs know when to get off.  \nOne idea is that they use their excellent sense of smell.  \nThey recognise the scent of stations they like.  \nAnother idea is that they hear the station names.  \nPeople now see dogs on trains a lot.  \nPeople are used to the dogs.  \nSo they do not notice them.",
+      "timestamp": "2025-09-01 17:25:53.804498",
+      "metadata": {
+        "text_id": "41ec5c11-814d-4dcd-969e-5d7029ff6274",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:26:23.291658",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "bd7a2aad-1edb-4fb9-9083-346897d4e4fe",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for this failure is the MeaningBERT score of 0.61, which is critically below the required 0.75 threshold. This indicates a severe loss of the original text's core message and logical structure.\n\n- MeaningBERT Failure: The score of 0.6104 is unacceptable. The original text presents a coherent narrative with cause-and-effect relationships. Your output fragments this into a list of disconnected, simple statements, destroying the logical flow. For example, the original's 'so those dogs are sent to beg' is lost.\n- Fidelity Failure: The BERTScore of 0.8849 is below the 0.90 minimum. This is a secondary failure caused by replacing specific terms like 'metro system' and 'territory' with overly generic words like 'train system' and 'area', losing lexical precision.\n- Excessive Fragmentation: The text is broken down too far. Sentences like 'They ride the train to travel' and 'They travel from one part of their area to another' are redundant and should be a single, efficient sentence. This fragmentation is the direct cause of the low meaning score.\n- Redundancy: The first two sentences ('People give food to small nice dogs' and 'Humans are more likely to give food to small nice dogs') are repetitive and inefficient.\n\nSuggestion: Do not mistake simplification for fragmentation. Recombine sentences to restore the logical connections present in the original text. Use simple A2 connectors like 'so' and 'because' to show relationships between ideas. A single, clear A2 sentence is superior to three disconnected A1 sentences that fail to convey the full meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8849,
+          "meaningbert": 0.6104
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:26:37.879327",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Dogs live in packs.  \nThey learned that people give food to small cute dogs.  \nSo the pack sends those small dogs to beg for food.  \nThe small dogs beg for the whole pack.  \nSome dogs learned to use the city train system.  \nThey ride the train to move from one part of their area.  \nScientists do not know how dogs know when to get off.  \nOne idea is that they use their excellent sense of smell.  \nThey recognise the scent of stations they like.  \nAnother idea is that they hear the station names in announcements.  \nPeople on the train have become used to seeing dogs.  \nThe dogs travel mostly unnoticed by locals.",
+      "timestamp": "2025-09-01 17:26:37.880620",
+      "metadata": {
+        "text_id": "184f7a15-d62e-49a6-a448-88c12bb63f9c",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:27:05.407842",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "606c3a79-e7c4-4461-9687-9a6b9ebcf91d",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The CEFR classifier rated the output as B1, which is an instant failure. The text fails to adhere to the strict grammatical and lexical limitations of the A2 level.\n\n- B1 Vocabulary Violation: The word 'cute' is B1 level. It was not replaced with an A2 equivalent.\n- B1 Grammatical Structure: The phrase 'have become used to' is a B1 structure. A2 requires simpler phrasing.\n- B1 Grammatical Structure: The text uses multiple 'that-clauses' (e.g., 'They learned that...', 'One idea is that...'). These subordinate clauses are a B1-level feature.\n- B1 Grammatical Structure: The sentence 'Scientists do not know how dogs know when to get off' uses a 'wh-clause' ('how dogs know...'), which is a B1 structure.\n- Advanced Vocabulary: The word 'unnoticed' is too complex for A2. The passive form is not appropriate.\n\nSuggestion: Eliminate all subordinate clauses by splitting sentences. Replace 'cute' with an A2 word like 'nice'. Rephrase 'become used to' with a simple description like 'Now, it is normal for people to see dogs'. Replace 'unnoticed' with a simple active phrase like 'locals do not see them'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9013,
+          "meaningbert": 0.7528
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:27:16.169253",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Dogs live in packs.  \nThey learned people give food to small nice dogs.  \nThe pack sends those small dogs to beg for food.  \nThe small dogs beg for the whole pack.  \nSome dogs learned to use the city train system.  \nThey ride the train.  \nThey move from one part of their area.  \nScientists do not know when dogs get off the train.  \nOne idea: they use their excellent sense of smell.  \nThey recognise the smell of stations they like.  \nAnother idea: they hear station names in announcements.  \nNow people often see dogs on the trains.  \nLocals often do not notice the dogs.",
+      "timestamp": "2025-09-01 17:27:16.170628",
+      "metadata": {
+        "text_id": "01bc6675-eb98-4152-8025-f7b719fdbbee",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:27:37.214126",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "37d5945d-4cc8-47e6-9a7b-468927d0df40",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6532 is significantly below the required 0.75 threshold. This is an instant failure. The text also fails the fidelity check, with a BERTScore of 0.8813, which is below the 0.90 minimum.\n\n- Meaning Preservation Failure (MeaningBERT 0.6532): The output breaks the original text into a series of disconnected statements. This destroys the logical connections. For example, the original states passengers are so used to the dogs THAT they go unnoticed. Your version, 'Now people often see dogs on the trains. Locals often do not notice the dogs,' presents two separate facts and loses this cause-and-effect meaning.\n\n- Fidelity Failure (BERTScore 0.8813): Key information was omitted. The original states dogs travel 'from one part of their territory to another'. Your version, 'They move from one part of their area,' completely removes the destination ('to another'), which is a critical part of the sentence's meaning.\n\n- Structural Fragmentation: The text is excessively choppy. While A2 requires simple sentences, this output is a list of simple facts, not a coherent paragraph. The flow is unnatural and fails to connect ideas.\n\nSuggestion: Recombine sentences using simple A2 connectors like 'and' or 'so' to restore logical flow. Ensure that the full meaning of a phrase, such as moving from a start point 'to' an end point, is preserved. Rewrite to connect cause and effect. Example: 'People are used to the dogs, so they do not notice them.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8813,
+          "meaningbert": 0.6532
+        }
+      }
+    }
+  ]
+}

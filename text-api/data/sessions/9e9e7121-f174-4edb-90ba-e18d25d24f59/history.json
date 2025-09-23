@@ -1,0 +1,413 @@
+{
+  "session_id": "9e9e7121-f174-4edb-90ba-e18d25d24f59",
+  "created_at": "2025-08-31 20:35:37.461361",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:35:37.478758",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "16-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last 200 years, technology and health got better.\nSo, fewer children died when they were young.\nThis made the number of people in the world grow very fast.\nFamilies were very large.\nTheir children grew up and had their own children.\n\nBut things changed in the 1960s.\nContraception is something that stops a woman from having a baby.\nIt became easier for people to get contraception.\nSo, women started to have fewer babies.\nIn the past, a woman had about six babies.\nNow, a woman has about two babies.",
+      "timestamp": "2025-08-31 20:35:37.478891",
+      "metadata": {
+        "text_id": "bb3c8f2c-34c5-42ed-a1bd-84b1062fbbae",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:35:37.485439",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c07dad3f-3c4b-4ec7-bc3e-8cf5ffd9e056",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6767 is below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\n- The primary error is the loss of the concept 'global average'. The original text describes a worldwide statistical trend. Your version simplifies this to 'a woman', which changes the meaning from a large-scale statistic to an individual example.\n- The phrase 'declined from six... to as low as two' implies a continuous process of reduction. Your version, 'In the past... Now...', presents two static points in time, which is a less precise representation of the meaning.\n\nSuggestion: Restore the concept of a worldwide average. Rephrase the final sentences to communicate that this is a statistic for the whole world, not just one person. For example: 'On average, women around the world now have about two babies.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9015,
+          "meaningbert": 0.6767
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:35:53.158143",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last 200 years, technology and health got better.\nSo, fewer children died when they were young.\nThis made the number of people in the world grow very fast.\nFamilies were very large.\nTheir children grew up and had their own children.\nBut things changed in the 1960s.\nContraception is something that stops a woman from having a baby.\nIt became easier for people to get contraception.\nSo, women started to have fewer babies.\nThe average number of babies for women around the world went down.\nIt went down from about six babies to about two.",
+      "timestamp": "2025-08-31 20:35:53.159939",
+      "metadata": {
+        "text_id": "e0e3d75e-3cb0-489a-adcb-787361e16930",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:36:19.323803",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3404467b-6a6d-43b6-8575-4ba8c527db36",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6272 is substantially below the required 0.75 threshold. This indicates a failure to preserve the core message and the relationships between its concepts.\n\n- Primary Deviation: The original text establishes a direct cause-and-effect: 'improvements in technology and health meant fewer children died'. Your version splits this into two separate ideas: 'technology and health got better. So, fewer children died'. This separation weakens the direct causal link that is central to the original's meaning.\n\n- Secondary Deviation: The original states 'with the wider availability of contraception'. Your version simplifies this to 'It became easier for people to get contraception'. This loses the specific concept of 'availability', which is a key detail.\n\n- Consequence: While factually correct, the text over-simplifies to the point of losing semantic integrity. The chain of logic is broken into pieces, failing to meet the meaning preservation standard.\n\nSuggestion: Rephrase to restore the direct cause-and-effect links. Combine sentences to show how one event directly caused another. Example: 'Because technology and health got better, fewer children died when they were young.' This phrasing is A2-compliant but preserves the original's logical connection more accurately.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9092,
+          "meaningbert": 0.6272
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:36:38.483350",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last 200 years, technology and health got better.\nThis meant fewer children died when they were young.\nThis made the number of people in the world grow very fast.\nFamilies were very large.\nTheir children grew up and had their own children.\nBut things changed in the 1960s.\nContraception is something that stops a woman from having a baby.\nMore people could get contraception.\nSo, women started to have fewer babies.\nThe average number of babies for women around the world went down.\nIt went down from about six babies to about two.",
+      "timestamp": "2025-08-31 20:36:38.485177",
+      "metadata": {
+        "text_id": "889426c6-0b48-409a-80c6-be1957455c42",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 20:37:09.576007",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ff97d869-0e37-47fc-8cc8-6026e07c8817",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6047 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text. The original text establishes a direct cause-and-effect relationship in a single complex sentence: 'with the wider availability of contraception... the global average number of babies... has declined'. Your output breaks this single causal link into a sequence of separate, simple sentences: 'But things changed in the 1960s... More people could get contraception. So, women started to have fewer babies.' This fragmentation, while structurally simple, dilutes the semantic connection between the cause (contraception) and the effect (declining birth rate), resulting in the low meaning preservation score. Suggestion: Rephrase to restore the direct cause-and-effect link. Combine sentences to make the relationship explicit. For example: 'In the 1960s, more people could get contraception. Because of this, the average number of babies for each woman went down from about six to two.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.913,
+          "meaningbert": 0.6047
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:37:33.564936",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last 200 years, technology and health got better.\nThis meant fewer children died when they were young.\nThis made the number of people in the world grow very fast.\nFamilies were very large.\nTheir children grew up and had their own children.\nBut in the 1960s, more people could get contraception.\nContraception is something that stops a woman from having a baby.\nBecause of this, the average number of babies for each woman went down.\nIt went down from about six babies to about two.",
+      "timestamp": "2025-08-31 20:37:33.565370",
+      "metadata": {
+        "text_id": "9c5c5267-8e6e-48ce-be13-a891fa9bf68a",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:38:05.391174",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8181a42a-ac27-4b7b-99e9-29b3acb2b45e",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6552 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text.\n\n- The primary failure is the loss of the direct causal link. The original text states that improvements in health \"meant fewer children died young, fuelling rapid population growth.\" The word \"fuelling\" establishes a direct and strong cause-and-effect relationship. Your version breaks this into two separate statements: \"This meant fewer children died... This made the number of people... grow\". This structure changes the meaning from a direct consequence to a simple sequence of events, which is a critical semantic deviation.\n- The original text states the number of babies declined \"to as low as two\". Your version states \"to about two\". The introduction of the word \"about\" reduces the precision of the original data. The nuance of \"as low as\" is also lost.\n\nSuggestion: Rephrase to restore the direct cause-and-effect relationship. A single sentence is required. Example: \"Because fewer children died, the world's population grew very fast.\" Remove the word \"about\" to maintain factual accuracy with the source text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9166,
+          "meaningbert": 0.6552
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:38:20.650434",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last 200 years, technology and health got better.\nBecause fewer children died, the number of people in the world grew very fast.\nFamilies were very large.\nTheir children grew up and had their own children.\nBut in the 1960s, more people could get contraception.\nContraception is something that stops a woman from having a baby.\nBecause of this, the average number of babies for each woman went down.\nIt went down from six babies to two.",
+      "timestamp": "2025-08-31 20:38:20.650837",
+      "metadata": {
+        "text_id": "c491fc1d-ba3e-4057-b4aa-3c750682fcf8",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 20:38:47.289824",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5cf14a2e-41fc-414b-be99-47128bde87dc",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7346 is below the required 0.75 threshold. This indicates a failure to preserve the core message. The original text establishes direct causal links and specific details that your version has weakened or omitted.\n\n- The original text specifies the 'global average'. Your text omits the word 'global', losing a key piece of information and contributing to the meaning shift.\n- The original text states 'improvements in technology and health meant fewer children died'. Your version separates this into two sentences ('technology and health got better. Because fewer children died...'), which weakens the direct cause-and-effect relationship.\n- The original phrase 'fuelling rapid population growth' implies a continuous, active process. Your version, 'grew very fast', captures the speed but not the sense of being actively driven by the other factors.\n\nSuggestion: Rephrase to restore the direct causal link. Example: 'Because technology and health got better, fewer children died, and the number of people in the world grew very fast.'\nSuggestion: Re-insert the word 'global' or an A2 equivalent to maintain factual precision. Example: 'the average number of babies for each woman in the world went down.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.914,
+          "meaningbert": 0.7346
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:39:02.299269",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last 200 years, technology and health got better.\nThis meant fewer children died, and the number of people grew very fast.\nFamilies were very large.\nTheir children grew up and had their own children.\nBut in the 1960s, more people could get contraception.\nContraception is something that stops a woman from having a baby.\nBecause of this, the average number of babies for each woman in the world went down.\nIt went down from six babies to two.",
+      "timestamp": "2025-08-31 20:39:02.300777",
+      "metadata": {
+        "text_id": "b39bb87a-3de2-469c-91e9-a7b41c3b19c7",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 20:39:31.380819",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "71acf6d9-13ff-412e-a7a3-8d8f99518270",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7377 is below the required threshold of 0.75. This indicates a slight but critical loss of the original text's core message.\n\n- The original text states that improvements in technology \"fuelled\" population growth, indicating a direct and strong causal link. Your version uses \"and\", which weakens this connection to a simple sequence of events.\n- The original text specifies that \"fewer children died young\". Your version omits the word \"young\", losing a key detail about infant and child mortality being the primary driver.\n- While the text is factually correct and structurally simple, these subtle losses in meaning are enough to fail the preservation requirement.\n\nSuggestion: Restore the strong causal link. Rephrase to show that better health directly caused the population to grow. Re-insert the concept of children dying \"young\". For example: \"Because technology and health got better, fewer children died young. This made the number of people grow very fast.\"",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9168,
+          "meaningbert": 0.7377
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:39:43.015490",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last 200 years, technology and health got better.\nBecause of this, fewer children died young.\nThis made the number of people grow very fast.\nFamilies were very large.\nTheir children grew up and had their own children.\nBut in the 1960s, more people could get contraception.\nContraception is something that stops a woman from having a baby.\nBecause of this, the average number of babies for each woman in the world went down.\nIt went down from six babies to two.",
+      "timestamp": "2025-08-31 20:39:43.018085",
+      "metadata": {
+        "text_id": "29be6a2d-29de-4855-8ca4-350dbd4990fe",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 20:40:12.456888",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "73120efa-0268-44b3-87e7-b9f81068d744",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.696 is below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text. The original text establishes a direct cause-and-effect relationship with the phrase 'fuelling rapid population growth'. Your version breaks this into separate sentences: 'fewer children died young. This made the number of people grow very fast.' This separation weakens the explicit causal link, which is critical to the original's meaning. While factually correct, the simplification has resulted in a measurable loss of semantic meaning according to the diagnostic model. Suggestion: Restore the strong, direct causal link using A2-level connectors. Combine the ideas. For example: 'Because fewer children died young, the number of people grew very fast.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9168,
+          "meaningbert": 0.696
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:40:23.527455",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last 200 years, technology and health got better.\nBecause fewer children died young, the number of people grew very fast.\nFamilies were very large.\nTheir children grew up and had their own children.\nBut in the 1960s, more people could get contraception.\nContraception is something that stops a woman from having a baby.\nBecause of this, the average number of babies for each woman in the world went down.\nIt went down from six babies to two.",
+      "timestamp": "2025-08-31 20:40:23.529362",
+      "metadata": {
+        "text_id": "df7b5c5b-3b90-4c12-8565-4b12cdb77428",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 20:40:50.236747",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0b0f9dcb-6cc5-4a6b-ba19-8a7c76028fc5",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7269 is below the required 0.75 threshold. This indicates the core message was not adequately preserved.\n\n- Meaning Preservation Failure: The original text establishes a direct cause and effect: 'improvements... fuelling rapid population growth'. Your version splits this into two sentences, weakening the causal link and altering the meaning.\n\n- B1 Grammatical Structure: The definition 'Contraception is something that stops a woman from having a baby' uses a relative clause ('that stops...'). This is a B1 structure and is too complex for the A2 standard.\n\n- Loss of Nuance: The original states the number of babies declined 'to as low as two'. Your version, 'to two', loses the specific meaning that two is the lowest point in a range.\n\nSuggestion: Rephrase the definition of contraception to remove the B1 relative clause. Example: 'Contraception helps a woman to not have a baby.' Rephrase the first two sentences to create a stronger, A2-appropriate causal link. Example: 'Technology and health got better, so fewer children died young. This made the number of people grow very fast.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9176,
+          "meaningbert": 0.7269
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:41:04.797631",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last 200 years, technology and health got better.\nFewer children died young, so the number of people grew very fast.\nFamilies were very large.\nTheir children grew up and had their own children.\nBut in the 1960s, more people could get contraception.\nContraception helps a woman to not have a baby.\nBecause of this, the average number of babies for each woman in the world went down.\nIt went down from six babies to just two.",
+      "timestamp": "2025-08-31 20:41:04.800329",
+      "metadata": {
+        "text_id": "65e9cdf4-84f0-4fea-89d2-340d5b0fbeb9",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:41:28.721380",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "57faed61-4859-4f26-b662-c285f3302fbd",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text successfully simplifies the original content to a strict A2 level while maintaining factual accuracy and core meaning.\n- Factual Integrity: All data points (200 years, 1960s, six to two babies) and the causal relationship between technology/health and population growth are correctly preserved.\n- CEFR Compliance: The vocabulary is strictly limited to A1 and A2 levels as verified by the provided list. Sentence structures are short, simple, and use only basic A2 connectors ('so', 'and', 'but', 'because').\n- Metrics Adherence: All metrics are well within the required parameters. MeaningBERT at 0.7755 and BERTScore at 0.9197 confirm high fidelity to the original message.\n- Keyword Definition: The provided definition for 'contraception' is an exemplary model of A2 simplification. It is clear, direct, and uses basic vocabulary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9197,
+          "meaningbert": 0.7755
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:41:41.480070",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last 200 years, technology and health got better.\nFewer children died young, so the number of people grew very fast.\nFamilies were very large.\nTheir children grew up and had their own children.\nBut in the 1960s, more people could get contraception.\nContraception helps a woman to not have a baby.\nBecause of this, the average number of babies for each woman in the world went down.\nIt went down from six babies to just two.",
+      "timestamp": "2025-08-31 20:41:41.483846",
+      "metadata": {
+        "text_id": "ff318df9-ffb4-4cd7-948c-08dd50f7f35d",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:42:04.571935",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2038178d-43be-4775-a9d8-944f95b106cf",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text successfully simplifies the original content to a strict A2 level while maintaining factual accuracy and core meaning.\n- Factual Integrity: All data points (200 years, 1960s, six to two babies) and the causal relationship between technology/health and population growth are correctly preserved.\n- CEFR Compliance: The vocabulary is strictly limited to A1 and A2 levels as verified by the provided list. Sentence structures are short, simple, and use only basic A2 connectors ('so', 'and', 'but', 'because').\n- Metrics Adherence: All metrics are well within the required parameters. MeaningBERT at 0.7755 and BERTScore at 0.9197 confirm high fidelity to the original message.\n- Keyword Definition: The provided definition for 'contraception' is an exemplary model of A2 simplification. It is clear, direct, and uses basic vocabulary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9197,
+          "meaningbert": 0.7755
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:42:16.269451",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last 200 years, technology and health got better.\nFewer children died young, so the number of people grew very fast.\nFamilies were very large.\nTheir children grew up and had their own children.\nBut in the 1960s, more people could get contraception.\nContraception helps a woman to not have a baby.\nBecause of this, the average number of babies for each woman in the world went down.\nIt went down from six babies to just two.",
+      "timestamp": "2025-08-31 20:42:16.271241",
+      "metadata": {
+        "text_id": "827df2ea-8098-4c3c-aa80-595aad0dc7de",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:42:40.329717",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "49ae096a-02d9-4aa9-9cf0-e1d949aaf11b",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text is an exemplary model of A2 simplification. It meets all diagnostic criteria without deviation. Factual Integrity: The output is factually identical to the original text. All numbers and core concepts are preserved. Metric Compliance: All metrics are well within the required thresholds. MeaningBERT at 0.77 and BERTScore at 0.91 confirm high fidelity to the source. The CEFR Classifier correctly identifies the text as A2. Structural Simplicity: The text is correctly broken down into short, simple sentences. The use of connectors is limited to approved A2 words like 'so', 'and', 'but', and 'because'. Vocabulary Control: The vocabulary is strictly limited to the A1 and A2 levels. The key B1-level term 'contraception' was correctly identified and defined in simple A2 terms within the text itself, which is a perfect execution of the task.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9197,
+          "meaningbert": 0.7755
+        }
+      }
+    }
+  ]
+}

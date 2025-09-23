@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "e5d19fff-044f-4c1c-8ec1-0a4b5d7dc885",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "The speaker says something true.  \nHe thinks there is a danger.  \nWhen we use more technology, we feel more alone.  \nThis is not a problem for people of my age.  \nWe grew up without technology.  \nWe know how to be alone.  \nWe know it is OK.  \nYoung people under 20 are different.  \nThey are always talking on their phones.  \nThey rarely know what it is like to be alone.  \nThey may not learn to enjoy their own company.  \nThey learn to talk with messages.  \nThey can edit these messages.  \nSo they do not learn real conversation.  \nReal conversation is with the person in front of them.",
+    "version": 11,
+    "created_at": "2025-09-01 17:37:33.188884",
+    "updated_at": "2025-09-01 17:37:33.188885",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "4f21f549-818f-469e-af2a-f958ad17bac4",
+    "approval": "FAIL",
+    "grade": 2,
+    "feedback": "FAIL: Meaning Preservation Failure. The primary reason for failure is the catastrophic loss of the original text's core message and tone. The MeaningBERT score of 0.6546 is significantly below the required 0.75 threshold. This indicates the simplified text does not convey the same meaning as the original.\n\n- Meaning Preservation Failure: The original text conveys a strong, personal warning ('I honestly believe', 'danger', 'at the expense of'). Your version is a list of flat, declarative statements that removes this critical tone. The meaning is not just the facts, but the warning behind them. You have failed to preserve this.\n\n- Fidelity Failure: The BERTScore of 0.8785 is below the minimum 0.90. This confirms that too much of the original's specific phrasing and lexical detail was lost during simplification.\n\n- Vocabulary Violation: The text uses the word 'rarely', which is a B1 level adverb. This is an unacceptable deviation from the A2 standard.\n\n- Structural Deficiency: The text is broken into excessively short, choppy sentences. This over-simplification is the direct cause of the meaning loss. For example, 'They can edit these messages. So they do not learn real conversation' fails to capture the stronger, negative consequence implied by the original phrase 'at the expense of learning the art of real conversation'.\n\nSuggestion: You must rewrite the text. Restore the original's sense of warning. Combine some of the short sentences using A2 connectors like 'and' or 'because' to show how the ideas are related. Remove the B1 word 'rarely' and replace it with an A2 phrase such as 'do not often'.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8785,
+      "meaningbert": 0.6546
+    },
+    "created_at": "2025-09-01 17:38:00.607851"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "e5d19fff-044f-4c1c-8ec1-0a4b5d7dc885",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "The speaker says something true.  \nHe thinks there is a danger.  \nWhen we use more technology, we feel more alone.  \nThis is not a problem for people of my age.  \nWe grew up without technology.  \nWe know how to be alone.  \nWe know it is OK.  \nYoung people under 20 are different.  \nThey are always talking on their phones.  \nThey rarely know what it is like to be alone.  \nThey may not learn to enjoy their own company.  \nThey learn to talk with messages.  \nThey can edit these messages.  \nSo they do not learn real conversation.  \nReal conversation is with the person in front of them.",
+    "version": 11,
+    "created_at": "2025-09-01 17:37:33.188884",
+    "updated_at": "2025-09-01 17:37:33.188885",
+    "metrics_meaningbert": 0.6546,
+    "metrics_cefr_compliance": "A2"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "7f95da85-a075-4ec6-8db2-2116039144cc",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Cultural stereotypes are wrong ideas about a whole group.  \nWe should be aware of possible differences.  \nThis awareness can help us avoid miscommunication.  \nBut stereotypes are bad for business relationships.  \nOur region, community, age, gender, work culture and experiences shape us.  \nWe should keep this knowledge in mind.  \nWe should not think all people in a country are the same.",
+    "version": 11,
+    "created_at": "2025-09-01 18:01:05.516733",
+    "updated_at": "2025-09-01 18:01:05.516745",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "4f0b54f8-bd5a-4480-847c-198cd35d1abc",
+    "approval": "FAIL",
+    "grade": 2,
+    "feedback": "FAIL: Fidelity Failure. The BERTScore of 0.8698 is below the required 0.90 threshold. This indicates a significant loss of key phrasing from the original text.\n\n- Primary Deviation: The text fails the BERTScore metric. Key concepts like 'detrimental to building good business relationships' were reduced to 'bad for business relationships', losing lexical precision.\n\n- Secondary Deviation: CEFR Compliance Failure. The text was classified as B1, not the required A2. This is a direct result of using vocabulary above the A2 level.\n\n- Vocabulary Audit: The text contains multiple words that are not on a standard A2 word list. These words artificially inflate the complexity. \n  - 'cultural' (B1)\n  - 'aware' (B1)\n  - 'awareness' (B2)\n  - 'gender' (B1)\n\n- Corrective Path: \n  - Suggestion: Remove all B1 and B2 vocabulary. You must find A2 alternatives.\n  - Suggestion: Replace 'aware' and 'awareness'. Use 'know about' or 'understand'.\n  - Suggestion: Replace 'gender'. Use 'if we are men or women'.\n  - Suggestion: Rephrase sentences to restore more of the original's specific phrasing without using complex words. The current version is too simplistic, causing the fidelity score to drop.",
+    "metrics": {
+      "cefr_compliance": "B1",
+      "bertscore": 0.8698,
+      "meaningbert": 0.8384
+    },
+    "created_at": "2025-09-01 18:01:28.134521"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "8ca4ac2e-b673-426f-9b67-a1989c6f99d1",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Cultural stereotypes are wrong ideas about groups of people.  \nPeople can think and act differently.  \nKnowing this can help us avoid miscommunication.  \nBut we must also remember that stereotypes can hurt business relationships.  \nMany things can change how we think.  \nWe live in a place. This place can change us.  \nWe meet people. These people can change us.  \nOur age can change us.  \nWe can be a man or a woman. This can change us.  \nWe belong to a work culture. This culture can change us.  \nWe have life experiences. These experiences can change us.  \nWe should keep this knowledge in the back of our mind.  \nWe should not call all people in a country the same.",
+    "version": 6,
+    "created_at": "2025-09-01 17:58:11.850156",
+    "updated_at": "2025-09-01 17:58:11.850157",
+    "metrics_meaningbert": 0.5943,
+    "metrics_cefr_compliance": "A2"
+  }
+}

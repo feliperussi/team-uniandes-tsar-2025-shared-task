@@ -1,0 +1,117 @@
+{
+  "session_id": "bdac48f8-8623-4c1c-a0dd-0e5540b12164",
+  "created_at": "2025-08-31 22:32:32.913302",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:32:32.957462",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "04-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: You often see small animals in cities. Like birds, squirrels, mice, and insects.\n\nBut now, more big wild animals come into cities. The news has many stories about this. For example, bears are in parks in Vancouver. Leopards are on streets in Mumbai. Wild pigs are in gardens in Berlin.\n\nWhat happens when big animals come to our cities? Do people like them? Or are they dangerous? Or are they a problem?",
+      "timestamp": "2025-08-31 22:32:32.957829",
+      "metadata": {
+        "text_id": "0148a4ca-9c3c-47d4-ab58-8167b4d42688",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-08-31 22:32:32.966139",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "267c6362-0070-49e0-b277-4f2a97a6c23a",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Structural Analysis Deviation. The text contains a sentence fragment, which deviates from the requirement for short, simple sentences. The phrase 'Like birds, squirrels, mice, and insects.' is not a complete sentence. While the MeaningBERT (0.7504), BERTScore (0.9298), and CEFR Classifier (A2) metrics are acceptable, the structural integrity is compromised by this grammatical error. All sentences must be complete and grammatically sound for A2 compliance. Suggestion: Combine the fragment with the preceding sentence to form a single, grammatically correct simple sentence.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9298,
+          "meaningbert": 0.7504
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:32:38.529470",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: You often see small animals in cities, like birds, squirrels, mice, and insects.\n\nBut now, more big wild animals come into cities. The news has many stories about this. For example, bears are in parks in Vancouver. Leopards are on streets in Mumbai. Wild pigs are in gardens in Berlin.\n\nWhat happens when big animals come to our cities? Do people like them? Or are they dangerous? Or are they a problem?",
+      "timestamp": "2025-08-31 22:32:38.530157",
+      "metadata": {
+        "text_id": "f47ce076-a9bf-49e3-b504-747a57406194",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 22:32:53.627891",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "37889c41-5c3a-408f-ba85-90b3763a638b",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7491 is below the required 0.75. This indicates a slight loss of the original text's core message and nuance. Specific deviations include: The phrase 'in recent years' was simplified to 'now', losing the specific timeframe of the trend. The emphasis on a growing trend, 'bigger and bigger numbers', was reduced to 'more big wild animals', which less effectively conveys the increasing scale. The nuanced question 'Are they welcome or are they considered a danger or a pest?' was simplified to 'Do people like them? Or are they dangerous? Or are they a problem?', losing the specific connotation of 'pest' and the formal 'considered a danger'. Suggestion: Rephrase to more accurately reflect the original's emphasis on the increasing trend over time and the specific categories of concern (welcome, danger, pest).",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9302,
+          "meaningbert": 0.7491
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:33:01.822809",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: You often see small animals in cities, like birds, squirrels, mice, and insects.\nBut in the last few years, more and more big wild animals come into cities. The news has many stories about this. For example, bears are in parks in Vancouver. Leopards are on streets in Mumbai. Wild pigs are in gardens in Berlin.\nWhat happens when big animals come to our cities? Are they welcome? Or are they a danger? Or are they a pest?",
+      "timestamp": "2025-08-31 22:33:01.823775",
+      "metadata": {
+        "text_id": "573e6c99-3842-4c0d-8ca0-792b0caeafa5",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 22:33:17.049629",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1f5ad443-8bdf-409f-a273-de92182c701d",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text successfully meets all CEFR A2 readability standards and accurately conveys the original meaning. All priority checks were passed. Factual integrity is maintained, and both MeaningBERT (0.7766) and BERTScore (0.943) are well above the required thresholds. The CEFR classifier correctly identified the text as A2. The vocabulary is consistently at an A2 level, with appropriate simplifications of B1 words from the original text (e.g., 'recent years' to 'last few years', 'world's press' to 'The news', 'reports' to 'stories', 'considered' to 'are they'). Sentence structures are simple and direct, using A2-appropriate connectors such as 'But', 'For example', and 'Or'. No deviations from the A2 standard were found.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.943,
+          "meaningbert": 0.7766
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "3006706f-9ac3-4a0f-9267-98e86b275f8c",
+    "cefr_level": "B1",
+    "text_id": "text_001",
+    "text_translated": "The first test is DART, the Double Asteroid Redirection Test. DART will try to change the orbit of a small moon. Scientists plan to test DART on Didymoon, the moon of the asteroid Didymos. Didymoon is about 150\u202fmetres wide and circles Didymos, which is about 800\u202fmetres across. The impact should push Didymoon into a different orbit. Telescopes on Earth should be able to see this change.",
+    "version": 11,
+    "created_at": "2025-09-01 17:42:40.489984",
+    "updated_at": "2025-09-01 17:42:40.489990",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "2ec9ba64-2afa-4f12-a686-6ff8086a341c",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation. The primary reason for failure is the MeaningBERT score of 0.6493, which is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message. The original text describes a test to see if a change is detectable ('hopefully the impact... will knock it out of its orbit enough for Earth-based telescopes to pick up'). Your output changes this to a more declarative statement of what is expected to happen ('The impact should push Didymoon into a different orbit'), losing the crucial nuance that this is an experiment with an uncertain outcome. Additionally, the text fails the CEFR compliance check, receiving a 'B2' classification instead of the target 'B1'. This is likely caused by the sentence 'Didymoon is about 150 metres wide and circles Didymos, which is about 800 metres across.' The use of a non-defining relative clause ('which is...') is a grammatical structure too complex for B1. Suggestion: To achieve B1, split this into two sentences: 'Didymoon circles Didymos. Didymos is about 800 metres across.'",
+    "metrics": {
+      "cefr_compliance": "B2",
+      "bertscore": 0.9239,
+      "meaningbert": 0.6493
+    },
+    "created_at": "2025-09-01 17:43:08.964666"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "083f1a27-bc8a-4e51-b53f-f4c238a2ef97",
+    "cefr_level": "B1",
+    "text_id": "text_001",
+    "text_translated": "The first test is DART (Double Asteroid Redirection Test). It will test DART by trying to hit Didymoon, the small moon of the asteroid Didymos. Didymoon is about 150\u202fmetres wide. It circles the 800\u2011metre\u2011wide Didymos. If the impact works, it should move Didymoon out of its orbit so that Earth\u2011based telescopes can see the change.",
+    "version": 4,
+    "created_at": "2025-09-01 17:38:36.000404",
+    "updated_at": "2025-09-01 17:38:36.000405",
+    "metrics_meaningbert": 0.6861,
+    "metrics_cefr_compliance": "B2"
+  }
+}

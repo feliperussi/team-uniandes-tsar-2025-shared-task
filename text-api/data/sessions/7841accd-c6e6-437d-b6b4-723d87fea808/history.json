@@ -1,0 +1,80 @@
+{
+  "session_id": "7841accd-c6e6-437d-b6b4-723d87fea808",
+  "created_at": "2025-09-01 17:10:00.788372",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:10:01.693545",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "102-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Most people think poor countries are in a very bad situation.\nThey think these countries have much poverty.\nBad leaders rule them.\nPeople think there is little hope for good change.\nBut this is not true.\nA big change is happening.\nIn the last 20 years, 700 million people got more money.\nThey are not poor now.\nAlso, six million less children die from sickness every year.\nMany more girls go to school.\nMany people now have clean water.",
+      "timestamp": "2025-09-01 17:10:01.693698",
+      "metadata": {
+        "text_id": "fc9d3067-6b4d-4792-b6ac-8dde3028893d",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:10:01.727368",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9999b718-3ac2-4840-abd6-58455fc3ddb5",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Audit. The text contains a B1-level word, 'poverty', which is not compliant with the A2 standard. The original text's concept of 'poverty' must be rephrased using only A2 vocabulary, such as 'not having much money' or 'being poor'. Additionally, there is a grammatical error in the sentence 'six million less children die from sickness every year'. For countable nouns like 'children', the correct word is 'fewer', not 'less'. While 'less' is an A2 word, its incorrect application demonstrates a lack of grammatical precision required even at the A2 level. Suggestion: Replace 'much poverty' with 'not much money' or 'being very poor'. Correct 'less children' to 'fewer children'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9294,
+          "meaningbert": 0.8207
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:10:14.841566",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Most people think poor countries are in a very bad situation.\nPeople in these countries are very poor.\nBad leaders rule them.\nPeople think there is little hope for good change.\nBut this is not true.\nA big change is happening.\nIn the last 20 years, 700 million people got more money.\nThey are not poor now.\nAlso, six million fewer children die from sickness every year.\nMany more girls go to school.\nMany people now have clean water.",
+      "timestamp": "2025-09-01 17:10:14.841875",
+      "metadata": {
+        "text_id": "987a1d42-a3ec-4b7e-b1a9-7b972d24929a",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 17:10:36.501574",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b72068fe-4a67-44bb-8f48-046913842cf0",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text successfully meets all CEFR A2 readability standards. It accurately preserves the factual information and core meaning of the original text, as evidenced by a MeaningBERT score of 0.8126 and a BERTScore of 0.9304, both well within the required thresholds. The CEFR classifier correctly identified the text as A2. The vocabulary is entirely appropriate for an A2 level, with no B1 or higher words detected. Sentence structures are consistently short and simple, and connectors are limited to A2-appropriate terms like 'But' and 'Also'. This is an exemplary simplification to the A2 level.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9304,
+          "meaningbert": 0.8126
+        }
+      }
+    }
+  ]
+}

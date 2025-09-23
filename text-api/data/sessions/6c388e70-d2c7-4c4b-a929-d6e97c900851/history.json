@@ -1,0 +1,80 @@
+{
+  "session_id": "6c388e70-d2c7-4c4b-a929-d6e97c900851",
+  "created_at": "2025-09-01 17:21:04.943675",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:21:07.700924",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "81-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Ed Stafford is from the UK.  \nHe was the first person to walk the whole Amazon River.  \nHe started at a small stream in the Andes mountains of Peru.  \nHe reached the river mouth in Brazil.  \nThe walk took two years and four months.  \nHe walked about 6,000 kilometres.  \nThe Amazon rainforest has poisonous snakes, crocodiles and jaguar.  \nSo Ed was in constant risk.  \nFortunately, he only got many mosquito and ant bites.",
+      "timestamp": "2025-09-01 17:21:07.701068",
+      "metadata": {
+        "text_id": "1b7764f7-35ff-44b1-aa30-978ca39d453f",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:21:09.574862",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d069de70-18d8-4ca2-bb80-7ca81c5a0ef7",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The output text contains factual discrepancies when compared to the original. The original text states 'jaguars' (plural), but the output uses 'jaguar' (singular). The original specifies 'a few thousand' bites, which was changed to the less precise term 'many'. Adherence to factual detail is non-negotiable.\n\n- Vocabulary Standard Violation: The text fails to adhere to the A2 vocabulary list. Multiple B1 words were used without simplification. These include: 'stream', 'rainforest', 'poisonous', 'constant', 'risk', 'mosquito', 'ant'. This is unacceptable for an A2 text.\n\n- Ineffective Simplification: The word 'danger' (B1) was replaced with 'risk' (B1). This is not a simplification. An A2-compliant phrase like 'it was not safe' was required.\n\n- Structural Compliance: The use of short, simple sentences is correct and meets the A2 standard.\n\nSuggestion: Correct all factual details to match the original text precisely. Replace all B1-level words with A2 alternatives. 'stream' must become 'small river'. 'constant risk' must be rephrased to 'it was always not safe'. 'poisonous snakes' must be rephrased to 'snakes that can kill you'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9186,
+          "meaningbert": 0.8768
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:21:18.549544",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Ed Stafford is from the UK.  \nHe was the first person to walk the whole Amazon River.  \nHe started at a small river in the Andes mountains of Peru.  \nHe reached the river mouth in Brazil.  \nThe walk took two years and four months.  \nHe walked about 6,000 kilometres.  \nThe Amazon forest has snakes that can kill you, crocodiles and jaguars.  \nIt was always not safe for Ed.  \nFortunately, he only got a few thousand bites from bugs.",
+      "timestamp": "2025-09-01 17:21:18.550142",
+      "metadata": {
+        "text_id": "4d7bf19f-eb5e-4a4a-bf22-7631e9bea80e",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 17:21:39.279682",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f1c6286b-e1eb-44db-baaf-085c7e6e2799",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: This text is an exemplary model of A2 simplification.\n\n- Factual Integrity: All facts, numbers, and names from the original text are preserved with perfect accuracy.\n- Metric Compliance: The text exceeds all metric requirements. The MeaningBERT score of 0.85 and BERTScore of 0.91 confirm that the core message and key details were successfully retained. The CEFR Classifier correctly identifies the output as A2.\n- Vocabulary Control: Vocabulary is strictly confined to the A2 level. The simplification of 'poisonous' to the descriptive phrase 'that can kill you' is an excellent A2 strategy.\n- Structural Simplification: The original text's longer sentences have been expertly deconstructed into short, simple sentences. This structure is ideal for A2 readability. The text demonstrates a complete and successful adherence to all A2 standards.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9105,
+          "meaningbert": 0.8537
+        }
+      }
+    }
+  ]
+}

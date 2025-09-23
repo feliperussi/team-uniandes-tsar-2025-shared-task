@@ -1,0 +1,413 @@
+{
+  "session_id": "7336579b-395e-4a08-9b54-61edb80fef89",
+  "created_at": "2025-09-01 17:54:59.487997",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:55:00.322794",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "15-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The findings give us a reason.  \nWe suggest Girox Foods use a people\u2011focused way of managing.  \nWe should look for ways to give workers adjustable work hours.  \nWe should also let workers choose where they work.  \nManagers must think of different ways to push workers.  \nThey give good praise and thanks for the work.  \nWe need spend more on training.  \nThis is especially for talking with people from different cultures.  \nIt can also help make a good place for workers.  \nIn that place they can do their best work.",
+      "timestamp": "2025-09-01 17:55:00.322934",
+      "metadata": {
+        "text_id": "cfbd1ede-25d4-4a2c-8229-cba55b21016e",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:55:02.749317",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5f5a8aab-2e60-4ca7-ac00-21de7a44120a",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text recommends that managers 'provide more positive reinforcement'. Your text incorrectly states this as a current fact: 'They give good praise and thanks for the work.' This changes the core message from a recommendation to a description.\n\n- Meaning Preservation Failure. The MeaningBERT score of 0.6999 is significantly below the 0.75 threshold. This is a direct result of changing a future recommendation into a statement of current fact, which fundamentally alters the text's purpose.\n\n- Fidelity Failure. The BERTScore of 0.883 is below the required 0.90. Key phrases from the original, such as 'positive reinforcement and recognition', were not adequately preserved, leading to a loss of lexical detail.\n\n- CEFR Compliance Failure. The text was classified as B1, not the required A2. The sentence 'We suggest Girox Foods use a people\u2011focused way of managing' uses a subjunctive structure ('suggest...use') which is too complex for the A2 level.\n\n- Grammatical Error. The sentence 'We need spend more on training' is incorrect. It must be 'We need to spend more on training'.\n\nSuggestion: Rephrase the sentence about praise to make it a clear recommendation for the future, not a description of the present. Simplify the sentence structure to remove B1-level grammar; for example, 'We think Girox Foods should...'. Correct the grammatical error.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.883,
+          "meaningbert": 0.6999
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:55:07.851496",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The findings give us a reason.  \nWe think Girox Foods should use a people\u2011focused way of managing.  \nWe should look for ways to give workers adjustable work hours.  \nWe should also let workers choose where they work.  \nManagers should give good praise and thanks for the work.  \nWe need to spend more on training.  \nThis training should be especially for5 talking with people from different cultures.  \nIt can also help make a good place for workers.  \nIn that place they can do their best work.",
+      "timestamp": "2025-09-01 17:55:07.851653",
+      "metadata": {
+        "text_id": "010ac94f-c243-423c-bdd7-d07c64ac41f5",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:55:37.467058",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e43eb489-7e9f-4791-bd31-de4057e0d8aa",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on multiple high-priority checks.\n\nPrimary Failure: The MeaningBERT score of 0.7369 is below the required 0.75 threshold. The original text makes a formal 'recommendation', but your version weakens this to 'The findings give us a reason'. The important concept of 'challenging staff' was completely omitted, which is a significant loss of meaning.\n\nSecondary Failures:\n- Fidelity Failure: The BERTScore of 0.8777 is below the 0.90 minimum. This is due to the over-simplification of key terms. 'Professional development' became 'training' and 'positive reinforcement and recognition' became 'good praise and thanks', losing critical lexical detail.\n- CEFR Compliance Failure: The classifier rated the text B1, not the required A2. The sentence 'We should also let workers choose where they work' contains a subordinate clause ('where they work'), which is a B1 grammatical structure.\n- Structural Complexity: The phrase 'a people-focused way of managing' is a complex noun phrase that exceeds the A2 standard.\n- Typographical Error: The text contains a typo: 'especially for5 talking'.\n\nSuggestions:\n- Rephrase the opening to restore the meaning of a 'recommendation'. Use: 'The report shows we should change things.'\n- Re-introduce the missing concept of challenging employees.\n- Eliminate the B1 subordinate clause. Rephrase as two simple sentences. Example: 'Workers can choose a place to work. We should allow this.'\n- Simplify the complex noun phrase. Use: 'a way to manage that is good for people.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8777,
+          "meaningbert": 0.7369
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:55:49.948356",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The report shows we should change things.  \nWe should manage in a way good for people.  \nWe should give workers flexible work hours.  \nWorkers can choose a place to work.  \nWe should allow this.  \nManagers should give praise and thanks for work.  \nManagers should also challenge staff.  \nWe need to spend more on training.  \nThe training should be especially for talking with people from different cultures.  \nThis can help make a good place for workers.  \nIn that place they can do their best work.",
+      "timestamp": "2025-09-01 17:55:49.948681",
+      "metadata": {
+        "text_id": "909a08cc-e031-47cf-8df8-e445e8359d57",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:56:14.351716",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d5077c7b-ed6b-424f-a576-d379ec121741",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6607 is critically below the required 0.75 threshold. This indicates a severe loss of the original text's core message.\n\n- Fidelity Failure: The BERTScore of 0.8614 is below the 0.90 minimum. Key professional terms like 'people-oriented management style' and 'professional development' were oversimplified to the point of losing their specific meaning.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is an automatic failure. The presence of B1 and B2 vocabulary is the cause.\n\n- Vocabulary Violation: The word 'flexible' is B2 level. It is not permitted. The text uses 'flexible work hours'.\n\n- Vocabulary Violation: The word 'challenge' is B1 level. It is not permitted. The text uses 'challenge staff'.\n\nSuggestion: You must replace all words above the A2 level. Replace 'flexible' with a descriptive phrase like 'choose when they start and finish'. Replace 'challenge' with an A2 concept like 'give new and interesting work'. The text must be rewritten to increase the MeaningBERT and BERTScore values by adhering more closely to the original concepts, using only A2 vocabulary and sentence structures.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8614,
+          "meaningbert": 0.6607
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:56:24.619614",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The report says we should change how we manage.  \nWe should manage in a way that is good for people.  \nWorkers should be able to choose when they start and finish.  \nWorkers should be able to work where they want.  \nManagers should give praise and thanks for work.  \nManagers should give new tasks.  \nWe need to spend more on training.  \nThe training should be especially for talking.  \nIt should be with people in different cultures.  \nThis can help make a good place for workers.  \nIn that place they can do their best work.",
+      "timestamp": "2025-09-01 17:56:24.619995",
+      "metadata": {
+        "text_id": "6a4d7a54-2cd5-497b-a51d-6b771154a78c",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:57:02.092297",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b3474274-6548-48e7-99b3-9b126d024b39",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure.\n\nThe text fails because it does not preserve the meaning or lexical fidelity of the original text. This is a critical error. The metrics confirm this failure with a MeaningBERT score of 0.6293 (below the 0.75 minimum) and a BERTScore of 0.8527 (below the 0.90 minimum).\n\n- Meaning Preservation Failure: The MeaningBERT score is critically low because the simplification is too aggressive. The original text presents a set of formal, connected recommendations. Your output is a list of disconnected, simplistic statements. The logical relationship between the proposed actions and their intended outcomes is lost.\n- Lexical Fidelity Failure: The BERTScore is too low because essential vocabulary was eliminated, not simplified. Key concepts such as 'recommend', 'investment', 'professional development', 'positive reinforcement', and 'intercultural communication' are completely absent. This level of information loss is unacceptable.\n- Structural Deficiency: The text is broken into too many short, choppy sentences. This damages the logical flow. The sentence pair \"This can help make a good place for workers. In that place they can do their best work\" is a poor and inefficient substitute for the original's clear statement.\n\nSuggestion: Rewrite the text from the beginning. Focus on simplifying the original concepts, not deleting them. Combine sentences to show how one idea connects to the next. For example, instead of just 'training', use a phrase like 'training to help workers talk to different people'. Restore the core idea that these are formal recommendations for the company.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8527,
+          "meaningbert": 0.6293
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:57:14.422687",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We recommend a people\u2011focused management style.  \nManagers should allow flexible working hours.  \nEmployees should be able to choose their work location.  \nManagers should give praise and thanks for good work.  \nThey should also give new tasks that challenge staff.  \nThe company should invest more in training.  \nThe training should focus on social communication.  \nIt should especially include intercultural communication.  \nThese actions will create a positive work environment.  \nIn that environment workers can do their best work.",
+      "timestamp": "2025-09-01 17:57:14.423100",
+      "metadata": {
+        "text_id": "2752bbab-885e-4be1-9a60-14706cf411b2",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:57:39.912395",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "bd2c4b34-16c8-4858-bff8-cd2742270e95",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8728 is below the required 0.90. This indicates an unacceptable loss of key phrasing from the original text. The primary cause of failure, however, is non-compliance with the target CEFR level.\n\n- CEFR Compliance Failure: The text is classified as B1, not the required A2. This is a critical failure.\n- Vocabulary Violation: The B1 classification is a direct result of using multiple words that are too advanced for the A2 level. These words must be replaced.\n- Unapproved B1 Vocabulary: 'management', 'location', 'challenge', 'invest', 'communication'.\n- Unapproved B2 Vocabulary: 'flexible'.\n\nSuggestion: You must replace all vocabulary above the A2 level. Replace 'management style' with 'the way managers lead'. Replace 'flexible working hours' with 'let people choose when they start and finish work'. Replace 'location' with 'place'. Replace 'invest' with 'put more money into'. Replace 'communication' with 'talking with people'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8728,
+          "meaningbert": 0.8669
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:57:49.994583",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We recommend the way managers lead.  \nManagers should let people choose when they start and finish work.  \nEmployees should be able to choose their work place.  \nManagers should give praise and thanks for good work.  \nThey should also give staff new tasks that are harder.  \nThe company should put more money into training.  \nThe training should focus on social talking with people.  \nIt should also include talking with people from other cultures.  \nThese actions will create a positive work environment.  \nIn that environment workers can do their best work.",
+      "timestamp": "2025-09-01 17:57:49.995387",
+      "metadata": {
+        "text_id": "38aa1fa3-6786-4a86-bd66-d6a57a8f4a2b",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:58:11.852971",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a3843331-ed8f-4b24-9ae6-94dfd419f30b",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7203 is below the required 0.75 threshold. This indicates a significant loss of the original message's nuance.\n\n- Fidelity Failure: The BERTScore of 0.8571 is below the required 0.90. Key professional terms like 'people-oriented management style', 'positive reinforcement', and 'professional development' were oversimplified, losing critical lexical detail.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is an automatic failure.\n\n- Structural Error: The sentence 'They should also give staff new tasks that are harder' uses a relative clause ('that are harder'). This is a B1 grammatical structure and is not permitted at the A2 level.\n\n- Vague Language: The opening 'We recommend the way managers lead' is too vague and fails to capture the specific recommendation of a 'people-oriented' style from the original text.\n\nSuggestion: Eliminate the B1 relative clause by rewriting the sentence to 'They should also give staff new, harder tasks.' Rephrase the opening to be more specific while remaining simple, for example: 'We recommend a new way for managers to lead people.' The text must be rewritten to increase fidelity to the original's key terms without using B1 grammar.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8571,
+          "meaningbert": 0.7203
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:58:24.867727",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We recommend a people\u2011oriented way for managers to lead.  \nManagers should let staff choose start time.  \nManagers should let staff choose work place.  \nManagers should give praise and thanks for good work.  \nThey should also give staff new, harder tasks.  \nThe company should put more money into professional development.  \nProfessional development should focus on social communication.  \nIt should also include communication with different cultures.  \nThese actions will create a positive work environment.  \nIn that environment workers can do their best work.",
+      "timestamp": "2025-09-01 17:58:24.868196",
+      "metadata": {
+        "text_id": "9b70a334-6a58-4c9c-8bd3-65c359c1d710",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:58:49.139442",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "dee58f62-4dff-4483-80d4-8c5d0b97d556",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8637 is below the required 0.90. This indicates a significant loss of key phrasing from the original text. The text also fails on CEFR compliance.\n\n- Fidelity Failure: Your text replaced original phrases like 'positive reinforcement and recognition' with 'praise and thanks'. While the meaning is similar, the lexical fidelity is too low, causing the score to drop below the 0.90 threshold.\n- CEFR Compliance Failure: The text was classified as B1, not A2. This is an instant failure.\n- Vocabulary Violation: The B1-level words 'development' and 'communication' were used. These words are too advanced for the A2 level and must be replaced.\n\nSuggestion: Rephrase sentences to retain more of the original's key words where possible, without increasing complexity. Replace the word 'development' with 'training' or 'learning new skills'. Replace 'communication' with 'talking with people'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8637,
+          "meaningbert": 0.7687
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:58:59.353795",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We recommend a people\u2011oriented way for managers to lead.  \nManagers should let staff choose start time.  \nManagers should let staff choose work place.  \nManagers should give positive reinforcement and recognition.  \nThey should also give staff new harder tasks.  \nThe company should put more money into training.  \nTraining should focus on social talking with people.  \nTraining should include talking with people from different cultures.  \nThese actions will create a positive work environment.  \nIn that environment workers can do their best work.",
+      "timestamp": "2025-09-01 17:58:59.356657",
+      "metadata": {
+        "text_id": "9bece8b2-6a3c-41cb-a437-9e230396d684",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:59:28.625178",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6a2c986f-5d81-461c-af66-a5d88a0a8a2e",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8602 is below the required 0.90. This indicates an excessive loss of key terms from the original text. The simplification was too aggressive, breaking the lexical link to the source material.\n\nAdditional Failures:\n- CEFR Compliance Failure: The text was classified as B1, not A2. This is a direct violation of the standard.\n- Vocabulary Violation: The word 'recognition' is B2 level. The word 'reinforcement' is B1 level. These are too advanced for A2 readers. The compound adjective 'people-oriented' is also B1 level. These words are the direct cause of the B1 classification.\n\nCorrective Actions:\n- Replace 'recognition' and 'positive reinforcement'. Use simple A2 phrases like 'saying thank you for good work' or 'telling staff they did a good job'.\n- Replace 'people-oriented'. Use a simple description like 'a way that is good for people'.\n- Rephrase sentences to retain more of the original key vocabulary in a simplified structure to improve the BERTScore.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8602,
+          "meaningbert": 0.8171
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:59:39.033796",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We recommend a way that is good for people.  \nManagers should let staff choose start time.  \nManagers should let staff choose work place.  \nManagers should give staff new tasks.  \nManagers should say thank you for good work.  \nThe company should put more money into training.  \nTraining should focus on social talking with people.  \nTraining should include talking with people from different cultures.  \nThese actions will make a good work environment.  \nIn that environment staff can do their best work.",
+      "timestamp": "2025-09-01 17:59:39.034378",
+      "metadata": {
+        "text_id": "2a16f962-27f8-4625-a0c3-6fa699c46d15",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:59:59.800892",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "84806dc7-c013-4f4f-9175-69e3e6ce774f",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6622 is significantly below the required 0.75 threshold. This indicates a severe loss of the original text's core message. The simplification is too extreme, resulting in a text that does not convey the professional recommendations of the source.\n\n- Fidelity Failure: The BERTScore of 0.849 is also below the 0.90 minimum. Key professional terms like 'management style', 'positive reinforcement', 'recognition', and 'professional development' were completely removed, not simplified. This damages the fidelity to the source text.\n- Meaning Dilution: The phrase 'a way that is good for people' is a vague and inadequate replacement for 'a more people-oriented management style'. The meaning is lost.\n- Oversimplification: The text is a list of disconnected, simplistic commands. It reads like a checklist, not a summary of a recommendation. The nuance of creating a positive environment for 'best work' is lost in the robotic structure.\n\nSuggestion: You must rephrase to preserve the core professional concepts using A2 vocabulary. Do not simply delete them. Instead of 'a way that is good for people', use 'a management style that is better for employees'. Combine some of the short sentences using simple connectors like 'and' or 'so' to create a more coherent text. The goal is simplification, not the complete destruction of meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.849,
+          "meaningbert": 0.6622
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 18:00:08.853528",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We recommend a management style that is better for employees.  \nWe should allow flexible start times and flexible work locations.  \nManagers should give staff new challenges and positive feedback.  \nManagers should also recognize good work.  \nThe company should invest more in training.  \nTraining should focus on social communication.  \nTraining should also include intercultural communication.  \nThese actions will create a positive work environment.  \nIn that environment staff can do their best work.",
+      "timestamp": "2025-09-01 18:00:08.854843",
+      "metadata": {
+        "text_id": "95783f0e-9355-42dd-b21c-8585ca929069",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 18:00:42.106171",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0da04387-ecbc-42b5-bdab-0515f6a67ca4",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8733 is below the required 0.90. This indicates a significant deviation from the original text's phrasing and key terms. The simplification has resulted in a loss of lexical precision.\n\n- CEFR Compliance Failure: The text was classified as B1, which is an immediate failure. The goal is A2.\n- Vocabulary Violation: The text uses multiple words above the A2 level. 'management' (B1), 'feedback' (B1), 'invest' (B1), 'communication' (B1), and 'flexible' (B2) are all unacceptable. These words are the primary reason for the B1 classification.\n- Structural Complexity: The sentence 'We recommend a management style that is better for employees' uses a relative clause which, combined with B1 vocabulary, increases the complexity beyond the A2 level.\n\nSuggestion: Replace all B1 and B2 vocabulary with A2 equivalents. 'management style' must be rephrased to 'a way to lead people'. 'flexible' must be rephrased to 'employees can choose'. 'invest' must be replaced with 'put more money in'. 'feedback' and 'recognize good work' should be combined into a simpler A2 concept like 'tell staff they did a good job'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8733,
+          "meaningbert": 0.8733
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 18:00:47.234873",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We recommend a way to lead people that helps staff.  \nWe should allow employees can choose start times.  \nWe should allow employees can choose work places.  \nManagers should give staff new tasks.  \nManagers should tell staff they did a good job.  \nThe company should put more money into training.  \nTraining should focus on social skills.  \nTraining should also include different cultures.  \nThese actions will make a positive work environment.  \nIn that environment staff can do their best work.",
+      "timestamp": "2025-09-01 18:00:47.235987",
+      "metadata": {
+        "text_id": "6df72c7b-97ea-4ba2-9dd1-bc2396cfa981",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 18:01:09.621687",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a3586632-88b0-4f69-b9f0-cdd7ff8c758d",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8554 is below the required 0.90. This indicates an unacceptable loss of key words and phrasing from the original text.\n\n- Fidelity Loss: The low BERTScore is a direct result of oversimplification. Key phrases like 'people-oriented management style', 'positive reinforcement and recognition', and 'professional development' were replaced with generic terms like 'a way to lead people', 'tell staff they did a good job', and 'training'. This fails to preserve the lexical detail of the source text.\n\n- Grammatical Error: The text contains a repeated and fundamental grammatical error. The structure 'allow employees can choose' is incorrect. The correct A2 structure is 'allow employees to choose'. This error appears in two consecutive sentences.\n\n- Structural Weakness: The text is excessively fragmented. While A2 requires simple sentences, breaking every single idea into a separate sentence is poor form. The two sentences 'Training should focus on social skills. Training should also include different cultures.' must be combined.\n\n- Suggestion: Correct the grammatical error immediately. Re-integrate more precise A2-level vocabulary from the original text to increase fidelity. Combine short, related sentences using simple connectors like 'and'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8554,
+          "meaningbert": 0.8175
+        }
+      }
+    }
+  ]
+}

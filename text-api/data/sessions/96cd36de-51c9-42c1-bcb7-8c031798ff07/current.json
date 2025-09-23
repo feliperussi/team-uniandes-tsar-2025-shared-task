@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "21c6dbc6-259f-476a-910b-444aede387ba",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Some news says the world is not safe.  \nBut there is hope.  \nBetween 1945 and 1990 there were 30 wars.  \nEach war killed more than 100,000 people.  \nToday there are still wars inside a country.  \nCountries live together more peacefully now.  \nAttacks by people who use bombs have shot up in recent years.  \nSince World War Two, wars have killed people who are not soldiers.  \nThey have also killed soldiers.  \nPeople are nine times more likely to be killed by crime.  \nThey are less likely to be killed by fighting.  \nThe fighting is between groups about who is in charge.  \nThe number of killings around the world fell a little.  \nIt was 8 per 100,000 people in 2000.  \nIt fell to about 5.3 in 2015.",
+    "version": 11,
+    "created_at": "2025-09-01 17:30:49.637391",
+    "updated_at": "2025-09-01 17:30:49.637397",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "553fc5a8-cba8-444c-a066-9db7283befd1",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation Failure. The text fails on two critical metrics. The MeaningBERT score of 0.7451 is below the required 0.75 threshold, and the BERTScore of 0.8837 is below the required 0.90. This indicates a significant loss of the original text's core message and key phrasing.\n\n- Core Meaning Lost: The original text states wars killed 'many more civilians than soldiers'. Your version, 'wars have killed people who are not soldiers. They have also killed soldiers', completely removes this crucial comparison. This is a severe alteration of the original fact and the primary reason for the low metric scores.\n\n- B1 Vocabulary Violation: The text uses the words 'fighting' and 'charge'. These are B1-level words and are not compliant with the A2 standard. The sentence 'The fighting is between groups about who is in charge' is unacceptable.\n\n- Inaccurate Simplification: Your attempt to simplify 'political conflict' resulted in the use of prohibited B1 vocabulary. This is a failure to find an A2-compliant solution.\n\nSuggestion: You must rephrase the text to restore the lost comparison between civilian and soldier deaths. Remove the B1 words 'fighting' and 'charge'. Replace the sentence about 'political conflict' with a simpler A2 construction, such as 'They are less likely to be killed when groups fight for power.'",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8837,
+      "meaningbert": 0.7451
+    },
+    "created_at": "2025-09-01 17:31:11.790590"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "a26e2a80-5959-444d-af43-da6366ae92dd",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Some news says the world is getting more dangerous.  \nBut there is hope.  \nBetween 1945 and 1990 there were 30 wars.  \nEach war killed more than 100,000 people.  \nToday there are still civil wars.  \nCountries live together more peacefully now.  \nAttacks by terrorists have shot up in recent years.  \nSince World War Two, wars have killed more civilians than soldiers.  \nPeople are nine times more likely to be killed by violent crime than by political conflict.  \nThe number of killings around the world fell a little.  \nIt was 8 per 100,000 people in 2000.  \nIt fell to about 5.3 in 2015.",
+    "version": 10,
+    "created_at": "2025-09-01 17:30:11.482405",
+    "updated_at": "2025-09-01 17:30:11.482411",
+    "metrics_meaningbert": 0.8751,
+    "metrics_cefr_compliance": "A2"
+  }
+}

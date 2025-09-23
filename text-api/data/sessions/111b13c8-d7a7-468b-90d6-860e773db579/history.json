@@ -1,0 +1,117 @@
+{
+  "session_id": "111b13c8-d7a7-468b-90d6-860e773db579",
+  "created_at": "2025-08-31 23:33:51.845059",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-08-31 23:33:51.855814",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "01-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Now NASA is working towards recording some of the smaller asteroids that are at least 140 metres wide. NASA estimates there are about 25,000 of this size, and so far it has recorded around 8,000, which means 17,000 are still not known. In 2013, a 19-metre asteroid exploded above Chelyabinsk and injured 1,200 people, so these middle-sized asteroids could be very dangerous if they enter Earth's orbit.",
+      "timestamp": "2025-08-31 23:33:51.859663",
+      "metadata": {
+        "text_id": "fc09bd44-a563-4718-84e6-4e8dce5f29b8",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-08-31 23:33:51.870292",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "25e64c93-34ba-43b5-a8d4-cefbd20979dd",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as B2 likely because of its complex sentence structures and connectors. For example, the second sentence uses a nonrestrictive clause with \u201cwhich means\u201d and long numerical phrases: \u201cNASA estimates there are about 25,000 of this size, and so far it has recorded around 8,000, which means 17,000 are still not known.\u201d This structure pushes the level above B1. To correct this, split such sentences into shorter, simpler statements. For example:\nRewrite the estimation as two sentences: \u201cNASA estimates there are about 25,000 asteroids of this size. So far, it has recorded around 8,000. That leaves 17,000 not yet known.\u201d\nAlso split the final complex sentence into smaller ones: \u201cIn 2013, a 19-metre asteroid exploded above Chelyabinsk in Russia. It injured 1,200 people. These middle-sized asteroids could be very dangerous if they enter Earth\u2019s orbit.\u201d\nThese changes will simplify the structures and align the text with B1 requirements.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.96,
+          "meaningbert": 0.7765
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-08-31 23:34:21.152212",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Now NASA is working towards recording some of the smaller asteroids that are at least 140 metres wide. NASA estimates there are about 25,000 asteroids of this size. So far, it has recorded around 8,000. That leaves 17,000 not yet known. In 2013, a 19-metre asteroid exploded above Chelyabinsk in Russia. It injured 1,200 people. These middle-sized asteroids could be very dangerous if they enter Earth's orbit.",
+      "timestamp": "2025-08-31 23:34:21.152853",
+      "metadata": {
+        "text_id": "8177fbc6-35bf-40b8-bb0d-546a5c000f56",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 7/10 - FAIL",
+      "timestamp": "2025-08-31 23:34:40.745296",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "342e84d9-2a80-4d86-816c-8e6dfc3f7ef8",
+        "grade": 7,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The CEFR classifier rated the text as B2 rather than the required B1. For example, the sentence \u201cNow NASA is working towards recording some of the smaller asteroids that are at least 140 metres wide.\u201d contains a relative clause and the phrase \u201ctowards recording,\u201d which raise complexity above B1. To reach B1 level, simplify long structures and advanced connectors: change \u201cis working towards recording\u201d to \u201cwants to record,\u201d replace \u201cthat are at least 140 metres wide\u201d with \u201cwhich are 140 metres wide or more,\u201d and use simple conjunctions like \u201cand\u201d instead of complex clauses. Splitting longer sentences into shorter ones with basic connectors will help meet B1 standards.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9641,
+          "meaningbert": 0.8294
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-08-31 23:35:28.327443",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Now NASA wants to record some of the smaller asteroids, which are 140 metres wide or more. There are about 25,000 asteroids of this size. So far, NASA has recorded around 8,000, so 17,000 are not yet recorded. In 2013, a 19-metre asteroid exploded above the city of Chelyabinsk in Russia and injured 1,200 people. These middle-sized asteroids could be a serious danger if they come into Earth's orbit.",
+      "timestamp": "2025-08-31 23:35:28.328564",
+      "metadata": {
+        "text_id": "e5047682-c32f-405d-a238-16bfedf4ef8a",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-08-31 23:35:50.068190",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f5d20cfa-783a-43b4-8d5b-57836974d7b3",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2', likely because of non-defining relative clauses and sentence structures above B1 level. For example, the sentence \"Now NASA wants to record some of the smaller asteroids, which are 140 metres wide or more.\" uses a non-defining relative clause that is too advanced for B1. Also, \"So far, NASA has recorded around 8,000, so 17,000 are not yet recorded.\" joins two independent clauses with a comma and coordinating conjunction, which can be confusing at B1. To meet B1 level, split complex sentences. For instance: \"Now NASA wants to record the smaller asteroids. They measure at least 140 metres wide.\" And: \"So far, NASA has recorded around 8,000. That leaves 17,000 not yet recorded.\" This will simplify structures and ensure a B1 classification.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9632,
+          "meaningbert": 0.853
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "aaf259f2-d778-4f92-9ae1-47ed43ea78ad",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "I worked five days every week.  \nThen I came back from my family leave.  \nI wanted more time with my children before they start school.  \nMy boss let me work three days every week.  \nNow I work three days every week.  \nI get a big cut in my pay.  \nI am paid in a pro-rata way.  \nMy work does not go down at all.  \nI do five days of work in three days.  \nI get paid much less for it.  \n\npro-rata: you get paid only for the days you work.",
+    "version": 16,
+    "created_at": "2025-09-01 00:11:05.409825",
+    "updated_at": "2025-09-01 00:11:05.409834",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "6dea763f-957d-4ccf-a4e6-c3a433fd5eaa",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Fidelity Failure. The BERTScore of 0.8745 is below the required 0.90. Key terms such as \"negotiating with my boss\" and \"significant cut in my pay\" were replaced by overly simple phrases like \"My boss let me work three days\" and \"I get a big cut in my pay,\" losing important lexical detail. Suggestion: Restore phrases like \"negotiating with my boss\" and \"significant cut in my pay,\" and include \"parental leave\" instead of \"family leave.\"",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8745,
+      "meaningbert": 0.8561
+    },
+    "created_at": "2025-09-01 00:11:18.003424"
+  },
+  "attempt_number": 16,
+  "best_attempt": {
+    "id": "148fecd2-419d-4933-a466-89352c4e4712",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "I worked a typical five-day week.  \nThen I came back from parental leave (time off for parents).  \nI wanted more time with my children before school started.  \nI talked to my boss.  \nWe agreed to a three-day work week.  \nThis meant a significant cut in my pay.  \nI got pay on a pro-rata basis (only for days I worked).  \nMy work did not go down.  \nI did five days of work in three days.  \nThis was not fair.",
+    "version": 8,
+    "created_at": "2025-09-01 00:04:58.364638",
+    "updated_at": "2025-09-01 00:04:58.364646",
+    "metrics_meaningbert": 0.86,
+    "metrics_cefr_compliance": "A2"
+  }
+}

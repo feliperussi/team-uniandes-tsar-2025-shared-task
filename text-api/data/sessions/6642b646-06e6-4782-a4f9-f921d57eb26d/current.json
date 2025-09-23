@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "b6f8f72b-2b08-42e9-9f35-3bc75f1b4e41",
+    "cefr_level": "B1",
+    "text_id": "text_001",
+    "text_translated": "Graffiti is pictures or writing on walls in public places. In some areas, local governments have tried to encourage artists not to paint it on just any wall by allowing them to work in special areas. Taiwan is one of these places, and it has 'graffiti zones' where artists are free to paint and write on walls. In S\u00e3o Paulo in Brazil, the city government has even allowed some graffiti artists to paint on the city's subway trains.",
+    "version": 6,
+    "created_at": "2025-09-01 10:50:11.248191",
+    "updated_at": "2025-09-01 10:50:11.248198",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "890a30f4-1e26-4175-909a-61ec62c25516",
+    "approval": "FAIL",
+    "grade": 4,
+    "feedback": "FAIL: Meaning Preservation. The MeaningBERT score of 0.6358 is below the required 0.75 threshold. This failure is likely caused by the addition of the introductory sentence, 'Graffiti is pictures or writing on walls in public places.' While defining the keyword 'graffiti' is a good simplification strategy, adding a full sentence of new information that is not present in the original text significantly alters the semantic content from the perspective of the evaluation metric. The metric compares the output directly to the original, and this new information causes a divergence. To fix this, either remove the added definition or integrate it into an existing sentence to stay closer to the source text's structure.",
+    "metrics": {
+      "cefr_compliance": "B1",
+      "bertscore": 0.9639,
+      "meaningbert": 0.6358
+    },
+    "created_at": "2025-09-01 10:50:32.790940"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "04e64063-fdfd-4f76-8525-6967eaab107f",
+    "cefr_level": "B1",
+    "text_id": "text_001",
+    "text_translated": "In some areas, local governments have tried to encourage artists not to paint graffiti (pictures or writing on walls in public places) on just any wall by allowing them to work in special areas. Taiwan is one of these places, and it has 'graffiti zones' where artists are free to paint and write on walls. In S\u00e3o Paulo in Brazil, the city government has even allowed some graffiti artists to paint on the city's subway trains.",
+    "version": 3,
+    "created_at": "2025-09-01 10:48:24.332821",
+    "updated_at": "2025-09-01 10:48:24.332821",
+    "metrics_meaningbert": 0.6842,
+    "metrics_cefr_compliance": "B1"
+  }
+}

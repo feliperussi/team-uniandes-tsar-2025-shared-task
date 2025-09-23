@@ -1,0 +1,598 @@
+{
+  "session_id": "fdcccc83-e213-4a89-a991-ee81ef1024d0",
+  "created_at": "2025-08-31 23:56:31.019374",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:56:31.032143",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "09-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A collapse is when something breaks and falls down.  \nSome bridge collapses are mysteries.  \nEngineers do a study to find the reason.  \nSometimes a bridge breaks because people use poor material.  \nSometimes they find a bad part in the bridge.  \nOther times, the bridge can hold only a certain weight.  \nAnd no more.",
+      "timestamp": "2025-08-31 23:56:31.032836",
+      "metadata": {
+        "text_id": "681c4d7d-403b-4ac2-ad3a-65c9debc1ced",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 23:56:31.043392",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "14bc7e0c-1617-4ea5-8f24-d3c79c8bef4a",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7492 is below the required 0.75. FAIL: Fidelity Failure. The BERTScore of 0.8808 is below the required 0.90.\n- The writer\u2019s version omits the phrase \u201ccomplete investigation\u201d and replaces it with the vague \u201cdo a study.\u201d\n- The specific term \u201cinferior-quality material\u201d is downgraded to \u201cpoor material,\u201d losing nuance.\n- The added sentence \u201cA collapse is when something breaks and falls down\u201d is not in the original and dilutes the focus.\n- Key concept of design limits supporting \u201ca certain amount of weight and no more\u201d is split into two sentences, weakening coherence.\nSuggestion: Restore precise phrases from the original, keep sentences focused on bridge failures only, and maintain the original structure to preserve meaning and key terms.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8808,
+          "meaningbert": 0.7492
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:57:12.407844",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A collapse means when something breaks and falls down.  \nSome bridge collapses are mysteries.  \nEngineers find the reason after they do a complete investigation.  \nIn some cases, builders used inferior-quality material.  \nIn some cases, a key piece of the bridge had a defect.  \nThe bridge can support only a certain weight and no more.",
+      "timestamp": "2025-08-31 23:57:12.411059",
+      "metadata": {
+        "text_id": "ab1a8489-cdd6-4324-ad20-2fbcc6d386d6",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:57:29.971877",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3d9cbc24-efe7-464d-924c-9b626bd9e9be",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. Classifier rated B1.\n- \"collapse\" is B2 level.\n- \"means\" is B2 level.\n- \"investigation\" is B2 level.\n- \"defect\" is C1 level.\nSuggestion: Replace \"collapse\" with \"fall\"; replace \"means\" with \"is\"; replace \"investigation\" with \"check\"; replace \"defect\" with \"fault\".",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9044,
+          "meaningbert": 0.8575
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:58:03.639219",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A fall is when something breaks and falls down.  \nSometimes we do not know why a bridge falls.  \nEngineers find the reason after they do a check.  \nIn some cases, builders put poor material in the bridge.  \nIn some cases, a key piece of the bridge had a fault.  \nThe bridge can only support a certain weight.",
+      "timestamp": "2025-08-31 23:58:03.641060",
+      "metadata": {
+        "text_id": "8fcdf75d-378d-4ed3-8f05-f4a32f3b5bc1",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 23:58:19.380790",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "02ba48ba-4f27-4423-9d9b-de0923ff00a8",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6752 is below the required 0.75 threshold, indicating the core message about investigating mysterious bridge collapses and their specific causes is not preserved. FAIL: Fidelity Failure. The BERTScore of 0.8854 is below the required 0.90, because key terms such as \"mysteries\", \"complete investigation\", \"inferior-quality material\", and the exact phrasing \"only to support a certain amount of weight and no more\" were simplified or omitted, reducing fidelity to the original text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8854,
+          "meaningbert": 0.6752
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:58:43.652557",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A collapse is when something breaks and falls down.  \nSome bridge collapses are mysteries.  \nEngineers know the reason only after they do a complete investigation.  \nIn some cases, builders used inferior-quality material.  \nIn other cases, a key piece did not work.  \nEngineers designed some bridges to support only a certain amount of weight.  \nThey hold no more weight.",
+      "timestamp": "2025-08-31 23:58:43.652963",
+      "metadata": {
+        "text_id": "9784d209-9a3f-4444-854b-c932d690ef5d",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:59:00.472871",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "24253b48-b89a-4f1b-9f4c-730ba1730b22",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8995 is below the required 0.90.\n- The phrase 'in the construction' was omitted, losing a key detail from the original text.\n- The critical word 'defect' was replaced with 'did not work', removing the notion of a flaw.\nSuggestion: Restore the phrase 'in the construction' and reintroduce 'defect in a key piece' to match the original wording and improve fidelity.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8995,
+          "meaningbert": 0.8567
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:59:27.909051",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A collapse is when something breaks and falls down.  \nSome bridge collapses are mysteries.  \nEngineers know the reason only after they look at everything.  \nIn some cases, builders use poor quality material in the construction.  \nIn other cases, a key piece of the bridge has a defect.  \nSome bridges only support a certain amount of weight.  \nThey hold no more weight.",
+      "timestamp": "2025-08-31 23:59:27.910299",
+      "metadata": {
+        "text_id": "bd504332-73b2-473a-a310-7bb9324da24d",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 23:59:43.579482",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "01c16119-ce9c-4f42-b8b9-b880873d015f",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8988 is below the required 0.90. Key technical phrases were simplified or lost: the original 'conduct a complete investigation' became 'look at everything', and 'support a certain amount of weight and no more' was split into 'hold no more weight', reducing precision. Suggestion: restore the phrase 'conduct a complete investigation' and use 'support a certain amount of weight and no more' to match the original wording and improve fidelity.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8988,
+          "meaningbert": 0.8445
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:00:07.664046",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A collapse is when something breaks and falls down.  \nSometimes, people do not know why a bridge collapses.  \nEngineers know the reason only after they conduct a complete investigation.  \nIn some cases, builders use poor quality material to build bridges.  \nIn other cases, a key piece of the bridge has a problem.  \nSome bridges only support a certain amount of weight and no more.",
+      "timestamp": "2025-09-01 00:00:07.665941",
+      "metadata": {
+        "text_id": "91f5fd1f-e300-4c33-9a85-87339f2c0c07",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 00:00:22.758776",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "33050e82-d848-4f3d-80be-a7a8cb78b733",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. Classifier rated B1. The text uses B1/B2 vocabulary that exceeds A2 level. The word \"conduct\" (B1) appears in \"conduct a complete investigation\" and \"investigation\" (B2) is also used. These words are not on the A2 list. Suggestion: Remove the word \"conduct\". Replace \"complete investigation\" with simpler language such as \"look at the bridge to find out why it broke\". Ensure all vocabulary and sentence structures match A2 level only.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9033,
+          "meaningbert": 0.8368
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:00:47.907061",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A collapse is when something breaks and falls down.\nSometimes, people do not know why a bridge collapses.\nEngineers know the reason only after they look at the bridge.\nThey look at the bridge to find out why it broke.\nSome people use poor quality material to build the bridge.\nSometimes, a key piece has a problem.\nSome bridges only support a certain amount of weight and no more.",
+      "timestamp": "2025-09-01 00:00:47.907895",
+      "metadata": {
+        "text_id": "2ed22d8f-d07f-42b6-89a8-951fbbf11772",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 00:01:03.350483",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5fa3b31d-4990-455d-9458-cd75aa0b6b40",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5842 is too low and indicates loss of core meaning.\n- The MeaningBERT score of 0.5842 is below the required threshold of 0.75.\n- The concept of bridge collapses as \u201cmysteries\u201d is removed.\n- The phrase \u201cconduct a complete investigation\u201d is reduced to simply \u201clook at the bridge,\u201d losing nuance.\nSuggestion: Reintroduce the term \u201cmystery\u201d and explicitly state that engineers \u201cconduct a complete investigation\u201d to find the cause.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9045,
+          "meaningbert": 0.5842
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:01:27.721729",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A collapse is when something breaks and falls down.\nSome bridge collapses are mysteries.\nEngineers conduct a complete investigation to find the cause.\nBuilders use poor quality material.\nSometimes a key piece has a problem.\nSome bridges only support a certain amount of weight and no more.",
+      "timestamp": "2025-09-01 00:01:27.725979",
+      "metadata": {
+        "text_id": "d4ddb10e-c879-4cc3-9a3d-2fdf68ba132e",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:01:40.882370",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ca478bac-5251-4eb4-89a8-535b46dad272",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The CEFR_Classifier_Result is B1, not A2. Evidence: the use of the verb conduct and the noun investigation are B1 structures; collapse is a B2-level lexical item; the sentence Some bridges only support a certain amount of weight and no more is a multi-clause structure too complex for A2. Suggestion: Replace conduct a complete investigation with look closely; replace investigation with check; split the long sentence into two shorter ones; use collapse only if defined in simple terms; avoid B1 words like conduct and investigation.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9144,
+          "meaningbert": 0.8466
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:02:04.685611",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Collapse is when something breaks and falls down.  \nWe do not know why some bridges collapse.  \nEngineers look closely to check the cause.  \nSome builders use poor quality material.  \nSometimes a key piece has a problem.  \nSome bridges support a certain weight.  \nThey cannot hold more weight.",
+      "timestamp": "2025-09-01 00:02:04.687452",
+      "metadata": {
+        "text_id": "fa6d2fec-4532-4fce-b2b3-3bb5423996ac",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:02:24.935802",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "26301fe2-e0d2-487b-bfe2-b9cb51d699ea",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8655 is below the required 0.90. This indicates a significant loss of key words and factual phrasing. The writer replaced 'bridge collapses' with the generic term 'collapse', removed the phrase 'conduct a complete investigation' by saying 'look closely to check the cause', and simplified 'inferior-quality material' to 'poor quality material', losing precision. Suggestion: Restore original terms like 'bridge collapses', 'complete investigation', and 'inferior-quality material' to meet fidelity requirements.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8655,
+          "meaningbert": 0.786
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:02:43.908603",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A collapse means when something breaks and falls down.  \nBridge collapses sometimes look like mysteries.  \nEngineers do a complete investigation.  \nThey find the real cause.  \nSometimes builders use inferior-quality material.  \nSometimes a key piece has a defect.  \nA bridge can support a certain weight.  \nIt cannot support more weight.",
+      "timestamp": "2025-09-01 00:02:43.911463",
+      "metadata": {
+        "text_id": "6610fb25-d7e4-4f90-a3a7-994a9d269b12",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:03:02.437996",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9c000581-e9b5-498f-ac3b-d63770ffafd0",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8727 is below the required 0.90, indicating a significant loss of key terms and factual phrasing from the original text.\n- The term \"complete investigation\" is present but the nuance of \"engineers only realise why after they conduct a complete investigation\" is lost.\n- The original emphasis on \"Some bridge collapses are mysteries\" is weakened by splitting and rephrasing without the causal link.\n- Key phrases like \"because of a defect in a key piece of the bridge\" are broken into simpler statements, losing cohesion.\nSuggestion: Restore exact lexical items such as \"engineers only realise why\", keep sentences intact to preserve meaning, and avoid adding unrelated definitions like \"A collapse means when something breaks and falls down\" to improve fidelity.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8727,
+          "meaningbert": 0.8419
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:04:21.572150",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A collapse is when something breaks and falls down.  \nSome bridge collapses are mysteries.  \nEngineers only realise why after they conduct a complete investigation.  \nSome collapses happen because builders use bad quality material.  \nSome collapses happen because a key bridge piece has a problem.  \nSome bridges are designed to support a certain weight.  \nThey cannot support more weight.",
+      "timestamp": "2025-09-01 00:04:21.580336",
+      "metadata": {
+        "text_id": "64eb8b61-e1db-4cf9-a0ac-deea5f85fd79",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 00:04:39.737198",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3c4ef5fa-65da-4ec7-aa2b-f02d4f63ee3c",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8958 is below the required 0.90, indicating a loss of key lexical detail. You replaced \u201cinferior-quality material\u201d with \u201cbad quality material\u201d, which removes the precise technical term. You changed \u201cdefect in a key piece\u201d to \u201cproblem\u201d, losing specificity. Suggestion: restore the phrase \u201cinferior-quality material\u201d and replace \u201cproblem\u201d with \u201cdefect\u201d to match the original wording and recover lexical fidelity.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8958,
+          "meaningbert": 0.8522
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:04:55.961742",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 12,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A collapse is when something breaks and falls down.\nSome bridge collapses are mysteries.\nEngineers only find out why after they do a full check.\nSome collapses happen because builders use inferior-quality material.\nSome collapses happen because a key bridge piece has a defect.\nSome bridges are designed to support a certain weight.\nThey cannot support more weight.",
+      "timestamp": "2025-09-01 00:04:55.964652",
+      "metadata": {
+        "text_id": "72292a38-3edd-4cef-8d06-034dade27f07",
+        "version": 12
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:05:14.408666",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c28c106e-59b1-439d-b1b5-62435e3ec43d",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. Classifier rated B1, not A2. Evidence: The word \"collapse\" is tagged B2 level, and \"defect\" is tagged C1 level\u2014these words exceed A2 vocabulary. The sentence \"A collapse is when something breaks and falls down.\" uses the B1-level definition pattern \"X is when Y.\" Suggestion: Replace \"collapse\" with simpler A2 words like \"fall\" or \"break down.\" Replace \"defect\" with \"problem\" or \"fault.\" Remove the \"is when\" structure and use only short sentences with connectors and, but, so, because.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.92,
+          "meaningbert": 0.8428
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:05:41.395332",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 13,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes a bridge falls down for no clear reason.  \nEngineers know the reason after a full check.  \nThis happens because builders use poor quality material.  \nThis happens because a part of the bridge has a problem.  \nOr a bridge can carry only a certain weight.  \nIt breaks when people put more weight on it.",
+      "timestamp": "2025-09-01 00:05:41.398168",
+      "metadata": {
+        "text_id": "6d4ca7e1-1fad-4acf-b7c0-6556b5815776",
+        "version": 13
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:05:56.259893",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0e269dde-d384-41de-88c1-0c4ac85f6eba",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6453 is below the required 0.75, showing the rewritten text loses the nuance of bridges as mysteries solved only after investigation. FAIL: Fidelity Failure. The BERTScore of 0.8768 is below the required 0.90, because key phrases like \"inferior-quality material\" and \"conduct a complete investigation\" were replaced with weaker terms, reducing accuracy. Suggestion: Restore the phrase \"complete investigation\" instead of \"full check\". Use \"inferior-quality material\" rather than \"poor quality material\". Reintroduce \"designed only to support a certain amount of weight\" instead of \"can carry only a certain weight.\"",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8768,
+          "meaningbert": 0.6453
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:06:21.490278",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 14,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A collapse is when a bridge falls down.  \nSome bridge collapses are mysteries.  \nEngineers find out why after a complete investigation.  \nSometimes builders use inferior-quality material.  \nSometimes a part of the bridge has a defect.  \nSometimes engineers design bridges only to support a certain amount of weight.  \nThey break if people put more weight on them.",
+      "timestamp": "2025-09-01 00:06:21.491342",
+      "metadata": {
+        "text_id": "a58a6a29-0d99-4d23-8f94-00692845959c",
+        "version": 14
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 00:06:36.696402",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "41eff522-af0a-4e68-b68f-213f5f0ed755",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8892 is below the required 0.90. The writer\u2019s version omits or alters key lexical items from the original. Evidence: the term \"investigation\" appears but its context is trimmed; the explanation \"A collapse is when a bridge falls down\" adds non-original text and shifts focus; the phrase \"they break if people put more weight on them\" replaces \"no more\" without preserving the original emphasis on design limits. Suggestion: Retain exact phrases like \"complete investigation\" and \"no more\"; avoid introducing definitions not in the source; restore precise terms to meet the fidelity threshold.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8892,
+          "meaningbert": 0.8507
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:07:11.515360",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 15,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some bridge collapses (when a bridge falls down) are mysteries.  \nEngineers only find out why after a complete investigation.  \nSometimes builders use inferior-quality material.  \nSometimes a key piece of the bridge is wrong.  \nSometimes engineers design a bridge only to support a certain amount of weight.  \nThe bridge supports no more weight.",
+      "timestamp": "2025-09-01 00:07:11.516025",
+      "metadata": {
+        "text_id": "124ce545-7dc9-4bcb-a31a-6e6d1033147e",
+        "version": 15
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 00:07:39.590087",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a9e554cc-ba79-4b57-95d3-0d55e6713509",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The classifier rated the output as B1. Evidence of non-A2 elements in the text:\n- The word 'investigation' is B2 level and not on the A2 list\n- The hyphenated adjective 'inferior-quality' exceeds A2 vocabulary\n- The parentheses '(when a bridge falls down)' introduce a complex explanatory clause\n- The infinitive phrase 'only to support a certain amount of weight' is a B1 structure\nSuggestion: Replace 'investigation' with 'check', remove the parentheses, simplify 'inferior-quality' to 'bad material', and split the 'only to support...' clause into two clear simple sentences.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.904,
+          "meaningbert": 0.8579
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:07:59.124645",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 16,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A collapse is when something falls down.  \nSometimes we do not know why bridges fall down.  \nEngineers find out why after a check.  \nSometimes builders use bad material.  \nSometimes a key piece of the bridge is wrong.  \nSometimes engineers design a bridge to support a certain weight.  \nThe bridge cannot hold more weight.",
+      "timestamp": "2025-09-01 00:07:59.128101",
+      "metadata": {
+        "text_id": "70167e56-22a9-40d8-87bc-924864b4d041",
+        "version": 16
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 00:08:14.743559",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2cc86ff0-39df-4d3d-9db7-bf4dea1d7cee",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6431 is too low. FAIL: Fidelity Failure. The BERTScore of 0.8727 is below the required 0.90. The writer removed the nuance of a complete investigation by replacing it with \u201ccheck.\u201d The phrase \u201cinferior-quality material\u201d was weakened to \u201cbad material,\u201d and \u201cdefect in a key piece\u201d was reduced to \u201ckey piece is wrong,\u201d causing loss of precision. Suggestion: Replace \u201ccheck\u201d with \u201ccomplete investigation.\u201d Use \u201cinferior-quality material\u201d instead of \u201cbad material.\u201d Use \u201cdefect in a key piece\u201d instead of \u201ckey piece is wrong.\u201d",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8727,
+          "meaningbert": 0.6431
+        }
+      }
+    }
+  ]
+}

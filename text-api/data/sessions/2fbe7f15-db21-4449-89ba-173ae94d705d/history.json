@@ -1,0 +1,80 @@
+{
+  "session_id": "2fbe7f15-db21-4449-89ba-173ae94d705d",
+  "created_at": "2025-09-01 17:25:44.267055",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:25:45.310436",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "110-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many people ask if things are getting worse every day, or if it is impossible for us to make progress. However, in his book 'Enlightenment Now', Steven Pinker looks at how humans have developed and finds good news. He says that we are now living longer, healthier, freer, and happier lives. Pinker believes that the real problem is that the values of the Enlightenment, which was a time in history when people started to believe more in reason and science, are being attacked. When some people, like news reporters or powerful leaders, try to make others feel very loyal to their own group, or believe that they cannot change things, or not trust others, then we are in danger. This can cause serious damage to important systems like democracy, where people choose their leaders by voting, and to countries working together.",
+      "timestamp": "2025-09-01 17:25:45.310605",
+      "metadata": {
+        "text_id": "8c3495dd-153d-44e8-995f-73a791ec4776",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:25:45.337108",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "dc2c6b4d-c66c-4468-a9f6-869bdc9578a4",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2', which is above the required 'B1' level. While the text successfully preserved factual integrity and meaning (MeaningBERT: 0.8471, BERTScore: 0.9146), the linguistic complexity exceeds the B1 target. This is likely due to the use of the present continuous passive voice in the phrase 'are being attacked', which is typically a B2 structure. Additionally, the sentence 'When some people, like news reporters or powerful leaders, try to make others feel very loyal to their own group, or believe that they cannot change things, or not trust others, then we are in danger' is quite long and complex, combining multiple clauses and abstract concepts, pushing it beyond a comfortable B1 reading level. To achieve B1 compliance, consider rephrasing passive constructions into active voice where possible (e.g., 'people are attacking the values') and breaking down the longer, multi-clause sentences into two or more simpler sentences. For example, the long sentence could be split: 'Some people, like news reporters or powerful leaders, try to make others feel very loyal to their own group. They might also make people believe that they cannot change things or not trust others. If this happens, we are in danger.'",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9146,
+          "meaningbert": 0.8471
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:25:59.479681",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many people ask if things are getting worse every day, or if it is impossible for us to make progress. However, in his book 'Enlightenment Now', Steven Pinker looks at how humans have developed and finds good news. He says that we are now living longer, healthier, freer, and happier lives. Pinker believes that the real problem is that people are attacking the values of the Enlightenment, which was a time in history when people started to believe more in reason and science. Some people, like news reporters or powerful leaders, try to make others feel very loyal to their own group. They might also make people believe that they cannot change things or not trust others. If this happens, we are in danger. This can cause serious damage to important systems like democracy, where people choose their leaders by voting, and to countries working together.",
+      "timestamp": "2025-09-01 17:25:59.480068",
+      "metadata": {
+        "text_id": "2deef410-f2ff-47a5-b984-b7bcba205943",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-09-01 17:26:23.296570",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a0378579-f26e-4301-aa90-41563a6ccc54",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "The submission demonstrates excellent adherence to the simplification guidelines, resulting in a highly effective B1 text.\n\nPriority 1: Factual Integrity Check - PASS. A thorough manual comparison confirms that all factual information from the original text has been accurately preserved in the output. There are no discrepancies in names, concepts, or relationships.\n\nPriority 2: Meaning and Fidelity Check - PASS. The MeaningBERT score of 0.8278 is well above the 0.75 threshold, indicating strong preservation of the core message. The BERTScore of 0.9108 also exceeds the 0.90 threshold, confirming that key lexical items and factual phrasing from the original have been retained or appropriately simplified without loss of detail.\n\nPriority 3: CEFR Compliance Check - PASS. The CEFR classifier correctly identified the output as 'B1', meeting the target complexity level. The text successfully simplifies complex structures and vocabulary to be accessible for a B1 learner without becoming overly simplistic (A2) or remaining too complex (B2).\n\nPriority 4: Semantic and Qualitative Analysis - The text exhibits strong qualitative improvements.\nStructure and Flow: The original text's four sentences have been effectively expanded into eight sentences in the output. This strategic splitting of longer, more complex sentences significantly enhances readability for a B1 audience. For example, the original's final long sentence was broken down into four clearer, shorter sentences. The use of B1 connectors like 'However', 'He says that', 'Pinker believes that', 'If this happens', and 'This can cause' ensures a smooth and logical flow between ideas.\nVocabulary Strategy: The keyword 'Enlightenment' was expertly defined in context: 'which was a time in history when people started to believe more in reason and science.' This is a model example of how to handle key terms. Vocabulary candidates were also handled very well; complex terms like 'demagogues' were simplified to 'powerful leaders', 'tribalism' to 'very loyal to their own group', 'fatalism' to 'believe that they cannot change things', and 'world co-operation' to 'countries working together'. The addition of 'where people choose their leaders by voting' to define 'democracy' is also highly effective for a B1 audience.\n\nOverall, this is a very strong submission that successfully meets all simplification objectives.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9108,
+          "meaningbert": 0.8278
+        }
+      }
+    }
+  ]
+}

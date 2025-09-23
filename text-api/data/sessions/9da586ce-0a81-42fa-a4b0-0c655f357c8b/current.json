@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "82b504c2-7e8f-4969-a96f-b35d24ddfd4f",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "A millennial is a person. They were born from 1983 to 1993.\nPwC is a company. They did a survey around the world. More than 40,000 people answered. Some were millennials. Some were not.\nThe survey asked about how people act at work. It asked about how people talk at work. It asked about how people like to work. It asked about how people get paid. It asked about how people can get better jobs. It asked about time for work and time for life.\n\nDeloitte is another company. They did another survey around the world. More than 10,000 millennials answered.\nThis survey asked what millennials think about work. It asked about problems and chances for work. The world of work is not simple.",
+    "version": 11,
+    "created_at": "2025-09-01 17:08:22.920779",
+    "updated_at": "2025-09-01 17:08:22.920780",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "a7dfb32b-879b-42e5-8a59-fee01006d669",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation Failure and Fidelity Failure. The text fails to adequately preserve the core meaning and specific details of the original text, and it loses too many key words and factual phrases. The simplification was too aggressive, resulting in a significant loss of information. MeaningBERT score of 0.5485 is far below the required 0.75. This indicates a severe loss of the original message's substance. The specific topics of the surveys, such as 'workplace culture', 'communication and working styles', 'pay structure', 'career development', and 'work\u2013life balance', were reduced to overly generic questions like 'how people act at work' or 'how people get paid'. This removes the specific focus of the original. BERTScore of 0.8709 is below the required 0.90. This is due to the extensive lexical simplification that replaced specific terms with less precise ones. For example, 'workplace culture' was replaced by 'how people act at work', 'career development' by 'how people can get better jobs', and 'threats and opportunities' by 'problems and chances'. While simpler, these replacements do not maintain the necessary lexical fidelity to the original. Suggestion: Rephrase the specific topics of the surveys using A2 vocabulary while retaining more of the original detail. For example, instead of 'how people act at work', try 'rules for working together'. Instead of 'how people can get better jobs', try 'how to grow in a job'. Ensure that the specific focus of each survey is clearly communicated, not just vaguely implied.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8709,
+      "meaningbert": 0.5485
+    },
+    "created_at": "2025-09-01 17:08:46.890846"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "6a82d21a-cadf-4a8d-ba9d-c2c592f5772a",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "A millennial is a person. They were born from 1983 to 1993.\n\nPwC is a company. They did a survey around the world. More than 40,000 people answered. Some were millennials. Some were not. The survey asked about the work place. It asked about how people talk and work. It asked about their pay. It asked about getting better jobs. It asked about time for work and life.\n\nDeloitte is another company. They did another survey around the world. More than 10,000 millennials answered. This survey asked what millennials think about the world of work. It asked about problems and good chances in this world.",
+    "version": 6,
+    "created_at": "2025-09-01 17:05:14.758333",
+    "updated_at": "2025-09-01 17:05:14.758338",
+    "metrics_meaningbert": 0.5773,
+    "metrics_cefr_compliance": "A2"
+  }
+}

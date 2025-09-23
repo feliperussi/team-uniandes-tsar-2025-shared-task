@@ -1,0 +1,413 @@
+{
+  "session_id": "baa6f957-8502-464f-b94d-4a7452418bf4",
+  "created_at": "2025-09-01 17:23:22.736687",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:23:26.275435",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "96-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A basement is a room under a house.  \nIn horror movies, the basement is very scary.  \nIt often hides something bad.  \nA bad person may hide tools there.  \nBasements are always dark.  \nThey are often damp.  \nYou reach them by a narrow stair.  \nBasements feel creepy even when empty.",
+      "timestamp": "2025-09-01 17:23:26.275590",
+      "metadata": {
+        "text_id": "3edea24c-dbef-46b3-809b-ab283b396464",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:23:29.845007",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "18216f31-fb77-401b-b52f-2cf5afe6bb2a",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8869 is below the required 0.90 threshold. This indicates an unacceptable loss of key words and phrasing from the original text.\n\n- Fidelity Failure: The primary reason for the low BERTScore is the oversimplification of key terms. Replacing 'evil psychopath' with 'bad person' and 'staircase' with 'stair' reduces lexical fidelity below the minimum standard.\n\n- Grammatical Error: The phrase 'a narrow stair' is grammatically incorrect. The correct term is 'stairs' or 'a staircase'. This is a basic error.\n\n- Suggestion: Correct the grammatical error to 'narrow stairs'. To pass the fidelity check, you must simplify vocabulary while retaining more of the original phrasing. The current version sacrifices too much lexical detail for simplicity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8869,
+          "meaningbert": 0.8736
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:23:35.370129",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A basement is a room under a house.  \nIn horror films the basement is scary.  \nSomething often hides there.  \nAn evil psychopath may hide tools there.  \nThe basement is always dark.  \nIt is often damp.  \nYou reach it by narrow stairs.  \nThe basement feels creepy even when it is empty.",
+      "timestamp": "2025-09-01 17:23:35.370396",
+      "metadata": {
+        "text_id": "225db55b-dac3-43f1-801b-d922d5ca571a",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:23:58.569813",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "87ddfc1e-07c7-4516-8eb4-56f28765e5d6",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.884 is below the required 0.90 threshold. This indicates an unacceptable loss of lexical detail from the original text.\n\n- Fidelity Failure: The score is too low because key phrases were removed or altered. The introductory clause \"No matter what kind of house it is\" was completely deleted, which significantly impacted fidelity.\n- Vocabulary Violation: The text uses the word \"evil\", which is a B1-level word. This is a direct violation of the A2 standard. All vocabulary must be strictly A2 or below.\n\nSuggestion: Replace the B1 word \"evil\" with an A2 alternative like \"bad\". Re-integrate more of the original phrasing to meet the 0.90 BERTScore requirement.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.884,
+          "meaningbert": 0.9357
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:24:06.581518",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: No matter what kind of house it is, the basement is scary.  \nA basement is a room under a house.  \nIn horror films the basement is scary.  \nSomething often hides there.  \nA bad person may hide tools there.  \nThe basement is always dark.  \nIt is often damp.  \nYou reach it by a narrow stair.  \nThe basement feels creepy even when it is empty.",
+      "timestamp": "2025-09-01 17:24:06.581724",
+      "metadata": {
+        "text_id": "bac6b326-964a-4ac5-bde8-361dee639cb2",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:24:29.218677",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7b8bc8e8-da0a-49de-9f6f-1dac600b9bd0",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.891 is below the required 0.90 threshold. This indicates a significant loss of key phrasing from the original text, even if the general meaning is preserved. The protocol is absolute.\n\n- Structural Violation: The sentence 'No matter what kind of house it is...' uses a 'No matter what...' clause. This is a B1 structure and is too complex for the A2 standard. A2 texts must use simple, direct sentences.\n\n- Lexical Deviation: The low BERTScore was caused by replacing specific original phrases like 'evil psychopath' and 'narrow staircase' with overly simple terms. While simplification is necessary, the loss of lexical fidelity was too great to meet the 0.90 standard.\n\nSuggestion: Break the first sentence into two simple sentences. Example: 'It can be any kind of house. The basement is always scary.' Re-evaluate simplifications to ensure they do not cause the BERTScore to fall below the required threshold.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.891,
+          "meaningbert": 0.8774
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:24:39.857013",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: It can be any kind of house.  \nThe basement is always scary.  \nA basement is a room under a house.  \nIn horror films the basement is scary.  \nSomething often hides there.  \nAn evil psychopath may hide tools there.  \nThe basement is always dark.  \nIt is often damp.  \nYou reach it by a narrow staircase.  \nThe basement feels creepy even when it is empty.",
+      "timestamp": "2025-09-01 17:24:39.857349",
+      "metadata": {
+        "text_id": "e212c7d6-130e-4c7b-a79b-ea97e300f5ea",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:24:57.986690",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a551bcae-dea3-4937-9367-1450a0e01877",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8738 is below the required 0.90. This is the primary reason for failure. The text has been oversimplified to the point that it no longer retains sufficient lexical similarity to the source material.\n\n- Fidelity Violation: The BERTScore is too low. This is caused by replacing original phrases with simpler ones that, while preserving general meaning, lose key lexical detail. For example, changing 'isn't anything down there' to 'it is empty' contributed to this score reduction.\n\n- Vocabulary Violation: The B1-level word 'evil' was used in the phrase 'An evil psychopath'. This word is not on the A2-approved list and is a direct violation of the CEFR standard.\n\nSuggestion: Restore some of the original phrasing to increase the BERTScore above the 0.90 threshold. Replace the B1 word 'evil' with an A2-compliant description, such as 'a very bad person'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8738,
+          "meaningbert": 0.9144
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:25:05.926325",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: No matter what kind of house it is, the basement is scary.  \nIn horror films the basement is a scary place.  \nSomething often hides there.  \nA very bad person may hide tools there.  \nThe basement is always dark.  \nIt is often damp.  \nYou can reach it by a narrow staircase.  \nThe basement feels creepy even when nothing is down there.",
+      "timestamp": "2025-09-01 17:25:05.927632",
+      "metadata": {
+        "text_id": "8f2e36ea-cd35-47e9-808b-87cffaf80af9",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:25:31.301236",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1b405492-5167-4441-8b77-dd1698abc187",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The metrics indicate a surface-level pass, but a manual audit reveals critical structural failures. The text is not compliant with the A2 standard.\n\n- B1 Grammar Structure: The first sentence, 'No matter what kind of house it is, the basement is scary,' is a direct copy from the original text. The phrase 'No matter what' is a B1-level grammatical structure and is unacceptable for an A2 text.\n\n- B1 Connector Usage: The final sentence, 'The basement feels creepy even when nothing is down there,' uses the subordinating conjunction 'even when'. This is a B1-level connector. A2 texts require simpler connectors like 'and', 'but', or 'so', or the use of separate sentences.\n\n- Suggestion: The first sentence must be broken down. Rephrase to: 'It can be any kind of house. The basement is always scary.'\n\n- Suggestion: The final sentence must be split. Rephrase to: 'The basement feels creepy. This is true even if nothing is down there.' or 'Sometimes, nothing is in the basement. But it still feels creepy.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9044,
+          "meaningbert": 0.8997
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:25:38.228922",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Basement: a room under a house.  \nIt can be any kind of house.  \nThe basement is always scary.  \nIn horror films the basement is scary.  \nSomething often hides there.  \nA very bad person may hide tools there.  \nThe basement is always dark.  \nIt is often damp.  \nYou can reach it by a narrow staircase.  \nThe basement feels creepy.  \nNothing may be there.  \nBut it still feels creepy.",
+      "timestamp": "2025-09-01 17:25:38.229319",
+      "metadata": {
+        "text_id": "395b0c8a-5840-458f-b119-010a36c3727b",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 17:26:06.043507",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "31631f99-991a-4c5d-b5e3-83488094e1e8",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.866 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\nDeviation Analysis: The simplification of phrases like 'evil psychopath' to 'A very bad person' and 'even when there isn't anything down there' to 'Nothing may be there. But it still feels creepy' was too aggressive. While the meaning is preserved (as shown by the acceptable MeaningBERT score of 0.8473), the lexical fidelity required for the 0.90 BERTScore was lost.\n\nCEFR Compliance: The text correctly classifies as A2. The vocabulary and sentence structure are appropriate for the level.\n\nFactual Integrity: The text is factually accurate.\n\nSuggestion: Revise the text to retain more of the original's specific vocabulary without increasing complexity. The goal is to simplify structure, not eliminate all key descriptive words. For example, 'A bad person hides tools there' is closer to the original than using the modal verb 'may'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.866,
+          "meaningbert": 0.8473
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:26:16.232040",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Basement is a room under a house.  \nIt can be in any kind of house.  \nThe basement is always scary.  \nIn horror films the basement is scary.  \nSomething often hides there.  \nA bad person may hide tools there.  \nThe basement is always dark.  \nIt is often damp.  \nYou can reach it by a narrow staircase.  \nThe basement feels creepy.  \nIt feels creepy even when nothing is there.",
+      "timestamp": "2025-09-01 17:26:16.233916",
+      "metadata": {
+        "text_id": "7bd0ca9d-611b-4b71-97dc-c98ffb6bda52",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:26:37.894563",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7dc33e47-f593-4ea1-8503-7c47ff03cace",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8723 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text. The simplification of the term 'evil psychopath' to 'A bad person' contributed to the low fidelity score. While simplification is required, this was too severe. The original text's structure was completely dismantled into a list of short, disconnected sentences. This also lowered the fidelity score by removing original phrasing and conjunctions like 'And'. The first sentence, 'Basement is a room under a house,' is a definition. This content was not in the original text and should be handled as a keyword definition, not as part of the main body. Suggestion: Reintroduce more of the original vocabulary where possible. Combine some of the very short sentences using simple A2 connectors like 'and' or 'so' to improve flow and better match the original's structure. For example: 'The basement is always dark and it is often damp.' Restore a closer equivalent for 'evil psychopath', such as 'a very bad person' or 'an evil person'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8723,
+          "meaningbert": 0.8668
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:26:49.436643",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The basement is a scary place in horror films.  \nIt can be in any house.  \nSomething often hides there.  \nAn evil person may hide tools there.  \nThe basement is always dark and often damp.  \nYou can reach it by a narrow staircase.  \nThe basement feels creepy and it is still creepy when nothing is there.",
+      "timestamp": "2025-09-01 17:26:49.437129",
+      "metadata": {
+        "text_id": "b26069d3-628c-4d7a-8cd4-58e654ecaa41",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:27:16.178360",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7b2962f4-6627-4478-bfee-4eb57b2681f3",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.895 is below the required 0.90 threshold. This indicates a loss of key factual phrasing from the original text.\n\n- Lexical Fidelity Loss: Key words from the original text were removed, damaging fidelity. The word 'only' was deleted, changing the meaning of how to access the basement. The specific B2 noun 'psychopath' was replaced, losing precision that contributed to the score drop.\n\n- Vocabulary Violation: The text uses the B1 word 'evil'. This is a direct violation of the A2 standard. All vocabulary must be strictly A2 or simpler.\n\n- Structural Complexity: The final sentence, 'The basement feels creepy and it is still creepy when nothing is there,' is a compound sentence containing a subordinate 'when' clause. This structure is too complex for the A2 level.\n\nSuggestion: Replace the B1 word 'evil' with 'bad'. Split the final sentence into two simple sentences. Re-evaluate sentence construction to ensure key words like 'only' are not omitted, to meet the 0.90 BERTScore requirement.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.895,
+          "meaningbert": 0.8625
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:27:24.245022",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The basement is a scary place in horror films.  \nIt can be in any house.  \nSomething often hides there.  \nA bad person may hide things there.  \nThe basement is always dark and often damp.  \nYou can only reach it by a narrow staircase.  \nThe basement feels creepy.  \nIt stays creepy even without anything.",
+      "timestamp": "2025-09-01 17:27:24.247404",
+      "metadata": {
+        "text_id": "7501aea0-fa17-40d1-adcd-61de589246d9",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:27:44.162707",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2923fc14-e0f7-4c76-87d1-eb48d6bbe88c",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8877 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original text.\n\n- The simplification of 'evil psychopath has hidden their tools' to 'A bad person may hide things there' is too extreme. It loses the specific nouns 'psychopath' and 'tools', which are critical for fidelity.\n- The phrase 'The basement feels creepy' is a weaker statement than the original's 'basements are always creepy', further reducing the score by losing the sense of certainty.\n- The final sentence 'It stays creepy even without anything' is a grammatically awkward simplification of 'even when there isn't anything down there'.\n\nSuggestion: Restore key nouns from the original text while maintaining A2 simplicity. Rephrase 'A bad person may hide things there' to 'A very bad person hides tools there'. Change 'The basement feels creepy' to 'The basement is always creepy' to match the certainty of the original text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8877,
+          "meaningbert": 0.9057
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:27:51.415466",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The basement is a scary place in horror films.  \nIt can be in any house.  \nSomething often hides there.  \nA bad psychopath hides tools there.  \nThe basement is always dark and often damp.  \nYou can only reach it by a narrow staircase.  \nThe basement is always creepy.  \nIt is creepy even when there is nothing there.",
+      "timestamp": "2025-09-01 17:27:51.416065",
+      "metadata": {
+        "text_id": "deba05b5-71ae-41dd-977d-f09438594ead",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:28:14.092845",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3fb7ec3b-4194-44bd-b00f-de8aec6cc0f0",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8976 is below the mandatory 0.90 threshold. This indicates a loss of key phrasing and lexical detail from the original text. The failure is caused by replacing 'No matter what kind of house it is' with 'It can be in any house' and 'evil psychopath' with 'bad psychopath'. While the meaning is preserved and the vocabulary is A2 compliant, the fidelity to the source text's specific wording is insufficient. Suggestion: Revise to retain more of the original's specific vocabulary without increasing complexity. A more faithful simplification would be 'The basement is a scary place in any kind of house'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8976,
+          "meaningbert": 0.9452
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:28:19.607144",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The basement is a scary place in any kind of house.  \nSomething often hides there.  \nAn evil psychopath hides tools there.  \nThe basement is always dark and often damp.  \nYou can only reach it by a narrow staircase.  \nThe basement is always creepy.  \nIt is creepy even when there is nothing there.",
+      "timestamp": "2025-09-01 17:28:19.608826",
+      "metadata": {
+        "text_id": "d01d8618-220a-482e-9e01-28a3903fa8f1",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:28:44.315191",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6dd10455-e896-4864-91b9-a90c9df56a50",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The core context of the original text was lost. The original text states the basement is a scary place 'in horror films'. Your output makes a general statement that 'The basement is a scary place in any kind of house'. This is a critical error that changes the entire meaning of the passage from a comment on movie tropes to a statement about all houses.\n\n- Vocabulary Violation: The word 'evil' is B1 level. It must be replaced with a simpler A2 alternative. For example, 'a very bad person'.\n- Meaning Shift: The original sentence 'where something is hiding or where the evil psychopath has hidden their tools' uses 'or' to present alternatives. Your version splits this into two separate statements, which slightly alters the logical connection.\n\nSuggestion: Restore the phrase 'in horror films' to the first sentence to maintain factual accuracy. Replace the B1 word 'evil' with an A2-compliant term like 'bad'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9003,
+          "meaningbert": 0.9452
+        }
+      }
+    }
+  ]
+}

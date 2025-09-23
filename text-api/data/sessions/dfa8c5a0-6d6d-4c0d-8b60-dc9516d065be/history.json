@@ -1,0 +1,154 @@
+{
+  "session_id": "dfa8c5a0-6d6d-4c0d-8b60-dc9516d065be",
+  "created_at": "2025-08-31 23:50:53.826479",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:50:53.849957",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "01-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An asteroid is a rock in space.  \nNASA is working to record asteroids 140 metres wide or more.  \nNASA thinks there are 25,000 asteroids of this size.  \nNASA recorded 8,000 so far.  \nNASA still has 17,000 asteroids to record.  \nIn 2013, a 19-metre asteroid exploded above Chelyabinsk in Russia.  \nThe rock hurt 1,200 people.  \nAsteroids this size can be very dangerous if they come near Earth.",
+      "timestamp": "2025-08-31 23:50:53.850079",
+      "metadata": {
+        "text_id": "ab0c793b-0563-4da6-8e9d-e8aa1d5ad39d",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 23:50:53.855937",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "36264923-1b35-4aef-9931-4dc7f03eee3b",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. Use of disallowed connectors 'or' and 'if'. The sentence 'NASA is working to record asteroids 140 metres wide or more.' uses 'or', which exceeds the allowed connectors for A2. The sentence 'Asteroids this size can be very dangerous if they come near Earth.' uses 'if', also not permitted. Suggestion: Split these sentences and remove 'or' and 'if'. For example, rewrite to 'NASA is working to record asteroids 140 metres wide. NASA wants to record even larger ones.' and 'Asteroids this size can be very dangerous. They can come near Earth.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9043,
+          "meaningbert": 0.7953
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:51:13.336818",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Asteroids are rocks in space.  \nNASA is working to record asteroids 140 metres wide.  \nNASA wants to record even larger ones.  \nNASA thinks there are 25,000 asteroids of this size.  \nNASA recorded 8,000 so far.  \nNASA still has 17,000 asteroids to record.  \nIn 2013, a 19-metre asteroid exploded above Chelyabinsk in Russia.  \nThe rock hurt 1,200 people.  \nAsteroids this size can be very dangerous.  \nThey can come near Earth.",
+      "timestamp": "2025-08-31 23:51:13.338177",
+      "metadata": {
+        "text_id": "72aa5e45-9d56-4af1-8bd2-16851190706e",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:51:31.301657",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2d5479c7-482a-4b88-a135-d407bc85abbd",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7198 is too low. The writer\u2019s output drops the concept of \u201csmaller asteroids\u201d and fragments the phrase \u201cmeasuring 140 metres wide or more\u201d into separate sentences, losing the original grouping. FAIL: Fidelity Failure. The BERTScore of 0.8931 is below the required 0.90 because key phrasing like \u201clogging some of the smaller asteroids\u201d was replaced with oversimplified statements such as \u201cNASA wants to record even larger ones,\u201d losing important nuance.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8931,
+          "meaningbert": 0.7198
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:51:50.287723",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An asteroid is a rock in space.  \nNow NASA wants to record some smaller asteroids.  \nThey measure 140 metres wide or more.  \nNASA thinks there are 25,000 of this size.  \nNASA recorded 8,000 so far.  \nNASA still needs to record 17,000.  \nIn 2013, a 19-metre asteroid exploded above Chelyabinsk in Russia.  \nThe rock hurt 1,200 people.  \nAsteroids this size are very dangerous if they come near Earth.",
+      "timestamp": "2025-08-31 23:51:50.289436",
+      "metadata": {
+        "text_id": "8ac61a7e-5cae-4a4d-9bb8-c8decca21c47",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 23:52:11.601494",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "bd5e0586-51ae-4db1-9f2c-d1d2ecbf21f3",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text uses vocabulary beyond A2 level. Detected deviation:\n- The verb \"measure\" in \"They measure 140 metres wide or more\" is B1 level and not allowed at A2. Suggestion: Replace it with simpler phrasing, for example \"They are 140 metres wide or more.\"",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9018,
+          "meaningbert": 0.8089
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:52:25.855197",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An asteroid is a rock in space.\nNow NASA wants to record some smaller asteroids.\nThey are 140 metres wide or more.\nNASA thinks there are 25,000 of this size.\nNASA recorded 8,000 so far.\nNASA still needs to record 17,000.\nIn 2013, a 19-metre asteroid exploded above Chelyabinsk in Russia.\nThe rock hurt 1,200 people.\nAsteroids this size are very dangerous if they come near Earth.",
+      "timestamp": "2025-08-31 23:52:25.855528",
+      "metadata": {
+        "text_id": "d6773e81-2f19-415f-bfe2-7918924a43be",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-08-31 23:52:43.748162",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "380edacf-9cd7-458d-9e32-d66dafd9b14c",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text passed all priority checks. Factual integrity is perfect. MeaningBERT is 0.8114 (above 0.75). BERTScore is 0.9296 (above 0.90). The CEFR classifier rated the text A2.\n\nDetected Findings:\n- Vocabulary uses only A1 and A2 words as listed.\n- Sentence structure is short and simple; connectors limited to 'and', 'or', 'if'.\n- All numeric facts match the original text exactly.\n\nNo changes required. The text fully complies with A2 readability and preserves the original meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9296,
+          "meaningbert": 0.8114
+        }
+      }
+    }
+  ]
+}

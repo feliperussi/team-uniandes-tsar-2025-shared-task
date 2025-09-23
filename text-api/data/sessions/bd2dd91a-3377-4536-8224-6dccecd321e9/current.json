@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "01bc6675-eb98-4152-8025-f7b719fdbbee",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Dogs live in packs.  \nThey learned people give food to small nice dogs.  \nThe pack sends those small dogs to beg for food.  \nThe small dogs beg for the whole pack.  \nSome dogs learned to use the city train system.  \nThey ride the train.  \nThey move from one part of their area.  \nScientists do not know when dogs get off the train.  \nOne idea: they use their excellent sense of smell.  \nThey recognise the smell of stations they like.  \nAnother idea: they hear station names in announcements.  \nNow people often see dogs on the trains.  \nLocals often do not notice the dogs.",
+    "version": 11,
+    "created_at": "2025-09-01 17:27:16.168976",
+    "updated_at": "2025-09-01 17:27:16.168987",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "37d5945d-4cc8-47e6-9a7b-468927d0df40",
+    "approval": "FAIL",
+    "grade": 2,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6532 is significantly below the required 0.75 threshold. This is an instant failure. The text also fails the fidelity check, with a BERTScore of 0.8813, which is below the 0.90 minimum.\n\n- Meaning Preservation Failure (MeaningBERT 0.6532): The output breaks the original text into a series of disconnected statements. This destroys the logical connections. For example, the original states passengers are so used to the dogs THAT they go unnoticed. Your version, 'Now people often see dogs on the trains. Locals often do not notice the dogs,' presents two separate facts and loses this cause-and-effect meaning.\n\n- Fidelity Failure (BERTScore 0.8813): Key information was omitted. The original states dogs travel 'from one part of their territory to another'. Your version, 'They move from one part of their area,' completely removes the destination ('to another'), which is a critical part of the sentence's meaning.\n\n- Structural Fragmentation: The text is excessively choppy. While A2 requires simple sentences, this output is a list of simple facts, not a coherent paragraph. The flow is unnatural and fails to connect ideas.\n\nSuggestion: Recombine sentences using simple A2 connectors like 'and' or 'so' to restore logical flow. Ensure that the full meaning of a phrase, such as moving from a start point 'to' an end point, is preserved. Rewrite to connect cause and effect. Example: 'People are used to the dogs, so they do not notice them.'",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8813,
+      "meaningbert": 0.6532
+    },
+    "created_at": "2025-09-01 17:27:37.213753"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "4e4dfffa-cc96-492f-91fb-4aaba529c6c2",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "People give food to small nice dogs.  \nThe pack sends those dogs to beg for food.  \nThe dogs beg for the whole pack.  \nSome dogs learned to use the city metro system.  \nThey ride the metro to travel.  \nThey travel from one part of their area to another.  \nScientists do not know how the dogs know when to get off.  \nOne idea is that they use their excellent sense of smell.  \nThey recognise the scent of their favourite stations.  \nAnother idea is that they hear station names spoken.  \nBoth ideas may be true.  \nPeople now see dogs on trains often, so it is okay for them.  \nThe locals do not notice the dogs.",
+    "version": 7,
+    "created_at": "2025-09-01 17:24:29.211984",
+    "updated_at": "2025-09-01 17:24:29.211985",
+    "metrics_meaningbert": 0.7446,
+    "metrics_cefr_compliance": "A2"
+  }
+}

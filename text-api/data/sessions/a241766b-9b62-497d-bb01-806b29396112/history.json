@@ -1,0 +1,80 @@
+{
+  "session_id": "a241766b-9b62-497d-bb01-806b29396112",
+  "created_at": "2025-09-01 16:57:28.380604",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 16:57:28.407769",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "40-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An adventure is a new and exciting thing. It can be a bit dangerous.\n\nGeorge Lucas made films. He used a special story idea. It is called \"the hero's journey.\"\n\nUsually, a hero lives a normal life. But then something happens. It tells them to go on an adventure. This adventure makes everything different.\n\nFirst, in Star Wars, Luke lives a normal life. He lives with his aunt and uncle. He fixes robots.\n\nHe finds a message. It is from Princess Leia. It is in the robot R2D2. This message is the call to adventure. It starts his trip.",
+      "timestamp": "2025-09-01 16:57:28.407900",
+      "metadata": {
+        "text_id": "11674306-2f17-4241-8508-e6bdc807332d",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 16:57:31.661896",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "aacb58b2-a8bd-4a9f-b33c-1154aec3a797",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6818 is below the required 0.75, indicating a significant loss of the original text's core message. The writer's output fails to convey the specific contribution of George Lucas as 'one of the early film directors to directly base his story on the 17 stages of the hero's journey'. Instead, it simplifies this to 'George Lucas made films. He used a special story idea. It is called 'the hero's journey.'', which loses the crucial nuance of Lucas's pioneering and detailed application of the concept. Additionally, the introductory definition 'An adventure is a new and exciting thing. It can be a bit dangerous.' is an unrequested addition that distracts from the original text's focus on the hero's journey narrative. The omission of 'to Obi-Wan Kenobi' from the message description also removes a specific factual detail from the original. Suggestion: Rephrase the introduction to clearly state George Lucas's significant role in using the detailed 'hero's journey' framework. Remove the extraneous definition of 'adventure'. Ensure all key factual details, such as the recipient of the message, are retained.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9029,
+          "meaningbert": 0.6818
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 16:57:41.948865",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: George Lucas made films. He used a special story idea. It is called \"the hero's journey.\" This idea has 17 steps. George Lucas used these steps for his stories.\n\nUsually, a hero lives a normal life. But then something happens. It tells them to go on an adventure. This adventure makes everything different.\n\nFirst, in Star Wars, Luke lives a normal life. He lives with his aunt and uncle. He fixes robots.\n\nHe finds a message. It is from Princess Leia. It is for Obi-Wan Kenobi. It is in the robot R2D2. This message is the call to adventure. It starts his trip.",
+      "timestamp": "2025-09-01 16:57:41.949125",
+      "metadata": {
+        "text_id": "b7de3dee-4f11-40bb-8492-b68485cee6b6",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-09-01 16:57:56.267162",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "77a3d9d2-c3f2-435b-9be9-1a1846545f4e",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "PASS: All diagnostic checks passed. The text successfully maintained factual integrity and preserved the core meaning of the original text, as evidenced by a MeaningBERT score of 0.7928 and a BERTScore of 0.9135. The CEFR classifier accurately rated the text as A2. The vocabulary used is appropriate for the A2 level, with no unapproved B1/B2 words detected. Sentence structures are consistently short and simple, and connectors are limited to basic forms suitable for A2 learners. The simplification of complex phrases from the original text was executed effectively without losing essential information.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9135,
+          "meaningbert": 0.7928
+        }
+      }
+    }
+  ]
+}

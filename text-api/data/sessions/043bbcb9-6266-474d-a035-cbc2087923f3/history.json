@@ -1,0 +1,154 @@
+{
+  "session_id": "043bbcb9-6266-474d-a035-cbc2087923f3",
+  "created_at": "2025-09-01 10:30:01.221143",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:30:01.228292",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "38-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Baboons are a type of big monkey. Wild animals sometimes come into cities. They look for food.\n\nThis happens in Cape Town, South Africa. Baboons come to places where people live. These places are on the side of the city. The baboons come to eat. They open rubbish bins. They also eat fruit from gardens.\n\nSome baboons are very brave. They go into people's houses. They take food from kitchens. Baboons can be angry. They can hurt pet animals. So, many people in the city are not happy. They do not like the baboons.",
+      "timestamp": "2025-09-01 10:30:01.228496",
+      "metadata": {
+        "text_id": "731910e9-b2e5-430e-a03e-83e9f59db7ec",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:30:01.240813",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ba509890-11bb-47ff-bf7f-c8fe4f8046f2",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6758 is significantly below the required 0.75 threshold. The text fails to capture the core message of the original.\n\n- The primary failure is a loss of meaning. The original text describes a human-animal conflict and a specific problem for residents. Your version is a simple, neutral description of animal behavior, which is not the same message.\n\n- The simplification of key concepts was too extreme. Changing 'aggressive' to 'angry' and 'attacked' to 'hurt' weakens the sense of danger and conflict that is central to the original text's meaning.\n\n- You added new information. The sentence 'Baboons are a type of big monkey' was not in the original text. Adding external facts, even for simplification, is a deviation that dilutes the source message and contributed to the low meaning score.\n\n- The causal link is weak. The original's 'so understandably, many city residents don't welcome their presence' strongly connects the baboons' aggression to the residents' feelings. Your version, 'So, many people in the city are not happy', is a much weaker statement.\n\nSuggestion: Rewrite the text to focus on the concept of a 'problem'. Do not add information that was not in the original source. Restore the strong connection between the animals' actions and the residents' negative reaction.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9186,
+          "meaningbert": 0.6758
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:30:26.444615",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Wild animals sometimes come into cities to look for food. In Cape Town, South Africa, this is a problem with baboons. Baboons are a type of wild animal. They come into areas where people live to find food. They open rubbish bins and eat fruit from gardens. Some baboons are not afraid. They even go into people's houses and take food from kitchens. Baboons can be dangerous and they attack pet animals. Because of this, many people in the city do not want the baboons there.",
+      "timestamp": "2025-09-01 10:30:26.444942",
+      "metadata": {
+        "text_id": "e2ed1446-0a68-4dc4-99d3-ddb345c5d09b",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:30:57.751606",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a0df8dc5-77e4-4264-ab04-a10e97c40693",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6812 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text.\n\nPrimary Deviation: The original text makes a neutral observation: 'baboons have started coming into residential areas'. Your output changes this into a judgment: 'this is a problem with baboons'. This alters the meaning from a factual statement to an opinionated one.\n\nSecondary Deviation: Minor details were lost, such as 'orchards' and 'cupboards and fridges'. While acceptable for simplification, the primary meaning shift is the critical error.\n\nSuggestion: Rephrase the text to maintain the original's neutral, observational tone. Do not introduce the word 'problem'. State the facts as they are presented in the source. For example: 'In Cape Town, South Africa, baboons come into areas where people live to find food.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9459,
+          "meaningbert": 0.6812
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:31:23.166317",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Wild animals sometimes come into cities to look for food. In Cape Town, South Africa, baboons come into areas where people live to find food. Baboons are a type of wild animal. They open rubbish bins and eat fruit from gardens. Some baboons are not afraid. They even go into people's houses and take food from kitchen cupboards and fridges. Baboons can be dangerous and they attack pet animals. Because of this, many people in the city do not want the baboons there.",
+      "timestamp": "2025-09-01 10:31:23.166674",
+      "metadata": {
+        "text_id": "01fa0996-c2dc-44d0-8cac-dcc6cb78d97f",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:31:48.217685",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1867c6c9-0682-4711-8802-5dfe6ad69a15",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.697 is below the required 0.75 threshold. This indicates a failure to preserve the core message. The original text uses present perfect tense ('have started coming', 'have attacked') to describe a specific, recent problem in Cape Town. Your version uses the simple present tense ('come', 'attack'), which changes the meaning to a general fact about baboons. This loses the original's sense of a new and developing situation. Additionally, the words 'on the edge of the city' and 'orchards' were removed, reducing the text's descriptive detail. Suggestion: Rephrase sentences to restore the original meaning of a recent and ongoing event. Use phrases like 'are now coming' instead of just 'come'. Restore the key detail 'on the edge of the city' to provide correct context.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9548,
+          "meaningbert": 0.697
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:32:15.250056",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Wild animals sometimes come into cities to look for food. In Cape Town, South Africa, baboons are now coming into areas on the edge of the city to find food. Baboons are a type of wild animal. They open rubbish bins and eat fruit from gardens and orchards. Some baboons are not afraid. They even go into people's houses and take food from kitchen cupboards and fridges. Baboons can be dangerous. They are attacking pet animals. Because of this, many people in the city do not want the baboons there.",
+      "timestamp": "2025-09-01 10:32:15.250507",
+      "metadata": {
+        "text_id": "841c445a-fcc6-4640-b478-fd44a872cc0b",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 10:32:38.401378",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6d68a6be-5175-4227-9697-66e214eb6471",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with all A2 standard requirements.\n\n- Factual Integrity: The output is factually identical to the original text.\n- Metrics Compliance: All metrics are well within the required thresholds. MeaningBERT at 0.8331 and BERTScore at 0.9612 confirm excellent meaning and lexical preservation. The CEFR_Classifier_Result is correctly identified as A2.\n- Vocabulary Control: Vocabulary is strictly A2. The simplification of 'aggressive' to 'dangerous' and 'brave' to 'not afraid' is correct and effective. The B1 word 'edge' is acceptable in the common collocation 'edge of the city'.\n- Structural Simplicity: The text uses short, simple sentences connected by appropriate A2-level conjunctions ('and', 'Because of this'). The structure is a model of A2 clarity.\n- Simplification Strategy: The addition of the sentence 'Baboons are a type of wild animal' serves as an effective in-text definition, which is an exemplary A2 technique. No deviations were found.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9612,
+          "meaningbert": 0.8331
+        }
+      }
+    }
+  ]
+}

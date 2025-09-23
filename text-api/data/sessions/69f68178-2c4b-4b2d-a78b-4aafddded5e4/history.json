@@ -1,0 +1,80 @@
+{
+  "session_id": "69f68178-2c4b-4b2d-a78b-4aafddded5e4",
+  "created_at": "2025-09-01 17:06:36.393146",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:06:37.674591",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "34-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Is graffiti art or vandalism?  \nIt depends on your view.  \nIn many countries, writing on public property is vandalism.  \nWriting on private property is also vandalism.  \nPolice often stop street artists.  \nSome artists have to pay fines.  \nCity councils complain about the high cost.  \nCleaning graffiti from buildings costs a lot.  \nIt also costs a lot for buses and trains.",
+      "timestamp": "2025-09-01 17:06:37.674714",
+      "metadata": {
+        "text_id": "f57ef867-0365-4d20-9c5c-8d7fbb3dfa46",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:06:39.850362",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e70739d6-73be-432b-8ac9-dcf6b5918346",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Exceeds A2 Standard. The text passes all metric checks but fails the qualitative audit due to the use of unsimplified B1-level vocabulary.\n\n- The word 'property' is classified as B1. It appears twice in your text.\n- The word 'private' is classified as B1. It appears once in your text.\n- The phrases 'public property' and 'private property' are too complex for the A2 level and must be broken down into simpler concepts.\n\nSuggestion: Remove all B1 vocabulary. Rephrase 'writing on public property' to 'writing on public buildings and walls'. Rephrase 'writing on private property' to 'writing on buildings that belong to a person'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9068,
+          "meaningbert": 0.9135
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:06:45.454360",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Is graffiti art or vandalism?  \nIt depends on your view.  \nIn many countries, writing on public buildings and walls is vandalism.  \nWriting on buildings that belong to a person is also vandalism.  \nPolice often stop street artists.  \nSome artists have to pay fines.  \nCity councils complain about the high cost.  \nCleaning graffiti from buildings costs a lot.  \nCleaning graffiti from buses and trains also costs a lot.",
+      "timestamp": "2025-09-01 17:06:45.454527",
+      "metadata": {
+        "text_id": "67a2dcef-660d-4afc-95b1-c8b863906f8a",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 17:07:06.761708",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f03a1365-cf49-4c01-a0b3-b8b35d8874e4",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS. The output meets all A2 standard requirements.\n- Factual Integrity: The core message and all facts from the original text have been preserved without error.\n- Metric Compliance: The MeaningBERT score of 0.8675 and BERTScore of 0.9043 are above the required thresholds, indicating successful meaning preservation and lexical fidelity.\n- CEFR Classification: The text correctly classified as A2.\n- Vocabulary Control: All vocabulary is restricted to the A1 and A2 levels. Words like 'public', 'complain', and 'belong' are appropriate for the target level.\n- Structural Simplicity: The original text's clauses were correctly broken down into short, simple sentences. This is a model execution of A2 simplification.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9043,
+          "meaningbert": 0.8675
+        }
+      }
+    }
+  ]
+}

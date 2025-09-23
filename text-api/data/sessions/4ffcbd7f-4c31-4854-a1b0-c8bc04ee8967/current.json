@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "f9d5661a-2d30-4ea3-9cee-c3a209c18bd8",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "We have questions about the effect of genes on the brain and on language.  \nGenes are parts of our body.  \nThey tell our body what to do.  \nA mutation means a change in a gene.  \nResearchers found a gene mutation between 200,000 and 100,000 years ago, which seems to have a connection with speaking and how our brain control our mouth and face.  \nMonkeys have a similar gene, but they do not have this mutation.  \nIt is too early.  \nWe do not know how much effect genes have on language.  \nMaybe one day we will find the answers in our DNA.",
+    "version": 14,
+    "created_at": "2025-09-01 00:21:49.614920",
+    "updated_at": "2025-09-01 00:21:49.614939",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "1673d91f-247b-4a2b-bef0-bfb7912e2dd7",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Deep Qualitative Audit Failure. The text passes factual, meaning, and CEFR classifier checks but breaks A2 vocabulary and structure rules.\n- Vocabulary Audit: uses B2-level words gene and mutation; B1-level word connection; non-A2 words monkeys, speaking, DNA, which.\n- Structural Analysis: contains a long sentence with a relative clause starting with which; uses complex grammar instead of only and, but, so, because.\nSuggestion: Replace gene/mutation/connection with simpler terms like part/change/link. Remove which-clauses by splitting into two sentences. Avoid uncommon words like monkeys, DNA, speaking; use simpler synonyms. Ensure all sentences use only and, but, so, or because as connectors.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.9111,
+      "meaningbert": 0.8274
+    },
+    "created_at": "2025-09-01 00:22:13.769615"
+  },
+  "attempt_number": 14,
+  "best_attempt": {
+    "id": "69a74578-5ec3-4830-a6f9-3e873b66a422",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Genes are parts in our body.  \nA mutation is a change in a gene.  \nScientists study the influence of genetics on brain and language development.  \nThey ask: Did mutations give us language ability?  \nThey found a mutation 200,000 to 100,000 years ago.  \nThis mutation helps speaking and brain control of our mouth and face.  \nMonkeys have a similar gene but no mutation.  \nIt is too early to know the effect of our genes.  \nMaybe one day we find answers in our DNA.",
+    "version": 8,
+    "created_at": "2025-09-01 00:16:14.373526",
+    "updated_at": "2025-09-01 00:16:14.373531",
+    "metrics_meaningbert": 0.9382,
+    "metrics_cefr_compliance": "A2"
+  }
+}

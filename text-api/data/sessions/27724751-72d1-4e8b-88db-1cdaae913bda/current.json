@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "ca81d28b-65d7-4571-991e-927c7acf1f4b",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Cape Town can be dangerous for baboons.  \nBaboons can be hurt in car accidents.  \nBaboons can be electrocuted by electric wires.  \nBaboons are an endangered species.  \nThe city council hired Baboon Monitors to help baboons and stop problems.  \nBaboon Monitors watch baboons in the city.  \nTheir job is to chase baboon\u200bs out of town.  \nThey also catch baboons.  \nThey release baboons in the countryside.  \nThis plan has some success.  \nIt reduces problems between people and baboons.  \nBut it is hard to stop baboons from coming back.  \nThey come back because the town has easy food.",
+    "version": 11,
+    "created_at": "2025-09-01 17:13:25.232113",
+    "updated_at": "2025-09-01 17:13:25.232114",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "36bf7ec2-7ff7-494e-8baf-29efeea2483d",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Fidelity Failure. The BERTScore of 0.89 is below the required 0.90. This indicates a loss of key phrasing from the original text. The text also fails the primary CEFR compliance check.\n\n- CEFR Classification Error: The text was classified as B1, not the required A2. This is an automatic failure.\n- B1/B2 Vocabulary Violation: The B1 classification was caused by your failure to simplify B1 and B2 level vocabulary. You used the words 'species', 'release', and 'council' directly from the source text. These words are too advanced for the A2 level.\n- Lexical Fidelity Loss: The low BERTScore was caused by replacing multiple key terms. For example, 'employed' became 'hired' and 'policy' became 'plan'. While simplification is necessary, the cumulative effect of these changes reduced the text's fidelity to the original.\n\nSuggestion: Replace all words above the A2 level. Replace 'species' with 'type of animal'. Replace 'release' with 'let go'. Replace 'council' with 'city leaders'. This will correct the CEFR level and improve fidelity.",
+    "metrics": {
+      "cefr_compliance": "B1",
+      "bertscore": 0.8944,
+      "meaningbert": 0.838
+    },
+    "created_at": "2025-09-01 17:13:56.757950"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "ad05c511-b274-43b0-a46b-b81fd4f1623a",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Cape Town can be dangerous for baboons.  \nBaboons can be hurt in car accidents.  \nBaboons can be killed by electric wires.  \nThere are not many baboons left in the world.  \nThe city council hired Baboon Monitors.  \nBaboon Monitors are people who watch baboons.  \nTheir job is to chase baboons out of the city.  \nThey also catch baboons and release them in the countryside.  \nThis plan has some success.  \nIt makes fewer problems between people and baboons.  \nBut it is hard to stop baboons from coming back.  \nThey come back because the city has easy food.",
+    "version": 7,
+    "created_at": "2025-09-01 17:10:48.026617",
+    "updated_at": "2025-09-01 17:10:48.026622",
+    "metrics_meaningbert": 0.8231,
+    "metrics_cefr_compliance": "A2"
+  }
+}

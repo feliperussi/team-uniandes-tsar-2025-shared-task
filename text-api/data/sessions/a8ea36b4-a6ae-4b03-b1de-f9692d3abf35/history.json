@@ -1,0 +1,413 @@
+{
+  "session_id": "a8ea36b4-a6ae-4b03-b1de-f9692d3abf35",
+  "created_at": "2025-09-01 16:59:58.737326",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:00:00.924769",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "55-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: \"Power distance\" is a way to talk about how people see bosses and workers.\nIn a \"high power distance\" place, bosses are very strong. Workers must listen to them.\nIn a \"low power distance\" place, bosses and workers are more equal.\n\nGabriela worked in an old job.\nHer job had a high power distance culture.\nThis means bosses had a lot of power.\nEveryone knew their place.\nLeaders made all the big choices.\nPeople did not often ask them questions.\n\nBut Gabriela's team was from Sweden.\nThey worked in a low power distance culture.\nThis means bosses and workers often worked together.\nThey found answers and made choices together.\nIn Sweden, leaders were like teachers.\nThey wanted workers to have their own ideas.\nThey wanted workers to ask them questions.",
+      "timestamp": "2025-09-01 17:00:00.924937",
+      "metadata": {
+        "text_id": "bc423a4f-6eb0-4054-9fe9-b1756468088e",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:00:00.942755",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c13c403c-b1a5-4d14-a986-ae05cc92d611",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The text fails to adequately preserve the core meaning and lexical fidelity of the original, as evidenced by the low MeaningBERT and BERTScore metrics. The primary reason for failure is the insufficient preservation of the original text's nuances and specific phrasing.\n\n- Meaning Preservation Failure: The MeaningBERT score of 0.619 is significantly below the required 0.75. While the general concept is present, the depth of meaning is lost. For example, the original's 'power and authority are respected' is reduced to 'bosses are very strong. Workers must listen to them,' which loses the nuance of 'respect.' Similarly, 'leaders act as coaches or mentors who encourage independent thought and expect to be challenged' is simplified to 'leaders were like teachers. They wanted workers to have their own ideas. They wanted workers to ask them questions,' which misses the active 'expect to be challenged' aspect.\n\n- Fidelity Failure: The BERTScore of 0.883 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original. Important phrases such as 'power and authority are respected,' 'rightful place,' 'subordinates often work together with their bosses to find solutions,' and 'coaches or mentors who encourage independent thought and expect to be challenged' are either omitted or paraphrased too broadly, reducing the lexical overlap with the original text.\n\nSuggestion: Rephrase sections to more accurately reflect the original's specific concepts while maintaining A2 simplicity. For instance, ensure the idea of 'respect' for authority is conveyed, not just 'listening.' Also, ensure the active role of leaders in low power distance cultures, particularly in 'expecting to be challenged,' is clearly communicated.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.883,
+          "meaningbert": 0.619
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:00:12.088521",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: \"Power distance\" is a way to talk about how people see bosses and workers.\nIn a \"high power distance\" place, people respect power and bosses. Everyone has their place.\nIn a \"low power distance\" place, bosses and workers are more equal.\n\nGabriela worked in an old job.\nHer job had a high power distance culture.\nThis means people respected bosses and their power.\nEveryone knew their place.\nLeaders made all the big choices.\nPeople did not often ask them questions.\n\nBut Gabriela's team was from Sweden.\nThey worked in a low power distance culture.\nThis means workers often worked with their bosses.\nThey found answers and made choices together.\nIn Sweden, leaders were like teachers.\nThey wanted workers to have their own ideas.\nThey wanted workers to ask them questions.\nLeaders expected workers to challenge them.",
+      "timestamp": "2025-09-01 17:00:12.088721",
+      "metadata": {
+        "text_id": "2b4c177e-7a6b-4af9-8384-29272adc7181",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:00:39.883574",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "57de06e3-3254-4025-9e14-c2a1d74b2fc4",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The MeaningBERT score of 0.6346 is significantly below the required 0.75, indicating a loss of core message and nuance. The BERTScore of 0.8877 is also below the required 0.90, showing a significant loss of key words and factual phrasing from the original text.\n\nSpecific Deviations:\n1.  Meaning Preservation Failure: The original text's nuance regarding 'authority' and 'rightful place' was lost. For example, 'power and authority are respected' was simplified to 'people respect power and bosses', omitting 'authority'. 'Everyone has their rightful place' became 'Everyone has their place', losing 'rightful'. The concept of 'coaches or mentors' was oversimplified to 'teachers', which alters the specific leadership role described.\n2.  Lexical Fidelity Failure: Many key terms from the original text were replaced or omitted, leading to the low BERTScore. Examples include:\n    *   'previous work environment' became 'old job'.\n    *   'authority' was removed.\n    *   'rightful' was removed.\n    *   'decisions' was replaced by 'choices'.\n    *   'challenged' was rephrased as 'ask them questions' (though 'challenge' was later reintroduced).\n    *   'subordinates' was replaced by 'workers'.\n    *   'solutions' was replaced by 'answers'.\n    *   'coaches or mentors' was replaced by 'teachers'.\n    *   'encourage independent thought' was rephrased as 'wanted workers to have their own ideas'.\n3.  Vocabulary Violation: The text uses several words above the A2 level, which is unacceptable for an A2 target.\n    *   'respect' (B1) is used in 'people respect power and bosses'.\n    *   'equal' (B1) is used in 'bosses and workers are more equal'.\n    *   'expected' (B1) is used in 'Leaders expected workers to challenge them'.\n    *   'challenge' (B1) is used in 'Leaders expected workers to challenge them'.\n    *   'means' (B2) is used multiple times, for example, 'This means people respected bosses'.\n\nCorrective Path:\n*   Restore the specific meaning of 'authority' and 'rightful place' using A2 vocabulary.\n*   Reintroduce or find A2 equivalents for key terms like 'subordinates', 'solutions', 'coaches', and 'mentors' to improve lexical fidelity.\n*   Replace all B1 and B2 vocabulary words ('respect', 'equal', 'expected', 'challenge', 'means') with appropriate A2-level synonyms or simpler phrasings. For example, 'means' can often be replaced with 'This shows that...' or 'This is when...'. 'Respect' can be 'think highly of' or 'listen to'. 'Equal' can be 'the same'. 'Expected' can be 'wanted' or 'thought'. 'Challenge' can be 'ask hard questions'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8877,
+          "meaningbert": 0.6346
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:00:52.151313",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: \"Power distance\" is a way to talk about how people see bosses and workers.\nIn a \"high power distance\" place, people think highly of power and authority. Everyone has their right place.\nIn a \"low power distance\" place, bosses and workers are the same.\n\nGabriela worked in a job before.\nHer job had a high power distance culture.\nThis shows that people thought highly of bosses and their power and authority.\nEveryone knew their right place.\nLeaders made all the big decisions.\nPeople did not often ask them hard questions.\n\nBut Gabriela's team was from Sweden.\nThey worked in a low power distance culture.\nThis shows that workers often worked with their bosses.\nThey found answers to problems and made decisions together.\nIn Sweden, leaders were like helpers or guides.\nThey wanted workers to think for themselves.\nThey wanted workers to ask them questions.\nLeaders wanted workers to ask them hard questions.",
+      "timestamp": "2025-09-01 17:00:52.152394",
+      "metadata": {
+        "text_id": "1110311f-f958-4ce0-871a-303690e5a60a",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:01:02.922648",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b4ff01e3-bb0e-4362-b2a2-b817553239f0",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The definition of 'low power distance' is incorrect. The original text states that in a low power distance culture, 'subordinates often work together with their bosses to find solutions and make decisions' and 'leaders act as coaches or mentors who encourage independent thought and expect to be challenged'. Your statement 'In a 'low power distance' place, bosses and workers are the same' is a significant oversimplification that distorts the core meaning of collaboration and open communication into an inaccurate claim of identical status. This is a fundamental misrepresentation of the concept.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8862,
+          "meaningbert": 0.7436
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:01:12.223691",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: \"Power distance\" is a way to talk about how people see bosses and workers.\nIn a \"high power distance\" place, people think highly of power and authority. Everyone has their right place.\nIn a \"low power distance\" place, bosses and workers work together. They find answers and make decisions. Leaders help workers. They want workers to think for themselves and ask questions.\n\nGabriela worked in a job before.\nHer job had a high power distance culture.\nThis shows that people thought highly of bosses and their power and authority.\nEveryone knew their right place.\nLeaders made all the big decisions.\nPeople did not often ask them hard questions.\n\nBut Gabriela's team was from Sweden.\nThey worked in a low power distance culture.\nThis shows that workers often worked with their bosses.\nThey found answers to problems and made decisions together.\nIn Sweden, leaders were like helpers or guides.\nThey wanted workers to think for themselves.\nThey wanted workers to ask them questions.\nLeaders wanted workers to ask them hard questions.",
+      "timestamp": "2025-09-01 17:01:12.224059",
+      "metadata": {
+        "text_id": "ecc8d060-5227-4238-af76-2c7fd9ed963d",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:01:36.286027",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "aaaec005-8f64-4f90-8b51-cd142f14ef04",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8845 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original text, even with simplification efforts. While simplification is necessary for A2, it must not come at the cost of lexical fidelity to this extent. The output replaced too many original terms with different phrasing, reducing the direct lexical overlap. For example, 'solutions' (an A2 word) was replaced with 'answers to problems', and 'coaches or mentors' was replaced with 'helpers or guides', which are significant lexical deviations contributing to the low score. Deviations from A2 standard: 1. Vocabulary Deviation: The word 'highly' is B1. The sentence 'people think highly of power and authority' uses this B1 word. 2. Vocabulary Deviation: The word 'authority' is B1. The sentence 'people thought highly of bosses and their power and authority' uses this B1 word. 3. Vocabulary Deviation: The word 'coaches' is B1. While replaced, the original concept was simplified with a different A2 word, contributing to the BERTScore reduction. 4. Vocabulary Deviation: The word 'mentors' is B2. While replaced, the original concept was simplified with a different A2 word, contributing to the BERTScore reduction. Suggestion: Retain more of the original phrasing where possible, especially for A2-level words like 'solutions'. For B1/B2 words, simplify them but try to maintain a closer lexical link if the BERTScore is to be met. For example, 'coaches or mentors' could be simplified to 'leaders help workers like coaches' if 'coaches' is defined, or ensure the replacement is lexically closer if possible without increasing complexity. Rephrase sentences to incorporate more original vocabulary while maintaining A2 simplicity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8845,
+          "meaningbert": 0.7622
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:01:50.542211",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: \"Power distance\" is a way to talk about how people see bosses and workers.\nIn a \"high power distance\" place, people respect power and leaders. Everyone has their right place.\nIn a \"low power distance\" place, bosses and workers work together. They find solutions and make decisions. Leaders help workers. They want workers to think for themselves and ask questions.\n\nGabriela worked in a job before.\nHer job had a high power distance culture.\nThis shows that people respected bosses and their power.\nEveryone knew their right place.\nLeaders made all the big decisions.\nPeople did not often ask them hard questions.\n\nBut Gabriela's team was from Sweden.\nThey worked in a low power distance culture.\nThis shows that workers often worked with their bosses.\nThey found solutions and made decisions together.\nIn Sweden, leaders were like coaches. They helped workers learn.\nThey wanted workers to think for themselves.\nThey wanted workers to ask them questions.",
+      "timestamp": "2025-09-01 17:01:50.543006",
+      "metadata": {
+        "text_id": "7de6eed4-19fd-485c-b89a-3fdd32b99104",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:02:11.998922",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0c88de01-4d5b-49f9-aa98-89c8cd4e2574",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation and Fidelity Failure. The MeaningBERT score of 0.6967 is below the required 0.75, indicating a loss of core meaning and nuance from the original text. The BERTScore of 0.8881 is below the required 0.90, indicating a significant loss of key words and factual phrasing. Specific deviations: The original text's emphasis on 'authority' in 'power and authority are respected' was diluted by replacing it with 'power and leaders'. 'Authority' is a key concept in power distance. The term 'subordinates' was replaced with the less precise 'bosses and workers', losing lexical fidelity. The specific role of 'mentors' was omitted, simplifying 'leaders act as coaches or mentors' to just 'leaders were like coaches'. The phrase 'not often challenged' was softened to 'did not often ask them hard questions', which slightly alters the original meaning of a systemic lack of challenge. 'Encourage independent thought' was simplified to 'think for themselves', losing some of the active encouragement aspect. 'Expect to be challenged' was simplified to 'ask them questions', which is less direct about the leader's expectation. Suggestion: Ensure that all key concepts and specific roles mentioned in the original text are retained, even when simplifying language. Use synonyms that maintain the precise meaning and lexical detail. For example, retain 'authority' or find an A2 equivalent that conveys the same weight. Ensure 'subordinates' is accurately represented. Do not omit specific roles like 'mentors'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8881,
+          "meaningbert": 0.6967
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:02:27.107278",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: \"Power distance\" is about how people see power. It is about how people see bosses and workers.\nIn a \"high power distance\" place, people respect power and authority. Everyone has their right place.\nIn a \"low power distance\" place, workers work with their bosses. They find solutions together. They make decisions together. Leaders are like coaches. They are like mentors. They help workers learn. They help workers think for themselves. They want workers to ask questions. They want workers to challenge them.\n\nGabriela worked in a job before.\nHer job had a high power distance culture.\nPeople respected power and authority there.\nEveryone knew their right place.\nLeaders made all the big decisions.\nPeople did not often challenge them.\n\nBut Gabriela's team was from Sweden.\nThey worked in a low power distance culture.\nWorkers often worked with their bosses.\nThey found solutions and made decisions together.\nIn Sweden, leaders were like coaches. They were like mentors.\nThey helped workers learn. They helped workers think for themselves.\nThey wanted workers to ask questions. They wanted workers to challenge them.",
+      "timestamp": "2025-09-01 17:02:27.107816",
+      "metadata": {
+        "text_id": "14668585-5380-4981-aac6-c867332240ef",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:02:52.105787",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ac09be39-0663-4027-ac74-2de1474f122a",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The text failed to preserve the core meaning and lexical fidelity of the original. This is a critical failure at Priority 2 of the diagnostic protocol. \n- Meaning Preservation Failure: The MeaningBERT score of 0.7047 is below the required 0.75. The original text's core message is the direct contrast between Gabriela's past high power distance culture and her Swedish team's low power distance culture. Your version introduces a general definition first and then separates Gabriela's story into many fragmented sentences, which dilutes this central contrast and the implications for her experience. The emphasis on 'Gabriela was used to' and 'Her Swedish team, however, were used to' is lost.\n- Fidelity Failure: The BERTScore of 0.888 is below the required 0.90. This indicates a significant loss of key words and factual phrasing. For example, 'previous work environment' became 'worked in a job before', 'subordinates often work together' became 'workers often worked with their bosses', and 'encourage independent thought' became 'help workers think for themselves'. These changes, while simplifying, lose important lexical detail and precision from the original.\nSuggestion: Rephrase the text to ensure the core message of the direct contrast between Gabriela's two environments is clear and maintained. Combine some of the very short sentences to better convey the relationships between ideas, while still adhering to A2 simplicity. Restore more of the original's specific phrasing where possible, without increasing complexity, to improve lexical fidelity. For instance, 'subordinates often work together' is more precise than 'workers work with their bosses'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.888,
+          "meaningbert": 0.7047
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:03:08.877688",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Gabriela was used to her old job. In her old job, there was 'high power distance'. This means people respected power and authority. Everyone had their right place. Leaders made the big decisions. People did not often challenge them.\n\nBut Gabriela's team was from Sweden. They were used to a 'low power distance' place. This means workers often worked with their bosses. They found solutions and made decisions together. Leaders were like coaches. They helped workers think for themselves. They wanted workers to ask questions. They wanted to be challenged.",
+      "timestamp": "2025-09-01 17:03:08.878259",
+      "metadata": {
+        "text_id": "91845bda-8ebd-40f5-b11d-809ac23ede06",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:03:34.201606",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5d9e65ba-e424-4e95-a919-ed3b2d2d4f8d",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6414 is significantly below the required 0.75. The core message regarding the cultural context of 'power distance' is diminished. The original text emphasizes 'culture' as the environment, while your version simplifies it to 'job' or 'place', losing the nuanced meaning of the cultural framework. The distinction between 'subordinates' and 'workers' also subtly alters the power dynamic described. \n\nAdditional Deviations:\n- Vocabulary: The word 'used' is classified as B1. For A2, simpler phrasing or a different verb should be employed.\n- Vocabulary: The word 'authority' is classified as B1. This term is too complex for an A2 audience and must be simplified.\n- Vocabulary: The word 'challenge' is classified as B1. This word appears multiple times and is above the A2 standard.\n- Vocabulary: The word 'means' is classified as B2. This is a significant deviation from the A2 vocabulary standard and is used repeatedly. \n\nSuggestion: Rephrase sentences to explicitly retain the concept of 'culture' when discussing 'power distance'. Replace 'used to' with simpler A2 structures. Replace 'authority' with simpler terms like 'power' or 'rules'. Replace 'challenge' with phrases like 'ask questions' or 'disagree'. Replace 'means' with simpler A2 phrasing such as 'This is when...' or 'This shows that...'. Focus on ensuring the core concept of 'power distance culture' is fully conveyed at an A2 level.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9214,
+          "meaningbert": 0.6414
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:03:50.290535",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Gabriela worked in a certain culture before. This culture had 'high power distance'. This is when people respected power. Everyone had their right place. Leaders made the big decisions. People did not often ask questions.\n\nBut Gabriela's team was from Sweden. They worked in a 'low power distance' culture. This is when workers often worked with their bosses. They found solutions and made decisions together. Leaders were like coaches. They helped workers think for themselves. They wanted workers to ask them questions.",
+      "timestamp": "2025-09-01 17:03:50.292131",
+      "metadata": {
+        "text_id": "35cef571-b9d9-491d-bd0e-066a5aceb329",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:04:07.173495",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "cb640b07-dfad-453e-add9-9dc7e2a01a93",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7146 is below the required 0.75. This indicates a loss of some core meaning from the original text. Specific deviations include: 1. The original phrase 'power and authority are respected' was simplified to 'people respected power'. The concept of 'authority' is a key component of 'high power distance' and its omission reduces the fidelity of the meaning. 2. The original 'leaders act as coaches or mentors' was simplified to 'Leaders were like coaches'. The term 'mentors' was removed, slightly diminishing the full scope of the leader's role as described in the original. 3. The original 'expect to be challenged' was softened to 'They wanted workers to ask them questions'. While an A2 simplification, 'expect' implies a stronger requirement than 'wanted', leading to a subtle shift in meaning. Suggestion: Ensure all core concepts, even when simplified, retain their essential meaning. Rephrase to include the concept of 'authority' and consider if 'mentors' can be simplified without complete removal.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9168,
+          "meaningbert": 0.7146
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:04:15.633280",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Gabriela worked in a certain culture before. This culture had 'high power distance'. This is when people respected power and rules. Everyone had their right place. Leaders made the big decisions. People did not often ask questions.\n\nBut Gabriela's team was from Sweden. They worked in a 'low power distance' culture. This is when workers often worked with their bosses. They found solutions and made decisions together. Leaders were like coaches. They also helped people learn. They helped workers think for themselves. They expected workers to ask them questions.",
+      "timestamp": "2025-09-01 17:04:15.637318",
+      "metadata": {
+        "text_id": "77b751b7-3d5b-4dc1-be00-8eb8e758835f",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:04:34.054144",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "eac0da53-81d1-4cb3-9388-d2eed6ee60ba",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6901 is below the required 0.75. The text loses critical nuance regarding the concept of 'power distance'. The original text emphasizes 'power and authority are respected' and leaders 'are not often challenged'. Your version simplifies 'authority' to 'rules' and 'challenged' to 'ask questions'. This significantly weakens the core meaning of how power dynamics and direct challenges to authority function within these cultures. The concept of 'challenging' implies questioning or opposing, which is stronger than merely 'asking questions'. This semantic shift impacts the fidelity of the cultural description. Additionally, the word 'expected' is classified as B1. For A2 compliance, this word must be simplified. Suggestion: Rephrase 'expected workers to ask them questions' to something like 'They wanted workers to ask them questions' or 'They thought workers would ask them questions'. Rephrase the descriptions of 'high power distance' and 'low power distance' to more accurately reflect the concepts of 'authority' and 'challenging' without using B1 vocabulary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9157,
+          "meaningbert": 0.6901
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:04:44.241426",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Gabriela worked in a certain culture before. This culture had 'high power distance'. This is when people respected power and leaders. Everyone had their right place. Leaders made the big decisions. People did not often disagree with leaders.\n\nBut Gabriela's team was from Sweden. They worked in a 'low power distance' culture. This is when workers often worked with their bosses. They found solutions and made decisions together. Leaders were like coaches. They also helped people learn. They helped workers think for themselves. They wanted workers to ask them questions. They wanted workers to tell them if they disagreed.",
+      "timestamp": "2025-09-01 17:04:44.242007",
+      "metadata": {
+        "text_id": "6cfeb766-7235-4820-90fb-6426f851582f",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:04:57.976285",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "cea3f85f-8e5f-4db1-8aaf-47fd8f2320ed",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6633 is below the required 0.75. The core meaning regarding Gabriela's and her team's familiarity and adaptation to the cultures has been lost. The original text states 'Gabriela was used to a high power distance culture' and 'Her Swedish team, however, were used to working in a low power distance culture'. Your version simplifies this to 'Gabriela worked in a certain culture before' and 'They worked in a 'low power distance' culture'. This simplification removes the crucial nuance of being accustomed to or habituated to these cultural dynamics, which is central to understanding Gabriela's situation. The text describes where they worked, but not their established comfort or familiarity with the cultural norms. Suggestion: Rephrase to accurately convey the concept of being accustomed to or familiar with the cultural environment.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9089,
+          "meaningbert": 0.6633
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:05:07.937387",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Gabriela was used to a 'high power distance' culture. In this culture, people respected power and leaders. Everyone had their right place. Leaders made the big decisions. People did not often disagree with leaders.\n\nBut Gabriela's team was from Sweden. They were used to a 'low power distance' culture. In this culture, workers often worked with their bosses. They found solutions and made decisions together. Leaders were like coaches. They also helped people learn. They helped workers think for themselves. They wanted workers to ask them questions. They wanted workers to tell them if they disagreed.",
+      "timestamp": "2025-09-01 17:05:07.940198",
+      "metadata": {
+        "text_id": "64e7c7f1-a515-436b-8bb9-597b15e40c1a",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:05:26.079332",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e3e82a5b-ff11-4fbd-a631-800eabc7344e",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7016 is below the required 0.75. The core message regarding the nuances of 'power distance' cultures has been diluted. The text fails to fully capture the depth of the original meaning. Specific deviations include: The original text emphasizes 'power and authority are respected', but your version simplifies this to 'people respected power and leaders', losing the specific concept of 'authority' which is central to high power distance. The term 'subordinates' was replaced with 'workers', which, while simpler, loses some of the hierarchical implication crucial to the topic. The phrase 'leaders act as coaches or mentors who encourage independent thought' was simplified to 'Leaders were like coaches. They also helped people learn. They helped workers think for themselves.' This softens the active role of leaders in fostering independent thought and loses the specific nuance of 'mentors'. The strong expectation implied by 'expect to be challenged' is weakened by the phrasing 'They wanted workers to ask them questions. They wanted workers to tell them if they disagreed.', which makes the leader's role sound less proactive in seeking challenge. Suggestion: Rephrase to restore the specific concepts of 'authority' and 'subordinates'. Ensure the active role of leaders in encouraging independent thought and expecting challenge is clearly conveyed.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9143,
+          "meaningbert": 0.7016
+        }
+      }
+    }
+  ]
+}

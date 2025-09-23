@@ -1,0 +1,117 @@
+{
+  "session_id": "a349311d-bdb4-41c0-bc73-05903c7c254e",
+  "created_at": "2025-09-01 17:53:14.284533",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:53:18.114575",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "01-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An asteroid is a small rock that moves in space.  \n\nNASA is now looking for small asteroids. They are at least 140 meters wide.  \n\nScientists think there are 25,000 asteroids this size. They have found about 8,000. About 17,000 are still unknown.  \n\nIn 2013, a 19\u2011meter asteroid exploded over Chelyabinsk, Russia. It hurt 1,200 people.  \n\nThis shows that mid\u2011size asteroids can be a big risk if they go into Earth\u2019s orbit.",
+      "timestamp": "2025-09-01 17:53:18.114708",
+      "metadata": {
+        "text_id": "517d34e5-a3f0-4387-aa18-5d18a4cb227e",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 17:53:19.008966",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7b8c56ae-acb9-4a4e-8134-092bdf287f79",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Exceeds A2 Level. The text passed all metric-based checks but fails the final qualitative audit due to the inclusion of B1 vocabulary. Adherence to the A2 wordlist is non-negotiable.\n\n- B1 Vocabulary Violation: The word 'unknown' is not A2 level. The sentence 'About 17,000 are still unknown.' is therefore non-compliant.\n\n- B1 Vocabulary Violation: The word 'risk' is not A2 level. The sentence 'This shows that mid\u2011size asteroids can be a big risk...' is therefore non-compliant. The A2 word 'danger' from the original text would have been acceptable.\n\nSuggestion: Replace 'unknown' with a simpler A2 phrase, such as 'have not been found'. Replace 'risk' with the A2-compliant word 'danger'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9097,
+          "meaningbert": 0.8507
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:53:26.010646",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An asteroid is a rock that moves in space.  \n\nNASA is now looking for small asteroids. They are at least 140 meters wide.  \n\nScientists think there are 25,000 asteroids of this size. They found about 8,000. About 17,000 are still not found.  \n\nIn 2013 a 19\u2011meter asteroid exploded over Chelyabinsk, Russia. It hurt 1,200 people.  \n\nThis shows that medium sized asteroids can be a big danger if they go into Earth\u2019s orbit.",
+      "timestamp": "2025-09-01 17:53:26.011505",
+      "metadata": {
+        "text_id": "60e7a540-bcde-4829-b019-4a678e5e4d08",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 7/10 - FAIL",
+      "timestamp": "2025-09-01 17:53:46.198252",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0a879971-e7f9-4a42-94b1-182a87b89198",
+        "grade": 7,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Standard Violation. The text passed all metric checks but failed the qualitative audit. The use of a B1-level word is an automatic failure at the A2 level.\n\n- B1 Vocabulary: The word 'medium' in the sentence 'This shows that medium sized asteroids can be a big danger...' is classified as B1. This exceeds the A2 vocabulary limit. The original text's 'middle-sized' was also complex; your simplification must remain within the A2 lexicon.\n\nSuggestion: Remove the B1 word 'medium'. Rephrase the final sentence to use only A2 vocabulary. Replace 'medium sized asteroids' with 'asteroids of this size' or 'these asteroids'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9111,
+          "meaningbert": 0.8525
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:54:02.008600",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An asteroid is a rock that moves in space.  \n\nNASA is now looking for small asteroids. They are at least 140 meters wide.  \n\nScientists think there are 25,000 asteroids of this size. They found about 8,000. About 17,000 are still not found.  \n\nIn 2013 a 19\u2011meter asteroid exploded over Chelyabinsk, Russia. It hurt 1,200 people.  \n\nThis shows that these asteroids can be a big danger. They could go around Earth.",
+      "timestamp": "2025-09-01 17:54:02.009273",
+      "metadata": {
+        "text_id": "4b9350e4-6775-4fe3-b270-096f8932a934",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 17:54:23.880499",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ceb91b6e-f276-4b8f-8be6-63b0b7e0e736",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with all A2 standard requirements.\n\n- Factual Integrity: All data points from the original text (140 metres, 25,000, 8,000, 17,000, 19-metre, Chelyabinsk, 2013, 1,200 people) are present and accurate.\n- Meaning and Fidelity: The MeaningBERT score of 0.8489 and BERTScore of 0.906 are well above the minimum thresholds, indicating excellent preservation of the original message and key terms.\n- CEFR Compliance: The text correctly registers as A2. The linguistic profile is a perfect match for the target level.\n- Qualitative Audit: The vocabulary is strictly confined to A1 and A2 levels. Sentence structure is consistently simple and direct, which is ideal for A2 readability. The complex concept of 'enter Earth's orbit' was correctly simplified to 'go around Earth'. The keyword 'asteroids' was defined in the first sentence, which is a required and well-executed step.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.906,
+          "meaningbert": 0.8489
+        }
+      }
+    }
+  ]
+}

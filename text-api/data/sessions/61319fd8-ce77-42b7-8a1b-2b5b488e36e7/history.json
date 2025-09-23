@@ -1,0 +1,598 @@
+{
+  "session_id": "61319fd8-ce77-42b7-8a1b-2b5b488e36e7",
+  "created_at": "2025-08-31 23:50:53.825794",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:50:53.849045",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "05-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Potentially Hazardous Asteroids are space rocks.  \nThey pass near Earth\u2019s path.  \nNASA is the US group that looks at space and the sky.  \nThese asteroids pass inside seven million kilometres of Earth\u2019s path.  \nNASA has a map of 1,400 asteroids.  \nNASA thinks none will be a danger in the next 100 years.  \nNASA already has technology to track these rocks.  \nNASA can guess if they will hit Earth.  \nThen NASA can try two ways to protect Earth.",
+      "timestamp": "2025-08-31 23:50:53.849179",
+      "metadata": {
+        "text_id": "5cc7a379-c2a7-4c40-acd0-b81374971cd0",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:50:53.855292",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "35b1c0bf-48cc-4a81-a2aa-f098ed023f11",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The writer's output says \u201cinside seven million kilometres of Earth\u2019s path\u201d but the original states \u201cwithin 7.5 million kilometres of Earth\u2019s orbit\u201d. Suggestion: correct the distance to \u201c7.5 million kilometres\u201d to match the original text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8804,
+          "meaningbert": 0.8223
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:51:06.744670",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Potentially Hazardous Asteroids are space rocks.  \nThey pass inside 7.5 million kilometres of Earth\u2019s orbit.  \nNASA is a US space agency.  \nNASA has a map of 1,400 of these asteroids.  \nNASA thinks none will be a danger for 100 years.  \nNASA already has technology to track these objects.  \nNASA can guess if they will hit Earth.  \nThen NASA can use two ways to protect Earth.",
+      "timestamp": "2025-08-31 23:51:06.745097",
+      "metadata": {
+        "text_id": "becf2557-fe40-4cdd-924a-a7fa6643d07b",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 23:51:23.990590",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5e490c36-ee50-43f9-ba27-4bc2d6b751cf",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8916 is below the required 0.90, indicating a loss of key lexical detail.\n- The technical term \"Potentially Hazardous Asteroids\" was reduced to the generic \"space rocks\", dropping the precise label.\n- \"Make predictions about possible impact\" was changed to \"guess if they will hit Earth\", losing the formal nuance of prediction.\n- The phrase \"two defence solutions could be launched\" became \"use two ways to protect Earth\", omitting the concept of launching defence solutions.\nSuggestion: Restore the term \"Potentially Hazardous Asteroids\". Replace \"guess if they will hit Earth\" with \"make predictions about possible impact\". Include the exact phrase \"two defence solutions could be launched\" to maintain fidelity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8916,
+          "meaningbert": 0.9027
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:51:45.655690",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: \"Potentially Hazardous Asteroids\" are asteroids near Earth's orbit.  \nThey pass within 7.5 million kilometres of Earth's orbit.  \nNASA is a US space group.  \nNASA has a map of 1,400 of them.  \nNASA thinks none will be a danger for 100 years.  \nNASA already has technology to track them.  \nNASA can make predictions about possible impact.  \nIf there is a risk, two defence solutions could be launched.",
+      "timestamp": "2025-08-31 23:51:45.657662",
+      "metadata": {
+        "text_id": "04b3af9e-7cb7-4e50-8158-667e80b78787",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 23:52:05.273702",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "55edf857-f733-4fb1-b0e9-820e381afeba",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. Classifier rated B2. The text uses multiple words above A2 level such as Potentially (B2), within (B1), impact (B1), risk (B1), defence (B1). Suggestion: remove the word 'Potentially', replace 'within' with 'less than', replace 'impact' with 'hit', replace 'risk' with 'chance', replace 'defence solutions' with 'ways to protect Earth'.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9015,
+          "meaningbert": 0.8667
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:52:40.217794",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Hazardous Asteroids are space rocks near Earth's orbit.  \nThey pass less than 7.5 million kilometres from Earth's orbit.  \nNASA is a US space group.  \nNASA has a map of 1,400 Hazardous Asteroids.  \nNASA thinks none will be a danger for 100 years.  \nNASA already has technology to track them.  \nNASA can see if one will hit Earth.  \nIf there is a chance, NASA will use two ways.  \nThese ways protect Earth.",
+      "timestamp": "2025-08-31 23:52:40.218616",
+      "metadata": {
+        "text_id": "9af920f1-ac82-40b6-b56f-e31dcc0f17ae",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:52:55.549252",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b40853e4-a0c1-42da-8ca2-3131e929c037",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. Writer changed 'Potentially Hazardous Asteroids' to 'Hazardous Asteroids', which alters the defined term.\n- Incorrect object name: original 'Potentially Hazardous Asteroids'; rewritten 'Hazardous Asteroids'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8833,
+          "meaningbert": 0.789
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:53:07.807688",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Potentially Hazardous Asteroids are space rocks near Earth\u2019s orbit.\nThey pass less than 7.5 million kilometres from Earth\u2019s orbit.\nNASA is a US space group.\nNASA has a map of 1,400 Potentially Hazardous Asteroids.\nNASA thinks none will be a danger for 100 years.\nNASA already has technology to track them.\nNASA can see if one will hit Earth.\nIf there is a chance, NASA will use two ways.\nThese ways protect Earth.",
+      "timestamp": "2025-08-31 23:53:07.811905",
+      "metadata": {
+        "text_id": "1000a499-3f2f-4c53-8994-85a5932728cf",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:53:27.067396",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "09b75b5f-4767-497e-af77-c4667487eeac",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. Classifier rated B1. The text uses vocabulary and structures above A2 level.\n- The word potentially (in Potentially Hazardous Asteroids) is B2 level and must be replaced.\n- The conditional clause \u201cIf there is a chance, NASA will use two ways.\u201d is a complex B1 structure.\n- The phrase \u201cless than 7.5 million kilometres\u201d includes a large number and comparative beyond A2.\n- Sentences contain multiple clauses and connectors other than and, but, so, because.\nSuggestion: Replace potentially with simple word like dangerous.\nSuggestion: Use only and, but, so, because for connectors.\nSuggestion: Break complex sentences into separate simple sentences.\nSuggestion: Use small numbers or words to say many instead of huge figures.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9094,
+          "meaningbert": 0.8526
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:53:55.615714",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Dangerous asteroids are space rocks.  \nNASA calls them \u201cPotentially Hazardous Asteroids\u201d.  \nThey go near Earth\u2019s orbit.  \nNASA is a space group in the USA.  \nNASA has a map of fourteen hundred of these.  \nNASA thinks none will be a danger for one hundred years.  \nNASA has technology to track them.  \nNASA watches them near Earth.  \nNASA sees a hit coming.  \nNASA has two ways.  \nThey protect Earth.",
+      "timestamp": "2025-08-31 23:53:55.616169",
+      "metadata": {
+        "text_id": "7ed99f27-e52c-49c1-a5ad-578eafdf89cc",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 23:54:09.474353",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7cb4ad3d-0e87-41d4-8909-28a1b5b9f339",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8567 is below the required 0.90. This shows that important lexical details and key terms from the original text were lost or altered.\n- The original term \u201cPotentially Hazardous Asteroids\u201d was reduced to \u201cDangerous asteroids,\u201d losing the technical name and nuance.\n- The phrase \u201cmake predictions about possible impact\u201d became \u201cNASA sees a hit coming,\u201d which misrepresents the original meaning and adds unwarranted certainty.\n- The concept of launching \u201ctwo defence solutions\u201d was simplified to \u201cNASA has two ways. They protect Earth,\u201d removing the link to impact prediction and defensive action context.\nSuggestion: Restore the exact term \u201cPotentially Hazardous Asteroids,\u201d include \u201cpredictions about possible impact\u201d instead of a vague hit forecast, and mention \u201ctwo defence solutions could be launched\u201d to preserve factual and lexical fidelity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8567,
+          "meaningbert": 0.7877
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:54:30.358940",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Potentially Hazardous Asteroids are space rocks close to Earth\u2019s orbit.  \nNASA is a space agency in the USA.  \nNASA has a map of 1,400 Potentially Hazardous Asteroids.  \nNASA thinks none of the asteroids is a threat for 100 years.  \nNASA can track these asteroids with its technology.  \nNASA can make predictions about possible impact.  \nIf an impact seems possible, NASA could launch two defence solutions.",
+      "timestamp": "2025-08-31 23:54:30.360104",
+      "metadata": {
+        "text_id": "d3b67836-a17d-4e1b-ad52-68e74936fc22",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 23:54:43.037148",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "247e345e-bd33-47d7-9f86-2605c8809fba",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The writer\u2019s output omits the critical threshold of 7.5 million kilometres in the definition of Potentially Hazardous Asteroids, altering the core definition.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.8933,
+          "meaningbert": 0.8847
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:55:00.484517",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Potentially Hazardous Asteroids are space rocks.  \nThey pass within 7.5 million kilometres of Earth's orbit.  \nNASA is a space agency in the USA.  \nNASA has a map of 1,400 Potentially Hazardous Asteroids.  \nNASA thinks none of them can hit Earth for 100 years.  \nNASA can track these asteroids with its technology.  \nNASA can guess if one might hit Earth.  \nIf a hit looks possible, NASA can act.  \nIt has two ways to stop the asteroid.",
+      "timestamp": "2025-08-31 23:55:00.485653",
+      "metadata": {
+        "text_id": "f5f3e347-157a-42dc-bbf8-0c5355dd3a58",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 23:55:24.797295",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "408f67d5-ac67-47a0-8544-f1178d55783e",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8834 is below the required 0.90. Key phrases were replaced and lost. The original phrase 'make predictions about possible impact' was replaced with 'guess if one might hit Earth'. The original 'two defence solutions could be launched' was replaced with 'two ways to stop the asteroid'. Suggestion: restore the original terms to improve lexical fidelity.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8834,
+          "meaningbert": 0.8628
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:56:01.985734",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Potentially Hazardous Asteroids (PHAs) are rocks in space.  \nThey pass as close as 7.5 million kilometres to Earth\u2019s path.  \nNASA is a group in the USA that studies space.  \nNASA has a map of 1,400 PHAs.  \nNASA thinks these rocks are not a threat for one hundred years.  \nNASA can track these objects with technology.  \nNASA can make predictions about possible impact.  \nIf an impact looks possible, NASA could launch two defence solutions.",
+      "timestamp": "2025-08-31 23:56:01.995176",
+      "metadata": {
+        "text_id": "e8cc9b55-7aa9-4efa-8cf3-2df2b1e5860c",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 23:56:16.914697",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "28c3f775-4ff5-40ce-ba0c-37f8750ab734",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text is classified as B2, not A2. Evidence: the word \"potentially\" is B2 level; \"defence solutions\" uses the B1 term \"defence\" and a complex noun phrase; \"impact\" and \"threat\" are B1 words. Suggestion: Remove or replace \"potentially\" with a simpler alternative; replace \"defence solutions\" with \"two ways to protect\"; use A2 vocabulary for \"impact\" (e.g., \"hit\") and \"threat\" (e.g., \"danger\").",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9053,
+          "meaningbert": 0.9429
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:56:46.972991",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Potentially Hazardous Asteroids (PHAs) are rocks in space that pass near Earth.  \nThey pass as close as 7.5 million kilometres to Earth's path.  \nNASA is a group in the USA that studies space.  \nNASA has a map of 1,400 PHAs.  \nNASA thinks these rocks are not a danger for one hundred years.  \nNASA can track these objects with technology.  \nNASA can say if a rock will hit Earth.  \nIf a hit seems possible, NASA uses two ways to protect us.",
+      "timestamp": "2025-08-31 23:56:46.975780",
+      "metadata": {
+        "text_id": "1ba37e7e-96ba-4f1b-8185-cb3d5227ab43",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 23:57:06.400008",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "cdc40f9e-c975-446d-b547-cc9e51e4298e",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8927 is below the required 0.90. The version alters key phrasing and loses direct lexical overlap. 1. The original phrase \u201cmake predictions about possible impact\u201d was replaced with \u201csay if a rock will hit Earth\u201d. 2. \u201cdefence solutions\u201d was changed to \u201cways to protect us\u201d. 3. \u201corbit\u201d was replaced by \u201cpath\u201d, reducing technical term consistency. Suggestion: Restore the original terminology \u201cmake predictions about possible impact\u201d, \u201cdefence solutions\u201d, and \u201corbit\u201d to increase overlap and meet the BERTScore threshold.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8927,
+          "meaningbert": 0.8752
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:57:32.728002",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Potentially Hazardous Asteroids (PHAs) are rocks in space.  \nThey pass within 7.5 million kilometres of Earth's orbit.  \nNASA is a group in the USA.  \nNASA studies space.  \nNASA has a map of 1,400 PHAs.  \nNASA thinks these rocks are not a threat for one hundred years.  \nNASA can track these objects with technology.  \nNASA can make predictions about possible impact.  \nNASA can send two defence solutions.",
+      "timestamp": "2025-08-31 23:57:32.730465",
+      "metadata": {
+        "text_id": "73c75ece-bcf7-4c8b-800d-04b82a8def61",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 23:57:55.859361",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "75bdeafe-9a65-442b-9f9d-3070a7df6cf8",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. Text uses words above A2 level.\n- Contains the B2 word 'Potentially'\n- Contains the B2 word 'Hazardous'\n- Contains the B1 word 'within'\n- Contains the B1 word 'threat'\n- Contains the B1 word 'impact'\n- Contains the B1 word 'defence'\n- Contains the B1 word 'predictions'\nSuggestion: Replace or remove each non-A2 word. Use 'near' instead of 'within', 'danger' instead of 'threat', 'hit' instead of 'impact', 'protection' instead of 'defence', 'guesses' instead of 'predictions', and simplify the title to 'Dangerous asteroids'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9013,
+          "meaningbert": 0.9025
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:58:12.463956",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 12,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: 'Dangerous asteroids' are rocks in space.  \n'NASA' is a space group in the USA.  \nNASA studies space.  \nThey pass near Earth's path by 7.5 million kilometres.  \nNASA made a map of 1,400 dangerous asteroids.  \nNASA thinks these rocks are safe for one hundred years.  \nNASA uses technology to track them.  \nNASA makes guesses if they will hit Earth.  \nIf they may hit Earth, NASA plans two ways to protect Earth.",
+      "timestamp": "2025-08-31 23:58:12.464666",
+      "metadata": {
+        "text_id": "c96f4831-e633-4315-90e0-f2a96ab847cb",
+        "version": 12
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-08-31 23:58:32.771704",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9af2ea49-356c-4410-b18d-31fc742ae4ef",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The writer replaced the specific term 'Potentially Hazardous Asteroids' with 'Dangerous asteroids', altering the official name and the core concept.\n- Suggestion: Use the exact term 'Potentially Hazardous Asteroids' to preserve factual accuracy.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8659,
+          "meaningbert": 0.6413
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:58:54.864711",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 13,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Potentially Hazardous Asteroids are rocks in space.  \nThey pass within 7.5 million kilometres of Earth's orbit.  \nNASA is a space agency in the USA.  \nNASA studies these asteroids.  \nNASA made a map of 1,400 Potentially Hazardous Asteroids.  \nNASA thinks none will threaten Earth for one hundred years.  \nNASA uses technology to track them.  \nNASA makes predictions if they might hit Earth.  \nNASA plans two ways to protect Earth if they might hit.",
+      "timestamp": "2025-08-31 23:58:54.865788",
+      "metadata": {
+        "text_id": "24197882-f3cf-4ad7-86c8-858e767f0997",
+        "version": 13
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 23:59:12.460000",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ba8554f5-faf0-492b-af37-4a99bc4fd157",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8828 is below the required 0.90. Key technical terms were altered or removed: the phrase \u201cdefence solutions could be launched\u201d was changed to \u201cways to protect,\u201d losing the formal term \u201cdefence solutions.\u201d The clause \u201cclose enough to pass\u201d was simplified, and an extra fact \u201cNASA is a space agency in the USA\u201d was added, which was not in the original. Suggestion: Restore original phrases like \u201cdefence solutions could be launched,\u201d keep the exact expression \u201cclose enough to pass,\u201d and remove facts not in the source.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8828,
+          "meaningbert": 0.8597
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:59:33.523465",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 14,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Potentially Hazardous Asteroids are rocks in space.  \n\"Potentially Hazardous Asteroids\" means rocks close enough to pass within 7.5 million kilometres of Earth's orbit.  \n\"NASA\" is a group that studies space.  \nNASA made a map of 1,400 Potentially Hazardous Asteroids.  \nThey think none will threaten Earth in the next one hundred years.  \nNASA can track these asteroids with technology.  \nNASA says if these asteroids might hit Earth.  \nIf they might hit, defence solutions could be launched.",
+      "timestamp": "2025-08-31 23:59:33.526308",
+      "metadata": {
+        "text_id": "640e73c1-ba04-403f-a25f-eb4372e71b19",
+        "version": 14
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:59:49.639372",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f54c1aad-900f-45e5-98f7-d4438523639d",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8965 is below the required 0.90. The text omits key terms like 'make predictions about possible impact' and simplifies 'Potentially Hazardous Asteroids are rocks close enough to pass within 7.5 million kilometres of Earth's orbit' to merely 'rocks in space', losing important factual phrasing. Suggestion: restore the phrase 'close enough to pass within 7.5 million kilometres of Earth's orbit'; include 'make predictions about possible impact'; keep 'Potentially Hazardous Asteroids' in full; preserve 'defence solutions could be launched'.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.8965,
+          "meaningbert": 0.9039
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:00:21.678072",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 15,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Potentially Hazardous Asteroids are rocks close to Earth.  \nThey pass within 7.5 million kilometres of Earth's orbit.  \nNASA is a group that studies space.  \nNASA has made a map of 1,400 Potentially Hazardous Asteroids.  \nThey think none will threaten Earth in the next one hundred years.  \nNASA can track these asteroids and make predictions about possible impact.  \nIf an asteroid might hit, defence solutions could be launched.",
+      "timestamp": "2025-09-01 00:00:21.682282",
+      "metadata": {
+        "text_id": "44f17bab-ecca-42dc-a005-47f4a62d798f",
+        "version": 15
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 00:00:36.238372",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5ef1e227-5128-425d-acf1-a3d815a742d9",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The output omits the specific number of defence solutions. The original states \u201ctwo defence solutions could be launched,\u201d but the writer\u2019s text says only \u201cdefence solutions.\u201d This removes a factual detail. Suggestion: Add back \u201ctwo\u201d before \u201cdefence solutions\u201d to restore the original fact.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9096,
+          "meaningbert": 0.8741
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:01:01.816573",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 16,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Potentially Hazardous Asteroids are space rocks that come close to Earth.  \nThey pass as close as 7.5 million kilometres to Earth's orbit.  \nNASA is the US group that studies space.  \nNASA has made a map of 1,400 Potentially Hazardous Asteroids.  \nThey think none will threaten Earth in the next one hundred years.  \nNASA can track these asteroids and guess if one could hit Earth.  \nNASA can stop an asteroid in two ways.",
+      "timestamp": "2025-09-01 00:01:01.820142",
+      "metadata": {
+        "text_id": "b0c2ca0e-8dfc-490a-8c72-64392fc78632",
+        "version": 16
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 00:01:20.251409",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "dc773b5d-49ba-413b-bd0f-5fc306f1cffc",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8942 is below the required 0.90. This is because the phrase 'make predictions about possible impact' was simplified to 'guess if one could hit Earth', losing key technical wording, and 'defence solutions could be launched' was reduced to 'stop an asteroid in two ways', omitting 'defence'. Suggestion: Restore the original phrasing for precision, including 'make predictions about possible impact' and 'defence solutions could be launched'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8942,
+          "meaningbert": 0.8052
+        }
+      }
+    }
+  ]
+}

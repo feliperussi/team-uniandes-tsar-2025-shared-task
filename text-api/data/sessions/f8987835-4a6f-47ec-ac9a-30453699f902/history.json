@@ -1,0 +1,413 @@
+{
+  "session_id": "f8987835-4a6f-47ec-ac9a-30453699f902",
+  "created_at": "2025-09-01 17:15:16.567402",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:15:17.704334",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "63-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past, many bridges were built from wood.  \nWood bridges catch fire easily.  \nThis was especially true for old train bridges.  \nThe steel wheels and steel tracks made a small fire.  \nThat small fire could make the bridge catch fire.  \nThe bridge could then burn down to the ground.",
+      "timestamp": "2025-09-01 17:15:17.704547",
+      "metadata": {
+        "text_id": "27a9f0ac-b6f7-43be-ba01-070f4fd4d802",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:15:19.016414",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d2c5165d-b7db-47d1-b9c2-0b252813dcb4",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text states a 'spark' could cause a fire. Your output states 'The steel wheels and steel tracks made a small fire.' A spark is not a fire; it is a potential cause of one. This is a factual error.\n\n- Meaning Preservation Failure: This factual error is confirmed by the metrics. The MeaningBERT score of 0.59 is far below the required 0.75. Your version changes a potential event ('spark... could sometimes cause') into a definite one ('made a small fire'), which fundamentally alters the original meaning.\n\n- Suggestion: Rephrase to accurately reflect the original concept. Use the word 'spark'. State that the spark 'could start' a fire, not that it 'made' a fire.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9039,
+          "meaningbert": 0.5947
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:15:27.405511",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past many bridges were made of wood.  \nWood bridges catch fire easily.  \nThis was especially true for old train bridges.  \nThe steel wheels and steel tracks could make a spark.  \nThe spark could start a fire on the bridge.  \nThe bridge could then burn down to the ground.",
+      "timestamp": "2025-09-01 17:15:27.405917",
+      "metadata": {
+        "text_id": "02a9ab56-42e0-4ee6-a49f-923809a6b011",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:15:49.096217",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "04cc8683-ff3b-4fcd-b2f4-a7ebbe4990c1",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.579 is significantly below the required 0.75 threshold. The original text's concept of bridges being 'susceptible to fire' implies a vulnerability or risk. Your version, 'Wood bridges catch fire easily,' is a simple statement that loses this important nuance, resulting in a critical loss of meaning.\n\nThis text also fails on two other counts:\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is a direct violation of the core requirement.\n- Vocabulary Violation: The word 'spark' is C1 level. This vocabulary is far too advanced for an A2 text. A2 texts must not contain words above the A2 level.\n\nSuggestion: You must replace the C1 word 'spark'. Describe it using A2 words, for example, 'a small, quick piece of fire'. You must also rephrase to better capture the original meaning of 'risk' or 'vulnerability' to improve the meaning score.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9073,
+          "meaningbert": 0.579
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:16:05.544882",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past many bridges were made of wood.  \nWood bridges could catch fire easily.  \nThis was especially true for old train bridges.  \nThe steel wheels and steel tracks could make a fire.  \nThe fire could start on the bridge.  \nThe bridge could then burn down to the ground.",
+      "timestamp": "2025-09-01 17:16:05.545833",
+      "metadata": {
+        "text_id": "97f13c38-aa1e-4b1f-a372-399444a0efda",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:16:31.409093",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "925d82d6-9d19-4a66-8cda-cc9fab243d84",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5743 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\n- The central concept of a 'spark' being the cause of the fire has been completely removed. Your text states the wheels 'could make a fire', which is a vague and factually imprecise simplification of the original's explanation.\n- The cause-and-effect relationship is broken. The original text clearly links the spark from the wheels to the bridge catching fire. Your version presents these as two separate, potential events: 'The steel wheels and steel tracks could make a fire. The fire could start on the bridge.' This fails to convey the direct causal link.\n\nSuggestion: You must reintroduce the concept of the 'spark'. You must restructure the sentences to clearly show that the spark from the wheels and tracks was the cause of the fire on the bridge.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9051,
+          "meaningbert": 0.5743
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:16:41.709533",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past many bridges were made of wood.  \nWood bridges could catch fire easily.  \nThis was especially true for old train bridges.  \nA spark from the steel wheels could start a fire.  \nA spark from the steel tracks could also start a fire.  \nThe spark could land on the bridge.  \nThe bridge could then burn to the ground.",
+      "timestamp": "2025-09-01 17:16:41.709900",
+      "metadata": {
+        "text_id": "c9dc9c9c-f03d-4405-b664-1fb6d61cec1e",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:17:05.325345",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "918c645c-277a-4ce2-a141-b3a792c088d3",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6201 is significantly below the required 0.75 threshold. This indicates a severe loss of the original text's core message.\n\n- Meaning Loss: The original text explains that a spark is created by the interaction of 'steel wheels and steel tracks'. Your version splits this into two separate, less connected sentences, which fails to preserve this direct causal link.\n- Fidelity Failure: The BERTScore of 0.8992 is below the 0.90 minimum, confirming a loss of important phrasing from the original.\n- Vocabulary Violation: The word 'spark' is C1-level vocabulary. It is unacceptable in an A2 text and must be replaced or explained in simple A1/A2 terms.\n- Structural Fragmentation: The text is broken into too many short sentences. This fragmentation is the primary cause of the low meaning score. A2 requires simple sentences, not a complete loss of logical flow.\n\nSuggestion: Rephrase to restore the original meaning. Combine the sentences about the wheels and tracks to show they cause the fire together. Replace the C1 word 'spark' with a simple A2 description, such as 'small, hot pieces of light'. The goal is simplification, not just fragmentation.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8992,
+          "meaningbert": 0.6201
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:17:12.867323",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past many bridges were made of wood.  \nWood bridges could catch fire easily.  \nThis was especially true for old train bridges.  \nThe train wheels and tracks could make a small hot light.  \nThis light could start a fire.  \nThe fire could burn the bridge to the ground.",
+      "timestamp": "2025-09-01 17:17:12.867700",
+      "metadata": {
+        "text_id": "da88a8f0-d802-474e-8d93-3151d9dfa948",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:17:55.527536",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7416b71a-5c48-4d78-b3af-b3afcc325c7b",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5372 is critically below the required 0.75 threshold. This indicates a severe loss of the original text's core message.\n\n- The primary error is the replacement of the specific concept 'the spark created by the steel wheels and steel tracks' with the overly simple and inaccurate phrase 'a small hot light'. This simplification destroys the cause-and-effect relationship central to the original text.\n- The BERTScore of 0.8963 is also below the minimum requirement of 0.90. This failure is a direct result of omitting key factual words like 'spark' and 'steel'.\n- While the text uses A2 vocabulary and sentence structure, this was achieved by sacrificing essential meaning and factual detail. The goal is simplification, not the removal of information.\n\nSuggestion: You must restore the concept of a 'spark'. Rephrase the sentence to explain this A2-level concept. Example: 'The metal wheels on the metal tracks sometimes made sparks. A spark is a tiny piece of fire.' This preserves the meaning while adhering to the A2 standard.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8963,
+          "meaningbert": 0.5372
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:18:04.272543",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past many bridges were made of wood.  \nWood bridges could catch fire easily.  \nThis was especially true for old train bridges.  \nThe metal wheels on the metal tracks sometimes made sparks.  \nA spark is a tiny piece of fire.  \nA spark could start a fire.  \nThe fire could burn the bridge to the ground.",
+      "timestamp": "2025-09-01 17:18:04.273012",
+      "metadata": {
+        "text_id": "2d68d4a7-da8d-446e-b1f9-196bebe89779",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:18:25.218633",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ef182072-72cb-431a-b9ee-5ec726ddaa4d",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5927 is critically below the required 0.75 threshold. This constitutes an instant and total failure to preserve the core message of the original text.\n\n- Primary Failure: The low MeaningBERT score indicates that by breaking the original text into excessively simple, disconnected sentences, you destroyed the essential cause-and-effect relationship. The original explicitly links the spark to the fire. Your version presents them as separate, unrelated facts, which is a severe misrepresentation of the source material.\n\n- Secondary Failure (Fidelity): The BERTScore of 0.8947 is below the minimum requirement of 0.90. This reflects a loss of key lexical items and phrasing from the original text.\n\n- Vocabulary Violation: The definition provided for the C1 word 'spark' uses the B1 word 'tiny'. Definitions must only use A2-level vocabulary. Using 'a very small piece of fire' would have been compliant.\n\n- Structural Deficiency: The complete lack of simple A2 connectors like 'and' or 'so' resulted in a choppy, unnatural text that fails to convey the logical flow of the original information.\n\nSuggestion: You must rewrite the text to re-establish the clear, direct link between the sparks and the fire. Combine sentences using A2 connectors to show this relationship. Replace the B1 word 'tiny' with an A2-compliant alternative.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8947,
+          "meaningbert": 0.5927
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:18:30.771359",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past many bridges were made of wood.  \nWood bridges could catch fire easily.  \nThis was especially true for old train bridges.  \nThe metal wheels on the metal tracks sometimes made sparks.  \nA spark is a very small flash of fire.  \nThe spark could start a fire.  \nSo the fire could burn the bridge to the ground.",
+      "timestamp": "2025-09-01 17:18:30.771735",
+      "metadata": {
+        "text_id": "4ebf2163-df0d-4eaf-932c-05ea593107b3",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:18:56.697724",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c08ddc8d-b350-47b8-8548-79c2bae89b2f",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.59 is critically below the required 0.75 threshold. This indicates a severe deviation from the original text's core message.\n\n- Primary Failure (MeaningBERT): The original text establishes a direct causal link: bridges were 'susceptible to fire' because they were made of wood. Your version separates this into two disconnected statements ('many bridges were made of wood' and 'Wood bridges could catch fire easily'), which fails to preserve this essential relationship.\n\n- Secondary Failure (BERTScore): The BERTScore of 0.8946 is below the minimum requirement of 0.90. This fidelity loss is caused by replacing specific, key vocabulary from the original text. Replacing 'steel wheels and steel tracks' with the generic 'metal wheels on the metal tracks' loses factual precision. 'Steel' is an acceptable A2 word.\n\n- Vocabulary Error: The word 'spark' is classified as C1. While you correctly defined it, the goal is to avoid such vocabulary entirely. A better A2 approach would be to describe the effect without using the word, for example: 'The wheels on the tracks sometimes made very small, quick flashes of fire.'\n\nSuggestion: Rewrite to explicitly connect the wood material to the fire risk in a single sentence. Restore the precise term 'steel'. Rephrase to avoid the C1 word 'spark' altogether.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8946,
+          "meaningbert": 0.5904
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:19:12.567221",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past many bridges were made of wood.  \nWood bridges could easily catch fire.  \nThis was especially true for old train bridges.  \nSteel wheels on steel tracks sometimes made small quick flashes of fire.  \nThose flashes could start a fire.  \nThe fire could burn the bridge to the ground.",
+      "timestamp": "2025-09-01 17:19:12.567703",
+      "metadata": {
+        "text_id": "7b5409f1-4f13-4a61-9185-0e507e6673c3",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:19:38.410989",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7832579a-cbfd-470e-846b-c241acdb7be4",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.572 is critically below the required 0.75 threshold. This indicates the core message was lost.\n\n- Primary Error: The original text's key concept of a 'spark' was replaced with 'small quick flashes of fire'. This substitution is imprecise, overly descriptive, and fails to convey the specific meaning of a spark, causing the low meaning score.\n- CEFR Compliance Failure: The text was classified as B1, not the required A2.\n- B1 Vocabulary Violation: The word 'especially' is a B1 adverb and is not permitted at the A2 level.\n- B1 Idiom Violation: The phrase 'burn the bridge to the ground' is an idiomatic expression that is too complex for A2 learners.\n\nSuggestion: Restore the meaning of 'spark'. A phrase like 'a small hot light' is a valid A2 simplification. Remove the B1 adverb 'especially'. Simplify the final sentence to 'The fire could burn all of the bridge'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9015,
+          "meaningbert": 0.572
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:19:46.312574",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past people made many bridges from wood.  \nWood bridges could easily catch fire.  \nThis was true for old train bridges.  \nSteel wheels on steel tracks sometimes made a small hot light.  \nThat light could start a fire.  \nThe fire could burn all of the bridge.",
+      "timestamp": "2025-09-01 17:19:46.313148",
+      "metadata": {
+        "text_id": "b8aae722-a7f7-4984-9770-5c098fe292ae",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:20:12.992043",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "181075ba-58e4-408d-8641-cb59bd086a4e",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5393 is catastrophically below the required 0.75 threshold. The text also fails the fidelity check, with a BERTScore of 0.8888 falling short of the 0.90 minimum. The attempt to simplify has destroyed the core meaning of the original text.\n\n- Primary Failure: The simplification of the B1-level word 'spark' to 'small hot light' is a complete meaning failure. While 'small hot light' uses A1/A2 words, it does not accurately describe a spark and is the main reason for the low MeaningBERT score.\n- Secondary Failure: The causal link is broken. The original text directly connects the spark's creation by the wheels to the fire. Your version splits this into two weak sentences: 'Steel wheels on steel tracks sometimes made a small hot light. That light could start a fire.' This severs the direct cause-and-effect relationship.\n- Structural Note: While the sentence structure and vocabulary choices are compliant with the A2 level, this was achieved by sacrificing critical information, resulting in an unacceptable loss of meaning.\n\nSuggestion: You must preserve the concept of a 'spark'. Rephrase to define the term. Example: 'The steel wheels on the steel tracks sometimes made a spark. A spark is a tiny piece of fire.' This preserves the key term while explaining it in A2 language. Combine sentences to restore the direct causal link. Example: 'This spark could fall on the wood and start a fire.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8888,
+          "meaningbert": 0.5393
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:20:24.617950",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past many bridges were made of wood.  \nWood bridges could catch fire easily.  \nThis was also true for old train bridges.  \nThe steel wheels on the steel tracks sometimes made a spark.  \nA spark is a small piece of fire.  \nThis spark could fall on the wood and start a fire.  \nThe fire could burn the whole bridge.",
+      "timestamp": "2025-09-01 17:20:24.618589",
+      "metadata": {
+        "text_id": "aabcc9a9-973a-43af-86ee-7e2aedaec3f9",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:20:47.915783",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3f9c8950-5868-4e07-8c60-2c63797da5a0",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5652 is catastrophically below the required 0.75 threshold. This indicates a severe failure to preserve the core message of the original text. The BERTScore of 0.8896 also fails the minimum fidelity requirement of 0.90.\n\n- Meaning Loss: The original text uses the phrase 'much more susceptible to fire' to convey a high degree of risk. Your version, 'could catch fire easily', significantly weakens this concept. The core idea of inherent vulnerability is lost.\n\n- Fidelity Loss: The original's phrase 'burn to the ground' implies complete and total destruction. Your replacement, 'burn the whole bridge', is lexically simpler but fails to capture the same degree of finality, contributing to the low BERTScore.\n\n- Structural Damage: While using short sentences is an A2 strategy, you have fragmented the text to the point of damaging the causal link. The original clearly states the spark was 'created by' the wheels. Your version separates these ideas into multiple sentences, which contributed to the collapse of the MeaningBERT score.\n\n- Suggestion: You must rephrase to restore the original meaning. The concepts of high risk and total destruction must be present. Combine sentences to re-establish the direct cause-and-effect relationship between the train wheels and the fire.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8896,
+          "meaningbert": 0.5652
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:20:57.231521",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past people built many bridges from wood.  \nWood bridges could catch fire very easily.  \nThis was also true for old train bridges.  \nThe steel wheels on the steel tracks sometimes created a spark.  \nThe spark could fall on the wood and start a fire.  \nThe fire could burn the bridge down completely.",
+      "timestamp": "2025-09-01 17:20:57.232214",
+      "metadata": {
+        "text_id": "dcbee644-01df-48f9-9168-9d7d26d01250",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:21:19.497278",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "12fca24c-7cfb-4932-b3ca-e3c475025627",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6506 is critically below the 0.75 minimum. The core message of the original text was lost.\n\n- Primary Failure (Meaning): The original text establishes a direct causal link: wood bridges were 'susceptible to fire'. Your version separates this into two disconnected facts ('people built bridges from wood' and 'Wood bridges could catch fire'), which fails to preserve the original's core meaning of inherent risk.\n- Secondary Failure (Fidelity): The BERTScore of 0.8988 is below the required 0.90 threshold. This confirms a loss of important phrasing and detail from the original text.\n- Vocabulary Violation: The word 'spark' is classified as C1. Its use in an A2 text is a severe violation of the standard. An A2-level description is required.\n- Suggestion: Rephrase to restore the direct link between the material and the danger. For example: 'In the past, bridges made of wood could burn very easily.'\n- Suggestion: Remove the C1 word 'spark'. Replace it with a simple A2 description, such as 'a very small, hot light' or 'a tiny piece of fire'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8988,
+          "meaningbert": 0.6506
+        }
+      }
+    }
+  ]
+}

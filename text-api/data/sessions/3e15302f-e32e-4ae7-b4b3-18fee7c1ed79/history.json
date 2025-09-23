@@ -1,0 +1,413 @@
+{
+  "session_id": "3e15302f-e32e-4ae7-b4b3-18fee7c1ed79",
+  "created_at": "2025-09-01 17:21:18.551117",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:21:18.576683",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "83-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Ed could not walk without technology.  \nHe had a radio.  \nHe asked the people in the rain forest for food.  \nHe also asked to cross their land.  \nMany people met him.  \nThey helped lead him across the hard ground.  \nWhile walking, Ed wrote a blog.  \nHe wrote about his daily life.  \nHe used news interest in his trip.  \nHe spoke out about damage to the rain forest.  \nHe collected money for nature charities.  \nHe also collected money for children charities in Brazil and Peru.",
+      "timestamp": "2025-09-01 17:21:18.576841",
+      "metadata": {
+        "text_id": "a9085dc6-3492-480e-84df-4880946e16be",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:21:19.494375",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "46093329-d2da-4256-bf3c-44922206bee4",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8958 is below the required 0.90. This indicates that key words and phrasing from the original text were lost during simplification. The replacement of 'most difficult terrain' with 'hard ground' and 'destruction' with 'damage' reduced lexical fidelity, causing the score to drop below the minimum threshold.\n\n- Vocabulary Violation: The text uses the B1-level words 'used' and 'damage'. These are not compliant with the A2 standard and must be replaced.\n- Lexical Simplification Error: The phrase 'hard ground' is an inadequate simplification of 'most difficult terrain'. It fails to convey the concept of difficulty.\n- Phrasal Verb Complexity: The phrase 'spoke out about' is an idiomatic construction that is too complex for the A2 level.\n\nSuggestion: Replace 'used' with an A2 phrase like 'He told the news about his trip'. Replace 'damage' with a simpler A2 description like 'people hurting the rain forest'. Rephrase 'hard ground' to better capture the original meaning, for example, 'ground that was difficult to walk on'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8958,
+          "meaningbert": 0.8427
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:21:27.972755",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Ed could not walk without technology.  \nHe had a radio.  \nHe asked the people in the rain forest for food.  \nHe also asked to cross their land.  \nMany people met him.  \nThey helped lead him across ground.  \nThe ground was hard to walk on.  \nWhile walking, Ed wrote a blog.  \nHe wrote about his daily life.  \nHe told the news about his trip.  \nHe talked about people hurting the rain forest.  \nHe asked for money for nature groups.  \nHe also asked for money for child groups in Brazil and Peru.",
+      "timestamp": "2025-09-01 17:21:27.972913",
+      "metadata": {
+        "text_id": "235bd5ea-b443-4438-857e-b93f73ecf4b7",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:21:55.257349",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f908d67e-87bd-46a9-bd14-82d1704c3786",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8809 is below the required 0.90. This indicates a critical loss of key words and phrasing from the original text.\n\n*   The primary cause of failure is the oversimplification of key nouns, which reduced lexical precision below the acceptable threshold.\n*   The phrase 'difficult terrain' was replaced with 'ground. The ground was hard to walk on'. This simplification is too severe and loses important vocabulary.\n*   The concept 'destruction of the rainforest' was replaced with 'people hurting the rain forest'. The verb 'hurting' is factually imprecise and fails to convey the severity of 'destruction'.\n*   The specific noun 'charities' was replaced with the generic noun 'groups'. This loses the specific meaning of an organization that gives money, food, or help.\n*   While the text correctly classifies as A2 and preserves the general meaning (MeaningBERT 0.827), the loss of fidelity to the original vocabulary is a definitive failure.\n\nSuggestion: Retain more precise vocabulary from the original text while maintaining simple A2 sentence structures. Rephrase to use terms like 'difficult ground' and 'destroying the rain forest'. You must find a balance between simplicity and lexical fidelity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8809,
+          "meaningbert": 0.827
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:22:00.329187",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Ed could not walk without technology.  \nHe had a radio.  \nHe asked the people in the rain forest for food.  \nHe also asked permission to cross their land.  \nMany people met him.  \nThey helped him across difficult ground.  \nThe ground was hard to walk on.  \nWhile walking, Ed wrote a blog.  \nHe wrote about his daily life.  \nHe told the news about his trip.  \nHe talked about destroying the rain forest.  \nHe asked for money for nature charities.  \nHe also asked for money for children charities.  \nThese charities are in Brazil and Peru.",
+      "timestamp": "2025-09-01 17:22:00.329648",
+      "metadata": {
+        "text_id": "7a031e87-049c-4ee7-9416-b7d7bb7db454",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:22:29.963098",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "672c2311-5592-42b9-a6a6-ebbbae9f3ac4",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8846 is below the required 0.90 threshold. This indicates a significant loss of key words and concepts from the original text due to oversimplification.\n\n*   Lexical Loss: The concept of 'protest' was lost. The original states Ed used media interest 'to protest about the destruction'. Your version, 'He talked about destroying the rain forest', is a weak and inaccurate replacement. It fails to convey the active opposition implied by 'protest'.\n*   Lexical Loss: The concept of 'raise money' was replaced with 'asked for money'. These are not equivalent. Raising money is the act of collecting it; asking is only the request. The original meaning is not preserved.\n*   Lexical Loss: The specific action 'guide him' was reduced to 'helped him'. This loses the detail that people showed him the way through difficult terrain.\n*   Lexical Loss: The noun 'destruction' was replaced with the verb 'destroying'. This change, combined with the loss of 'protest', significantly weakens the message about the environmental issue.\n\nSuggestion: Rephrase the text to restore the original meaning using A2-compliant vocabulary. The action of 'protest' must be restored. A phrase like 'He told people it was wrong to destroy the rainforest' is stronger. The action of 'raise money' must be restored. Use 'He collected money'. The action of 'guide' must be restored. Use 'They showed him the way'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8846,
+          "meaningbert": 0.8216
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:22:42.518990",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Ed could not walk without technology.  \nHe had a radio.  \nHe asked the people in the rainforest for food.  \nHe also asked permission to cross their land.  \nMany people met him.  \nThey showed him the way through difficult ground.  \nThe ground was hard to walk on.  \nWhile walking, Ed wrote a blog.  \nHe wrote about his daily life.  \nHe told the news about his trip.  \nHe told people it was wrong to destroy the rainforest.  \nHe collected money for nature charities.  \nHe also collected money for child charities.  \nThese charities are in Brazil and Peru.",
+      "timestamp": "2025-09-01 17:22:42.520019",
+      "metadata": {
+        "text_id": "fa676990-f019-494f-ad21-6712b24c3fa7",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:23:10.459164",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "67a03c12-3e46-4ca3-811d-4b830ff0878a",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8869 is below the required 0.90. This indicates a critical loss of key phrasing from the original text.\n\n- Lexical Fidelity Failure: The original concept 'He used the media interest in his trip to protest' was oversimplified to 'He told the news about his trip. He told people it was wrong...'. This simplification loses the specific actions of 'using media interest' and 'protesting', causing the low fidelity score.\n- Vocabulary Violation: The B1 word 'rainforest' was used. All vocabulary must be strictly A2 or below. This is a direct violation of the A2 standard.\n- Structural Compliance: The use of short, simple sentences is correct for A2. However, this does not compensate for the fidelity and vocabulary failures.\n\nSuggestion: Rephrase to restore the meaning of 'protest' using A2 words. Example: 'He told newspapers that destroying the big forest was a very bad problem.' Replace the B1 word 'rainforest' with a simple A2 description.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8869,
+          "meaningbert": 0.8345
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:23:15.585769",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Ed could not walk without technology.  \nHe had a radio.  \nHe asked the people in the big forest for food.  \nHe also asked permission to cross their land.  \nMany people met him.  \nThey showed him the way through difficult ground.  \nWhile walking, Ed wrote a blog.  \nHe wrote about his daily life.  \nHe told the news about his trip.  \nHe told the news that destroying the big forest was very bad.  \nHe asked people to help stop the destruction.  \nHe collected money for nature charities.  \nHe also collected money for child charities.  \nThese charities are in Brazil and Peru.",
+      "timestamp": "2025-09-01 17:23:15.586192",
+      "metadata": {
+        "text_id": "d30a533a-9ca4-4f93-80a3-c67ee9ad1802",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:23:45.375200",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6b2b8e30-ea5c-4378-b464-15ee93bdf8cd",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8849 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original text.\n\n- Lexical Fidelity Loss: The low score is a direct result of oversimplification. Replacing 'rainforest' with 'big forest' and 'terrain' with 'ground' caused a loss of specific vocabulary required for fidelity.\n- Vocabulary Violation: The text fails the vocabulary audit. The word 'destruction' is B2 level and was used without simplification. The word 'charities' is B1 level. These are not permitted at the A2 level.\n\nSuggestion: Re-introduce key A2-level vocabulary from the original to meet the fidelity score. The word 'rainforest' is acceptable at A2. Replace the B2 word 'destruction' with an A2 phrase, such as 'people breaking the forest'. Replace the B1 word 'charities' with an A2 phrase like 'groups that help nature and children'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8849,
+          "meaningbert": 0.7886
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:23:55.634290",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Ed could not walk without technology.  \nHe had a radio.  \nHe asked the people in the rainforest for food.  \nHe also asked permission to cross their land.  \nMany people met him.  \nThey showed him the way through difficult land.  \nWhile walking, Ed wrote a blog.  \nHe wrote about his daily life.  \nHe told the news about his trip.  \nHe told the news that people breaking the forest was very bad.  \nHe asked people to help stop the breaking.  \nHe collected money for groups that help nature.  \nHe also collected money for groups that help children.  \nThese groups are in Brazil and Peru.",
+      "timestamp": "2025-09-01 17:23:55.636171",
+      "metadata": {
+        "text_id": "f996d8f9-3ce9-4d62-8406-c3b7b3394793",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:24:17.333652",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "970b16d6-6e21-49b1-96d0-7355fac986aa",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8813 is below the required 0.90 threshold. This indicates a significant loss of key words and factual phrasing from the original text.\n\n- The primary cause of failure is the oversimplification of specific concepts, which destroyed lexical fidelity.\n- The phrase 'destruction of the rainforest' was replaced with 'people breaking the forest'. This loses the specific and important noun 'destruction'.\n- The term 'environmental... charities' was replaced with 'groups that help nature'. This is a vague substitution that loses the precise meaning of the original.\n- The phrase 'guide him through the most difficult terrain' was simplified to 'showed him the way through difficult land'. The specific and more descriptive words 'guide' and 'terrain' were lost.\n\nSuggestion: Re-write the text. You must retain more of the original's key vocabulary to meet the fidelity standard. Simplification must not come at the cost of core terminology. Restore closer equivalents for 'destruction', 'environmental', and 'terrain' while maintaining A2 sentence structure.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8813,
+          "meaningbert": 0.775
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:24:25.547056",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Ed could not walk without technology.  \nHe had a radio.  \nHe asked the people in the rainforest for food.  \nHe also asked permission to cross their land.  \nMany people met him.  \nThey guided him through the most difficult terrain.  \nWhile walking, Ed wrote a blog.  \nHe wrote about his daily experiences.  \nHe told the news about his trip.  \nHe told the news that the rainforest was being destroyed.  \nHe said this was very bad.  \nHe asked people to help stop the destruction.  \nHe collected money for environmental charities.  \nHe also collected money for children's charities.  \nThese charities are in Brazil and Peru.",
+      "timestamp": "2025-09-01 17:24:25.547506",
+      "metadata": {
+        "text_id": "95eaf808-65e0-4295-b692-d52de89e1e03",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:24:54.747677",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e84796cc-e3ad-4dd1-a515-657c5c51d112",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8933 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text. The simplification was too aggressive, sacrificing lexical precision.\n\n- Vocabulary Violation: The text uses the C1-level word 'terrain'. This is a severe deviation from the A2 standard. The word must be replaced.\n- Vocabulary Violation: The text uses the B1-level word 'environmental'. This word is not on the A2 list and requires simplification.\n- Structural Violation: The sentence 'He told the news that the rainforest was being destroyed' uses a 'that-clause' and a passive voice construction ('was being destroyed'). These are B1-level grammatical structures and are too complex for A2.\n- Fidelity Loss: The original concepts of 'protest' and 'media interest' were lost in the simplification to 'told the news'. This contributed to the low BERTScore.\n\nSuggestion: Replace 'terrain' with 'difficult ground'. Rephrase 'environmental charities' to 'charities that help nature'. Break the complex sentence into simpler parts, for example: 'He told the news about the rainforest. He said that people were destroying it.' This removes the passive voice and simplifies the structure.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8933,
+          "meaningbert": 0.8306
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:25:08.694315",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Ed could not walk without technology.  \nHe had a radio.  \nHe asked the people in the rainforest for food.  \nHe also asked permission to cross their land.  \nMany people met him.  \nThey guided him through the most difficult ground.  \nWhile walking, Ed wrote a blog.  \nHe wrote about his daily experiences.  \nHe used the news to protest the rainforest destruction.  \nHe told the news about the rainforest.  \nHe said people destroy it.  \nHe said this was very bad.  \nHe asked people to help stop the destruction.  \nHe collected money for charities that help nature.  \nHe also collected money for children's charities.  \nThese charities are in Brazil and Peru.",
+      "timestamp": "2025-09-01 17:25:08.694758",
+      "metadata": {
+        "text_id": "e011de26-2444-42e7-af90-7c5cb480473f",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:25:35.053226",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3d04486e-f82b-468a-b502-3a6c63c32550",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8864 is below the required 0.90 threshold. This indicates an unacceptable loss of key words and phrasing from the original text.\n\n- Lexical Fidelity Lost: The low BERTScore is a direct result of oversimplification. Replacing 'media interest in his trip' with 'the news' and 'raise money' with 'collected money' lost too much of the original's specific phrasing, failing the fidelity check.\n- Vocabulary Exceeds A2 Level: The text uses the B1 words 'rainforest' and 'protest', and the B2 word 'destruction'. These words are not on the A2 list and are too complex for the target reader. This is a direct violation of the A2 standard.\n- Suggestion: Restore lexical fidelity. Rephrase sentences to be closer to the original's wording while maintaining A2 simplicity.\n- Suggestion: Eliminate all B1 and B2 vocabulary. Replace 'rainforest' with a simple description like 'the big forest with a lot of rain'. Replace 'protest' and 'destruction' with simpler verb-based explanations, such as 'He told people it is wrong to destroy the forest'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8864,
+          "meaningbert": 0.8076
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:25:45.312755",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Ed could not walk without technology.  \nHe had a radio.  \nHe used a radio to ask people of the forest for food.  \nHe also asked them for permission to cross their land.  \nMany people met him.  \nThey guided him through the most difficult ground.  \nWhile walking, Ed wrote a blog.  \nHe wrote about his daily experiences.  \nMany people looked at his trip.  \nHe told them it is wrong to hurt the forest.  \nHe asked them to help stop the hurt.  \nHe asked people to give money for help groups.  \nThe groups help nature.  \nThe groups also help children.  \nThe groups are in Brazil and Peru.",
+      "timestamp": "2025-09-01 17:25:45.313338",
+      "metadata": {
+        "text_id": "fd47c96b-54fa-4768-9f54-634f203bec96",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:26:11.607773",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a222926b-7c5e-42ce-8a0f-1a96dd9691cd",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on two critical metrics. The MeaningBERT score of 0.7411 is below the required 0.75 threshold. The BERTScore of 0.8835 is below the required 0.90 threshold. This indicates a severe loss of the original text's core message and factual detail.\n- Meaning Loss: The original text states Ed used his trip to 'protest about the destruction of the rainforest'. Your version, 'He told them it is wrong to hurt the forest', is too weak and loses the meaning of an active protest.\n- Fidelity Loss: Key factual words were removed, causing the low BERTScore. Words like 'rainforest', 'destruction', 'environmental', and 'charities' are essential to the meaning and were replaced with overly simple terms like 'forest' and 'help groups'.\n- Oversimplification: The attempt to simplify has resulted in a text that no longer accurately reflects the purpose and impact of the walk.\nSuggestion: Reintroduce the key vocabulary. You must find A2 ways to explain concepts like 'protest' and 'charity' without losing their meaning entirely. Example: 'He told many people that it is very bad to destroy the rainforest. He asked for money for special groups that help nature and children.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8835,
+          "meaningbert": 0.7411
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:26:17.154819",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Ed could not walk without technology.  \nHe had a radio.  \nHe used the radio to ask rainforest people for food.  \nHe also asked them for permission to cross their land.  \nMany people met him.  \nThey guided him through the hardest ground.  \nWhile walking, Ed wrote a blog.  \nHe wrote about his daily experiences.  \nMany people heard about his trip.  \nHe protested the destruction of the rainforest.  \nHe asked for money for charity groups.  \nThe charity groups help nature.  \nThe charity groups also help children.  \nThe groups are in Brazil and Peru.",
+      "timestamp": "2025-09-01 17:26:17.155768",
+      "metadata": {
+        "text_id": "1630e7dd-cfc3-4f8f-9f27-867f1926bc59",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:26:49.440330",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a5be05cf-0d33-4044-8f12-56068ab0c7e6",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8913 is below the required 0.90 threshold. This indicates a significant loss of key words and factual phrasing from the original text. The simplification process has removed too much lexical detail.\n\n- Fidelity Loss: The original phrase 'He used the media interest in his trip' was replaced with 'Many people heard about his trip'. This loses the critical concept of Ed actively using the attention for a purpose.\n\n- Vocabulary Violation: The B1 word 'used' was not replaced. It appears in the sentence 'He used the radio...'. This is a direct violation of A2 vocabulary constraints.\n\n- Vocabulary Violation: The B1 word 'rainforest' was not replaced. It appears twice in the output. This word is above the A2 level.\n\n- Vocabulary Violation: The B2 word 'destruction' was not replaced. This word is far too advanced for an A2 text.\n\n- Vocabulary Violation: The verb 'protested' is a B1-level concept and was used without simplification.\n\nSuggestion: Restore the lost meaning by connecting ideas. Instead of six separate sentences at the end, combine them to show cause and effect. Replace all B1 and B2 vocabulary. 'Used' must be replaced with an A2 alternative. 'Rainforest' must be simplified to 'big forest' or similar. 'Destruction' and 'protested' must be rephrased using simple A2 verbs, for example: 'He told people it was bad that the big forest was being hurt.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8913,
+          "meaningbert": 0.8457
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:27:00.347022",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Ed could not walk without technology.  \nHe had a radio.  \nHe had the radio to ask big forest people for food.  \nHe also asked them for permission to cross their land.  \nMany people met him.  \nThey guided him through the hardest ground.  \nWhile walking, Ed wrote a blog.  \nHe wrote about his daily experiences.  \nMany people heard about his trip.  \nHe told them it was bad that the big forest was hurt.  \nHe asked them to give money to charity groups.  \nThe charity groups help nature.  \nThe charity groups also help children.  \nThe groups are in Brazil and Peru.",
+      "timestamp": "2025-09-01 17:27:00.348795",
+      "metadata": {
+        "text_id": "8148dbe8-6dc7-432a-83c9-117c2b0ff233",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:27:29.829297",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8ed45591-e3f3-458e-9b43-bb4cf95cd7f1",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8809 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text, even though the general meaning was preserved.\n\nDeviations from standard:\n- Lexical Fidelity Loss: Your simplification was too aggressive. Key concepts were rephrased with overly simple words, losing the precision and lexical detail of the original source.\n- Example 1: The original phrase 'most difficult terrain' was reduced to 'hardest ground'. This loses the specific and more accurate vocabulary.\n- Example 2: The concept 'protest about the destruction of the rainforest' was simplified to 'it was bad that the big forest was hurt'. This loses the key actions of 'protest' and 'destruction'.\n- Example 3: 'media interest in his trip' was replaced with 'Many people heard about his trip'. This simplification loses the specific concept of media involvement.\n\nCorrective action required:\n- Revise the text to increase lexical fidelity. You must stay closer to the original vocabulary where it is A2-appropriate.\n- Suggestion: Rephrase to restore key concepts. Instead of 'hardest ground', use 'the most difficult land'. Instead of 'the big forest was hurt', use 'people were destroying the big forest'. This restores fidelity while remaining within A2 constraints.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8809,
+          "meaningbert": 0.8248
+        }
+      }
+    }
+  ]
+}

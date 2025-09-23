@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "f4c3262b-2cf1-4b16-ba4d-740347ae2451",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "For 200 years, new machines and better health meant fewer children died young. So, the number of people grew very fast. Families had many children. These children grew up. Then they also had many children. But in the 1960s, it was easier to get contraception. (Contraception is a way to stop having babies.) The average number of babies for each woman went down a lot. It changed from six babies to two babies.",
+    "version": 16,
+    "created_at": "2025-08-31 22:40:42.461134",
+    "updated_at": "2025-08-31 22:40:42.461139",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "e163f097-fba2-4fa3-b3bc-5b3bd7a13ad6",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6581 is too low, falling below the required 0.75. While the text is factually correct, it loses the nuanced cause-and-effect relationships present in the original. The original text clearly links 'large families' to 'producing even more children who survived into adulthood and had their own children', explaining how population growth was fueled. Your version, 'Families had many children. These children grew up. Then they also had many children.', breaks this into separate, less connected statements, diminishing the sense of a continuous, self-reinforcing cycle of population increase. The core message of how population growth was perpetuated is weakened. Suggestion: Rephrase the second sentence to explicitly connect the large families to the continuation of rapid population growth, similar to the original's emphasis on 'produced even more children'.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.9169,
+      "meaningbert": 0.6581
+    },
+    "created_at": "2025-08-31 22:40:58.876677"
+  },
+  "attempt_number": 16,
+  "best_attempt": {
+    "id": "bcdf83e5-1d0c-4169-8d1d-f32255b829e4",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "For 200 years, new machines and better health meant fewer children died young. This made the number of people grow very fast. Families had many children. These children grew up and had many children too. Contraception helps women to not have babies. In the 1960s, it became easier to get. So, the average number of babies for each woman went down. It went from six babies to two babies.",
+    "version": 14,
+    "created_at": "2025-08-31 22:39:49.738434",
+    "updated_at": "2025-08-31 22:39:49.738439",
+    "metrics_meaningbert": 0.6706,
+    "metrics_cefr_compliance": "A2"
+  }
+}

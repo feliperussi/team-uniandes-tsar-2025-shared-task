@@ -1,0 +1,80 @@
+{
+  "session_id": "5d954523-cba3-4c33-b3b3-7bf296a6ed0c",
+  "created_at": "2025-09-01 17:01:58.162557",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:01:58.182990",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "62-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A 'dream' is a story or picture in your head when you are sleeping.\n\nWrite about your dreams. This will help you remember more details. Think about the people and the place in your dream. They might add to the meaning. You will write a lot in one week. Then you can connect your dreams to your daily life. You can connect them to things that happen and how you feel.",
+      "timestamp": "2025-09-01 17:01:58.183142",
+      "metadata": {
+        "text_id": "f67b10f4-3add-409f-a24b-476cb51492d1",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:01:58.186803",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c905c304-d1b5-4076-a5f9-32c615213cc9",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The writer's output includes the sentence 'A 'dream' is a story or picture in your head when you are sleeping.' This information is not present in the original text. The task requires faithful simplification of the provided content, not the addition of new definitions or facts. This is a direct deviation from the source material.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9212,
+          "meaningbert": 0.9104
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:02:04.046458",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Write about your dreams. This will help you remember more details. Think about the people and the place in your dream. They might add to the meaning. You will write a lot in one week. Then you can connect your dreams to your daily life. You can connect them to things that happen and how you feel.",
+      "timestamp": "2025-09-01 17:02:04.047744",
+      "metadata": {
+        "text_id": "22633155-eac1-46cc-a724-ecb0fa073fe2",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 17:02:17.770875",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "64309858-3098-4e1b-b120-fdd10c1cfdf6",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: All criteria met. The text successfully maintains factual integrity, preserves the core meaning with high fidelity (MeaningBERT 0.9137, BERTScore 0.9403), and is accurately classified as A2. The vocabulary is strictly A1/A2, and the sentence structures are short and simple, using appropriate A1/A2 connectors. No deviations from the rigorous protocol were found.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9403,
+          "meaningbert": 0.9137
+        }
+      }
+    }
+  ]
+}

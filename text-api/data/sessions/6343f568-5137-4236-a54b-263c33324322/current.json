@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "9045deeb-1b3d-4443-98d6-75dc5a90d3a3",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Feedback is when managers tell people about their work. Managers give feedback to help people. Many managers want to make bad feedback sound better. They put bad feedback between two good comments. This is like a sandwich.\n\nBut managers do this often. It becomes a usual way to give feedback. Then, people start to think. They think good comments just make bad things seem better. So, people do not believe the good feedback. The good feedback loses its power.\n\nGood feedback should not just make bad things softer. It should make good work stronger. It should help people do good work again.",
+    "version": 11,
+    "created_at": "2025-09-01 17:18:15.794859",
+    "updated_at": "2025-09-01 17:18:15.794859",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "0dc426fc-53f5-42f3-ac07-bc2278b37ac5",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning and Fidelity Failure. The text failed to preserve the core meaning and lexical fidelity of the original text. \n\nMeaning Preservation Failure: The MeaningBERT score of 0.5917 is significantly below the required 0.75. The original text conveys nuanced ideas such as 'inject some positivity', 'sugarcoating the negatives', and 'reinforce and encourage good performance'. Your version simplifies these to 'make bad feedback sound better', 'make bad things seem better', and 'make good work stronger', which lose the specific intent and depth of the original message. For example, 'sugarcoating' implies a deliberate attempt to mask, which is not fully captured by 'seem better'.\n\nFidelity Failure: The BERTScore of 0.8808 is below the required 0.90. Key terms and phrases from the original text have been replaced with less precise or overly simplified equivalents. For instance, 'negative feedback' and 'positive comments' are simplified to 'bad feedback' and 'good comments'. The concept of 'diminishing its value' is reduced to 'loses its power', and 'cushion the negative' becomes 'make bad things softer'. This lexical simplification results in a loss of fidelity to the original's specific wording and concepts.\n\nSuggestion: Rephrase sentences to more accurately reflect the original's specific concepts, such as the deliberate act of 'sugarcoating' and the active role of feedback in 'reinforcing and encouraging' performance. Ensure that the negative consequence of the 'sandwich' method is clearly articulated as a loss of belief or trust in the positive feedback, not just a general loss of power. Use A2-appropriate vocabulary that maintains the original's specific meaning.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8808,
+      "meaningbert": 0.5917
+    },
+    "created_at": "2025-09-01 17:18:37.847163"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "0bac7432-5339-4db4-9ecd-b37499ba0882",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Managers want to make their feedback positive.\nMany managers use a special way. They put bad feedback between two good comments. This is like a sandwich.\nBut managers do this often. It becomes a normal way to give feedback.\nThen, people start to think in a new way.\nThey think good comments just make bad things seem good.\nSo, people do not believe the good feedback. It loses its worth.\nGood feedback should not just hide bad things.\nIt should make good work stronger and help people do it more.",
+    "version": 9,
+    "created_at": "2025-09-01 17:16:59.351932",
+    "updated_at": "2025-09-01 17:16:59.351933",
+    "metrics_meaningbert": 0.6925,
+    "metrics_cefr_compliance": "A2"
+  }
+}

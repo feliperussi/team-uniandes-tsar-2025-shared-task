@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "f77d8d72-7c22-4182-a646-8569adea789c",
+    "cefr_level": "B1",
+    "text_id": "text_001",
+    "text_translated": "The rover analyses the air around it periodically, and in 2014 it detected a basic organic molecule, methane (a simple hydrocarbon gas), which is a key component of natural gas and only survives a few hundred years. This short lifetime means that something on Mars must be continuously replenishing the gas. According to NASA, Mars releases thousands of tons of methane at a time, and the concentration of the gas rises and falls with the seasons, as if the planet were breathing.",
+    "version": 11,
+    "created_at": "2025-09-01 17:43:52.412281",
+    "updated_at": "2025-09-01 17:43:52.412292",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "b0d963b8-1c46-4062-ba14-0cde9f15d2d9",
+    "approval": "FAIL",
+    "grade": 4,
+    "feedback": "FAIL: CEFR Compliance. The text was classified as 'C1', which is too complex for the target B1 level. While the output is factually correct and preserves the original meaning well, it fails its primary simplification goal. The primary issue is sentence complexity. The first sentence, 'The rover analyses the air around it periodically, and in 2014 it detected a basic organic molecule, methane (a simple hydrocarbon gas), which is a key component of natural gas and only survives a few hundred years,' is very long and combines multiple ideas using complex clauses. This structure is characteristic of a C1 level. Additionally, the simplification introduced B2-level vocabulary such as 'component' and 'concentration' where simpler alternatives existed in the original text ('ingredient', 'level'). The use of the subjunctive mood in 'as if the planet were breathing' is also a more advanced grammatical form. Suggestion: Break the first long sentence into two or three shorter sentences. For example: 'In 2014, the rover found a basic organic molecule called methane. Methane is a key part of natural gas and only survives for a few hundred years.' Also, replace 'concentration' with 'level' to better align with B1 standards.",
+    "metrics": {
+      "cefr_compliance": "C1",
+      "bertscore": 0.9479,
+      "meaningbert": 0.9064
+    },
+    "created_at": "2025-09-01 17:44:17.043108"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "fc580263-2217-476b-8a13-e2485dc6ba0b",
+    "cefr_level": "B1",
+    "text_id": "text_001",
+    "text_translated": "The rover analyses the air around it periodically, and in 2014 it discovered that the atmosphere contained another basic organic molecule, a key ingredient of natural gas: methane. Methane is a simple gas and an important component of the natural gas we use on Earth, and one notable characteristic is that it survives only a few hundred years, which means that something on Mars is continuously replenishing the supply. NASA reports that Mars releases thousands of tons of methane at a time, and the concentration rises and falls with the seasons, almost as if the planet is breathing.",
+    "version": 3,
+    "created_at": "2025-09-01 17:40:05.962643",
+    "updated_at": "2025-09-01 17:40:05.962660",
+    "metrics_meaningbert": 0.9067,
+    "metrics_cefr_compliance": "C1"
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "session_id": "4218f44f-205c-4f67-bfb8-0b43a3e951d8",
+  "created_at": "2025-09-01 10:48:03.715826",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:48:03.736456",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "60-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The first project is called DART, which means the Double Asteroid Redirection Test. There are plans to test DART on the moon of an asteroid called Didymos. This moon, which is called 'Didymoon', is 150 metres wide and it follows an **orbit**, which is the path it takes as it travels around its 800-metre mother asteroid. The hope is that the impact of DART will push the moon off its path enough for telescopes on Earth to see the change.",
+      "timestamp": "2025-09-01 10:48:03.736564",
+      "metadata": {
+        "text_id": "848d0e08-e838-4a78-b6aa-eede50cefac6",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-09-01 10:48:03.745364",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "da43a675-376f-498b-85da-7604fe7b9927",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2' instead of the required 'B1'. This is primarily due to overly complex sentence structures. The sentence 'This moon, which is called 'Didymoon', is 150 metres wide and it follows an orbit, which is the path it takes as it travels around its 800-metre mother asteroid' is too long and contains multiple clauses, which is a B2-level characteristic. Additionally, the use of the B2-level verb 'means' in the first sentence contributed to the higher classification. Suggestion: Split the long sentence into two or three shorter ones to improve readability and meet B1 standards. For example: 'This moon is called 'Didymoon'. It is 150 metres wide and follows an orbit. An orbit is the path it takes around its mother asteroid.' Also, rephrase the first sentence to avoid 'means', such as: 'The first project is called DART. This stands for the Double Asteroid Redirection Test.'",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9414,
+          "meaningbert": 0.8119
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:48:23.445176",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The first project is called DART. This stands for the Double Asteroid Redirection Test. There are plans to test DART on the moon of an asteroid called Didymos. This moon is called 'Didymoon'. It is 150 metres wide and follows an **orbit**. An **orbit** is the path it takes as it travels around its 800-metre mother asteroid. The hope is that the impact of DART will push the moon off its path enough for telescopes on Earth to see the change.",
+      "timestamp": "2025-09-01 10:48:23.445522",
+      "metadata": {
+        "text_id": "7bffcfbd-4179-4893-b4c6-6e868700f538",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-09-01 10:48:45.153326",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5fbfb952-8770-4990-bd3f-ffc8ae36f529",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2', which is above the target 'B1' level. While the submission is factually correct and preserves the original meaning well, the sentence structure is too complex for B1 learners. The sentence 'An orbit is the path it takes as it travels around its 800-metre mother asteroid' contains multiple clauses that increase its complexity. Suggestion: Simplify this by splitting it into two sentences, such as 'An orbit is the path an object takes. For example, Didymoon travels on a path around its mother asteroid.' The final sentence could also be simplified by splitting it to improve readability.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.938,
+          "meaningbert": 0.7704
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:48:58.763815",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The first project is called DART. This stands for the Double Asteroid Redirection Test. There are plans to test DART on the moon of an asteroid called Didymos. This moon is called 'Didymoon'. It is 150 metres wide and follows an **orbit**. An **orbit** is the path an object takes. For example, Didymoon travels on a path around its 800-metre mother asteroid. The hope is that the impact of DART will push the moon off its path. If this happens, telescopes on Earth will be able to see the change.",
+      "timestamp": "2025-09-01 10:48:58.764236",
+      "metadata": {
+        "text_id": "5ed096e5-cacd-4d39-810b-12fcff0da40f",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:49:25.338888",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a0b8a68a-c4b7-42f1-a747-4212c9a0241c",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The primary reason for failure is the MeaningBERT score of 0.6798, which is significantly below the required 0.75 threshold. This indicates a loss of the original text's core message. The low score was likely caused by the extensive restructuring of the original's final, dense sentence into five separate, simpler sentences. While intended to simplify, this broke apart the cause-and-effect relationship and diluted the semantic content, leading to the metric failure. Additionally, the text failed the CEFR compliance check. The output was classified as 'B2' instead of the target 'B1'. This is likely due to the use of more complex sentence structures such as the abstract noun phrase 'The hope is that...' and the conditional clause 'If this happens, telescopes on Earth will be able to see the change.' To improve, try to combine some of the shorter sentences to better preserve the logical flow of the original, and rephrase the more complex grammatical structures into simpler, more direct statements.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9299,
+          "meaningbert": 0.6798
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:49:49.466357",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The first project is called DART, which stands for the Double Asteroid Redirection Test. There are plans to test DART on the moon of an asteroid called Didymos. This moon, called 'Didymoon', is 150 metres wide and travels in an **orbit** around its 800-metre mother asteroid. An **orbit** is the path an object takes. The plan is to see if the impact of DART can push the moon from its path enough for telescopes on Earth to notice.",
+      "timestamp": "2025-09-01 10:49:49.468155",
+      "metadata": {
+        "text_id": "47eb89ba-02b7-4659-9ab6-a2d685ab0b41",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-09-01 10:50:12.903454",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f5c06e6c-317f-43bb-833d-cc7bcab717dd",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2', which is above the target 'B1' level. This is likely due to complex sentence structures. For example, the first sentence 'The first project is called DART, which stands for the Double Asteroid Redirection Test' uses a relative clause that increases complexity. Suggestion: Split this into two simpler sentences, such as 'The first project is called DART. DART stands for the Double Asteroid Redirection Test.' Similarly, the final sentence could be simplified to improve the B1 rating. The handling of vocabulary, including the definition of 'orbit', was done correctly.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9403,
+          "meaningbert": 0.7875
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:50:29.942664",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The first project is called DART. DART stands for the Double Asteroid Redirection Test. There are plans to test DART on the moon of an asteroid called Didymos. This moon, called 'Didymoon', is 150 metres wide and travels in an **orbit** around its 800-metre mother asteroid. An **orbit** is the path an object takes. The plan is to see if the impact of DART can push the moon from its path. This change should be big enough for telescopes on Earth to notice.",
+      "timestamp": "2025-09-01 10:50:29.943212",
+      "metadata": {
+        "text_id": "dfb18c06-89c6-4ff4-a6f1-ee40d7f2056e",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:50:54.688607",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8d54d74a-ca63-407c-8f31-3813dd7b4748",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2', which is too complex for the required B1 level. The primary issue is sentence complexity. For example, the sentence 'This moon, called 'Didymoon', is 150 metres wide and travels in an orbit around its 800-metre mother asteroid' is too long and combines multiple clauses, which is a B2-level characteristic. Suggestion: Split this into two or three shorter sentences to improve readability and meet the B1 target, such as: 'This moon is called 'Didymoon'. It is 150 metres wide and travels in an orbit around its mother asteroid.' On a positive note, the submission passed all factual integrity and meaning preservation checks, and the keyword 'orbit' was correctly defined.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9347,
+          "meaningbert": 0.7905
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:51:07.831664",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The first project is called DART. DART stands for the Double Asteroid Redirection Test. There are plans to test DART on the moon of an asteroid called Didymos. This moon is called 'Didymoon'. It is 150 metres wide and travels in an **orbit** around its 800-metre mother asteroid. An **orbit** is the path an object takes. The plan is to see if the impact of DART can push the moon from its path. This change should be big enough for telescopes on Earth to notice.",
+      "timestamp": "2025-09-01 10:51:07.832191",
+      "metadata": {
+        "text_id": "1718a074-7c03-4890-b1a6-a8f53d750d23",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:51:36.744767",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e4ea6f38-56ac-4974-986b-e11a84cf4d8e",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The MeaningBERT score of 0.7498 is just below the required 0.75 threshold. This slight drop in meaning is likely due to the change from the original's 'hopefully the impact... will knock it out' to the output's 'The plan is to see if the impact... can push the moon'. This alters the original's tone of hopeful certainty to a more neutral, experimental one. Additionally, the text fails the CEFR compliance check. The classifier rated the output as 'B2', which is too complex for the target 'B1' level. This B2 classification is likely caused by the combination of the full technical name 'Double Asteroid Redirection Test' and the sentence structure 'This change should be big enough for telescopes on Earth to notice.' To fix this, first, rephrase the sentence about the impact to better capture the original's hopeful tone, for example: 'Scientists hope the impact of DART will push the moon from its path.' Second, to achieve a B1 level, consider simplifying the sentence structure further. For instance, 'Telescopes on Earth should be able to notice this change.' The text did pass the factual integrity check and correctly defined the keyword 'orbit'.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9346,
+          "meaningbert": 0.7498
+        }
+      }
+    }
+  ]
+}

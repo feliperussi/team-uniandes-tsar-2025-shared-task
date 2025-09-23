@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "335ddbcc-b563-4769-99df-19a3022a612b",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "In the last 200 years, technology and health got better.\nThis meant fewer children died young, so the world's population grew fast.\nFamilies were very large.\nTheir children lived and became adults.\nThen they had their own children.\nBut things changed in the 1960s.\nContraception is a way to stop women from having babies.\nIt became easier to get contraception, so the average number of babies for each woman went down.\nIt went from about six babies to about two babies.",
+    "version": 6,
+    "created_at": "2025-09-01 01:12:53.444533",
+    "updated_at": "2025-09-01 01:12:53.444542",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "221fb24e-d3a5-41f2-9232-85b92a066716",
+    "approval": "FAIL",
+    "grade": 6,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7105 is below the required 0.75 threshold. This indicates a loss of the core message.\n\n- The original text specifies a 'global average' number of babies. Your output omits the word 'global', which changes the scope and meaning of the statistic.\n- The original states the number declined 'to as low as two'. Your version, 'to about two', loses the specific nuance that two is the floor of the range.\n- The phrase 'But things changed in the 1960s' is too vague. The original text creates a direct causal link between the 'wider availability of contraception' and the decline in birth rates. Your version weakens this connection.\n\nSuggestion: Restore the word 'global' when discussing the average. Rephrase to show that contraception directly caused the number of babies to go down. Adjust the final sentence to reflect the 'as low as two' meaning.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.926,
+      "meaningbert": 0.7105
+    },
+    "created_at": "2025-09-01 01:13:17.455345"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "335ddbcc-b563-4769-99df-19a3022a612b",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "In the last 200 years, technology and health got better.\nThis meant fewer children died young, so the world's population grew fast.\nFamilies were very large.\nTheir children lived and became adults.\nThen they had their own children.\nBut things changed in the 1960s.\nContraception is a way to stop women from having babies.\nIt became easier to get contraception, so the average number of babies for each woman went down.\nIt went from about six babies to about two babies.",
+    "version": 6,
+    "created_at": "2025-09-01 01:12:53.444533",
+    "updated_at": "2025-09-01 01:12:53.444542",
+    "metrics_meaningbert": 0.7105,
+    "metrics_cefr_compliance": "A2"
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "session_id": "6f1717ad-7192-40a2-b050-8cd54b4e0408",
+  "created_at": "2025-09-01 10:41:23.487755",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:41:23.512362",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "107-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: \"Born in the USA\" is a rock album. The music is fast. It makes you want to move your feet. But the words in the songs are serious. They have sad feelings.\n\nThe music is easy to remember. The songs are famous and strong. But the stories in the songs are sad. They are about the bad side of life in America. Many songs are about the problems of normal people. These people work very hard. But their life is difficult. They do not become rich or famous. So they feel sad and angry.\n\nFor example, one song is \"Glory Days\". It is about people in a small town. They think about the past. They were young and happy then. Another song is \"Downbound Train\". It tells the story of a young man. He loses his job. His life becomes very bad.\n\nThe artist probably knew real people like this. He writes about their lives. Maybe his life was going to be like that. But then he became a star. This album shows you the artist is special. He is called \"the Boss\". He has an amazing talent.",
+      "timestamp": "2025-09-01 10:41:23.512582",
+      "metadata": {
+        "text_id": "5876bbf6-408a-4c89-be7b-4776a173f801",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:41:23.520471",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "dde74365-ee95-4322-8a02-902a362afa74",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on two critical metrics before any qualitative analysis is considered. The MeaningBERT score of 0.6675 is substantially below the required 0.75 threshold. The BERTScore of 0.8847 is below the required 0.90 threshold. This indicates a critical loss of both core meaning and lexical fidelity.\n\n- Meaning Preservation Failure: The original text's concepts of 'emotional weight' and 'the dark side of the American dream' were oversimplified into 'sad feelings' and 'the bad side of life in America'. This loses the specific cultural and emotional context, causing the low MeaningBERT score.\n\n- Fidelity Failure: Key phrases from the original such as 'hard-working ordinary people', 'life is ruined', and 'extraordinary talent' were replaced with generic terms like 'normal people', 'life becomes very bad', and 'amazing talent'. This loss of specific vocabulary caused the low BERTScore.\n\n- Vocabulary Violation: The text uses the word 'talent', which is classified as B1 level. This is a direct violation of the A2 standard. An A2 text must not contain B1 vocabulary.\n\nSuggestion: The text must be rewritten to better capture the original's core concepts using only A2 vocabulary. The concept of a 'ruined' life must be conveyed more strongly than 'becomes very bad'. The B1 word 'talent' must be replaced. Use a phrase like 'He has a special skill for music' or 'He is very good at writing songs'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8847,
+          "meaningbert": 0.6675
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:41:52.343581",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: \"Born in the USA\" is a rock album. The music is fast. It makes you want to move your feet. But the words in the songs are serious. They have important and serious feelings.\n\nThe music is easy to remember. The songs are famous and strong. But the stories are about the dark side of the American dream. Many songs are about hard-working ordinary people. They do not become rich or famous. So they feel angry and sad about their lives.\n\nFor example, one song is \"Glory Days\". It is about people in a small town. They think about the past. They were young and had a great future. Another song is \"Downbound Train\". It tells the story of a young man. He loses his job. After this, everything in his life goes wrong.\n\nThe artist probably knew real people like this. He writes about their lives. Maybe his life was going to be like that. But then he became a star. This album shows you the artist is special. He is called \"the Boss\". He has a special skill for music.",
+      "timestamp": "2025-09-01 10:41:52.343833",
+      "metadata": {
+        "text_id": "c7f21fb7-6993-404d-8302-b7c5c63e5a32",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:42:18.335933",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9a0635db-c6d2-42ec-a204-72c1950bea80",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on two critical metrics. The MeaningBERT score of 0.7457 is below the required 0.75 threshold. This indicates a failure to preserve the core message. The BERTScore of 0.8904 is below the required 0.90 threshold, indicating a significant loss of key words and phrasing from the original text.\n\n- Meaning Dilution: The original text's concept of 'emotional weight' was reduced to 'serious feelings'. The 'bitterness and anger' felt by the characters was simplified to 'angry and sad', losing the specific nuance of bitterness.\n\n- Fidelity Loss: Key descriptive phrases that define the original text's tone were removed. 'Powerhouse classics' became 'famous and strong'. The phrase 'life is ruined' was replaced with the much weaker 'everything in his life goes wrong'. This loss of specific vocabulary caused the BERTScore to fall below the minimum requirement.\n\n- Over-simplification: While the text successfully achieved an A2 classification, it did so by sacrificing too much of the original's meaning and lexical detail. The goal is simplification, not erasure of meaning.\n\nSuggestion: Revise the text to restore the core concepts. The idea of 'bitterness' must be included. The severity of a 'ruined' life must be communicated more strongly than 'goes wrong'. You must increase fidelity to the source text's meaning while maintaining simple A2 sentence structures.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8904,
+          "meaningbert": 0.7457
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:42:40.510804",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: \"Born in the USA\" is a rock album. The music is fast. It makes you want to move your feet. But the words in the songs have deep and important feelings.\n\nThe music is easy to remember. The songs are very strong and famous. But the stories are about the dark side of the American dream. Many songs are about hard-working ordinary people. They do not become rich or famous. So they feel angry and bitter about their lives.\n\nFor example, one song is \"Glory Days\". It is about people in a small town. They think about the past. They were young and had a great future. Another song is \"Downbound Train\". It tells the story of a young man. He loses his job. His life is ruined after this.\n\nThe artist probably knew real people like this. He writes about their lives. Maybe his life was going to be like that. But then he became a star. This album shows you the artist is special. He is called \"the Boss\". He has a special skill for music.",
+      "timestamp": "2025-09-01 10:42:40.511869",
+      "metadata": {
+        "text_id": "246bf8ba-7778-4fd4-8c0d-c00f5cd2579d",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 10:43:05.953203",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "608d6124-ef84-4678-a699-28c9569b6893",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8949 is below the required 0.90 threshold. This indicates a loss of key phrasing from the original text.\n\nLexical Deviation: The B1-level word 'bitter' is used. This is not compliant with the A2 vocabulary standard. All vocabulary must be A2 or below.\n\nFidelity Loss: The BERTScore failure was caused by oversimplifying specific phrases. For example, 'powerhouse classics' was reduced to 'very strong and famous', and 'leave you in no doubt of the unique and extraordinary talent' became 'shows you the artist is special'. While simple, this lost too much of the original's lexical content.\n\nSuggestion: Replace the word 'bitter' with an A2 alternative such as 'unhappy' or 'sad'. To increase the BERTScore, re-integrate more specific keywords from the original text where possible without increasing complexity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8949,
+          "meaningbert": 0.7767
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:43:36.593844",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: \"Born in the USA\" is a rock album. The music is fast. It makes you want to move your feet. But the words in the songs have deep and important feelings.\n\nThe music is easy to remember. The songs are powerful rock classics. But the stories are about the dark side of the American dream. Many songs are about the struggles of hard-working ordinary people. They do not become rich or famous. So they feel angry and unhappy about their lives.\n\nFor example, one song is \"Glory Days\". It is about people in a small town. They think about the past. They were young and had a great future. Another song is \"Downbound Train\". It tells the story of a young man. He loses his job. His life is ruined after this.\n\nThe artist probably knew real people like this. He writes about their lives. Maybe his life was going to be like that. But then he became a star. This album makes it clear the artist is special. He is called \"the Boss\". He has a great skill for music.",
+      "timestamp": "2025-09-01 10:43:36.594386",
+      "metadata": {
+        "text_id": "5d874faf-057f-4286-8e40-f6a023b3c8a5",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-09-01 10:44:02.081889",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "dc6c579d-fa02-4d8a-b4c9-763344f2059a",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8985 is below the required 0.90. This indicates a loss of key phrasing from the original text. Phrases like 'foot-tapping' and 'unique and extraordinary talent' were oversimplified, causing a drop in lexical fidelity.\n\nFurther violations were detected:\n\n- Vocabulary Compliance Failure: The text uses B1-level vocabulary, which is an immediate violation of the A2 standard. The word 'powerful' is B1. The word 'struggles' is also B1.\n\n- Vocabulary Compliance Failure: The word 'classics' is B1. It was not identified in the vocabulary analysis but is present in the output and is too advanced for A2.\n\nSuggestion: Replace 'powerful' with 'very strong'. Replace 'struggles' with 'problems'. Replace 'classics' with 'famous old songs'. Adherence to the A2 wordlist is not optional.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8985,
+          "meaningbert": 0.8068
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:44:23.675652",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: \"Born in the USA\" is a rock album. The music is fast and makes you tap your feet. But the words in the songs have deep and important feelings.\n\nThe music is easy to remember. The songs are very strong, famous old songs. But the stories are about the dark side of the American dream. Many songs are about the problems of hard-working ordinary people. They do not become rich or famous. So they feel angry and unhappy about their lives.\n\nFor example, one song is \"Glory Days\". It is about people in a small town. They think about the past. They were young and had a great future. Another song is \"Downbound Train\". It tells the story of a young man. He loses his job. His life is ruined after this.\n\nThe artist probably knew real people like this. He writes about their lives. Maybe his life was going to be like that. But then he became a star. This album makes it clear the artist is special. He is called \"the Boss\". It shows his talent is very special and different.",
+      "timestamp": "2025-09-01 10:44:23.676949",
+      "metadata": {
+        "text_id": "17a1f624-1796-4638-958c-f784c800d7b6",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-09-01 10:44:48.013774",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "da24f5c3-5094-4b66-8a55-4649735238d8",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8967 is below the required 0.90 threshold. This indicates a loss of key phrasing from the original text.\n\n- Primary Deviation: The text fails due to insufficient lexical fidelity. While simplification is necessary for A2, the replacement of specific, high-value phrases caused the score to drop below the minimum requirement. The original's 'unique and extraordinary talent' was simplified to 'talent is very special and different', losing too much lexical detail.\n- Secondary Deviation: The text includes the B1 vocabulary word 'talent'. A2 level requires strict adherence to the approved word list. This word is too advanced.\n- Secondary Deviation: The text includes the B1 vocabulary word 'tap'. While used in a common phrase, it is outside the A2 lexicon.\n- Suggestion: Rephrase the final sentence to remove the B1 word 'talent'. Replace it with an A2-compliant description. Example: 'This shows he is very good at making music.' This change will correct the vocabulary error and improve the fidelity score.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8967,
+          "meaningbert": 0.7553
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:45:01.558274",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: \"Born in the USA\" is a rock album. The music is fast and makes you move your feet. But the words in the songs have deep and important feelings.\n\nThe music is easy to remember. The songs are very strong, famous old songs. But the stories are about the dark side of the American dream. Many songs are about the problems of hard-working ordinary people. They do not become rich or famous. So they feel angry and unhappy about their lives.\n\nFor example, one song is \"Glory Days\". It is about people in a small town. They think about the past. They were young and had a great future. Another song is \"Downbound Train\". It tells the story of a young man. He loses his job. His life is ruined after this.\n\nThe artist probably knew real people like this. He writes about their lives. Maybe his life was going to be like that. But then he became a star. This album makes it clear the artist is special. He is called \"the Boss\". This album shows he is very good at making music.",
+      "timestamp": "2025-09-01 10:45:01.558682",
+      "metadata": {
+        "text_id": "98299271-4ab2-48c6-b86c-479a570a8580",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:45:29.085778",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f8cea802-910b-4167-8dc6-7e589dd3babd",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for failure is the MeaningBERT score of 0.6994, which is substantially below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\n- MeaningBERT Failure: The original text conveys a strong sense of 'bitterness', 'anger', and 'struggle'. Your version dilutes this to 'unhappy' and 'problems', which fails to capture the emotional weight. The original's 'unique and extraordinary talent' is reduced to 'special' and 'very good', losing the intended emphasis.\n\n- Fidelity Failure: The BERTScore of 0.8952 is below the 0.90 minimum. This is a direct result of replacing key lexical items like 'powerhouse classics', 'emotional weight', and 'channelling real people' with overly simplistic phrases. This damages the fidelity to the source text.\n\n- Vocabulary Violation: The word 'making' in the phrase 'good at making music' is a B2-level gerund. This is an unacceptable deviation from the A2 vocabulary standard.\n\nSuggestion: You must rephrase the text to restore the original meaning. The concepts of 'bitterness' and 'extraordinary talent' must be communicated using A2 vocabulary. Replace the B2 word 'making'. State 'He writes very good music' or 'He is a very good musician' instead.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8952,
+          "meaningbert": 0.6994
+        }
+      }
+    }
+  ]
+}

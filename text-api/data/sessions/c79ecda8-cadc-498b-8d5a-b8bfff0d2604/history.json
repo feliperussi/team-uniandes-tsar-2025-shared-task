@@ -1,0 +1,70 @@
+{
+  "session_id": "c79ecda8-cadc-498b-8d5a-b8bfff0d2604",
+  "created_at": "2025-08-28 14:38:46.444686",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-08-28 14:38:46.456888",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "02-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes damage all kinds of buildings, including bridges. Luckily, bridges do not fall down very often, especially modern ones. Engineers have learned to build bridges in earthquake areas. They build them on ground that is stronger and moves less during an earthquake.",
+      "timestamp": "2025-08-28 14:38:46.458134",
+      "metadata": {
+        "text_id": "1042160e-47ea-413f-8552-5b017e101e90",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-28 14:38:46.468382",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b5a74509-c81d-4799-b782-087c3626c8e9",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "The provided JSON object fails to adhere to the required schema. It is missing the mandatory top-level 'output' key. Additionally, the value for the 'grade' key is a number (10), but the schema requires a string."
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-08-28 14:39:12.046759",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes damage all kinds of buildings, including bridges. Luckily, bridges do not fall down very often, especially modern ones. Engineers have learned to build bridges in earthquake areas on ground that is stronger and moves less during an earthquake.",
+      "timestamp": "2025-08-28 14:39:12.047751",
+      "metadata": {
+        "text_id": "15d50490-0901-4cd3-8a62-2b5dc7275d97",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-28 14:39:49.271097",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "39de9bcc-1afe-4580-8397-0b9910f82e85",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS. The feedback is direct, blunt, and concise. It correctly identifies the specific sentence causing the failure ('Engineers have learned...') and provides a clear, quantifiable reason (21 words > 15 words), making the feedback actionable and well-justified."
+      }
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "session_id": "f9c38dd0-d4d4-4b55-884f-ed9ba5961846",
+  "created_at": "2025-09-01 17:06:36.400014",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:06:37.678207",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "26-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I work for a big IT company.  \nTheir main office is in the United States.  \nI do all my work online from home.  \nI do not spend time traveling to work.  \nI also do not chat a lot with coworkers.  \nI work on a project type.  \nThis freedom is very important to me.  \nIt shows that I can easily take time off.  \nI can take time off when my children need me at school.  \nI can also take time off to go to the dentist.  \nThe downside is that I have no set office hours.  \nI usually work late into the evening.  \nSometimes I skip dinner to finish a task.",
+      "timestamp": "2025-09-01 17:06:37.678425",
+      "metadata": {
+        "text_id": "26ec1791-439f-4593-a5bb-6dca5294d434",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:06:40.852955",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "181de372-0527-4e79-a37e-289dbd4ac203",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8916 is below the required 0.90 threshold. This indicates a significant loss of key words and factual phrasing from the original text, even though the core message is generally preserved.\n\n- Fidelity Loss: The original text specifies 'school performances'. Your output simplifies this to 'at school', losing important factual detail. This loss of specificity contributed to the low BERTScore.\n- Awkward Phrasing: The phrase 'work on a project basis' was changed to 'work on a project type'. This is not a natural or accurate simplification. It is grammatically awkward and alters the meaning.\n- Meaning Shift: The original states 'it means that I can easily take some time off'. Your version, 'It shows that I can easily take time off', subtly changes the meaning from a direct consequence to a piece of evidence.\n\nSuggestion: Restore the specific detail about 'school performances'. Rephrase 'work on a project type' to something more natural, such as 'I work on different projects'. Use 'This means...' to accurately reflect the original's logical connection.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8916,
+          "meaningbert": 0.824
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:06:53.094042",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I work for a big IT company.  \nTheir main office is in the United States.  \nI work online from home.  \nI do not travel to work.  \nI do not chat much with coworkers.  \nI work on different projects.  \nThis means I can easily take time off.  \nI can take time off when my children need me.  \nThey need me at school performances.  \nI can also take time off to go to the dentist.  \nThe downside is I have no set office hours.  \nI usually work late into the evening.  \nSometimes I skip dinner to finish a task.",
+      "timestamp": "2025-09-01 17:06:53.094269",
+      "metadata": {
+        "text_id": "84529f2c-9cca-484c-a1b7-4f4728e932de",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:07:31.755933",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d50439a8-67a2-41cc-be49-d868af6a95e8",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8831 is below the required 0.90 threshold. This indicates an unacceptable loss of key words and concepts from the original text due to oversimplification.\n\n- Lexical Loss: Key concepts like 'flexibility' and 'valuable' were completely removed. The original text explains WHY the work style is good; your version only states the consequence ('I can easily take time off'). This is a critical loss of meaning.\n\n- Nuance Loss: The phrase 'waste time commuting' was replaced with 'do not travel to work'. This loses the negative meaning of 'waste time', which is an important part of the original message.\n\n- Structural Degradation: The original text uses connectors like 'because' to show relationships between ideas. Your version breaks every clause into a separate, simple sentence. This makes the text choppy and removes the logical flow. The text is a list of facts, not a coherent paragraph.\n\n- Suggestion: Reintroduce the core concepts. You must explain that the work is 'flexible' and this is 'good' or 'valuable'.\n\n- Suggestion: Use simple A2 connectors like 'so' and 'because' to link related ideas. Do not break every single clause into a new sentence.\n\n- Suggestion: Revise phrases to retain their original nuance. 'I do not waste time travelling to work' is a more faithful A2 simplification than 'I do not travel to work'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8831,
+          "meaningbert": 0.8508
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:07:46.387063",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I work for a big IT company. Their main office is in the United States, so I work online from home. I do not waste time travelling to work. I also do not chat much with coworkers. I work on different projects. This work style is flexible and good for me. Because it is flexible, I can easily take time off. I can take time off when my children need me at school performances. I can also take time off to go to the dentist. The downside is I have no set office hours. I usually work late into the evening. Sometimes I skip dinner to finish a task.",
+      "timestamp": "2025-09-01 17:07:46.387361",
+      "metadata": {
+        "text_id": "d93428ff-f65b-4e4b-8a39-a7ac182e3844",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:08:13.807008",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a2df8932-7f0b-4648-bca5-7e74019cc94b",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7292 is below the required 0.75 threshold. This indicates a failure to preserve the core message. The original text emphasizes that the work's flexibility is 'very valuable', a concept of high importance. Your version reduces this to 'good for me', which is a significant loss of meaning.\n\nDetailed Deviations:\n- Vocabulary Standard Violation: The text includes multiple words above the A2 level. This is a critical error.\n- The word 'flexible' is B2. It was used twice. It must be removed and the concept rephrased using A2 words.\n- The word 'waste' is B1. It was used in the phrase 'waste time'. It must be replaced.\n- The word 'downside' is B1/B2. It must be replaced with a simpler A2 alternative.\n\nCorrective Actions:\n- Suggestion: Restore the core meaning of 'valuable'. Rephrase 'good for me' to 'This is very important for me'.\n- Suggestion: Eliminate all B1/B2 vocabulary. Replace 'flexible' with a description like 'I can choose when I work'. Replace 'waste time' with 'use time' or 'spend time'. Replace 'downside' with 'A bad part is' or 'One problem is'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9325,
+          "meaningbert": 0.7292
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:08:30.645871",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I work for a big IT company.  \nTheir main office is in the United States.  \nSo I work online from home.  \nI do not spend time traveling to work.  \nI also do not chat much with coworkers.  \nI work on different projects.  \nI can choose when I work.  \nThis is very helpful for me.  \nI can choose my work time.  \nI can take time off easily.  \nI can take time off when my children need me.  \nThey may need me at school performances.  \nI can also take time off to go to the dentist.  \nOne problem is I have no set office hours.  \nI usually work late into the evening.  \nSometimes I skip dinner to finish a task.",
+      "timestamp": "2025-09-01 17:08:30.646364",
+      "metadata": {
+        "text_id": "960a71f0-2655-4478-8e4d-e48e0e0043eb",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:09:09.463952",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ed9e0053-6ac7-466f-8405-9ccc1ed42170",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8761 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\n- Primary Deviation: The simplification process was too aggressive, resulting in a text that does not sufficiently reflect the vocabulary of the source material. Key concepts were replaced with overly generic terms.\n- Evidence of Deviation: The original's 'global IT company' was reduced to 'big IT company'. The concept 'this flexibility is very valuable to me' was diluted into the less precise 'This is very helpful for me'. This consistent reduction of specific vocabulary caused the fidelity score to drop below the minimum requirement.\n- Structural Flaw: The output contains unnecessary repetition. The sentences 'I can choose when I work' and 'I can choose my work time' are redundant. Similarly, 'I can take time off easily' is immediately followed by 'I can take time off when my children need me', which is choppy and inefficient.\n\n- Suggestion: Revise the text to combine repetitive sentences. Re-introduce slightly more precise A2-level vocabulary to better reflect the original text's meaning without sacrificing readability. The goal is simplification, not complete lexical substitution.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8761,
+          "meaningbert": 0.8541
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:09:20.388344",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I work for a global IT company.  \nTheir main office is in the United States.  \nI work online from home.  \nI do not travel to work.  \nI also do not chat much with coworkers.  \nI work on different projects.  \nI can decide my work hours.  \nThis flexibility is very valuable to me.  \nI can take time off for my children.  \nThey may need me at school performances.  \nI can also take time off to go to the dentist.  \nI have no set office hours.  \nI often work late into the evening.  \nSometimes I skip dinner to finish a task.",
+      "timestamp": "2025-09-01 17:09:20.388999",
+      "metadata": {
+        "text_id": "51537578-0631-4daa-89e7-a09417b3e456",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:09:51.071629",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3528fa49-2ce8-46b4-bb8d-7d86c2b3a9c5",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8801 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\n- Lexical Fidelity Failure: The low BERTScore is a direct result of oversimplifying key concepts. Phrases like 'waste time commuting' and 'schedule an appointment' were replaced with less precise terms like 'travel to work' and 'go to the dentist', losing important detail.\n\n- Vocabulary Violation (CEFR): The text fails the A2 vocabulary standard. It includes the C1 word 'flexibility' and the B1 words 'valuable' and 'performances'. These words are too advanced for the A2 level and must be replaced.\n\n- Structural Simplification: The text is broken into excessively simple, disconnected sentences. While A2 requires simplicity, the complete lack of basic connectors like 'and', 'but', or 'so' makes the text choppy and more characteristic of an A1 level.\n\nSuggestion: Restore more of the original phrasing to meet the BERTScore requirement. Replace all words above the A2 level immediately. For example, replace 'flexibility' with a descriptive phrase like 'I can choose my work time'. Replace 'valuable' with 'important'. Combine some sentences using basic A2 connectors to create a more natural flow.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8801,
+          "meaningbert": 0.8512
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:10:00.797428",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I work for an IT company.  \nTheir main office is in the United States.  \nI work online from home.  \nI do not waste time commuting.  \nI also do not chat much with coworkers.  \nI work on different projects and I can choose my work time.  \nIt is good for me.  \nI can take time off for my children, because they may need me at school shows.  \nI can also set an appointment with the dentist.  \nI have no set office hours.  \nSo I often work late into the evening.  \nSometimes I skip dinner to finish a task.",
+      "timestamp": "2025-09-01 17:10:00.797856",
+      "metadata": {
+        "text_id": "3858e81f-61f3-4b06-9dba-34d8dab4e548",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:10:36.502622",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a75b61bb-883e-4f12-bc86-a912e88f8113",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8875 is below the required 0.90 threshold. This indicates an unacceptable loss of key words and factual phrasing from the original text.\n\n- Primary Deviation (BERTScore): The score is low because your simplification was too aggressive. Key descriptive words from the original text such as 'global', 'flexibility', and 'valuable' were completely removed, not simplified. This damages the lexical fidelity to the source.\n\n- Secondary Deviation (Vocabulary): The text uses the B1-level word 'waste' in the sentence 'I do not waste time commuting'. This is a direct violation of the A2 vocabulary standard.\n\n- Secondary Deviation (Vocabulary): The text uses the B1-level word 'set' in 'set an appointment' and 'set office hours'. This is not A2 vocabulary.\n\n- Suggestion: Restore the word 'global' to maintain factual accuracy. Rephrase the sentence 'I do not waste time commuting' to avoid the B1 word 'waste'; for example, 'I do not use time to travel to work'. Replace 'set an appointment' with the A2-compliant phrase 'make an appointment'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8875,
+          "meaningbert": 0.8311
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:10:50.805176",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I work for a global IT company.  \nTheir main office is in the United States.  \nI work online from home.  \nI do not use time to travel to work.  \nI also do not chat much with coworkers.  \nI work on different projects.  \nThis gives me flexibility.  \nThe flexibility is valuable to me.  \nI can take time off for my children because they may need me at school shows.  \nI can also make an appointment with the dentist.  \nI have no office hours.  \nSo I often work late into the evening.  \nSometimes I skip dinner to finish a task.",
+      "timestamp": "2025-09-01 17:10:50.805683",
+      "metadata": {
+        "text_id": "f0abad99-72af-4d03-a258-cfdbeaf6bc95",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:11:17.576018",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "391de791-4372-42df-b6f1-b409b8407fe4",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8846 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text. This failure is compounded by severe vocabulary violations.\n\nDetected Deviations:\n- Vocabulary Violation: The B1-level word 'global' was used. This is not an A2 word.\n- Vocabulary Violation: The B1-level word 'valuable' was used. This is not an A2 word.\n- Vocabulary Violation: The C1-level word 'flexibility' was used. This is a severe violation of the A2 standard.\n\nCorrective Path:\n- Replace 'global'. Suggestion: 'The company works in many countries.'\n- Replace 'valuable'. Suggestion: 'This is very important to me.'\n- Rephrase to remove 'flexibility'. Suggestion: 'This means I can change my work time easily.' or 'I like that I can choose when I work.'\n- All words above the A2 level must be removed or simplified to pass.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8846,
+          "meaningbert": 0.8357
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:11:23.166433",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I work for a company that works in many countries.  \nThe main office is in the United States.  \nI work online from home.  \nI do not travel to work.  \nI also do not chat much with coworkers.  \nI work on different projects.  \nThis means I can change my work time easily.  \nThis means a lot to me.  \nI can take time off for my children because they may need me at school shows.  \nI can also make an appointment with the dentist.  \nI have no office hours.  \nSo I often work late into the evening.  \nSometimes I skip dinner to finish a task.",
+      "timestamp": "2025-09-01 17:11:23.167020",
+      "metadata": {
+        "text_id": "514a7180-e14d-4258-be1e-a7188f794e4b",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:11:49.143766",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c8e7b81c-9368-4245-86a2-92a87f5e0b12",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8793 is below the required 0.90 threshold. This is the primary reason for failure.\n\n- Fidelity Loss: The score is low because key lexical details from the original text were lost. The phrase \"global IT company\" was simplified to \"company that works in many countries,\" which omits the critical \"IT\" detail. The concept of \"flexibility is very valuable\" was replaced with the less precise \"This means a lot to me.\" These changes reduce the text's fidelity to the source.\n- Vocabulary Violation: The word \"means\" is used twice. In the context of \"This means I can change my work time,\" it functions as a B1/B2 level vocabulary item. This is an unacceptable deviation from the A2 standard.\n- Suggestion: Restore the \"IT\" detail by stating it is a \"computer company\" or \"IT company\". Rephrase the sentences using \"means\". Replace \"This means I can change my work time easily\" with \"So, I can change my work time easily.\" Replace \"This means a lot to me\" with \"This is very good for me.\" These changes will improve fidelity and adhere to the A2 vocabulary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8793,
+          "meaningbert": 0.811
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:12:00.645465",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I work for a global IT company.  \nIts main office is in the United States.  \nI work online from home.  \nI do not travel to work.  \nI do not chat much with coworkers.  \nI work on different projects.  \nSo I can change my work time easily.  \nThis is very good for me.  \nI can take time off for my children.  \nThey may need me at school shows.  \nI can also make an appointment with the dentist.  \nI have no office hours.  \nSo I often work late into the evening.  \nSometimes I skip dinner to finish a task.",
+      "timestamp": "2025-09-01 17:12:00.646075",
+      "metadata": {
+        "text_id": "ee268b67-e425-4117-8c2a-84fbd682c2cc",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:12:42.371503",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9a9be456-2aee-46ed-a82c-9be1bb4d09c7",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8788 is below the required 0.90 threshold. This indicates an excessive loss of key vocabulary from the original text. While simplification is necessary for A2, it must not come at the cost of lexical fidelity.\n- Fidelity Failure: The BERTScore is too low. Key terms from the original text such as 'commuting', 'colleagues', 'flexibility', and 'valuable' were replaced with overly generic phrases. This caused the fidelity score to drop below the minimum requirement.\n- Vocabulary Violation: The B1-level word 'global' was used in the first sentence. All vocabulary must be strictly A2 or below.\nSuggestion: Re-evaluate the text to increase lexical precision while maintaining simplicity. Restore some of the original's key terms in a simplified context or find closer A2-level synonyms. Remove the word 'global' and replace it with an A2 phrase, for example, 'a company that is in many countries'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8788,
+          "meaningbert": 0.8497
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:12:57.142710",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I work for a company that has offices in different countries.  \nIts main office is in the United States.  \nI work online from home.  \nI do not travel to work.  \nI do not chat much with colleagues.  \nI work on different projects.  \nI have flexibility.  \nThe flexibility is very good for me.  \nI can take time off for my children.  \nThey may need me at school shows.  \nI can also make an appointment with the dentist.  \nI have no office hours.  \nSo I often work late into the evening.  \nSometimes I skip dinner to finish a task.",
+      "timestamp": "2025-09-01 17:12:57.143383",
+      "metadata": {
+        "text_id": "d86054fc-7345-4c6f-946c-ed431ca2245a",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:13:25.234833",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7fcb4182-8b9e-4389-9625-529de52a513d",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8759 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\n- Vocabulary Violation: The C1 word 'flexibility' was used twice. This is a severe violation of the A2 standard. Advanced vocabulary must be rephrased using simple A2 terms, not included directly.\n- Lexical Loss: The oversimplification caused a loss of important concepts. The original's 'valuable' was replaced with the generic 'good'. The concept of a 'downside' was removed entirely, altering the balanced perspective of the original text. This contributed to the low BERTScore.\n- Structural Oversimplification: The text is broken into excessively short, choppy sentences. While A2 requires simplicity, this level of fragmentation is more characteristic of A1 and damages the natural flow of the text.\n\nSuggestion: Rephrase the text to remove the word 'flexibility'. Use a simple A2 sentence to explain the concept, such as 'I can change my work hours when I need to.' Combine some of the very short sentences to improve readability while maintaining A2 structure. For example: 'I work online from home, so I do not travel to work.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8759,
+          "meaningbert": 0.861
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:13:40.727032",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I work for a company whose main office is in United States.  \nI work online from home, so I do not travel to work.  \nI do not chat much with colleagues.  \nI work on different projects.  \nI can change my work hours when I need to.  \nThis helps me take time off for my children\u2019s school shows.  \nI can also make an appointment with the dentist.  \nBecause I have no set office hours, I often work late.  \nSometimes I skip dinner to finish a task.",
+      "timestamp": "2025-09-01 17:13:40.727689",
+      "metadata": {
+        "text_id": "c2f9dd7e-15e7-46ca-aebf-c6fe3f49388e",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:14:09.381271",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5489cd0c-a8cf-4dff-b93f-688aae72eec9",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8875 is below the required 0.90 threshold. This indicates an unacceptable loss of key words and phrasing from the original text.\n\n*   Primary Deviation: The simplification process removed too much of the original's specific vocabulary, causing the fidelity score to drop. Key concepts like 'waste time commuting', 'flexibility', and 'downside' were replaced with phrases that are too distant from the source material.\n*   Factual Omission: The original text specifies a 'global IT company'. Your output reduces this to 'a company', which is a loss of a key fact.\n*   Structural Simplification: The text has been broken down into a list of short, disconnected sentences. This is an overly simplistic structure that fails to connect ideas as the original did.\n\nSuggestion: Revise the text to re-introduce key vocabulary from the original in an A2-compliant manner. Restore the 'IT company' detail. Combine some sentences using simple A2 connectors like 'and' or 'but' to better reflect the relationships between ideas in the original text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8875,
+          "meaningbert": 0.8718
+        }
+      }
+    }
+  ]
+}

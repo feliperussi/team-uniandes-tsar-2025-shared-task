@@ -1,0 +1,413 @@
+{
+  "session_id": "faab6bc7-6190-464a-ad09-e6b9e57f358a",
+  "created_at": "2025-08-31 20:32:39.504832",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:32:39.512852",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "08-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes you dream about something.\nFor example, you dream about a phone call from an old friend.\nOr you dream that someone you know dies.\nThen, this thing happens in real life.\nThis is not because you can see the future.\nIt happens just by chance.\nAlso, we forget many dreams.\nWe dream about these things, but they do not happen.",
+      "timestamp": "2025-08-31 20:32:39.513722",
+      "metadata": {
+        "text_id": "93a9b91e-52c2-4235-9650-bb4412f069da",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:32:39.521914",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "647aae7e-1d98-4e91-9f80-6885f9729743",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7056 is below the required 0.75 threshold. This indicates a significant loss of the original text's core message. The original text states that dreams are 'more likely to be the result of coincidence', which is a statement of probability. Your version changes this to an absolute fact: 'This is not because you can see the future. It happens just by chance.' This simplification removes the nuance and alters the meaning. The BERTScore of 0.8959 is also below the required 0.90. This is due to replacing key phrases like 'someone close' with the less specific 'someone you know', losing fidelity. The original's concept of 'we probably choose to forget' is simplified to 'we forget', losing the element of intentionality. Suggestion: Restore the meaning of probability. Change 'This is not because...' to 'This usually means it is just by chance...'. Use the exact phrase 'someone close' to maintain fidelity with the source text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8959,
+          "meaningbert": 0.7056
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:32:52.395425",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes you dream about something.\nFor example, you dream about a phone call from an old friend.\nOr you dream that someone close to you dies.\nThen, this thing happens in real life.\nThis is not because you can see the future.\nIt is probably just by chance.\nAlso, we have many dreams that do not happen.\nWe probably choose to forget these dreams.",
+      "timestamp": "2025-08-31 20:32:52.397030",
+      "metadata": {
+        "text_id": "f3dfe359-408f-44bc-87c8-c26809ae5c3d",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 20:33:19.643494",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "74ec20d6-327f-4478-9375-c034ba03f0d9",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8968 is below the required 0.90 threshold. This indicates an unacceptable loss of key words and phrasing from the original text.\n\n- Lexical Deviation: The original text uses the specific terms 'coincidence' and 'prophecy'. Your replacement with the simpler 'by chance' and 'see the future' lowered the lexical fidelity, causing the score to drop below the minimum requirement.\n\n- Structural Deviation: The original text's final clause, 'all the times we dream about such events but they don't happen', was broken into two separate, simpler sentences. This structural change further reduced the fidelity score.\n\nSuggestion: The text sacrifices too much lexical and structural detail from the source. To pass, you must retain more of the original's key phrasing while still adhering to A2 sentence structure and vocabulary constraints. The current version is too far removed from the source text to meet the fidelity standard.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8968,
+          "meaningbert": 0.8346
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:33:41.923790",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: For example, you can dream about a phone call from an old friend. Or you can dream about the death of someone close. This is probably the result of coincidence, not prophecy. We also probably choose to forget all the times we dream about such things but they do not happen.",
+      "timestamp": "2025-08-31 20:33:41.925399",
+      "metadata": {
+        "text_id": "5539b16c-0470-48cc-8b89-613aaea19cd2",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 20:34:04.266148",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0789ce93-7c28-4b78-9638-113ebad7ed45",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Standard Violation. The text fails the qualitative audit due to the use of unapproved B2-level vocabulary.\n- The word 'coincidence' is classified as B2 level. It is too complex for an A2 reader. This word was not replaced or simplified, which is a critical error.\n- The original text also contained 'prophecy' (B2/C1), which was correctly removed. The same standard must be applied to all complex vocabulary.\nSuggestion: Rephrase the sentence to explain the concept of 'coincidence' using only A1/A2 words. For example: 'This happens by chance. It is not a message about the future.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9454,
+          "meaningbert": 0.9453
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:34:17.554380",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: For example, you can dream about a phone call from an old friend. Or you can dream about the death of someone close. This probably happens by chance. It is not a message about the future. We also dream about such things many times, but they do not happen. We probably choose to forget these times.",
+      "timestamp": "2025-08-31 20:34:17.554714",
+      "metadata": {
+        "text_id": "4ce95035-c7b0-43ae-bd64-2a3433b04641",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:34:39.905316",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d5987acd-8fdd-4b31-8e29-03fd29dbb532",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: Exemplary Adherence to A2 Standard. The output successfully meets all diagnostic criteria. Factual integrity is maintained. The MeaningBERT score of 0.89 and BERTScore of 0.92 confirm high fidelity to the original message. The CEFR classifier correctly identifies the text as A2. The qualitative audit confirms perfection. The vocabulary is strictly limited to A1 and A2 levels; complex B1+ words like 'coincidence' and 'prophecy' were correctly simplified into A2-compliant phrases ('happens by chance', 'message about the future'). The original complex sentence was expertly deconstructed into multiple short, simple sentences, which is the required structure for this level. No deviations were found.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9206,
+          "meaningbert": 0.8908
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:34:54.613583",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: For example, you can dream about a phone call from an old friend. Or you can dream about the death of someone close. This probably happens by chance. It is not a message about the future. We also dream about such things many times, but they do not happen. We probably choose to forget these times.",
+      "timestamp": "2025-08-31 20:34:54.615069",
+      "metadata": {
+        "text_id": "78cb2c5b-8d4d-4d1a-abed-ce926e9783b5",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:35:19.320762",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "170f8b3d-599b-4a70-9e47-27e30b2314a6",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text is an exemplary model of A2 simplification.\n\n- Vocabulary Compliance: The vocabulary is strictly confined to the A2 level. Words like 'coincidence' and 'prophecy' were correctly replaced with simple A2 concepts like 'happens by chance' and 'message about the future'.\n\n- Structural Simplification: The original complex sentence structure was correctly deconstructed into a series of short, simple sentences. This is the required standard for A2 readability.\n\n- Meaning Preservation: The core message of the original text has been fully retained. This is confirmed by the high MeaningBERT score of 0.89 and BERTScore of 0.92, which exceed the required thresholds.\n\n- CEFR Classification: The output correctly registers as A2, meeting the primary objective. No deviations were detected.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9206,
+          "meaningbert": 0.8908
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:35:30.196619",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: For example, you can dream about a phone call from an old friend. Or you can dream about the death of someone close. This probably happens by chance. It is not a message about the future. We also dream about such things many times, but they do not happen. We probably choose to forget these times.",
+      "timestamp": "2025-08-31 20:35:30.197208",
+      "metadata": {
+        "text_id": "d9786ac3-2a4e-454e-93a2-ae28532c9a68",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:35:56.151032",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c8f2eed6-b564-4583-81b5-fc79ad4bcfd2",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: Exemplary A2 Compliance. The output is a model of simplification.\n- Factual Integrity: All key information from the original text was preserved without error.\n- CEFR Compliance: The text correctly registers as A2. The vocabulary is strictly limited to A1 and A2 levels.\n- Structural Simplification: The original complex sentences were expertly broken down into short, simple declarative statements. The replacement of 'coincidence' with 'happens by chance' and 'prophecy' with 'not a message about the future' is a perfect execution of A2 simplification strategy.\n- Metrics: All metrics are well within the acceptable range, confirming high fidelity to the source text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9206,
+          "meaningbert": 0.8908
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:36:14.614604",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: For example, you can dream about a phone call from an old friend. Or you can dream about the death of someone close. This probably happens by chance. It is not a message about the future. We also dream about such things many times, but they do not happen. We probably choose to forget these times.",
+      "timestamp": "2025-08-31 20:36:14.615271",
+      "metadata": {
+        "text_id": "3a1834e7-694d-4e10-8f96-cc1bd4f0afbd",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:36:36.918277",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6ecea648-1258-45ad-b6a5-3676fbb72a2a",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: Exemplary Adherence to A2 Standard. The output successfully meets all diagnostic criteria. Factual integrity is maintained. The MeaningBERT score of 0.89 and BERTScore of 0.92 confirm high fidelity to the original message. The CEFR classifier correctly identifies the text as A2. The qualitative audit confirms perfection. The vocabulary is strictly limited to A1 and A2 levels; complex B1+ words like 'coincidence' and 'prophecy' were correctly simplified into A2-compliant phrases ('happens by chance', 'message about the future'). The original complex sentence was expertly deconstructed into multiple short, simple sentences, which is the required structure for this level. No deviations were found.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9206,
+          "meaningbert": 0.8908
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:36:53.004212",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: For example, you can dream about a phone call from an old friend. Or you can dream about the death of someone close. This probably happens by chance. It is not a message about the future. We also dream about such things many times, but they do not happen. We probably choose to forget these times.",
+      "timestamp": "2025-08-31 20:36:53.004675",
+      "metadata": {
+        "text_id": "a5d3ede9-9e82-4e41-a172-d45d41d379a2",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:37:13.520007",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2c91efbf-9a4b-4329-8b8c-bc0056267dcb",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: Exemplary Adherence to A2 Standard. The output successfully meets all diagnostic criteria. Factual integrity is maintained. The MeaningBERT score of 0.89 and BERTScore of 0.92 confirm high fidelity to the original message. The CEFR classifier correctly identifies the text as A2. The qualitative audit confirms perfection. The vocabulary is strictly limited to A1 and A2 levels; complex B1+ words like 'coincidence' and 'prophecy' were correctly simplified into A2-compliant phrases ('happens by chance', 'message about the future'). The original complex sentence was expertly deconstructed into multiple short, simple sentences, which is the required structure for this level. No deviations were found.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9206,
+          "meaningbert": 0.8908
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:37:25.763183",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: For example, you can dream about a phone call from an old friend. Or you can dream about the death of someone close. This probably happens by chance. It is not a message about the future. We also dream about such things many times, but they do not happen. We probably choose to forget these times.",
+      "timestamp": "2025-08-31 20:37:25.764785",
+      "metadata": {
+        "text_id": "bc9b540a-482d-4692-9ada-f98bd20fd560",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:37:49.894690",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ddc38cf2-8458-4d70-91e7-fe8a48ce33a0",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: Exemplary A2 Compliance. The output is a model of simplification.\n- Factual Integrity: All key information from the original text was preserved without error.\n- CEFR Compliance: The text correctly registers as A2. The vocabulary is strictly limited to A1 and A2 levels.\n- Structural Simplification: The original complex sentences were expertly broken down into short, simple declarative statements. The replacement of 'coincidence' with 'happens by chance' and 'prophecy' with 'not a message about the future' is a perfect execution of A2 simplification strategy.\n- Metrics: All metrics are well within the acceptable range, confirming high fidelity to the source text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9206,
+          "meaningbert": 0.8908
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:38:01.068833",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: For example, you can dream about a phone call from an old friend. Or you can dream about the death of someone close. This probably happens by chance. It is not a message about the future. We also dream about such things many times, but they do not happen. We probably choose to forget these times.",
+      "timestamp": "2025-08-31 20:38:01.069365",
+      "metadata": {
+        "text_id": "f9f91c6e-69b8-4a22-9b2f-ff774f7e4d67",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:38:25.045024",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d6c9f799-ba86-4de5-9816-6c2bad6a8278",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: Exemplary A2 Compliance. The output is a model of simplification.\n- Factual Integrity: All key information from the original text was preserved without error.\n- CEFR Compliance: The text correctly registers as A2. The vocabulary is strictly limited to A1 and A2 levels.\n- Structural Simplification: The original complex sentences were expertly broken down into short, simple declarative statements. The replacement of 'coincidence' with 'happens by chance' and 'prophecy' with 'not a message about the future' is a perfect execution of A2 simplification strategy.\n- Metrics: All metrics are well within the acceptable range, confirming high fidelity to the source text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9206,
+          "meaningbert": 0.8908
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:38:38.293771",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: For example, you can dream about a phone call from an old friend. Or you can dream about the death of someone close. This probably happens by chance. It is not a message about the future. We also dream about such things many times, but they do not happen. We probably choose to forget these times.",
+      "timestamp": "2025-08-31 20:38:38.294576",
+      "metadata": {
+        "text_id": "4b1f495b-35a3-45aa-a04e-5640a2df67d9",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:39:01.219937",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "cf8c2eb7-22bb-4be1-9e42-8a2eeaac5d40",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text is an exemplary model of A2 simplification.\n\n- Vocabulary Compliance: The vocabulary is strictly confined to the A2 level. Words like 'coincidence' and 'prophecy' were correctly replaced with simple A2 concepts like 'happens by chance' and 'message about the future'.\n\n- Structural Simplification: The original complex sentence structure was correctly deconstructed into a series of short, simple sentences. This is the required standard for A2 readability.\n\n- Meaning Preservation: The core message of the original text has been fully retained. This is confirmed by the high MeaningBERT score of 0.89 and BERTScore of 0.92, which exceed the required thresholds.\n\n- CEFR Classification: The output correctly registers as A2, meeting the primary objective. No deviations were detected.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9206,
+          "meaningbert": 0.8908
+        }
+      }
+    }
+  ]
+}

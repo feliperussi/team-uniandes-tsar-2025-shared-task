@@ -1,0 +1,80 @@
+{
+  "session_id": "9beb16eb-1e98-44d6-8b93-98f8fcd71f9a",
+  "created_at": "2025-09-01 17:34:11.642364",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:34:11.649390",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "30-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many people living in Berlin said that killing pigs was unnecessarily cruel, and the debate between hunters and animal lovers grew heated. In response to the protests, the city council chose a more peaceful approach, so instead of killing pigs they built fences and made feeding them illegal. Time will tell if this plan works, although it may be a losing battle because milder winters now allow more pigs than in the past.",
+      "timestamp": "2025-09-01 17:34:11.650117",
+      "metadata": {
+        "text_id": "054cf48e-83c8-43ac-a176-313e79635baf",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:34:11.658038",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b45045c0-4ad4-43cb-adcc-a83b540c76f3",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2' instead of the target 'B1'. This failure is due to two main factors. First, the B2-level word 'council' was retained from the original text. A B1 text should replace this with a simpler alternative like 'city leaders' or 'the city government'. Second, the sentence structures are too complex for the B1 level. For example, the final sentence, 'Time will tell if this plan works, although it may be a losing battle because milder winters now allow more pigs than in the past,' combines multiple subordinate clauses which is characteristic of a B2 text. To meet the B1 requirement, break down the longer sentences into shorter, simpler ones. On a positive note, the submission successfully passed the Factual Integrity and Meaning Preservation checks with high scores, indicating that the core information was accurately transferred.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9571,
+          "meaningbert": 0.8943
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:34:17.300027",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many people living in Berlin said that killing pigs was unnecessarily cruel. The debate between hunters and animal lovers grew heated. In response to the protests, the city leaders chose a more peaceful approach. Instead of killing pigs they built fences and made feeding them illegal. Time will tell if this plan works. It may be a losing battle because milder winters now allow more pigs than in the past.",
+      "timestamp": "2025-09-01 17:34:17.300298",
+      "metadata": {
+        "text_id": "ea671784-79f5-42f7-bce5-ebe08f5bf54e",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-09-01 17:34:46.814789",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3f5fabc3-566c-4f29-99f2-7d7235f1fdbd",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "This is an excellent simplification that passes all priority checks. Factual Integrity: The output is factually correct and accurately reflects the original text. Meaning and Fidelity: The high MeaningBERT (0.86) and BERTScore (0.95) confirm that the core message and key details have been successfully preserved. CEFR Compliance: The text correctly achieves the target B1 level. The simplification strategies are very effective, particularly the decision to split the final complex sentence into two simpler ones. Vocabulary choices like replacing 'city council' with 'city leaders' and 'strategy' with 'plan' are ideal for the B1 level. This is a strong example of successful text simplification.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.955,
+          "meaningbert": 0.8633
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,598 @@
+{
+  "session_id": "ba28d51e-5e14-4077-bde2-1e0b56eadbbf",
+  "created_at": "2025-08-31 21:14:00.585761",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:14:00.613649",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "20-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is an important researcher. She studies robots and smart computers. She wrote more than 50 papers. She wrote them alone or with other people.\n\nShe often speaks at big meetings in different countries. In 2012, she won a very important prize.\n\nJulie lives with her family. They live in a smart home. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 21:14:00.613819",
+      "metadata": {
+        "text_id": "1de3ce84-5a03-49df-a008-a91e9cbcd2f2",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 21:14:01.824341",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e1f2d614-4e4e-49a7-aa6f-bf355192563b",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6203 is significantly below the required 0.75 threshold. The text also fails the fidelity check, with a BERTScore of 0.8987, which is below the required 0.90.\n\n- The primary failure is a loss of the original text's core message about the subject's high status and prestige.\n- The phrase 'leading researcher' was simplified to 'important researcher', which loses the meaning of being at the forefront of a field.\n- The original text specifies that her papers were in 'highly regarded, peer-reviewed journals'. Your version, 'She wrote more than 50 papers', completely removes the critical concept of quality and academic prestige. This is a major contributor to the low MeaningBERT score.\n- The 'prestigious Royal Academy Simone Fielding fellowship' was reduced to 'a very important prize'. This simplification loses too much specific information and contributes to the low BERTScore.\n\nSuggestion: The simplification process must preserve the core concepts of the original. Rephrase to restore the lost meaning. For the papers, a phrase like 'Her papers are in very good science books' would better capture the idea of quality. For her status, use 'She is one of the best researchers'. The text must convey not just what she did, but the high level at which she did it.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8987,
+          "meaningbert": 0.6203
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:14:26.587999",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is one of the best researchers. She studies robots and smart computers. She wrote more than 50 papers. Her papers are in very good science journals. She wrote them alone or with other people.\n\nShe often speaks at big meetings in different countries. In 2012, she won the Royal Academy Simone Fielding prize. It is a very important award.\n\nJulie lives with her family. They live in a smart home. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 21:14:26.588294",
+      "metadata": {
+        "text_id": "82fafe96-e6c5-4c35-98b6-7ded5e86b6c6",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-08-31 21:14:57.238905",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "25e1318e-3f2d-4030-995d-7f6a03dc1bdc",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Compliance Failure. The text fails because it includes words that are above the A2 level without simplification or explanation.\n\nViolation: The word 'academy' is a C1 level word. The word 'royal' is a B1 level word.\nEvidence: These words are used in the sentence 'In 2012, she won the Royal Academy Simone Fielding prize.'\nAnalysis: A strict A2 text cannot contain B1 or C1 vocabulary, even within a proper name. The purpose of the text is readability for an A2 learner, who would not know these words. You made no attempt to simplify this concept.\nSuggestion: Rephrase to remove or explain the difficult words. For example: 'In 2012, she won an important prize from a group called the Royal Academy.' This removes the C1 word. A better option would be: 'In 2012, she won a prize from the Royal Academy. The academy is a special group for important scientists.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9082,
+          "meaningbert": 0.7617
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:15:24.703604",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is one of the best researchers. She studies robots and smart computers. She wrote more than 50 papers. Her papers are in very good science journals. She wrote them alone or with other people.\n\nShe often speaks at big meetings in different countries. In 2012, she won a very important prize. It was a special award for scientists.\n\nJulie lives with her family. They live in a smart home. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 21:15:24.704752",
+      "metadata": {
+        "text_id": "e8cc0172-7ef7-47c4-bea6-1d86ed853061",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 21:15:53.670691",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a94852ad-f4a1-4621-b055-8f7cec12eac9",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.704 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text.\n\n- Fidelity Failure: The BERTScore of 0.8946 is below the 0.90 minimum. This is caused by the removal of key factual words from the original source.\n\n- Lexical Error: The original text identifies a specific, named award: 'the prestigious Royal Academy Simone Fielding fellowship'. Your output removes this fact entirely, replacing it with a generic 'very important prize'. This is an unacceptable loss of information and the primary reason for the low metric scores.\n\n- Meaning Dilution: The term 'leading researcher' was weakened to 'one of the best researchers'. This dilutes the original meaning.\n\n- Suggestion: Restore the specific name of the award. A key fact cannot be deleted for the sake of simplicity. If the name is too complex, it must be handled as a keyword, not erased.\n\n- Suggestion: Rephrase to better capture the meaning of 'leading researcher'. The current version is too generic and contributes to the meaning loss.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8946,
+          "meaningbert": 0.704
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:16:06.931987",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a top researcher. She studies robots and smart computers. She wrote more than 50 papers. Her papers are in very good science journals. She wrote them alone or with other people. She often speaks at big meetings in different countries. In 2012, she won a special award. It was the Royal Academy Simone Fielding fellowship. Julie lives with her family. They live in a smart home. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 21:16:06.933793",
+      "metadata": {
+        "text_id": "a95ab244-71fd-4e77-965e-585c9e872bb6",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:16:35.389311",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a48923d1-b48f-4d4c-b4bf-1fb2321069ae",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text is an exemplary model of A2 simplification. All metrics are well within the required range. MeaningBERT at 0.8193 and BERTScore at 0.918 confirm high fidelity to the original text. The A2 classification is accurate and reflects the text's linguistic profile. Vocabulary is strictly controlled. Complex concepts like 'leading researcher' and 'highly regarded, peer-reviewed journals' are expertly simplified to 'top researcher' and 'very good science journals' using A2-level language. Sentence structure is flawless for A2. The consistent use of short, simple sentences ensures maximum readability. The handling of the proper noun 'Royal Academy Simone Fielding fellowship' is a textbook example of A2 simplification; it is correctly introduced as 'a special award' before being named, which avoids overwhelming the reader.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.918,
+          "meaningbert": 0.8193
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:16:44.858697",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a top researcher. She studies robots and smart computers. She wrote more than 50 papers. Her papers are in very good science journals. She wrote them alone or with other people. She often speaks at big meetings in different countries. In 2012, she won a special award. It was the Royal Academy Simone Fielding fellowship. Julie lives with her family. They live in a smart home. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 21:16:44.859053",
+      "metadata": {
+        "text_id": "b1ee0b49-c615-448b-b5a1-f0e85a03ba29",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:17:13.133015",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "06e445e4-4aa9-439b-a43b-ac1051fc68d0",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text is an exemplary model of A2 simplification. All metrics are well within the required range. MeaningBERT at 0.8193 and BERTScore at 0.918 confirm high fidelity to the original text. The A2 classification is accurate and reflects the text's linguistic profile. Vocabulary is strictly controlled. Complex concepts like 'leading researcher' and 'highly regarded, peer-reviewed journals' are expertly simplified to 'top researcher' and 'very good science journals' using A2-level language. Sentence structure is flawless for A2. The consistent use of short, simple sentences ensures maximum readability. The handling of the proper noun 'Royal Academy Simone Fielding fellowship' is a textbook example of A2 simplification; it is correctly introduced as 'a special award' before being named, which avoids overwhelming the reader.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.918,
+          "meaningbert": 0.8193
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:17:21.803273",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a top researcher. She studies robots and smart computers. She wrote more than 50 papers. Her papers are in very good science journals. She wrote them alone or with other people. She often speaks at big meetings in different countries. In 2012, she won a special award. It was the Royal Academy Simone Fielding fellowship. Julie lives with her family. They live in a smart home. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 21:17:21.805266",
+      "metadata": {
+        "text_id": "36178b2e-ad47-4c22-a0da-3f19fe70c54e",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-08-31 21:17:51.469974",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a3e7f3ca-78d8-416d-806a-29be64e31e76",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text meets the required standards. It passed all primary checks for factual integrity, meaning preservation, and CEFR classification. The sentence structure is a model of A2 simplicity. A minor deviation in vocabulary was noted but deemed necessary.\n\n- Vocabulary Audit: The text includes the B1 word 'royal' and the C1 word 'academy'.\n- Justification: These words are part of a proper noun ('Royal Academy Simone Fielding fellowship'). Replacing them would have introduced a factual inaccuracy, which is a primary failure condition. The decision to retain the proper noun was correct as it prioritized factual integrity over absolute vocabulary purity.\n- Structural Analysis: The consistent use of short, simple sentences is exemplary for the A2 level. The complex ideas from the original text were correctly broken down into individual, digestible statements.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.918,
+          "meaningbert": 0.8193
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:18:05.784410",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a top researcher. She studies robots and smart computers. She wrote more than 50 papers. Her papers are in very good science journals. She wrote them alone or with other people. She often speaks at big meetings in different countries. In 2012, she won a special award. It was the Royal Academy Simone Fielding fellowship. Julie lives with her family. They live in a smart home. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 21:18:05.788223",
+      "metadata": {
+        "text_id": "08ddc3a9-a8f6-4f11-864d-c86fbbe351c4",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 21:18:34.336832",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6d8510a4-33db-4ddd-906f-a57a4d76f59c",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text uses vocabulary above the A2 level, which is an immediate failure of the qualitative audit.\n\n- Vocabulary Violation: The word 'journals' is a B1-level noun. It is not on a standard A2 word list. This is a critical error.\n- Vocabulary Violation: The words 'royal' (B1) and 'academy' (C1) are present. While they are part of a proper noun, their inclusion introduces unnecessary complexity and cognitive load for an A2 reader.\n- Suggestion: Replace 'journals' with a simpler A2-compliant phrase. Use 'science magazines' or 'special reports'.\n- Suggestion: The proper noun 'Royal Academy Simone Fielding fellowship' should be simplified or contextualized. Rephrase to: 'She won a special award from a group called the Royal Academy.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.918,
+          "meaningbert": 0.8193
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:18:44.565803",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a top researcher. She studies robots and smart computers. She wrote more than 50 papers. Her papers are in very good science magazines. She wrote them alone or with other people. She often speaks at big meetings in different countries. In 2012, she won a special award. It was from a group called the Royal Academy. Julie lives with her family. They live in a smart home. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 21:18:44.568443",
+      "metadata": {
+        "text_id": "d47bf7d1-b260-4ae2-89e5-b1d66bef83ed",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 21:19:16.756195",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "08215450-7bcb-4acb-8cbb-98ffbd13a63d",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6907 is below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text. The original text emphasizes the researcher's high prestige using words like 'leading', 'prestigious', and 'highly regarded'. Your version simplifies these concepts to 'top', 'special', and 'very good', which significantly dilutes the meaning of her professional status and accomplishments. While the facts are correct, the core message of her exceptional standing in her field is lost. The sentence structure is appropriate for A2, but the loss of meaning is a critical failure. Suggestion: Rephrase to better capture the original's emphasis on high status. Use simple A2 phrases that convey importance, such as 'one of the most important researchers' instead of 'a top researcher', and 'a very important award' instead of 'a special award'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9027,
+          "meaningbert": 0.6907
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:19:29.116086",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is one of the most important researchers. She studies robots and smart computers. She wrote more than 50 papers. Her papers are in very important science magazines. She wrote them alone or with other people. She often speaks at important meetings in different countries. In 2012, she won a very important award. It was from a group called the Royal Academy. Julie lives with her family. They live in a smart home. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 21:19:29.120481",
+      "metadata": {
+        "text_id": "2da412a3-e69d-4680-9777-454d456b6f8d",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 21:20:01.195349",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f78f3e75-f468-4bff-8897-3ea28572c67c",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6833 is significantly below the required 0.75 threshold. The core message of the original text, which emphasizes the high prestige and specific nature of the achievements, has been lost.\n\n- Meaning Dilution: The original text uses strong, specific terms like 'leading researcher' and 'prestigious... fellowship'. Your version weakens this to 'one of the most important researchers' and 'a very important award', which does not convey the same level of status.\n- Factual Omission: You omitted the specific name of the award, the 'Simone Fielding fellowship'. This is a key detail that contributes to the loss of meaning.\n- Vocabulary Violation: The text uses the word 'academy', which is a C1-level word. This is a severe violation of the A2 standard. All vocabulary must be strictly A2 or below.\n\nSuggestion: Restore the lost meaning. You must find a simple A2 way to explain the importance of the award without just saying 'very important'. Remove the word 'academy' immediately. Replace 'a group called the Royal Academy' with a simple description, such as 'an important science group in Britain'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9014,
+          "meaningbert": 0.6833
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:20:15.274642",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a top researcher. She studies robots and smart computers. She wrote more than 50 papers. Her papers are in important science magazines. She wrote them alone or with other people. She often speaks at important meetings in different countries. In 2012, she won a special award. It was the Simone Fielding fellowship. It was from an important science group in Britain. Julie lives with her family. They live in a smart home. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 21:20:15.275471",
+      "metadata": {
+        "text_id": "acf3dda9-be21-47ac-a90a-4c0b73629955",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 21:20:43.592482",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "54c0025f-175b-4642-aeee-3b3806ae7621",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7198 is below the required 0.75 threshold. The text fails to preserve the original meaning of the subject's high professional status.\n\n- The phrase 'highly regarded, peer-reviewed journals' was simplified to 'important science magazines'. This loses the critical concepts of professional respect and scientific validation, which are central to the original text's meaning.\n- The phrase 'prestigious Royal Academy Simone Fielding fellowship' was simplified to 'a special award... from an important science group'. This simplification diminishes the significance of the award and removes the specific, verifiable name of the institution.\n- While the text is factually correct and uses A2 vocabulary and sentence structures, the oversimplification has resulted in a significant loss of the original message's core emphasis on excellence and prestige.\n\nSuggestion: The concepts of 'prestige' and 'peer-review' must be restored using A2 language. Rephrase 'important science magazines' to convey that other scientists check the work. Rephrase 'special award' to better reflect the high honor, for example, 'a very important prize'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9068,
+          "meaningbert": 0.7198
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:20:58.986685",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a top researcher. She studies robots and smart computers. She wrote more than 50 papers. She wrote them alone or with other people. Her papers are in top science magazines. Other scientists check her work first. She often speaks at important meetings in different countries. In 2012, she won a very important prize. It was the Simone Fielding fellowship from the Royal Academy. Julie lives with her family. They live in a smart home. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 21:20:58.988764",
+      "metadata": {
+        "text_id": "03e472bb-9c7b-4e59-bf10-017f45c81283",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 21:21:31.670135",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "549f6a93-ad6c-4f56-af55-6678eaf89517",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7113 is below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text. The simplification process has removed the emphasis on the subject's high status and the prestige of her work.\n\n*   Meaning Dilution: The original text uses strong, specific words like 'leading researcher' and 'prestigious...fellowship'. Your replacement with 'top researcher' and 'a very important prize' is factually correct but loses the essential meaning of high distinction and honor. The core message is not just what she did, but the high level at which she did it.\n\n*   Vocabulary Violation: The text includes the B1 word 'royal' and the C1 word 'academy'. These words are not on the A2 list. While part of a proper name, their inclusion without simplification or explanation is a compliance failure.\n\n*   Suggestion: Restore the lost meaning. Rephrase to better communicate the importance of her role and awards. Address the non-A2 vocabulary by providing a simple A2-level explanation for 'Royal Academy'. For example: 'In 2012, she won a prize from the Royal Academy. The Royal Academy is a very important group for scientists.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9102,
+          "meaningbert": 0.7113
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:21:45.883294",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 12,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a very important researcher. She studies robots and smart computers. She wrote more than 50 papers. She wrote them alone or with other people. Her papers are in the best science magazines. Other scientists check her work first. She often speaks at important meetings in different countries. In 2012, she won a special and very important prize. It was a prize for the best scientists. It was from the Royal Academy. The Royal Academy is a very important group for scientists. Julie lives with her family. They live in a smart home. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 21:21:45.885959",
+      "metadata": {
+        "text_id": "8b760c0f-82f9-4377-9d1f-5e2ae845b644",
+        "version": 12
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 21:22:18.804178",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a9fe82df-016a-40fe-a9f3-2a8be582e89d",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.689 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text. The BERTScore of 0.8915 is also below the 0.90 minimum, confirming a loss of key factual phrasing.\n\n- Meaning Loss: The simplification was excessive. 'Leading researcher' was reduced to 'very important researcher', losing the concept of being at the forefront. 'Prestigious... fellowship' was reduced to 'a special and very important prize', which loses the specific academic meaning of a fellowship.\n- Vocabulary Violation: The text uses the B1 word 'royal' and the C1 word 'academy'. These words are not on the A2 list and were not simplified. Using 'The Royal Academy' is unacceptable for this level.\n- Factual Omission: The specific name of the award, 'Simone Fielding fellowship', was completely removed. This is a loss of a key fact from the original text.\n- Suggestion: Rephrase the text to restore the lost concepts of 'leading' and 'fellowship' using A2 vocabulary. Replace the words 'royal' and 'academy' with a simple description, such as 'a top science group in Britain'. Retain specific names like the fellowship to maintain factual integrity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8915,
+          "meaningbert": 0.689
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:22:33.935889",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 13,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is one of the best researchers. She studies robots and smart computers. She wrote more than 50 papers. She wrote them alone or with other people. Her papers are in the best science magazines. Other scientists check her work first. She often speaks at important meetings in different countries. In 2012, she got the Simone Fielding fellowship. A fellowship is special money for research. It was from a top science group in Britain. Julie lives with her family. They live in a smart home. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 21:22:33.939826",
+      "metadata": {
+        "text_id": "127eb85e-8398-415b-b7fa-ec88243349aa",
+        "version": 13
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 21:23:05.828738",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d3c7e796-1093-449d-9603-678dfc93718b",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for failure is the MeaningBERT score of 0.6794, which is substantially below the required minimum of 0.75. This indicates a critical loss of the original text's core message.\n\n- MeaningBERT Failure: The original text emphasizes concepts of professional status and formal recognition through words like 'leading', 'highly regarded', and 'prestigious'. Your simplification to 'one of the best' and 'top' is too generic and loses this specific meaning of formal, academic achievement.\n\n- Fidelity Failure: The BERTScore of 0.8965 is below the 0.90 threshold. This is a direct result of replacing key factual terms. For example, 'prestigious Royal Academy' was replaced with 'a top science group in Britain', losing specific lexical information.\n\n- Structural Simplification: While the sentence structure is correctly simplified for A2, the simplification of the concepts was too aggressive, leading to the meaning and fidelity failures.\n\nSuggestion: Restore the core meaning. Do not replace proper nouns like 'Royal Academy' with generic descriptions. Re-introduce the concept of high status and formal recognition in simple A2 terms. The goal is simplification, not the complete removal of key concepts.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8965,
+          "meaningbert": 0.6794
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:23:22.610070",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 14,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a very important researcher. She studies robots and smart computers. She wrote more than 50 papers. She wrote them alone or with other people. Her papers are in very good science magazines. Other important scientists read and check her work. She often speaks at meetings in different countries. In 2012, she got a special award. It was the Simone Fielding fellowship. This award is very important. It came from the Royal Academy. Julie lives with her family. They live in a smart home. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 21:23:22.611106",
+      "metadata": {
+        "text_id": "4c980ffc-ef30-4538-8b1b-68f24cb50d23",
+        "version": 14
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 21:23:55.752016",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2a6dd95d-486b-4dfb-a49f-be33bb000486",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6562 is significantly below the required 0.75 threshold. This indicates a loss of the original text's core emphasis. The original highlights the prestige and high level of the researcher's work using words like 'leading', 'extensively', 'highly regarded', and 'prestigious'. Your version simplifies these to 'very important' and 'special', which loses the essential meaning of her high status in her field.\n\n- Vocabulary Violation: The text includes the B1 word 'Royal' and the C1 word 'Academy'. These words are not on the A2 list and were used without simplification. All vocabulary must strictly adhere to the A2 level.\n- Semantic Dilution: The phrase 'very good science magazines' is a poor substitute for 'highly regarded, peer-reviewed journals'. The concept of peer review, a critical detail, has been oversimplified to 'Other important scientists read and check her work', which does not carry the same weight.\n\nSuggestion: Rephrase to restore the meaning of high achievement. Instead of 'very important researcher', use 'one of the best researchers'. Instead of 'special award', use 'a very important prize for science'. Suggestion: Do not use words above the A2 level. The proper noun 'Royal Academy' must be explained in simple terms, for example, 'a famous group of scientists in Britain'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9021,
+          "meaningbert": 0.6562
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:24:13.465528",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 15,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is one of the best researchers. She studies robots and smart computers. She wrote more than 50 papers. She wrote them alone or with other people. Her papers are in the best science magazines. Other top scientists check them first. She often speaks at meetings in different countries. In 2012, she got a very important prize for science. It was the Simone Fielding fellowship. The prize came from the Royal Academy. This is a famous group of scientists in Britain. Julie lives with her family. They live in a smart home. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 21:24:13.468553",
+      "metadata": {
+        "text_id": "e409a7e5-e774-4090-91d4-1e1ea56239f6",
+        "version": 15
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 21:24:49.353038",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c84c8c0c-cbed-4fb7-b2ac-82e90258ed48",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for failure is the MeaningBERT score of 0.6296, which is significantly below the required minimum of 0.75. This indicates a critical loss of the original text's core message. The BERTScore of 0.8968 is also below the 0.90 threshold, confirming a loss of lexical fidelity.\n\n- Meaning Dilution: The original text emphasizes high status and prestige with terms like 'leading researcher', 'published extensively', 'highly regarded', and 'prestigious'. Your version simplifies these to 'one of the best', 'wrote more than 50', 'best science magazines', and 'very important'. This oversimplification has removed the essential meaning of professional excellence and recognition, causing the low MeaningBERT score.\n\n- Vocabulary Violation: The text uses the proper noun 'Royal Academy'. This includes the B1 word 'royal' and the C1 word 'academy'. For strict A2 compliance, even proper nouns containing higher-level vocabulary must be handled differently. The explanation provided ('a famous group of scientists in Britain') is good, but the direct use of the B1/C1 words is a violation.\n\n- Fidelity Loss: The replacement of specific terms like 'peer-reviewed journals' with the generic 'best science magazines' contributed to the BERTScore failure. While your explanation 'Other top scientists check them first' is a good attempt at A2 simplification, the combined effect of such changes across the text resulted in a score below the minimum threshold.\n\nSuggestion: The text must be rewritten to preserve the original's emphasis on high achievement using A2 vocabulary. Restore the concepts of 'leading', 'highly regarded', and 'prestigious' through simpler phrasing that still conveys a high level of importance. Rephrase the introduction of 'Royal Academy' to avoid using B1/C1 words directly in the sentence.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8968,
+          "meaningbert": 0.6296
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:26:40.304042",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 16,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a top researcher. She studies robots and smart computers. She wrote more than 50 papers. She wrote them alone or with other people. Her papers are in very important science magazines. Other top scientists check them first. She often speaks at meetings in different countries. In 2012, she got a very special prize for science. It was the Simone Fielding fellowship. A famous group of scientists in Britain gave her the prize. Julie lives with her family. They live in a smart home. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 21:26:40.306449",
+      "metadata": {
+        "text_id": "19d82211-8a5f-4f15-8915-2f08ea845da2",
+        "version": 16
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 21:27:14.180251",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "11c71868-08fc-4abe-b65a-69ada9a91532",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary failure is a critical loss of meaning and fidelity, confirmed by metrics. The MeaningBERT score of 0.6793 is significantly below the required 0.75 threshold. The BERTScore of 0.8984 is also below the 0.90 minimum.\n\n- MeaningBERT Failure: The original text emphasizes the high status and prestige of the subject's work ('leading researcher', 'highly regarded', 'prestigious'). Your version ('top researcher', 'very important') dilutes this core meaning of exceptional achievement, causing the low score.\n\n- BERTScore Failure: The score is low because key lexical items were oversimplified, losing factual precision. 'Robotics and AI' became 'robots and smart computers'. 'international conferences' became 'meetings in different countries'. 'Royal Academy' became 'A famous group of scientists'. This loss of specific terminology results in a fidelity failure.\n\n- Structural Compliance: While the sentence structure is appropriately simple for A2, this does not compensate for the failure to preserve the original text's core message.\n\nSuggestion: Re-evaluate the text. You must find A2-level words that better capture the original's emphasis on prestige and high achievement. Do not replace specific names like 'Royal Academy' with vague descriptions. Simplify the concept, not the proper noun.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8984,
+          "meaningbert": 0.6793
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "session_id": "c44131f0-c819-4d77-a63e-824573b6bc02",
+  "created_at": "2025-09-01 17:40:41.930555",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:40:41.940846",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "111-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Older scary movies often show main characters in desperate situations, and it was very hard for them to call for help or call the police. Today, cell phones make that scene feel less realistic, because the audience expects a phone to work. The way to keep the suspense is to remove the signal. In a scary film it is nearly sure that at a crucial moment, just when the main character really needs to call for help, there will be no signal at all, or the phone\u2019s power will run out while the call is being made, or both.",
+      "timestamp": "2025-09-01 17:40:41.941795",
+      "metadata": {
+        "text_id": "cd5f6697-c107-4110-b7e1-06cf52dc7fbd",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-09-01 17:40:41.950802",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8183a8c8-9d18-44f9-86e7-42d2da67a4bb",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text passed the Factual Integrity and Meaning Preservation checks, but it failed to meet the target CEFR level. The classifier rated the output as 'B2' instead of the required 'B1'. The primary reason for this is the final sentence: 'In a scary film it is nearly sure that at a crucial moment, just when the main character really needs to call for help, there will be no signal at all, or the phone\u2019s power will run out while the call is being made, or both.' This sentence is too long and structurally complex for a B1 level, containing multiple clauses and conditions. Additionally, the use of the B2 vocabulary word 'crucial' contributes to the higher classification. Suggestion: Break the final sentence into two or three shorter sentences to improve readability and compliance. For example: 'At a key moment, just when the main character needs help, there will be no signal. Or the phone's power will run out during the call.' Also, replace 'crucial' with a B1 alternative like 'key' or 'important'.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9283,
+          "meaningbert": 0.8614
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:40:52.515453",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: {\"id\":\"cd5f6697-c107-4110-b7e1-06cf52dc7fbd\",\"cefr_level\":\"B1\",\"text_id\":\"111-b1\",\"text_translated\":\"Older scary movies often show main characters in desperate situations, and it was very hard for them to call for help or call the police. Today, cell phones make that scene feel less realistic, because the audience expects a phone to work. The way to keep the suspense is to remove the signal. In a scary film it is almost certain that at a key moment, just when the main character really needs to call for help, there will be no signal at all. Or the phone\u2019s power will run out while the call is being made, or both.\",\"version\":1,\"created_at\":\"2025-09-01T17:40:41.938888\",\"updated_at\":\"2025-09-01T17:40:41.938914\",\"metrics_meaningbert\":null,\"metrics_cefr_compliance\":null}",
+      "timestamp": "2025-09-01 17:40:52.515668",
+      "metadata": {
+        "text_id": "b2e97499-3547-409d-905b-baee6704d327",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:41:19.533914",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "024f03f6-a3b5-4e41-a29f-144aab054f54",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The primary reason for failure is the BERTScore of 0.8541, which is below the required 0.90 threshold. This indicates a loss of key phrasing from the original text. The score was likely lowered by the cumulative effect of replacing several words, such as 'protagonists' with 'main characters', 'believable' with 'realistic', and 'coverage' with 'signal'. While these changes aid simplification, they moved the text too far from the original's wording.\n\nAdditionally, the text failed the CEFR compliance check. The output was classified as 'B2' instead of the target 'B1'. This is likely because of two factors: the use of the B2-level word 'desperate' and the complex passive voice structure in the phrase 'while the call is being made'.\n\nTo improve, please revise the text to meet the B1 level. Suggestion: Replace 'desperate situations' with 'very difficult situations'. Rephrase the final sentence to use an active voice, for example: 'Or the phone\u2019s power will run out while the character is making the call'.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.8541,
+          "meaningbert": 0.8067
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:41:22.843266",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Older horror films often show protagonists in very difficult situations, and it is hard or impossible for them to call for help or call the police. Mobile phones have made that situation a little less believable now. What is the solution to keep the suspense? No phone coverage! If you are a hero in a horror film, it is almost certain that at a key moment, just when you really need to call for help, you will have no coverage at all. Or the phone\u2019s battery will die while the character is making the call, or both.",
+      "timestamp": "2025-09-01 17:41:22.843514",
+      "metadata": {
+        "text_id": "ab645290-7e65-489c-a80f-698f98ac21fd",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 17:41:45.345907",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "77f43799-3126-4c3b-9c38-5bfe8525a1a2",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2', which is above the required 'B1' target level. The output is factually correct and preserves the original meaning well, but it is too linguistically complex for the target audience. The B2 classification is likely caused by two main factors. First, the B2-level vocabulary word 'coverage' was retained. A simpler alternative like 'signal' or 'reception' would be more appropriate for B1. Second, the sentence 'If you are a hero in a horror film, it is almost certain that at a key moment, just when you really need to call for help, you will have no coverage at all' is too long and structurally complex. To meet the B1 requirement, this sentence should be broken into two or more shorter sentences, for example: 'If you are a hero in a horror film, something will probably go wrong. At a key moment, when you need to call for help, you will have no signal at all.'",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9698,
+          "meaningbert": 0.9452
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:41:50.948656",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Older horror films often show protagonists in very difficult situations, and it is hard or impossible for them to call for help or call the police. Mobile phones have made that situation a little less believable now. What is the solution to keep the suspense? No phone signal! If you are a hero in a horror film, something will probably go wrong. At a key moment, when you need to call for help, you will have no signal at all. Or the phone\u2019s battery will die while the character is making the call, or both.",
+      "timestamp": "2025-09-01 17:41:50.949810",
+      "metadata": {
+        "text_id": "11bd6965-6677-407d-a4f6-f716901671a3",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-09-01 17:42:13.816240",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e43eff8a-896a-4b4c-8549-e5eddafb0a73",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "PASS: The submission successfully passes all priority checks. Factual Integrity: The output is factually consistent with the original text. Meaning and Fidelity: The MeaningBERT score of 0.9362 and BERTScore of 0.9574 are excellent, indicating that the core message and key details have been preserved with high fidelity. CEFR Compliance: The text correctly achieves the target B1 level. Qualitative Analysis: The simplification is very effective. The writer made excellent vocabulary choices, such as changing 'maintain' to 'keep' and 'coverage' to 'signal'. The structure is clear and easy to follow. For future improvement, consider simplifying 'protagonists' to 'main characters' to further align with B1 vocabulary, although its use here is acceptable.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9574,
+          "meaningbert": 0.9362
+        }
+      }
+    }
+  ]
+}

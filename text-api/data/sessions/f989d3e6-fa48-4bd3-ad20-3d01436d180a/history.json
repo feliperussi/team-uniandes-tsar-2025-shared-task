@@ -1,0 +1,80 @@
+{
+  "session_id": "f989d3e6-fa48-4bd3-ad20-3d01436d180a",
+  "created_at": "2025-09-01 17:11:49.146227",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:11:50.174920",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "109-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Terrie Sharp is a writer. Her books are very popular. She tells good stories. She won a prize two times. It was the Olive Crime Writer Award.\n\nShe was born in Glasgow. She lived in an area of houses. Many bad things happened there. She learned to be quiet. She learned to stay out of problems. She learned to open car doors with a sharp tool.\n\nBut she only used this for her books. Now she is not quiet. She is on TV shows like Police Today. She goes to writer meetings. She goes to meetings in all parts of the UK.",
+      "timestamp": "2025-09-01 17:11:50.175074",
+      "metadata": {
+        "text_id": "5c95eef4-caa4-40eb-a86c-63dd81eb0058",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:11:50.218936",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "fb5e42a9-d9a9-43cc-aed5-09236e8b5880",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR A2 Vocabulary Deviation. The text introduces B1-level vocabulary where A2 or simpler alternatives exist, or where the original word was already A2. This violates the strict A2 standard. The MeaningBERT score of 0.7748 and BERTScore of 0.9067 indicate good meaning preservation and fidelity, and the CEFR classifier correctly identified the text as A2, but the qualitative audit reveals critical vocabulary errors. Deviations detected: - Vocabulary: The word 'sharp' is classified as B1 in the provided list. It is used in the phrase 'sharp tool'. The original text used the A2 word 'knife', which should not have been replaced by a phrase containing a B1 word. - Vocabulary: The word 'used' is classified as B1 in the provided list. It is used in the sentence 'But she only used this for her books.' For strict A2 compliance, this word should be avoided or rephrased if the provided classification is accurate. Suggestion: Rephrase 'sharp tool' to 'knife' or 'a tool for cutting'. Suggestion: Rephrase sentences containing 'used' to simpler A2 constructions, for example, 'But she did this only for her books.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9067,
+          "meaningbert": 0.7748
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:12:00.642498",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Terrie Sharp is a writer. Her books are very popular. She tells good stories. She won a prize two times. It was the Olive Crime Writer Award.\n\nShe was born in Glasgow. She lived in an area of houses. Many bad things happened there. She learned to be quiet. She learned to stay out of problems. She learned to open car doors with a knife.\n\nBut she did this only for her books. Now she is not quiet. She is on TV shows like Police Today. She goes to writer meetings. She goes to meetings in all parts of the UK.",
+      "timestamp": "2025-09-01 17:12:00.642770",
+      "metadata": {
+        "text_id": "c4a648f5-378f-4549-b0aa-aa0c3a1ec68e",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 17:12:17.575808",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6409212e-635a-4d84-b9b3-d518ae912612",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: All diagnostic checks passed. The text accurately reflects the original content without factual errors. MeaningBERT score of 0.7827 and BERTScore of 0.906 both meet the required thresholds, indicating excellent preservation of meaning and lexical fidelity. The CEFR classifier correctly identified the text as A2. The vocabulary is appropriate for A2, with B1 words 'sharp' and 'olive' correctly used as proper nouns. Sentence structures are consistently short and simple, using only basic connectors like 'but', which is ideal for the A2 level.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.906,
+          "meaningbert": 0.7827
+        }
+      }
+    }
+  ]
+}

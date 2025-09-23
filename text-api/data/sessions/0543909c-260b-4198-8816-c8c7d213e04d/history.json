@@ -1,0 +1,413 @@
+{
+  "session_id": "0543909c-260b-4198-8816-c8c7d213e04d",
+  "created_at": "2025-09-01 17:53:34.950389",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:53:35.002453",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "09-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some bridges fall down. We do not know why. Engineers look at them. They do a full study. Then they understand the reason.\n\nSometimes, people use bad material when they build the bridge. This can make the bridge fall. Or an important part of the bridge has a problem.\n\nOther times, the bridge can hold only some weight. It cannot hold more.",
+      "timestamp": "2025-09-01 17:53:35.002582",
+      "metadata": {
+        "text_id": "586c7abc-07bc-41ce-bf3f-c60f31396548",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:53:35.013101",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "06f907d3-8baa-479d-a692-30f7864bd9c1",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5296 is significantly below the required 0.75. While the individual facts are present, the extreme simplification has stripped away the semantic depth and nuance of the original text, leading to a loss of the core message's intended meaning. The original text conveys a sense of 'mystery' and a complex 'realization' process by engineers, along with precise causal links. The simplified version, by breaking down sentences and using very basic phrasing, loses this underlying semantic richness. For example, 'engineers only realise why after they conduct a complete investigation' is reduced to 'Engineers look at them. They do a full study. Then they understand the reason.' This fragmentation, while simple, dilutes the concept of a challenging discovery process. Similarly, the direct causal phrasing 'this could happen because inferior-quality material was used' is replaced with 'This can make the bridge fall', which is less explicit in its causal connection.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9089,
+          "meaningbert": 0.5296
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:53:53.326739",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some bridges fall down. We do not know why at first. Engineers must study them. They do a full check. Then they find the reason.\nSometimes, bridges fall because people use bad material. Or a main part of the bridge has a problem.\nOther times, people build the bridge for only some weight. It cannot hold more.",
+      "timestamp": "2025-09-01 17:53:53.327071",
+      "metadata": {
+        "text_id": "c03b0f43-fa82-448f-832a-f0d898a434c6",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:54:12.616031",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "48876411-338a-4bd9-901e-544f3953af10",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5757 is significantly below the required 0.75. The core message regarding the 'mysteries' of bridge collapses and the specific timing of engineers 'only realising why after they conduct a complete investigation' has been diluted. The original text conveys a sense of complex problem-solving and discovery, which is not fully captured by the simplified phrasing 'We do not know why at first. Engineers must study them. They do a full check. Then they find the reason.' This simplification removes the nuance of 'mystery' and the specific condition of 'only realise why after' investigation. Suggestion: Rephrase the opening to more accurately reflect the 'mystery' aspect and the specific condition under which engineers discover the reasons for collapse, ensuring the core meaning is fully preserved.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9104,
+          "meaningbert": 0.5757
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:54:30.216955",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some bridges fall down. We do not know why. It is a mystery. Engineers must do a full check. They find the reason only after this check.\nSometimes, bridges fall because people use bad material. Or a main part of the bridge has a problem.\nOther times, people build the bridge for only some weight. It cannot hold more.",
+      "timestamp": "2025-09-01 17:54:30.217225",
+      "metadata": {
+        "text_id": "c60afa5c-c908-4838-bc10-52dd85386729",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:54:53.297603",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f4eac187-2e0a-4880-a9d4-02d4342d0ba4",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6601 is below the required 0.75. The core message regarding the interconnectedness of bridge collapses as mysteries and the engineers' role in realising the cause through investigation has been significantly diluted. The original text states 'Some bridge collapses are mysteries, and engineers only realise why after they conduct a complete investigation.' Your version separates these ideas into distinct, less connected sentences: 'Some bridges fall down. We do not know why. It is a mystery. Engineers must do a full check. They find the reason only after this check.' This fragmentation weakens the causal and temporal link between the mystery and its resolution by engineers. Additionally, the nuance of 'realise why' (to understand) is lost by the simpler 'find the reason' (to discover). The original's focus on 'inferior-quality material was used' is also shifted by your active voice 'people use bad material', altering the emphasis from the material's quality to the people's action. Suggestion: Rephrase the opening to clearly link the mystery of collapses with the engineers' investigation as the solution. Ensure the connection between the cause and the investigation is explicit. Use more precise language to convey 'realise why' and the passive voice where appropriate to maintain focus on the material's quality.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9127,
+          "meaningbert": 0.6601
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:55:10.363711",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some bridges fall down. It is a mystery why. Engineers check them. They understand the reason only after this check.\nSometimes, the material for the bridge is bad. Or a main part of the bridge has a problem.\nOther times, people build the bridge for only some weight. It cannot hold more.",
+      "timestamp": "2025-09-01 17:55:10.364105",
+      "metadata": {
+        "text_id": "401cf3e1-b3dd-49f8-a189-9e2f4290016e",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:55:24.931818",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e72c37ca-483c-43da-8c6b-d29531ee0d0a",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6165 is significantly below the required 0.75. While the individual facts are present, the overall meaning and nuance of the original text have been lost due to oversimplification. The original text implies a more complex problem-solving scenario where 'bridge collapses are mysteries' and 'engineers only realise why after they conduct a complete investigation'. Your version, 'Some bridges fall down. It is a mystery why. Engineers check them. They understand the reason only after this check.', breaks this into disconnected simple statements, losing the cohesive meaning and the emphasis on the investigative process. The term 'collapses' implies a more severe event than 'fall down', and 'complete investigation' is more thorough than a simple 'check'. This reduction in semantic density has diluted the core message. Suggestion: Rephrase to maintain the connection between the mystery of collapses and the thorough investigation required to understand them, using A2 vocabulary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9129,
+          "meaningbert": 0.6165
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:55:49.954044",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some bridges break and fall down, and we do not know why. This is a mystery. Engineers look at them carefully. They understand the reason only after this.\nSometimes, the material for the bridge is bad. Or a main part of the bridge has a problem.\nOther times, people build the bridge for only some weight. It cannot hold more.",
+      "timestamp": "2025-09-01 17:55:49.954362",
+      "metadata": {
+        "text_id": "e63218af-5763-401c-985d-cbf5be4e5c18",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:56:06.987599",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "68b08539-716d-4895-a2b2-58b02f5053a2",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6161 is significantly below the required 0.75. The simplified text loses the nuanced meaning and formal tone of the original. For example, 'engineers look at them carefully' is a less precise and less formal description than 'conduct a complete investigation', which diminishes the original intent and context of the engineering process. The original text's emphasis on 'collapses' as a specific event and 'complete investigation' as a thorough process is not fully captured by the more general phrasing in the output.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9095,
+          "meaningbert": 0.6161
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:56:29.204976",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some bridges fall down. We do not know why. This is a mystery. Engineers must study the bridge completely. After this, they find the reason.\nSometimes, the material for the bridge is bad. Or a main part of the bridge has a problem.\nOther times, people build the bridge for only some weight. It cannot hold more.",
+      "timestamp": "2025-09-01 17:56:29.205385",
+      "metadata": {
+        "text_id": "20207502-dfba-42a9-a0dd-f7e5fa2266d7",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-09-01 17:56:48.613664",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "560f66a5-2dc3-4f41-b115-59cd96c100af",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Audit. The text uses a B1-level word, 'mystery', which is not appropriate for an A2 text. The CEFR_Classifier_Result indicated A2, but the qualitative audit identified a specific vocabulary deviation. The word 'mystery' is explicitly listed as B1 in the provided vocabulary candidates. This is a direct violation of the A2 vocabulary standard. Suggestion: Replace 'mystery' with a simpler A2 phrase such as 'we do not know the reason' or 'it is not clear why'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9112,
+          "meaningbert": 0.8019
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:56:57.201810",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some bridges fall down. We do not know why. Engineers must study the bridge completely. After this, they find the reason.\nSometimes, the material for the bridge is bad. Or a main part of the bridge has a problem.\nOther times, people build the bridge for only some weight. It cannot hold more.",
+      "timestamp": "2025-09-01 17:56:57.202225",
+      "metadata": {
+        "text_id": "b9615c76-f6df-4d52-ad07-b28fc541c53b",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:57:15.303410",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "99addc3a-f04f-4638-99fe-cf240b79c5b9",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5973 is significantly below the required 0.75. The core message and nuance of the original text have been lost through oversimplification. The original text emphasizes that bridge collapses are 'mysteries' and engineers 'only realise why after' a complete investigation, implying a complex discovery process. Your version states 'We do not know why' and 'they find the reason,' which is a direct statement of fact rather than conveying the sense of a complex mystery being unraveled. This simplification diminishes the original meaning. Suggestion: Rephrase the opening to better convey the concept of a 'mystery' and the process of 'realizing' the cause after investigation, rather than simply stating a lack of knowledge and subsequent discovery.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9107,
+          "meaningbert": 0.5973
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:57:29.130662",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some bridges fall down. Why? This is often a mystery. Engineers must study the bridge completely. Then they learn the reason.\nSometimes, the material for the bridge is bad. Or a main part of the bridge has a problem.\nOther times, people build the bridge for only some weight. It cannot hold more.",
+      "timestamp": "2025-09-01 17:57:29.131100",
+      "metadata": {
+        "text_id": "b4de6d0b-c16f-46e2-b83b-503b55b679ee",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:57:58.490115",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c067c86b-7d7a-4ee8-82b4-770b3aeaabb6",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7433 is below the required 0.75. This indicates a slight loss of the original's core message nuance. The instruction for MeaningBERT is 'approximately 0.75 or higher', and 0.7433 does not meet this strict threshold. Additionally, the text contains a vocabulary deviation. - The original text uses 'collapses' and 'inferior-quality material', which convey a more specific and severe meaning than 'fall down' and 'bad material'. This simplification, while aiming for A2, slightly reduces the semantic depth captured by the MeaningBERT metric. - The word 'mystery' is classified as B1 in the provided vocabulary list. The sentence 'This is often a mystery.' uses this B1-level word, which is not compliant with the A2 standard. Suggestion: Ensure all key concepts, even when simplified, retain maximum semantic similarity to the original to meet the MeaningBERT threshold. Replace 'mystery' with simpler A2 vocabulary, such as 'This is often hard to know why.' or 'It is often not clear why.', to maintain CEFR A2 compliance.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9144,
+          "meaningbert": 0.7433
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:58:11.858726",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some bridges break. It is often hard to know why. Engineers must study the bridge completely. Then they learn the reason.\nSometimes, the material for the bridge is weak. Or a main part of the bridge has a problem.\nOther times, people build the bridge for only some weight. It cannot hold more.",
+      "timestamp": "2025-09-01 17:58:11.859186",
+      "metadata": {
+        "text_id": "c2a9371c-2b56-45bb-89d6-8e2ac077e8c5",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:58:34.462667",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "982c0586-061e-447a-bed5-38fa527f114b",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5763 is significantly below the required 0.75. While the individual facts are present, the core meaning and nuance of the original text have been lost. The original emphasizes that bridge collapses are 'mysteries' and engineers 'realise why' after they conduct a complete investigation, implying a complex problem-solving process to uncover hidden truths. Your version simplifies this to 'Some bridges break. It is often hard to know why. Engineers must study the bridge completely. Then they learn the reason.' This simplification loses the sense of a profound unknown and the active discovery process inherent in 'mysteries' and 'realise why'. The original's 'collapses' is also a stronger, more specific term than 'break'. The overall tone of discovery and the depth of the unknown are not adequately preserved. Suggestion: Rephrase the opening to better convey the idea of an unknown or puzzle that needs to be solved. Use stronger verbs that imply discovery rather than just learning. Ensure the active process of 'finding out' or 'understanding' the cause is maintained, reflecting the original's 'realise why'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9131,
+          "meaningbert": 0.5763
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:58:49.134094",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes, bridges collapse. We do not know why. It is a mystery. Engineers must look at the bridge carefully. Then they find out the reason.\nSometimes, the material for the bridge is weak. Or a main part of the bridge has a problem.\nOther times, people build the bridge for only some weight. It cannot hold more.",
+      "timestamp": "2025-09-01 17:58:49.134612",
+      "metadata": {
+        "text_id": "38a37ffd-02d6-46a9-909e-178b832655f9",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:59:02.899364",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d717204f-e0c6-4a25-9ce0-92e3fe5b0c1a",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Audit. The text contains words that exceed the A2 CEFR level, making it unsuitable for an A2 audience. The CEFR Classifier result of A2 is misleading due to these specific lexical choices. You must adhere strictly to A2 vocabulary. Specific deviations are: The word 'collapse' is B2 level. It must be replaced with a simpler A2 equivalent like 'fall down'. The word 'mystery' is B1 level. It must be replaced with a simpler A2 equivalent like 'something we do not understand' or 'a secret'. The word 'engineers' is not an A2 word. It must be replaced with a simpler A2 equivalent like 'people who build bridges' or 'workers'. Suggestion: Review all vocabulary against a verified A2 word list. Replace any word above A2 with a simpler alternative.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.91,
+          "meaningbert": 0.7641
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:59:09.911571",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes, bridges fall down. We do not know why. It is something we do not understand. People who build bridges must look at the bridge carefully. Then they find out the reason.\nSometimes, the material for the bridge is weak. Or a main part of the bridge has a problem.\nOther times, people build the bridge for only some weight. It cannot hold more.",
+      "timestamp": "2025-09-01 17:59:09.912457",
+      "metadata": {
+        "text_id": "002b399e-f6e3-4cc1-aac1-6a8f1d5b62c8",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:59:36.251614",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "416bf219-4a64-49ec-9bec-7d9281fb7740",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The MeaningBERT score of 0.5664 is significantly below the required 0.75, indicating a failure to preserve the core message. The BERTScore of 0.8972 is also below the required 0.90, showing a significant loss of key words and factual phrasing from the original. Meaning and lexical fidelity are paramount for A2 comprehension.\n\n*   Meaning Preservation Failure: The original text clearly states that 'engineers only realise why after they conduct a complete investigation'. Your version, 'We do not know why. It is something we do not understand. People who build bridges must look at the bridge carefully. Then they find out the reason', significantly dilutes the specific role of engineers and the investigative process. The initial statement 'We do not know why. It is something we do not understand' implies a general, unresolved mystery, rather than a problem that is eventually solved by experts.\n*   Lexical Fidelity Failure: The text replaces several key terms with less precise or overly simplified alternatives, leading to a BERTScore below the required threshold. For instance, 'bridge collapses are mysteries' is rendered as 'bridges fall down. We do not know why. It is something we do not understand', losing the specific lexical items 'collapses' and 'mysteries'. 'Engineers' is replaced by 'People who build bridges'. 'Conduct a complete investigation' is simplified to 'look at the bridge carefully. Then they find out the reason'. 'Inferior-quality material' becomes 'material for the bridge is weak'. These substitutions reduce the lexical richness and precision of the A2 target.\n*   Suggestion: Rephrase to explicitly state that engineers investigate the reasons for bridge collapses. Use A2-appropriate vocabulary that maintains closer lexical fidelity to the original text's specific terms, such as 'collapse' or 'break' for 'fall down', and 'investigate' or 'study' for 'conduct a complete investigation', ensuring the core meaning of expert analysis is retained.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8972,
+          "meaningbert": 0.5664
+        }
+      }
+    }
+  ]
+}

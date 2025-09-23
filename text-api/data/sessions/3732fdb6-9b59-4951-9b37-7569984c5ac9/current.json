@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "e08464ca-84a7-46e4-a17a-51fdfc84cca0",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "In 2010 NASA had a team to protect the planet.  \nThe team found near\u2011Earth asteroids.  \nThe asteroids were about 1 km wide.  \nThe team made a list of 90\u202f% of them.  \nThe asteroids are inside 50 million km of Earth.  \nNASA knows about 887 asteroids.  \nAbout 50 more are not yet on the list.  \nThese asteroids are not a big danger to us.",
+    "version": 11,
+    "created_at": "2025-09-01 17:22:22.175019",
+    "updated_at": "2025-09-01 17:22:22.175020",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "04ca145a-5c93-4bd8-8ab6-1cf442a80526",
+    "approval": "FAIL",
+    "grade": 4,
+    "feedback": "FAIL: Fidelity Failure. The BERTScore of 0.8712 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\n- The simplification of key terms like 'planetary defence team' to 'a team to protect the planet' and 'identified and logged' to 'found' and 'made a list' has excessively reduced lexical overlap with the source.\n- The output is a series of short, disconnected sentences. This structure fails to capture the narrative flow of the original text, further contributing to the low fidelity score.\n- While the facts are preserved, the text reads like a simple list rather than a cohesive summary.\n\nSuggestion: Reintroduce more precise A2-level vocabulary to increase fidelity. Combine some of the short sentences to improve readability and flow. For example, use 'NASA's team for planetary defence' to retain the original concept. Combine the sentences about finding and listing the asteroids to create a more natural connection.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8712,
+      "meaningbert": 0.815
+    },
+    "created_at": "2025-09-01 17:22:49.030665"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "44c49e20-6efa-4744-9776-b37e41fe6c60",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "In 2010 NASA had a planetary defence team.  \nThe team identified near\u2011Earth asteroids.  \nThey were about 1 km wide.  \nThe team logged 90\u202f% of them.  \nThe asteroids are inside 50\u202fmillion km of Earth.  \nNASA knows about 887 asteroids.  \nAbout 50 more are not yet logged.  \nNone of them is a big danger.",
+    "version": 8,
+    "created_at": "2025-09-01 17:20:59.776765",
+    "updated_at": "2025-09-01 17:20:59.776766",
+    "metrics_meaningbert": 0.8757,
+    "metrics_cefr_compliance": "A2"
+  }
+}

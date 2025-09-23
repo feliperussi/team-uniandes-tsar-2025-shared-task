@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "3125f70c-ea54-4aa1-9cac-0c0ef0174603",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "\"Wonder\" is a novel by RJ Palacio. She is from New York. It is her first novel.\n\nOne day, she saw a girl on the street. The girl's face was not formed in the usual way. This gave her the idea for the novel.\n\nThe novel is a bestseller in the United States. A bestseller is a book that many people buy. It also won many awards.\n\nBullying is when someone is not nice to another person again and again. Many schools use the novel. They use it to talk about bullying. They also talk about friends and what happens when you are different.\n\nPeople are making a movie of the novel. RJ Palacio will write a new book. Many people are very excited and are waiting for it.",
+    "version": 6,
+    "created_at": "2025-09-01 10:33:41.905584",
+    "updated_at": "2025-09-01 10:33:41.905591",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "96b4dd83-0ffb-4d32-b112-78866a1db7d0",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation Failure. The primary reason for failure is the MeaningBERT score of 0.7098, which is below the required 0.75 threshold. This indicates a significant loss of the original text's core message and nuance. The text also fails the fidelity check, with a BERTScore of 0.8978 falling short of the 0.90 minimum.\n\n- Meaning Preservation Failure (MeaningBERT 0.7098): The simplification is too aggressive. The original concept of using the book as a 'starting point for discussions' is more nuanced than your version, 'use it to talk about'. This simplification loses the idea of initiating a conversation.\n\n- Fidelity Failure (BERTScore 0.8978): Key lexical items were replaced with phrases that are too distant from the original. Replacing 'waiting eagerly' with 'very excited and are waiting' contributes to this score reduction. The text is factually correct but lexically unfaithful.\n\n- Vocabulary Violation: The word 'making' is B2 level. Its use in 'People are making a movie' is a direct violation of the A2 standard. This word must be replaced.\n\n- Structural Fragmentation: The text is broken into excessively short, choppy sentences. This damages the natural flow and contributes to the loss of meaning. For example, 'She is from New York. It is her first novel.' is unnaturally fragmented.\n\nSuggestion: Rephrase to restore the original nuance without increasing complexity. Replace 'making' with an A2-compliant phrase like 'There will be a movie'. Combine some of the shortest sentences to improve readability, but only using A2 connectors like 'and'.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8978,
+      "meaningbert": 0.7098
+    },
+    "created_at": "2025-09-01 10:34:10.155639"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "3125f70c-ea54-4aa1-9cac-0c0ef0174603",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "\"Wonder\" is a novel by RJ Palacio. She is from New York. It is her first novel.\n\nOne day, she saw a girl on the street. The girl's face was not formed in the usual way. This gave her the idea for the novel.\n\nThe novel is a bestseller in the United States. A bestseller is a book that many people buy. It also won many awards.\n\nBullying is when someone is not nice to another person again and again. Many schools use the novel. They use it to talk about bullying. They also talk about friends and what happens when you are different.\n\nPeople are making a movie of the novel. RJ Palacio will write a new book. Many people are very excited and are waiting for it.",
+    "version": 6,
+    "created_at": "2025-09-01 10:33:41.905584",
+    "updated_at": "2025-09-01 10:33:41.905591",
+    "metrics_meaningbert": 0.7098,
+    "metrics_cefr_compliance": "A2"
+  }
+}

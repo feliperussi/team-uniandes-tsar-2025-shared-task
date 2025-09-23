@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "be0f61ae-1da3-4328-93b7-668d20e5105b",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "For some people, one big trip is not enough. They always look for a new, difficult thing to do. Meagan McGrath from Canada is one of these people.\n\nShe climbed the highest mountain on every continent. She rode a bike across Canada. She also ran a very long race in the Sahara Desert. The weather was very hot at 45\u00baC.\n\nBut her most amazing trip was to the South Pole (the most southern place in the world). She went there on skis. On the first day, she had a very big problem. She fell into a big river of ice. Someone had to save her.\n\nIt was a very dangerous problem. After a problem like that, many people stop. But Meagan did not stop. She decided to continue. She arrived at the South Pole forty days later. She pulled a sled with her tent and all her food. The weather was very cold with bad ice storms.",
+    "version": 6,
+    "created_at": "2025-09-01 10:36:18.990099",
+    "updated_at": "2025-09-01 10:36:18.990108",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "7ee6cd97-a81c-4f05-b678-40b6f19ece51",
+    "approval": "FAIL",
+    "grade": 4,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6119 is significantly below the required 0.75 threshold. The text fails to preserve the core message of the original.\n\n- Primary Meaning Deviation: The original text states, 'Many of us would have given up at that point,' which emphasizes Meagan's exceptional determination by contrasting it with a common hypothetical reaction. Your version, 'After a problem like that, many people stop,' changes this into a simple factual statement, losing the specific nuance of her extraordinary willpower. This is a critical failure in conveying the source's intended meaning.\n\n- Vocabulary Violation: The parenthetical explanation for 'South Pole' uses the B1-level word 'southern'. An A2 text must not use B1 vocabulary, even in a definition intended to simplify a concept. This demonstrates a failure to adhere to the target vocabulary level.\n\n- Lexical Simplification Error: While simplifying 'glacier' to 'big river of ice' is an acceptable A2 strategy, it does not compensate for the overall loss of meaning identified by the low MeaningBERT score.\n\nSuggestion: Restore the core meaning of exceptional determination. Rephrase the sentence to contrast her actions with what most people would do. Suggestion: Replace the definition of South Pole. Use A2 vocabulary only, for example: 'the place at the bottom of the world'.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.9139,
+      "meaningbert": 0.6119
+    },
+    "created_at": "2025-09-01 10:36:47.490609"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "0b8ea9a2-f8a9-4e82-b941-8e191f209e43",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Some people always want to do something new and difficult. One difficult trip is not enough for them. Meagan McGrath from Canada is one of these people.\n\nShe climbed the highest mountain on every continent. She rode a bike across Canada. She also ran a very long race in the Sahara Desert. The weather was very hot at 45\u00baC.\n\nBut her most amazing trip was to the South Pole. She went there on skis. On the first day, she had a big problem. She fell into a big river of ice. Someone had to save her.\n\nMany people would stop after that. But Meagan did not stop. She decided to continue. She arrived at the South Pole forty days later. She pulled a sled with her tent and all her food. The weather was very cold with bad ice storms.",
+    "version": 3,
+    "created_at": "2025-09-01 10:34:15.300657",
+    "updated_at": "2025-09-01 10:34:15.300662",
+    "metrics_meaningbert": 0.6635,
+    "metrics_cefr_compliance": "A2"
+  }
+}

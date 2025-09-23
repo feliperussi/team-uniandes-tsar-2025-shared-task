@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "d10cb4d5-0cc3-4c6b-8bdf-573adcba2c97",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Gary Collins is a policeman.  \nHe was off duty and watched the London riots on TV.  \nHe recognized several people on the screen.  \nHe stopped his holiday early to help with identification.  \nHe spent six months looking at CCTV video and he managed to identify 190 people.  \nHe identified many of them just by their eyes.  \nHis help was of decisive importance in the investigation.  \nThe police recorded about 200,000 hours of video.  \nFacial recognition software found only one person.",
+    "version": 11,
+    "created_at": "2025-09-01 17:28:33.538725",
+    "updated_at": "2025-09-01 17:28:33.538729",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "2786ab7d-cfac-4db3-a184-109430ce461e",
+    "approval": "FAIL",
+    "grade": 4,
+    "feedback": "FAIL: CEFR Compliance. The text was classified as B1, which is above the required A2 level. This is an instant failure.\n\n- Violation: The sentence 'His help was of decisive importance in the investigation' is copied directly from the original text. This phrase is too complex for A2. It contains the words 'decisive' (C1), 'importance' (B1), and 'investigation' (B2).\n- Violation: The phrase 'Facial recognition software' uses the B2 word 'recognition'.\n- Violation: The phrase 'off duty' uses the B1 word 'duty'.\n\nSuggestion: You must simplify all vocabulary to the A2 level. Rephrase 'His help was of decisive importance in the investigation' to 'His help was very important for the police'. Rephrase 'off duty' to 'he was not working'. Rephrase 'Facial recognition software' to 'The face software'.",
+    "metrics": {
+      "cefr_compliance": "B1",
+      "bertscore": 0.9225,
+      "meaningbert": 0.9452
+    },
+    "created_at": "2025-09-01 17:28:53.420359"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "74c39ff5-31d2-4f0c-a337-ef6a070af0a2",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Gary Collins is a policeman.  \nHe was not working.  \nHe watched the London riots on TV.  \nHe recognized several people on the screen.  \nHe stopped his holiday early to help with identification.  \nHe spent six months looking at CCTV video.  \nHe identified 190 people.  \nHe identified many of them just by their eyes.  \nHis help was very important.  \nIt helped the police work.  \nThere were about 200,000 hours of video.  \nThe software found only one person.",
+    "version": 10,
+    "created_at": "2025-09-01 17:28:09.348491",
+    "updated_at": "2025-09-01 17:28:09.348492",
+    "metrics_meaningbert": 0.9406,
+    "metrics_cefr_compliance": "A2"
+  }
+}

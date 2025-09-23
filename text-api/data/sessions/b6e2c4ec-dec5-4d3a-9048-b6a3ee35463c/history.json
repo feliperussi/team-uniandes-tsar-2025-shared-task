@@ -1,0 +1,413 @@
+{
+  "session_id": "b6e2c4ec-dec5-4d3a-9048-b6a3ee35463c",
+  "created_at": "2025-09-01 17:06:41.422607",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:06:41.427943",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "30-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many people in Berlin said killing pigs is cruel.  \nHunters and animal lovers argued about it.  \nAfter protests, city leaders chose a calmer action.  \nThey stopped killing the pigs.  \nThey built fences around the pigs.  \nThey made feeding the pigs not allowed.  \nWe will see if the plan works.  \nBut it might be a losing fight.  \nWarmer winters bring more pigs than before.",
+      "timestamp": "2025-09-01 17:06:41.428345",
+      "metadata": {
+        "text_id": "2681afb9-d57a-41e8-a811-7e0393b0a220",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:06:41.433606",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d967bb6a-9f3c-4b26-b1e3-b2d48786e5de",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8925 is below the required 0.90 threshold. This indicates a loss of important words and phrasing from the original text. The text also fails the CEFR compliance check, receiving a B1 classification. This is a direct result of using vocabulary that is too advanced for the A2 level.\n- The word 'cruel' is B1. Replace it with 'not kind' or 'very bad'.\n- The word 'killing' is B1. Rephrase using the A2 verb 'kill' in a simpler structure or use 'hurting'.\n- The word 'argued' is B1. Use 'had a strong disagreement' or 'talked in an angry way'.\n- The word 'protests' is B1. Describe it simply, for example 'people showed they were unhappy'.\n- The word 'leaders' is B1. Use 'the people in charge of the city'.\n- The word 'fences' is B1. Use 'walls'.\n- The phrase 'not allowed' uses the B1 word 'allowed'. Rephrase to 'made it against the rules'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8925,
+          "meaningbert": 0.8452
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:06:53.098996",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many people in Berlin said it is not kind to kill pigs.  \nHunters and animal lovers had a big disagreement.  \nPeople showed they were unhappy.  \nThe people in charge of the city chose a quiet action.  \nThey stopped hurting the pigs.  \nThey built walls around the pigs.  \nThey made feeding the pigs against the rules.  \nWe will see if the plan works.  \nBut it might be a lost fight.  \nHot winters bring more pigs than before.",
+      "timestamp": "2025-09-01 17:06:53.099844",
+      "metadata": {
+        "text_id": "455fbbb2-8673-4e2c-af47-fbbb4941e9f5",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:07:31.760452",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "41bb6a74-06b5-43fb-9e99-e810e8c7e2e6",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6428 is significantly below the required 0.75 threshold. The text also fails the fidelity check with a BERTScore of 0.8798, which is below the 0.90 minimum. The core message about a specific policy change was lost due to oversimplification.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is an automatic failure.\n- Lexical Deviation (B2): The word 'disagreement' is a B2-level word. It is too complex for an A2 audience.\n- Lexical Deviation (B1): The phrase 'in charge of' is a B1-level structure. It is too complex.\n- Fidelity Loss: Replacing 'illegal' with 'against the rules' and 'city council' with 'people in charge' loses important lexical detail, contributing to the low BERTScore.\n- Meaning Loss: The simplification of 'unnecessarily cruel' to 'not kind' and 'peaceful action' to 'quiet action' strips the text of its specific meaning, causing the low MeaningBERT score.\n\nSuggestion: Replace 'disagreement' with 'argument'. Replace 'people in charge' with 'city leaders'. Rephrase sentences to more closely capture the original concepts of 'protests' and a change from a violent to a non-violent strategy.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8798,
+          "meaningbert": 0.6428
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:07:46.397808",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many people in Berlin said shooting pigs is cruel.  \nHunters and animal lovers had an argument.  \nPeople protested.  \nThe city council decided a new plan.  \nThey stopped shooting the pigs.  \nThey built fences around the pigs.  \nThey made feeding the pigs illegal.  \nWe will see if the plan works.  \nIt may be a hard fight.  \nWarm winters bring more pigs than before.",
+      "timestamp": "2025-09-01 17:07:46.398177",
+      "metadata": {
+        "text_id": "1fdbd17b-f5b3-4dd5-95f1-f38daffb7ac8",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:08:13.799821",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6f961957-b8a1-4097-bd8c-4b9d80843e1c",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8869 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text, resulting in an oversimplification that damages lexical integrity.\n\n- Vocabulary Violation: The text uses multiple words above the A2 level. 'cruel' (B1), 'illegal' (B1), 'shooting' (B2), and 'council' (B2) are not compliant. These words must be replaced with A2-level descriptions.\n- Lexical Loss: The phrase 'heated arguments' was reduced to 'an argument', losing the intensity of the original meaning. 'Losing battle' was reduced to 'hard fight', which is a similar but less precise simplification.\n- Sentence Structure: The text is excessively fragmented. While short sentences are required for A2, this output reads like a list of disconnected facts rather than a coherent paragraph. The sentences must be linked with simple A2 connectors like 'and', 'but', or 'so' to create better flow.\n\nSuggestion: Rephrase to eliminate all B1/B2 vocabulary. Replace 'cruel' with 'very bad for the animals'. Replace 'illegal' with 'against the law'. Replace 'shooting the pigs' with 'using guns on the pigs'. Replace 'city council' with 'city leaders'. Combine some of the short sentences to improve readability, for example: 'People protested, so the city leaders decided a new plan.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8869,
+          "meaningbert": 0.7583
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:08:26.058898",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: People in Berlin said using guns on the pigs was very bad. It was very bad for the animals. The hunters and animal lovers had big arguments. People protested, so the city leaders made a new plan. They stopped using guns on the pigs and built fences around them. They also made feeding the pigs against the law. We will see if the plan works. It may be a hard fight. Warm winters bring more pigs than before.",
+      "timestamp": "2025-09-01 17:08:26.059255",
+      "metadata": {
+        "text_id": "634fe72d-97f3-40b5-9e3e-10ad36e7b941",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:08:53.671347",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a5800690-8ae8-4227-8af7-5bb846810fcd",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6474 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text.\n\n- The phrase 'unnecessarily cruel' from the original text contains a strong and specific meaning. Your replacement, 'very bad', is too simple and loses the central idea of cruelty. This is a major deviation.\n- The original's 'heated arguments' conveys anger and intensity. Your version, 'big arguments', is vague and fails to capture this essential meaning.\n- The original states it may be a 'losing battle', which implies the plan is likely to fail. Your phrase 'hard fight' only communicates difficulty, not the probable negative outcome. This alters the original message.\n\nSuggestion: You must rephrase to restore the original meaning while maintaining A2 simplicity. Replace 'very bad' with a phrase that communicates cruelty, such as 'not kind to the animals'. Replace 'big arguments' with 'angry arguments'. Revise 'It may be a hard fight' to 'This plan may not work' to restore the concept of probable failure.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9224,
+          "meaningbert": 0.6474
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:09:09.466646",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: People in Berlin said shooting the pigs was not kind.  \nIt was not kind to the animals.  \nThe hunters and animal lovers had angry arguments.  \nPeople protested, so the city leaders made a new plan.  \nThey stopped shooting the pigs and built fences around them.  \nThey also made feeding the pigs illegal.  \nWe will see if the plan works.  \nThis plan may not work.  \nWarm winters bring more pigs than before.",
+      "timestamp": "2025-09-01 17:09:09.466996",
+      "metadata": {
+        "text_id": "30c876eb-4ff8-486a-a4c2-570d2bd58340",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:09:40.403407",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7e598237-9bdd-43bc-a65d-69fcd05439fe",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for failure is the severe loss of meaning from the original text. The MeaningBERT score of 0.6095 is substantially below the required 0.75 threshold.\n\n- Meaning Loss: The original text's concept of a 'losing battle' due to warmer winters is completely lost. Your version, 'This plan may not work,' fails to convey the original's sense of ongoing struggle and likely failure. The phrase 'unnecessarily cruel' was reduced to 'not kind,' which does not carry the same weight or meaning.\n- Fidelity Failure: The BERTScore of 0.8904 is below the 0.90 minimum. This is a direct result of replacing specific, important phrases like 'city residents' and 'heated arguments' with overly simple terms like 'people' and 'angry arguments,' losing lexical fidelity.\n- Vocabulary Violation: You used words that are not on the A2 list. 'Shooting' is a B2-level word. 'Illegal' is a B1-level word. These must be simplified for an A2 audience.\n- Structural Degradation: The text is broken into excessively short, choppy sentences. This damages the logical flow and contributes to the loss of meaning. For example, 'This plan may not work. Warm winters bring more pigs than before' does not clearly connect the two ideas with cause and effect.\n\nSuggestion: Rephrase to restore the core concepts. Use 'against the law' instead of 'illegal'. Explain 'shooting' as 'using guns on the pigs'. Combine short sentences using A2 connectors like 'because' to show the relationship between ideas, for example: 'This plan may not work because warm winters mean there are more pigs than before.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8904,
+          "meaningbert": 0.6095
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:09:54.192417",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: People in Berlin said using guns on the pigs was not kind.  \nThey said it was not needed.  \nThe city residents and animal lovers had big arguments.  \nPeople protested, so the city leaders made a new plan.  \nThey stopped using guns on the pigs and built fences around them.  \nThey also made feeding the pigs against the law.  \nWe will see if the plan works.  \nThe plan may not work because warm winters bring more pigs.  \nThere are more pigs than before.",
+      "timestamp": "2025-09-01 17:09:54.192931",
+      "metadata": {
+        "text_id": "41a16c9e-3761-44f3-a671-fcb8d67744ff",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:10:21.721816",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5f037dd9-b089-473b-ad3d-418fee7fa33a",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6397 is catastrophically below the required 0.75 threshold. This indicates a severe deviation from the original text's core message. The simplification process has resulted in a loss of critical information.\n\n- Factual Inaccuracy: The original text specifies the conflict was between 'hunters and animal lovers'. Your text states 'The city residents and animal lovers had big arguments', which is a factual error. It changes the parties involved in the conflict.\n- Fidelity Failure: The BERTScore of 0.8893 is below the minimum requirement of 0.90. This confirms that too many key words and phrases from the original text were lost, damaging the factual integrity.\n- Suggestion: You must preserve the original facts without alteration. The conflict must be correctly identified as being between hunters and animal lovers. Re-write to maintain the core meaning while simplifying the language.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8893,
+          "meaningbert": 0.6397
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:10:29.655910",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Hunters and animal lovers argued about the pigs.  \nPeople in Berlin protested.  \nThe city council listened.  \nThey stopped shooting the pigs.  \nThey built fences around the pigs.  \nThey made feeding the pigs illegal.  \nWe will see if this works.  \nWarm winters bring more pigs.  \nThere are more pigs now than before.",
+      "timestamp": "2025-09-01 17:10:29.656273",
+      "metadata": {
+        "text_id": "1e801de8-48e1-4080-9674-ee08d9eb72c2",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:10:58.074373",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "60428566-60d8-4701-bb0b-922f6f7021a1",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on two critical metrics. The MeaningBERT score of 0.6323 is significantly below the required 0.75 threshold. The BERTScore of 0.8735 is also below the 0.90 minimum. This indicates a catastrophic loss of the original message and lexical detail due to oversimplification.\n\n- Meaning Loss: The original text explains that people protested because shooting pigs was 'unnecessarily cruel'. Your version, 'People in Berlin protested', removes this essential cause-and-effect relationship. The core reason for the conflict is lost.\n\n- Structural Failure: The output is a list of disconnected, choppy sentences. There are no connectors ('and', 'but', 'so', 'because') to link ideas. This fragmentation is the primary cause of the low MeaningBERT score. The relationship between the protest and the council's action is not explicitly stated.\n\n- Vocabulary Violation: The B1 word 'illegal' was used directly. An A2 text must simplify this concept. For example: 'made a rule that people cannot feed the pigs'. The B2 word 'shooting' was also retained.\n\n- Fidelity Loss: Key concepts like 'peaceful action' and 'heated arguments' were completely deleted, not simplified. This contributes to the low BERTScore.\n\nSuggestion: Re-write to connect the sentences. Use 'so' and 'because' to show relationships. Restore the reason for the protest. Replace the word 'illegal' with a simple A2 explanation.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8735,
+          "meaningbert": 0.6323
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:11:06.732968",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: People in Berlin said killing pigs was very cruel.  \nThey argued loudly with hunters.  \nBecause of the protests, city leaders listened.  \nThey chose a peaceful way.  \nSo they stopped killing the pigs.  \nThey built fences around the pigs.  \nThey made a rule that people cannot feed the pigs.  \nWe will see if this works.  \nWarm winters bring more pigs.  \nThere are more pigs now than before.",
+      "timestamp": "2025-09-01 17:11:06.733325",
+      "metadata": {
+        "text_id": "f96d6ad5-a637-4777-8ab8-a32f07892d2b",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:11:30.454767",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "98f28500-3942-4218-9561-7c82502b4253",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6026 is critically below the 0.75 threshold. This indicates a severe loss of the original text's core message. The BERTScore of 0.8774 also fails to meet the minimum 0.90 requirement, confirming a significant loss of key factual phrasing.\n\nDiagnostic Analysis:\n- Meaning Preservation Failure: The original text explains a complex situation involving a 'losing battle' due to 'warmer winters'. Your version, 'Warm winters bring more pigs', loses this critical concept of an ongoing, possibly failing, strategy.\n- Lexical Fidelity Failure: Key terms from the original text such as 'city council', 'illegal', and 'strategy' were removed. This oversimplification is the direct cause of the low BERTScore.\n- CEFR Vocabulary Violation: The text uses B1-level vocabulary ('killing', 'cruel', 'peaceful') without simplification. These words are not compliant with the A2 standard.\n- CEFR Structural Violation: The sentence 'They made a rule that people cannot feed the pigs' uses a 'that-clause'. This is a B1 grammatical structure and is too complex for A2.\n\nCorrective Actions:\n- Suggestion: Restore the meaning of the 'losing battle'. Example: 'But this may not work. Warm winters mean there are more pigs.'\n- Suggestion: Simplify the B1 vocabulary. Replace 'cruel' with 'not kind' or 'very bad'. Replace 'peaceful' with 'a way that does not hurt the pigs'.\n- Suggestion: Eliminate the B1 'that-clause'. Split the sentence. Example: 'They made a new rule. People cannot feed the pigs.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8774,
+          "meaningbert": 0.6026
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:11:44.143310",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: People in Berlin said shooting pigs was not kind.  \nThey argued loudly with hunters.  \nCity council heard the protests.  \nThey chose a way that does not hurt the pigs.  \nThey stopped shooting the pigs.  \nThey built fences around the pigs.  \nThey made a new rule.  \nPeople cannot feed the pigs.  \nTheir plan may not work.  \nWarm winters bring more pigs.  \nThere are more pigs now than before.",
+      "timestamp": "2025-09-01 17:11:44.143806",
+      "metadata": {
+        "text_id": "df2f6037-2d48-42ef-b6d0-ae4284c8f1e1",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:12:12.201285",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "50004114-b4f4-4252-8aaa-251d57362e51",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6518 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message. The text also fails the fidelity check, with a BERTScore of 0.8691, below the required 0.90.\n\n- Metric Failure (MeaningBERT): The score is low because your text breaks the original's logical flow into a simple list of facts. The original states the council acted 'In response to protests'. Your version, 'City council heard the protests. They chose a way...', disconnects the cause from the effect, weakening the meaning.\n\n- Metric Failure (BERTScore): The score is low due to excessive simplification of key vocabulary. 'Unnecessarily cruel' was reduced to 'not kind', and 'heated arguments' became 'argued loudly'. This loses important lexical detail and nuance from the source text.\n\n- Vocabulary Violation: The text uses B2-level words 'shooting' and 'council' without simplification. These words are not compliant with the A2 standard. An A2 text must not contain vocabulary from higher CEFR levels.\n\n- Structural Deficiency: The output is a series of disconnected, simple sentences. While A2 requires simple sentences, it also requires the use of basic connectors like 'so' and 'because' to link ideas. Your text lacks these, resulting in a choppy, A1-level structure that fails to convey the relationships between events.\n\n- Suggestion: Re-write the text to connect ideas using A2-level conjunctions. Replace B2 vocabulary with A2-compliant phrases. Restore the cause-and-effect relationships present in the original text. For example: 'People said shooting pigs was very bad, so they argued with hunters. Because of the protests, the city leaders decided to stop using guns.'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8691,
+          "meaningbert": 0.6518
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:12:21.882277",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: People in Berlin said using guns on pigs was very bad.  \nThey argued a lot with hunters.  \nBecause of the protests, city leaders decided to stop using guns.  \nThey stopped killing the pigs.  \nThey built fences around the pigs.  \nThey made a rule that people cannot feed the pigs.  \nTheir plan might not work.  \nWarm winters bring more pigs.  \nThere are more pigs now than before.",
+      "timestamp": "2025-09-01 17:12:21.882870",
+      "metadata": {
+        "text_id": "44769e7e-748d-4d08-8a3c-038c285c7c14",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:12:42.387735",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e4603159-52e0-4d97-8930-a194662fd171",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The output contains a factual error. The statement 'They built fences around the pigs' is incorrect. The original text implies fences were put up to keep pigs out of areas, not to enclose them.\n\nFAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6172 is catastrophically below the required 0.75 threshold. The core concept of 'unnecessarily cruel' was reduced to 'very bad', which is a significant loss of meaning. The idea of a 'losing battle' was completely omitted.\n\nFAIL: Fidelity Failure. The BERTScore of 0.8791 is below the required 0.90. This indicates a failure to retain key lexical items from the source text.\n\nFAIL: Vocabulary Compliance. The text uses the B1-level word 'killing'. This is an unacceptable deviation from the A2 standard.\n\nDiagnostic Summary:\n- Factual Error: The description of the fences is wrong.\n- Meaning Loss: The text oversimplifies concepts to the point of losing the original message. 'Unnecessarily cruel' is not the same as 'very bad'.\n- B1 Vocabulary: The word 'killing' is above the A2 level.\n- Structural Degradation: The text is a series of disconnected, choppy sentences that fail to convey the narrative flow of the original.\n\nCorrective Path:\n- Suggestion: Correct the factual error regarding the fences immediately. State that fences were built to keep pigs out.\n- Suggestion: Restore the core meaning. Rephrase to explain that people thought shooting pigs was cruel or not kind.\n- Suggestion: Remove the B1 word 'killing'. Replace it with an A2-compliant phrase like 'stopped shooting them'.\n- Suggestion: Combine some sentences to improve flow. For example, 'They built fences and made a rule that people cannot feed the pigs.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8791,
+          "meaningbert": 0.6172
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:12:56.235447",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: People in Berlin said shooting pigs was not kind.  \nThey talked a lot with hunters.  \nBecause of the protests, city leaders stopped shooting the pigs.  \nThey put up fences to keep pigs out.  \nThey made a rule that people cannot feed the pigs.  \nTheir plan may not work.  \nWarm winters bring more pigs.  \nThere are more pigs now than before.",
+      "timestamp": "2025-09-01 17:12:56.236061",
+      "metadata": {
+        "text_id": "54f4ed63-fa40-4975-8f3d-62a89fac529f",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:13:25.217599",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3828cdee-471e-46b9-b932-8c9818289561",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6296 is critically below the required 0.75 threshold. This is an instant failure. The BERTScore of 0.8833 is also below the 0.90 minimum.\n\n- Core Meaning Lost: The original text describes 'heated arguments'. Your version, 'They talked a lot with hunters', completely removes the essential meaning of conflict and disagreement. This is a severe factual distortion.\n- Fidelity Lost: Key concepts from the original were deleted, causing the low BERTScore. Words like 'cruel', 'illegal', and 'strategy' were lost, which oversimplified the text to the point of inaccuracy.\n- Vocabulary Violation: The word 'shooting' is B2 level. The word 'kind' is B1 level. These words are too advanced for an A2 text and are not permitted.\n- Suggestion: Restore the core meaning of conflict. Use A2 phrases like 'people were angry' or 'people did not agree'.\n- Suggestion: Replace non-A2 vocabulary. Use 'killing the pigs with guns' instead of 'shooting pigs'. Use 'bad' or 'wrong' instead of 'not kind'.\n- Suggestion: The text must accurately reflect the source material's key facts, including the emotional and confrontational elements.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8833,
+          "meaningbert": 0.6296
+        }
+      }
+    }
+  ]
+}

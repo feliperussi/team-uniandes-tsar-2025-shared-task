@@ -1,0 +1,228 @@
+{
+  "session_id": "e2752ecd-b130-45d0-8fe1-3f21b3df5439",
+  "created_at": "2025-09-01 10:36:20.233988",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:36:20.240661",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "76-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Look at the things you own.\nYou bought them in your life.\nYou will see something.\nYou do not use all your things.\n\nFor example, you have a warm coat.\nYou thought it was nice.\nBut you live in a hot country.\n\nOr you have an old smartphone.\nYou stopped using it when you bought a new one.\n\nMaybe you have a car.\nBut you only use it at the weekend.\nSome people have an extra room for visitors.\nBut now it is a room for old things.",
+      "timestamp": "2025-09-01 10:36:20.240845",
+      "metadata": {
+        "text_id": "d902581f-73b8-4b79-b27c-f8eabc84c96c",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 10:36:20.253837",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "64e45c74-2eb9-4f4a-a9d6-ec2df4cb8c3c",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5866 is catastrophically below the required 0.75 threshold. This indicates a severe loss of the original text's core message.\n\n- Primary Failure: The original text describes a process of realization ('If we look... we would no doubt notice...'). Your output is a series of disconnected commands and statements ('Look at the things you own... You will see something.') which completely fails to capture this reflective meaning.\n\n- Secondary Failure: The BERTScore of 0.8757 is below the 0.90 minimum. This is a fidelity failure. Key phrases like 'put to good use' were replaced with the overly simplistic 'do not use all your things', losing important nuance.\n\n- Structural Defect: The text is excessively fragmented. The first four sentences are so short and choppy that they destroy the logical flow and cause the meaning preservation failure.\n\n- Suggestion: Re-write the introduction as a single, cohesive idea. Combine the first four sentences using simple connectors to explain that when you look at your things, you might see that you do not use all of them. This will restore the lost meaning and improve the fidelity scores.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8757,
+          "meaningbert": 0.5866
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:36:35.857813",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: When you look at the things you own, you might see that you do not use all of them.\n\nFor example, you have a warm coat.\nYou thought it was nice.\nBut you live in a hot country.\n\nOr you have an old smartphone.\nYou stopped using it when you bought a new one.\n\nMaybe you have a car.\nBut you only use it at the weekend.\nSome people have an extra room for visitors.\nBut now it is a room for old things.",
+      "timestamp": "2025-09-01 10:36:35.858968",
+      "metadata": {
+        "text_id": "36798f0f-d429-472c-81a1-d5938e5dab21",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:36:57.968477",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "094c46cc-35ae-4a91-a875-29cc9a6f61c0",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for failure is the MeaningBERT score of 0.5715, which is critically below the required 0.75 threshold. This indicates a severe loss of the original text's core message.\n\n- Meaning Preservation Failure: The original text's central idea is that we own things that are not 'put to good use', implying waste or poor decisions. Your version, 'you do not use all of them', is a factual but shallow simplification that loses this essential meaning.\n\n- Fidelity Failure: The BERTScore of 0.8777 is below the minimum requirement of 0.90. This is a direct result of replacing specific descriptive language ('thick woollen coat', 'tropical country', 'guest room', 'storeroom') with overly simple terms ('warm coat', 'hot country', 'extra room', 'room for old things'). This sacrifices too much detail.\n\n- Structural Fragmentation: The text is broken into excessively short, disconnected sentences. This level of simplification is closer to A1 than the expected A2 level, resulting in a choppy and unnatural text flow.\n\nSuggestion: Restore the core meaning. Rephrase the opening to 'When you look at your things, you might see that some are not very useful.' Combine the fragmented sentences to create more natural A2 structures. Example: 'You have a warm coat, but you live in a hot country.' Reintroduce slightly more specific vocabulary to meet the fidelity requirement. Example: 'Some people have a room for visitors, but it is now a room to keep old things.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8777,
+          "meaningbert": 0.5715
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:37:23.243468",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: When you look at the things you own, you might see that some are not very useful. For example, you have a thick coat. You thought it was nice, but you live in a hot country. Or you have an old smartphone, but you do not use it after you buy a new one. Maybe you have a car, but you only use it at the weekend. Your house might have a guest room, but now it is a room to store things.",
+      "timestamp": "2025-09-01 10:37:23.243972",
+      "metadata": {
+        "text_id": "612afdf6-4cbd-4e29-9b2c-da7a5835609d",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:37:52.096172",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a898fdd2-b5ca-42d5-9bd0-1404d841556e",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5614 is critically below the 0.75 minimum, indicating a severe loss of the original message. The BERTScore of 0.8991 also fails to meet the 0.90 fidelity threshold.\n\n- Core Meaning Lost: The original text explains buying a coat because it was 'trendy' despite living in a 'tropical country'. Your version simplifies this to a 'nice' coat in a 'hot country'. This loses the specific, nuanced reason for the purchase\u2014a mistake driven by fashion. This is the primary cause of the low MeaningBERT score.\n- Lexical Fidelity Lost: The low BERTScore is a direct result of removing key descriptive words from the original, such as 'purchased', 'woollen', and 'tropical'. These words provided important context that is now missing.\n- Tonal Shift: The original text makes a general observation about 'we'. Your text changes this to a direct address to 'you', which alters the tone and contributes to the meaning deviation.\n\nSuggestion: You must restore the lost meaning. Rephrase the sentence about the coat to include the concept of fashion. For example: 'You bought a thick coat because you thought it was fashionable, but you live in a hot country.' This restores the original intent while using A2 vocabulary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8991,
+          "meaningbert": 0.5614
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:38:20.169968",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: When we look at the things we own, we might see that some are not very useful. For example, we have a thick woollen coat. We thought it was fashionable, but we live in a tropical country. Or we have an old smartphone, but we do not use it after we buy a new one. Maybe we have a car, but we only use it at the weekends. Our house might have a guest room, but now it is a room to store things.",
+      "timestamp": "2025-09-01 10:38:20.170989",
+      "metadata": {
+        "text_id": "170851aa-b83e-4a3c-aea7-6497d6330aca",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:38:40.875698",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6ce933bc-f955-4fd0-a5a3-89439a219587",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6355 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message. The original text's central idea is that we own things that are not 'put to good use', implying waste. Your version simplifies this to 'not very useful', which is a weaker concept and loses the original's nuance.\n\n- Vocabulary Violation: The word 'fashionable' is B1 level. You must replace all B1 vocabulary with A2-level words or simple phrases. The original used 'trendy'; your replacement must be simpler.\n\n- Suggestion: Rephrase the first sentence to better capture the concept of 'not using things'. Replace the word 'fashionable' with an A2 phrase like 'we thought it looked nice'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9088,
+          "meaningbert": 0.6355
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:38:52.297646",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: When we look at the things we own, we see that we do not use all of them. For example, we have a thick woollen coat. We thought it looked nice, but we live in a tropical country. Or we have an old smartphone. We do not use it after we buy a new one. Maybe we have a car, but we only use it at the weekends. Our house might have a guest room, but now it is a room to store things.",
+      "timestamp": "2025-09-01 10:38:52.299678",
+      "metadata": {
+        "text_id": "fafa2e09-7f11-48b9-8406-42effb8fe4e5",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:39:14.306621",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9f152813-ffe5-49cd-af55-a4bd12d9dbba",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6587 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\n- The central concept of things 'not being put to good use' was oversimplified to 'we do not use all of them'. This simplification loses the important nuance of wastefulness and poor purchasing decisions.\n- The original text's reflective tone, established by 'If we look... we would no doubt notice', was replaced by a simple declarative statement. This alters the meaning from a general observation about human behavior to a basic list of facts.\n\nSuggestion: The core meaning must be restored. Rephrase the first sentence to capture the idea of waste or improper use. A compliant alternative would be: 'When we look at our things, we see that some are not used well.' This phrasing is simple but preserves the original intent.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9084,
+          "meaningbert": 0.6587
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:39:22.668030",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: When we look at our things, we see that some are not used well. For example, we have a thick woollen coat. We thought it looked nice, but we live in a tropical country. Or we have an old smartphone. We do not use it after we buy a new one. Maybe we have a car, but we only use it at the weekends. Our house might have a guest room, but now it is a room to store things.",
+      "timestamp": "2025-09-01 10:39:22.671421",
+      "metadata": {
+        "text_id": "df325369-9d0a-44bd-9413-b28f03628310",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:39:44.663737",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "671fd60a-2b0e-4a0e-8c17-7a1fc5b52ea9",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6765 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text.\n\n- Primary Deviation: The original text's central idea is that we make poor purchasing decisions, resulting in things not being 'put to good use'. Your version, 'some are not used well', is a neutral observation that loses this critical nuance of waste and poor judgment.\n- Vocabulary Violation: The word 'used' is a B1-level word. Its presence in the text violates the strict A2 vocabulary requirement.\n\nSuggestion: Rephrase the opening to restore the original meaning. Change 'some are not used well' to 'we see that we do not use many of our things'. Replace the B1 word 'used' with an A2-compliant alternative.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9072,
+          "meaningbert": 0.6765
+        }
+      }
+    }
+  ]
+}

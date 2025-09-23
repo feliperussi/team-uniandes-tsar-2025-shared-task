@@ -1,0 +1,228 @@
+{
+  "session_id": "bf6575ba-fb78-4b7c-be66-1ca7ef4ce91f",
+  "created_at": "2025-09-01 10:31:19.423964",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:31:19.431364",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "42-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A man named Campbell studied stories. He said a hero's story is often the same. First, the hero says \"no\" to an adventure. But then a helper comes. This helper helps the hero. So the hero decides to go. He travels to a 'special world'. The adventure happens in this special world.\n\nIn the next part, the hero has tests. He fights bad people. He also meets new friends. This makes the hero ready for his biggest problem.\n\nFor example, Luke is the hero in Star Wars. His helper is Obi-Wan. His friends are Han Solo and the robots R2D2 and C3PO. The bad person is Darth Vader. The special world is the Death Star.",
+      "timestamp": "2025-09-01 10:31:19.432526",
+      "metadata": {
+        "text_id": "ccec6a13-5216-4f46-8194-21a027869875",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:31:19.441680",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "174ce533-78c8-4e1c-820f-ec9283ccaf44",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5962 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\n- Core Concept Omission: The original text's concept of 'cross the threshold' is a key part of Campbell's theory. Your version, 'decides to go', completely removes this important idea, damaging the meaning.\n- Weakened Sequence: The original text describes a clear sequence: 'The next stage consists of...'. Your version breaks this into paragraphs but loses the explicit sense of a structured journey with distinct stages.\n- Altered Causality: The original states the hero 'prepares to face their biggest challenge' through tests and meetings. Your version, 'This makes the hero ready for his biggest problem', changes this from a process of preparation into a simplistic cause-and-effect statement, which is a different meaning.\n\nSuggestion: You must restore the lost concepts. Re-introduce the idea of entering a new place to represent 'crossing the threshold'. Rephrase to show that the tests and meetings are how the hero prepares, not what directly makes them ready.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9029,
+          "meaningbert": 0.5962
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:31:34.391448",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A man named Campbell studied stories. He said a hero's story is often the same. First, the hero says \"no\" to an adventure. But then a helper comes. This helper helps the hero. So the hero decides to leave his normal world. He enters a 'special world' for the adventure.\n\nIn the next stage, the hero has tests. He fights bad people and meets new friends. These things help the hero prepare for his biggest problem.\n\nFor example, Luke is the hero in Star Wars. His helper is Obi-Wan. His friends are Han Solo and the robots R2D2 and C3PO. The bad person is Darth Vader. The special world is the Death Star.",
+      "timestamp": "2025-09-01 10:31:34.391623",
+      "metadata": {
+        "text_id": "82ccaf48-eba1-4f4f-971a-78588135b9f0",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:32:00.103284",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2c1cf581-aa6d-4915-8aef-6bff4c364d51",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6072 is significantly below the required 0.75 threshold. The text fails to preserve the core message of the original.\n\n- The primary failure is the loss of nuance. The original text states the hero prepares for their 'biggest challenge'. Your text reduces this to 'biggest problem'. A 'challenge' implies a test of ability and is a key concept in the hero's journey. A 'problem' is too general and loses this specific meaning.\n- The original text links the tests and the preparation directly: 'passing tests... as the hero prepares'. Your version breaks this link into two separate ideas: 'the hero has tests... These things help the hero prepare'. This weakens the causal relationship.\n- The simplification of 'mentor' to 'helper' and 'enemies' to 'bad people' is acceptable for A2, but contributes to the overall loss of specific meaning when combined with the other issues.\n\nSuggestion: Restore the core concepts. Rephrase 'biggest problem' to 'biggest test' or 'biggest fight'. Reconnect the preparatory stages to the final challenge. Example: 'To prepare for his biggest test, the hero fights bad people and meets new friends.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9052,
+          "meaningbert": 0.6072
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:32:13.908427",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A man named Campbell studied stories. He said a hero's story is often the same. First, the hero says \"no\" to an adventure. But then a helper comes. This helper helps the hero. So the hero decides to leave his normal world. He enters a 'special world' for the adventure.\n\nIn the next stage, the hero has tests. He fights bad people and meets new friends. This helps the hero prepare for his biggest test.\n\nFor example, Luke is the hero in Star Wars. His helper is Obi-Wan. His friends are Han Solo and the robots R2D2 and C3PO. The bad person is Darth Vader. The special world is the Death Star.",
+      "timestamp": "2025-09-01 10:32:13.910508",
+      "metadata": {
+        "text_id": "6d0bf107-bf86-42d7-b736-193a99d4e4f0",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:32:37.266520",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6a481fbb-22d3-48c8-8ad6-34c5d321386a",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6079 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message.\n\n- The original text describes a specific, formal theory from a person named Campbell. Your version oversimplifies this into a generic description of a story, losing the key concept that this is a defined structure or pattern that Campbell identified.\n- The phrase 'According to Campbell' was reduced to 'A man named Campbell studied stories', which weakens the idea of a formal theory being presented.\n- The phrase 'the next stage consists of' was reduced to 'the hero has tests', losing the meaning of a structured part of the journey.\n\nSuggestion: Restore the concept of a formal theory. Rephrase the opening to 'A writer named Campbell found that many hero stories have the same parts.' Suggestion: To better capture the meaning of 'stage', rephrase 'In the next part of the story'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9054,
+          "meaningbert": 0.6079
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:32:52.643990",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A writer named Campbell found that many hero stories have the same parts. First, the hero says \"no\" to an adventure. But then a helper comes. This helper helps the hero. So the hero decides to leave his normal world. He enters a 'special world' for the adventure.\n\nIn the next part of the story, the hero has tests. He fights bad people and meets new friends. This helps the hero prepare for his biggest test.\n\nFor example, Luke is the hero in Star Wars. His helper is Obi-Wan. His friends are Han Solo and the robots R2D2 and C3PO. The bad person is Darth Vader. The special world is the Death Star.",
+      "timestamp": "2025-09-01 10:32:52.644400",
+      "metadata": {
+        "text_id": "57aab981-146d-4b66-8cc3-c408c8179d66",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:33:18.650712",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "83e53f76-c9c4-428f-8534-f2732da8f43a",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6079 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text.\n\n- The simplification of key concepts was too aggressive, resulting in a loss of meaning.\n- The original concept 'refuses the call to adventure' was reduced to 'says \"no\" to an adventure'. This loses the important idea of a special 'call'.\n- The term 'mentor' was replaced with 'helper'. 'Mentor' implies a wise teacher, a meaning that 'helper' does not convey.\n- The phrase 'prepares to face their biggest challenge' was weakened to 'prepare for his biggest test'. The concept of a 'challenge' is more significant than a 'test' in this context.\n\nSuggestion: Re-write the text to restore the lost conceptual meaning. Use simple A2 vocabulary that more accurately reflects the original ideas. For example, 'mentor' could be 'a wise teacher' and 'refuses the call' could be 'at first, does not want to go on the adventure'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9064,
+          "meaningbert": 0.6079
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:33:32.215576",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A writer named Campbell found that many hero stories have the same parts. First, the hero gets a call to an adventure. But at first, he does not want to go. Then a wise teacher comes to help him. So the hero decides to leave his normal world. He enters a 'special world' for the adventure.\n\nIn the next part of the story, the hero has tests. He fights bad people and meets new friends. This helps the hero prepare for his biggest challenge.\n\nFor example, Luke is the hero in Star Wars. His wise teacher is Obi-Wan. His friends are Han Solo and the robots R2D2 and C3PO. The bad person is Darth Vader. The special world is the Death Star.",
+      "timestamp": "2025-09-01 10:33:32.216889",
+      "metadata": {
+        "text_id": "4924b888-0062-4a53-97cf-99ad5b2f7412",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:33:55.265084",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "bfc39a13-d211-4a22-ac56-0c4aa46439ed",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR A2 Standard Violation. The text fails due to the inclusion of B1-level vocabulary and sentence structures, despite passing the initial metric checks. Adherence to the A2 standard must be absolute.\n\n- B1 Vocabulary Violation: The text uses words that are above the A2 level. The word 'wise' is B1. The word 'challenge' is B1. These words were not replaced with A2 alternatives or defined in simple terms.\n\n- B1 Structural Violation: The first sentence, 'A writer named Campbell found that many hero stories have the same parts,' uses a 'that-clause'. This is a B1 grammatical structure. A2 texts must use simple, direct sentences.\n\n- Corrective Path: Replace 'wise' with 'good' or 'helpful'. Replace 'challenge' with 'big problem' or 'hardest test'. Rephrase the first sentence to remove the 'that-clause'. Example: 'A writer named Campbell studied hero stories. He found they have the same parts.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9093,
+          "meaningbert": 0.767
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:34:03.216095",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A writer named Campbell studied hero stories. He found they have the same parts. First, the hero gets a call to an adventure. But at first, he does not want to go. Then a good teacher comes to help him. So the hero decides to leave his normal world. He enters a 'special world' for the adventure.\n\nIn the next part of the story, the hero has tests. He fights bad people and meets new friends. This helps the hero prepare for his biggest problem.\n\nFor example, Luke is the hero in Star Wars. His good teacher is Obi-Wan. His friends are Han Solo and the robots R2D2 and C3PO. The bad person is Darth Vader. The special world is the Death Star.",
+      "timestamp": "2025-09-01 10:34:03.218261",
+      "metadata": {
+        "text_id": "357b419a-bd3a-4d40-9153-29be481431e4",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:34:29.068640",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5c27305e-274f-4979-9115-db08093d5157",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6761 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message and logical structure due to oversimplification.\n\n- The simplification has weakened the causal relationships described in the original text. The original states a mentor appears who helps the hero, and then they decide to go. Your version, 'Then a good teacher comes to help him. So the hero decides...', presents this as a simple sequence of events, not a direct cause and effect. The mentor's influence on the decision is diluted.\n- The original text describes the tests and fights as happening 'as the hero prepares', indicating a simultaneous process. Your version, 'This helps the hero prepare', changes this relationship to a consequence, altering the original meaning.\n- While the BERTScore of 0.9056 is acceptable, the low MeaningBERT score is a non-negotiable failure. The text does not accurately reflect the logical flow of the source material.\n\nSuggestion: Revise the text to restore the direct cause-and-effect relationships. The mentor's appearance must be the explicit reason the hero decides to act. The tests and fights must be framed as the direct process of preparation, not just helpful events.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9056,
+          "meaningbert": 0.6761
+        }
+      }
+    }
+  ]
+}

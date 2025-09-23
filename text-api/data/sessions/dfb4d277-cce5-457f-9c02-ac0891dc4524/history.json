@@ -1,0 +1,117 @@
+{
+  "session_id": "dfb4d277-cce5-457f-9c02-ac0891dc4524",
+  "created_at": "2025-08-31 23:30:25.612311",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:30:25.624826",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "02-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes a lot.\nEarthquakes can break buildings and bridges.\nBut bridges do not often fall down.\nThis is true for new bridges, especially.\nEngineers now make bridges strong in earthquake areas.\nThey choose strong ground for the bridge.\nThe ground does not move much in an earthquake.\nSo the bridge stays up better.",
+      "timestamp": "2025-08-31 23:30:25.625820",
+      "metadata": {
+        "text_id": "90ea96a2-94ea-4b52-a4be-4cd95fd79b13",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 23:30:25.635406",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "51f3a025-9547-4388-8b4f-0d9c5166c636",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7118 is below the required 0.75. The BERTScore of 0.8968 is below the required 0.90.\n1. The MeaningBERT score of 0.7118 indicates the paraphrase lost core meaning: original phrase \u201cdesign bridges in earthquake zones on areas that are much more resistant to movement\u201d was reduced to \u201cThey choose strong ground for the bridge,\u201d removing the engineering focus on resistance to movement.\n2. The BERTScore of 0.8968 shows loss of key lexical content: \"relatively infrequent\" and \"modern bridges\" were simplified to \"do not often fall down\" and \"new bridges,\" reducing precision.\nSuggestion: Restore the phrase \u201crelatively infrequent collapse,\u201d use \u201cmodern bridges,\u201d and rephrase \u201careas that are more resistant to movement\u201d instead of \u201cstrong ground\u201d to meet fidelity requirements.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8968,
+          "meaningbert": 0.7118
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:31:11.123281",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes a lot.\nEarthquakes can damage buildings and bridges.\nLuckily, bridge collapse is relatively infrequent.\nThis is true, especially with modern bridges.\nEngineers now design bridges in earthquake zones.\nThey build them on areas that are much more resistant to movement.",
+      "timestamp": "2025-08-31 23:31:11.124967",
+      "metadata": {
+        "text_id": "b0e11c1d-ce93-4ab5-84d2-456d339ef637",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-08-31 23:31:32.939806",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "927e4e02-d8c8-4b2e-9e3c-70053286c063",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. Classifier rated B1. The text uses vocabulary above A2 level. Evidence: word earthquake is B1; word damage is B1; word collapse is B2; word relatively is B2. Sentence \"Earthquakes can damage buildings and bridges.\" uses damage. Sentence \"Luckily, bridge collapse is relatively infrequent.\" uses collapse and relatively. Suggestion: Replace earthquake with a simpler description like \"when the ground shakes\"; replace damage with hurt; replace collapse with fall down; remove relatively; use only A2 approved words.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9389,
+          "meaningbert": 0.907
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:32:21.297811",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: 'Earthquake' means the ground shakes a lot.\nThe shaking can break buildings and bridges.\nLuckily, bridges do not fall down often.\nThis is true, especially for modern bridges.\nEngineers design bridges for places where the ground shakes.\nThey build on ground that does not move much.",
+      "timestamp": "2025-08-31 23:32:21.299825",
+      "metadata": {
+        "text_id": "316d0f45-6eb4-46d4-9cb4-af52e5ca6587",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:32:41.174939",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c856d83f-bc7f-42f9-9361-06594fa4c716",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6865 is below the required 0.75. The rewrite compresses \u201cdamage all structures\u201d into \u201cbreak buildings and bridges,\u201d losing the sense that earthquakes affect every structure.\nFAIL: Fidelity Failure. The BERTScore of 0.8994 is below the required 0.90. Key phrase \u201cdamage all structures\u201d was replaced by \u201cbreak,\u201d reducing lexical precision.\nSuggestion: Retain the phrase \u201cdamage all structures\u201d to preserve full meaning.\nSuggestion: Use \u201cdamage\u201d instead of \u201cbreak\u201d for consistency with the original.\nSuggestion: Include \u201cincluding bridges\u201d to reflect the original scope.\nSuggestion: Restore \u201chave learned to design\u201d to show that engineers\u2019 methods improved over time.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8994,
+          "meaningbert": 0.6865
+        }
+      }
+    }
+  ]
+}

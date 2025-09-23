@@ -1,0 +1,413 @@
+{
+  "session_id": "7663aa6e-72a9-4136-8c20-dc7d68887890",
+  "created_at": "2025-09-01 17:10:01.697245",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:10:08.558414",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "100-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: World War II was a very big war in the past. Many countries fought in it.\nTerrorism is when people use violence to scare others. They want to change things.\n\nNews stories make us think the world is more dangerous now. But there is also some good news.\n\nFrom the end of World War II to 1990, 30 wars happened. More than 100,000 people died in each war.\n\nToday, there are still wars inside one country. But most countries live together with no fighting now. This is better than in the past.\n\nBut terrorism went up a lot in the last few years. From World War II, wars killed many more normal people than soldiers.\n\nBut for normal people, the numbers are not all bad. People die more from bad crime. This is nine times more than from fighting about power.\n\nThe number of people killed around the world went down a little. In 2000, 8 people died for every 100,000 people. In 2015, it was about 5.3 people.",
+      "timestamp": "2025-09-01 17:10:08.559218",
+      "metadata": {
+        "text_id": "57267872-aa73-459b-b815-b286ea99b9be",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:10:09.951676",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f6e444f1-b491-4930-90f8-8aaa515a66f0",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text states 'Between the end of World War II and 1990, there were 30 wars that killed more than 100,000 people.' Your version states 'More than 100,000 people died in each war.' This is a significant factual distortion, implying each of the 30 wars caused over 100,000 deaths, which is incorrect. This is an instant failure. Additionally, the BERTScore of 0.8969 is below the required 0.90. This indicates a loss of lexical fidelity, as key terms were overly simplified. For example, 'political conflict' was reduced to 'fighting about power'. Furthermore, the text contains B1 vocabulary. 'Violence' in 'people use violence to scare others' and 'fighting' in 'live together with no fighting now' and 'fighting about power' are above the A2 standard. Correct the factual error regarding the number of deaths per war. Rephrase sentences to use only A2 vocabulary. Ensure all key terms are preserved or simplified with A2 equivalents without losing lexical detail.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8969,
+          "meaningbert": 0.7804
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:10:29.661947",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: World War II was a very big war in the past. Many countries fought in it.\nTerrorism is when people use bad acts to scare others. They want to change things.\n\nNews stories make us think the world is more dangerous now. But there is also some good news.\n\nFrom the end of World War II to 1990, 30 wars happened. These wars killed more than 100,000 people in total.\n\nToday, there are still wars inside one country. But most countries live together with no wars now. This is better than in the past.\n\nBut terrorism went up a lot in the last few years. From World War II, wars killed many more normal people than soldiers.\n\nBut for normal people, the numbers are not all bad. People die more from bad crime. This is nine times more than from problems about how countries work.\n\nThe number of people killed around the world went down a little. In 2000, 8 people died for every 100,000 people. In 2015, it was about 5.3 people.",
+      "timestamp": "2025-09-01 17:10:29.662219",
+      "metadata": {
+        "text_id": "a53245f0-f2a9-4060-97a1-a202a00c6202",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:10:52.675635",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f4305901-f279-448b-83cc-25d6aabc4993",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The text fails to adequately preserve the core meaning and lexical fidelity of the original text. This is a critical deviation from the required standard. The MeaningBERT score of 0.6852 is below the required 0.75, indicating a loss of the original message's nuance. The BERTScore of 0.8943 is below the required 0.90, showing significant lexical deviation. Specific deviations include: 1. The inclusion of definitions for 'World War II' and 'terrorism' at the beginning of the text is additional content not present in the original's narrative flow, which dilutes the focus and impacts meaning preservation. The original text does not start with definitions. 2. The phrase 'increasingly violent place' from the original was simplified to 'more dangerous now', losing lexical precision. 3. The phrase 'co-existing more peacefully' was simplified to 'live together with no wars now', which is a less precise and less nuanced expression of the original meaning. 4. The term 'political conflict' was replaced with the overly simplified and less accurate 'problems about how countries work', which significantly deviates from the original's specific terminology. 5. The term 'global murder rate' was replaced with 'The number of people killed around the world', losing the specific concept of 'murder rate'. Suggestion: Remove the introductory definitions. Focus on rephrasing the original content directly. Increase lexical fidelity by finding closer A2 equivalents for terms like 'political conflict' and 'global murder rate'. Ensure the tone of 'optimism' and 'not all bad' is more strongly conveyed throughout the text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8943,
+          "meaningbert": 0.6852
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:11:10.092324",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: News stories make us think the world has more fighting now. But there is also some good news.\nFrom the end of World War II to 1990, 30 wars happened. These wars killed more than 100,000 people.\nToday, there are still civil wars. But most countries live together more peacefully now. This is better than in the past.\nBut terrorism went up a lot in the last few years. Since World War II, wars killed many more civilians than soldiers.\nBut for civilians, the numbers are not all bad. People die more from violent crime. This is nine times more than from problems about power in a country.\nThe number of murders around the world fell a little. In 2000, 8 people died for every 100,000 people. In 2015, it was about 5.3 people.",
+      "timestamp": "2025-09-01 17:11:10.092636",
+      "metadata": {
+        "text_id": "991d5a53-9e19-41c7-8f41-5d8159187a95",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:11:30.455852",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b71305d0-7411-4091-b921-0c337251629c",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance - Vocabulary Deviation. The text contains multiple words above the A2 level, which is a direct violation of the standard. The classifier may have rated it A2, but a deep qualitative audit reveals significant lexical overreach.\n\n*   The word 'fighting' is a B1 level word. It is used in 'News stories make us think the world has more fighting now.' This must be simplified to A2 vocabulary.\n*   The word 'violent' is a B1 level word. It is used in 'People die more from violent crime.' This must be simplified to A2 vocabulary.\n*   The word 'civil' is a B2 level word. It is used in 'Today, there are still civil wars.' This must be simplified or rephrased using A2 vocabulary.\n*   The word 'terrorism' is a B2 level word. It is used in 'But terrorism went up a lot in the last few years.' This word was also listed as a keyword for definition but was used directly without any A2-level explanation. This is unacceptable.\n\nSuggestion: Replace 'fighting' with 'wars' or 'bad things'. Replace 'violent crime' with 'bad acts that hurt people'. Rephrase 'civil wars' to 'wars inside a country'. Define 'terrorism' using simple A2 terms, such as 'when bad people hurt others to scare a country'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9346,
+          "meaningbert": 0.8537
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:11:45.074289",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: News stories make us think the world has more wars now. But there is also some good news.\nFrom the end of World War II to 1990, 30 wars happened. These wars killed more than 100,000 people.\nToday, there are still wars inside a country. But most countries live together more peacefully now. This is better than in the past.\nBut bad people hurt others to scare a country. This went up a lot in the last few years. Since World War II, wars killed many more civilians than soldiers.\nBut for civilians, the numbers are not all bad. People die more from bad acts that hurt people. This is nine times more than from problems about power in a country.\nThe number of murders around the world fell a little. In 2000, 8 people died for every 100,000 people. In 2015, it was about 5.3 people.",
+      "timestamp": "2025-09-01 17:11:45.074747",
+      "metadata": {
+        "text_id": "77917216-9df7-426b-852c-52ca49a8265c",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:12:12.197254",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "58698936-278f-4e5f-aebc-a6eef165ff95",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6664 is too low, falling below the required 0.75. The core message of the original text, which emphasizes 'cause for some optimism' despite the perception of an 'increasingly violent place', is not fully captured. The writer's version simplifies 'increasingly violent place' to 'more wars now', which is a narrower concept. More critically, the nuanced connection between the perceived violence and the actual optimism is weakened. The original implies that despite the bad news, there is good news. The writer's 'But there is also some good news' is too generic and does not fully convey this specific counter-argument. Suggestion: Rephrase the opening to more clearly link the idea of perceived violence with the actual reasons for optimism. Ensure the contrast is strong and the 'optimism' is directly related to the counter-evidence provided in the text, rather than a general statement of 'good news'. For example, explicitly state that even though people think the world is more violent, there are reasons to be hopeful.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9227,
+          "meaningbert": 0.6664
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:12:29.421815",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: News stories make us think the world is more dangerous. But we can also be hopeful.\nFrom the end of World War II to 1990, 30 wars happened. These wars killed more than 100,000 people.\nToday, there are still wars inside a country. But most countries live together more peacefully now. This is better than in the past.\nBut bad people hurt others to scare a country. This went up a lot in the last few years. Since World War II, wars killed many more civilians than soldiers.\nBut for civilians, the numbers are not all bad. People die more from bad acts that hurt people. This is nine times more than from problems about power in a country.\nThe number of murders around the world fell a little. In 2000, 8 people died for every 100,000 people. In 2015, it was about 5.3 people.",
+      "timestamp": "2025-09-01 17:12:29.422245",
+      "metadata": {
+        "text_id": "82e4dc15-8aa2-4312-961a-6d30ec77c5e2",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:12:53.303880",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "72e66e6a-890b-4835-aa6b-6de6f161138c",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6977 is below the required 0.75. The core message of the original text, which presents a nuanced argument for optimism despite the perception of increasing violence and specific negative trends, is lost. The writer's output breaks the information into disconnected sentences, failing to convey the argumentative flow and the specific connection between the prevalence of violent crime and the falling murder rate as a source of optimism. For example, the original's 'Although deaths are nine times more likely to be a result of violent crime than political conflict, the global murder rate fell slightly...' clearly links these ideas as a reason for optimism. The writer's version, 'People die more from bad acts that hurt people. This is nine times more than from problems about power in a country. The number of murders around the world fell a little.', presents these as separate facts, losing the crucial 'despite' relationship and the overall optimistic conclusion it supports. Suggestion: Rephrase to explicitly connect the ideas of falling murder rates as a reason for optimism, even with other forms of violence, to restore the original's argumentative structure.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9244,
+          "meaningbert": 0.6977
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:13:18.492449",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: News stories make us think the world is more dangerous.\nBut there is also good news.\nWorld War II was a very big war. From the end of this war to 1990, 30 wars happened.\nThese wars killed more than 100,000 people.\nToday, there are still wars inside a country.\nBut most countries live together more peacefully now. This is better than in the past.\nBut bad people hurt others to scare a country. This went up a lot in the last few years.\nSince World War II, wars killed many more people who are not soldiers than soldiers.\nBut for people who are not soldiers, there is also good news.\nMany people die from bad acts that hurt people. This is nine times more than from problems about power in a country.\nBut even with this, the number of murders around the world fell a little. This is a good sign.\nIn 2000, 8 people died for every 100,000 people. In 2015, it was about 5.3 people.",
+      "timestamp": "2025-09-01 17:13:18.493824",
+      "metadata": {
+        "text_id": "8c963056-e89a-4d7b-b787-d255dcf8511a",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:13:56.743519",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9c3b0983-498b-488a-a466-076b8fadb4e2",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6283 is significantly below the required 0.75, indicating a substantial loss of the original text's core message and argumentative structure. While individual facts are accurately presented and simplified to an A2 level, the extreme fragmentation of sentences and the breakdown of complex logical relationships have diluted the nuanced message. The original text builds a cohesive argument, presenting a counter-narrative of 'optimism despite violence' using connectors like 'However', 'Even for civilians, though', and 'Although' to link ideas. Your version, by separating these into many short, disconnected sentences, loses this argumentative flow and the subtle emphasis on the 'cause for optimism' in the face of challenges. For example, the original's single sentence 'Although deaths are nine times more likely to be a result of violent crime than political conflict, the global murder rate fell slightly...' conveys a complex concession and counterpoint. Your version splits this into three separate sentences, weakening the direct logical connection and the overall impact of the original's argument. The BERTScore of 0.9042 passed, indicating good lexical fidelity, and the CEFR classifier correctly identified the output as A2, demonstrating successful simplification of vocabulary and grammar. However, the fundamental meaning and the original's argumentative coherence were not adequately preserved. Suggestion: Reconstruct sentences to maintain clearer logical connections between ideas, even within A2 constraints. Focus on how 'good news' directly counters 'bad news' more explicitly, rather than just listing facts.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9042,
+          "meaningbert": 0.6283
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:14:20.185358",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: News stories make us think the world is more dangerous. But there is also good news.\nWorld War II was a very big global fight. From the end of this fight to 1990, 30 big fights happened. These fights killed more than 100,000 people.\nToday, there are still fights inside a country. But most countries live together more peacefully now. This is better than in the past.\nBut bad people hurt others to make a country afraid. This is called terrorism. Terrorism went up a lot in the last few years.\nFrom World War II, fights killed many more people who are not soldiers than soldiers.\nEven with these problems, there is also good news for people who are not soldiers.\nMany people die from bad acts that hurt people. This is nine times more than from problems about control in a country.\nBut even if this is true, the number of murders around the world fell a little. This is good news.\nIn 2000, 8 people died for every 100,000 people. In 2015, it was about 5.3 people.",
+      "timestamp": "2025-09-01 17:14:20.185818",
+      "metadata": {
+        "text_id": "4d8583d7-c435-490f-b29c-b0b77508ed70",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:14:43.643177",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d248d4e0-67e2-4344-afb6-211731dee460",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The text fails to preserve the core meaning and lexical fidelity of the original, as indicated by the low MeaningBERT and BERTScore metrics. \n\nDetected Deviations:\n- Meaning Preservation Failure: The MeaningBERT score of 0.6508 is significantly below the required 0.75. The original text conveys a nuanced message about the *likelihood* of death from 'violent crime' versus 'political conflict' and the specific concept of a 'global murder rate'. Your version simplifies these to 'bad acts that hurt people' and 'problems about control in a country', which are too vague and lose the precise meaning and statistical context of the original. The overall tone of 'optimism' is also diluted by the overly simplistic 'good news' without the original's specific framing.\n- Fidelity Failure: The BERTScore of 0.8995 is below the required 0.90. This indicates a significant loss of key words and factual phrasing. For example, 'civilians' was replaced with the verbose 'people who are not soldiers', 'violent crime' with 'bad acts that hurt people', and 'political conflict' with 'problems about control in a country'. These replacements are less precise and contribute to the loss of lexical detail.\n\nCorrective Path:\n- Rephrase sentences to accurately convey the specific concepts of 'violent crime' and 'political conflict' without losing their precise meaning. Do not use overly vague descriptions.\n- Restore the concept of 'likelihood' when discussing the causes of death.\n- Use more concise and accurate terminology for 'civilians' and 'global murder rate' to maintain lexical fidelity.\n- Ensure the overall message of 'optimism' is presented with the same nuance as the original, not as a simple 'good news' statement.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8995,
+          "meaningbert": 0.6508
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:15:04.691336",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: News stories make us think the world is more dangerous. But we can also feel hopeful.\nWorld War II was a very big war around the world. After this war, until 1990, 30 big wars happened. These wars killed more than 100,000 people.\nToday, there are still wars inside countries. But most countries live together more peacefully now. This is better than in the past.\nBut bad people hurt others to make a country afraid. This is called terrorism. Terrorism went up a lot in the last few years.\nSince World War II, wars killed many more civilians than soldiers.\nBut even for civilians, the news is not all bad.\nPeople are nine times more likely to die from violent crime. This is more than from political conflict.\nBut the number of murders around the world fell a little. This is good.\nIn 2000, 8 people died for every 100,000 people. In 2015, this number was about 5.3.",
+      "timestamp": "2025-09-01 17:15:04.691809",
+      "metadata": {
+        "text_id": "869663f0-520f-47c6-a125-97b890cf6e94",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:15:31.755915",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1ba47f13-3897-425a-8e05-b325641ad363",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance - Vocabulary. The text contains multiple words above the A2 level, which is a direct violation of the A2 standard. The classifier result of 'A2' is misleading due to the presence of these higher-level words.\nSpecific deviations:\n- The word 'hopeful' is B1. An A2 equivalent like 'feel good' or 'have good news' should be used.\n- The word 'violent' is B1. An A2 equivalent like 'very bad' or 'strong' should be used.\n- The word 'political' is B1. An A2 equivalent like 'about government' or 'about leaders' should be used.\n- The word 'conflict' is B1. An A2 equivalent like 'fight' or 'problem' should be used.\n- The word 'terrorism' is B2. While a good A2 definition was provided, the term 'terrorism' itself is not A2 and should be avoided in the main text. The definition should be used consistently instead of the higher-level term.\nSuggestion: Replace all B1 and B2 vocabulary with simpler A2 alternatives. Ensure all words are strictly within the A2 lexicon.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9186,
+          "meaningbert": 0.7905
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:15:48.028222",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: News stories make us think the world is more dangerous. But there is also good news.\nWorld War II was a very big war around the world. After this war, until 1990, 30 big wars happened. These wars killed more than 100,000 people.\nToday, there are still wars inside countries. But most countries live together more peacefully now. This is better than in the past.\nBut bad people hurt others to make a country afraid. This kind of problem went up a lot in the last few years.\nSince World War II, wars killed many more civilians than soldiers.\nBut even for civilians, the news is not all bad.\nPeople are nine times more likely to die from very bad crime. This is more than from a fight about government.\nBut the number of murders around the world fell a little. This is good.\nIn 2000, 8 people died for every 100,000 people. In 2015, this number was about 5.3.",
+      "timestamp": "2025-09-01 17:15:48.028733",
+      "metadata": {
+        "text_id": "87f96dea-9701-4fbf-a4ad-bfb8a11d8b77",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:16:11.426467",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "112e2832-ac14-42f0-b530-d11d5a3e0e8d",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7225 is below the required 0.75. This indicates a failure to preserve the core message with sufficient fidelity. The original text's nuanced phrasing, such as 'increasingly violent place' and the specific statistical concept of 'global murder rate', is simplified to 'more dangerous' and 'number of murders'. This simplification, while making the text simpler, diminishes the precision and depth of the original meaning. Additionally, the comparison 'deaths are nine times more likely to be a result of violent crime than political conflict' is rendered less direct in your version, losing some of the original's clarity regarding the comparative likelihood of causes of death. Suggestion: Rephrase sentences to ensure that the precise meaning of statistical terms and comparative statements is fully retained, even when using simpler vocabulary. Do not sacrifice the core message for simplicity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9156,
+          "meaningbert": 0.7225
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:16:24.790360",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: News stories make us think the world has more violence. But there is also good news.\nWorld War II was a very big fight between many countries. After this big fight, until 1990, 30 big fights happened. These fights killed more than 100,000 people.\nToday, there are still fights inside countries. But most countries live together more peacefully now. This is better than in the past.\nBut bad people hurt others to make a country afraid. This is called terrorism. This problem went up a lot in the last few years.\nFrom World War II until now, fights killed many more normal people than soldiers.\nBut even for normal people, the news is not all bad.\nPeople are nine times more often killed by very bad crime. This is more than by a fight about politics.\nBut the number of murders for every 100,000 people around the world fell a little. This is good.\nIn 2000, 8 people died for every 100,000 people. In 2015, this number was about 5.3.",
+      "timestamp": "2025-09-01 17:16:24.790902",
+      "metadata": {
+        "text_id": "4c56e1c9-9f76-4c3d-b5c1-e2506652c915",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:16:46.963845",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "90fffb32-f08d-4a2f-bc24-96415cfa989f",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6943 is below the required 0.75. While the individual facts are present, the nuanced meaning and the relationships between ideas from the original text have been significantly diminished. For example: 1. The original phrase 'news stories that make us think the world is an increasingly violent place' implies a perception of a trend. Your version 'News stories make us think the world has more violence' loses the 'increasingly' aspect, which is crucial to the original's opening premise. 2. The original uses 'Although deaths are nine times more likely to be a result of violent crime than political conflict' to establish a concessive relationship. Your version splits this into two separate sentences ('People are nine times more often killed by very bad crime. This is more than by a fight about politics.'), which loses the logical connection and the 'likelihood' aspect of the original statement. 3. The phrase 'cause for some optimism too' is simplified to 'also good news', which loses the slightly more formal and nuanced idea of a 'reason for hope'. Suggestion: Rephrase sentences to better capture the subtle relationships and trends present in the original text, even with simpler vocabulary. Ensure that concessive clauses are maintained in a simplified A2 form, for example, by using 'but' or 'even though' to link ideas more clearly.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9077,
+          "meaningbert": 0.6943
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:17:00.330652",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: News stories make us think the world is getting more violent. But there is also a reason to hope.\nWorld War II was a very big fight between many countries. After this big fight, until 1990, 30 big fights happened. These fights killed more than 100,000 people.\nToday, there are still fights inside countries. But most countries live together more peacefully now. This is better than in the past.\nBut bad people hurt others to make a country afraid. This is called terrorism. This problem went up a lot in the last few years.\nFrom World War II until now, fights killed many more normal people than soldiers.\nBut even for normal people, the news is not all bad.\nPeople are nine times more often killed by very bad crime, but this is more than by a fight about how a country is run.\nBut the number of murders for every 100,000 people around the world fell a little. This is good.\nIn 2000, 8 people died for every 100,000 people. In 2015, this number was about 5.3.",
+      "timestamp": "2025-09-01 17:17:00.331349",
+      "metadata": {
+        "text_id": "4b9750bb-400d-4f3c-ba00-dfc3a5b99649",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:17:25.177396",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "25fec6d1-58bb-4212-ba5e-8f403d3292c6",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6825 is below the required 0.75, indicating a significant loss of the original message's core meaning. While the text attempts to simplify, it distorts a crucial comparison.\n\nSpecific Deviation:\n- Meaning Distortion: The sentence 'People are nine times more often killed by very bad crime, but this is more than by a fight about how a country is run' fails to accurately convey the original meaning. The original text states that 'deaths are nine times more likely to be a result of violent crime than political conflict'. Your phrasing 'this is more than' is ambiguous and incorrectly compares 'very bad crime' itself to 'a fight about how a country is run', rather than comparing the likelihood of deaths from these two causes. This fundamentally misrepresents the statistical comparison.\n\nSuggestion: Rephrase the problematic sentence to clearly state that deaths from very bad crime happen nine times more often than deaths from fights about how a country is run. Ensure the comparison is between the frequency of deaths, not the nature of the events themselves.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9082,
+          "meaningbert": 0.6825
+        }
+      }
+    }
+  ]
+}

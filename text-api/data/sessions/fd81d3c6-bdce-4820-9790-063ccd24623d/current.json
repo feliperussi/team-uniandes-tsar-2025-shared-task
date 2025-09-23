@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "b89c6427-30a2-4127-888c-c64d18616d92",
+    "cefr_level": "B1",
+    "text_id": "text_001",
+    "text_translated": "In the past, more bridges were made of wood. This meant they were at a higher risk of catching fire. This was especially true for old train bridges because the steel wheels on the steel tracks could create small sparks that sometimes caused the bridge to burn down completely.",
+    "version": 6,
+    "created_at": "2025-09-01 10:50:48.752777",
+    "updated_at": "2025-09-01 10:50:48.752782",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "cd79c723-1f44-4a48-8ca7-144b8be83ade",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation. The MeaningBERT score of 0.6866 is below the required 0.75 threshold, indicating a significant shift in the core message despite the text being factually correct. The likely cause for this low score is the change in the logical connector in the second half of the text. The original uses 'where' to describe the circumstances of the fire ('...where the spark created...'). The output changes this to 'because' ('...because the steel wheels...'), which alters the sentence's focus from describing the situation to explaining a reason. This subtle change in the semantic relationship was detected by the model as a loss of meaning. To improve, the sentence should be rephrased to maintain the original descriptive link, for instance: 'This was especially true for old train bridges, as the steel wheels on the steel tracks could create small sparks that sometimes caused the bridge to burn down.'",
+    "metrics": {
+      "cefr_compliance": "B1",
+      "bertscore": 0.951,
+      "meaningbert": 0.6866
+    },
+    "created_at": "2025-09-01 10:51:10.942740"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "a1210e9a-49b2-4737-83b4-65d6cde5996e",
+    "cefr_level": "B1",
+    "text_id": "text_001",
+    "text_translated": "In the past, more bridges were made of wood. This meant they were at a higher risk of catching fire. This was especially true for old train bridges. Small flashes of fire from the steel wheels on the steel tracks could sometimes cause the bridge to burn down completely.",
+    "version": 4,
+    "created_at": "2025-09-01 10:49:36.240705",
+    "updated_at": "2025-09-01 10:49:36.240709",
+    "metrics_meaningbert": 0.6914,
+    "metrics_cefr_compliance": "B1"
+  }
+}

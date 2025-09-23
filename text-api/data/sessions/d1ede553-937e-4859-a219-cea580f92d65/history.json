@@ -1,0 +1,413 @@
+{
+  "session_id": "d1ede553-937e-4859-a219-cea580f92d65",
+  "created_at": "2025-09-01 17:23:06.457359",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:23:07.350071",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "94-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: At the start of her work, Carol Dweck worked at Stanford.  \nShe gave ten\u2011year\u2011old children a task.  \nThe task was a little too hard.  \n\nOne group said they liked the hard task.  \nA growth mindset means a person believes they can improve with effort.  \nThey had a growth mindset.  \nThey said they could get better later.  \nThey focused on what they could reach.  \n\nAnother group felt the task judged their smartness.  \nThey said they did not do well.  \nA fixed mindset means a person believes they cannot change their abilities.  \nThey had a fixed mindset.  \nThey could not imagine getting better.  \nSome said they could break rules later.  \nOthers looked for a child who did worse.  \nThat made them feel better about themselves.",
+      "timestamp": "2025-09-01 17:23:07.350190",
+      "metadata": {
+        "text_id": "c08c3a92-b4d0-491f-b5ca-66327aaadd36",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:23:08.463909",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a2bdc322-7594-4a05-adb3-0f7be43c141e",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8679 is below the required 0.90. This is the primary reason for failure. The text also fails the CEFR compliance check.\n\n- Fidelity Failure (BERTScore): The score is too low because key lexical items from the original text were replaced with overly simplistic phrases, losing precision. For example, 'cheat' was replaced with 'break rules' and 'boost their self-esteem' was replaced with 'made them feel better about themselves'. This damages the fidelity to the source text.\n\n- CEFR Compliance Failure (B1 Classification): The text was classified as B1, not A2. This is an instant failure. The cause is the keyword definitions you added.\n\n- Vocabulary Violation: The definitions introduce B-level vocabulary. The word 'means' is B2. The words 'growth', 'effort', and 'fixed' are B1. The task is to define complex terms using A2 language, not to introduce more complex words.\n\n- Structural Violation: The sentences 'A growth mindset means a person believes they can improve with effort' and 'A fixed mindset means a person believes they cannot change their abilities' use a structure that is too complex for A2. The combination of 'means' and a subordinate clause ('a person believes...') elevates the complexity to B1.\n\nSuggestion: Rephrase the text to restore key words from the original to meet the 0.90 BERTScore threshold. Rewrite the keyword definitions entirely. Use only A1/A2 vocabulary and simple 'Subject-Verb-Object' sentence structures. Example: 'A growth mindset is an idea. People with this idea think they can learn and get better.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8679,
+          "meaningbert": 0.7599
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:23:15.589146",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: At the start of her work, Carol Dweck was at Stanford.  \nShe gave ten\u2011year\u2011old children a task.  \nThe task was a little too hard.  \nOne group liked the hard task.  \nA growth mindset is an idea.  \nPeople with this idea think they can learn.  \nThey also think they can get better later.  \nThey focused on what they could reach.  \nAnother group felt the task judged their smartness.  \nThey said they did not do well.  \nA fixed mindset is an idea.  \nPeople with this idea think they cannot change.  \nThey could not imagine getting better.  \nSome said they might cheat later.  \nOthers looked for a child who did not do as well.  \nThat helped them boost their self\u2011esteem.",
+      "timestamp": "2025-09-01 17:23:15.589408",
+      "metadata": {
+        "text_id": "dcde0ecd-6f6c-4f20-a334-9726db12c1ef",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:23:53.461689",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2cba7ad2-2f1b-4efa-83b1-ab6938ac7758",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8709 is below the required 0.90 threshold. This indicates a critical loss of lexical detail and key concepts from the original text.\n\n- CEFR Compliance Failure: The text was classified as B1, which is an immediate failure. The target level is A2.\n- Vocabulary Violation: The text uses unsimplified B1 and B2 level vocabulary. 'cheat' (B1), 'boost' (B2), and 'self-esteem' (B2) were taken directly from the source text. These words are not on the A2 list and must be replaced.\n- Structural Complexity: The text contains grammatical structures above the A2 level, contributing to the B1 classification. The sentence 'They focused on what they could reach' uses a noun clause, a B1 structure. The sentence 'Others looked for a child who did not do as well' uses a relative clause that is too complex for A2.\n- Meaning Loss: The simplification is excessive, leading to a loss of core meaning. The original's 'reacted positively, said they loved challenge' was reduced to 'liked the hard task', which fails to convey the essential concept of embracing difficulty for growth.\n\nSuggestion: Rephrase to restore lost meaning. Replace 'liked the hard task' with 'was happy with the hard task. They thought they could learn.' Remove all B1/B2 vocabulary. Replace 'cheat' with 'not follow the rules'. Replace 'boost their self-esteem' with 'feel better about themselves'. Break down complex sentences. Change 'a child who did not do as well' to 'another child. This child did not do well.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8709,
+          "meaningbert": 0.7925
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:24:02.139536",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck worked at Stanford.  \nShe gave ten\u2011year\u2011old children a task.  \nThe task was a little too hard.  \nOne group liked the hard task.  \nThey said they loved the challenge.  \nThey thought they could learn more.  \nThey believed they could get better later.  \nThis is called a growth mindset.  \nA growth mindset means they think they can learn and improve.  \nThe other group felt the task judged their ability.  \nThey said they did not do well.  \nThey thought they could not change.  \nThis is called a fixed mindset.  \nA fixed mindset means they think they cannot improve.  \nSome children said they might not follow the rules later.  \nOthers looked for another child.  \nThis other child did not do well.  \nThat made them feel better about themselves.",
+      "timestamp": "2025-09-01 17:24:02.139738",
+      "metadata": {
+        "text_id": "0823cb23-47cd-4b73-9507-e0a15bf756db",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:24:33.916246",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0b7a7a8b-045e-4265-90c6-23304a035231",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6643 is critically below the 0.75 minimum. This is a direct result of replacing the specific, strong concept of 'cheat' with the vague phrase 'not follow the rules', which loses the original text's core meaning. The BERTScore of 0.8617 also fails to meet the 0.90 threshold, indicating a significant loss of key vocabulary.\n\nAdditionally, the text fails the CEFR compliance check.\n- CEFR Classification: The text was classified as B1, not the required A2.\n- B1 Vocabulary Violation: The word 'challenge' is B1 level and was used without simplification.\n- B2 Vocabulary Violation: The word 'means' is B2 level. Its use in 'A growth mindset means...' is an unacceptable B-level structure.\n- Structural Error: Definitional sentences using 'means' are too complex for A2.\n\nSuggestion: Restore the concept of 'cheating' using simple A2 words. Remove the B1 word 'challenge' and replace it with a phrase like 'a hard thing to do'. Rephrase the definitions to avoid the word 'means'. Example: 'This is a growth mindset. These people think they can learn and improve.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8617,
+          "meaningbert": 0.6643
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:24:40.761940",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck worked at Stanford.  \nShe gave ten\u2011year\u2011old children a task.  \nThe task was a little too hard.  \nOne group liked the hard thing to do.  \nThey said they loved the hard thing to do.  \nThey thought they could learn more.  \nThey thought they could get better later.  \nThis is a growth mindset.  \nThese children think they can learn and improve.  \nThe other group felt the task judged their ability.  \nThey said they did not do well.  \nThey thought they could not change.  \nThis is a fixed mindset.  \nThese children think they cannot improve.  \nSome children said they might cheat later.  \nOthers looked for another child who did not do well.  \nThat made them feel better about themselves.",
+      "timestamp": "2025-09-01 17:24:40.762344",
+      "metadata": {
+        "text_id": "63d74ac5-6ae5-4f45-bce3-02a57e9ea86c",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:25:12.432649",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2646e3da-0e72-4972-9c6f-bd7e1cf84512",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.612 is critically below the 0.75 minimum threshold. This indicates a severe loss of the original text's core message.\n\nFidelity Failure: The BERTScore of 0.8671 is also below the required 0.90. Key lexical items from the original were lost.\n\nCEFR Compliance Failure: The text was classified as B1, not the required A2. This is due to the use of unsimplified B1 vocabulary.\n\nMeaning Dilution: The original's concept of children looking for others who did worse 'to boost their self-esteem' (a motivation) was changed to 'That made them feel better about themselves' (a simple result). This fundamentally alters the psychological point being made.\n\nVocabulary Error: The original's strong word 'failed' was weakened to 'did not do well', losing the intended impact.\n\nB1 Vocabulary: The text uses the B1 words 'growth', 'fixed', and 'cheat'. These are not A2 level. The word 'cheat' must be replaced with a simple A2 explanation.\n\nSuggestion: Restore the original meaning. The concepts of 'failure' and 'boosting self-esteem' are central and must be conveyed more accurately. Replace the B1 word 'cheat' with an A2 phrase like 'do something wrong to get the answer'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8671,
+          "meaningbert": 0.612
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:25:25.159811",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck worked at Stanford.  \nShe gave ten\u2011year\u2011old children a task.  \nThe task was a little too hard.  \nOne group liked the hard task.  \nThey said they loved the hard task.  \nThey thought they could learn more later.  \nThey said they could get better.  \nThis is a growth mindset.  \nA growth mindset means they think they can improve.  \nThe other group felt the task judged their ability.  \nThey said they had failed.  \nThey thought they could not change.  \nThis is a fixed mindset.  \nA fixed mindset means they think they cannot improve.  \nSome children said they might do something wrong.  \nThey might do this to get the answer later.  \nOthers looked for another child who did worse.  \nThat made them feel better about themselves.",
+      "timestamp": "2025-09-01 17:25:25.160201",
+      "metadata": {
+        "text_id": "4ca3e139-24ad-4b90-ab0e-7e16d138d797",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:25:51.108675",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e2d00611-c3af-4a48-98e3-67d3ee8c479f",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6722 is substantially below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\n- Fidelity Failure: The BERTScore of 0.8624 is below the 0.90 minimum. Key lexical items from the original text were lost during simplification.\n- Factual Inaccuracy: The original text states some children said they might 'cheat in the future'. Your version, 'do something wrong... to get the answer later', changes the meaning from a future behavior to an immediate one.\n- CEFR Compliance Failure: The text is classified as B1, not the required A2. This is a direct violation of the primary objective.\n- Vocabulary Violation: The text uses the B2-level words 'failed' and 'means'. These are not on the A2-approved list and are unacceptable. The word 'failed' is a core concept that must be rephrased using A2 vocabulary.\n\nSuggestion: You must rephrase the text to restore the original meaning and adhere strictly to A2 vocabulary. Remove the word 'failed' and replace it with an A2-level description, such as 'they did not do well'. Remove the word 'means' from your definitions. Correct the inaccurate simplification of 'cheat in the future'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8624,
+          "meaningbert": 0.6722
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:26:00.479119",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck works at Stanford.  \nShe gave ten\u2011year\u2011old children a task.  \nThe task was a little too hard.  \nOne group liked the hard task.  \nThey said they loved the challenge.  \nThey thought they could learn more later.  \nThey said they could get better.  \nThis shows a growth mindset.  \nA growth mindset is when they think they can improve.  \nThe other group thought the task showed their ability.  \nThey said they did not do well.  \nThey thought they could not change.  \nThis shows a fixed mindset.  \nA fixed mindset is when they think they cannot improve.  \nSome children said they might cheat in the future.  \nOthers looked for another child who did worse.  \nThat made them feel better about themselves.",
+      "timestamp": "2025-09-01 17:26:00.479572",
+      "metadata": {
+        "text_id": "f28bf7a8-abe8-4795-825c-6a66df6c37fe",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:26:29.082537",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f339d889-6d02-4c11-9e95-381b7fa8883a",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure and CEFR Compliance Failure. The text fails on two critical metrics, starting with Priority 2.\n\nFidelity Failure: The BERTScore of 0.8673 is below the required 0.90 threshold. This indicates a significant loss of key phrasing from the original text. For example, the concept 'boost their self-esteem' was replaced with 'made them feel better about themselves', which loses lexical precision and causes the score to drop.\n\nCEFR Compliance Failure: The CEFR classifier rated the text as B1, which is an automatic failure. The A2 standard was not met. This is caused by two main issues:\n1. Vocabulary: You used multiple B1-level words directly in the text, including 'challenge', 'growth', 'fixed', and 'cheat'. These words are not on the A2 list and must be replaced or explained using only A2 vocabulary.\n2. Sentence Structure: The sentence 'A growth mindset is when they think they can improve' uses a defining clause with 'when', which is a B1 grammatical structure.\n\nSuggestion: Rephrase the text to remove all B1 vocabulary. Define the key concepts using multiple simple A2 sentences instead of a single complex one. Example: 'This is a growth mindset. It means a person thinks they can get better.' This will correct both the vocabulary and sentence structure violations.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8673,
+          "meaningbert": 0.8153
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:26:37.891911",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck works at Stanford.  \nShe gave ten\u2011year\u2011old children a task.  \nThe task was a little too hard.  \nOne group liked the hard task.  \nThey said they loved the hard task.  \nThey thought they could learn more later.  \nThey said they could get better.  \nThis is a growth mindset.  \nIt means they think they can get better.  \nThe other group thought the task.  \nThey said they did not do well.  \nThey thought they could not get better.  \nThis is a fixed mindset.  \nIt means they think they cannot get better.  \nSome children said they might break the rules later.  \nOthers looked for another child who did worse.  \nThat helped them feel better about themselves.",
+      "timestamp": "2025-09-01 17:26:37.892630",
+      "metadata": {
+        "text_id": "72f2dd68-ddef-417b-84d6-6d453077e374",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:27:05.411997",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f5ce02c3-ccba-410c-9c7b-181508659e0e",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5864 is catastrophically below the required 0.75 threshold. The core message of the original text has been lost.\n\n- Primary Failure (MeaningBERT): The score of 0.5864 indicates a severe deviation from the original meaning. Your text replaced the specific concepts of children feeling their 'intelligence was being judged' and that they had 'failed' with the vague phrase 'did not do well'. This is an unacceptable loss of meaning.\n- Secondary Failure (BERTScore): The BERTScore of 0.8594 is below the 0.90 minimum. This is a direct result of replacing key terms like 'cheat' with the overly simplistic 'break the rules', which does not carry the same specific, negative weight.\n- Tertiary Failure (CEFR Compliance): The text was classified as B1, not the required A2. This is because you included the B1-level words 'growth' and 'fixed' directly in the text. These terms must be explained using only A2 vocabulary, not stated outright.\n\nSuggestion: You must rewrite the text to restore the lost concepts. Convey the idea that one group felt they were being tested and had failed. You must also find a way to explain the concept of 'cheating' using simple A2 words. Do not use the words 'growth' or 'fixed' in your final text.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8594,
+          "meaningbert": 0.5864
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:27:12.123760",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck works at Stanford.  \nShe gave ten\u2011year\u2011old children a task.  \nThe task was a little too hard.  \nOne group liked the hard task.  \nThey said they loved the challenge.  \nThey thought they could learn more later.  \nThey believed they could become better.  \nThis shows they think they can improve.  \nThe other group felt the task tested their intelligence.  \nThey said they had failed.  \nThey thought they could not become better.  \nThis shows they think they cannot improve.  \nSome children said they might cheat later.  \nOthers looked for another child who did worse.  \nThat helped them feel better about themselves.",
+      "timestamp": "2025-09-01 17:27:12.124210",
+      "metadata": {
+        "text_id": "131b2a3c-afba-4c3f-ac28-a6f8820e2798",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:27:40.687997",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a2472f51-3738-48e0-b4eb-98eba3252436",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.688 is well below the 0.75 minimum, and the BERTScore of 0.8716 is below the 0.90 minimum. This indicates a severe loss of the original text's core message and lexical detail.\n\n- Meaning Loss: The text describes the events of the experiment but loses the core psychological concepts. The original explains *why* the groups felt differently ('abilities could be developed' vs. 'intelligence was being judged'). Your version removes this essential explanation, reducing the text to a simple list of actions.\n\n- Vocabulary Non-Compliance: The text uses multiple B1 and B2 level words, which is a direct violation of the A2 standard. 'challenge', 'intelligence', 'failed', and 'cheat' are all too advanced for this level.\n\n- Structural Weakness: While the sentences are short, the complete lack of simple connectors makes the text choppy and difficult to follow. The relationship between ideas is lost.\n\nSuggestion: Rephrase to explain the *reason* for the children's feelings, not just the feelings themselves. Replace all B1/B2 vocabulary immediately. 'intelligence' must be simplified to 'how smart they are'. 'failed' must be simplified to 'did not do well'. 'cheat' must be simplified to 'not follow the rules'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8716,
+          "meaningbert": 0.688
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:27:49.026303",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck works at Stanford.  \nShe gave children who are ten years old a task.  \nThe task was a little too hard.  \nOne group liked the hard task.  \nThey said they liked the hard work.  \nThey thought they could learn more later.  \nThey thought they could become better.  \nThis shows a growth mindset.  \nThey think they can get better.  \nThe other group felt the task looked at how smart they are.  \nThey said they did not do well.  \nThey thought they could not become better.  \nThat shows a fixed mindset.  \nThey think they cannot get better.  \nSome children said they might not follow the rules later.  \nOthers looked for another child who did worse.  \nThat helped them feel better about themselves.",
+      "timestamp": "2025-09-01 17:27:49.028608",
+      "metadata": {
+        "text_id": "df0f39c0-2bec-4946-a2d5-937dbcf8b773",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:28:14.089206",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "acb0d24f-85e8-4beb-9453-94e2e5a79e56",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on multiple high-priority checks.\n\nPrimary Failure: The MeaningBERT score of 0.5992 is critically below the required 0.75 threshold. This indicates a severe loss of the original text's core message. The original's specific concept of children wanting to 'cheat' was diluted to 'not follow the rules', which is a different and weaker meaning.\n\nSecondary Failures:\n- Fidelity Failure: The BERTScore of 0.8626 is below the 0.90 minimum. This is a direct result of removing essential vocabulary such as 'intelligence', 'judged', 'failed', and 'cheat'. The text has lost too much lexical detail from the source.\n- CEFR Compliance Failure: The classifier rated the text as B1, not the required A2. The inclusion of the B1-level keywords 'growth' and 'fixed' without simplification or definition caused this misclassification.\n- Vocabulary Violation: The B1 words 'growth' and 'fixed' were used directly. For A2 compliance, these terms must be explained using simple A2 vocabulary, not just stated.\n\nCorrective Actions:\n- Restore the original meaning. The concept of 'cheating' must be reinstated. Rephrase 'not follow the rules' to something like 'Some children said they might cheat next time'.\n- Re-integrate key concepts. The idea of intelligence being 'judged' must be restored using A2-compliant language.\n- Address the B1 keywords. You must explain what a 'growth mindset' is using only A2 words. Do not use the B1 term itself in the main body of the text.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8626,
+          "meaningbert": 0.5992
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:28:25.484424",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck works at Stanford.  \nShe gave ten\u2011year\u2011old children a task.  \nThe task was a little too hard.  \nOne group liked the hard task.  \nThey said they liked the hard work.  \nThey thought they could learn more later.  \nThey thought they could become better.  \nThey believed hard work can make them become better.  \nThe other group felt the task judged how smart they were.  \nThey said they did not do well.  \nThey thought they could not become better.  \nSome children said they might cheat next time.  \nOthers looked for another child who did worse.  \nThat helped them feel better about themselves.",
+      "timestamp": "2025-09-01 17:28:25.484991",
+      "metadata": {
+        "text_id": "f23ce6f7-01ab-4339-a283-84a2322916dc",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:28:51.655842",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8bf1aae2-d96d-43a8-8792-1c189f86834b",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5812 is catastrophically below the required 0.75 threshold. This indicates a complete failure to preserve the core message of the original text. The BERTScore of 0.867 is also below the 0.90 minimum, showing a significant loss of key information.\n\n- Core Concept Omission: You removed the central concepts of 'growth mindset' and 'fixed mindset'. The entire purpose of the original text is to explain these two ideas. By omitting them, you have destroyed the meaning.\n- Keyword Failure: The keywords 'growth mindset' and 'fixed mindset' were provided for inclusion and definition. You did not use them at all. This is a critical error.\n- B1 Vocabulary Violation: The word 'cheat' is B1 level. It must be replaced with an A2-level phrase like 'copy answers' or 'not follow the rules'.\n\nSuggestion: Rewrite the text from the beginning. Your primary task is to explain 'growth mindset' and 'fixed mindset' using simple A2 sentences. You must include these exact terms in your output. Replace the word 'cheat'. The current output is not a summary; it is a collection of sentences with the main point removed.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.867,
+          "meaningbert": 0.5812
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:29:02.423550",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck works at Stanford.  \nShe gave ten\u2011year\u2011old children a task.  \nThe task was a little too hard.  \nOne group liked the hard task.  \nThey said they liked the challenge.  \nThey thought they could learn more4 later.  \nThey believed they could become better.  \nThey had a growth mindset.  \nA growth mindset means they think they can improve with effort.  \nThe other group felt the task judged how smart they were.  \nThey said they did not do well.  \nThey thought they could not become better.  \nThey had a fixed mindset.  \nA fixed mindset means they think their ability cannot change.  \nSome children said they might copy answers next time.  \nOthers looked for another child who did worse.  \nThat helped them feel better.",
+      "timestamp": "2025-09-01 17:29:02.424182",
+      "metadata": {
+        "text_id": "a1b2b39a-3540-4812-946d-f89434710825",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:29:30.347736",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "115b2d99-74e2-4e66-b33b-511e0636f8bc",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7316 is below the 0.75 threshold, and the BERTScore of 0.8657 is below the 0.90 threshold. This indicates a critical failure to preserve the core message and key vocabulary of the original text.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is an automatic failure.\n- Vocabulary Violation (B1): The word 'challenge' is B1. It was used directly instead of being simplified. The words 'growth', 'effort', and 'fixed' are also B1.\n- Vocabulary Violation (B2): The word 'means' is B2. It was used in the keyword definitions, which is a severe error.\n- Defective Definitions: The definitions for 'growth mindset' and 'fixed mindset' are invalid because they introduce higher-level vocabulary ('means', 'effort') instead of explaining the concepts in simple A2 terms.\n- Typographical Error: The text contains the error 'more4'. This level of carelessness is unacceptable.\n\nSuggestion: Rewrite the text to restore the original meaning more accurately. Remove all B1 and B2 vocabulary. The word 'challenge' must be rephrased using A2 words like 'a hard new thing'. The definitions must be rewritten using only A1/A2 vocabulary. For example: 'A growth mindset is when you think you can get better if you try hard.' Proofread the final text to eliminate all errors.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8657,
+          "meaningbert": 0.7316
+        }
+      }
+    }
+  ]
+}

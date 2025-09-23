@@ -1,0 +1,80 @@
+{
+  "session_id": "a623f18d-d878-4595-b43e-c5d280aa3fdc",
+  "created_at": "2025-09-01 17:08:38.389420",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:08:40.697076",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "97-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Gary Collins was a policeman.\nHe was not working.\nHe watched the London riots on TV.\nHe saw some people he knew very fast.\nHe stopped his holiday early.\nHe wanted to help find these people.\nHe looked at CCTV videos for six months.\nHe found 190 people.\nHe knew many people just from their eyes.\nHis help was very important for the police work.\nThere were 200,000 hours of video.\nA computer program looked at faces.\nBut it found only one person.",
+      "timestamp": "2025-09-01 17:08:40.697204",
+      "metadata": {
+        "text_id": "6173e7cb-1030-4fcd-bbf9-57a930fff2f7",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 7/10 - FAIL",
+      "timestamp": "2025-09-01 17:08:44.921241",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5f3e2151-acea-4834-8b03-0cdec4869552",
+        "grade": 7,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Deviation. While the text successfully passed the factual, meaning, and CEFR classifier checks, it contains vocabulary items that exceed the A2 level. This is a critical deviation. The sentence structure is appropriately simple for A2. However, the following specific issues were identified: The word 'riots' is a B1-level vocabulary item. An A2 simplification would be 'big fights' or 'trouble in the city'. The acronym 'CCTV' is not typically A2. A simpler explanation like 'camera videos' or 'security camera films' would be more appropriate. Suggestion: Replace 'riots' with a simpler A2 phrase. Rephrase 'CCTV videos' to avoid the acronym and use more common A2 terms.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9235,
+          "meaningbert": 0.8634
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:08:59.820848",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Gary Collins was a policeman.\nHe was not working.\nHe watched the London trouble in the city on TV.\nHe saw some people he knew very fast.\nHe stopped his holiday early.\nHe wanted to help find these people.\nHe looked at camera videos for six months.\nHe found 190 people.\nHe knew many people just from their eyes.\nHis help was very important for the police work.\nThere were 200,000 hours of video.\nA computer program looked at faces.\nBut it found only one person.",
+      "timestamp": "2025-09-01 17:08:59.821215",
+      "metadata": {
+        "text_id": "e3391818-e9ea-4b1c-8cda-e13aaf205ede",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 17:09:16.238769",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c63ea2e8-b197-48af-bb8e-81f50672c1ec",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text successfully adheres to all A2 readability standards and diagnostic protocols. Factual integrity is maintained, with no discrepancies found when comparing the writer's output to the original text. The MeaningBERT score of 0.8524 is well above the 0.75 threshold, indicating excellent preservation of the core message. The BERTScore of 0.9193 exceeds the 0.90 requirement, demonstrating strong lexical fidelity. The CEFR classifier accurately rated the text as A2, confirming its appropriate linguistic complexity. The vocabulary used is entirely within the A2 level, with no unapproved B1/B2 words detected. Sentence structures are consistently short and simple, and connectors are appropriately limited to A1/A2 level usage ('But').",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9193,
+          "meaningbert": 0.8524
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "session_id": "fdecec55-6336-4c74-9c15-558656fde97e",
+  "created_at": "2025-09-01 10:32:59.554064",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:32:59.575717",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "54-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Faith47 is from Cape Town in South Africa. She is an artist. She paints big pictures of people and animals. Her pictures have many colours. She likes to paint in different places.\n\nYou can see her work on streets. She also paints in empty factories. And she paints on old cars that nobody wants.\n\nShe likes that her street art does not stay forever. Soon, the weather will wash it away. Or people who work for the city will clean it. She thinks this is like life. Life is always changing. Old things end and new things start.",
+      "timestamp": "2025-09-01 10:32:59.575941",
+      "metadata": {
+        "text_id": "259b7b11-f216-4ced-87ef-b4b192326bf7",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 8/10 - FAIL",
+      "timestamp": "2025-09-01 10:32:59.582320",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9cc2de66-630d-407b-b68d-735be5f85c8a",
+        "grade": 8,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Standard Violation. The text passed all primary metric checks for factual integrity, meaning preservation, and CEFR classification. However, a deep qualitative audit reveals a critical vocabulary error.\n\n- B1 Vocabulary Usage: The text uses the word 'forever', which is classified as B1 level. All vocabulary must strictly adhere to the A2 standard. The sentence 'She likes that her street art does not stay forever' contains this non-compliant word.\n\nSuggestion: Replace 'forever' with an A2-compliant phrase. Use 'for a long time' or 'always'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9169,
+          "meaningbert": 0.8311
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:33:10.644130",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Faith47 is from Cape Town in South Africa. She is an artist. She paints big pictures of people and animals. Her pictures have many colours. She likes to paint in different places.\n\nYou can see her work on streets. She also paints in empty factories. And she paints on old cars that nobody wants.\n\nShe likes that her street art does not stay for a long time. Soon, the weather will wash it away. Or people who work for the city will clean it. She thinks this is like life. Life is always changing. Old things end and new things start.",
+      "timestamp": "2025-09-01 10:33:10.645662",
+      "metadata": {
+        "text_id": "b72bd2cf-1776-4e03-83db-6bf83fd5c517",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 10:33:36.203561",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b61163cb-fa40-4d30-a7b3-ee08e8c40c9f",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text successfully passes all stages of the diagnostic protocol.\n\n- Factual Integrity: The output is factually identical to the original text. All key information has been retained without error.\n\n- Meaning and Fidelity: The MeaningBERT score of 0.84 and BERTScore of 0.92 are well above the required thresholds. This confirms the core message and key lexical items have been preserved with high fidelity.\n\n- CEFR Compliance: The text is correctly classified as A2. A manual audit confirms this classification is accurate.\n\n- Qualitative Audit: The text is an exemplary model of A2 simplification. Vocabulary is strictly limited to the A1 and A2 levels. Complex concepts from the original, such as 'temporary' and 'cycle of endings and new beginnings', have been expertly rephrased into simple, declarative sentences appropriate for the target level. Sentence structure is consistently simple and clear.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9156,
+          "meaningbert": 0.8417
+        }
+      }
+    }
+  ]
+}

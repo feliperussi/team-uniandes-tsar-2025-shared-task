@@ -1,0 +1,413 @@
+{
+  "session_id": "30ce45d2-0713-4b46-9b46-fb757d741c5d",
+  "created_at": "2025-09-01 17:05:59.179988",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:05:59.192876",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "85-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A `species` is a group of animals or plants that are the same kind.\n\nZoos do important work now. They help animals have babies. This is for many countries. It is especially for `species` in danger.\n\nIn nature, some `species` are very rare. They cannot find a partner easily. They cannot have babies easily. Also, bad people hunt them. They lose their homes. Other animals hunt them.\n\nA good zoo helps these `species`. They can live there. They can have babies there. It is a safe place.\n\nAlso, fewer wild `species` live in nature. So, the animals become too much alike. This is a problem for their family.\n\nHaving babies in zoos helps. Animals from zoos can go back to nature. This makes the animal families more different. This is good for them.",
+      "timestamp": "2025-09-01 17:05:59.193035",
+      "metadata": {
+        "text_id": "f51cc61a-c316-4f72-8912-007cf7fd08db",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:06:00.287323",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "831b9ff1-6a30-4d71-aadd-5cd525ffd6c0",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5955 is too low (below the required 0.75). The core message regarding the specific functions of zoos, such as providing a 'safeguard' against 'genetically similar' populations and the strategic nature of 'breeding programmes', has been significantly diluted or lost in the simplification. The original text conveys a more nuanced understanding of conservation efforts that is not fully captured.\n\n*   Fidelity Failure: The BERTScore of 0.8647 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original text. For example, 'international breeding programmes' was simplified to 'help animals have babies. This is for many countries.', and 'increased danger of populations becoming too genetically similar' was reduced to 'animals become too much alike. This is a problem for their family.'\n*   Vocabulary Deviation: The word 'species' (B1) is used repeatedly throughout the text. While it was defined at the beginning, for a strict A2 level, consistent use of a B1 word is a deviation. Simpler alternatives like 'animal group' or 'kind of animal' should be used more frequently after the initial definition.\n*   Vocabulary Deviation: The word 'rare' (B1) is used in 'some species are very rare.' This word is above the A2 level.\n*   Vocabulary Deviation: The word 'hunt' (B1) is used in 'bad people hunt them.' This word is above the A2 level.\n*   Vocabulary Deviation: The word 'alike' (B1) is used in 'animals become too much alike.' This word is above the A2 level.\n\nSuggestion: Rephrase the text to ensure the strategic and protective aspects of zoo functions are clearly conveyed, using A2 vocabulary. Specifically, restore the concepts of 'programmes' and 'safeguard' in A2 terms. Replace all B1 vocabulary with A2 equivalents or simpler phrases. Ensure the lexical fidelity to the original's key terms is higher.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8647,
+          "meaningbert": 0.5955
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:06:15.547817",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A 'species' is a group of animals or plants that are the same kind.\n\nZoos do important work now. They have special plans to help animal groups have babies. These plans are for many countries. This is especially for animal groups in danger.\n\nIn nature, some animal groups are very few. They cannot find a partner easily. They cannot have babies easily. Also, bad people kill them. They lose their homes. Other animals kill them.\n\nA good zoo helps these animal groups. They can live there. They can have babies there. It is a safe place.\n\nAlso, fewer wild animal groups live in nature. So, the animals in one group become too much the same. This is a danger for their group.\n\nHaving babies in zoos helps. This is a way to keep them safe. Animals from zoos can go back to nature. This makes the animal groups more different. This is good for them.",
+      "timestamp": "2025-09-01 17:06:15.548169",
+      "metadata": {
+        "text_id": "a5438b73-cb71-4630-bd6f-00c8f7fce712",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:06:53.108155",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "20944909-71d8-407f-b1d7-0f67d7171aa7",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The text failed on two critical metrics. The MeaningBERT score of 0.4724 is significantly below the required 0.75, indicating a substantial loss of the original text's core message and scientific nuance. The BERTScore of 0.8638 is also below the required 0.90, demonstrating a failure to preserve key words and factual phrasing from the original. \n\nSpecific Deviations:\n- Meaning Preservation Failure: The core concept of 'genetic diversity' was reduced to 'makes the animal groups more different. This is good for them.' This simplification loses the scientific precision and the full implication of the original meaning. Similarly, 'safeguard' was diluted to 'way to keep them safe,' losing the strategic purpose.\n- Lexical Fidelity Failure: Key terms from the original text were replaced with less precise or overly simplified phrases, contributing to the low BERTScore. Examples include 'international breeding programmes' becoming 'special plans to help animal groups have babies. These plans are for many countries.', 'endangered species' becoming 'animal groups in danger.', 'poachers' becoming 'bad people', 'habitat' becoming 'homes', 'predators' becoming 'Other animals', 'genetically similar' becoming 'too much the same', and 'genetic diversity' becoming 'more different'.\n- Content Addition: The definition of 'species' at the beginning of the output ('A 'species' is a group of animals or plants that are the same kind.') is an addition not present in the original text. The task is to rephrase the provided text, not to add supplementary information.\n\nSuggestion: Rephrase the text to maintain the scientific precision of terms like 'genetic diversity' and 'safeguard' while still using A2 vocabulary. Ensure that key terms, even if simplified, retain their specific meaning. Do not add content that is not present in the original text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8638,
+          "meaningbert": 0.4724
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:07:31.747808",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Zoos do important work now. They have special plans to help animal groups have babies. These plans are for many countries. This is especially for animal groups in danger.\nIn nature, some animal groups are very few. They cannot find a partner easily. They cannot have babies easily. Also, bad people hunt them. They lose their homes. Other animals kill them.\nA good zoo helps these animal groups. They can live there. They can have babies there. It is a safe place.\nAlso, fewer wild animal groups live in nature. So, the animals in one group become too much the same. This is a danger for their group.\nHaving babies in zoos helps. This is a plan to keep them safe for the future. Animals from zoos can go back to nature. This makes the animal groups stronger.",
+      "timestamp": "2025-09-01 17:07:31.748428",
+      "metadata": {
+        "text_id": "bda27b77-ed03-4ee7-a5a7-aab5b1a93c99",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:08:00.444918",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6636428e-f4a3-4d4d-aefa-1672fa0d3c59",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation and Fidelity Failure. The MeaningBERT score of 0.5157 is significantly below the required 0.75, indicating a substantial loss of the original text's core message. The BERTScore of 0.8775 is also below the required 0.90, showing a significant loss of key words and factual phrasing. Deviations: - Meaning Preservation Failure: The original text's emphasis on 'international breeding programmes' as a 'modern function' and a 'safeguard' to increase 'genetic diversity' is lost. Your version simplifies 'genetic diversity' to 'makes the animal groups stronger,' which is too vague and does not convey the specific biological benefit. The concept of 'safeguard' is also weakened to 'plan to keep them safe for the future.' - Fidelity Failure: Key terms from the original text are replaced with overly simple or less precise phrases, leading to a low BERTScore. 'International breeding programmes' is simplified to 'special plans to help animal groups have babies. These plans are for many countries.' 'Endangered species' is simplified to 'animal groups in danger.' 'Rarest species' is simplified to 'animal groups are very few.' 'Difficulty in finding mates and breeding' is simplified to 'cannot find a partner easily. They cannot have babies easily.' 'Poachers' is simplified to 'bad people hunt them.' 'Loss of their habitat' is simplified to 'They lose their homes.' 'Predators' is simplified to 'Other animals kill them.' 'Genetically similar' is simplified to 'too much the same.' 'Increase genetic diversity' is simplified to 'makes the animal groups stronger.' Suggestion: Rephrase the text to retain more of the original meaning and specific vocabulary, even when simplifying. Ensure that the core purpose of the breeding programmes (genetic diversity, safeguard) is clearly communicated. Do not sacrifice precision for simplicity to this extent. Restore the lexical density closer to the original while maintaining A2 structures.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8775,
+          "meaningbert": 0.5157
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:08:22.917440",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Zoos do important work now. They have special plans. These plans help animals have babies. Many countries work together on these plans. These plans are for endangered species. An endangered species is a type of animal in danger.\n\nIn the wild, some species are very rare. A rare species is a type of animal that is very few. They cannot find a mate easily. They cannot have babies easily. Also, poachers hunt them. Poachers are bad people who hunt animals. They lose their habitat. Habitat is their home. Other animals kill them. These are predators. Predators are animals that kill other animals.\n\nA good zoo helps these species. They can live there. They can have babies there. It is a safe place.\n\nAlso, fewer wild species live in nature. So, the animals in one species become too much the same. This is a danger for their genes. Genes make animals special.\n\nBreeding programmes help. They are a safeguard. A safeguard is a plan to keep something safe. Animals from zoos can go back to the wild. This makes the species more diverse. Diverse means they have different genes. This makes them stronger.",
+      "timestamp": "2025-09-01 17:08:22.917840",
+      "metadata": {
+        "text_id": "bf8f24e8-b1bf-4a98-9df8-6a5fe2f99d9c",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:08:59.837691",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ed26b3a7-54c4-4bc3-8e49-43c433c96966",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity and Meaning Preservation Failure. The BERTScore of 0.8695 is below the required 0.90, indicating a significant loss of key words and factual phrasing from the original text. Additionally, the MeaningBERT score of 0.7404 is just below the required 0.75, suggesting a slight dilution of the original message's nuance. Deviations: BERTScore (0.8695) is below the 0.90 threshold. The extensive rephrasing and simplification, while aiming for A2, replaced too many original lexical items. For example, 'international breeding programmes' was replaced with 'special plans. These plans help animals have babies. Many countries work together on these plans.' While the meaning is conveyed, the specific terminology is lost. MeaningBERT (0.7404) is below the 0.75 threshold. The original text emphasizes 'One of the most important modern functions of zoos is supporting international breeding programmes'. Your version states 'Zoos do important work now. They have special plans.' This slightly reduces the emphasis on 'modern functions' and the direct link to 'international breeding programmes' as the primary function. Corrective Path: Rephrase to retain more of the original text's specific vocabulary while still simplifying sentence structure. For example, try to keep 'international breeding programmes' and define it, rather than replacing it entirely. Ensure that the core emphasis of the original text, such as the primary function of zoos, is explicitly maintained, not just implied.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8695,
+          "meaningbert": 0.7404
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:09:20.383100",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Zoos do very important work now. One important job is international breeding programmes. These are special plans. Many countries work together on these plans. These plans help endangered species have babies. A species is a type of animal. An endangered species is a type of animal in danger.\n\nIn nature, some species are rare. A rare species is a type of animal that is very few. They cannot find a partner easily. They cannot have babies easily. Also, bad people hunt them. These people are poachers. Animals lose their home. This home is their habitat. Other animals eat them. These animals are predators.\n\nA good zoo helps these species. They can live there. They can have babies there. It is a safe place for them.\n\nAlso, fewer species live in nature. So, the animals in one species become too much the same. This is a danger for their genes. Genes make animals special. Breeding programmes help with this danger. They are a safeguard. A safeguard is a plan to keep something safe. Animals from zoos can go back to nature. This makes the species more diverse. Diverse means they have different genes. This makes them stronger.",
+      "timestamp": "2025-09-01 17:09:20.383552",
+      "metadata": {
+        "text_id": "c4100864-8693-48a6-b675-b7e195b1bfb3",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:09:47.403123",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1c9e977c-a221-42cb-8aea-a0c5fb2d8067",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8703 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original text. The extensive simplification and definition of terms, while attempting to reach A2, resulted in a low lexical overlap with the source material, failing to preserve the original's specific terminology. Additionally, the text failed CEFR Compliance, being classified as B1 instead of the required A2. This is due to the inclusion of several B1-level words such as 'species', 'rare', 'hunt', 'habitat', and 'diverse', even when defined. Furthermore, the word 'means' (B2-level) was used in the sentence 'Diverse means they have different genes'. The sentence 'A rare species is a type of animal that is very few' uses a relative clause ('that is very few') which is typically a B1 structure, exceeding A2 grammatical complexity. Suggestion: Replace all B1 and B2 vocabulary with A1/A2 equivalents. Avoid relative clauses. Rephrase sentences to maintain lexical fidelity to the original while simplifying structure.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8703,
+          "meaningbert": 0.7564
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:10:08.573265",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Zoos do very important work now. One important job is international breeding plans. These are special plans. Many countries work together on these plans. These plans help animal groups in danger have babies. An animal group is a type of animal.\n\nIn nature, some animal groups are very few. They cannot find a partner easily. They cannot have babies easily. Also, bad people kill them. These people are poachers. Animals lose their home. This home is where they live. Other animals eat them. These animals are predators.\n\nA good zoo helps these animal groups. They can live there. They can have babies there. It is a safe place for them.\n\nAlso, fewer animal groups live in nature. So, the animals in one group become too much the same. This is a danger for their genes. Genes make animals special. Breeding plans help with this danger. They are a safeguard. A safeguard is a plan to keep something safe. Animals from zoos can go back to nature. This makes the animal group more different. This makes them have different genes. This makes them stronger.",
+      "timestamp": "2025-09-01 17:10:08.573726",
+      "metadata": {
+        "text_id": "061d9142-0f35-4a1f-aeda-248cb95b9ca6",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:10:48.028997",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5a7700b1-c047-4caa-b271-de69adb284c8",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The primary reason for failure is the introduction of information not present in the original text. The sentence 'This makes them stronger' is an inference added by the writer and is not a direct factual statement from the original source material. Adherence to the original text's factual content is absolute.\n\nAdditional deviations from the required standard are as follows:\n\n*   Meaning Preservation Failure: The MeaningBERT score of 0.5615 is significantly below the required threshold of 0.75. This indicates a substantial loss of the core message and nuance from the original text due to oversimplification.\n*   Fidelity Failure: The BERTScore of 0.8655 is below the required 0.90. This demonstrates a significant loss of key lexical items and factual phrasing from the original text, which were either omitted or replaced with overly simplistic alternatives.\n*   CEFR Compliance Failure: The CEFR classifier rated the text as 'B1', not the required 'A2'. Despite extensive simplification, the text still contains elements that elevate its complexity. The repeated use of the term 'genes', even with a simplified definition ('Genes make animals special'), is a likely contributor to this B1 classification, as 'genes' is typically a B1 or higher vocabulary item.\n*   Vocabulary Deviation: The word 'genes' is not considered an A2-level vocabulary item. While an attempt was made to define it, the presence of the term itself is a deviation from strict A2 vocabulary guidelines.\n\nSuggestion: Remove all inferences and elaborations not explicitly stated in the original text, such as 'This makes them stronger'. Rephrase the text to ensure the core meaning and key factual details are preserved while adhering to A2 structures and vocabulary. Replace or re-explain concepts like 'genes' using only A2-level vocabulary and sentence structures, avoiding the specific term if it cannot be adequately simplified within A2 constraints.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8655,
+          "meaningbert": 0.5615
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:11:01.846633",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Zoos do very important work now. One important job is international breeding plans. These are special plans. Many countries work together on these plans. These plans help animal groups in danger have babies. An animal group is a type of animal.\n\nIn nature, some animal groups are very few. They cannot find a partner easily. They cannot have babies easily. Also, bad people kill them. These people are poachers. Animals lose their home. This home is where they live. Other animals eat them. These animals are predators.\n\nA good zoo helps these animal groups. They can live there. They can have babies there. It is a safe place for them.\n\nAlso, fewer animal groups live in nature. So, the animals in one group become too much the same. This is a danger for the animal group. Breeding plans help with this danger. They are a safeguard. A safeguard is a plan to keep something safe. Animals from zoos can go back to nature. This makes the animal group more different.",
+      "timestamp": "2025-09-01 17:11:01.846966",
+      "metadata": {
+        "text_id": "4e59c370-1786-4109-ba81-44ebf966062d",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:11:23.157627",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "869970b6-5d9f-41c5-8b79-25de68fbfd65",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation and Fidelity Failure. The text has failed to retain the core message and lexical detail of the original, resulting in a significant loss of information and nuance. The extensive simplification has rendered the output inadequate for an A2 audience seeking to understand the original content. The MeaningBERT score of 0.5452 is far below the required 0.75 threshold. This indicates a severe degradation of the original meaning. For example, the critical concept of 'genetically similar' was reduced to 'too much the same', and 'genetic diversity' to 'more different', which are vague and lose the specific scientific meaning. The BERTScore of 0.8672 is below the required 0.90. This demonstrates a significant loss of key vocabulary and factual phrasing. Terms like 'modern functions', 'supporting international breeding programmes', 'particularly for endangered species', 'habitat', and 'populations becoming too genetically similar' were either omitted or replaced with overly simplistic and less precise phrasing. Suggestion: Re-evaluate the simplification strategy. Prioritize the preservation of core concepts and key vocabulary. If a term is complex, define it simply, but do not replace it with a vague approximation that sacrifices meaning. Ensure that the output maintains a MeaningBERT score of at least 0.75 and a BERTScore of at least 0.90 to accurately reflect the original text's content.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8672,
+          "meaningbert": 0.5452
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:11:39.065226",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Zoos do important work today.\nOne important job is to help animals have babies.\nThis is called a breeding programme.\nThese programmes are for animal species in danger.\nAn animal species is a type of animal.\nMany countries work together on these plans.\n\nIn nature, some animal species are very few.\nThey cannot find a partner easily.\nThey cannot have babies easily.\nAlso, bad people kill them. These people are poachers.\nAnimals lose their natural home. This home is where they live.\nOther animals eat them. These animals are predators.\n\nA good zoo helps these animal species.\nThey can live there.\nThey can have babies there.\nIt is a safe place for them.\n\nAlso, fewer animal species live in nature.\nSo, the animals in one species become too much like family.\nThis is a danger for the animal species.\nWhen animals are too much like family, they can get sick easily.\n\nBreeding programmes help with this danger.\nThey are a safeguard. A safeguard is a plan to keep something safe.\nAnimals from zoos can go back to nature.\nThese new animals are not like family to the wild animals.\nThis makes the animal species stronger.",
+      "timestamp": "2025-09-01 17:11:39.065804",
+      "metadata": {
+        "text_id": "d4c40fd4-9342-4123-a1e3-3febf4105ad6",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:12:05.227918",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "024937dc-38e3-45cb-9b0a-d68e0f55b710",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The MeaningBERT score of 0.5441 is significantly below the required 0.75. Your extensive simplification has diluted the core message, particularly the emphasis on the 'functions' of zoos and the precise concept of 'genetic diversity'. The BERTScore of 0.8627 is also below the required 0.90. This indicates a significant loss of key lexical items and factual phrasing from the original text. While simplification is necessary for A2, the replacement of specific terms with overly general or fragmented phrases has resulted in a lack of lexical fidelity. For example, 'international breeding programmes' was broken into multiple sentences ('help animals have babies. This is called a breeding programme. These programmes are for animal species in danger. Many countries work together on these plans.'), losing the direct lexical connection and the cohesive concept. Similarly, 'increase genetic diversity' was replaced with 'These new animals are not like family to the wild animals. This makes the animal species stronger.' While an A2 explanation, it deviates too much lexically from the original. Suggestion: Rephrase to retain more of the original's specific terminology where possible, while still simplifying the sentence structure. Ensure that the core concepts, such as the 'functions' of zoos and the specific benefit of 'genetic diversity', are clearly and concisely conveyed, even with simpler words. Do not fragment key concepts into too many separate sentences, as this can dilute the overall meaning and lexical density.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8627,
+          "meaningbert": 0.5441
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:12:42.377344",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Zoos have an important job today.\nThey help animals have babies. This is called a breeding programme.\nMany countries work together on these plans for animals in danger.\nAn animal species is a type of animal.\n\nIn nature, some animal species are very few.\nThey cannot find a partner easily.\nThey cannot have babies easily.\nAlso, bad people kill them. These people are poachers.\nAnimals lose their natural home. This home is where they live.\nOther animals eat them. These animals are predators.\n\nA good zoo helps these animal species.\nThey can live there.\nThey can have babies there.\nIt is a safe place for them.\n\nAlso, fewer animal species live in nature.\nSo, the animals in one species become too similar.\nThis is a danger for the animal species.\nWhen animals are too similar, they can get sick easily.\n\nBreeding programmes help with this danger.\nThey are a safeguard. A safeguard is a plan to keep something safe.\nAnimals from zoos can go back to nature.\nThey help the wild animals to be more different.\nThis makes the animal species stronger and healthier.",
+      "timestamp": "2025-09-01 17:12:42.378105",
+      "metadata": {
+        "text_id": "7071406e-36d8-4d2f-a013-b091f3023e29",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:13:18.487349",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "61f34087-8086-4b6a-9e56-5448fa11a6e0",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The writer's output introduces information not present in the original text. The original states 'there is an increased danger of populations becoming too genetically similar', but the writer adds 'When animals are too similar, they can get sick easily'. This is an elaboration not found in the source. Additionally, the original states 'to increase genetic diversity', but the writer adds 'This makes the animal species stronger and healthier', which is an interpretation of the benefit, not a direct fact from the original. These additions violate the principle of factual integrity. Further deviations from the standard include: Meaning Preservation Failure: The MeaningBERT score of 0.5741 is significantly below the required 0.75. This indicates a failure to preserve the core message and the functional relationships between concepts, such as the link between international breeding programmes, endangered species, and genetic diversity as a safeguard. Fidelity Failure: The BERTScore of 0.8629 is below the required 0.90. This demonstrates a significant loss of key lexical items and factual phrasing from the original text due to oversimplification and replacement of specific terms. CEFR Compliance Failure: The CEFR classifier rated the text as B1, not A2. This indicates the text is too complex for the target level. Specific issues include the repeated use of the B1 vocabulary item 'species'. Also, the sentence 'When animals are too similar, they can get sick easily' uses a subordinate clause ('When...'), which is a B1 grammatical structure. Suggestion: Remove all added explanatory details and focus strictly on simplifying the facts presented in the original text. Rephrase sentences to use only A2 vocabulary and simple, independent clauses. Ensure all key concepts and their relationships are preserved without adding new information or interpretations.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8629,
+          "meaningbert": 0.5741
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:13:40.736793",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Zoos have an important job today.\nThey help animals have babies. This is called a breeding programme.\nMany countries work together on these plans for animals in danger.\nA species is a type of animal.\n\nIn nature, some animal types are very few.\nThey cannot find a partner easily.\nThey cannot have babies easily.\nAlso, bad people kill them. These people are poachers.\nAnimals lose their natural home. This home is where they live.\nOther animals eat them. These animals are predators.\n\nA good zoo helps these animal types.\nThey can live there.\nThey can have babies there.\nIt is a safe place for them.\n\nAlso, fewer animal types live in nature.\nSo, the animals in one animal type become too similar.\nThis is a danger for the animal type.\n\nBreeding programmes help with this danger.\nThey are a safeguard. A safeguard is a plan to keep something safe.\nAnimals from zoos can go back to nature.\nThey help the wild animals to be more different.",
+      "timestamp": "2025-09-01 17:13:40.737321",
+      "metadata": {
+        "text_id": "2d58b317-7383-4010-a685-84e95e46b9b4",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:14:02.871525",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d2611568-8b7b-4102-b8eb-01a48291b53f",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The MeaningBERT score of 0.5529 is significantly below the required 0.75, indicating a substantial loss of the original text's core message and scientific nuance. The BERTScore of 0.8629 is also below the required 0.90, showing a failure to retain key lexical items and factual phrasing. Specific deviations include: The concept of 'modern functions' is lost, replaced by 'important job today'. The specific focus on 'endangered species' is diluted to 'animals in danger'. The scientific term 'genetically similar' is simplified to 'too similar', losing the precise biological meaning. The crucial concept of 'genetic diversity' is reduced to 'be more different', which is an oversimplification that distorts the original meaning. Key terms like 'international', 'programmes', 'mates', 'breeding' (as a single concept), 'populations', and 'habitat' (though 'natural home' is used, 'habitat' is a specific term) are either lost or overly simplified, leading to a significant reduction in lexical fidelity. Suggestion: Rephrase to preserve the specific scientific and functional aspects of zoos and breeding programmes. Ensure that key terms like 'endangered', 'genetic diversity', and 'habitat' are either retained or defined in a way that fully captures their meaning, rather than simply replacing them with less precise synonyms. Focus on maintaining the specific scientific concepts, even when simplifying language.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8629,
+          "meaningbert": 0.5529
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:14:18.388769",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Zoos have important new jobs.\nThey help animals have babies. This is called a breeding programme.\nMany countries work together on these programmes.\nThey are for endangered species. A species is a type of animal.\nEndangered means there are very few of them.\n\nIn nature, some endangered species are very few.\nThey cannot find a partner easily.\nThey cannot have babies easily.\nBad people also kill them. These people are poachers.\nAnimals lose their natural home. This home is where they live.\nOther animals eat them. These animals are predators.\n\nA good zoo helps these endangered species.\nThey can live there.\nThey can have babies there.\nIt is a safe place for them.\n\nAlso, the number of wild animals goes down.\nSo, animals in one group become too much like each other.\nThis is a danger for the animal group.\nTheir families become too similar.\n\nBreeding programmes help with this danger.\nThey are a safeguard. A safeguard is a plan to keep something safe.\nAnimals from zoos can go back to nature.\nThey help the wild animals to be more different.\nThis makes their families stronger and healthier.",
+      "timestamp": "2025-09-01 17:14:18.389449",
+      "metadata": {
+        "text_id": "49301753-d3bb-4f7a-9d00-1de4a4e8efd0",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:14:43.638156",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "bf6835c1-d09c-4980-8105-c275e324b7b1",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The text failed to preserve the core meaning and lexical fidelity of the original. The MeaningBERT score of 0.5853 is significantly below the required 0.75, indicating a substantial loss of the original message. The BERTScore of 0.8632 is also below the required 0.90, showing a significant deviation in key vocabulary and phrasing. \n\nDeviations:\n- Meaning Preservation Failure: The original text emphasizes 'One of the most important modern functions of zoos is supporting international breeding programmes'. Your version breaks this into multiple simple sentences ('Zoos have important new jobs. They help animals have babies. Many countries work together on these programmes.'), losing the direct connection and the emphasis on 'modern functions' and 'supporting' as a unified concept. The nuanced meaning of 'genetic diversity' was also diluted to 'be more different' and 'families stronger and healthier', which is an interpretation rather than a direct preservation of the original's specific meaning.\n- Lexical Fidelity Failure: Key terms and phrases from the original were replaced or omitted, leading to the low BERTScore.\n  - 'modern functions' was replaced with 'new jobs'.\n  - 'supporting international breeding programmes' was broken down and the concept of 'supporting' was lost.\n  - 'particularly for endangered species' lost the emphasis of 'particularly'.\n  - 'rarest species' was simplified to 'endangered species are very few', losing the specific nuance of 'rarest'.\n  - 'difficulty in finding mates and breeding' was broken into 'cannot find a partner easily. They cannot have babies easily.', losing the original phrasing.\n  - 'threatened by poachers, loss of their habitat and predators' was fragmented into separate sentences, losing the concise 'threatened by' structure.\n  - 'secure environment' was simplified to 'safe place'.\n  - 'populations becoming too genetically similar' lost the specific term 'populations' and 'genetically'.\n  - 'increase genetic diversity' was simplified to 'be more different' and 'makes their families stronger and healthier', losing the precise scientific term 'genetic diversity'.\n\nSuggestion: Rephrase the text to maintain a closer lexical and semantic link to the original. Ensure that the core concepts, such as 'modern functions' and 'genetic diversity', are conveyed with greater precision, even if simplified. Do not break down complex but essential phrases into overly fragmented sentences if it dilutes the original meaning. Focus on preserving the specific information and relationships between ideas presented in the original text.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8632,
+          "meaningbert": 0.5853
+        }
+      }
+    }
+  ]
+}

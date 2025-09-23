@@ -1,0 +1,413 @@
+{
+  "session_id": "669df9bc-1034-49d8-b854-14b8e10ef457",
+  "created_at": "2025-09-01 17:06:53.095093",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:06:54.382624",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "31-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Mythology is a set of old stories about gods and heroes.  \nLabyrinth is a big maze with many twists.  \nSuzanne Collins liked Greek mythology.  \nShe liked the story of Theseus and the Minotaur.  \nIn that story, the city of Athens was ruled by Crete.  \nThe Athenians fought back.  \nAs a penalty, the king of Crete forced Athens to send boys.  \nHe also forced them to send seven girls each year.  \nThe youths were sent to Crete.  \nThey were put into a labyrinth.  \nA monster called the Minotaur lived there.  \nThe monster ate the youths.  \nTheseus was a brave youth.  \nTheseus fought the Minotaur.  \nHe killed the monster.  \nSuzanne thinks Katniss Everdeen? Wait correct: Suzanne thinks Katniss Everdeen is a future Theseus.",
+      "timestamp": "2025-09-01 17:06:54.382783",
+      "metadata": {
+        "text_id": "d2f17039-74c0-4752-99f3-37f8bbca0373",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:06:56.428826",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "696dee4f-ceec-4d3c-a60d-b54c4f589065",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text states 'seven boys and seven girls'. Your version omits the number of boys, stating only 'send boys', which is a critical factual error. The text fails at the first and most important step of the protocol.\n\n- Meaning Preservation Failure: The MeaningBERT score of 0.5775 is catastrophically below the 0.75 minimum. The core message and its nuances have been lost.\n- Fidelity Failure: The BERTScore of 0.8724 is below the 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is an automatic failure.\n- Vocabulary Violation: The word 'penalty' is B2 level. The word 'youth' is B1 level. These are not A2 vocabulary and are unacceptable.\n- Unacceptable Formatting: The final sentence 'Suzanne thinks Katniss Everdeen? Wait correct: Suzanne thinks Katniss Everdeen is a future Theseus' contains non-prose conversational text. This is a complete structural failure.\n\nSuggestion: Correct the factual error regarding the number of boys. Replace 'penalty' with an A2-appropriate phrase like 'as a bad result'. Replace 'youths' with 'young people'. Remove the conversational text from the final sentence. The text must be rewritten from scratch to address the severe meaning loss indicated by the metrics.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8724,
+          "meaningbert": 0.5775
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:07:18.874741",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Mythology is a set of old stories about gods and heroes.  \nA labyrinth is a big maze with many twists.  \nSuzanne Collins liked Greek mythology.  \nShe liked the story of Theseus and the Minotaur.  \nIn that story the city of Athens was ruled by Crete.  \nThe Athenians fought back.  \nAs a result king of Crete made Athens send seven boys.  \nHe also made them send seven girls.  \nThe young people were sent to Crete.  \nThey were put into a labyrinth.  \nA monster called the Minotaur lived there.  \nThe monster ate the young people.  \nTheseus was a brave young person.  \nTheseus fought the Minotaur.  \nHe killed the monster.  \nSuzanne thinks Katniss Everdeen is a future Theseus.",
+      "timestamp": "2025-09-01 17:07:18.874954",
+      "metadata": {
+        "text_id": "720c4f4d-7520-4b92-b583-ffcfbb43aab7",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:07:46.395279",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a9bf0f06-aa19-47a6-ba67-efce8a2d7ae7",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5282 is critically below the required 0.75 threshold. This indicates a catastrophic loss of the original text's core message. The BERTScore of 0.8689 is also below the 0.90 minimum, confirming a significant loss of key factual phrasing.\n\n- Critical Omission: The entire purpose of the original text was to explain that the myth of Theseus was an 'inspiration for the Hunger Games book'. Your output completely removes this central point. It presents the story of Theseus in isolation, failing the primary communication goal.\n\n- Meaning Alteration: The original text states the tribute of children was a 'punishment' for the rebellion. Your text changes this to 'As a result'. This is a severe error. 'Punishment' implies a deliberate, cruel penalty, which is central to the parallel with the Hunger Games. 'As a result' is a neutral, weak connector that loses this essential meaning.\n\n- Suggestion: You must restore the original text's primary purpose. The first sentence must establish the link between the myth and its role as an inspiration for the Hunger Games. You must re-introduce the word 'punishment' to accurately convey the reason for the tribute. The text has failed its most basic function: to convey the meaning of the source material.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8689,
+          "meaningbert": 0.5282
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:08:00.454266",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Mythology is a set of old stories about gods and heroes.  \nA labyrinth is a big maze with many twists.  \nThe myth gave the idea for The Hunger Games book.  \nSuzanne Collins liked Greek mythology.  \nShe liked the story of Theseus and the Minotaur.  \nIn that story Crete ruled Athens.\"  \nThe Athenians rebelled.  \nAs punishment, Crete forced Athens to send seven boys.  \nIt also forced them to send seven girls each year.  \nCrete received the young people.  \nThey entered a labyrinth.  \nA monster called the Minotaur lived there.  \nThe monster ate the young people.  \nTheseus was a brave young man.  \nTheseus fought the Minotaur.  \nHe killed the monster.  \nSuzanne thinks Katniss Everdeen is a future Theseus.",
+      "timestamp": "2025-09-01 17:08:00.454590",
+      "metadata": {
+        "text_id": "955ceeb4-b4d4-4c11-b73b-cf5009701a95",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:08:30.652268",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "abc13ca0-d06e-4e55-86cd-7f112d8ce620",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5951 is catastrophically below the required 0.75 threshold. The text also fails the fidelity check with a BERTScore of 0.8625, which is below the 0.90 minimum. The submission is an immediate failure on Priority 2 metrics.\n\n- MeaningBERT Failure: The score of 0.5951 indicates a severe loss of the original message. The original text explains that the youths were 'thrown into the labyrinth', a violent and helpless act. Your version states they 'entered a labyrinth', which completely changes the meaning from a forced sacrifice to a voluntary action. This is an unacceptable alteration of the core narrative.\n\n- BERTScore Failure: The score of 0.8625 demonstrates a significant loss of key lexical information. Important concepts like 'important inspiration' and 'classical Greek mythology' were oversimplified, losing fidelity to the source material.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is a direct violation of the core task requirement.\n\n- Vocabulary Violation: The B1-level word 'punishment' was used directly from the original text. This is a clear vocabulary error for an A2 text. The word 'rebelled' is also above the A2 level.\n\n- Structural Degradation: The text is excessively fragmented into short, disconnected sentences. This destroys the logical flow of the original text (e.g., '...but the Athenians rebel'). While sentences must be simple, they must still connect logically.\n\nSuggestion: You must rewrite the text from the beginning. Restore the core meaning of being forcibly 'thrown' into the labyrinth. Replace the B1 word 'punishment' with an A2-level explanation, such as 'Because of this, the king of Crete did something bad to Athens'. Replace 'rebelled' with a simpler phrase like 'fought back'. Use simple A2 connectors like 'but' and 'so' to link ideas instead of creating a list of disconnected facts.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8625,
+          "meaningbert": 0.5951
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:08:49.320154",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Mythology is a set of old stories about gods and heroes.  \nA labyrinth is a big maze with many twists.  \nMythology is a set of old Greek stories.  \nThe story of Theseus and the Minotaur is one of them.  \nIn that story Crete ruled Athens.  \nThe Athenians fought back.  \nBecause of this, the king of Crete did something bad to Athens.  \nHe made Athens send seven boys and seven girls each year.  \nHe threw the young people into a labyrinth.  \nA monster called the Minotaur lived in the labyrinth.  \nThe monster ate the young people.  \nTheseus was a brave young man.  \nHe fought the Minotaur.  \nHe killed the monster.  \nSuzanne Collins liked this old Greek story.  \nIt gave a big idea for The Hunger Games book.  \nShe sees Katniss Everdeen as a future Theseus.",
+      "timestamp": "2025-09-01 17:08:49.320649",
+      "metadata": {
+        "text_id": "87fe24ae-b9e8-4e20-a062-05b1fed96910",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:09:16.237501",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ea21b87a-323a-4cb0-80ff-af606534443b",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.579 is catastrophically below the required 0.75 threshold. The text fails to convey the core message of the original.\n\n- Primary Failure (Meaning): The original text's central concept is that the youths were sent to the labyrinth 'as a punishment'. Your version replaces this with the vague phrase 'did something bad'. This completely erases the critical theme of retribution, which is essential to understanding the myth and its connection to the Hunger Games. The meaning is lost.\n\n- Secondary Failure (Fidelity): The BERTScore of 0.8697 is below the 0.90 minimum. This is a direct result of replacing precise original phrasing like 'important inspiration' with the overly simplistic 'a big idea', losing lexical fidelity.\n\n- Structural Failure: The text is a series of disconnected, choppy sentences. This structure breaks the logical flow of the original narrative, turning a story of cause and effect into a simple list of facts. This contributes directly to the low meaning score.\n\n- Redundancy: You define 'mythology' twice at the beginning of the text. This is inefficient and confusing.\n\nSuggestion: Restore the core concept of 'punishment'. Combine the short, disconnected sentences to re-establish the logical link between the rebellion and its consequences. Use simple connectors like 'so' or 'because' to achieve this. Remove the redundant definition.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8697,
+          "meaningbert": 0.579
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:09:27.729033",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Mythology is a set of old Greek stories.  \nA labyrinth is a big maze.  \nThe story of Theseus and the Minotaur is about Athens.  \nCrete ruled over Athens.  \nThe Athenians rebelled.  \nBecause they rebelled, the king of Crete punished them.  \nHe made Athens send seven boys and seven girls each year.  \nHe sent them into a labyrinth.  \nA monster called the Minotaur lived in the labyrinth.  \nThe monster ate the youths.  \nTheseus was a brave young man.  \nHe fought the Minotaur.  \nHe killed the monster.  \nSuzanne Collins liked this old Greek story.  \nIt was an important inspiration for The Hunger Games.  \nShe sees Katniss Everdeen as a future Theseus.",
+      "timestamp": "2025-09-01 17:09:27.729448",
+      "metadata": {
+        "text_id": "a7070cd4-0cba-4a07-8198-61232e2e6993",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:10:08.565307",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "87f1d5e6-ce1f-4108-ad13-3821dd2a1d7d",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for failure is the catastrophic loss of meaning and fidelity, confirmed by metrics. The MeaningBERT score of 0.6098 is significantly below the required 0.75 threshold. The BERTScore of 0.8711 is also below the 0.90 minimum.\n\n- Meaning Loss: The text was deconstructed into a list of simple, disconnected facts. This fragmentation destroyed the narrative flow of the original, which explains how one story inspired another. The low MeaningBERT score reflects this failure to preserve the core message.\n\n- Fidelity Loss: The low BERTScore indicates a failure to retain key lexical items. Phrases like 'classical Greek mythology' and 'forces the Athenians' were lost in the oversimplification.\n\n- Vocabulary Violation: The C1-level word 'inspiration' was used directly from the source text. This is a severe violation of the A2 vocabulary standard. It must be replaced with a simple A2 explanation.\n\n- Structural Defect: The text begins with two dictionary-style definitions ('Mythology is...', 'A labyrinth is...') that were not part of the original narrative. This is an incorrect way to handle keyword definitions and disrupts the text's coherence.\n\nSuggestion: Re-write the text to connect the sentences logically using simple A2 connectors like 'and', 'but', or 'so'. Remove the C1 word 'inspiration' and explain the concept in A2 terms, for example: 'This old story gave her the idea for The Hunger Games'. Integrate keyword explanations into the narrative instead of listing them as definitions at the start.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8711,
+          "meaningbert": 0.6098
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:10:21.726304",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Theseus and the Minotaur is an old Greek story.  \nMythology is a set of old Greek stories.  \nIn that story Crete ruled Athens.  \nThe Athenians rebelled.  \nAs a result the king of Crete made Athens send seven boys.  \nHe also made them send seven girls each year.  \nHe sent them into a labyrinth, a big maze.  \nA monster called the Minotaur lived in the labyrinth.  \nThe monster ate the youths.  \nTheseus was a brave young man.  \nHe fought the Minotaur and killed it.  \nSuzanne Collins loved this old Greek story.  \nIt gave her the plan for The Hunger Games.  \nShe sees Katniss? (Oops)  \nShe sees Katniss Everdeen as a future Theseus.",
+      "timestamp": "2025-09-01 17:10:21.726779",
+      "metadata": {
+        "text_id": "34ca4136-6093-4a44-8ecb-ffe36ea8a9b9",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:10:43.362868",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "022081f3-b1f7-4936-926e-2345db06ae95",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on Priority 2 metrics, indicating a critical loss of the original message.\n\n- MeaningBERT score is 0.58. This is drastically below the required 0.75 threshold. The core concept of 'punishment' from the original text was replaced with 'As a result', which is a fundamental change in meaning and an instant failure.\n\n- BERTScore is 0.87. This is below the required 0.90 threshold, confirming a significant loss of key vocabulary and phrasing from the source text.\n\n- The output contains an unprofessional error: 'She sees Katniss? (Oops)'. This is unacceptable in any final text.\n\n- The sentence structure is excessively fragmented. The idea 'send seven boys and seven girls to Crete every year' was broken into two separate, choppy sentences. This is poor writing, even for the A2 level.\n\nSuggestion: Restore the core concept of 'punishment'. Combine overly fragmented sentences to improve readability. Proofread to remove errors and parenthetical asides.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8718,
+          "meaningbert": 0.5807
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:10:54.459104",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Theseus and the Minotaur is an old Greek story.  \nMythology means old Greek stories.  \nIn the story Crete ruled Athens.  \nThe Athenians rebelled.  \nAs punishment, the king of Crete made Athens send seven boys.  \nHe also made them send seven girls each year.  \nHe sent them into a labyrinth, a big maze.  \nA monster called the Minotaur lived in the labyrinth.  \nThe monster ate the youths.  \nTheseus was a brave young man.  \nHe fought the Minotaur and killed it.  \nSuzanne Collins loved this old Greek story.  \nIt gave her the idea for The Hunger Games.  \nShe sees Katniss Everdeen as a future Theseus.",
+      "timestamp": "2025-09-01 17:10:54.459602",
+      "metadata": {
+        "text_id": "6850f9da-f133-4eca-8912-2fdf0057f332",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:11:19.330691",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "008af008-28fc-4fc3-a45c-8edf27e56899",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for failure is the MeaningBERT score of 0.6044, which is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message. The text also fails the fidelity check with a BERTScore of 0.8793, below the required 0.90.\n\n- Meaning Loss: The original text's central point is that the myth was an 'important inspiration' for the book. Your version separates the summary of the myth from the fact that Suzanne Collins had an idea, weakening this crucial cause-and-effect relationship. The core message was not preserved.\n\n- Fidelity Loss: The low BERTScore is a result of oversimplification. Key phrases like 'important inspiration' and 'classical Greek mythology' were removed, losing essential lexical detail from the source.\n\n- Vocabulary Violation: The text uses 'punishment' (B1) and 'means' (B2). These words are above the A2 level and are unacceptable. The word 'rebelled' is also too advanced for A2.\n\n- Structural Error: The definition 'Mythology means old Greek stories' uses a B2 structure. An A2-compliant definition would be 'Mythology is a word for old Greek stories.'\n\nSuggestion: Rephrase the text to explicitly state that the myth was the direct inspiration for the book. Replace all B1/B2 vocabulary. The word 'punishment' must be rephrased as a simple cause-and-effect sentence. The word 'rebelled' must be replaced with a simpler phrase like 'fought against the king'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8793,
+          "meaningbert": 0.6044
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:11:25.569464",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Mythology is a word for old Greek stories.  \nThe story is Theseus and the Minotaur.  \nIn the story Crete rules Athens.  \nThe Athenians fought against the king.  \nThe king made Athens send seven boys each year.  \nHe also made them send seven girls each year.  \nThe youths went into a labyrinth.  \nA2: A labyrinth is a big maze.  \nA monster called the Minotaur lived in the labyrinth.  \nThe monster ate the youths.  \nTheseus was a brave young man.  \nHe fought the Minotaur and killed it.  \nSuzanne Collins liked this old Greek story.  \nThe story gave her a big idea for The Hunger Games.  \nShe sees Katniss Everdeen as a future Theseus.",
+      "timestamp": "2025-09-01 17:11:25.570871",
+      "metadata": {
+        "text_id": "9090e79e-fa64-4f43-93e4-5eff21f0c7a0",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:11:49.147605",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1c7bdd04-b022-463d-9b77-853a64a03ff5",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5414 is catastrophically below the required 0.75 threshold. This indicates a severe loss of the original text's core message.\n- The primary error is the complete omission of the concept of 'punishment'. The original text states the youths were sent 'As a punishment'. Your version only says 'The king made Athens send...', which removes the entire reason for the central conflict.\n- The BERTScore of 0.8709 is also below the 0.90 minimum, confirming that key lexical items from the original text were lost.\n- The sentence structure is excessively simple, bordering on A1. Multiple sentences can be combined without increasing complexity beyond A2.\nSuggestion: You must reintroduce the concept of 'punishment' to pass. A simple A2 sentence like 'The king was angry and this was a punishment.' is required. Combine the sentences 'The king made Athens send seven boys each year.' and 'He also made them send seven girls each year.' into a single, more natural sentence.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8709,
+          "meaningbert": 0.5414
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:12:00.639272",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Mythology is a word for old Greek stories.  \nThe story is Theseus and the Minotaur.  \nIn the story Crete rules Athens.  \nThe Athenians fought the king.  \nThe king was angry and this was a punishment.  \nThe king made Athens send seven boys and seven girls each year.  \nThe youths went into a labyrinth.  \nA labyrinth is a big maze.  \nA monster called the Minotaur lived in the labyrinth.  \nThe monster ate the youths.  \nTheseus was a brave young man.  \nHe fought the Minotaur and killed it.  \nSuzanne Collins liked this old Greek story.  \nThe story gave her a big idea for The Hunger Games.  \nShe sees Katniss Everdeen as a future Theseus.",
+      "timestamp": "2025-09-01 17:12:00.639926",
+      "metadata": {
+        "text_id": "ff3fd735-4997-44ad-8e6b-14ad514366a2",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:12:29.428454",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f2b6aa51-fbdd-4709-985f-3eb388d8f4ab",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on two critical metrics. The MeaningBERT score of 0.5645 is significantly below the required 0.75 threshold. The BERTScore of 0.8731 is also below the 0.90 minimum. This indicates a severe loss of the original text's core message and lexical fidelity.\n\n- Meaning Preservation Failure: The original text's central point is that the myth was an 'important inspiration'. Your version breaks the text into so many simple, disconnected sentences that this causal link is lost. The core meaning is not preserved.\n\n- Fidelity Failure: The low BERTScore is a result of oversimplification. Key phrases like 'important inspiration', 'Athenians rebel', and 'forces the Athenians' were replaced with phrases that do not carry the same specific meaning, such as 'gave her a big idea' and 'fought the king'.\n\n- Vocabulary Violation: You used the word 'punishment', which is a B1-level word. This is a direct violation of the A2 standard. All vocabulary must be at the A2 level or defined in simple A2 terms.\n\nSuggestion: Re-write to establish the connection between the myth and the book idea more clearly. Do not use the B1 word 'punishment'; instead, explain the concept using A2 vocabulary, for example: 'Because the king was angry, he made the people of Athens do something terrible.' The text must be simplified without destroying the original meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8731,
+          "meaningbert": 0.5645
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:12:49.087368",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Mythology means old Greek stories.  \nOne story is Theseus and the Minotaur.  \nIn the story Athens was ruled by Crete.  \nThe Athenians fought back against the king.  \nBecause the king was angry, he made Athens send seven boys.  \nHe also made them send seven girls each year.  \nThe youths went into a labyrinth.  \nA labyrinth is a big maze.  \nA monster called the Minotaur lived in the labyrinth.  \nThe Minotaur ate the youths.  \nTheseus was a brave young man.  \nHe fought the Minotaur and killed it.  \nSuzanne Collins liked this myth a lot.  \nThe story was an important idea for her book The Hunger Games.",
+      "timestamp": "2025-09-01 17:12:49.088073",
+      "metadata": {
+        "text_id": "fc8958f3-cab6-4d13-8569-9329f8f0578e",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:13:13.289495",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "80f31c18-087b-49bd-84b5-5b972ce5470d",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5742 is catastrophically below the required 0.75 threshold. The output fails to convey the central point of the original text.\n\n- Factual Inaccuracy: The most critical point of the original text, that 'Suzanne sees Katniss Everdeen as a futuristic Theseus', has been completely omitted. This is an absolute failure to preserve the core message.\n- Meaning Distortion: The original text states the youths were sent as a 'punishment'. Your version changes this to 'Because the king was angry'. This alters the formal consequence into a simple emotion, which is a significant change in meaning.\n- Fidelity Failure: The BERTScore of 0.8689 is below the required 0.90. This is a direct result of omitting key concepts like 'inspiration', 'punishment', and the comparison between Katniss and Theseus.\n- Vocabulary Violation: The word 'means' is a B2-level word. Its use in 'Mythology means old Greek stories' violates the A2 vocabulary standard.\n\nSuggestion: You must re-write the text to include the central comparison between Katniss and Theseus. Restore the word 'punishment' to maintain factual accuracy. Replace the B2 word 'means' with an A2 alternative like 'is a name for'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8689,
+          "meaningbert": 0.5742
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:13:25.229962",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Mythology is a name for old the Greek stories.  \nOne story is Theseus and the Minotaur.  \nIn the story Crete ruled Athens.  \nThe Athenians fought back against the king.  \nAs punishment, the king made Athens send seven boys.  \nHe also made them send seven girls each year.  \nThe youths went into a labyrinth.  \nA labyrinth is a big maze.  \nA monster called the Minotaur lived in the labyrinth.  \nThe Minotaur ate the youths.  \nTheseus was a brave young man.  \nHe fought the Minotaur and killed it.  \nSuzanne Collins liked this myth a lot.  \nShe saw Katniss Everdeen as a futuristic Theseus.  \nThe myth gave her an important idea for The Hunger Games.",
+      "timestamp": "2025-09-01 17:13:25.230697",
+      "metadata": {
+        "text_id": "e2758e58-5660-4fe1-a16e-40954a697884",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:13:56.760407",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "64393a24-7936-4f19-9d50-2722a2140bf9",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5717 is significantly below the required 0.75. The original text's central point is that Suzanne Collins' 'love of classical Greek mythology' was the 'inspiration' for the book. Your version loses this core message, reducing it to 'She liked this myth a lot' and 'The myth gave her an important idea'. This is a critical loss of meaning.\n\nAdditional Failures:\n\nFidelity Failure: The BERTScore of 0.8771 is below the 0.90 minimum. Key terms like 'inspiration' and 'classical Greek mythology' were lost, damaging the text's fidelity to the original.\n\nVocabulary Violation: The word 'punishment' is B1 level. It was used directly from the original text without simplification.\n\nVocabulary Violation: The word 'futuristic' is B2 level. It must be removed or rephrased using A2 words, for example, 'a Theseus from the future'.\n\nGrammatical Error: The definition 'Mythology is a name for old the Greek stories' is incorrect. The word order must be 'the old Greek stories'.\n\nSuggestion: Rewrite the text to begin with the main idea of inspiration from mythology. Remove the words 'punishment' and 'futuristic'. Replace them with A2-level descriptions. Correct the grammatical error in the definition.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8771,
+          "meaningbert": 0.5717
+        }
+      }
+    }
+  ]
+}

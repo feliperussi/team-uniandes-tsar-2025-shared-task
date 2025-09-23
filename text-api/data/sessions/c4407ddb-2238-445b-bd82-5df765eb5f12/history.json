@@ -1,0 +1,80 @@
+{
+  "session_id": "c4407ddb-2238-445b-bd82-5df765eb5f12",
+  "created_at": "2025-09-01 17:04:42.757106",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:04:42.787457",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "77-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: For a long time, people in all countries had dreams. They thought dreams could show the future. People thought gods sent these dreams. The dreams gave them information. They helped people understand things. Even today, many people remember dreams. They dreamed about a thing, a place, or a person. Later, this dream happened for real.",
+      "timestamp": "2025-09-01 17:04:42.787623",
+      "metadata": {
+        "text_id": "a051e1d9-6863-4cd8-962e-1a601828ff1e",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 17:04:42.802380",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4a50232f-5295-4dc4-ae14-3a76e42ac974",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7478 is below the required threshold of approximately 0.75 or higher. While the meaning is largely preserved, the slight semantic shifts, such as simplifying 'Throughout history and across cultures' to 'For a long time, people in all countries' and 'associated with prophecy' to 'could show the future', resulted in a score that did not meet the strict numerical requirement. The original text conveys a slightly stronger and more specific connection to divine prophecy and historical continuity that was not fully captured. Suggestion: Ensure all core nuances, even when simplified, maintain a semantic similarity score of 0.75 or above.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9199,
+          "meaningbert": 0.7478
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:04:53.094377",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: For a very long time, in all countries, people had dreams. They thought dreams could tell them about the future. People thought dreams were messages from gods. These messages gave them information. They helped people understand things. Even today, many people remember dreams. They dreamed about a thing, a place, or a person. Later, this dream happened for real.",
+      "timestamp": "2025-09-01 17:04:53.094694",
+      "metadata": {
+        "text_id": "0086e13a-42b7-4ea0-8ef5-af5303157815",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 17:05:05.327463",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "08e7dcb6-4b2b-41c7-bd8c-c0d68c7c025f",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: All diagnostic checks passed. The text successfully maintains factual integrity, preserves the core meaning and fidelity of the original text, and adheres strictly to the CEFR A2 standard. The MeaningBERT score of 0.8234 is well above the 0.75 threshold, and the BERTScore of 0.9236 exceeds the 0.90 requirement. The CEFR classifier correctly identified the text as A2. Vocabulary is consistently A1/A2, and sentence structures are simple and direct, using appropriate A1 connectors. This is an exemplary A2 simplification.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9236,
+          "meaningbert": 0.8234
+        }
+      }
+    }
+  ]
+}

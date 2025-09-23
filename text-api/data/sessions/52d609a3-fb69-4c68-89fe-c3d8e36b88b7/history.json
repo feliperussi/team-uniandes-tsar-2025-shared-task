@@ -1,0 +1,228 @@
+{
+  "session_id": "52d609a3-fb69-4c68-89fe-c3d8e36b88b7",
+  "created_at": "2025-09-01 10:43:20.699903",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:43:20.705327",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "118-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: 'Turnover' is when workers leave a company. 'Retention' is when workers stay at a company for a long time.\n\nAt our company, Girox Foods, we have a problem. Our turnover is about 12% every year. This means many workers leave our company.\n\nThis number is high. For other companies, the number is only 7%.\n\nThis report wants to find out why our workers leave. Then, we will give ideas to make the company a better place to work. We want our workers to stay with us. We want to increase our retention.",
+      "timestamp": "2025-09-01 10:43:20.705786",
+      "metadata": {
+        "text_id": "6010bb36-6252-4dce-b2a8-fc334966741c",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 10:43:20.710592",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ea7c4be4-ae8e-4b9e-b93b-9cba13f89124",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6236 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text.\n\n- Meaning Preservation Failure: The original text's objective is to investigate 'employee engagement'. Your output changes this to 'why our workers leave'. These are not the same concept. This shift in meaning is a primary reason for the low score and the failure of this text.\n- Fidelity Failure: The BERTScore of 0.8811 is below the 0.90 minimum. Key lexical items from the original, such as 'employee engagement' and 'principal objective', were completely lost, reducing the text's fidelity.\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is an automatic failure.\n- B2 Vocabulary Violation: The word 'means' is B2 level and is not permitted in an A2 text. This is a severe vocabulary error.\n- B1 Grammar Violation: The sentence 'This report wants to find out why our workers leave' uses an embedded question ('why our workers leave'), which is a B1 grammatical structure.\n\nSuggestion: You must rephrase the text to restore the original concept of 'engagement' or 'happiness at work', not just 'leaving'. Remove the word 'means' and replace it with a simple A2 sentence. Break the sentence containing 'why our workers leave' into two simpler sentences. For example: 'This report asks a question. Why do our workers leave?'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8811,
+          "meaningbert": 0.6236
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:43:34.657940",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: 'Turnover' is when workers leave a company. 'Retention' is when workers stay at a company for a long time.\n\nAt our company, Girox Foods, we have a problem. Our turnover is about 12% every year. So, many workers leave our company.\n\nThis number is high. For other companies, the number is only 7%.\n\nThis report has one main idea. It looks at how happy our workers are at work. Then, we will give ideas to make the company a better place. We want our workers to stay with us. We want to increase our retention.",
+      "timestamp": "2025-09-01 10:43:34.658165",
+      "metadata": {
+        "text_id": "0316d22a-ddd9-4e5f-bd3f-b7ba7561ddcf",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 10:44:00.997206",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f7657d1a-be18-4160-8d53-e90e181e1c83",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6179 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the original message.\n\n- Primary Failure (Meaning): The original text's objective is to 'investigate the causes of employee engagement'. Your version simplifies this to 'looks at how happy our workers are'. This is an unacceptable loss of meaning. 'Engagement' is not the same as 'happiness'.\n- Secondary Failure (Fidelity): The BERTScore of 0.8797 is below the 0.90 minimum. Key phrases like 'principal objective' and 'industry standard' were replaced with overly simple terms like 'one main idea' and 'other companies', losing lexical precision.\n- Tertiary Failure (CEFR Compliance): The text was classified as B1, not the required A2. The sentence 'It looks at how happy our workers are at work' uses a subordinate clause ('how happy...'), which is a B1 grammatical structure. The definitions using 'when' clauses also contribute to this B1 rating.\n- Suggestion: Rephrase to restore the core meaning. Change 'looks at how happy our workers are' to 'finds the reasons why workers leave'. This is A2 level and more accurate.\n- Suggestion: Eliminate B1 grammar. Break the sentence 'It looks at how happy...' into two simpler sentences. Example: 'This report asks a question. Why are our workers not happy?'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8797,
+          "meaningbert": 0.6179
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:44:20.218759",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: 'Turnover' means workers leave a company. 'Retention' means workers stay at a company for a long time.\n\nAt our company, Girox Foods, we have a problem. Our turnover is about 12% every year. So, many workers leave our company.\n\nThis number is high. For other companies, the number is only 7%.\n\nThis report has one main goal. It wants to find the reasons why workers leave. Then, we will give ideas to make the company a better place. We want our workers to stay with us. We want to increase our retention.",
+      "timestamp": "2025-09-01 10:44:20.219430",
+      "metadata": {
+        "text_id": "7f9bfafa-e7b3-405b-9a75-86faec198373",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 10:44:43.216170",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "37bb4169-151d-4f55-8f7c-6f49732dd12c",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6356 is significantly below the required 0.75. This is an instant failure.\n\n- Primary Failure (Meaning): The original text's objective is to 'investigate the causes of employee engagement'. Your version changes this to 'find the reasons why workers leave'. These are not the same. Engagement is a broad concept about an employee's connection to their work; leaving is only one possible outcome of poor engagement. This change in meaning is a critical error.\n- Secondary Failure (Fidelity): The BERTScore of 0.8809 is below the 0.90 minimum. Key phrases like 'principal objective' and 'industry standard' were oversimplified, losing lexical fidelity.\n- Vocabulary Violation: The word 'means' is classified as B2. It was used in the keyword definition. Definitions must also adhere to the A2 vocabulary standard.\n\nSuggestion: Restore the original meaning by focusing on 'engagement' or 'why workers are happy or unhappy'. Do not reduce the concept to only 'why workers leave'. Replace 'means' with an A2-compliant phrase like 'is when'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8809,
+          "meaningbert": 0.6356
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:45:01.556929",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: 'Turnover' is when workers leave a company. 'Retention' is when workers stay at a company for a long time.\n\nAt our company, Girox Foods, we have a problem. Our turnover is about 12% every year. Many workers leave our company.\n\nThis number is high. For other similar companies, the number is only 7%.\n\nThis report has one main goal. We want to understand why our workers are happy or unhappy at work. Then, we will give ideas to make the company a better place. We want our workers to stay with us. We want to increase our retention.",
+      "timestamp": "2025-09-01 10:45:01.557409",
+      "metadata": {
+        "text_id": "2b4aa459-403e-4de2-a4f8-474c581ced9b",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 10:45:26.939233",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "308a965f-2510-4a1e-a239-7b63c08634cc",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on multiple high-priority metrics. The primary failure is the MeaningBERT score of 0.62, which is catastrophically below the required 0.75. This indicates a severe loss of the original message's core meaning.\n\n- Meaning Preservation Failure: The original text's goal was to 'investigate the causes of employee engagement'. Your version, 'understand why our workers are happy or unhappy', is a vague oversimplification that loses the specific business concept of 'engagement'.\n\n- Fidelity Failure: The BERTScore of 0.88 is below the 0.90 minimum. This is a direct result of removing key lexical items like 'principal objective', 'investigate', and 'recommendations'.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is due to unacceptable grammatical complexity.\n\n- Structural Error: The sentence 'We want to understand why our workers are happy or unhappy at work' uses an embedded 'why-clause', which is a B1 structure. This is too complex for the A2 level.\n\n- Structural Error: The definitions use 'when-clauses' ('Turnover is when...'). This is a B1 structure. A2 requires simpler definitions.\n\nSuggestion: Restore the core meaning. Re-introduce the concepts of 'finding reasons' and 'giving ideas'. Break down all complex sentences. The definition 'Turnover is when...' must be rephrased to 'Turnover means...'. The sentence 'We want to understand why...' must be split into multiple simple sentences, such as: 'We want to find the reasons. Why are our workers happy or unhappy?'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8832,
+          "meaningbert": 0.6215
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:45:53.201189",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: 'Turnover' means workers leave a company. 'Retention' means workers stay at a company for a long time.\n\nAt our company, Girox Foods, we have a problem. Our turnover is about 12% every year. Many workers leave our company.\n\nThis number is high. For other similar companies, the number is only 7%.\n\nThis report has one main goal. We want to find the reasons. Why are our workers happy or unhappy at work? Then, we will give ideas to make the company a better place. We want our workers to stay with us. We want to increase our retention.",
+      "timestamp": "2025-09-01 10:45:53.201701",
+      "metadata": {
+        "text_id": "835081b0-96dd-4875-b118-f3674cf5a466",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 10:46:16.180890",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "62880779-6e35-40a1-86ab-c07367afdd05",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for failure is the MeaningBERT score of 0.6305, which is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\n- MeaningBERT Failure: The original text describes a formal business process: 'investigate the causes of employee engagement' and 'offer recommendations'. Your version simplifies this to 'find the reasons. Why are our workers happy or unhappy?' and 'give ideas'. This changes the meaning from a formal investigation into a simple check of happiness, which is not the same concept as 'engagement'.\n\n- Fidelity Failure: The BERTScore of 0.883 is below the 0.90 minimum. This is a direct result of removing key factual terms from the original text, such as 'industry standard', 'principal objective', and 'recommendations'. The text has lost too much lexical detail.\n\n- Vocabulary Violation: The word 'means' is classified as B2 level. It was used in a definition ('Turnover' means workers leave a company). This violates the A2 vocabulary constraint.\n\nSuggestion: The text must be rewritten to restore the lost meaning. The concept of a formal 'report' with 'suggestions' based on an 'investigation' must be present, but expressed in A2 terms. Replace the B2 word 'means' with a simpler structure, for example: 'Turnover is when workers leave a company.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.883,
+          "meaningbert": 0.6305
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:46:37.567216",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Turnover is when workers leave a company. Retention is when workers stay at a company for a long time.\n\nAt our company, Girox Foods, we have a problem. Our turnover is about 12% every year. Many workers leave our company.\n\nThis number is high. For other similar companies, the number is only 7%.\n\nThis report has one main goal. We will study the reasons why workers stay or leave. Then, we will explain how to make the company a better place to work. We want our workers to stay with us. We want to increase our retention.",
+      "timestamp": "2025-09-01 10:46:37.570502",
+      "metadata": {
+        "text_id": "1b9f0db7-c194-4a20-a4ae-d3e515ae1d54",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:47:00.188656",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3aae71b1-30af-43dc-9200-083c2c7b7046",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6447 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\n- The primary failure is the omission of the concept 'employee engagement'. The original text is about investigating why employees are engaged (or not). Your version simplifies this to 'why workers stay or leave', which is a different and less nuanced concept. This change is the main reason for the low MeaningBERT score.\n- The BERTScore of 0.8819 is also below the 0.90 minimum. This is due to the replacement of key phrases like 'principal objective' and 'offer recommendations', which reduces lexical fidelity to the source.\n- The definitions for 'turnover' and 'retention' are acceptable for A2, but they do not compensate for the loss of meaning in the main body of the text.\n\nSuggestion: Restore the core meaning. Rephrase the sentence 'We will study the reasons why workers stay or leave.' to something that captures the idea of engagement, such as 'We will study why our workers are happy or unhappy in their jobs.' Also, rephrase 'we will explain how to make the company a better place' to more closely match 'offer recommendations', for example: 'Then, we will give ideas to make the company better for workers.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8819,
+          "meaningbert": 0.6447
+        }
+      }
+    }
+  ]
+}

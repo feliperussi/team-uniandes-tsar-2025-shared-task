@@ -1,0 +1,413 @@
+{
+  "session_id": "fbbf9e04-dccd-4fbb-bd4c-f2d3b263fb0c",
+  "created_at": "2025-08-31 20:32:29.734218",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:32:29.744905",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "09-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes, a bridge falls down. It is a mystery. Engineers do not know why. They have to study it carefully. Then they can understand the reason.\n\nSometimes, the material was bad. They used bad material to build the bridge. Or maybe an important part of the bridge had a problem.\n\nIn other cases, the bridge was made to hold a certain weight. It could not hold more weight than that.",
+      "timestamp": "2025-08-31 20:32:29.746121",
+      "metadata": {
+        "text_id": "dcf43d19-2493-4253-a25d-4dae20de03a1",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:32:29.760370",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3e21dd2f-4207-4363-9c5b-82f40a75e440",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.618 is significantly below the required 0.75 threshold. This indicates the core message of the original text was not preserved.\n\n- Primary Failure: The simplification was too aggressive, causing a loss of meaning. The original text establishes a direct link: engineers solve the mystery *after* an investigation. Your version separates these concepts into disconnected sentences (\"It is a mystery. Engineers do not know why. They have to study it carefully.\"), which weakens this crucial relationship.\n- Vocabulary Violation: The B1-level word 'mystery' was used. This is not A2 vocabulary. A2 requires explaining the concept, not using the complex word.\n- Loss of Precision: While simplifying is necessary, changing 'designed only to support a certain amount of weight' to 'was made to hold a certain weight' contributes to the overall loss of meaning detected by the metric.\n\nSuggestion: Rephrase to restore the cause-and-effect link between the investigation and the solution. Remove the word 'mystery' and explain the concept using A2 words, for example, 'Engineers do not understand why it happened'. Combine short, choppy sentences where appropriate using simple connectors like 'so' or 'because'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9121,
+          "meaningbert": 0.618
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:32:46.843582",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes, a bridge falls down. Engineers do not understand why. So they have to study it carefully. Then they can find the reason.\n\nSometimes, they used bad material to build the bridge. Or an important part of the bridge had a problem.\n\nIn other cases, the bridge was built for a certain weight. It could not hold more weight than that.",
+      "timestamp": "2025-08-31 20:32:46.844323",
+      "metadata": {
+        "text_id": "070d3254-c719-4400-8532-09fcca80d95c",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:33:14.889797",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "91907299-9c36-4c15-aabe-087eb7abc5f2",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6615 is critically below the required 0.75 threshold. This is an instant failure.\n\n- Meaning Preservation Failure: The original text frames the situation as a \"mystery\" that requires a \"complete investigation\" to solve. Your version, \"Engineers do not understand why. So they have to study it carefully,\" loses the specific concepts of 'mystery' and 'investigation'. This simplification is too aggressive and alters the core message, resulting in the low metric score.\n- Vocabulary Deviation: The word \"used\" is classified as B1. This is a violation of the A2 vocabulary standard.\n\nSuggestion: Restore the lost meaning. Rephrase the opening to capture the original concepts. Example: \"Sometimes, why a bridge falls is a big question. Engineers must do a full study to find the answer.\" Suggestion: Replace the B1 word \"used\". Example: \"Sometimes, people put bad material in the bridge when they build it.\"",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9109,
+          "meaningbert": 0.6615
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:33:37.595898",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes, why a bridge falls down is a big question. Engineers must do a full study to find the answer.\n\nSometimes, builders put bad material in the bridge. Or an important part of the bridge had a problem.\n\nIn other cases, they built the bridge for a certain weight. It could not hold more weight than that.",
+      "timestamp": "2025-08-31 20:33:37.596243",
+      "metadata": {
+        "text_id": "6af892be-e657-488f-ab10-6aaf43ef3b39",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 20:34:01.912391",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "56cc7f17-1f7c-44f8-bd04-4ac048c26bc6",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6559 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text.\n\n- The original text's concepts of 'mystery' and 'investigation' are not adequately captured by your phrases 'big question' and 'full study'. This simplification loses the professional and serious tone of the source.\n- The text also fails the CEFR compliance check. The provided metric indicates a B1 classification, which is too complex for the A2 standard.\n- The sentence 'Sometimes, why a bridge falls down is a big question' is the primary cause of the B1 rating. It uses a noun clause ('why a bridge falls down') as the subject, which is a B1 grammatical structure.\n- Suggestion: Rephrase to restore the original meaning. Break the first sentence into two simple A2 sentences. Example: 'Sometimes a bridge falls down. It is a big question why it happened.' Remove the complex clause.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9102,
+          "meaningbert": 0.6559
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:34:25.905441",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes a bridge falls down. People do not know why. Engineers must study it carefully to find the answer.\n\nSometimes, builders put bad material in the bridge. Or an important part of the bridge had a problem.\n\nIn other cases, they built the bridge for a certain weight. It could not hold more weight than that.",
+      "timestamp": "2025-08-31 20:34:25.907136",
+      "metadata": {
+        "text_id": "411df2f4-acc7-44c1-bded-868900c85a69",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:34:50.028297",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "86407265-d0fb-4af2-b116-8e39c8effd94",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6648 is significantly below the required 0.75 threshold. The text fails to preserve the core message of the original.\n\n- The original text describes a process of discovery where engineers solve a mystery ('engineers only realise why after they conduct a complete investigation'). Your version changes this to a simple obligation ('Engineers must study it'), which loses this essential meaning.\n\n- The phrase 'an important part of the bridge had a problem' is too vague. It fails to capture the specific meaning of a 'defect in a key piece'.\n\n- The phrase 'builders put bad material in the bridge' is an oversimplification of 'inferior-quality material was used'. This changes the focus from the state of the material to a direct action, altering the nuance.\n\nSuggestion: Rephrase to restore the original meaning. The text must show that engineers find the reason *after* they study the bridge. Use more precise A2 language to describe the cause of the collapse, such as 'a key part was not made correctly' instead of 'had a problem'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9077,
+          "meaningbert": 0.6648
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:35:08.568841",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes a bridge falls down. People do not know why. Engineers study the bridge carefully. Then they find the reason.\n\nSometimes, the material in the bridge was bad. Or a key part was not made correctly.\n\nIn other cases, the bridge was for a certain weight. It could not hold more weight than that.",
+      "timestamp": "2025-08-31 20:35:08.569326",
+      "metadata": {
+        "text_id": "e6fb549a-429d-4a7f-b898-6ddcfdf015eb",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:35:37.460619",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0deccb9b-2dcb-4968-b4da-cc742f9042e4",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6095 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\n- The simplification is too extreme. The original's concept of a formal 'complete investigation' is lost in your phrase 'study the bridge carefully'.\n- Key technical concepts were oversimplified into generic terms, damaging the meaning. 'Inferior-quality material' is not the same as 'bad' material. A 'defect' is more specific than something 'not made correctly'.\n- The original text's sense of 'mystery' is not adequately captured by the simple statement 'People do not know why'.\n\nSuggestion: You must preserve more of the original meaning while simplifying. Rephrase to better reflect the original concepts using A2 vocabulary. For example, 'engineers must do a full study to find the problem' is better than 'engineers study the bridge'. 'The material was not good enough for the bridge' is better than 'the material was bad'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9052,
+          "meaningbert": 0.6095
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:35:51.773198",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes a bridge falls down. At first, no one knows why. Engineers must do a full study. Then they can find the reason.\n\nSometimes, the material was not good enough. Or a key part of the bridge had a problem.\n\nIn other cases, the bridge was for a certain weight. It could not hold more weight than that.",
+      "timestamp": "2025-08-31 20:35:51.774206",
+      "metadata": {
+        "text_id": "99883d98-5a12-48d8-a881-415dc8f2e6e9",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:36:16.149476",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "505315fa-a7fe-44fc-b319-3bef812d89f3",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6248 is significantly below the required 0.75 threshold. The simplification has removed critical nuances from the original text, resulting in a loss of the core message.\n\n- The phrase 'inferior-quality material' has a specific meaning of poor manufacturing or sourcing. Your replacement, 'the material was not good enough', is too vague and loses this precision.\n- The term 'defect' is a specific engineering concept implying a flaw. Your replacement, 'had a problem', is a generic term that fails to convey the specific nature of the failure.\n- The original states the bridge was 'designed only to support a certain amount of weight', which explains the intentional limitations of its engineering. Your version, 'the bridge was for a certain weight', is a weak statement that loses the concept of design and limitation.\n\nSuggestion: Rephrase to restore the specific meanings using A2 vocabulary. Replace 'not good enough' with a phrase like 'the material was bad'. Replace 'had a problem' with a more descriptive phrase like 'a key part was broken'. Revise 'was for a certain weight' to 'was built to hold only a certain amount of weight' to restore the concept of design limits.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9079,
+          "meaningbert": 0.6248
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:36:30.136973",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes a bridge falls down. At first, no one knows why. Engineers must do a full study. Then they can find the reason.\n\nSometimes, the material was bad. Or a key part of the bridge was broken.\n\nIn other cases, the bridge was built to hold only a certain weight. It could not hold more weight.",
+      "timestamp": "2025-08-31 20:36:30.138369",
+      "metadata": {
+        "text_id": "92b9e5bb-4488-4088-9c47-1dcd4da14ee5",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:36:55.530612",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "915bea42-3684-4ad3-82c0-5769c04af813",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5672 is significantly below the required 0.75 threshold. The text fails to preserve the core message of the original.\n\n- The original text describes a complex engineering investigation into a mystery. Your version, 'Engineers must do a full study', oversimplifies this process and loses the sense of discovery.\n- The specific cause 'inferior-quality material' is reduced to 'the material was bad'. This loses the important meaning that the materials were not good enough for the job.\n- The concept of a 'defect in a key piece' is reduced to 'a key part of the bridge was broken'. This is not the same. A defect is a problem from the beginning; 'broken' implies it happened later.\n- The original's concept of 'design' ('the bridge was designed only to support a certain amount of weight') is lost. Your version, 'the bridge was built to hold', does not carry the same meaning of a specific plan with limits.\n\nSuggestion: You must rephrase to restore the original meaning using A2 vocabulary. Restore the concepts of 'investigation', 'poor quality materials', 'defects', and 'design limits'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9155,
+          "meaningbert": 0.5672
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:37:13.591908",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes a bridge falls down. At first, no one knows why. Engineers investigate the problem. Then they can find the reason.\n\nSometimes, the materials were poor quality. They were not good enough for the bridge. Or an important part had a problem from the start.\n\nIn other cases, the design was the problem. The plan was to hold only a certain weight. The bridge could not hold more weight.",
+      "timestamp": "2025-08-31 20:37:13.592585",
+      "metadata": {
+        "text_id": "111a8ce4-7be0-4078-abff-fb91ad0090c8",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:37:38.401890",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4bd7860a-6425-4211-ab54-9368927665c7",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7242 is below the required 0.75 threshold. The original text conveys the idea of a complex mystery that engineers solve only after a complete investigation. Your version simplifies this to a basic sequence of events, losing the core meaning of a difficult discovery process. The phrase 'only realise why after' is significantly stronger than your version's 'Then they can find the reason'.\n\n- Vocabulary Violation: The B1-level word 'investigate' was used. This is not A2 vocabulary. All vocabulary must strictly adhere to the A2 level.\n- Fidelity Warning: The BERTScore of 0.9043 is barely above the 0.90 minimum, indicating a borderline loss of key phrasing.\n\nSuggestion: Replace the word 'investigate' with an A2-compliant phrase like 'study the problem' or 'look at the problem carefully'. Rephrase to better capture the original meaning of a difficult investigation leading to a discovery.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9043,
+          "meaningbert": 0.7242
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:37:51.860856",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes a bridge falls down. At first, no one knows why. Engineers look at the problem very carefully. After they do this, they can find the reason.\n\nSometimes, the materials were poor quality. They were not good enough for the bridge. Or an important part had a problem from the start.\n\nIn other cases, the design was the problem. The plan was to hold only a certain weight. The bridge could not hold more weight.",
+      "timestamp": "2025-08-31 20:37:51.863804",
+      "metadata": {
+        "text_id": "71571110-14c3-4816-babc-bc16a415651a",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 20:38:20.652522",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "190c8ee8-6e55-47fc-b611-7ca58c9caab6",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.694 is below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text. The original text describes a formal 'complete investigation' by engineers. Your version, 'Engineers look at the problem very carefully', is too informal and loses the meaning of a systematic, professional process. The phrase 'inferior-quality material was used in the construction' is also more precise than your general statement 'the materials were poor quality', which contributes to the meaning loss. While the text is structurally simple and factually correct, the low meaning score is an instant failure. Suggestion: Rephrase to restore the original meaning. Use language that reflects a professional study, for example: 'Engineers must study everything to find the reason.' For the materials, be more direct: 'The builders used poor quality materials.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9026,
+          "meaningbert": 0.694
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:38:37.020978",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes a bridge falls down. At first, no one knows why. Engineers must study everything to find the reason.\n\nSometimes, the builders used poor quality materials. Or an important part had a problem from the start.\n\nIn other cases, the design was the problem. The plan was to hold only a certain weight. The bridge could not hold more weight.",
+      "timestamp": "2025-08-31 20:38:37.021541",
+      "metadata": {
+        "text_id": "2ec6f079-facc-4f6f-97d8-c4b86c81bb12",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 7/10 - FAIL",
+      "timestamp": "2025-08-31 20:39:08.081261",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "07b84ca3-6b63-48db-add2-4ad7fb4cd688",
+        "grade": 7,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7469 is below the required 0.75 threshold. This indicates a failure to preserve the core message.\n\n- The original text states that engineers 'only realise why after they conduct a complete investigation'. Your version, 'Engineers must study everything to find the reason', loses the critical nuance that the discovery happens *after* the event. The concept of a 'mystery' that is solved later is not fully conveyed.\n- The BERTScore of 0.9078 is acceptable.\n- The CEFR classifier result of A2 is correct.\n- The sentence structure is appropriately simple for the A2 level.\n\nSuggestion: Restore the lost meaning of post-event discovery. Rephrase the first paragraph to emphasize the timeline. Example: 'When a bridge falls, engineers do not know the reason at first. They find the reason only after they study everything about the bridge.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9078,
+          "meaningbert": 0.7469
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:39:20.619076",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes a bridge falls down. At first, engineers do not know why. They find the reason only after they study everything.\n\nSometimes, the builders used poor quality materials. Or an important part had a problem from the start.\n\nIn other cases, the design was the problem. The plan was to hold only a certain weight. The bridge could not hold more weight.",
+      "timestamp": "2025-08-31 20:39:20.619731",
+      "metadata": {
+        "text_id": "625976a1-6f8a-49f5-8dcc-48831ee8820a",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 20:39:46.008284",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "fa7b2566-4c2d-4784-9b46-d3e34db1b781",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6626 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text.\n\nDetected Deviations:\n- Core Meaning Alteration: The original text states a factual design limit, 'the bridge was designed only to support a certain amount of weight'. Your version changes this into a judgment, 'the design was the problem'. This is an interpretation, not a simplification, and it alters the intended meaning.\n- Concept Oversimplification: The professional concept of 'conduct a complete investigation' was reduced to 'study everything'. This loses the specific, procedural meaning of the original phrase.\n\nSuggestion:\n- Rephrase to restore factual accuracy. Replace 'the design was the problem' with a direct statement like 'The bridge was built to hold only a certain amount of weight.'\n- Do not interpret the source text. Your task is to simplify the existing information, not to add your own judgment or analysis.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9138,
+          "meaningbert": 0.6626
+        }
+      }
+    }
+  ]
+}

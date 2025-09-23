@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "70e0894c-c753-4cf3-8002-7d2f64ef5a1c",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Suzanne loved old Greek stories when she was a child. They gave her an important idea for the Hunger Games book. One of her favourite stories was about a man named Theseus.\n\nIn this story, the king of Crete ruled the city of Athens. But the people of Athens fought back. The king punished them for this. He made Athens send seven boys and seven girls to Crete every year.\n\nThey put these young people in a big maze. A monster lived there. The monster's name was the Minotaur. The Minotaur ate the young people.\n\nBut one young man was named Theseus. He fought the Minotaur and killed it. Suzanne thinks Katniss Everdeen is a Theseus from the future.",
+    "version": 6,
+    "created_at": "2025-09-01 10:33:54.083894",
+    "updated_at": "2025-09-01 10:33:54.083905",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "4c0761c2-9405-4c6b-add5-f53057f516b7",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6055 is well below the required 0.75. This indicates a critical failure to preserve the core message of the original text. The original text states the 'inspiration' for the book comes from a 'love of classical Greek mythology'. Your version changes this to say 'old Greek stories... gave her an important idea'. Replacing the B1 concept of 'inspiration' with the A2 word 'idea' has fundamentally weakened the meaning, causing the metric failure. While the text is factually correct and uses A2 vocabulary and sentence structures, the loss of the central concept of 'inspiration' is a non-negotiable error. Suggestion: Restore the concept of 'inspiration'. Rephrase the opening to state that the idea for the book came from her love for these stories, not that the stories themselves gave her the idea. Example: 'The idea for the Hunger Games book came from Suzanne's love for old Greek stories.'",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.9235,
+      "meaningbert": 0.6055
+    },
+    "created_at": "2025-09-01 10:34:18.748813"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "83c4872f-d389-4c33-9a1c-ffabc323fe69",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "An important inspiration for the Hunger Games book came from old Greek stories. Suzanne loved these stories when she was a child. One of her favourite stories was about a man named Theseus.\n\nIn this story, the king of Crete ruled the city of Athens. But the people of Athens fought back. The king punished them. Every year, Athens had to send seven boys and seven girls to Crete.\n\nThey put these young people in a big maze. A monster lived there. The monster's name was the Minotaur. The Minotaur ate the young people.\n\nBut one young man was named Theseus. He fought the Minotaur and killed it. Suzanne thinks Katniss Everdeen is like a Theseus from the future.",
+    "version": 3,
+    "created_at": "2025-09-01 10:31:38.495531",
+    "updated_at": "2025-09-01 10:31:38.495535",
+    "metrics_meaningbert": 0.7276,
+    "metrics_cefr_compliance": "A2"
+  }
+}

@@ -1,0 +1,413 @@
+{
+  "session_id": "2036b7e5-472f-4618-be50-7d412a8199ec",
+  "created_at": "2025-09-01 17:17:55.525587",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:17:56.394780",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "73-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Two men looked to the north side of the land.  \nIt went on as far as they could see.  \nEven the fences were hard to see.  \n\nA bored, rebellious young boy felt angry.  \nHe could not run away on foot.  \n\nSam saw the biggest horse.  \nThe horse kicked the ground with its big hooves.  \n\nSam wondered if the boy could ride.  \n\nThere were many problems for a good rider here.  \nIt was far from anyone.  \n\nBut there could be more problems for a boy.  \nHe did not know horses.  \nHe wanted to leave his father.",
+      "timestamp": "2025-09-01 17:17:56.394922",
+      "metadata": {
+        "text_id": "832aa0d9-1c90-490a-bb50-483728d1f64c",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:17:59.583977",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "eeebd469-5495-407c-83ab-c30a4ad42fc6",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6643 is significantly below the required 0.75 threshold. This indicates a critical failure to maintain the original message.\n\n- Factual Inaccuracy: The original text presents a hypothetical thought: 'However bored and rebellious a teenage boy might get...'. Your version changes this into a direct statement of fact: 'A bored, rebellious young boy felt angry.' The original text does not state the boy was angry. This is a severe alteration of meaning and a factual error.\n- Fidelity Failure: The BERTScore of 0.8847 is below the 0.90 minimum. This reflects the loss of the original's nuanced phrasing, which contributed to the meaning shift.\n- B1 Vocabulary Violation: The word 'rider' is B1 level. This is not permitted. All vocabulary must be strictly A2.\n\nSuggestion: You must rephrase the text to restore the original meaning. The sentence 'A bored, rebellious young boy felt angry' must be rewritten to show it is a general thought, not a specific fact. Remove the B1 word 'rider' and replace it with an A2 description like 'a person who can ride a horse'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8847,
+          "meaningbert": 0.6643
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:18:07.833153",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Two men looked to the north side of the land.  \nIt went on as far as they could see.  \nEven the fences were hard to see.  \n\nA teenage boy might be bored and rebellious.  \nHe could not run away on foot.  \n\nSam saw the biggest horse.  \nThe horse kicked the ground with its big hooves.  \n\nSam wondered if the boy could ride the horse.  \n\nThere could be many problems for someone who can ride a horse.  \nIt was far from anyone.  \n\nBut there could be more problems for a boy.  \nHe did not know horses.  \nHe wanted to leave his father.",
+      "timestamp": "2025-09-01 17:18:07.833450",
+      "metadata": {
+        "text_id": "03851d12-fba2-4a22-a1db-ab5bdb0e14e4",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:18:41.545529",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c3792103-a110-4217-84e1-838852f24410",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on multiple priority checks, starting with meaning and fidelity metrics. The MeaningBERT score of 0.6552 is critically below the required 0.75 threshold. The BERTScore of 0.886 is also below the 0.90 minimum. These scores indicate a severe loss of the original text's core message and lexical detail. Furthermore, the text fails the CEFR compliance check, registering as B1 instead of the required A2.\n\n- Meaning Preservation Failure (MeaningBERT 0.6552): The original text creates a contrast between the trouble a good rider could find and the even greater trouble a non-rider could find. Your version breaks this into disconnected statements, losing the comparative and speculative meaning.\n\n- Fidelity Failure (BERTScore 0.886): Key lexical items from the original were replaced with overly simple terms, reducing fidelity. For example, 'property' became 'land', and 'escape on foot' became 'run away on foot'.\n\n- CEFR Compliance Failure (Classifier: B1): The text is too complex for A2. It contains B1 grammatical structures and vocabulary.\n\n- B1 Grammar: The sentence \"Sam wondered if the boy could ride the horse\" uses a reported question ('wondered if...'). This is a B1 structure.\n\n- B1 Grammar: The sentence \"There could be many problems for someone who can ride a horse\" uses a defining relative clause ('who can ride...'). This structure elevates the complexity to B1.\n\n- B1 Vocabulary: The word 'rebellious' is not A2 vocabulary. It must be replaced.\n\nSuggestion: Simplify all B1 grammar immediately. Rephrase \"Sam wondered if...\" to \"Sam thought, 'Can the boy ride?'\". Break the relative clause into two simple sentences, such as \"A person can ride a horse. This person can have many problems.\" Replace the word 'rebellious' with an A2 alternative like 'angry' or 'difficult'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.886,
+          "meaningbert": 0.6552
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:18:53.176908",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Two men looked to the north side of the land.  \nThe land went on as far as they could see.  \nEven the fences were hard to see.  \n\nThe teenage boy felt bored and angry.  \nHe could not run away on foot.  \n\nSam saw the biggest horse.  \nThe horse kicked the ground with its big hooves.  \n\nSam thought, \"Can the boy ride?\"  \n\nA good rider can have many problems.  \nThe boy cannot ride a horse.  \nThe boy can have even more problems.  \n\nIt was far from anyone.  \nHe wanted to leave his father.",
+      "timestamp": "2025-09-01 17:18:53.177319",
+      "metadata": {
+        "text_id": "04193a0a-5a84-426b-aabe-685133ac1253",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:19:21.797239",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "410703ed-c536-4635-84d2-c7f2f05868ba",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The output states, \"The boy cannot ride a horse.\" The original text does not state this as a fact; it is a question in Sam's mind (\"Could the boy ride?\"). You have invented a fact, which is an instant and critical failure.\n\n- Meaning Preservation Failure: The MeaningBERT score of 0.6284 is catastrophically below the required 0.75. This is a direct result of the factual inaccuracy.\n\n- Fidelity Failure: The BERTScore of 0.8752 is below the 0.90 threshold. This indicates a significant loss of the original phrasing, contributing to the change in meaning.\n\n- Vocabulary Violation: The B1 word \"rider\" was used. This word is not on the A2 list and must be simplified.\n\nSuggestion: You must preserve the core facts and meaning of the original text. Do not turn questions or possibilities into declarative statements. Rephrase to maintain the speculative nature of the original. Example: \"Sam thought about the boy. Maybe the boy can ride a horse. This can be a problem. Maybe the boy cannot ride a horse. This can be a bigger problem.\" Replace the word \"rider\" with an A2 phrase like \"a person who can ride a horse well\".",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8752,
+          "meaningbert": 0.6284
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:19:27.043826",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Two men looked to the north side of the land.  \nThe land went on as far as they could see.  \nEven the fences were hard to see.  \n\nThe teenage boy felt bored and angry.  \nHe could not run away on foot.  \n\nSam saw the biggest horse.  \nThe horse kicked the ground with its big hooves.  \n\nSam thought, \"Could the boy ride the horse?\"  \nMaybe the boy can ride the horse.  \nThis could be a problem.  \nMaybe the boy cannot ride the horse.  \nThis could be a bigger problem.  \n\nIt was far from anyone.  \nHe wanted to leave his father.",
+      "timestamp": "2025-09-01 17:19:27.044209",
+      "metadata": {
+        "text_id": "655098e1-d0ed-4057-982b-f597650ff674",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:19:55.465010",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "53f027c9-ca97-42c1-94dc-991571706c13",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6062 is significantly below the required 0.75 threshold. This indicates a critical loss of the original message.\n\n- The primary failure is the loss of conditional meaning. The original text explains two different types of trouble based on the boy's riding skill. Your version breaks this into disconnected sentences: \"This could be a problem\" and \"This could be a bigger problem\", which fails to explain the cause.\n- The BERTScore of 0.8713 is also below the 0.90 minimum. This is a direct result of oversimplifying key phrases like \"a whole load of trouble a good rider could get into\" and \"more trouble for someone who knew nothing about horses\".\n- The simplification from \"rebellious\" to \"angry\" changes the nuance of the boy's character.\n\nSuggestion: Restore the cause-and-effect logic using simple A2 structures. You must connect the boy's riding skill to the potential for trouble. For example: 'If the boy is a good rider, he can cause problems. If he is a bad rider, he can cause bigger problems.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8713,
+          "meaningbert": 0.6062
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:20:10.224596",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Two men look north on the land.  \nThe land stretches far away.  \nEven the fences are hard to see.  \n\nA teenage boy feels bored and angry.  \nHe cannot run away on foot.  \n\nSam sees the biggest horse.  \nThe horse kicks the ground with big hooves.  \n\nSam wonders if the boy can ride the horse.  \n\nIf the boy is a good rider, he may get into trouble.  \nIf the boy does not know how to ride, he may get into bigger trouble.  \n\nThe land is far from anyone.  \nThe boy wants to leave his father.",
+      "timestamp": "2025-09-01 17:20:10.226062",
+      "metadata": {
+        "text_id": "89b49f2f-e97f-45c9-9206-c37b1039f190",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:20:33.602405",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "25872a7d-a400-4ef2-8f94-4c3aa54a0e07",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6095 is critically below the 0.75 minimum. This indicates a severe loss of the original text's narrative meaning and tone.\n\n- Factual Inaccuracy: The original text is a narrative written in the past tense ('looked', 'stretched', 'wondered'). Your output incorrectly changes the entire narrative to the present tense ('look', 'stretches', 'wonders'). This is a fundamental error in preserving the story's factual timeline.\n- Fidelity Failure: The BERTScore of 0.8697 is below the required 0.90. This is a direct result of changing the tense and breaking apart complex thoughts.\n- Lost Connections: The original text links ideas within single sentences. For example, '...trouble a good rider could get into out here, miles away from anyone.' Your version breaks this into two disconnected statements: 'he may get into trouble' and 'The land is far from anyone.' This destroys the cause-and-effect logic.\n\nSuggestion: Rewrite the entire text using the simple past tense to match the original. Reconnect the fragmented sentences to restore the logical links present in the source material. The goal is to simplify language, not to dismantle the story's structure.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8697,
+          "meaningbert": 0.6095
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:20:41.806180",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Two men looked north on the land.  \nThe land stretched far away.  \nThe fences were hard to see.  \nA teenage boy felt bored and angry.  \nHe could not run away on foot.  \nSam saw the biggest horse.  \nThe horse kicked the ground with big hooves.  \nSam wondered if the boy could ride the horse.  \nSomeone good at riding could get into trouble out here.  \nThe land was far from anyone.  \nThe boy did not know how to ride.  \nHe could get into more trouble.  \nThe boy wanted to leave his father.",
+      "timestamp": "2025-09-01 17:20:41.806555",
+      "metadata": {
+        "text_id": "ab7c3123-6716-4975-aaae-f8277d77b35e",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:21:08.746112",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "acef2fd1-7408-4c21-980d-7c77c6cd7978",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text has a character wondering if the boy can ride and speculating about the consequences. Your output states, 'The boy did not know how to ride,' as a definitive fact. This is a complete fabrication and an instant failure.\n\n- Meaning Preservation Failure: The MeaningBERT score of 0.6752 is catastrophically below the 0.75 minimum. Your text converted a character's internal thoughts and worries into a simple list of declarative statements, completely losing the original's speculative tone.\n\n- Fidelity Failure: The BERTScore of 0.876 is below the required 0.90. This is a direct result of oversimplifying key phrases. 'As far as the eye could see' became 'far away', and 'heavy hooves' became 'big hooves', losing essential descriptive detail.\n\n- Structural Degradation: The text is a series of disconnected, choppy sentences. While simple, this structure contributed to the loss of meaning and the factual error.\n\nSuggestion: You must correct the factual error immediately. The text must show that Sam is thinking or wondering, not stating a fact. Rephrase to restore the speculative nature of the original text. Example: 'Sam wondered, 'Can the boy ride a horse?'' Do not invent facts not present in the source material.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.876,
+          "meaningbert": 0.6752
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:21:21.076351",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Two men looked north on the land.  \nThe land stretched as far as the eye could see.  \nThe fences were hard to see.  \nA teenage boy felt bored and angry.  \nHe could not run away on foot.  \nSam saw the biggest horse.  \nThe horse kicked the ground with big hooves.  \nSam wondered, \u201cCan the boy ride?\u201d  \nA good rider could get into trouble out here.  \nThe land was far from anyone.  \nThe boy knew nothing about horses.  \nHe might get more trouble.  \nHe wanted to leave his father.",
+      "timestamp": "2025-09-01 17:21:21.077074",
+      "metadata": {
+        "text_id": "f77f2012-d89b-4b38-ada8-5c93709699ba",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:21:49.231067",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f10206f8-5d49-477d-a445-823016b5afac",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7305 is below the required 0.75 threshold. This is an instant failure. The text also fails the fidelity check, with a BERTScore of 0.8856, which is below the 0.90 minimum.\n\n- Core Meaning Lost: The original text's final point is a comparison between the trouble a good rider could get into and the 'even more trouble' a non-rider could face. Your version states 'He might get more trouble' without the essential comparative context, completely losing the original meaning.\n\n- Vocabulary Violation: The B1 word 'rider' was used. This is not A2 vocabulary. It must be simplified.\n\n- Nuance Altered: The original's conditional phrase 'However bored and rebellious a teenage boy might get' was changed to a simple statement 'A teenage boy felt bored and angry'. This changes a general possibility into a specific fact, altering the text's nuance.\n\nSuggestion: Restore the core meaning by re-establishing the comparison. Replace the B1 word 'rider' with an A2 phrase like 'a person who can ride a horse'. Rephrase the final section to show that the trouble for a non-rider is greater than the trouble for a good rider.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8856,
+          "meaningbert": 0.7305
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:22:00.335872",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Two men looked north on the land.  \nThe land stretched far.  \nThe fences were hard to see.  \nA teenage boy might feel bored and angry.  \nHe could not run away on foot.  \nSam saw the biggest horse.  \nThe horse kicked the ground with big hooves.  \nSam wondered if the boy could ride.  \nA person who can ride a horse might get into trouble here.  \nThe land was far from anyone.  \nThe boy knew nothing about horses.  \nHe might get even more trouble.  \nA person who can ride a horse could have less trouble.  \nHe wanted to leave his father.",
+      "timestamp": "2025-09-01 17:22:00.336401",
+      "metadata": {
+        "text_id": "65a1709e-e6ef-477e-8c60-7caf00827da6",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:22:29.956110",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "142eac93-bc38-4fdc-907f-195453fa84b1",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The output directly contradicts the original text. The original states a good rider could get into 'a whole load of trouble'. Your version incorrectly claims 'A person who can ride a horse could have less trouble'. This is a fundamental misrepresentation of the source material.\n\n- Factual Error: You have inverted the meaning. The original text contrasts two types of trouble, not a presence versus an absence of trouble.\n- Meaning Preservation Failure: The MeaningBERT score of 0.696 is well below the required 0.75. This confirms the core message about the nature of the trouble was lost.\n- Fidelity Failure: The BERTScore of 0.8748 is below the 0.90 threshold. Key descriptive phrases like 'as far as the eye could see' and 'miles away from anyone' were removed, losing important context and detail.\n- Structural Issue: The text is broken into too many short, disconnected sentences. This makes it read like a list, not a story.\n\nSuggestion: Rewrite the text to be factually accurate. Restore the original idea that a good rider could find a lot of trouble, but a boy who cannot ride might find even more. Combine some of the choppy sentences to create a more natural A2-level narrative.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8748,
+          "meaningbert": 0.696
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:22:47.248790",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Two men see north on the land.  \nThe land is far, far from anyone.  \nA teenage boy is bored and angry.  \nHe could not run away on foot.  \nSam see horse kick ground with big feet.  \nHe wondered if the boy could ride.  \nA person who can ride could get more trouble here.  \nA boy who know nothing about horses could get even more trouble.  \nHe wants to leave his father.",
+      "timestamp": "2025-09-01 17:22:47.249584",
+      "metadata": {
+        "text_id": "8a054299-107b-4b2f-9b11-fed744645a98",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:23:12.745792",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "adccc2ef-97ba-4e2c-be96-2a36013fb6f6",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5873 is catastrophically below the required 0.75 threshold. This indicates a severe loss of the original text's core message and context.\n\n- MeaningBERT Failure: The original text describes a vast, inescapable property and a character's thoughts about a hypothetical rebellious boy. Your output reduces this to a simple list of facts like 'The land is far' and 'A teenage boy is bored and angry'. This loses the essential meaning of scale, the feeling of being trapped, and the speculative nature of the original passage.\n\n- Fidelity Failure: The BERTScore of 0.8634 is below the 0.90 minimum. Key descriptive phrases like 'stretched as far as the eye could see' and 'barely visible' were completely removed, destroying the original's imagery and lexical substance.\n\n- Grammatical Errors: The text contains basic subject-verb agreement errors. 'Sam see horse kick' is incorrect. 'A boy who know nothing' is incorrect. These errors are unacceptable.\n\n- Over-simplification: The output is a disconnected list of sentences. The narrative flow is gone. The sentences are too choppy and lack simple connectors to link the ideas together.\n\nSuggestion: Rewrite the text. You must restore the core meaning of a vast, inescapable place. Do not change the character's thoughts from a hypothetical idea to a direct statement of fact. Correct all grammatical errors; verbs must agree with their subjects. Use simple connectors like 'and' or 'but' to create a coherent paragraph, not a list.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8634,
+          "meaningbert": 0.5873
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:23:16.915183",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Two men look north across the land.  \nThe land stretches as far as the eye can see.  \nThe fences are barely visible.  \nA teenage boy feels bored and angry.  \nHe cannot run away on foot.  \nSam sees the biggest horse kicking the ground with its big feet.  \nSam wonders if the boy could ride the horse.  \nRiding could bring more trouble here.  \nA boy who knows nothing about horses could get even more trouble.  \nThe boy wants to leave his father.",
+      "timestamp": "2025-09-01 17:23:16.915810",
+      "metadata": {
+        "text_id": "c8f8d90c-a1fd-4d11-9b72-6fe743e80ec9",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:23:53.460484",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ebdd8448-5f3b-45fe-b8c8-7391d8655ba3",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on two primary metrics. The MeaningBERT score of 0.7156 is below the required 0.75, and the BERTScore of 0.8849 is below the required 0.90. This indicates a significant loss of the original message and lexical detail.\n\n- Metric Failure: The low scores are a direct result of oversimplification. Changing the character trait 'rebellious' to the emotion 'angry' alters the meaning. Reducing the specific warning 'There was a whole load of trouble a good rider could get into out here' to the vague 'Riding could bring more trouble here' loses critical context.\n- Vocabulary Violation: The B1 words 'barely' and 'visible' were not replaced. The sentence 'The fences are barely visible' is not A2 compliant.\n- Tense Inconsistency: The original narrative is in the past tense. Your output shifts entirely to the present tense. This is an unacceptable alteration of the source text's narrative structure.\n\nSuggestion: Restore the original past tense. Rephrase the sentence containing 'barely visible' using A2 vocabulary, for example, 'You can only just see the fences'. Restore the meaning of 'rebellious' with a phrase like 'does not want to follow rules'. Restore the lost meaning about the rider.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8849,
+          "meaningbert": 0.7156
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:23:58.573314",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Two men looked north across the land.  \nThe land stretched as far as the eye could see.  \nYou could only just see the fences.  \nThe teenage boy felt bored.  \nHe did not want to follow rules.  \nHe could not run away on foot.  \nSam saw the biggest horse kicking the ground with its big feet.  \nThe boy wondered if he could ride the horse.  \nA good rider could get into a lot of trouble here.  \nSomeone who knew nothing about horses could get even more trouble.  \nThe boy wanted to leave his father.",
+      "timestamp": "2025-09-01 17:23:58.573804",
+      "metadata": {
+        "text_id": "65fe66e8-97c9-4017-aced-ee0c0d2dc778",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:24:25.552281",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "78a5a623-201b-46f4-82db-4b4fcfaed8dc",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text states that Sam wondered if the boy could ride ('Could the boy ride? he wondered.'). Your output incorrectly assigns this thought to the boy: 'The boy wondered if he could ride the horse'. This is a critical error in perspective and fact, resulting in an instant failure.\n\n- Meaning Preservation Failure: The MeaningBERT score of 0.7059 is significantly below the required 0.75. This is a direct result of the factual error, which fundamentally changes the meaning of a key sentence.\n\n- Fidelity Failure: The BERTScore of 0.8875 is below the required 0.90. This indicates an unacceptable loss of key words and phrasing from the original text.\n\n- Vocabulary Violation: The B1 word 'rider' was used in the sentence 'A good rider could get into a lot of trouble here'. This word is not on the A2 list and must be simplified.\n\n- Suggestion: Correct the factual error regarding who is thinking. The text must be an accurate representation of the source. Rephrase the sentence containing the B1 word 'rider' using A2 vocabulary, for example: 'Someone who can ride a horse well...'. Re-evaluate the entire text to ensure no other perspectives or facts have been altered.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8875,
+          "meaningbert": 0.7059
+        }
+      }
+    }
+  ]
+}

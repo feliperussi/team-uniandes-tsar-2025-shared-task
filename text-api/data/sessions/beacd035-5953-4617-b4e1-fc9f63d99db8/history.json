@@ -1,0 +1,598 @@
+{
+  "session_id": "beacd035-5953-4617-b4e1-fc9f63d99db8",
+  "created_at": "2025-08-31 23:53:23.230256",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:53:23.246158",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "08-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We dream about a phone call from an old friend.  \nWe dream about someone close dying.  \nThese dreams are probably by chance.  \nThey do not show the future.  \nWe also forget the dreams that do not happen.",
+      "timestamp": "2025-08-31 23:53:23.246297",
+      "metadata": {
+        "text_id": "8c25e78e-058d-40a6-a0ba-b20e198d3773",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:53:23.250157",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "51f6a5dc-d82e-4c64-aa33-c08b06a7e5d9",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6371 is too low. The original idea that these dreams are more likely \u2018the result of coincidence than prophecy\u2019 has been reduced to \u2018probably by chance,\u2019 losing the key contrast with prophecy. FAIL: Fidelity Failure. The BERTScore of 0.881 is below the required 0.90. You removed the term \u2018prophecy\u2019 and replaced \u2018result of coincidence\u2019 with \u2018by chance,\u2019 losing important lexical detail and weakening the core message. Suggestion: Restore the phrase \u2018result of coincidence\u2019 and reintroduce \u2018prophecy.\u2019 Retain key terms from the original to boost fidelity and meaning preservation.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.881,
+          "meaningbert": 0.6371
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:53:34.545611",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes we dream about a phone call from an old friend.  \nSometimes we dream about someone close dying.  \nThese dreams are more often the result of coincidence than prophecy.  \nThey do not tell the future.  \nWe also forget the dreams that do not come true.",
+      "timestamp": "2025-08-31 23:53:34.546911",
+      "metadata": {
+        "text_id": "354e5496-c31c-4e51-b1c3-411c64c6de9f",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:53:53.171742",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d3cf0a0e-348a-4833-a07e-07bade0616be",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8884 is below the required 0.90. Specific deviations: The phrase \u201cdeath of someone close\u201d was rewritten as \u201csomeone close dying,\u201d which alters the formal noun phrase and reduces lexical overlap. The clause \u201cwe probably choose to forget all the times we dream about such events but they don\u2019t happen\u201d was reduced to \u201cWe also forget the dreams that do not come true,\u201d losing the nuance of choice and frequency. Suggestion: Restore key original phrases such as \u201cthe death of someone close\u201d and \u201cwe probably choose to forget all the times\u201d to raise fidelity and BERTScore.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8884,
+          "meaningbert": 0.7849
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:54:06.051272",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes we dream about a phone call from an old friend.  \nSometimes we dream about the death of someone close.  \nThese dreams often happen by chance.  \nThey do not show the future.  \nWe probably choose to forget the times we dream about such events.  \nThey do not come true.",
+      "timestamp": "2025-08-31 23:54:06.053436",
+      "metadata": {
+        "text_id": "360841ef-04df-46e2-be58-5d72313e7f66",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:54:27.169276",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "585c05a0-1009-4440-a2b9-aa1cc03d5cba",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.709 is below the required 0.75. The nuance that dreams are \"more likely the result of coincidence than prophecy\" is lost when simplified to \"These dreams often happen by chance\" and \"They do not show the future.\" FAIL: Fidelity Failure. The BERTScore of 0.8878 is below the required 0.90 because the key phrases \"result of coincidence\" and \"prophecy\" were replaced with weaker terms \"by chance\" and \"do not show the future.\" Suggestion: Restore the phrase \"more likely the result of coincidence than prophecy.\" Use \"result of coincidence\" instead of \"happen by chance.\" Combine sentences to preserve the original nuance.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8878,
+          "meaningbert": 0.709
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:54:45.636834",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes we dream about a phone call from an old friend.  \nSometimes we dream about the death of someone close.  \nSuch dreams are more likely the result of coincidence than prophecy.  \nWe probably choose to forget the times we dream about such events.  \nThey do not happen.",
+      "timestamp": "2025-08-31 23:54:45.638483",
+      "metadata": {
+        "text_id": "3df232e6-8469-4c42-bf30-b01c7f564bd9",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-08-31 23:55:01.386964",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f61e6de8-0271-4948-ad18-36d3f09583e6",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Audit Failure. The text includes the B2 level word \"coincidence\", which is not allowed at A2 level.\n- Found B2 word \"coincidence\" in the sentence: \"Such dreams are more likely the result of coincidence than prophecy.\"\nSuggestion: Replace \"coincidence\" with an A2 level word such as \"chance\".",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9125,
+          "meaningbert": 0.8613
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:55:09.957980",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes we dream about a phone call from an old friend. Sometimes we dream about the death of someone close. Such dreams are more likely the result of chance than prophecy. We probably choose to forget the times we dream about such events. They do not happen.",
+      "timestamp": "2025-08-31 23:55:09.960455",
+      "metadata": {
+        "text_id": "4c810338-6bc6-46dc-b692-b896a97ef80c",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 23:55:28.652769",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "25dc9b03-5f49-4553-9657-88134472c480",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The CEFR classifier rated the text as B1, which is too complex for A2. The sentence \u201cSuch dreams are more likely the result of chance than prophecy.\u201d uses the comparative structure \u201cmore \u2026 than,\u201d which is a B1\u2010level pattern. The adverb \u201cprobably\u201d and the phrase \u201cchoose to forget the times\u201d also introduce complexity above A2. Suggestion: Remove comparatives and reduce adverbs. Use only simple sentences with basic conjunctions (and, but, so, because). For example, rewrite as:\nSuch dreams happen by chance. They do not tell the future. We forget the dreams that do not come true.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9397,
+          "meaningbert": 0.8597
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:55:40.184236",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We sometimes dream about a phone call from an old friend.  \nWe sometimes dream about the death of someone close.  \nSuch dreams happen by chance.  \nThey do not tell the future.  \nWe forget dreams that do not come true.",
+      "timestamp": "2025-08-31 23:55:40.185727",
+      "metadata": {
+        "text_id": "065ce637-38f0-4079-b8be-67e9007ae3c4",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:55:53.461825",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "aabf76c3-5f54-4ca1-9789-033c7cdaa9e1",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6398 is below the required 0.75. The original text stresses that such dreams are \u2018more likely to be the result of coincidence than prophecy,\u2019 but the writer\u2019s version only says \u2018happen by chance\u2019 and \u2018do not tell the future,\u2019 losing the comparison and probability nuance. FAIL: Fidelity Failure. The BERTScore of 0.8752 is below the required 0.90. Key expressions like \u2018more likely,\u2019 \u2018result of coincidence,\u2019 and \u2018choose to forget all the times\u2019 were replaced or omitted, reducing lexical precision and detail. Suggestion: Restore the phrase \u2018more likely to be the result of coincidence than prophecy.\u2019 Include the idea that we \u2018probably choose to forget all the times we dream about such events but they don\u2019t happen.\u2019",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8752,
+          "meaningbert": 0.6398
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:56:13.635078",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We sometimes dream about a phone call from an old friend.  \nWe sometimes dream about the death of someone close.  \nThese dreams are more likely a result of coincidence than prophecy.  \nWe probably choose to forget the times we dream about these events.  \nWe forget them when they do not happen.",
+      "timestamp": "2025-08-31 23:56:13.635862",
+      "metadata": {
+        "text_id": "db49e707-0e25-412c-b7f0-f2e19ac9da8a",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:56:28.928056",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "cd9cdfb4-d945-4317-ae3a-1980f4494ce2",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Vocabulary Audit Failure. Contains words above the A2 level.\n- The word \"coincidence\" is classified B2-level, not A2.\n- The word \"prophecy\" does not appear on the A2 list and is too advanced.\nSuggestion: Replace \"coincidence\" with a simpler A2 term like \"chance\". Replace \"prophecy\" with \"prediction\" or a phrase like \"telling the future\". Ensure all vocabulary remains within A2.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9077,
+          "meaningbert": 0.846
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:56:49.195810",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We sometimes dream about a phone call from an old friend.  \nWe sometimes dream about the death of someone close.  \nThese dreams are more likely a result of chance than prediction.  \nWe probably choose to forget the times we dream about these events.  \nWe forget them when they do not happen.",
+      "timestamp": "2025-08-31 23:56:49.197947",
+      "metadata": {
+        "text_id": "f0d72ff7-2e9d-4198-991a-772db0c9c8d5",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:57:03.427823",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e592953a-6629-4fa1-a853-c185d6174d01",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. Contains B1-level vocabulary that violates A2 requirement.\n- Found the word 'prediction' which is B1-level and not allowed at A2.\nSuggestion: Remove 'prediction' and replace it with an A2-level term such as 'guess' or rephrase to avoid advanced vocabulary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9046,
+          "meaningbert": 0.8364
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:57:13.441147",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We sometimes dream about a phone call from an old friend.  \nWe sometimes dream about the death of someone close.  \nThese dreams happen by chance, not by a guess.  \nWe probably choose to forget the times we dream about these events.  \nWe forget them when they do not happen.",
+      "timestamp": "2025-08-31 23:57:13.441696",
+      "metadata": {
+        "text_id": "f7e24b9f-24cd-43e2-ad40-8f4a5a113ce1",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 23:57:31.283501",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6727de9c-124f-4957-b937-0b6eebb9f68f",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6379 is below the required 0.75, indicating the core message was weakened. FAIL: Fidelity Failure. The BERTScore of 0.8927 is below the required 0.90, showing key terms were lost.\n- The original phrase \"result of coincidence\" was replaced by \"not by a guess\", losing the precise concept of coincidence.\n- The comparative structure \"more likely to be\" was removed, reducing emphasis on probability.\nSuggestion: Replace \"not by a guess\" with \"by coincidence\". Add \"more likely to be\" before \"by chance\" to restore the original nuance and key phrasing.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8927,
+          "meaningbert": 0.6379
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:57:55.970485",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We sometimes dream about a phone call from an old friend.  \nWe sometimes dream about the death of someone close.  \nThese dreams are more likely to be by chance, by coincidence.  \nWe probably choose to forget the times we dream about these events.  \nWe forget them when they do not happen.",
+      "timestamp": "2025-08-31 23:57:55.974683",
+      "metadata": {
+        "text_id": "96d3766c-736f-4e48-ab1a-d0ba879088af",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-08-31 23:58:22.813386",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5d450b70-d3b8-4d04-9fd7-9a465ea3f3b3",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8985 is below the required 0.90. This indicates a significant loss of key lexical details from the original text.\n- The original contrast 'than prophecy' was omitted, reducing precision.\n- The phrase 'but they don\u2019t happen' was split and simplified, losing the emphasis on choosing to forget all the times.\nSuggestion: Reinsert the contrast with 'than prophecy' and maintain the conjunction 'but' to preserve the original meaning. For example: 'Dreams of a phone call from an old friend or the death of someone close are more likely to be the result of coincidence than prophecy, but we probably choose to forget all the times we dream about such events when they do not happen.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8985,
+          "meaningbert": 0.7915
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:58:42.664608",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We sometimes dream of a phone call from an old friend.  \nWe sometimes dream of the death of someone close.  \nThese dreams are more likely to be by chance than prophecy.  \nBut we choose to forget these dreams when they do not happen.",
+      "timestamp": "2025-08-31 23:58:42.667324",
+      "metadata": {
+        "text_id": "062fcdf6-db3b-4b75-bc6f-236b3d9d5e60",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:58:54.655007",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "64e0b824-baf0-452f-9b8c-4d80addb8261",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The CEFR classifier rated the text B1, not A2. The term \"prophecy\" is beyond A2 vocabulary. The phrase \"more likely to be by chance than prophecy\" uses a comparative structure and an abstract noun unsuitable for A2. The sentence \"But we choose to forget these dreams when they do not happen\" uses a time clause and the verb phrase \"choose to forget,\" which exceed A2. Suggestion: Replace \"prophecy\" with \"a true sign\". Simplify to two short sentences: \"These dreams happen by chance. We forget them if they do not come true.\"",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9054,
+          "meaningbert": 0.8242
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:59:07.287749",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 12,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We sometimes dream of a phone call from an old friend.  \nWe sometimes dream of the death of someone close.  \nThese dreams happen by chance.  \nWe forget them if they do not come true.",
+      "timestamp": "2025-08-31 23:59:07.290606",
+      "metadata": {
+        "text_id": "f2fc9cb2-0ed9-42e3-8f0c-5743a0571556",
+        "version": 12
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 23:59:32.575027",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "214206a8-1c33-4c3a-8330-af184a79decf",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score (0.588) is below the required 0.75, showing a loss of the original nuance in comparing \u2018coincidence\u2019 with \u2018prophecy\u2019. The writer\u2019s version reduces this to \u2018by chance\u2019, removing the key contrast. FAIL: Fidelity Failure. The BERTScore (0.8772) is below the required 0.90 because important phrases such as \u2018more likely\u2019, \u2018choose to forget all the times\u2019, and \u2018but they don\u2019t happen\u2019 were simplified to \u2018sometimes\u2019 and \u2018do not come true\u2019, losing critical factual detail.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8772,
+          "meaningbert": 0.588
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:59:58.018785",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 13,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We sometimes dream of a phone call from an old friend.  \nWe sometimes dream of the death of someone close to us.  \nThese dreams are more likely chance than a guess about the future.  \nWe choose to forget all the times we dream about them.  \nBut those dreams do not happen.",
+      "timestamp": "2025-08-31 23:59:58.021384",
+      "metadata": {
+        "text_id": "4849cee2-decb-45ab-a5d2-468e2df44acb",
+        "version": 13
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:00:14.405912",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d46239ad-d93c-4a4e-8be3-770c88c15d54",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6727 is below the required 0.75, showing the core idea comparing coincidence and prophecy is weakened.\nFAIL: Fidelity Failure. The BERTScore of 0.8952 is below the required 0.90, because key terms like \"prophecy\" and \"coincidence\" were replaced with broader words like \"guess about the future\" and \"chance\".\nSuggestion: Restore the original terms \"coincidence\" and \"prophecy\" and rephrase to directly compare them, ensuring the true meaning is preserved.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8952,
+          "meaningbert": 0.6727
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:00:31.813319",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 14,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We sometimes dream about a phone call from an old friend.  \nWe sometimes dream about the death of someone close to us.  \nThese dreams are not prophecy.  \nA prophecy is a message about the future.  \nThey are coincidence.  \nA coincidence is when things happen by chance.  \nWe choose to forget the dreams that do not happen.",
+      "timestamp": "2025-09-01 00:00:31.815890",
+      "metadata": {
+        "text_id": "a4e1d780-7849-41c3-ac15-91a6c00df2ab",
+        "version": 14
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 00:00:48.886017",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "482c4edf-ddaf-494e-a0bf-a964968bd5cb",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6847 is below the required 0.75, indicating loss of the original core message. FAIL: Fidelity Failure. The BERTScore of 0.8719 is below the required 0.90, showing too many key phrases were altered or removed. The writer split complex sentences into isolated definitions, removed connectors like \"for example\" and \"of course\", and lost lexical overlap. Suggestion: Restore the original phrasing and connectors, keep compound sentences intact, and retain key terms in context to raise both MeaningBERT and BERTScore.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8719,
+          "meaningbert": 0.6847
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:01:17.058588",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 15,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We sometimes dream about a phone call from an old friend.  \nFor example, we sometimes dream about the death of someone close.  \nThese dreams are more likely to be coincidence than prophecy.  \nAnd, of course, we choose to forget dreams that do not happen.",
+      "timestamp": "2025-09-01 00:01:17.061828",
+      "metadata": {
+        "text_id": "2beaae16-c6fe-4b2d-b1ab-e058726ee6b8",
+        "version": 15
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:01:34.986204",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c5522003-6312-495b-b7eb-4f881abeb29d",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Vocabulary Failure. The output uses B2-level words that exceed A2 vocabulary list.\nFound unapproved word 'coincidence' (B2 level).\nFound unapproved word 'prophecy' (B2 level).\nSuggestion: Replace 'coincidence' with a simpler A2 word like 'chance'. Replace or remove 'prophecy' or use 'a prediction' instead.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9118,
+          "meaningbert": 0.8699
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:01:46.877593",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 16,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We sometimes dream about a phone call from an old friend.  \nWe sometimes dream about the death of someone close.  \nThese dreams happen by chance, not because they tell the future.  \nWe forget dreams that do not happen.",
+      "timestamp": "2025-09-01 00:01:46.880506",
+      "metadata": {
+        "text_id": "b95bd9f9-b474-418a-bad3-f2563201b0dd",
+        "version": 16
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 00:02:06.237948",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "10e026d9-662d-48a1-9e11-ba8973eb1edf",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5646 is below the required 0.75 and the core message about prophecy is lost. FAIL: Fidelity Failure. The BERTScore of 0.8832 is below the required 0.90 and key phrases like prophecy and choosing to forget are missing. Suggestion: Reintroduce the concept of prophecy using simple A2 terms. Suggestion: Restore key vocabulary from the original text such as prophecy and choose to forget. Suggestion: Keep more of the original sentence structure to preserve the full meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8832,
+          "meaningbert": 0.5646
+        }
+      }
+    }
+  ]
+}

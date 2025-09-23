@@ -1,0 +1,413 @@
+{
+  "session_id": "d075ba1d-1a56-460c-9e73-00434a7be9aa",
+  "created_at": "2025-09-01 17:12:49.024356",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:12:49.043952",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "112-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A `Gros Michel banana` was a type of banana. People called it Big Mike. The `Cavendish` is another type of banana. It came after Big Mike.\n\nIn the 1950s, banana growers had a problem. They grew bananas to sell. Their best banana was dying. This was the Gros Michel banana, or Big Mike.\n\nNow, the same problem is happening again. It is happening to the Cavendish banana. The Cavendish is the next banana after Big Mike.\n\nThe Gros Michel banana was easy to move. It had thick skin. It tasted sweet. This banana was the main one in many farms. These farms were in Central America.\n\nUnited Fruit was a big company. It grew many bananas. It sent them to other countries. This company made many bananas. They did it in a very good way. They took small parts from banana plants. They did not grow them from seeds. They grew many plants close together in fields.",
+      "timestamp": "2025-09-01 17:12:49.044111",
+      "metadata": {
+        "text_id": "b85a350f-ef15-47cc-b523-7242349575d9",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:12:49.058557",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5a139040-9190-4905-939a-e213071dd593",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text states 'United Fruit, the main grower and exporter in South America at the time'. Your version omits the crucial geographical detail 'in South America', stating only 'It sent them to other countries'. This is a factual discrepancy regarding the company's specific operational scope as described in the original text.\n\nAdditionally, the text fails on multiple other critical metrics:\n- Meaning Preservation Failure: The MeaningBERT score of 0.626 is significantly below the required 0.75. Key concepts like 'most lucrative product' and 'most efficient way possible' were lost or overly generalized to 'best banana' and 'very good way', diminishing the core message. The specific meaning of 'lucrative' (profit-making) is entirely absent.\n- Fidelity Failure: The BERTScore of 0.8809 is below the required 0.90. This indicates a significant loss of specific lexical detail. For example, 'commercial banana growers' was simplified to 'banana growers', 'successor' to 'next banana after Big Mike', 'dominated the plantations' to 'main one in many farms', and 'cloned shoots' to 'took small parts'. These simplifications, while aiming for A2, removed too much specific information, impacting the fidelity to the original text's vocabulary.\n\nSuggestion: Ensure all specific factual details, including geographical locations and specific roles (e.g., 'main grower and exporter in South America'), are retained or accurately rephrased. Rephrase to preserve the specific meanings of 'lucrative' and 'efficient' using A2 vocabulary. Review the text to ensure more key terms from the original are represented, even if simplified, to improve lexical fidelity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8809,
+          "meaningbert": 0.626
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:13:02.990158",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1950s, banana growers in Central America had a problem. They grew bananas to sell. Their banana that made a lot of money was dying. This was the `Gros Michel banana`. People also called it Big Mike.\n\nNow, the same problem is happening again. It is happening to the `Cavendish` banana. The Cavendish is the banana that came after Big Mike.\n\nThe Gros Michel banana was easy to move. It had thick skin. It tasted sweet. This banana was the most important one in many farms. These farms were in Central America.\n\nUnited Fruit was a big company. It was the main company for growing and sending bananas. It was in South America. This company made many bananas. They did it in a very smart way. They took small parts from the plants' stems. They did not grow them from seeds. They grew many plants close together in fields.",
+      "timestamp": "2025-09-01 17:13:02.990439",
+      "metadata": {
+        "text_id": "2741b4fa-b81f-4f94-a574-12bb58cd4bf1",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:13:38.850588",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7c0152df-ad0d-47d7-81e2-10b1697db7a3",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The text failed to preserve the core meaning and lexical fidelity of the original. Meaning Preservation Failure: The MeaningBERT score of 0.6433 is significantly below the required 0.75. The original text's emphasis on the 'most lucrative product', 'dominated the plantations', and 'mass-produced... in the most efficient way possible' was diluted. Your version, by using phrases like 'made a lot of money', 'most important one in many farms', and 'did it in a very smart way', loses the specific economic and operational nuances of the original. Fidelity Failure: The BERTScore of 0.8924 is below the required 0.90. This indicates a significant loss of key words and factual phrasing. Specific examples include: 'commercial banana growers' was simplified to 'banana growers', losing 'commercial'. 'most lucrative product' was replaced with 'banana that made a lot of money', losing 'lucrative product'. 'Big Mike's successor' was replaced with 'banana that came after Big Mike', losing 'successor'. 'easily transported, thick-skinned and sweet-tasting fruit' was broken down, losing the compound adjectives and the noun 'fruit' in its original context. 'dominated the plantations' was replaced with 'most important one in many farms', losing 'dominated' and 'plantations'. 'main grower and exporter' was replaced with 'main company for growing and sending bananas', losing the concise term 'exporter'. 'mass-produced its bananas in the most efficient way possible' was replaced with 'made many bananas. They did it in a very smart way.', losing 'mass-produced' and 'efficient'. 'cloned shoots from the stems of plants' was replaced with 'took small parts from the plants' stems', losing 'cloned' and 'shoots'. 'cultivated them in densely packed fields' was replaced with 'grew many plants close together in fields', losing 'cultivated' and 'densely packed'. CEFR Compliance: While the CEFR classifier rated the text as A2, this is secondary to the fundamental failure in preserving the original content's meaning and lexical detail. Suggestion: Re-evaluate the simplification process. Ensure that while simplifying vocabulary and structure, the precise meaning and key factual terms are retained as much as possible. Do not sacrifice core information for simplicity. For example, 'lucrative' could be simplified to 'very profitable' or 'made a lot of profit' rather than just 'made a lot of money' to better convey the economic aspect. 'Efficient' should be rephrased to convey optimized production, not just 'smart'. Retain key nouns and adjectives where possible, even if rephrased simply.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8924,
+          "meaningbert": 0.6433
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:13:56.753501",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1950s, banana growers in Central America had a problem. These growers sold bananas for business. Their banana that made a lot of profit was dying. This was the `Gros Michel banana`. People also called it Big Mike.\n\nNow, the same problem is happening again. It is happening to the `Cavendish` banana. The Cavendish banana is the next one after Big Mike.\n\nThe `Gros Michel banana` was a fruit. It was easy to move. It had thick skin. It tasted sweet. This banana was the most important on the banana farms. It grew on all the plantations in Central America.\n\nUnited Fruit was a big company. It was the main company that grew bananas. It also sent bananas to other countries. It was in South America. This company made many bananas very fast. This was the best way to do it. They took small parts from the plant stems. These parts were like copies of the plants. They did not grow them from seeds. They grew many plants very close together in the fields.",
+      "timestamp": "2025-09-01 17:13:56.753844",
+      "metadata": {
+        "text_id": "e40ef7ae-8715-4c65-bd65-9c587d93d1b4",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:14:29.885965",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8c146376-75ce-4592-b033-7e6bbc42a833",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. Your output failed to preserve the core meaning and lexical fidelity of the original text, as evidenced by the low MeaningBERT and BERTScore metrics. The MeaningBERT score of 0.6748 is below the required 0.75, indicating a significant loss of the original message's impact. The BERTScore of 0.8877 is below the required 0.90, showing a substantial deviation in key vocabulary and phrasing from the original. \n\nDeviations:\n- MeaningBERT Failure: The original text emphasizes the 'death of their most lucrative product' and how the Gros Michel 'dominated the plantations'. Your version, while factually correct, softens this impact. 'Their banana that made a lot of profit was dying' lacks the severity of 'death of their most lucrative product'. The concept of 'domination' is also diluted by 'most important on the banana farms. It grew on all the plantations'. The original's strong sense of market control and the severity of the problem is not fully conveyed.\n- BERTScore Failure: Many key lexical items and phrases from the original were replaced with different words, leading to a low BERTScore. For example, 'lucrative product' was replaced with 'banana that made a lot of profit'. 'Big Mike's successor' became 'the next one after Big Mike'. 'Easily transported, thick-skinned and sweet-tasting fruit' was rephrased as 'easy to move. It had thick skin. It tasted sweet'. 'Dominated the plantations' became 'most important on the banana farms. It grew on all the plantations'. 'Exporter' became 'sent bananas to other countries'. 'Mass-produced its bananas in the most efficient way possible' became 'made many bananas very fast. This was the best way to do it'. 'Cloned shoots' became 'small parts from the plant stems. These parts were like copies of the plants'. While these are A2 simplifications, the cumulative effect is a significant lexical divergence from the original, failing the fidelity requirement.\n\nSuggestion: You must ensure that the core impact and specific lexical details of the original text are preserved more closely, even when simplifying for A2. Rephrase to maintain the strength of terms like 'lucrative' and 'dominated' using A2 vocabulary. For example, 'very profitable' or 'made a lot of money' for 'lucrative'. For 'dominated', consider 'was the only one' or 'was everywhere'. Re-evaluate your lexical choices to align more closely with the original text's specific wording while remaining within A2 limits. Do not sacrifice fidelity for simplicity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8877,
+          "meaningbert": 0.6748
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:14:49.961462",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1950s, banana growers in Central America had a problem. These growers sold bananas for business. Their best banana was dying. This banana made them a lot of money. This was the `Gros Michel banana`. People also called it Big Mike.\n\nNow, the same problem is happening again. It is happening to the `Cavendish` banana. The `Cavendish` banana is Big Mike's next banana.\n\nThe `Gros Michel banana` was a fruit. It was easy to move. It had thick skin. It tasted sweet. This banana was everywhere on the farms in Central America.\n\nUnited Fruit was a big company. It was the main company that grew bananas. It also sold bananas to other countries. It was in South America. This company made many bananas. They did this in the best way. They took small parts from the plant stems. These parts were copies of the plants. They did not grow them from seeds. They grew many plants very close together in the fields.",
+      "timestamp": "2025-09-01 17:14:49.961823",
+      "metadata": {
+        "text_id": "35e52890-23b3-45fc-9628-5499400ec567",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:15:16.564471",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "60b03afe-9eac-40d1-9c5e-b3ee1d72a621",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The text failed both MeaningBERT and BERTScore requirements. The MeaningBERT score of 0.6438 is significantly below the required 0.75, indicating a failure to preserve the core message's impact and nuance. For example, 'banana growers in Central America had a problem' is a severe dilution of 'Central American commercial banana growers were facing the death of their most lucrative product'. The original conveys a crisis, while your version presents a minor inconvenience. Similarly, 'was everywhere on the farms' weakens the original's 'dominated the plantations'. The BERTScore of 0.8874 is also below the required 0.90, demonstrating an unacceptable loss of key lexical detail and factual phrasing. Terms like 'most lucrative product', 'successor', 'easily transported', 'mass-produced', 'most efficient way possible', 'cloned shoots', and 'densely packed fields' were replaced with overly simplistic or less precise phrases, such as 'best banana... made them a lot of money', 'next banana', 'easy to move', 'made many bananas', 'best way', 'took small parts... copies of the plants', and 'very close together in the fields'. This level of lexical deviation is not permissible for an A2 simplification that must retain fidelity. Suggestion: Rephrase to maintain the original's intensity and specific terminology while simplifying sentence structure. Do not sacrifice core meaning or key lexical items for simplicity. Ensure that the simplified vocabulary still conveys the precise original concepts.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8874,
+          "meaningbert": 0.6438
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:15:40.401293",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1950s, banana growers in Central America had a very big problem. They grew bananas for business. Their best banana was dying. This banana made them a lot of money. This was the `Gros Michel banana`. People called it Big Mike.\n\nNow, the same problem is happening again. It is happening to the `Cavendish` banana. The `Cavendish` banana came after Big Mike.\n\nThe `Gros Michel banana` was a fruit. It was easy to move. It had thick skin. It tasted sweet. This banana was the most important banana on the farms in Central America.\n\nUnited Fruit was a big company. It was the main company that grew bananas. It also sold bananas to other countries. It was in South America. This company grew a lot of bananas. They grew them in the best way. They took small parts from the plant stems. These parts were exact copies of the plants. They did not grow them from seeds. They grew many plants very close together in the fields.",
+      "timestamp": "2025-09-01 17:15:40.401658",
+      "metadata": {
+        "text_id": "b676a32e-665d-4830-9a11-1e3264ad1cb2",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:16:11.422496",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6883e520-dcec-4fc2-bf18-2993dd5b1e30",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The text failed to preserve the core meaning and lexical fidelity of the original. The MeaningBERT score of 0.6539 is significantly below the required 0.75, indicating a loss of the original message's nuance and impact. The BERTScore of 0.8871 is also below the required 0.90, showing a significant loss of key words and factual phrasing from the original text. Specific deviations: - MeaningBERT Failure: The original text conveys the severity of the problem by stating 'commercial banana growers were facing the death of their most lucrative product'. Your version fragments this into separate, less impactful sentences: 'banana growers in Central America had a very big problem. They grew bananas for business. Their best banana was dying. This banana made them a lot of money.' This fragmentation dilutes the direct link between the 'death' and the 'lucrative' nature of the product, weakening the core message. - MeaningBERT Failure: The phrase 'dominated the plantations' in the original implies a strong, pervasive presence and control. Your simplification 'was the most important banana on the farms' loses this specific nuance of dominance, replacing it with a more general concept of importance. - BERTScore Failure: Key lexical items were replaced with less precise or more verbose phrasing, contributing to the low BERTScore. Examples include: 'lucrative product' was replaced with 'made them a lot of money'. 'Big Mike's successor' was replaced with 'The Cavendish banana came after Big Mike'. 'dominated the plantations' was replaced with 'was the most important banana on the farms'. 'exporter' was replaced with 'sold bananas to other countries'. 'mass-produced' was replaced with 'grew a lot of bananas'. 'most efficient way possible' was replaced with 'in the best way'. 'cloned shoots' was replaced with 'took small parts from the plant stems. These parts were exact copies of the plants.' 'cultivated them in densely packed fields' was replaced with 'grew many plants very close together in the fields.' Suggestion: Rephrase sentences to maintain the original's impact and directness while using A2 vocabulary. Ensure that key concepts like 'lucrative', 'successor', 'dominated', 'exporter', 'mass-produced', 'efficient', 'cloned', and 'densely packed' are conveyed with equivalent A2 meaning and lexical density where possible, rather than simply omitted or overly diluted.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8871,
+          "meaningbert": 0.6539
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:16:31.415280",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1950s, banana growers in Central America had a big problem with their best banana. This banana made them a lot of money. But it was dying. This was the `Gros Michel banana`. People called it Big Mike.\n\nNow, the same problem is happening again. It is happening to the `Cavendish` banana. The `Cavendish` banana came after Big Mike.\n\nThe `Gros Michel banana` was a fruit. It was easy to move. It had thick skin. It tasted sweet. It was the main banana on the farms in Central America.\n\nUnited Fruit was a big company. It was the main company that grew bananas. It also sold bananas to other countries. It was in South America. This company grew a lot of bananas. They grew them in the best way. They took small parts from the plant stems. These were exact copies. They did not grow them from seeds. They grew many plants very close together in the fields.",
+      "timestamp": "2025-09-01 17:16:31.415668",
+      "metadata": {
+        "text_id": "060a107c-b002-4415-bf85-08d3ad723938",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:16:58.547562",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9cab012c-b740-4b51-b095-f1a40bb0f9a9",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation and Fidelity Failure. The text fails to adequately preserve the core meaning and lexical fidelity of the original text, despite being classified as A2.\n\nDetected Deviations:\n*   Meaning Preservation Failure: The MeaningBERT score of 0.6607 is significantly below the required 0.75. The original text emphasizes the 'most lucrative product' and the 'most efficient way possible' of mass-production, conveying a strong sense of economic importance and operational scale. Your version dilutes this by using 'best banana. This banana made them a lot of money.' and 'grew them in the best way.', which weakens the original impact and core message.\n*   Fidelity Failure: The BERTScore of 0.8899 is below the required 0.90. This indicates a significant loss of key words and factual phrasing. For example, 'most lucrative product' was replaced with 'best banana. This banana made them a lot of money.', 'Big Mike's successor' with 'came after Big Mike', 'dominated the plantations' with 'main banana on the farms', 'exporter' with 'sold bananas to other countries', 'mass-produced' with 'grew a lot of bananas', 'most efficient way possible' with 'best way', and 'cloned shoots' with 'took small parts from the plant stems. These were exact copies.'. These substitutions, while simplifying, reduce the lexical precision and fidelity to the original.\n*   Vocabulary Deviation: The word 'Central' is classified as B1. For A2 compliance, simpler phrasing such as 'in the middle part of America' or 'in the middle of America' should be used.\n\nSuggestion: Rephrase sentences to more accurately convey the economic significance and scale of the banana industry as described in the original text, using A2 vocabulary. Ensure that key descriptive terms are simplified without losing their core meaning or lexical precision. Replace 'Central' with an A2 equivalent.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8899,
+          "meaningbert": 0.6607
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:17:17.122152",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1950s, banana growers in the middle part of America had a big problem. Their most important banana for money was dying. This was the `Gros Michel banana`. People called it Big Mike.\n\nNow, the same problem is happening again. It is happening to the `Cavendish` banana. This banana came after Big Mike.\n\nThe `Gros Michel banana` was a fruit. It was easy to move. It had thick skin. It tasted sweet. It was the main banana on the farms in the middle part of America.\n\nUnited Fruit was a big company. It grew many bananas. It also sold bananas to other countries. This company was in South America. This company grew a lot of bananas. They grew them in the best way to make many bananas. They took small parts from the plant stems. These were exact copies. They did not grow them from seeds. They grew many plants very close together in the fields.",
+      "timestamp": "2025-09-01 17:17:17.122640",
+      "metadata": {
+        "text_id": "6ab13917-9486-45c2-92e5-67f3d39b0d87",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:17:37.650318",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d12e612c-8ac2-4ef3-8062-8ca29a3ca032",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The text failed to preserve the core meaning and lexical fidelity of the original. The MeaningBERT score of 0.6278 is significantly below the required 0.75, indicating a loss of the original message's nuance and impact. The BERTScore of 0.8894 is below the required 0.90, demonstrating a significant deviation from the original's specific vocabulary and phrasing. The original text conveyed the scale and efficiency of the banana industry, which was diluted in the simplified version. For example, 'dominated the plantations' was weakened to 'main banana on the farms'. 'Most efficient way possible' was simplified to 'best way to make many bananas', losing the specific concept of efficiency. Key terms like 'commercial', 'lucrative', 'dominated', 'exporter', 'mass-produced', 'efficient', 'cloned', and 'densely packed' were either omitted or replaced with less precise A2 phrasing, leading to the low BERTScore. Suggestion: Rephrase to retain stronger verbs and more specific nouns while remaining within A2 vocabulary. Ensure that the overall impact and scale of the original message are preserved, not just the basic facts. Restore the lexical precision of key terms where possible within A2 constraints.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8894,
+          "meaningbert": 0.6278
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:17:55.519662",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1950s, banana companies in Central America had a big problem. Their most important banana for money was dying. This was the `Gros Michel banana`. People called it Big Mike.\n\nNow, the same problem is happening again. It is happening to the `Cavendish` banana. This banana came after Big Mike.\n\nThe `Gros Michel banana` was a fruit. It was easy to move. It had thick skin. It tasted sweet. It grew on most farms in Central America.\n\nUnited Fruit was a big company. It grew many bananas. It also sold bananas to other countries. This company was in South America. This company grew a lot of bananas to sell. They grew them in the best way to get many bananas fast. They took small parts from the plant stems. These were exact copies. They did not grow them from seeds. They grew many plants very close together in the fields.",
+      "timestamp": "2025-09-01 17:17:55.520183",
+      "metadata": {
+        "text_id": "af68d66e-bfc6-4dca-8956-e1c318244011",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:18:20.714531",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b0ff39ff-ffe7-42e8-b31b-0d7e6a0740da",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The text failed to meet the required thresholds for both meaning preservation and lexical fidelity. The MeaningBERT score of 0.6402 is significantly below the required 0.75, indicating a loss of the core message. The original text's emphasis on 'most lucrative product' and 'mass-produced its bananas in the most efficient way possible' is diluted. For example, 'most lucrative product' is simplified to 'most important banana for money', which, while simpler, loses the specific commercial value. More critically, 'mass-produced its bananas in the most efficient way possible' is rendered as 'grew them in the best way to get many bananas fast', which loses the nuance of 'efficient' and the scale implied by 'mass-produced'. The BERTScore of 0.8924 is also below the required 0.90. This indicates a significant loss of key words and factual phrasing. Specific examples include the replacement of 'lucrative product' with 'important banana for money', 'dominated the plantations' with 'grew on most farms', 'main grower and exporter' with 'big company. It grew many bananas. It also sold bananas to other countries.', 'mass-produced' with 'grew a lot of bananas to sell', and 'most efficient way possible' with 'best way to get many bananas fast'. These lexical substitutions, while attempting to simplify, have collectively reduced the fidelity to the original text's specific terminology and overall meaning. Suggestion: Rephrase to ensure that the commercial and efficiency aspects of the original text are more accurately conveyed, even with simpler A2 vocabulary. Ensure key terms like 'lucrative' and 'efficient' are translated into A2 concepts that retain their original impact. Review the text to ensure more of the original's specific vocabulary is retained where possible without exceeding A2 complexity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8924,
+          "meaningbert": 0.6402
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:18:37.836200",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1950s, banana companies in Central America had a big problem. Their `Gros Michel banana` was dying. This banana made them a lot of money. People called it Big Mike.\n\nNow, the same problem is happening again. It is happening to the `Cavendish` banana. This banana came after Big Mike.\n\nThe `Gros Michel banana` was a fruit. It was easy to move. It had thick skin. It tasted sweet. This banana grew on most farms in Central America. It was the main banana there.\n\nUnited Fruit was a big company. It was the main company for bananas in South America. It grew bananas. It also sent them to other countries. This company grew many, many bananas. They had the best way to grow them. They took small parts from the plant stems. These were exact copies. They did not grow them from seeds. They grew many plants very close together in the fields.",
+      "timestamp": "2025-09-01 17:18:37.836763",
+      "metadata": {
+        "text_id": "8de45eae-eba4-4f29-98d2-20a61cdfa90d",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:19:02.986299",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "78f40083-57ac-47b1-92cc-e20e7e0f9880",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation and Fidelity Failure. The text fails to adequately preserve the core meaning and lexical fidelity of the original, as evidenced by the low MeaningBERT and BERTScore metrics. The MeaningBERT score of 0.647 is significantly below the required 0.75, indicating a loss of nuanced meaning. The BERTScore of 0.892 is below the required 0.90, showing a significant deviation from the original's key vocabulary and phrasing. Specific deviations include: The original's 'most lucrative product' was simplified to 'made them a lot of money', losing the specific economic term 'lucrative'. The phrase 'Big Mike's successor' was simplified to 'This banana came after Big Mike', losing the more precise term 'successor'. The description 'easily transported, thick-skinned and sweet-tasting fruit' was broken into multiple simple sentences, losing the compound adjective structure and the specific term 'transported' as an adjective. 'Dominated the plantations' was weakened to 'grew on most farms' and 'was the main banana there', losing the strong verb 'dominated' and the specific noun 'plantations'. 'Mass-produced its bananas in the most efficient way possible' was simplified to 'grew many, many bananas. They had the best way to grow them.', losing the specific terms 'mass-produced' and 'efficient'. 'Cloned shoots' and 'cultivated them in densely packed fields' were replaced by 'took small parts from the plant stems. These were exact copies.' and 'grew many plants very close together in the fields.', losing the specific vocabulary 'cloned', 'cultivated', and 'densely packed'. Suggestion: Reintroduce key A2-level vocabulary that conveys the original's meaning more precisely without exceeding the A2 threshold. Ensure that the core concepts of 'lucrative', 'successor', 'dominated', 'mass-produced', and 'efficient' are conveyed with appropriate A2 vocabulary or simple phrases that retain their strength. Do not oversimplify to the point of losing lexical detail.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.892,
+          "meaningbert": 0.647
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:19:27.925338",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1950s, banana companies in Central America had a big problem. Their `Gros Michel banana` was dying. This banana made them the most money. People called it Big Mike.\n\nNow, the same problem is happening again. It is happening to the `Cavendish` banana. The `Cavendish` banana replaced Big Mike.\n\nThe `Gros Michel banana` was a fruit. It was easy to move. It had thick skin. It tasted sweet. This banana grew on many big farms in Central America. It was the most important banana there.\n\nUnited Fruit was a big company. It was the main company for bananas in South America. It grew bananas. It also sent them to other countries. This company grew many, many bananas. They had the best way to grow them. They took small parts from the plant stems. These were exact copies. They did not grow them from seeds. They grew many plants very close together in the fields.",
+      "timestamp": "2025-09-01 17:19:27.926001",
+      "metadata": {
+        "text_id": "2d6cdcbc-b480-42aa-94b3-1f6117458589",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:19:50.494734",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5bb7d686-0e93-419a-8f97-8365bd47f2fb",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The text failed to preserve the core meaning and lexical fidelity of the original. The MeaningBERT score of 0.6918 is below the required 0.75, indicating a loss of core message. The BERTScore of 0.8918 is below the required 0.90, indicating a significant loss of key words and factual phrasing. While the text was classified as A2, it did not meet the fidelity requirements. Specific deviations include: 1. The phrase 'most lucrative product' was simplified to 'made them the most money', losing the specific lexical nuance of 'lucrative product'. 2. 'Big Mike's successor' was simplified to 'replaced Big Mike', losing the specific term 'successor'. 3. The compound adjectives 'easily transported, thick-skinned and sweet-tasting fruit' were broken into separate sentences, losing the original concise phrasing. 4. 'dominated the plantations' was simplified to 'grew on many big farms... most important banana there', losing the strong verb 'dominated'. 5. 'mass-produced its bananas in the most efficient way possible' was significantly altered to 'grew many, many bananas. They had the best way to grow them.', losing the specific terms 'mass-produced' and 'efficient'. 6. 'cloned shoots' was replaced by a descriptive phrase 'took small parts from the plant stems. These were exact copies.', losing the precise term 'cloned shoots'. 7. 'cultivated them in densely packed fields' was simplified to 'grew many plants very close together in the fields.', losing the specific terms 'cultivated' and 'densely packed'. Suggestion: Rephrase to retain more of the original's specific vocabulary and phrasing while still aiming for A2 simplicity. For example, 'most lucrative product' could be 'the product that made the most money' instead of 'made them the most money'. Use 'successor' and 'cloned' with simple explanations if necessary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8918,
+          "meaningbert": 0.6918
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:20:17.675117",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1950s, banana companies in Central America had a big problem. Their `Gros Michel banana` was dying. This banana was the product that made them the most money. People called it Big Mike.\n\nNow, the same problem is happening again. It is happening to the `Cavendish` banana. The `Cavendish` banana came after Big Mike. It was Big Mike's successor.\n\nThe `Gros Michel banana` was a fruit. It was easy to move. It had thick skin and tasted sweet. This banana was the main one on many big farms in Central America.\n\nUnited Fruit was a big company. It was the main company for bananas in South America. It grew bananas. It also sent them to other countries. This company grew many bananas. They did it in the best and fastest way. They cloned shoots from the plant stems. This means they made exact copies. They did not grow them from seeds. They grew the plants in fields. The plants were very close together.",
+      "timestamp": "2025-09-01 17:20:17.675613",
+      "metadata": {
+        "text_id": "b799380d-270c-4a67-b4a9-d0e5712d01c5",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:20:41.804999",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8b5bb2bc-630a-4ae8-aa75-8a4a0e6a1b26",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation and Fidelity Failure. The text failed to meet the required metrics for preserving the original meaning and lexical fidelity. The MeaningBERT score of 0.6849 is below the required 0.75, indicating a loss of core message. The BERTScore of 0.8962 is below the required 0.90, indicating a significant loss of key words and factual phrasing from the original. Specific deviations are listed below.\n\nMeaning Preservation Deviations:\n- The original text's emphasis on 'most lucrative product' and 'dominated the plantations' is weakened. Your version states 'made them the most money' and 'main one on many big farms', which loses the strong commercial impact and market control implied by the original.\n- The concept of 'mass-produced' and 'most efficient way possible' is simplified to 'grew many bananas' and 'best and fastest way'. While conveying the general idea, it dilutes the specific meaning of industrial-scale efficiency.\n\nFidelity Deviations (Lexical Loss):\n- Original phrase 'commercial banana growers' was simplified to 'banana companies'. The term 'commercial growers' provides more specific detail.\n- The word 'lucrative' was not directly replaced with an A2 equivalent that fully captures its meaning.\n- The word 'dominated' was replaced with 'main one on many big farms', losing the strong sense of control and prevalence.\n- The term 'mass-produced' was replaced with 'grew many bananas', losing the specific production method.\n- The word 'efficient' was replaced with 'best and fastest', which is a less precise term for efficiency in a commercial context.\n- The phrase 'cultivated them in densely packed fields' was broken down and simplified, losing the specific vocabulary of 'cultivated' and 'densely packed' as a combined concept.\n\nSuggestion: Re-evaluate the simplification process to ensure that while vocabulary is simplified, the core commercial and descriptive power of the original text is retained. Focus on finding A2 synonyms or simple phrases that more accurately reflect the original's lexical content and meaning. For example, 'lucrative' could be 'made a lot of money' or 'very profitable'. 'Dominated' could be 'was the most important' or 'was everywhere'. 'Efficient' could be 'did things in a very good way to save time and money'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8962,
+          "meaningbert": 0.6849
+        }
+      }
+    }
+  ]
+}

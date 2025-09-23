@@ -1,0 +1,80 @@
+{
+  "session_id": "56eac914-3fba-4b1d-9aa8-0d8880c87049",
+  "created_at": "2025-08-31 22:16:48.666241",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:16:49.592071",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "12-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A civilisation is when many people live together. They have rules and make things like art.\n\nFrom 100,000 to 50,000 years before now, we find signs of early human civilisation. For example, we see cave paintings. No one knows the link between this and language. Brains did not get bigger fast. But people got smarter. Did language make their brains grow? Or did their smart brains begin to make language?",
+      "timestamp": "2025-08-31 22:16:49.592217",
+      "metadata": {
+        "text_id": "09d09300-ab44-4d94-b6f1-d60e2c2fef07",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 22:16:49.615518",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "46b666e1-f624-4e41-b4e6-ac8dca893d78",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Deviation. The word 'cave' is classified as B1, which is above the A2 standard. The rigorous A2 protocol demands that all vocabulary adhere strictly to the A2 level or below. While the text successfully maintained factual integrity, preserved meaning (MeaningBERT score of 0.7818), demonstrated high lexical fidelity (BERTScore of 0.9235), and was correctly classified as A2 by the CEFR classifier, the presence of a B1 word is an unacceptable deviation. The sentence structure is appropriate for A2, and the definition of 'civilisation' is well-simplified. However, the vocabulary breach is critical. Suggestion: Replace 'cave' with a simpler A2 term or rephrase the sentence to avoid its use.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9235,
+          "meaningbert": 0.7818
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:16:56.614360",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A civilisation is when many people live together. They have rules and make things like art.\nFrom 100,000 to 50,000 years before now, we find signs of early human civilisation. For example, we see paintings on rock walls. No one knows the link between this and language. Brains did not get bigger fast. But people got smarter. Did language make their brains grow? Or did their smart brains begin to make language?",
+      "timestamp": "2025-08-31 22:16:56.616039",
+      "metadata": {
+        "text_id": "051c4aa0-2ecf-4719-9da1-8b1d69050b44",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 22:17:09.384055",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a98e3c52-3338-468b-a2a6-c28d8f71e9ad",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text successfully meets all CEFR A2 readability standards. It is factually accurate, preserves the core meaning with a MeaningBERT score of 0.7679, and maintains fidelity to the original with a BERTScore of 0.9245. The CEFR classifier correctly identified the text as A2. The vocabulary is appropriate for A2, with complex terms like 'civilisation' being clearly defined using simple A1/A2 language. Sentence structures are consistently short and simple, utilizing A2-level connectors such as 'and', 'but', and 'or'. Simplifications like 'rock walls' for 'cave paintings' and 'got smarter' for 'more complex and more intelligent' are excellent examples of A2 adaptation.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9245,
+          "meaningbert": 0.7679
+        }
+      }
+    }
+  ]
+}

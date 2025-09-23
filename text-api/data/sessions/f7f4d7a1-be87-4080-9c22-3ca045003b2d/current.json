@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "62eb7347-76dc-45a5-bdb4-66827a76d190",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "It is good to know about different cultures. A `culture` is the way people in a place live and think. This knowledge helps us avoid problems when we talk. But we must be careful with this knowledge. We should keep it in the back of our minds. We must not use it to make stereotypes. A `stereotype` is a simple idea about a group of people. These ideas are often wrong. Stereotypes can break good business relationships.\n\nA country's `culture` is important. But many other things also make a person. Their region is important. Their groups are important. Their age is important. If they are a man or a woman is also important. Their company and their own life are important too.\n\nSo, we should remember these differences. But we must not think all people from a country are the same. We must see every person as an individual.",
+    "version": 16,
+    "created_at": "2025-08-31 21:25:36.609847",
+    "updated_at": "2025-08-31 21:25:36.609864",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "6640b56b-29a5-419d-8921-4081d5b7685f",
+    "approval": "FAIL",
+    "grade": 2,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5787 is catastrophically below the required 0.75 threshold. The text has failed its primary purpose of preserving the original message.\n\n- Meaning Preservation Failure: The low MeaningBERT score indicates a severe loss of the original text's core message. The original's nuanced warning about balancing awareness with the dangers of stereotyping was lost in the oversimplification.\n- Fidelity Failure: The BERTScore of 0.8672 is below the 0.90 minimum. Key concepts like 'pigeonhole the individuals' and 'detrimental' were replaced with phrases that do not carry the same weight, resulting in a loss of lexical fidelity.\n- CEFR Compliance Failure: The text is classified as B1, not the required A2. This is an automatic failure.\n- B1 Grammar: The sentence 'If they are a man or a woman is also important' uses a noun clause as the subject. This is a B1 grammatical structure and is unacceptable for an A2 text.\n- C1 Vocabulary: The word 'stereotype' is C1 level. Defining a complex word is not a substitute for explaining the concept using A2 vocabulary. This word must be removed.\n- B1+ Idiom: The phrase 'in the back of our minds' is an idiom above the A2 level and must be simplified.\n\nSuggestion: Rewrite the entire text. Remove the word 'stereotype' and explain the concept simply. Eliminate the B1 noun clause structure; rephrase as 'Their gender is also important.' Remove the idiom 'in the back of our minds' and replace it with a literal A2 phrase like 'something to remember'. The text must be fundamentally re-engineered to meet A2 standards.",
+    "metrics": {
+      "cefr_compliance": "B1",
+      "bertscore": 0.8672,
+      "meaningbert": 0.5787
+    },
+    "created_at": "2025-08-31 21:26:27.100523"
+  },
+  "attempt_number": 16,
+  "best_attempt": {
+    "id": "acf77bec-e9e4-41dc-b0dd-600e187de2ee",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "It is good to know about cultural differences. People from different places can act and think differently. A `culture` is the way people in a place live and think. This knowledge helps us understand people better. It helps us avoid problems in business. But we must be careful. We must not use `stereotypes`. A `stereotype` is a simple idea about a group of people. This idea is often not true. These ideas make it hard to build good business relationships.\n\nA country's culture is important. But many other things also shape a person. The part of the country we come from is important. The groups we are part of are important. Our age is important. It is also important if a person is a man or a woman. The culture of our company is important. Our own life experiences are important too.\n\nSo, we should remember this knowledge about culture. But we must not use it to think we know what a person is like. We must not think all people from a country are the same. We must see each person as one person.",
+    "version": 12,
+    "created_at": "2025-08-31 21:21:38.217443",
+    "updated_at": "2025-08-31 21:21:38.217456",
+    "metrics_meaningbert": 0.5896,
+    "metrics_cefr_compliance": "A2"
+  }
+}

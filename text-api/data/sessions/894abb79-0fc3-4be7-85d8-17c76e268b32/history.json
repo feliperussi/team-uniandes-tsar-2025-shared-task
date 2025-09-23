@@ -1,0 +1,413 @@
+{
+  "session_id": "894abb79-0fc3-4be7-85d8-17c76e268b32",
+  "created_at": "2025-09-01 17:53:42.097617",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:53:42.136295",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "10-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Parental leave is time off work to care for a new baby.  \nPro\u2011rata basis means pay is calculated based on the time you work.  \nI worked five days each week.  \nAfter my parental leave ended, I wanted more time with my children.  \nI talked with my manager.  \nWe agreed to change my week to three days.  \nThis meant a big cut in my pay.  \nI am paid on a pro\u2011rata basis.  \nI have seen that my amount of work has not gone down.  \nI now do five days of work in three days.  \nBut I get lower pay for it.",
+      "timestamp": "2025-09-01 17:53:42.136452",
+      "metadata": {
+        "text_id": "4955081a-488f-4f39-8b8c-b4ab822722e2",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:53:44.286378",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0806c24d-8495-4de7-9104-e3b7c49fadcd",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8819 is below the required 0.90 threshold. This indicates an unacceptable loss of lexical detail from the original text.\n\n- Fidelity Failure: The score drop is caused by oversimplification. Replacing 'negotiating with my boss' with 'talked with my manager' and 'significant cut' with 'big cut' loses too much of the original phrasing, even if the basic meaning is similar.\n\n- Vocabulary Violation: The text uses words above the A2 level. 'lower' is a B2 comparative. 'means' is a B2 verb. These are not permitted.\n\n- Definition Failure: The definition 'Pro\u2011rata basis means pay is calculated based on the time you work' is not A2 compliant. It uses the B2 word 'means' and the B1/B2 word 'calculated'.\n\n- Structural Weakness: The text is a list of disconnected simple sentences. While simple sentences are required, the complete lack of basic A2 connectors like 'and' or 'so' makes the text choppy and unnatural.\n\nSuggestion: Restore more of the original phrasing in simplified A2 terms to increase the BERTScore. Replace all B1/B2 vocabulary immediately. Rewrite the definition for 'pro-rata basis' using only A1/A2 words, for example: 'Pro-rata pay is when your pay depends on how many hours you work.' Combine some sentences using 'and' or 'so' to improve flow.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8819,
+          "meaningbert": 0.7554
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:53:55.997331",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Parental leave is time off work to look after a new baby.  \nI worked five days each week.  \nAfter my parental leave ended, I wanted more time with my children.  \nI talked with my boss.  \nWe agreed to change my week to three days.  \nThis meant a big cut in my pay.  \nPro\u2011rata pay is when your pay is based on hours you work.  \nI have seen that my work has not gone down.  \nI now do five days of work in three days.  \nSo I get less pay.",
+      "timestamp": "2025-09-01 17:53:55.997572",
+      "metadata": {
+        "text_id": "e42f4da4-3b87-48c5-b4ab-a95dc9660bde",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:54:30.218342",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3eace912-c521-4478-a551-f25df52df276",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8838 is below the required 0.90. This indicates a significant loss of key phrasing from the original text. The text also fails the CEFR compliance check.\n\n- Primary Failure (BERTScore): The score is too low because key concepts were oversimplified. The original's 'workload hasn't decreased in the slightest' was reduced to 'my work has not gone down', losing lexical fidelity.\n- Secondary Failure (CEFR Compliance): The text was classified as B1, not A2. This is an automatic failure.\n- Grammatical Error (B1 Structure): The sentence 'I have seen that my work has not gone down' uses a 'that-clause' and the present perfect tense. This is a B1 grammatical structure and is too complex for A2.\n- Vocabulary Error (C1 Word): The word 'parental' is C1 level. Using it directly in the text, even as a defined keyword, incorrectly raises the text's difficulty.\n- Suggestion: Rephrase the B1 sentence. Change 'I have seen that my work has not gone down' to two simple sentences, for example: 'I see a problem. I have the same amount of work as before.' This also improves the BERTScore by restoring the concept of 'amount of work'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8838,
+          "meaningbert": 0.7936
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:54:42.070826",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Leave after a new baby is time off work.  \nI worked five days each week.  \nAfter my leave ended, I wanted more time with my children.  \nI talked with my boss.  \nWe agreed to work three days a week.  \nThis meant a big cut in my pay.  \nPay based on the hours you work is called pro\u2011rata pay.  \nI see a problem.  \nI have the same amount of work as before.  \nI do five days of work in three days.  \nI get less pay.",
+      "timestamp": "2025-09-01 17:54:42.071247",
+      "metadata": {
+        "text_id": "2e5e12ed-6f95-4ccf-b67c-74e86a115a62",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:55:06.529091",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3345166f-dd90-44b8-a879-75b9c36e4e4b",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8688 is below the required 0.90 threshold. This indicates a critical loss of lexical detail from the original text.\n\n- The text sacrifices too much of the original phrasing for simplicity, resulting in a low fidelity score.\n- The phrase 'significant cut in my pay' was replaced with 'big cut in my pay'. While factually similar, it loses the specific vocabulary.\n- The original's strong statement 'my workload hasn't decreased in the slightest' is weakened to 'I have the same amount of work as before'.\n- The text is broken into too many short, disconnected sentences, which contributes to the loss of the original's narrative flow and lowers the fidelity score.\n\nSuggestion: Rephrase to restore more of the original's specific wording. Combine some of the very short sentences using simple A2 connectors like 'but' or 'and'. For example: 'I agreed to work three days a week, but this meant a big cut in my pay.' This improves flow and fidelity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8688,
+          "meaningbert": 0.7671
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:55:13.699951",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I worked a five\u2011day week.  \nParental leave means time off work after a new baby.  \nAfter my parental leave, I wanted more time with my children.  \nI talked with my boss and we agreed to work three days.  \nBut this meant a significant cut in my pay.  \nPro\u2011rata basis means pay is based on hours worked.  \nMy workload hasn't decreased in the slightest.  \nI still do five days of work in three days.  \nSo I get much less pay for the same amount of work.",
+      "timestamp": "2025-09-01 17:55:13.700297",
+      "metadata": {
+        "text_id": "40587c49-9123-4cd1-87c5-4d38ff1b2e55",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:55:37.469921",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6a2fe2fc-2c68-4f0b-830d-0a8cab97cbcb",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.89 is below the required 0.90. This indicates a failure to retain sufficient lexical detail from the original text. A deeper audit reveals multiple vocabulary violations that render the text non-compliant with the A2 standard.\n\n- Vocabulary Violation: The B1 word 'significant' was used directly from the source text. This is an immediate failure. A2 vocabulary is mandatory. Suggestion: Replace 'a significant cut' with 'a big cut' or 'much less pay'.\n\n- Vocabulary Violation: The phrase 'in the slightest' is a B1-level idiom and is too complex for the A2 level. Suggestion: Rephrase 'My workload hasn't decreased in the slightest' to 'My workload has not changed at all' or 'My workload is still the same'.\n\n- Vocabulary Violation: The B2 word 'means' was used in the keyword definitions. This is unacceptable for an A2 text. Suggestion: Rephrase definitions to use A2 structures. For example, 'Parental leave is time off work after a new baby'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8902,
+          "meaningbert": 0.8067
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:55:49.949361",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I worked a five\u2011day week.  \nParental leave is time off work after a new baby.  \nAfter my parental leave I wanted more time with my children.  \nI talked with my boss and we said yes to work three days.  \nThis meant a big cut in my pay.  \nPro\u2011rata basis is pay for the amount of work you do.  \nMy workload has not changed at all.  \nI still do five days of work in three days.  \nSo I get much less pay for the same amount of work.",
+      "timestamp": "2025-09-01 17:55:49.949765",
+      "metadata": {
+        "text_id": "65e3941c-ce00-440e-acda-655f724758ab",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 7/10 - FAIL",
+      "timestamp": "2025-09-01 17:56:14.350501",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f18cdbe6-5c49-413e-92f7-38df31a1170a",
+        "grade": 7,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8845 is below the required 0.90 threshold. This indicates an unacceptable loss of lexical detail from the original text. While simplification for A2 is required, the replacement of key terms was too aggressive. The words 'negotiating', 'significant', and 'decreased' were replaced with phrases that, while simple, deviated too far from the source, causing the metric failure. The text correctly achieves an A2 classification and preserves the core meaning (MeaningBERT: 0.7987), but it does not meet the fidelity standard. Suggestion: Re-evaluate word choices to better align with the original text while remaining within A2 vocabulary. For example, 'decreased' could be rephrased as 'has not gone down' instead of 'has not changed'. This maintains simplicity while improving lexical fidelity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8845,
+          "meaningbert": 0.7987
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:56:24.618553",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I worked a five\u2011day week.  \nParental leave is time off work after a new baby.  \nAfter my parental leave I wanted more time.  \nI wanted more time with my children.  \nI talked with my boss.  \nWe agreed I would work three days.  \nThis meant a significant cut in my pay.  \nPro\u2011rata basis is pay for the work you do.  \nMy workload has not gone down.  \nI still do five days of work in three days.  \nSo I get much less pay.  \nIt is the same amount of work.",
+      "timestamp": "2025-09-01 17:56:24.618939",
+      "metadata": {
+        "text_id": "7beccd84-ea6c-4ea2-b8ea-5fead6f9e781",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:56:51.758374",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1bbf1e61-d49b-4cb4-a031-8d24f21d70bd",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8763 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text. The text also fails the CEFR compliance check.\n\n- Fidelity Failure: The score is low because the original sentences were broken down into too many short, disconnected fragments. This destroyed the lexical and structural similarity to the source text.\n\n- CEFR Compliance Failure: The classifier rated the text as B1, which is an instant fail. This is a direct result of failing to simplify B1-level vocabulary.\n\n- Vocabulary Violation: The word 'significant' is B1 level. It was not replaced. The word 'basis' is B1 level. It was not replaced.\n\n- Structural Deficit: While A2 requires simple sentences, the output is excessively fragmented. Sentences like 'After my parental leave I wanted more time. I wanted more time with my children.' should be combined for better readability and fidelity.\n\nSuggestion: Replace the B1 word 'significant' with 'a big'. Replace the B1 phrase 'pro-rata basis' entirely with your simpler definition. Combine fragmented sentences to improve the text's flow and restore fidelity. For example: 'After my parental leave, I wanted more time with my children, so I talked with my boss.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8763,
+          "meaningbert": 0.8348
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:57:02.097710",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Parental leave is time off work after a new baby.  \nI worked a five\u2011day week.  \nAfter my parental leave I wanted more time with my children.  \nI talked with my boss and we agreed I would work three days.  \nThis meant a big cut in my pay.  \nMy pay is for the work I do.  \nMy work has not gone down.  \nI still do five days of work in three days.  \nSo I get much less pay.  \nIt is the same amount of work.",
+      "timestamp": "2025-09-01 17:57:02.098123",
+      "metadata": {
+        "text_id": "7718b8ed-ec23-43e5-aa2d-7c03bd153f98",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:57:39.910613",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a8abfe23-8a44-4dc9-aec6-b4c0ebec01dd",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8744 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text. The text also fails the CEFR compliance check.\n\n- Deviation 1: Fidelity Score. The BERTScore is too low. Key phrases from the original text such as 'negotiating with my boss' and 'significant cut' were oversimplified to 'talked with my boss' and 'big cut', losing lexical precision required to meet the 0.90 threshold.\n\n- Deviation 2: CEFR Level Violation. The CEFR classifier rated the text as B1, not the required A2. This is an automatic failure. The cause is the repeated use of the C1-level word 'parental'. A keyword must be defined once and then replaced with a simpler A2-level reference, such as 'this time off' or 'my leave'.\n\n- Deviation 3: Inadequate Keyword Explanation. The attempt to explain 'pro-rata basis' with the sentence 'My pay is for the work I do' is too vague and fails to capture the meaning of being paid proportionally to the hours worked.\n\n- Suggestion: Rephrase to restore lexical fidelity without increasing complexity. Define 'parental leave' and then do not use the word 'parental' again. Provide a clear, direct definition for 'pro-rata basis'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8744,
+          "meaningbert": 0.8151
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:57:47.286105",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: This time off is a break after a new baby.  \nI worked a five\u2011day week.  \nAfter this time off I wanted more time with my children.  \nI negotiated with my boss.  \nWe agreed I would work three days.  \nThis meant a significant cut in my pay.  \nI am paid proportionally to the days I work.  \nMy work has not gone down.  \nI still do five days of work in three days.  \nSo I get much less pay.",
+      "timestamp": "2025-09-01 17:57:47.286761",
+      "metadata": {
+        "text_id": "c17d5e40-2f38-4352-9335-a07117beaf77",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:58:17.441928",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8d5d740a-58e6-4485-b14b-7d4e96dbc541",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails at the second and most critical diagnostic stage. The MeaningBERT score of 0.6688 is substantially below the required 0.75 threshold, indicating a severe loss of the original message's narrative and emotional context. The BERTScore of 0.8774 is also below the 0.90 minimum, confirming a failure to retain key lexical items.\n\n- MeaningBERT Failure: The score of 0.6688 is unacceptable. The original text conveys a story of realization and frustration. Your output is a sterile list of facts that loses this core meaning.\n- BERTScore Failure: The score of 0.8774 is below the 0.90 minimum. Key concepts like 'parental leave' and 'pro-rata basis' were handled poorly, damaging fidelity.\n- CEFR Compliance Failure: The classifier correctly rated your text as B1, not the required A2. This is an instant failure.\n- Vocabulary Violation (B1): You failed to replace the B1 word 'significant'. It must be removed.\n- Vocabulary Violation (B2/C1): You introduced the word 'proportionally'. This is a C1-level adverb and a complete violation of A2 standards. This single word makes the text incomprehensible to an A2 reader.\n- Structural Violation (B1): The sentence 'We agreed I would work three days' uses an implicit 'that-clause', a B1 grammatical structure. This is too complex for A2.\n\nSuggestion: You must rewrite from scratch. Remove the word 'significant'. Remove the word 'proportionally'. Rephrase the concept of pro-rata pay using only A1/A2 words. Example: 'I only get paid for the three days I work.' Break the B1 sentence structure. Example: 'My boss and I agreed. I will work three days.' Use simple A2 connectors like 'but' and 'so' to restore a basic narrative.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8774,
+          "meaningbert": 0.6688
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:58:30.111464",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I was on parental leave.  \nParental leave is time off after a baby is born.  \nAfter the leave I wanted more time with my children.  \nI wanted this before school starts.  \nI talked with my boss.  \nMy boss and I agreed.  \nI will work three days a week.  \nI only get paid for the three days I work.  \nThis is a pro\u2011rata basis.  \nIt means I am paid only for the days I work.  \nMy pay is now less.  \nMy work has not become less.  \nI still have five days of work to do.  \nI will try to finish five days of work in three days.  \nI feel upset about this.",
+      "timestamp": "2025-09-01 17:58:30.112207",
+      "metadata": {
+        "text_id": "fdaa5942-c2ae-4bdc-ba39-647bae1fee6c",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:59:00.992561",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a36dba62-3905-4008-bb05-232d15782ee0",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text states 'I'm now doing five days' worth of work in three days', which describes a current, ongoing situation. Your version changes this fact to 'I will try to finish five days of work in three days', which incorrectly presents it as a future intention. This is a critical alteration of the source material's meaning. Additionally, you added 'I feel upset about this', which is an emotional interpretation not explicitly stated in the original text.\n\n- Meaning Preservation Failure: The MeaningBERT score of 0.71 is below the 0.75 minimum. The BERTScore of 0.8594 is below the 0.90 minimum. These scores confirm that the core message and key phrasing were lost.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is a direct violation of the standard.\n\n- Vocabulary Violation: The B2-level word 'means' was used in the definition for 'pro-rata basis'. Definitions for an A2 audience must not use B1+ vocabulary.\n\n- Structural Complexity: The use of the present perfect tense ('My work has not become less') and multiple instances of the passive voice ('is born', 'get paid', 'am paid') are B1-level grammatical structures and are inappropriate for the A2 standard.\n\nSuggestion: Correct the factual error to reflect the current situation. Remove the unstated emotional interpretation. Rephrase the definition of 'pro-rata basis' using only A1/A2 vocabulary. Rewrite all sentences using only simple present and simple past tenses.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8594,
+          "meaningbert": 0.7105
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:59:09.919655",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I was on parental leave.  \nParental leave is time off after a baby arrives.  \nAfter the leave I wanted more time with my children.  \nI wanted this before school starts.  \nI talked with my boss.  \nMy boss and I agreed.  \nI work three days a week.  \nI am paid only for the three days I work.  \nIt is pro\u2011rata.  \nI get paid only for the days I work.  \nMy pay is now less.  \nMy work is not less.  \nI do five days of work in three days.  \nI try to finish the work.",
+      "timestamp": "2025-09-01 17:59:09.920196",
+      "metadata": {
+        "text_id": "588b9562-f047-4bd4-bddc-997d4e14b377",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:59:48.895824",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6f627e63-c5dc-4bd0-bcf0-81527f6250e7",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7196 is below the required 0.75 threshold. This is the primary reason for failure. The text also fails on multiple other critical points.\n\n- MeaningBERT Failure: The score of 0.7196 indicates a loss of the core message. The original text conveys frustration and injustice ('workload hasn't decreased in the slightest!', 'getting paid much less for it!'). Your version is a neutral list of facts, which is a different meaning.\n\n- Fidelity Failure: The BERTScore of 0.86 is below the 0.90 minimum. This is caused by oversimplification. For example, 'significant cut in my pay' became 'My pay is now less', losing the original's lexical detail and emphasis.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is an instant failure. The analysis shows this is due to B1-level grammar.\n\n- Grammatical Deviation: The sentences 'I am paid only for the three days I work' and 'I get paid only for the days I work' use relative clauses ('that I work'). This is a B1 structure and is not permitted at A2 level.\n\n- Vocabulary Deviation: The word 'parental' is C1 vocabulary. Using it directly in the text, even as a defined keyword, is a violation. The text must be comprehensible without relying on the reader retaining definitions of advanced words.\n\n- Suggestion: Restore the meaning of frustration. Remove the B1 relative clauses by splitting the sentences. Example: 'I work three days a week. I am paid only for those three days.' Do not use the word 'parental' in the main text; after defining it, refer to it as 'this leave' or 'this time off'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.86,
+          "meaningbert": 0.7196
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:59:53.365764",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I was on a leave after my baby was born.  \nThis leave gave me time off.  \nAfter the leave I wanted more time with my children.  \nI wanted this before school starts.  \nI talked with my boss.  \nWe agreed to a three\u2011day work week.  \nI work three days a week.  \nMy pay is based on the days I work.  \nSo I get less money now.  \nThe cut in pay is big.  \nMy work has not become less.  \nI still have the same amount of work.  \nI do five days of work in three days.  \nI feel it is not fair.  \nI feel bad about it.",
+      "timestamp": "2025-09-01 17:59:53.367388",
+      "metadata": {
+        "text_id": "ffb514cf-315e-4ac0-90c7-565d714ee227",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 18:00:21.473347",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "446de20a-889a-40d8-8621-06ca0e714f3d",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The submission fails on two critical metrics. The MeaningBERT score of 0.7159 is below the required 0.75, and the BERTScore of 0.8653 is below the required 0.90. This indicates a severe loss of the original text's core message and lexical fidelity.\n\n- Meaning Loss: The text was broken down into excessively simple, disconnected sentences. This fragmentation destroyed the logical flow. For example, the original's causal link 'This of course meant a significant cut in my pay too, as I'm paid on a pro-rata basis' was lost.\n\n- Fidelity Loss: Key phrases from the original text were replaced with overly simplistic terms, causing the low BERTScore. 'Significant cut' became 'cut... is big' and 'pro-rata basis' became 'based on the days I work'. This simplification sacrifices too much specific information.\n\n- Unfaithful Addition: The sentences 'I feel it is not fair. I feel bad about it' are an editorial addition. You have added information and emotion not explicitly present in the source text. Your task is to simplify, not to interpret and add new content.\n\n- Structural Failure: The output is a list of A1-level sentences, not a coherent A2 paragraph. There is a near-total absence of simple A2 connectors like 'but' or 'because' to link ideas.\n\nSuggestion: Re-write the text. Combine the short, choppy sentences using basic A2 connectors like 'so' and 'but' to restore logical flow. Ensure the core concepts from the original text are preserved more accurately. Do not add your own interpretations or feelings to the text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8653,
+          "meaningbert": 0.7159
+        }
+      }
+    }
+  ]
+}

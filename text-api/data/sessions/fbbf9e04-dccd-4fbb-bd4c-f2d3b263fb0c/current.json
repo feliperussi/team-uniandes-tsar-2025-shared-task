@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "625976a1-6f8a-49f5-8dcc-48831ee8820a",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Sometimes a bridge falls down. At first, engineers do not know why. They find the reason only after they study everything.\n\nSometimes, the builders used poor quality materials. Or an important part had a problem from the start.\n\nIn other cases, the design was the problem. The plan was to hold only a certain weight. The bridge could not hold more weight.",
+    "version": 11,
+    "created_at": "2025-08-31 20:39:20.618876",
+    "updated_at": "2025-08-31 20:39:20.618880",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "fa7b2566-4c2d-4784-9b46-d3e34db1b781",
+    "approval": "FAIL",
+    "grade": 2,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6626 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text.\n\nDetected Deviations:\n- Core Meaning Alteration: The original text states a factual design limit, 'the bridge was designed only to support a certain amount of weight'. Your version changes this into a judgment, 'the design was the problem'. This is an interpretation, not a simplification, and it alters the intended meaning.\n- Concept Oversimplification: The professional concept of 'conduct a complete investigation' was reduced to 'study everything'. This loses the specific, procedural meaning of the original phrase.\n\nSuggestion:\n- Rephrase to restore factual accuracy. Replace 'the design was the problem' with a direct statement like 'The bridge was built to hold only a certain amount of weight.'\n- Do not interpret the source text. Your task is to simplify the existing information, not to add your own judgment or analysis.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.9138,
+      "meaningbert": 0.6626
+    },
+    "created_at": "2025-08-31 20:39:46.002735"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "2ec6f079-facc-4f6f-97d8-c4b86c81bb12",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Sometimes a bridge falls down. At first, no one knows why. Engineers must study everything to find the reason.\n\nSometimes, the builders used poor quality materials. Or an important part had a problem from the start.\n\nIn other cases, the design was the problem. The plan was to hold only a certain weight. The bridge could not hold more weight.",
+    "version": 10,
+    "created_at": "2025-08-31 20:38:37.020616",
+    "updated_at": "2025-08-31 20:38:37.020621",
+    "metrics_meaningbert": 0.7469,
+    "metrics_cefr_compliance": "A2"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "session_id": "ace08c75-108e-43c2-9387-6b5920a84e7b",
+  "created_at": "2025-09-01 17:05:35.171387",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:05:35.180912",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "87-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A lifeboat is a small boat. It helps people when a big ship has an accident.\n\nAt first, Pi is very scared of the animals. He jumps into the sea. Then he remembers something. There are hungry sharks in the water. So, he has only one choice. He must climb back into the lifeboat. The animals in the lifeboat fight. They hurt and make each other dead. They eat each other. Until only Pi and the tiger are left. Luckily for Pi, the tiger is sick. Pi names the tiger Richard Parker. The tiger does not want to eat Pi now.",
+      "timestamp": "2025-09-01 17:05:35.181175",
+      "metadata": {
+        "text_id": "75fd4e98-492f-4e6c-8012-cddafeeda0fa",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:05:35.187154",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c4b07469-12bf-4fc6-987c-98523fdda13e",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The writer's output includes information not present in the original text. The sentences 'A lifeboat is a small boat. It helps people when a big ship has an accident.' are an unapproved addition and constitute a factual deviation from the source material. All content must be derived directly from the original text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9252,
+          "meaningbert": 0.7072
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:05:46.719929",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: At first, Pi is very scared of the animals. He jumps into the sea. Then he remembers something. There are hungry sharks in the water. So, he has only one choice. He must climb back into the lifeboat. The animals in the lifeboat kill and eat each other. Only Pi and the tiger are left. Luckily for Pi, the tiger is sick. Pi names the tiger Richard Parker. The tiger does not want to eat Pi now.",
+      "timestamp": "2025-09-01 17:05:46.720260",
+      "metadata": {
+        "text_id": "ce22b07e-2cbf-4335-a243-a3e9f369d55b",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-09-01 17:06:00.289772",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "017368ef-8d89-475b-8e83-45de0b428e99",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "PASS: All diagnostic checks passed. The text successfully maintained factual integrity, preserved the core meaning with a MeaningBERT score of 0.8501, and demonstrated high fidelity to the original content with a BERTScore of 0.9502. The CEFR classifier accurately rated the text as A2. The qualitative audit confirmed appropriate A2 vocabulary and simple sentence structures. Complex sentence constructions from the original were effectively broken down into shorter, more manageable sentences, and connectors were limited to A1/A2 level ('Then', 'So'). No B1 or higher vocabulary was detected. This is a well-executed A2 simplification.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9502,
+          "meaningbert": 0.8501
+        }
+      }
+    }
+  ]
+}

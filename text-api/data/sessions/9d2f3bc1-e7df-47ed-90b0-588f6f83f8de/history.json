@@ -1,0 +1,413 @@
+{
+  "session_id": "9d2f3bc1-e7df-47ed-90b0-588f6f83f8de",
+  "created_at": "2025-09-01 17:27:20.149011",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:27:20.185680",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "104-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I am in a group that wants to stop dangerous robots.  \nForget the movie picture of a scary robot stepping on people's heads.  \nThink about what is happening now.  \nPeople use army machines like drones, gun towers and guard robots.  \nThey kill people.  \nThey need very little human help.  \nThe next step is self\u2011moving kill robots.  \nThey follow orders but later choose who to kill by themselves.  \nIt is clear that this is wrong and very dangerous for people.  \nWe must be careful about what we tell machines to do.",
+      "timestamp": "2025-09-01 17:27:20.185853",
+      "metadata": {
+        "text_id": "321c50bb-a5a4-4371-ac0c-c84087e47636",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:27:21.923198",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b6ae6b8c-8c8b-46b1-a824-d83bb2adf395",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8986 is below the required 0.90. This indicates a loss of key phrasing from the original text. The text also fails the CEFR compliance check. The classifier rated it B1, which is too complex for the A2 standard. The following deviations were found:\n\n- Structural Complexity: The text uses B1-level grammar. The sentence 'I am in a group that wants to stop dangerous robots' contains a relative clause. The sentence 'We must be careful about what we tell machines to do' contains a noun clause. These are not A2 structures.\n\n- Vocabulary Violation: The text uses words above the A2 level. 'guard' is a B1 word. 'self' (in 'self-moving') is a B2 word. These must be replaced with A2 alternatives.\n\nSuggestion: Rewrite all complex sentences into simple, short sentences. Example: 'I am in a group. The group wants to stop dangerous robots.' Replace 'guard robots' with an A2 phrase like 'robots that watch places'. Replace 'self-moving' with 'robots that move by themselves'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8986,
+          "meaningbert": 0.8297
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:27:25.565277",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I am in a group.  \nThe group wants to stop dangerous robots.  \nForget the movie picture of a scary robot stepping on people's heads.  \nThink about what is happening now.  \nThe army uses machines like drones, gun towers and robots that watch places.  \nThese machines kill people.  \nThey need very little human help.  \nThe next step is robots that move by themselves and kill.  \nThey follow orders.  \nLater they choose who to kill by themselves.  \nIt is clear that this is wrong.  \nIt is very dangerous for people.  \nWe must be careful.  \nWe must think about what we ask machines to do.",
+      "timestamp": "2025-09-01 17:27:25.566394",
+      "metadata": {
+        "text_id": "67f069a1-b7a4-4ca4-8153-448e72ef69ca",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:27:48.389203",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ebdb7c20-e081-4c2b-b83b-2c02f2cff940",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8782 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original text, even though the core message is preserved.\n\n- The simplification of specific military terms was too aggressive, causing the fidelity score to drop. 'Gun turrets' became 'gun towers' and 'sentry robots' became 'robots that watch places'. This level of simplification sacrifices too much of the original's lexical detail.\n- Replacing 'unethical' with 'wrong' and 'humanity' with 'people' also contributed to the low fidelity score.\n- While the text successfully meets the A2 classification and preserves the general meaning, it fails the strict requirement for lexical fidelity to the source material.\n\nSuggestion: Revise the text to re-introduce more specific vocabulary from the original, or find closer A2-level synonyms. The goal is to simplify sentence structure without losing key terminology that defines the original text's meaning. For example, 'sentry robots' could be explained as 'robots that work as guards' to retain more of the original concept.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8782,
+          "meaningbert": 0.811
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:27:54.298375",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I am in a group.  \nThe group wants to stop dangerous robots.  \nForget the movie picture of a scary robot stepping on heads.  \nThink about what is happening now.  \nThe army uses machines like drones, gun turrets and sentry robots.  \nThese machines kill people.  \nThey need very little human help.  \nThe next step is robots that move by themselves and kill.  \nThey follow orders.  \nLater they choose who to kill by themselves.  \nIt is clear that this is unethical.  \nIt is very dangerous for humanity.  \nWe must be careful.  \nWe must think about what we ask machines to do.",
+      "timestamp": "2025-09-01 17:27:54.298588",
+      "metadata": {
+        "text_id": "cf66a6e4-23dc-474f-a24e-6f907ef9574d",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:28:25.497748",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ce3fff7f-2205-43ea-911b-831861d1478c",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance Failure. The text is classified as B1, which is too complex for the A2 standard. This is an instant failure. The text also fails on metric fidelity.\n\n- Fidelity Failure: The BERTScore of 0.8859 is below the required 0.90 threshold. This indicates a loss of key phrasing and lexical detail from the original text.\n- B1 Grammatical Structures: The text uses multiple grammatical forms that are above the A2 level. The sentence 'It is clear that this is unethical' uses a 'that-clause'. The phrase 'choose who to kill' is a wh-clause used as an object. The sentence 'Think about what is happening now' uses a noun clause. These are B1 structures and are not permitted.\n- Advanced Vocabulary: The word 'humanity' is a C1 level word. The word 'unethical' is a B2 level word. These are far outside the A2 vocabulary and are unacceptable.\n- Suggestion: Rephrase all sentences to remove complex clauses. 'It is clear that this is unethical' must become two simple sentences, for example: 'This is wrong. It is clear.'\n- Suggestion: Replace all words above the A2 level. 'humanity' must be replaced with 'all people'. 'unethical' must be replaced with 'wrong' or 'not right'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8859,
+          "meaningbert": 0.8417
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:28:44.301542",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I am in a group.  \nThe group wants to stop dangerous robots.  \nForget the movie picture of a scary robot stepping on heads.  \nThink about now.  \nThe army uses machines like drones, gun turrets and sentry robots.  \nThese machines kill people.  \nThey need very little human help.  \nThe next step is robots that move by themselves and kill.  \nThey follow orders.  \nLater they choose the person to kill.  \nThis is clear.  \nIt is wrong.  \nIt is very dangerous for all people.  \nWe must be careful.  \nWe must think about the things we ask machines to do.",
+      "timestamp": "2025-09-01 17:28:44.302567",
+      "metadata": {
+        "text_id": "a3e999fc-a33e-48dc-b56e-fbd309126396",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:29:14.408442",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5d1e56cf-4e4c-4cb3-a3a4-3f28c2adbfae",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8714 is below the required 0.90 threshold. This indicates a critical loss of key factual information and phrasing from the original text.\n\n- Lexical Fidelity Failure: Key terms were over-simplified to the point of erasure. The specific name 'Campaign to Stop Killer Robots' was reduced to 'a group'. The concept of 'autonomous' robots was inadequately translated as 'robots that move by themselves', losing the core idea of independent decision-making. This loss of specific nouns and adjectives is the direct cause of the low BERTScore.\n- Structural Oversimplification: The text is a series of short, disconnected sentences. This choppy structure ('This is clear. It is wrong. It is very dangerous...') is more characteristic of A1 than A2. A2 level requires the ability to link simple ideas using basic connectors.\n- Meaning Nuance Lost: The original text's sense of urgency and ethical argument ('unethical', 'cautious indeed') is weakened by reduction to basic words like 'wrong' and 'careful'.\n\nSuggestion: Restore key proper nouns and technical concepts from the original. Simplify them, but do not remove them entirely. Combine the extremely short sentences using A2 connectors like 'and', 'but', or 'so' to create a more coherent text. The goal is simplification, not total information loss.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8714,
+          "meaningbert": 0.8096
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:29:20.913084",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I am a member of the Campaign to Stop Killer Robots.  \nThe campaign wants to stop dangerous robots.  \nForget the movie picture of a scary robot stepping on heads.  \nToday the army uses machines like drones, gun turrets and sentry robots.  \nThese machines can kill people.  \nThey need very little human help.  \nThe next step is autonomous murder robots.  \nThey follow orders but later they choose who to kill.  \nThis would be unethical and very dangerous for all people.  \nSo we must be careful.  \nWe must think about what we ask machines to do.",
+      "timestamp": "2025-09-01 17:29:20.913506",
+      "metadata": {
+        "text_id": "bf39d1d6-d7df-4c94-a22a-54f3b49ffb1a",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:29:45.036039",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "fb0b8fbc-84c1-4322-93b9-9d36f3112c3b",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as B1, which is an immediate failure. The text violates A2 standards through both vocabulary and grammatical structure.\n\n- Vocabulary Exceeds A2 Level: The text uses multiple words that are not on the A2 list. 'unethical' is a B2/C1 word. 'autonomous' is a B2 word. 'campaign' and 'murder' are B1 words. These must be replaced with simpler A2 equivalents.\n\n- Grammar Exceeds A2 Level: The text uses complex clauses characteristic of B1 level. The sentence '...they choose who to kill' uses a wh-clause. The sentence '...what we ask machines to do' also uses a wh-clause. These structures are too advanced for A2.\n\n- Suggestion: Replace 'unethical' with 'very bad' or 'not right'.\n\n- Suggestion: Replace 'autonomous murder robots' with a simpler description like 'robots that choose to kill people by themselves'.\n\n- Suggestion: Rephrase the complex clauses. Change '...they choose who to kill' to '...they choose the people to kill'. Change '...what we ask machines to do' to '...the jobs we give to machines'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9006,
+          "meaningbert": 0.8621
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:29:54.632998",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I am a member of a team8 that wants to stop killer robots.  \nForget the movie picture of a scary robot stepping on heads.  \nToday the army uses machines like drones, gun turrets and sentry robots.  \nThese machines can kill people.  \nThey need very little human help.  \nThe next step is robots that choose to kill people by themselves.  \nThey follow orders but they choose the people to kill.  \nThis would be very bad and very dangerous for all people.  \nSo we must be careful.  \nWe must think about the jobs we give to machines.",
+      "timestamp": "2025-09-01 17:29:54.633464",
+      "metadata": {
+        "text_id": "c6a7f2fe-fd06-4f0f-a175-eb23cc528f76",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:30:16.674017",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3da9e3cd-9f89-4294-b35c-70410f06a3f0",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text specifies the name of the organization as 'the Campaign to Stop Killer Robots'. Your output changes this to 'a team', which is a loss of a key fact.\n\n- Fidelity Failure: The BERTScore of 0.8925 is below the required 0.90 threshold. This is a direct result of replacing specific factual terms like 'Campaign to Stop Killer Robots' and 'humanity' with overly generic phrases.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is due to sentence structure that is too complex for the A2 level.\n\n- Structural Error: The sentence 'I am a member of a team that wants to stop killer robots' uses a relative clause ('that wants to...'). This is a B1 structure. The same error is present in 'The next step is robots that choose to kill people by themselves.'\n\n- Suggestion: Restore the full, correct name of the organization. Split the sentences containing 'that' into two separate, simple sentences to meet the A2 structural standard. Example: 'I am a member of a team. This team wants to stop killer robots.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8925,
+          "meaningbert": 0.8461
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:30:21.777200",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I am a member of the Campaign to Stop Killer Robots.  \nThis campaign wants to stop killer robots.  \nForget the scary movie picture of a robot stepping on heads.  \nToday the army uses machines like drones, gun turrets and sentry robots.  \nThese machines can kill people.  \nThey need very little human help.  \nThe next step is robots.  \nThese robots kill people by themselves.  \nThey follow orders but they choose who to kill.  \nThis would be very bad and very dangerous for all people.  \nSo we must be careful.  \nWe must think about the jobs we give to machines.",
+      "timestamp": "2025-09-01 17:30:21.777589",
+      "metadata": {
+        "text_id": "44fd2d48-4637-497f-a436-4c70e4d29e07",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:30:43.100524",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6f0a00ec-de3c-44a5-bdd3-4df014b626f3",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8904 is below the required 0.90 threshold. This indicates an unacceptable loss of key words and factual phrasing from the original text due to over-simplification.\n\n- Lexical Precision Lost: Your simplification has removed critical vocabulary, damaging the text's fidelity. The original's precision is lost.\n- Example 1: The term 'military machines' was reduced to 'machines'. The context of 'military' is essential and has been erased.\n- Example 2: The concept 'unethical' was replaced with 'very bad'. This is a significant downgrade in meaning, replacing a specific B1 concept with a generic A1 adjective.\n- Example 3: The specific term 'autonomous' was completely removed. The core idea is not just about robots, but about robots that act on their own. This distinction is now gone.\n\nSuggestion: Do not eliminate all precise terminology. Re-integrate key concepts. The phrase 'military machines' is understandable at A2. The concept of 'autonomous' must be retained, for example, by stating 'robots that decide for themselves'. Your task is to simplify sentence structure, not to erase core information.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8904,
+          "meaningbert": 0.8487
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:30:53.123773",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I am a member of the Campaign to Stop Killer Robots.  \nThe campaign wants to stop killer robots.  \nForget the scary movie picture of a robot stepping on heads.  \nToday the army uses military machines such as drones.  \nIt also uses gun turrets and sentry robots.  \nThese military machines can kill people.  \nThey need very little human help.  \nThe next step is autonomous robots.  \nThese robots can kill people by themselves.  \nThey follow orders but they decide who to kill.  \nThis would be unethical and dangerous for all people.  \nSo we must be careful.  \nWe must think about the jobs we give to machines.",
+      "timestamp": "2025-09-01 17:30:53.125198",
+      "metadata": {
+        "text_id": "8d1d9351-fee8-4864-adb8-8b65444d49c5",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:31:15.682802",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "09b46d41-a061-4f29-8ce2-512a08a83d19",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance Failure. The primary objective was to produce an A2 text, but the output was classified as B1. This is an immediate failure. The text also fails on lexical fidelity.\n\n- CEFR Violation (Vocabulary): The text uses multiple words above the A2 level, which caused the B1 classification. The words 'campaign' (B1), 'military' (B1), 'autonomous' (B2), and 'unethical' (B2) are not A2 vocabulary. These words must be replaced or defined in simple terms.\n\n- Fidelity Failure (BERTScore): The BERTScore of 0.8881 is below the required minimum of 0.90. This indicates that key words and phrasing from the original text were lost during simplification, reducing the text's fidelity.\n\n- Structural Issue: The sentence 'They follow orders but they decide who to kill' is acceptable, but could be clearer by splitting it: 'They follow orders. But they decide who to kill.' This improves readability for an A2 audience.\n\nSuggestion: Remove all vocabulary above the A2 level. Replace 'campaign' with 'group'. Replace 'military' with 'army'. Replace 'autonomous robots' with a simple description like 'robots that think for themselves'. Replace 'unethical' with 'wrong' or 'very bad'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8881,
+          "meaningbert": 0.861
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:31:27.215030",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I am a person in a group.  \nThe group wants to stop killer robots.  \nForget the scary movie picture of a robot stepping on heads.  \nToday the army uses robots such as drones.  \nIt also uses guns and sentry robots.  \nThese robots can kill people.  \nThey need very little human help.  \nThe next step is robots that think for themselves.  \nThese robots can kill people by themselves.  \nThey follow orders.  \nBut they decide who to kill.  \nThis would be very bad for all people.  \nSo we must be careful.  \nWe must think about the jobs we give to robots.",
+      "timestamp": "2025-09-01 17:31:27.215634",
+      "metadata": {
+        "text_id": "8c8c4965-5d24-41e5-8ab5-5f36c48b726d",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:31:49.481443",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f5180afa-7a36-414f-a8b4-c163489c94a5",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7207 is below the required 0.75 threshold. This indicates a critical loss of the original text's core message. The BERTScore of 0.8675 is also below the 0.90 minimum, confirming a significant loss of key phrasing.\n\n- Meaning Dilution: The original text's warning about something being 'completely unethical and dangerous for humanity' was reduced to 'very bad for all people'. This simplification loses the specific concepts of morality ('unethical') and severe risk ('dangerous'), which are central to the author's argument.\n- Factual Oversimplification: The specific name 'Campaign to Stop Killer Robots' was replaced with the generic 'a group'. This removes an important piece of information and reduces fidelity.\n- Structural Choppiness: The text is broken into too many short, disconnected sentences. This makes the text sound unnatural and simplistic even for an A2 level, contributing to the loss of the original's coherent argument.\n\nSuggestion: Restore the core meaning. The concept of 'unethical' must be rephrased more accurately, for example, as 'This is wrong and dangerous for people'. Combine some of the short sentences using simple connectors like 'and' to improve the flow. For example: 'Today the army uses robots such as drones, guns, and sentry robots, and they can kill people with very little human help.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8675,
+          "meaningbert": 0.7207
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:31:58.644880",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I am a member of the Campaign to Stop Killer Robots.  \nWe want to stop killer robots.  \nToday the army uses drones, guns, and sentry robots.  \nThey can kill people with very little human help.  \nThe next step is robots that think for themselves.  \nThese robots can kill people by themselves.  \nThey follow orders but decide who to kill.  \nThis is wrong and dangerous for people.  \nWe must be careful.  \nWe must think about the jobs we give to robots.",
+      "timestamp": "2025-09-01 17:31:58.645504",
+      "metadata": {
+        "text_id": "65ea35c3-5124-45ae-b6be-b21bea23d70c",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 17:32:24.949258",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "de83bb3f-cd37-48f0-b661-dd6e0e5e83dd",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8846 is below the required 0.90 threshold. This indicates an unacceptable loss of key vocabulary and phrasing from the original text.\n\n- The simplification was too aggressive, resulting in a loss of lexical precision. This is the direct cause of the low BERTScore.\n- The term 'military machines' was replaced with the less specific phrase 'the army'.\n- The specific item 'gun turrets' was simplified to 'guns', losing important detail.\n- The phrase 'human input' was replaced with 'human help', altering the original phrasing.\n- While the text is structurally simple and uses A2 vocabulary, it fails because it does not sufficiently reflect the source text's specific wording.\n\nSuggestion: Revise the text to re-introduce key terms from the original. Restore phrases like 'military machines' and 'gun turrets' to meet the 0.90 BERTScore requirement. Simplification must not come at the cost of factual and lexical fidelity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8846,
+          "meaningbert": 0.7907
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:32:30.632306",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I am a member of the Campaign to Stop Killer Robots.  \nMilitary machines are used today.  \nThese include drones, gun turrets and sentry robots.  \nThey can kill people with very little human input.  \nThe next step is autonomous murder robots.  \nThese robots follow orders but decide who to kill.  \nThat is wrong and dangerous for people.  \nWe must be careful.  \nWe must think about the jobs we give robots.",
+      "timestamp": "2025-09-01 17:32:30.633110",
+      "metadata": {
+        "text_id": "3a9856ea-1a5e-4ca9-8dae-f4818990a9fb",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:32:49.189609",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2ba4e532-75fb-4ac4-83e4-e7d488c1b837",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8951 is below the required 0.90 threshold. This indicates a significant loss of key phrasing from the original text.\n\n- Fidelity Failure: The BERTScore is too low. The replacement of 'what we ask machines to do' with 'the jobs we give robots' is an example of lost lexical detail that caused this score reduction.\n- CEFR Compliance Failure: The text was classified as B1, which is an instant failure. The A2 standard was not met.\n- Vocabulary Violation: The text uses multiple words that are not on the A2 list. 'Campaign' (B1), 'military' (B1), and 'murder' (B1) are all above the required level. These words must be replaced with simpler A2 alternatives.\n\nSuggestion: Replace all B1-level vocabulary immediately. 'Campaign' must become 'group'. 'Military' must become 'army' or 'for war'. 'Murder' must become 'kill'. Rephrase sentences to stay closer to the original's specific terms to meet the BERTScore requirement.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8951,
+          "meaningbert": 0.8606
+        }
+      }
+    }
+  ]
+}

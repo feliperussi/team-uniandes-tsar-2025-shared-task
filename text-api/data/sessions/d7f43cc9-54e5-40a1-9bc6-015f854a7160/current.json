@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "1ccf5de8-6f94-4054-9b48-207289376c69",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "In the past, many bridges were made of wood.\nWood bridges could catch fire very easily.\nThis was especially a problem for old train bridges.\nA train's steel wheels made sparks on the steel tracks.\nThese sparks could set the wood bridge on fire.\nThen the whole bridge could burn down.",
+    "version": 6,
+    "created_at": "2025-09-01 10:38:34.332226",
+    "updated_at": "2025-09-01 10:38:34.332227",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "44a9cabf-3568-4537-9423-abf76be4eb7f",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5612 is significantly below the required 0.75 threshold. This indicates the core message was not adequately preserved.\n\n- The primary deviation is the loss of the original text's cause-and-effect structure. The original links the material (wood) directly to the fire risk ('more bridges were made of wood and were much more susceptible to fire'). Your version splits this into two separate, less connected ideas: 'many bridges were made of wood' and 'Wood bridges could catch fire very easily'. This weakens the central point.\n- The original states 'more bridges', which is a comparative statement about the past. Your version uses 'many bridges', which is a statement of quantity, not comparison. This alters the meaning.\n- While simplifying 'susceptible to fire' to 'could catch fire very easily' is appropriate for A2, this change contributed to the low semantic score by shifting the meaning from an inherent quality to a potential event.\n\nSuggestion: Rephrase to restore the original's meaning. Combine the first two sentences using an A2 connector like 'so' to re-establish the cause-and-effect link. Example: 'In the past, more bridges were made of wood, so they could catch fire very easily.' This change would better reflect the original's logic and improve the meaning preservation score.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.9266,
+      "meaningbert": 0.5612
+    },
+    "created_at": "2025-09-01 10:38:58.753972"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "94e9513e-1c19-4ff2-a7b8-732f2ecf0141",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "In the past, many bridges were made of wood.\nThese bridges burned very easily.\nThis was a big problem for old train bridges.\nA train's steel wheels on steel tracks sometimes made sparks.\nThese sparks could start a fire on the wood bridge.\nThen the whole bridge could burn down.",
+    "version": 4,
+    "created_at": "2025-09-01 10:37:02.797236",
+    "updated_at": "2025-09-01 10:37:02.797247",
+    "metrics_meaningbert": 0.5716,
+    "metrics_cefr_compliance": "A2"
+  }
+}

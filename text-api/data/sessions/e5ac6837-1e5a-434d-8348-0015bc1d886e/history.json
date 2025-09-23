@@ -1,0 +1,80 @@
+{
+  "session_id": "e5ac6837-1e5a-434d-8348-0015bc1d886e",
+  "created_at": "2025-09-01 01:08:16.893752",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:08:16.905451",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "10-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Before, I worked five days a week.\nThen I had children.\nI wanted to spend more time with them before they started school.\nSo I talked to my boss.\nWe decided I will work three days a week.\nThis meant my pay was much lower.\nBut I have a problem now.\nMy work is not less.\nI do five days of work in only three days.\nAnd I get much less money for it.",
+      "timestamp": "2025-09-01 01:08:16.906566",
+      "metadata": {
+        "text_id": "259aefd1-b4cf-4a5b-8672-376e62e6b85a",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 01:08:16.921091",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "850dae4d-ef7b-46c7-a27f-54070c05d274",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Standard Violation. The text fails the deep qualitative audit due to the use of vocabulary above the A2 level.\n\n- B2 Vocabulary Detected: The text uses the word 'lower', which is classified as B2 level. All vocabulary must be strictly A2 or below. The sentence 'This meant my pay was much lower' is non-compliant.\n\n- Grammatical Awkwardness: The sentence 'We decided I will work three days a week' is structurally awkward. The omission of 'that' is acceptable, but the phrasing is unnatural for the A2 level.\n\nSuggestion: Replace 'lower' with an A2 equivalent. Use 'less'. The sentence must be 'This meant my pay was less'. Rephrase the awkward sentence for clarity. Use 'My boss and I agreed that I will work three days a week'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9132,
+          "meaningbert": 0.8202
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:08:32.285317",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Before, I worked five days a week.\nThen I had children.\nI wanted to spend more time with them before they started school.\nMy boss and I agreed that I will work three days a week.\nThis meant my pay was much less.\nBut I have a problem now.\nMy work is not less.\nI do five days of work in only three days.\nAnd I get much less money for it.",
+      "timestamp": "2025-09-01 01:08:32.285669",
+      "metadata": {
+        "text_id": "48435e93-a7c1-4515-8e4c-8f1793705e51",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-09-01 01:08:55.025265",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f98b79e9-296d-4ed9-a40d-2dbde31adc4f",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text successfully passes all checks. It maintains factual integrity, preserves the original meaning (MeaningBERT: 0.7974, BERTScore: 0.9113), and correctly classifies as A2.\n\n- Vocabulary: The vocabulary is strictly limited to the A2 level. All words used are appropriate for the target audience.\n- Sentence Structure: The use of short, simple sentences is correct for the A2 standard. This ensures high readability.\n- Grammar: A minor grammatical error was detected. The sentence 'My boss and I agreed that I will work three days a week' uses an incorrect tense. The past tense 'agreed' should be followed by 'would work' to maintain tense consistency.\n\nSuggestion: Correct the tense in the sentence 'My boss and I agreed that I will work...' to '...that I would work...' for grammatical accuracy.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9113,
+          "meaningbert": 0.7974
+        }
+      }
+    }
+  ]
+}

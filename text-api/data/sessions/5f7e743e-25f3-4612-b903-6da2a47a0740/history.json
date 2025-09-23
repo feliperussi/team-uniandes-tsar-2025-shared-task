@@ -1,0 +1,80 @@
+{
+  "session_id": "5f7e743e-25f3-4612-b903-6da2a47a0740",
+  "created_at": "2025-09-01 10:39:37.816923",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:39:37.832362",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "95-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Horror films often use empty places.\nFor example, an old hospital.\nOr a scary, empty house.\nOr a town with no people.\n\nThese lonely places are very scary.\nYou think about the past.\nWhat was it like when people lived there?\nWhy did they go away?\n\nThese places are also very quiet.\nThis can be scary too.\nEmpty places are also good for film makers.\nIt is easy to believe you have no phone signal there.",
+      "timestamp": "2025-09-01 10:39:37.832491",
+      "metadata": {
+        "text_id": "73756656-2099-4dc1-9875-0725259f77e2",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 10:39:37.837258",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "51603edc-60f7-4c37-9936-a32d9356e3ff",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Exceeds A2 Standard. The text fails the qualitative audit due to the use of unapproved B1-level vocabulary. While the metrics are acceptable, strict adherence to the A2 lexicon is non-negotiable.\n\n- Deviation 1: The word 'lonely' is B1 level. It is used in the sentence: 'These lonely places are very scary.' This word is too advanced for an A2 reader.\n\n- Deviation 2: The word 'signal' is B1 level. It is used in the sentence: 'It is easy to believe you have no phone signal there.' This is a specific term that is outside the A2 core vocabulary.\n\nSuggestion: Replace 'lonely' with a simpler A2 alternative, such as 'empty' or 'places with no people'. Rephrase the final sentence to avoid the word 'signal'. For example: 'It is easy to believe your phone will not work there.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9172,
+          "meaningbert": 0.7909
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:39:46.779710",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Horror films often use empty places.\nFor example, an old hospital.\nOr a scary, empty house.\nOr a town with no people.\nThese empty places are very scary.\nYou think about the past.\nWhat was it like when people lived there?\nWhy did they go away?\nThese places are also very quiet.\nThis can be scary too.\nEmpty places are also good for film makers.\nIt is easy to believe your phone will not work there.",
+      "timestamp": "2025-09-01 10:39:46.779985",
+      "metadata": {
+        "text_id": "8e86a5c0-1e2a-433a-a26a-f646add12941",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 10:40:08.959517",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "fbe143a0-618e-400c-8d57-f4b6718e86da",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with the A2 standard.\n- Factual Integrity: The output is factually identical to the original text. No discrepancies were found.\n- Metrics Compliance: All metrics are within the required parameters. The MeaningBERT score of 0.7752 and BERTScore of 0.924 confirm high preservation of meaning and lexical fidelity. The CEFR Classifier correctly identified the text as A2.\n- Vocabulary Control: Vocabulary is strictly limited to the A1 and A2 levels. The use of 'horror' and 'empty' is appropriate for the target level. No words above A2 were detected.\n- Structural Simplification: The original text's clauses have been successfully deconstructed into short, simple sentences. The use of fragments ('For example, an old hospital.') is an effective and acceptable simplification strategy for this level. The text is a model example of A2 compliance.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.924,
+          "meaningbert": 0.7752
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,598 @@
+{
+  "session_id": "85a15459-aaf4-452f-bca8-67778d01c456",
+  "created_at": "2025-08-31 22:32:38.088690",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:32:38.094268",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "02-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes are when the ground shakes a lot. Earthquakes can break buildings. They can break bridges too.\n\nBut bridges do not fall down often. This is good. New bridges fall down even less. People who build bridges know this. They make plans for bridges. These bridges are in places where the ground shakes. They build them on strong ground. So the bridges do not move much.",
+      "timestamp": "2025-08-31 22:32:38.094905",
+      "metadata": {
+        "text_id": "07b5013c-7a93-4a64-b97b-11a21c9884ee",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:32:38.101629",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "132fd7f3-e4d9-4d9a-a122-b75fa85be53b",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation and Fidelity Failure. The text fails to adequately preserve the core meaning and lexical fidelity of the original. The MeaningBERT score of 0.5633 is significantly below the required 0.75, indicating a substantial loss of the original message's nuance. The BERTScore of 0.8871 is also below the required 0.90, demonstrating a failure to retain key vocabulary and factual phrasing. Specific deviations include: The original text emphasizes 'Engineers have learned to design bridges in earthquake zones on areas that are much more resistant to movement,' which implies a sophisticated engineering solution. Your version simplifies this to 'People who build bridges know this. They make plans for bridges. They build them on strong ground. So the bridges do not move much,' which loses the specific concept of 'designing in earthquake zones' and 'resistant to movement' in favor of a more general 'strong ground.' The term 'structures' from the original is replaced by the less comprehensive 'buildings' and 'bridges.' The phrase 'relatively infrequent, especially with modern bridges' is simplified to 'do not fall down often' and 'new bridges fall down even less,' losing the precise meaning of 'relatively' and 'especially.' The word 'Engineers' is replaced by the less specific 'People who build bridges.' The concept of 'resistant to movement' is diluted to 'do not move much.' These lexical and semantic simplifications are too great, resulting in a loss of the original's specific information and the sophisticated nature of the engineering solution.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8871,
+          "meaningbert": 0.5633
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:32:48.333790",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes are when the ground shakes a lot. Earthquakes can break buildings. They can break bridges too.\nBut bridges do not fall down often. New bridges fall down even less. Engineers know this. They plan bridges for places with earthquakes. They build them on ground that resists movement. So the bridges stay safe.",
+      "timestamp": "2025-08-31 22:32:48.334034",
+      "metadata": {
+        "text_id": "8e0f91b0-87ea-4d00-838a-35827657b89f",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:33:12.076928",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f31b3401-1551-4fcf-b9c4-2594313ab1ee",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6289 is significantly below the required 0.75. The core message of the original text, which emphasizes engineers 'learning' to design more resistant structures and the progress in engineering solutions, is diluted. The writer's output introduces a definition of earthquakes not present in the original ('Earthquakes are when the ground shakes a lot') and shifts the focus from 'learning to design' to simply 'knowing' and 'planning', losing the nuance of engineering advancement. \n\nAdditionally, the text fails CEFR compliance. The CEFR classifier rated the text as 'B1', not 'A2'. This indicates the text is too complex for the A2 standard. Specific linguistic evidence for this B1 classification includes:\n- The use of 'when' as a defining relative adverb in 'Earthquakes are when the ground shakes a lot' is a B1 structure. An A2 simplification would be 'Earthquakes happen. The ground shakes a lot.'\n- The use of 'that' as a relative pronoun introducing a defining relative clause in 'ground that resists movement' is a B1 structure. An A2 simplification would be 'The ground resists movement. They build bridges on this ground.' or 'They build bridges on strong ground.'\n\nSuggestion: Rephrase the opening to directly address the damage and infrequency of collapse as in the original. Ensure the concept of engineers' 'learning' and 'improving design' is preserved. Eliminate relative clauses using 'when' or 'that' to simplify sentence structure to an A2 level. Split complex ideas into shorter, distinct sentences.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9013,
+          "meaningbert": 0.6289
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:33:22.161708",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes damage things. They damage bridges.\nBut bridges do not fall down often. New bridges fall down even less.\nEngineers learn about earthquakes. They learn to design bridges better.\nThey build bridges on strong ground. This ground does not move much.\nSo bridges stay safe.",
+      "timestamp": "2025-08-31 22:33:22.163528",
+      "metadata": {
+        "text_id": "19078fe9-7dc9-4d91-88a2-8f48328916b6",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-08-31 22:33:34.801138",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c583bd4d-b2a9-4a0f-ade2-eb7bc7d3e149",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6787 is significantly below the required 0.75. The core message of the original text, which emphasizes engineers designing bridges to be 'much more resistant to movement' specifically in 'earthquake zones' to prevent 'collapse', has been diluted. Your version simplifies this to 'Engineers learn about earthquakes. They learn to design bridges better. They build bridges on strong ground. This ground does not move much. So bridges stay safe.' This loses the specific concept of engineered resistance to movement in specific zones, reducing the fidelity of the original meaning. The original's focus on the *how* and *where* of the resistance is lost. Suggestion: Rephrase to explicitly state that engineers make bridges strong against earthquake movement in places where earthquakes happen. Ensure the concept of 'resistance' is clearly conveyed.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8996,
+          "meaningbert": 0.6787
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:33:41.359897",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes damage things. They damage bridges.\nBut bridges do not fall down often. New bridges fall down even less.\nEngineers learn about earthquakes.\nThey make bridges strong for places with earthquakes.\nThese bridges can move with the ground.\nSo the bridges stay safe.",
+      "timestamp": "2025-08-31 22:33:41.361338",
+      "metadata": {
+        "text_id": "33fa03b7-0539-4221-ab35-13f2a6543018",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-08-31 22:33:55.325643",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8e9729a1-1da1-4a2d-aa31-57f372290346",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The text failed to preserve the core meaning and lexical fidelity of the original. The MeaningBERT score of 0.6192 is significantly below the required 0.75, indicating a substantial loss of the original message. The BERTScore of 0.8963 is also below the required 0.90, showing a failure to retain key words and factual phrasing. Specific deviations are listed below. Deviation: Meaning Preservation Failure. The original text states that engineers design bridges to be 'much more resistant to movement'. Your version simplifies this to 'These bridges can move with the ground. So the bridges stay safe.', which loses the critical concept of engineered resistance and the specific design for 'areas that are much more resistant to movement'. This is a significant semantic shift. Deviation: Lexical Fidelity Failure. Key phrases from the original, such as 'all structures', 'relatively infrequent', 'modern bridges', 'earthquake zones', and 'resistant to movement', were either omitted or replaced with overly generic terms like 'things' and 'places with earthquakes'. This reduces the factual detail and precision. Suggestion: Rephrase the section about engineers to clearly state that they make bridges strong to resist movement in earthquake areas. Ensure the concept of 'modern bridges' being safer is explicitly included. Do not sacrifice core information for simplicity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8963,
+          "meaningbert": 0.6192
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:34:04.936689",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes damage buildings and bridges.\nBut bridges do not fall down often.\nNew bridges fall down even less.\nEngineers learn about earthquakes.\nThey make bridges strong for places with earthquakes.\nThese bridges stay strong when the ground moves.\nSo the bridges stay safe.",
+      "timestamp": "2025-08-31 22:34:04.937142",
+      "metadata": {
+        "text_id": "4991415e-10bb-4905-b7ea-cec0899bf0f7",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 22:34:21.459876",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8af9b749-68a8-4de8-aff8-e8a3042b88ee",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The text failed to preserve the core meaning and lexical fidelity of the original text. The MeaningBERT score of 0.5936 is significantly below the required 0.75, indicating a substantial loss of the original message. The BERTScore of 0.8977 is also below the required 0.90, showing a failure to retain key words and factual phrasing. The original text explains that engineers design bridges in earthquake zones on areas that are much more resistant to movement. Your version simplifies this to 'They make bridges strong for places with earthquakes. These bridges stay strong when the ground moves.', which loses the specific detail about the design principle of resistance to movement. Key phrases such as 'all structures', 'relatively infrequent', 'modern bridges', and 'design bridges in earthquake zones on areas that are much more resistant to movement' were either omitted or overly simplified, leading to a loss of important lexical detail. Suggestion: Rephrase the section about engineers to explicitly state that they design bridges to be resistant to ground movement. Ensure that the concept of 'modern bridges' being safer is clearly conveyed. Restore more of the original's specific vocabulary where possible without exceeding A2 complexity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8977,
+          "meaningbert": 0.5936
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:34:35.098292",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes break buildings and bridges.\nBut bridges do not fall down often.\nModern bridges fall down even less.\nEngineers learn about earthquakes.\nThey design bridges for places with earthquakes.\nThey make these bridges strong against ground movement.\nSo the bridges stay safe.",
+      "timestamp": "2025-08-31 22:34:35.099022",
+      "metadata": {
+        "text_id": "2b64e84a-89d8-4163-ade3-e10ad053bb29",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-08-31 22:34:47.655790",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6bba02e1-7101-4fd6-818f-789032895c60",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6274 is significantly below the required 0.75 threshold. The core message regarding the specific engineering solution for bridge safety is lost. The original text states engineers design bridges 'on areas that are much more resistant to movement.' Your version simplifies this to 'They make these bridges strong against ground movement,' which is too general and omits the crucial detail of *where* they are designed. This dilutes the specific engineering achievement. Suggestion: Restore the specific detail about engineers designing bridges in locations that are naturally more resistant to ground movement. The explanation of *how* engineers achieve safety must be preserved, not just the general outcome.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9025,
+          "meaningbert": 0.6274
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:34:56.194592",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes break buildings and bridges.\nBut bridges do not fall down often.\nModern bridges fall down even less.\nEngineers learn about earthquakes.\nThey design bridges for places with earthquakes.\nThey build them on ground that does not move much.\nSo the bridges stay safe.",
+      "timestamp": "2025-08-31 22:34:56.195118",
+      "metadata": {
+        "text_id": "fe6d2671-7afb-4ee2-be67-747b0ec3f243",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:35:09.896059",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "96767771-a3c7-4ddd-bbd6-789db5dc505d",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6992 is below the required 0.75. The simplified text loses critical nuances from the original. The original text conveys a sense of fortunate infrequency and the degree of engineering success ('Luckily, this kind of collapse is relatively infrequent', 'much more resistant to movement'). Your version simplifies these to mere statements of fact ('do not fall down often', 'does not move much'), thereby losing the original's emphasis on the positive outcome of engineering efforts and the comparative safety achieved. The sentiment of 'luckily' and the comparative 'much more resistant' are not adequately preserved.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.904,
+          "meaningbert": 0.6992
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:35:18.482587",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes break buildings and bridges.\nBut this is good.\nBridges do not fall down often.\nModern bridges fall down even less.\nEngineers learn about earthquakes.\nThey design bridges for places with earthquakes.\nThey build them on ground that is very strong.\nThis ground does not move much.\nSo the bridges stay safe.",
+      "timestamp": "2025-08-31 22:35:18.483879",
+      "metadata": {
+        "text_id": "19a5b507-c7a6-490b-95b2-51fcc640f81d",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:35:32.170308",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8b812502-c203-4909-a0aa-bfaf67154184",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6516 is significantly below the required 0.75. The core message of the original text, which emphasizes the fortunate infrequency of bridge collapse due to specific engineering advancements, is not fully preserved. The original's 'Luckily, this kind of collapse is relatively infrequent, especially with modern bridges' conveys a nuanced positive outcome directly linked to modern design. Your version, 'But this is good. Bridges do not fall down often. Modern bridges fall down even less,' separates the 'good' aspect from the specific reason (modern bridges) and dilutes the direct causal link between advanced engineering and the infrequency of collapse. The original implies a continuous, applied learning process ('Engineers have learned to design'), which is simplified to 'Engineers learn about earthquakes' and then a separate description of their actions, weakening the overall coherence of the original's message about engineering solutions leading to safety.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9003,
+          "meaningbert": 0.6516
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:35:46.725516",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes break buildings and bridges.\nEngineers learned about earthquakes.\nThey design bridges better now.\nThey build bridges for places with earthquakes.\nThey put them on strong ground.\nThis ground does not move much.\nSo, bridges do not fall down often.\nModern bridges fall down even less.\nThis is good news.",
+      "timestamp": "2025-08-31 22:35:46.726119",
+      "metadata": {
+        "text_id": "66d25ea0-7967-4bc5-9ef5-74c1018459f9",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-08-31 22:35:58.400177",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1ec28be3-c9a1-4a01-b24c-7d96e42938f9",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The text failed on two critical metrics for content preservation. The MeaningBERT score of 0.6683 is significantly below the required 0.75, indicating a failure to preserve the core message. The BERTScore of 0.8954 is also below the required 0.90, showing a loss of key words and factual phrasing from the original. The original text emphasizes the specific engineering solution of designing bridges on areas 'much more resistant to movement' to prevent 'collapse'. Your version simplifies this to 'They put them on strong ground. This ground does not move much.', which loses the precise engineering concept. The original's 'Luckily, this kind of collapse is relatively infrequent' is replaced with 'This is good news.', which introduces a subjective interpretation not present in the original's objective statement. The lexical fidelity is also compromised; 'damage all structures' becomes 'break buildings', and 'relatively infrequent' becomes 'do not fall down often', losing the specific nuance of the original phrasing. Suggestion: Rephrase to more accurately convey the engineering solution for resistance to movement. Ensure key concepts like 'resistant to movement' are preserved, even if simplified. Avoid adding subjective commentary like 'This is good news'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8954,
+          "meaningbert": 0.6683
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:36:17.142206",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes break bridges.\nIt is good that bridges do not fall down often.\nModern bridges fall down even less.\nEngineers know about earthquakes.\nThey design bridges for places with earthquakes.\nThey make bridges resistant to movement.\nThey build them on ground that does not move much.",
+      "timestamp": "2025-08-31 22:36:17.143834",
+      "metadata": {
+        "text_id": "171b9f5d-d8aa-4179-9047-1dc7a23da8f2",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:36:35.497266",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "671692dd-8cb0-4f5f-ac18-57e5cff6445d",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6642 is below the required 0.75 threshold. The core message regarding the engineers' specific learning and application of that knowledge to design bridges in earthquake zones on resistant areas is significantly diluted. The original text emphasizes that engineers 'have learned to design bridges in earthquake zones on areas that are much more resistant to movement,' directly linking this learned expertise to the infrequency of collapse. Your version, 'Engineers know about earthquakes. They design bridges for places with earthquakes. They make bridges resistant to movement. They build them on ground that does not move much,' fragments this crucial cause-and-effect relationship into a series of general statements. The nuance of 'learned to design' and the specific context of 'in earthquake zones' are lost, reducing the semantic similarity to the original's explanation of modern bridge safety. The text also failed the CEFR Compliance check. The classifier rated the text as B1, not A2. This indicates that despite attempts at simplification, the overall linguistic complexity or structure is still above the A2 target. This could be due to the fragmented sentence structure which, while simple individually, creates a longer, less cohesive narrative that might be interpreted as more complex than intended for A2. Suggestion: Rephrase the section about engineers to clearly state that engineers learned how to build bridges better in places with earthquakes, specifically on strong ground, to make them safer. Ensure the connection between their learning and the safety of modern bridges is explicit and simple. Review sentence structures to ensure they are consistently A2, avoiding any implicit B1 complexity.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.905,
+          "meaningbert": 0.6642
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:36:51.934563",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes are when the ground shakes. Earthquakes can break bridges. But bridges do not fall down often. Modern bridges fall down even less. Engineers learned how to build bridges better. They build them in places with earthquakes. They choose ground that is very strong. This helps bridges to not move much. So, modern bridges are safer.",
+      "timestamp": "2025-08-31 22:36:51.935524",
+      "metadata": {
+        "text_id": "061c799f-6cdd-451b-a2d1-724d15296b9e",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:37:06.570448",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "eff1599e-bff8-4d07-a053-e10f9e5e2679",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7018 is below the required 0.75. The writer's output introduces a definition of 'Earthquakes are when the ground shakes' which is not present in the original text and shifts the focus. While the output conveys that modern bridges are safer, it dilutes the original's emphasis on 'Engineers have learned to design bridges in earthquake zones on areas that are much more resistant to movement' by simplifying it to 'Engineers learned how to build bridges better. They build them in places with earthquakes. They choose ground that is very strong. This helps bridges to not move much.' The specific engineering solution and its direct link to infrequent collapse are not fully preserved. Suggestion: Remove the extraneous definition of earthquakes. Rephrase to more directly convey that engineers design bridges in specific ways to make them resistant to movement, which is why collapses are rare.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9035,
+          "meaningbert": 0.7018
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:37:19.810734",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 12,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes can break bridges. But bridges do not fall down often. Modern bridges fall down even less. Engineers know how to build bridges. They build them in places with earthquakes. They choose ground that is very strong. This ground does not move much. This design helps bridges stay safe.",
+      "timestamp": "2025-08-31 22:37:19.811609",
+      "metadata": {
+        "text_id": "21cb8a10-4c08-4289-a6b2-fe95f203e1ad",
+        "version": 12
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:37:32.963729",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "68779878-454b-4cb7-ba89-4a118f5b7368",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7295 is below the required 0.75. The original text conveys that engineers have 'learned to design bridges... on areas that are much more resistant to movement', emphasizing the proactive engineering solution and the degree of resistance. Your version simplifies this to 'Engineers know how to build bridges. They choose ground that is very strong. This ground does not move much.', which loses the nuance of 'learned to design' and the specific emphasis on 'much more resistant to movement', diluting the core message about advanced engineering adaptation.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9095,
+          "meaningbert": 0.7295
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:37:42.180055",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 13,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes can break bridges. But bridges do not fall down often. Modern bridges fall down even less. Engineers learned how to build bridges better. They build them in places with earthquakes. They choose very strong ground. This ground moves much less. This helps bridges stay safe.",
+      "timestamp": "2025-08-31 22:37:42.180939",
+      "metadata": {
+        "text_id": "de1c65dc-09b8-4359-af9b-341a5004dfea",
+        "version": 13
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:37:55.245688",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d50480af-162c-43a0-8815-336c645ed297",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6343 is significantly below the required 0.75. While the individual facts are present, the overall emphasis and cohesive flow of the original text have been lost. The original text uses 'Luckily' to convey a positive sentiment about the infrequency of bridge collapse, which is not captured in your version. Furthermore, the original directly links the infrequency of collapse, especially with modern bridges, to engineers designing them on resistant areas. Your version separates these ideas into too many distinct sentences, diluting the cause-and-effect relationship and the overall message. Suggestion: Rephrase to maintain the positive tone of 'Luckily' and ensure a clearer, more direct connection between modern engineering practices and the reduced frequency of bridge collapse.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9088,
+          "meaningbert": 0.6343
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:38:05.234597",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 14,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes can break bridges. Luckily, bridges do not fall down often. Modern bridges fall down even less. This is because engineers build them better. They choose very strong ground in earthquake places. This ground moves much less. This helps bridges stay safe.",
+      "timestamp": "2025-08-31 22:38:05.238041",
+      "metadata": {
+        "text_id": "0edfb5eb-3a3a-4d0b-82f1-24d2a3a61d48",
+        "version": 14
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-08-31 22:38:19.774789",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d5bbc8aa-2578-4a89-9081-a9b2c2e045db",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6475 is significantly below the required 0.75. The core message of the original text has been lost or significantly altered. The original text emphasizes that 'Engineers have learned to design bridges in earthquake zones on areas that are much more resistant to movement.' Your version simplifies this to 'This is because engineers build them better. They choose very strong ground in earthquake places. This ground moves much less. This helps bridges stay safe.' This simplification loses the specific engineering concept of 'designing on areas resistant to movement,' replacing it with a more general 'build them better' and 'choose very strong ground,' which does not fully convey the original meaning. Additionally, even if meaning preservation were adequate, the text would still fail CEFR compliance. The provided 'cefr_compliance' metric indicates 'B1', which is not the required 'A2'. This indicates the text is too complex for the target audience. Suggestion: Rephrase the final sentences to accurately reflect the specific engineering practice of designing on resistant areas, rather than just 'building better' or 'choosing strong ground'. Ensure the language used is strictly A2 level.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9084,
+          "meaningbert": 0.6475
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:38:32.296587",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 15,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes are when the ground shakes. These can break bridges. But bridges do not often fall down. New bridges fall down even less. Engineers know how to build them. They design bridges for places where the ground moves less. This helps bridges stay safe.",
+      "timestamp": "2025-08-31 22:38:32.297382",
+      "metadata": {
+        "text_id": "b24f1bab-6ec7-4ec3-b1e8-ce2e7bf7b92c",
+        "version": 15
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:38:46.008559",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5cbe13e7-cc21-40f1-94a7-548b20e5cdb6",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5969 is significantly below the required 0.75. This indicates a failure to preserve the core message and nuances of the original text. The output simplifies the content to such an extent that critical information is lost. Specific deviations include: The original text states earthquakes damage 'all structures', but your version only mentions 'bridges', losing the broader scope. The original emphasizes that collapses are 'relatively infrequent, especially with modern bridges' due to specific engineering design. Your version states 'bridges do not often fall down. New bridges fall down even less' and then generally 'Engineers know how to build them. They design bridges for places where the ground moves less. This helps bridges stay safe.' This loses the direct cause-and-effect relationship and the specific emphasis on modern engineering as the reason for infrequency. The overall meaning is diluted and less precise. Suggestion: Rephrase to explicitly state that modern engineering design is the reason for the infrequency of bridge collapses, and ensure the scope of damage (all structures) is maintained or clearly limited if that is the intent.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9003,
+          "meaningbert": 0.5969
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:38:55.559684",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 16,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes are when the ground shakes. They can break buildings and bridges. But bridges do not often fall down. Modern bridges fall down even less. This is because engineers build them well. They design bridges for places where the ground does not move much. This helps bridges stay safe.",
+      "timestamp": "2025-08-31 22:38:55.560461",
+      "metadata": {
+        "text_id": "dddf2785-063d-406e-a04a-ae402ce8f86d",
+        "version": 16
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 22:39:17.905463",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5bf83937-2ce6-4ed3-a7f7-3a87b03bde0f",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: The text failed on multiple critical diagnostic checks, including meaning preservation, lexical fidelity, and CEFR compliance. This is an unacceptable deviation from the required standards. Meaning Preservation Failure: The MeaningBERT score of 0.6756 is significantly below the required 0.75. The output introduces a general definition of earthquakes ('Earthquakes are when the ground shakes') which is not the primary focus of the original text, diluting the core message about structural damage and engineering solutions. Fidelity Failure: The BERTScore of 0.898 is below the required 0.90. Key lexical details from the original, such as 'damage all structures', 'relatively infrequent', 'earthquake zones', and 'much more resistant to movement', were not adequately preserved, leading to a loss of factual phrasing and precision. CEFR Compliance Failure: The CEFR classifier rated the text as B1, not the required A2. The sentence 'They design bridges for places where the ground does not move much' contains a relative clause with 'where', which is a B1 grammatical structure. This must be simplified. The phrase 'build them well' is too vague and does not convey the specific engineering solution of designing for 'areas that are much more resistant to movement' as stated in the original. Suggestion: Remove the introductory definition of earthquakes. Focus directly on the impact on structures and the engineering solutions. Rephrase the sentence containing the 'where' clause into two simpler A2 sentences. Ensure the concept of 'resistance to movement' is clearly and simply articulated. Use more precise A2 vocabulary to maintain fidelity to the original's specific details.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.898,
+          "meaningbert": 0.6756
+        }
+      }
+    }
+  ]
+}

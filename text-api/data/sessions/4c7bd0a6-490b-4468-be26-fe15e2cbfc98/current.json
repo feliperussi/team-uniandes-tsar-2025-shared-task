@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "b9810fe1-708d-4c53-8319-36c0d22e73e4",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "'Life of Pi' is the name of a book.  \nThe author is Canadian.  \nHis name is Yann Martel.  \nHe is the son of a diplomat.  \nAs a child, he lived in Costa Rica.  \nHe also lived in Canada, France and Mexico.  \nIt tells Pi's story.  \nPi is a teenage boy from India.  \nHe is shipwrecked in the Pacific Ocean.  \nHe is in a lifeboat with a tiger.  \nIt is the third book by Martel.  \nIt came out in 2001.  \nIt sold over seven million copies worldwide.  \nIt won several prizes and been translated into 41 languages.",
+    "version": 16,
+    "created_at": "2025-09-01 00:03:59.423435",
+    "updated_at": "2025-09-01 00:03:59.423444",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "2faa40d8-f8d1-44fc-a6b6-253da73bc1b5",
+    "approval": "FAIL",
+    "grade": 4,
+    "feedback": "FAIL: Fidelity Failure. The BERTScore of 0.8889 is below the required 0.90, showing key words were lost.\n- The adjective extraordinary is removed from \u201cextraordinary story.\u201d\n- The adjective ferocious is removed from \u201cferocious tiger.\u201d\n- \u201cIt tells Pi\u2019s story\u201d loses nuance compared to \u201cThe Life of Pi tells the extraordinary story of Pi.\u201d\nSuggestion: Restore the adjectives extraordinary and ferocious to match the original lexical detail.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8889,
+      "meaningbert": 0.8102
+    },
+    "created_at": "2025-09-01 00:04:14.881214"
+  },
+  "attempt_number": 16,
+  "best_attempt": {
+    "id": "af43c0cc-e6bc-43c5-9e2b-735c794529ad",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "\u2018Life of Pi\u2019 is a book by Yann Martel.  \nIt tells the story of Pi.  \nPi is a teenage boy from India.  \nHis ship sank in the Pacific Ocean.  \nHe is alone in a lifeboat with a wild tiger.  \nThis is Martel\u2019s third book.  \nHe published it in 2001.  \nIt sold over seven million copies.  \nIt won several prizes.  \nPeople translated it into 41 languages.  \nMartel is the son of a diplomat.  \nAs a child, he lived in Costa Rica, Canada, France and Mexico.",
+    "version": 8,
+    "created_at": "2025-08-31 23:58:24.934926",
+    "updated_at": "2025-08-31 23:58:24.934934",
+    "metrics_meaningbert": 0.8973,
+    "metrics_cefr_compliance": "A2"
+  }
+}

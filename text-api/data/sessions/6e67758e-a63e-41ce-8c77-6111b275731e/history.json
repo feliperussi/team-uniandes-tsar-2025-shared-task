@@ -1,0 +1,228 @@
+{
+  "session_id": "6e67758e-a63e-41ce-8c77-6111b275731e",
+  "created_at": "2025-09-01 16:58:10.353075",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 16:58:10.372410",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "44-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Freud was a famous doctor. He studied people's minds.\n\nAbout 200 years ago, two big ideas about dreams were popular.\nOne idea was this: Dreams show us secret things.\nThese things are in our brain.\nWe do not know them when we are awake.\nFreud thought this: If we know what dreams mean, we can know our secret feelings.\nWe can also know our problems.\n\nBut the other idea was different.\nIt said dreams are just many mixed-up things.\nThey happen in our brain.\nOur brain puts memories in order from the day.\nWhen we wake up, we try to understand these pictures and feelings.\nWe try to make them into a story.",
+      "timestamp": "2025-09-01 16:58:10.372590",
+      "metadata": {
+        "text_id": "2b5af492-8874-4b84-9319-eb7abbf756a0",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 16:58:10.379799",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0eb159bb-9f47-4dfc-a6ac-991225443642",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy and Meaning Preservation Failure. The text introduces information not present in the original, and the overall meaning preservation is too low. The MeaningBERT score of 0.6491 is below the required 0.75, indicating a significant loss of the original message's core. The primary focus of the original text is the two contrasting ideas about dreams, not biographical details about Freud. Your introduction shifts this focus.\n\nDetected Deviations:\n- Factual Inaccuracy: The sentences 'Freud was a famous doctor. He studied people's minds.' are not present in the original text. The original only mentions Freud's belief regarding dreams, not his profession or general field of study. Adding this information is a factual deviation from the source material.\n- Meaning Preservation Failure: The MeaningBERT score of 0.6491 is too low. The addition of biographical details about Freud at the beginning dilutes the original text's core message, which is to present and contrast two main ideas about dreams. The original text introduces Freud only in the context of one of these ideas, not as a general figure.\n\nCorrective Path:\n- Remove the sentences 'Freud was a famous doctor. He studied people's minds.' as they are not in the original text and introduce extraneous information.\n- Ensure the summary immediately focuses on the two main ideas about dreams, as this is the central theme of the original text, to improve meaning preservation.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.905,
+          "meaningbert": 0.6491
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 16:58:18.182826",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: About 200 years ago, two big ideas about dreams were popular.\nOne idea was this: Dreams show us secret things.\nThese things are in our brain.\nWe do not know them when we are awake.\nFreud thought this: If we know what dreams mean, we can know our secret feelings.\nWe can also know our problems.\n\nBut the other idea was different.\nIt said dreams are just many mixed-up things.\nThey happen in our brain.\nOur brain puts memories in order from the day.\nWhen we wake up, we try to understand these pictures and feelings.\nWe try to make them into a story.",
+      "timestamp": "2025-09-01 16:58:18.183145",
+      "metadata": {
+        "text_id": "63c87248-3382-4454-8e1c-0f53bd925a2d",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 16:58:36.177885",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "28b3ee0e-8b10-4e92-905f-72b0200ded9a",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6705 is too low, falling below the required 0.75. This indicates a significant loss of the original text's core message and nuance. The BERTScore of 0.916 is acceptable, but fidelity alone is insufficient without meaning preservation. Specific deviations are detailed below. \n\n- The core contrast between the two theories is weakened. The original states, 'However, the other theory was the opposite.' Your version uses 'But the other idea was different,' which does not convey the strong opposition central to the original text. \n- The concept of 'random activity' in the second theory is lost. The original states, 'dreams are just a collection of random activity in the brain.' Your version simplifies this to 'dreams are just many mixed-up things,' which diminishes the specific nature of the brain's activity described. \n- The depth of the first theory is slightly reduced. The original 'represent things hidden from our conscious mind' is simplified to 'Dreams show us secret things. These things are in our brain. We do not know them when we are awake.' While simpler, it loses some of the precise meaning of 'represent' and 'conscious mind.' \n\nSuggestion: Rephrase to explicitly state the second theory is the 'opposite' of the first. Ensure the concept of 'random activity' is clearly conveyed, perhaps using 'things that happen by chance' or 'things that are not planned.' Restore the idea that dreams 'show' or 'are like' things that are 'hidden' from our 'waking mind' to better capture the Freudian concept.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.916,
+          "meaningbert": 0.6705
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 16:58:46.079950",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: About 200 years ago, two big ideas about dreams were popular.\nOne idea was this: Dreams show us secret things.\nThese things are hidden from our mind when we are awake.\nFreud was a famous doctor.\nHe thought this: If we know what dreams mean, we can know our secret feelings.\nWe can also know our problems.\n\nBut the other idea was the opposite.\nIt said dreams are just things that happen by chance.\nThey happen in our brain.\nOur brain puts memories in order from the day.\nWhen we wake up, we try to understand these pictures and feelings.\nWe try to make them into a story.",
+      "timestamp": "2025-09-01 16:58:46.080341",
+      "metadata": {
+        "text_id": "933290a9-12cf-458f-9e0c-4c79528494ba",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 16:59:06.545865",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "07ed591c-3d1c-4e4f-b126-96d895e693c5",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance - Vocabulary. The text contains words above the A2 level, as explicitly indicated in the provided vocabulary list. The word 'hidden' is classified as B1, but it is used in the sentence 'These things are hidden from our mind when we are awake.' The word 'doctor' is also classified as B1, but it is used in the sentence 'Freud was a famous doctor.' Both words must be replaced with A2-level vocabulary. Suggestion: Rephrase 'hidden' to 'secret' or 'not easy to see'. Rephrase 'doctor' to 'person who helps sick people' or a simpler equivalent if the context allows, or remove if not essential.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9203,
+          "meaningbert": 0.7802
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 16:59:15.983161",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: About 200 years ago, two big ideas about dreams were popular.\nOne idea was this: Dreams show us secret things.\nOur mind does not see these things when we are awake.\nFreud had an idea.\nHe thought this: If we know what dreams mean, we can know our secret feelings.\nWe can also know our problems.\n\nBut the other idea was the opposite.\nIt said dreams are just things that happen by chance.\nThey happen in our brain.\nOur brain puts memories in order from the day.\nWhen we wake up, we try to understand these pictures and feelings.\nWe try to make them into a story.",
+      "timestamp": "2025-09-01 16:59:15.983633",
+      "metadata": {
+        "text_id": "423e2c1a-2cc9-43e7-a169-ca8e0157b25a",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 16:59:31.571091",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b2e24be1-1fc5-40ee-b24d-3688668a58b8",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7173 is below the required 0.75. The core message of the original text has been diluted. The original concept of 'things hidden from our conscious mind' is reduced to 'secret things', losing the specific nuance of the 'conscious mind'. The explanation of the second theory, 'a collection of random activity in the brain while it's organising memories and events from the day', is simplified to 'things that happen by chance. They happen in our brain. Our brain puts memories in order from the day'. This breaks the causal link between the random activity and the memory organization, making the explanation less coherent and losing the original's specific meaning. Suggestion: Rephrase to ensure the connection between random activity and memory organization is clear. Ensure 'conscious mind' is adequately represented in A2 terms without losing its specific meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9187,
+          "meaningbert": 0.7173
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 16:59:47.389974",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: About 200 years ago, two big ideas about dreams were popular.\nOne idea was this: Dreams show us things our mind hides. We do not know these things when we are awake. Freud was a famous doctor. He thought this: If we know what dreams mean, we can know our hidden feelings. We can also know our problems.\n\nBut the other idea was the opposite. It said dreams are just random things in our brain. Our brain does this when it puts memories from the day in order. When we wake up, we try to understand these random pictures and feelings. We try to make them into a story.",
+      "timestamp": "2025-09-01 16:59:47.390443",
+      "metadata": {
+        "text_id": "260fe9dc-39b8-46ab-a385-f133a95d6714",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:00:07.994139",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9fb8b127-7d7c-401e-a56f-8ca7789eab78",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance - Vocabulary. The text contains words above the A2 level, specifically 'hidden' (B1) and 'random' (B2). The protocol explicitly states that any unapproved B1/B2 word is a failure for A2 compliance. While the MeaningBERT (0.8401) and BERTScore (0.9277) metrics are strong, and the CEFR classifier rated A2, the qualitative audit reveals these critical vocabulary deviations. The use of 'random' is a significant breach of the A2 vocabulary standard. The use of 'hidden' is also a deviation from the specified B1 level for that word. Suggestion: Replace 'hidden' with simpler A2 phrasing like 'things we do not know' or 'things inside us'. Replace 'random' with A2 alternatives such as 'mixed up' or 'not in order'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9277,
+          "meaningbert": 0.8401
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:00:16.931540",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: About 200 years ago, two big ideas about dreams were popular.\nOne idea was this: Dreams show us things we do not know. We do not know these things when we are awake. Freud was a famous doctor. He thought this: If we know what dreams mean, we can know our feelings. These are feelings inside us. We can also know our problems.\n\nBut the other idea was the opposite. It said dreams are just mixed up things in our brain. Our brain does this when it puts memories from the day in order. When we wake up, we try to understand these mixed up pictures and feelings. We try to make them into a story.",
+      "timestamp": "2025-09-01 17:00:16.932138",
+      "metadata": {
+        "text_id": "b9d11bd0-64ec-425c-918d-30f1ccbb7276",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 17:00:32.744037",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "71583aef-0e90-4295-92a6-e272e1be5f18",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text demonstrates excellent adherence to the CEFR A2 readability standard. All diagnostic checks were passed without deviation. The factual integrity is maintained, and the core meaning is preserved, as evidenced by a MeaningBERT score of 0.7906 and a BERTScore of 0.9193. The CEFR classifier correctly identified the text as A2. The vocabulary is consistently at an A1/A2 level, with complex terms from the original text simplified effectively (e.g., '18th and 19th centuries' to '200 years ago', 'represent' to 'show', 'hidden from our conscious mind' to 'do not know'). Sentence structures are short and simple, using A1/A2 connectors such as 'and', 'but', 'if', and 'when'. The contextualization of 'Freud' as 'a famous doctor' is an appropriate A2-level definition for a proper noun. No B1 or higher vocabulary or grammatical structures were detected.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9193,
+          "meaningbert": 0.7906
+        }
+      }
+    }
+  ]
+}

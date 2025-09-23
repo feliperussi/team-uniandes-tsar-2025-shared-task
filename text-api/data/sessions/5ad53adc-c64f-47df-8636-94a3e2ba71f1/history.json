@@ -1,0 +1,117 @@
+{
+  "session_id": "5ad53adc-c64f-47df-8636-94a3e2ba71f1",
+  "created_at": "2025-09-01 17:59:54.772173",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:59:54.791264",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "20-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a top researcher in robotics and AI, and she works with her family in a high\u2011tech home that she designed herself. She has been published a lot as author and co\u2011author of more than 50 papers in well\u2011regarded journals that are checked by other scientists. She often speaks at international conferences, and in 2012 she received an important Royal Academy Simone Fielding fellowship.",
+      "timestamp": "2025-09-01 17:59:54.791395",
+      "metadata": {
+        "text_id": "2501964a-dcec-432a-8bd9-7a05a975c285",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:59:55.700213",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ef19d745-3926-4960-993d-0ad0d0fc9bc8",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Integrity. The output contains a critical factual error. The original text states 'Julie lives with her family', but the output incorrectly states 'she works with her family'. This fundamentally changes the meaning and makes the information unreliable. This type of error results in an immediate failure. Additionally, the text failed the CEFR compliance check. The classifier rated the output as B2, not the target B1. This is likely due to overly long and complex sentences, such as 'She has been published a lot as author and co\u2011author of more than 50 papers in well\u2011regarded journals that are checked by other scientists.' To meet the B1 requirement, this sentence should be split into two simpler ones.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9352,
+          "meaningbert": 0.9453
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 18:00:00.397973",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a top researcher in robotics and AI, and she lives with her family in a high\u2011tech home that she designed herself. She has been published a lot as author and co\u2011author of more than 50 papers. These papers appear in well\u2011regarded journals that are checked by other scientists. She often speaks at international conferences, and in 2012 she received an important Royal Academy Simone Fielding fellowship.",
+      "timestamp": "2025-09-01 18:00:00.398331",
+      "metadata": {
+        "text_id": "e6584e5a-b97a-4611-9d48-e06e9bda96c2",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 18:00:23.421057",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d63fdb73-1127-4cd3-ab2f-3d8268f2c6ee",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2' instead of the required 'B1'. The primary reason for this is excessive sentence complexity, which is a B2-level characteristic. Specifically, the first sentence, 'Julie Wong is a top researcher in robotics and AI, and she lives with her family in a high\u2011tech home that she designed herself,' is a long compound sentence that combines two separate ideas and includes a relative clause. To correct this and meet the B1 standard, this sentence must be broken down. Suggestion: Split it into two or three simpler sentences, such as 'Julie Wong is a top researcher in robotics and AI. She lives with her family in a high-tech home that she designed herself.' On a positive note, the text passed all factual, meaning, and fidelity checks, and the vocabulary simplification was very effective.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9329,
+          "meaningbert": 0.9452
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 18:00:30.581779",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a top researcher in robotics and AI. She lives with her family in a high\u2011tech home. She designed the home herself. She has been published a lot as author and co\u2011author of more than 50 papers. These papers appear in well\u2011regarded journals. The journals are checked by other scientists. She often speaks at international conferences. In 2012 she received an important Royal Academy Simone Fielding fellowship.",
+      "timestamp": "2025-09-01 18:00:30.582052",
+      "metadata": {
+        "text_id": "9643b9ba-73e0-45f0-af28-5f3966a99d5e",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-09-01 18:00:53.858383",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5f493245-4ecd-4605-8555-4e4ac6d316da",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "The submission is a PASS with a high grade. It successfully passed all priority checks. Factual Integrity: All key information, including names, numbers, and dates, was preserved accurately. Meaning and Fidelity: The MeaningBERT (0.94) and BERTScore (0.93) are excellent, indicating that the core message and key terms were retained effectively. CEFR Compliance: The text was correctly classified as B1. The simplification strategy is a model of good practice. The decision to explain the complex term 'peer-reviewed' as 'checked by other scientists' is particularly effective for the target audience. Furthermore, complex sentences from the original were successfully broken down into shorter, clearer sentences, which greatly improves readability. Vocabulary choices such as replacing 'prestigious' with 'important' and 'extensively' with 'a lot' are appropriate and well-executed.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9312,
+          "meaningbert": 0.9389
+        }
+      }
+    }
+  ]
+}

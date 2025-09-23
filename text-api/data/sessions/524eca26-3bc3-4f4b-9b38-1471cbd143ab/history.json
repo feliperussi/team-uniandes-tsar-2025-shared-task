@@ -1,0 +1,413 @@
+{
+  "session_id": "524eca26-3bc3-4f4b-9b38-1471cbd143ab",
+  "created_at": "2025-09-01 17:20:28.544364",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:20:29.477405",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "78-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Civil engineering is designing and building things.  \nIt includes roads and bridges.  \nSome very big and costly projects built bridges.  \nBridges are very important links.  \nThey carry cars, trucks and trains.  \nThey cross water, mountain gaps or other roads.  \nBecause of this, they are a key part of civil engineering.  \nThey are watched closely, especially when they fall down.",
+      "timestamp": "2025-09-01 17:20:29.477573",
+      "metadata": {
+        "text_id": "8834cd6b-8903-4b39-a7da-04669c37911a",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:20:30.501835",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6697a63d-9bed-4878-bbc6-63521194cfcd",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6964 is substantially below the required 0.75 threshold. Your simplification has removed too much of the original message's substance.\n\n- Fidelity Failure: The BERTScore of 0.8874 is also below the 0.90 minimum. This indicates a significant loss of key lexical items from the source text.\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is a direct result of using vocabulary that is too advanced.\n- Vocabulary Violation: The word 'costly' is C1 level. The word 'closely' is B1 level. These are not permitted at the A2 level.\n\nSuggestion: Replace 'costly' with 'expensive'. Replace 'watched closely' with 'people watch them very carefully'. The entire text must be rewritten to better preserve the original meaning to meet the metric requirements.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8874,
+          "meaningbert": 0.6964
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:20:38.899872",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Civil engineering means designing and building things.  \nIt includes roads and bridges.  \nSome very big and expensive projects built bridges.  \nBridges are very important links.  \nThey carry cars, trucks and trains.  \nThey cross water, mountain gaps or other roads.  \nBecause of this, they are a key part of civil engineering.  \nPeople watch them a lot, especially when they fall down.",
+      "timestamp": "2025-09-01 17:20:38.900064",
+      "metadata": {
+        "text_id": "0eddb434-49a0-4142-a20e-ce0eb4dd1ff4",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:21:08.748008",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e530af04-e176-4202-8471-8c220708b57d",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as B1, which is an immediate failure. This is a direct result of using vocabulary above the A2 level. The text also fails on meaning preservation metrics.\n\n- CEFR Classification Failure: The classifier rated the text B1. The first sentence, 'Civil engineering means designing and building things,' uses the words 'civil' (B2), 'engineering' (B1), and 'means' (B2). These words are too advanced for the A2 level.\n- Meaning Preservation Failure: The MeaningBERT score of 0.7468 is below the required 0.75 threshold. The original's concept of 'intense scrutiny' is not adequately captured by 'People watch them a lot'.\n- Fidelity Failure: The BERTScore of 0.8855 is below the 0.90 minimum. Key lexical items from the original text were lost during simplification.\n- Keyword Misuse: The term 'civil engineering' was provided as a keyword to be defined, not to be used directly in the simplified text. This is a fundamental error.\n\nSuggestion: Remove the first sentence entirely. Do not use the words 'civil', 'engineering', or 'means'. Start by describing the action. Rephrase to better capture the meaning of 'intense scrutiny'. For example: 'People check bridges very carefully, especially when they fall down.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8855,
+          "meaningbert": 0.7468
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:21:19.499921",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Very big and expensive projects build bridges.  \nBridges are important links.  \nThey carry cars, trucks and trains.  \nThey cross water, mountain gaps or other roads.  \nPeople look at bridges a lot.  \nPeople look at them especially when they fall down.",
+      "timestamp": "2025-09-01 17:21:19.500310",
+      "metadata": {
+        "text_id": "a61b01cb-fd0d-4a9b-b2b5-cac663f31cc6",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:21:39.278621",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "fdd59b7b-7538-45c0-9686-1720bbdc801c",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8852 is below the required 0.90 threshold. This indicates a significant loss of key words and concepts from the original text.\n\n- The phrase 'are subject to intense scrutiny' was replaced with 'People look at bridges a lot'. This is a severe meaning change. The original refers to professional, careful examination, while your version implies casual public observation.\n- The key concept of 'civil engineering' was completely removed from the text. This is a factual omission and a primary reason for the low fidelity score.\n- The term 'transportation projects' was reduced to 'projects', losing important context.\n\nSuggestion: You must reintroduce the omitted concepts using A2 language. Rephrase to explain that experts check bridges very carefully. State that building bridges is an important part of civil engineering.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8852,
+          "meaningbert": 0.835
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:21:45.522919",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Very big and expensive transportation projects build bridges.  \nBridges are important links.  \nThey carry cars, trucks and trains.  \nThey cross water, mountain gaps or other roads.  \nBridges are a key part of civil engineering.  \nCivil engineering is the work of building roads and bridges.  \nEngineers check bridges very carefully.  \nThey check bridges especially when they fall down.",
+      "timestamp": "2025-09-01 17:21:45.523262",
+      "metadata": {
+        "text_id": "195d83a6-a647-4907-bd42-11766d3578d3",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:22:14.904695",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "eb863833-ec28-4060-9b7b-9c10314d00cf",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8842 is below the required 0.90 threshold. This is a non-negotiable failure.\n\n- Primary Deviation: The score indicates a significant loss of key words and phrasing from the original text. The replacement of 'subject to intense scrutiny' with 'Engineers check bridges very carefully' is the main cause. While the meaning is preserved, the lexical fidelity is too low for a passing grade.\n- Secondary Observation: The text successfully meets the A2 classification according to the CEFR classifier, and the vocabulary and sentence structure are otherwise compliant with the A2 standard.\n- Suggestion: Revise the text to retain more of the original's key words while simplifying. The concept of 'intense scrutiny' must be rephrased to be lexically closer to the source. A phrase like 'get very careful checks' would improve fidelity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8842,
+          "meaningbert": 0.792
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:22:20.317100",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Very big and expensive transport projects build bridges.  \nBridges are important links.  \nThey carry cars, trucks and trains.  \nThey cross water, mountain gaps or other roads.  \nBridges are a key part of civil engineering.  \nCivil engineering is the work of building roads and bridges.  \nBridges get very careful checks, especially when they fall down.",
+      "timestamp": "2025-09-01 17:22:20.317529",
+      "metadata": {
+        "text_id": "78e27fff-0812-4edf-a0a9-92b4ca0da7c3",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:22:45.200739",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2ef1afaa-453d-432a-ae9c-74acc9f1f428",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8894 is below the required 0.90. This indicates an unacceptable loss of key words and phrasing from the original text.\n\n- CEFR Compliance Failure: The text was classified as B1. The target is A2. This is an automatic failure. The cause is the use of the B1/B2 term 'civil engineering'.\n- Vocabulary Violation: You used the term 'civil engineering'. 'Engineering' is B1 and 'civil' is B2. Defining a complex term does not make its use A2-compliant. The term itself must be removed and the concept explained in simple words.\n- Lexical Loss: The low BERTScore is a direct result of replacing specific original phrases with overly simple ones. 'intense scrutiny' was replaced by 'very careful checks' and 'collapse' was replaced by 'fall down'. This simplification was too aggressive and damaged the text's fidelity to the source.\n- Suggestion: Remove the term 'civil engineering'. Rephrase the sentence to describe the concept without naming it. Example: 'The work of building roads and bridges is very important.'\n- Suggestion: Restore fidelity. Rephrase 'fall down' to something more precise like 'break and fall down' to better reflect the meaning of 'collapse'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8894,
+          "meaningbert": 0.8225
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:22:50.964893",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Very big and expensive transport projects build bridges.  \nBridges are important links.  \nThey carry cars, trucks and trains.  \nThey cross water, mountain gaps or other roads.  \nThe work of building roads and bridges is very important.  \nBridges get very careful checks, especially when they break and fall down.",
+      "timestamp": "2025-09-01 17:22:50.965516",
+      "metadata": {
+        "text_id": "09af7d8f-9cd4-46fe-b148-d7f4dae55ad0",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:23:13.697358",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f2e43051-b8a3-45cf-8437-eb54deeb8277",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8908 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\n- Fidelity Failure: The score dropped because key terms were replaced with phrases that, while simple, were not lexically close to the original. For example, 'intense scrutiny' became 'very careful checks' and 'collapse' became 'break and fall down'. This loss of fidelity is unacceptable.\n\n- CEFR Compliance Failure: The text was classified as B1, which is an instant failure. The A2 standard was not met.\n\n- Structural Error: The sentence 'Bridges get very careful checks, especially when they break and fall down' is the cause of the B1 classification. The use of 'especially' to add emphasis to a subordinate 'when' clause is a structure that exceeds the A2 level.\n\n- Suggestion: Simplify the final sentence immediately. Split it into two simple ideas. For example: 'Bridges get very careful checks. This is very important when they break.'\n\n- Suggestion: To meet the fidelity requirement, use simpler, direct synonyms that are closer to the original words. Do not replace single words with multi-word descriptive phrases.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8908,
+          "meaningbert": 0.7976
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:23:22.729508",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Very big and expensive transport projects build bridges.  \nBridges are important links.  \nThey carry cars, trucks and trains.  \nThey cross water, mountain gaps or other roads.  \nBridges are part of civil engineering.  \nBridges get very careful checks.  \nThis is especially important when they collapse.",
+      "timestamp": "2025-09-01 17:23:22.730051",
+      "metadata": {
+        "text_id": "2e22223f-d10f-4c2f-93b2-238e59e06615",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:23:51.406177",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "bfd289d9-a5de-4eed-b6b4-109064cf40f3",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8897 is below the required 0.90 threshold. This indicates an unacceptable loss of key words and phrasing from the original text.\n\n- CEFR Compliance Failure: The text was classified as B1, not A2. This is an instant failure. The goal is A2, not a higher level.\n- Vocabulary Violation: The text uses the B2 word 'collapse'. This word is too advanced for the A2 level. The phrase 'civil engineering' also contains B1 and B2 level vocabulary, which incorrectly elevates the text's difficulty.\n- Lexical Simplification Error: Key concepts were over-simplified, causing the fidelity score to drop. 'Subject to intense scrutiny' was reduced to 'get very careful checks', which loses significant meaning. 'Crucial links' was reduced to 'important links'.\n\nSuggestion: Replace the word 'collapse' with an A2 phrase like 'when they break and fall down'. Replace 'civil engineering' with a simple description like 'the work of building roads and bridges'. You must adhere strictly to the A2 vocabulary list.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8897,
+          "meaningbert": 0.8409
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:24:02.138494",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Very big and expensive transport projects build bridges.  \nBridges are very important links.  \nThey carry cars, trucks and trains.  \nThey cross water, mountain gaps or other roads.  \nBridges belong to the work of building roads and bridges.  \nThey are checked very carefully.  \nThis is especially important when they break and fall down.",
+      "timestamp": "2025-09-01 17:24:02.138863",
+      "metadata": {
+        "text_id": "e0069961-235f-4d0f-b86e-2403aa7f2dbc",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:24:22.964953",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "88d0d63f-3f62-48d0-bc31-991e15c6bcaf",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.886 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\n- Primary Deviation: The BERTScore is too low. This failure is a direct result of replacing key B1/B2 concepts with overly simplistic A2 phrases instead of defining them.\n- Lexical Error: The term 'civil engineering' was completely removed and replaced with 'the work of building roads and bridges'. This substitution is too drastic and causes a loss of fidelity.\n- Lexical Error: The phrase 'intense scrutiny' was replaced with 'checked very carefully'. While the meaning is similar, the lexical distance is too great, contributing to the low score.\n- Lexical Error: 'collapse' was replaced with 'break and fall down'. This is an acceptable A2 simplification on its own, but combined with the other changes, it further degrades the fidelity score.\n\nSuggestion: Do not completely remove key terminology. Retain the term 'civil engineering' and provide a simple A2 definition. Example: 'Bridges are an important part of civil engineering. Civil engineering is the work of building things like roads and bridges.' This method preserves lexical fidelity while ensuring A2 compliance.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.886,
+          "meaningbert": 0.7667
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:24:29.219390",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Very big and expensive transport projects build bridges.  \nBridges are very important links.  \nThey carry cars, trucks and trains.  \nThey cross water, mountain gaps or other roads.  \nBridges are an important part of civil engineering.  \nCivil engineering is the work of building things.  \nIt includes roads and bridges.  \nBridges are checked with intense scrutiny.  \nThis is especially important when they collapse.",
+      "timestamp": "2025-09-01 17:24:29.219924",
+      "metadata": {
+        "text_id": "b37f04f4-f38d-42c2-b246-80590ab7c3e9",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:25:02.857460",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f59a1ab2-67cd-4083-bd84-632d6d603677",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text states 'Some of the biggest... projects... have involved building bridges'. Your version, 'Very big and expensive transport projects build bridges', is a generalization that changes the meaning by removing the qualifier 'some'. This is an immediate failure.\n\nFurther violations were detected:\n\nFidelity Failure: The BERTScore of 0.8848 is below the required 0.90 threshold. This confirms a significant loss of key words and phrasing from the original text.\n\nCEFR Compliance Failure: The text was classified as B1. The target is A2. This is a direct result of severe vocabulary violations.\n\nVocabulary Violation: You failed to replace multiple words rated above the A2 level. The words 'civil' (B2), 'engineering' (B1), 'intense' (B1), 'scrutiny' (C1), and 'collapse' (B2) were used directly from the original. This is a critical error.\n\nSuggestion: Correct the factual error in the first sentence. Replace all words rated B1 or higher with A2 equivalents or simple definitions. 'Intense scrutiny' must be rephrased to 'checked very carefully'. 'Collapse' must be replaced with a phrase like 'fall down'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8848,
+          "meaningbert": 0.8207
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:25:12.429514",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some of the biggest and most expensive transport projects involve building bridges.  \nBridges are very important paths.  \nThey carry cars, trucks and trains.  \nThey cross water, mountain gaps or other roads.  \nBridges are an important part of building work.  \nBuilding work means making things like roads and bridges.  \nBridges are checked a lot.  \nThis is especially important when they fall down.",
+      "timestamp": "2025-09-01 17:25:12.430089",
+      "metadata": {
+        "text_id": "52d40094-aa6b-419b-bb6f-844a07e8e291",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:25:44.266003",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4caf4e02-2545-4b6d-bb91-cac1ab30875c",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8869 is below the required 0.90 threshold. This indicates an unacceptable loss of lexical detail from the original text. The simplification process has removed too much of the source vocabulary.\n\n- Vocabulary Violation: The text uses the B2-level words 'means' and 'making' in the sentence 'Building work means making things like roads and bridges.' These words are not compliant with the A2 standard.\n\n- Keyword Definition Failure: The definition provided for 'civil engineering' uses the non-compliant B2 words 'means' and 'making'. All definitions must use A1 or A2 vocabulary only.\n\n- Lexical Loss: Key concepts were over-simplified, contributing to the low BERTScore. 'Crucial links' became 'important paths', 'intense scrutiny' became 'checked a lot', and 'collapse' became 'fall down'. This level of simplification damages fidelity to the source.\n\nSuggestion: Restore more precise A2-level vocabulary to meet the BERTScore requirement. Replace 'checked a lot' with a phrase like 'are watched very carefully'. Remove the B2 words 'means' and 'making'. Redefine 'civil engineering' using only A1/A2 words. For example: 'Civil engineering is the work of building big things like roads and bridges.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8869,
+          "meaningbert": 0.8729
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:25:53.797576",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some of the biggest and most expensive transport projects involve building bridges.  \nBridges are very important paths.  \nThey carry cars, trucks and trains.  \nThey cross water, mountain gaps or other roads.  \nBridges are an important part of civil engineering.  \nCivil engineering is the work of building things like roads and bridges.  \nBridges are watched very carefully.  \nThis is especially important when they fall down.",
+      "timestamp": "2025-09-01 17:25:53.798270",
+      "metadata": {
+        "text_id": "ef057494-15e3-4166-8fb1-9b67e2be3292",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:26:23.285364",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4d781280-30b3-4c51-bb98-e91e8b69f473",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8929 is below the required 0.90. This indicates a loss of key words and phrasing from the original text, failing the Priority 2 diagnostic.\n\n- The phrase 'in the world' was removed from the first sentence. This loses important information about the scale of the projects and reduces lexical overlap with the source.\n- The term 'crucial links' was replaced with 'very important paths'. While a valid simplification, it contributes to the lower fidelity score.\n- The term 'bodies of water' was simplified to 'water', and 'mountain gorges' to 'mountain gaps'. These simplifications, while good for A2 vocabulary, cumulatively lowered the score by removing too much of the original phrasing.\n- The original's 'intense scrutiny' was simplified to 'watched very carefully'. This is an acceptable A2 simplification but also contributes to the fidelity drop.\n\nSuggestion: To meet the 0.90 BERTScore threshold, you must retain more of the original's key nouns and specific details. Re-insert the phrase 'in the world'. Rephrase to retain concepts like 'links' and 'bodies of water' in a simple A2 context.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8929,
+          "meaningbert": 0.8168
+        }
+      }
+    }
+  ]
+}

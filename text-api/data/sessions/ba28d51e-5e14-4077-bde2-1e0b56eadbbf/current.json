@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "19d82211-8a5f-4f15-8915-2f08ea845da2",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Julie Wong is a top researcher. She studies robots and smart computers. She wrote more than 50 papers. She wrote them alone or with other people. Her papers are in very important science magazines. Other top scientists check them first. She often speaks at meetings in different countries. In 2012, she got a very special prize for science. It was the Simone Fielding fellowship. A famous group of scientists in Britain gave her the prize. Julie lives with her family. They live in a smart home. She made the plan for the house herself.",
+    "version": 16,
+    "created_at": "2025-08-31 21:26:40.303232",
+    "updated_at": "2025-08-31 21:26:40.303240",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "11c71868-08fc-4abe-b65a-69ada9a91532",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation Failure. The primary failure is a critical loss of meaning and fidelity, confirmed by metrics. The MeaningBERT score of 0.6793 is significantly below the required 0.75 threshold. The BERTScore of 0.8984 is also below the 0.90 minimum.\n\n- MeaningBERT Failure: The original text emphasizes the high status and prestige of the subject's work ('leading researcher', 'highly regarded', 'prestigious'). Your version ('top researcher', 'very important') dilutes this core meaning of exceptional achievement, causing the low score.\n\n- BERTScore Failure: The score is low because key lexical items were oversimplified, losing factual precision. 'Robotics and AI' became 'robots and smart computers'. 'international conferences' became 'meetings in different countries'. 'Royal Academy' became 'A famous group of scientists'. This loss of specific terminology results in a fidelity failure.\n\n- Structural Compliance: While the sentence structure is appropriately simple for A2, this does not compensate for the failure to preserve the original text's core message.\n\nSuggestion: Re-evaluate the text. You must find A2-level words that better capture the original's emphasis on prestige and high achievement. Do not replace specific names like 'Royal Academy' with vague descriptions. Simplify the concept, not the proper noun.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8984,
+      "meaningbert": 0.6793
+    },
+    "created_at": "2025-08-31 21:27:14.179127"
+  },
+  "attempt_number": 16,
+  "best_attempt": {
+    "id": "a95ab244-71fd-4e77-965e-585c9e872bb6",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Julie Wong is a top researcher. She studies robots and smart computers. She wrote more than 50 papers. Her papers are in very good science journals. She wrote them alone or with other people. She often speaks at big meetings in different countries. In 2012, she won a special award. It was the Royal Academy Simone Fielding fellowship. Julie lives with her family. They live in a smart home. She made the plan for the house herself.",
+    "version": 4,
+    "created_at": "2025-08-31 21:16:06.930772",
+    "updated_at": "2025-08-31 21:16:06.930782",
+    "metrics_meaningbert": 0.8193,
+    "metrics_cefr_compliance": "A2"
+  }
+}

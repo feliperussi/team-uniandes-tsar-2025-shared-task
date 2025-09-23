@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "8148dbe8-6dc7-432a-83c9-117c2b0ff233",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Ed could not walk without technology.  \nHe had a radio.  \nHe had the radio to ask big forest people for food.  \nHe also asked them for permission to cross their land.  \nMany people met him.  \nThey guided him through the hardest ground.  \nWhile walking, Ed wrote a blog.  \nHe wrote about his daily experiences.  \nMany people heard about his trip.  \nHe told them it was bad that the big forest was hurt.  \nHe asked them to give money to charity groups.  \nThe charity groups help nature.  \nThe charity groups also help children.  \nThe groups are in Brazil and Peru.",
+    "version": 11,
+    "created_at": "2025-09-01 17:27:00.346825",
+    "updated_at": "2025-09-01 17:27:00.346827",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "8ed45591-e3f3-458e-9b43-bb4cf95cd7f1",
+    "approval": "FAIL",
+    "grade": 4,
+    "feedback": "FAIL: Fidelity Failure. The BERTScore of 0.8809 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text, even though the general meaning was preserved.\n\nDeviations from standard:\n- Lexical Fidelity Loss: Your simplification was too aggressive. Key concepts were rephrased with overly simple words, losing the precision and lexical detail of the original source.\n- Example 1: The original phrase 'most difficult terrain' was reduced to 'hardest ground'. This loses the specific and more accurate vocabulary.\n- Example 2: The concept 'protest about the destruction of the rainforest' was simplified to 'it was bad that the big forest was hurt'. This loses the key actions of 'protest' and 'destruction'.\n- Example 3: 'media interest in his trip' was replaced with 'Many people heard about his trip'. This simplification loses the specific concept of media involvement.\n\nCorrective action required:\n- Revise the text to increase lexical fidelity. You must stay closer to the original vocabulary where it is A2-appropriate.\n- Suggestion: Rephrase to restore key concepts. Instead of 'hardest ground', use 'the most difficult land'. Instead of 'the big forest was hurt', use 'people were destroying the big forest'. This restores fidelity while remaining within A2 constraints.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8809,
+      "meaningbert": 0.8248
+    },
+    "created_at": "2025-09-01 17:27:29.828987"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "1630e7dd-cfc3-4f8f-9f27-867f1926bc59",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Ed could not walk without technology.  \nHe had a radio.  \nHe used the radio to ask rainforest people for food.  \nHe also asked them for permission to cross their land.  \nMany people met him.  \nThey guided him through the hardest ground.  \nWhile walking, Ed wrote a blog.  \nHe wrote about his daily experiences.  \nMany people heard about his trip.  \nHe protested the destruction of the rainforest.  \nHe asked for money for charity groups.  \nThe charity groups help nature.  \nThe charity groups also help children.  \nThe groups are in Brazil and Peru.",
+    "version": 10,
+    "created_at": "2025-09-01 17:26:17.154583",
+    "updated_at": "2025-09-01 17:26:17.154587",
+    "metrics_meaningbert": 0.8457,
+    "metrics_cefr_compliance": "A2"
+  }
+}

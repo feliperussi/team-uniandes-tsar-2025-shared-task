@@ -1,0 +1,413 @@
+{
+  "session_id": "94048bd5-dca9-4d6a-9c4c-a2b7bc885c60",
+  "created_at": "2025-09-01 17:08:00.450104",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:08:00.491244",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "92-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck is a person who studies the mind. She talks about a 'growth mindset'. A growth mindset means you believe you can learn and get better. You think your brain can grow.\n\nShe says our brain can change. We can learn new skills and talents. Maybe we are not good at them at first. Many people often praise the final result. Or they praise natural talents. For example, they say, \"You are good at seeing small things.\" Or, \"You are good at planning parties.\"\n\nBut studies show something different. It is better to praise *how* people do things. Praise their hard work. Praise when they try new things. Praise how they fix problems. This helps people learn new skills. It helps them get better at things they already do.",
+      "timestamp": "2025-09-01 17:08:00.491383",
+      "metadata": {
+        "text_id": "7b565a13-99fa-46a2-b68c-fb694f06a6d3",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:08:04.732216",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d6ec0baa-c176-40a6-a417-56f19dbb1e67",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.68 is too low. The original text emphasizes the research-backed ability to 'encourage the development' and 'continued honing' of skills through process-focused praise. Your version weakens this core message by stating 'It is better to praise' and 'This helps people learn', which loses the direct causal strength and the specific concept of 'encouragement' and 'honing' as a result of the strategy. The specific role of Carol Dweck as a 'proponent' is also lost. \n\nFAIL: Fidelity Failure. The BERTScore of 0.89 is below the required 0.90. This indicates a significant loss of key lexical information. Specific terms like 'Psychologist', 'proponent', 'plasticity', 'seemingly innate talents', 'experimentation', 'problem-solving strategies', and 'honing' were replaced with overly simplified or less precise phrases, losing important detail and nuance from the original text. \n\nFAIL: CEFR Compliance. The classifier rated the text as B1, not A2. This is due to vocabulary choices that exceed the A2 level. \n\nSpecific Deviations: \n- Vocabulary: The word 'planning' in 'planning parties' is classified as B1. The word 'means' in 'A growth mindset means you believe...' is classified as B2. These words are above the A2 standard and contribute to the B1 classification. \n- Meaning Loss: The concept of 'proponent' for Carol Dweck is lost. The original's emphasis on 'encouraging the development' and 'continued honing' is diluted to 'helps people learn new skills' and 'helps them get better'. \n- Lexical Precision: Terms like 'plasticity of the brain' were simplified to 'brain can change' and 'brain can grow', losing the specific scientific term. 'Experimentation' was simplified to 'try new things', and 'problem-solving strategies' to 'fix problems', losing the more formal and precise A2-appropriate terms. \n\nSuggestion: Rephrase sentences to restore the strength of the causal link between praise and skill development. Replace B1/B2 vocabulary with approved A2 alternatives. Ensure all key concepts, even when simplified, retain their original impact and precision.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8901,
+          "meaningbert": 0.6824
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:08:26.061353",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck studies the mind. She really believes in a 'growth mindset'. A growth mindset is this: you believe you can learn and get better. You think your brain can change and grow. She says we can learn new skills and talents. Maybe we are not good at them at first.\n\nMany people often praise the final result. Or they praise talents people are born with. For example, they say, \"You are good at seeing small things.\" Or, \"You are good at organising parties.\"\n\nBut studies show a different way. We should praise *how* people do things. Praise their hard work. Praise when they try new things. Praise how they find ways to fix problems. This praise makes new skills grow. It makes talents stronger.",
+      "timestamp": "2025-09-01 17:08:26.062614",
+      "metadata": {
+        "text_id": "41ff2cab-e91e-4a67-bdbc-1d1cff2fd1d8",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:08:53.673290",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f316333c-0f25-4303-94df-e4c6d1e1c9d0",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The text failed to preserve the core meaning and lexical fidelity of the original. The MeaningBERT score of 0.6476 is significantly below the required 0.75, indicating a loss of the original's nuanced message. The BERTScore of 0.8896 is below the required 0.90, showing a significant loss of key vocabulary and phrasing. \n\nSpecific Deviations:\n- MeaningBERT Failure: The original text frames Carol Dweck's ideas within a research context, stating 'Psychologist and 'growth mindset' proponent Carol Dweck spoke of the plasticity of the brain...' and 'research suggests that by focusing on the process... we can encourage...'. Your version simplifies this to 'Carol Dweck studies the mind. She really believes in a 'growth mindset'.' and 'But studies show a different way.', which loses the academic and research-driven emphasis of the original. The concept of 'plasticity' is also simplified to 'brain can change and grow', which is less precise.\n- BERTScore Failure: Key terms from the original were not retained or were overly simplified, leading to a loss of lexical detail.\n  - 'Psychologist and 'growth mindset' proponent' was reduced to 'Carol Dweck studies the mind.', losing the specific professional title and the active role as a 'proponent'.\n  - 'plasticity of the brain' was simplified to 'brain can change and grow', losing the specific scientific term 'plasticity'.\n  - 'seemingly innate talents' was replaced with 'talents people are born with', losing the nuance of 'seemingly innate'.\n  - 'experimentation and problem-solving strategies' was simplified to 'try new things. Praise how they find ways to fix problems.', losing the specific terms 'experimentation' and 'strategies'.\n  - 'continued honing of talents' was simplified to 'makes talents stronger.', losing the more precise verb 'honing'.\n\nSuggestion: Restore the academic context and specific terminology. Ensure that the core message about research-backed encouragement of skill development is clear. Reintroduce key vocabulary like 'psychologist', 'plasticity', 'innate', 'experimentation', 'strategies', and 'honing' by defining them in A2-appropriate terms, rather than simply omitting or oversimplifying them.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8896,
+          "meaningbert": 0.6476
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:09:16.227601",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck is a psychologist. She studies how people think. She really supports the idea of a 'growth mindset'. A 'growth mindset' means you believe you can learn and get better. She says our brain can change and grow. This is called 'plasticity'. She says we can learn new skills and talents. Maybe we are not good at them at first.\n\nMany people often say good things about the final result. Or they say good things about talents. People think these talents are there from birth. For example, they say, \"You are good at seeing small things.\" Or, \"You are good at organising parties.\"\n\nBut studies show a different way. We should say good things about *how* people do things. Say good things about their hard work. Say good things when they try new things. This is 'experimentation'. Say good things about how they find ways to fix problems. These are 'strategies'. This praise makes new skills grow. It makes talents better and better. This is called 'honing'.",
+      "timestamp": "2025-09-01 17:09:16.228959",
+      "metadata": {
+        "text_id": "a9a79dd7-24c3-4ed8-a127-145e1536b945",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:09:47.407454",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "89f63ad3-3491-433f-8289-0e2ad66a4858",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The writer's output includes the statement 'She studies how people think.' This specific detail is not present in the original text and is an unsupported assertion, constituting a factual deviation from the source material. Detected Deviations: Factual Inaccuracy: The statement 'She studies how people think' is an addition not found in the original text. Meaning Preservation Failure: The MeaningBERT score of 0.6878 is below the required 0.75. The core message regarding the implications of brain plasticity for the importance of process-focused praise is diluted. Fidelity Failure: The BERTScore of 0.874 is below the required 0.90. Key terms and specific phrasing from the original, such as 'proponent', 'seemingly innate talents', 'have an eye for details', and 'honing of talents', were replaced with less precise or lexically different phrases, even if simplified. CEFR Compliance Failure: The CEFR classifier rated the text as B1, not A2. Vocabulary: The word 'psychologist' (B2) is used directly. The word 'means' (B2) is used directly. These words are above the A2 vocabulary standard. Conceptual Density: While definitions are provided for 'plasticity', 'experimentation', 'strategies', and 'honing', the overall conceptual load, even with simplification, pushes the text beyond a strict A2 level. Suggestion: Remove the unsupported statement about what Carol Dweck studies. Rephrase to ensure the core message about the why behind process praise is clearer. Replace all B2 vocabulary with A2 equivalents. For example, 'psychologist' could be 'a person who studies the mind'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.874,
+          "meaningbert": 0.6878
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:10:08.569084",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck is a person who studies the mind. She supports the idea of a 'growth mindset'. A 'growth mindset' is when you believe you can learn and get better. She says our brain can change and grow. This is called 'plasticity'. She says we can learn new skills and talents. Maybe we are not good at them at first.\n\nMany people often say good things about the final result. Or they say good things about talents. People think these talents are there from birth. For example, they say, \"You are good at seeing small things.\" Or, \"You are good at organising events.\"\n\nBut studies show a different way. We should say good things about *how* people do things. Say good things about their hard work. Say good things when they try new things. This is 'experimentation'. Say good things about how they find ways to fix problems. These are 'strategies'. This praise helps our brain to change. It helps new skills grow. It makes talents better and better. This is called 'honing'.",
+      "timestamp": "2025-09-01 17:10:08.569389",
+      "metadata": {
+        "text_id": "364ae8f2-3c19-4309-b2f3-f917549e18c4",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:10:43.356739",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "22ebeb5e-ed5d-4fc1-a82a-0087cf3bd8c7",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6781 is too low, falling below the required 0.75. The text also failed the Fidelity Check with a BERTScore of 0.8729, which is below the required 0.90. Additionally, the text failed CEFR compliance, as the classifier rated it B1, not A2. \n\nDetected Deviations:\n*   Meaning Preservation Failure: The original text's emphasis on 'encourage the development' and 'continued honing' through specific types of praise (effort, experimentation, problem-solving strategies) is diluted. The simplified version 'helps our brain to change. It helps new skills grow. It makes talents better and better' is too direct and loses the nuance of active encouragement and ongoing refinement. The concept of a 'proponent' is also simplified to 'supports the idea,' which is less precise.\n*   Fidelity Failure: The extensive rephrasing of key terms, while aiming for A2, significantly reduced lexical overlap with the original. For example, 'Psychologist' was replaced with 'person who studies the mind,' 'proponent' with 'supports the idea,' 'tend to focus our praise on' with 'often say good things about,' 'seemingly innate talents' with 'talents. People think these talents are there from birth,' and 'encourage the development' with 'helps new skills grow.' These changes, while simplifying, deviate too much from the original's specific phrasing, leading to the low BERTScore.\n*   CEFR Compliance Failure (B1 rating): Despite simplification efforts, the text still contains structures that push it beyond A2.\n    *   The use of 'when' clauses for definition, such as 'A 'growth mindset' is when you believe you can learn and get better,' is typically a B1 structure.\n    *   The use of 'how' clauses, such as 'Say good things about how people do things' and 'Say good things about how they find ways to fix problems,' is a B1 structure.\n    *   The phrase 'People think these talents are there from birth' is slightly more complex than typical A2 phrasing.\n\nCorrective Path:\n*   Suggestion: Rephrase the section on praise to more clearly convey the active 'encouragement' and 'continued honing' of skills and talents, perhaps using simpler verbs that still carry this meaning. For example, instead of 'helps new skills grow', consider 'helps new skills get stronger'.\n*   Suggestion: Review all instances where original vocabulary was replaced. While simplification is necessary, ensure the core lexical meaning is retained as much as possible to improve BERTScore. For example, 'Psychologist' could be 'a doctor for the mind'.\n*   Suggestion: Simplify sentence structures further. Avoid 'when' and 'how' clauses for definitions or explanations. Break down complex ideas into even shorter, more direct sentences. For example, instead of 'A 'growth mindset' is when you believe you can learn and get better,' try 'A 'growth mindset' means you believe you can learn. You believe you can get better.' Instead of 'Say good things about how people do things,' try 'Say good things about the way people do things.' or 'Say good things about the steps people take.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8729,
+          "meaningbert": 0.6781
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:11:06.727800",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck is a doctor for the mind. She believes in a 'growth mindset'. A 'growth mindset' means you believe you can learn. You believe you can get better. She says our brain can change and grow. This is called 'plasticity'. She says we can learn new skills and talents. Maybe we are not good at them at first.\n\nMany people praise the final result. They also praise talents. People think these talents are from birth. For example, they say, \"You are good at seeing small things.\" Or, \"You are good at organising events.\"\n\nBut studies show a different way. We should praise the way people do things. Praise their hard work. Praise them for trying new things. This is 'experimentation'. Praise them for finding ways to fix problems. These are 'strategies'. This praise helps people learn new skills. It helps them make their talents better. This is called 'honing'.",
+      "timestamp": "2025-09-01 17:11:06.728551",
+      "metadata": {
+        "text_id": "91b3410d-b3af-442a-9d63-faa3698b0d2a",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:11:39.070704",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5d0d439d-6a92-4a70-b5a6-1ea4a71eb53e",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8824 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original text, even if the meaning was preserved. Additionally, the text failed CEFR Compliance, as the classifier rated it B1, not the required A2. This means the text is too complex for the A2 standard. Deviations are detailed below. Deviation 1: BERTScore Failure. The text replaced too many specific terms and phrases from the original, leading to a low BERTScore. For example, 'Psychologist and 'growth mindset' proponent' was replaced with 'Carol Dweck is a doctor for the mind. She believes in a 'growth mindset'.' While semantically similar, the lexical overlap is insufficient. Similarly, 'seemingly innate talents' was replaced with 'talents are from birth', and 'problem-solving strategies' was broken down into 'finding ways to fix problems. These are 'strategies'.' These replacements, while simplifying, do not maintain the lexical fidelity required. Deviation 2: CEFR Compliance Failure. The text was classified as B1, not A2. This is due to the continued presence of higher-level vocabulary, even when defined. Words like 'plasticity', 'experimentation', 'strategies', and 'honing' are B2/C1 level. While defining them is an A2 strategy, their mere presence, combined with the overall conceptual density, pushed the text into B1. Deviation 3: Vocabulary Audit. The provided 'Vocabulary Candidates for Replacement' list flags 'means' and 'finding' as B2 words. The text uses 'A 'growth mindset' means you believe you can learn' and 'Praise them for finding ways to fix problems'. These usages contribute to the B1 classification. Suggestion: To improve BERTScore, attempt to retain more original keywords where possible, or use very close A2 synonyms rather than breaking down phrases extensively. To achieve A2 CEFR compliance, rigorously replace all B1/B2 vocabulary with simpler A1/A2 equivalents, even if it means rephrasing concepts entirely. Avoid relying on defining higher-level words; instead, replace them. Rephrase sentences to avoid words like 'means' and 'finding' if they are flagged as above A2.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8824,
+          "meaningbert": 0.8347
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:12:00.651327",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck is a psychologist. She believes in a 'growth mindset'. With a 'growth mindset', you believe you can learn. You believe you can get better. She says our brain can change and grow. She says we can learn new skills and talents. Maybe we are not good at them at first.\n\nMany people praise the final result. They also praise talents. People think these are natural talents. For example, they say, \"You are good at seeing small things.\" Or, \"You are good at organising events.\"\n\nBut studies show a different way. We should praise the way people do things. Praise their hard work. Praise them for trying new things. Praise them for their ways to solve problems. This praise helps people learn new skills. It helps them make their talents better.",
+      "timestamp": "2025-09-01 17:12:00.651804",
+      "metadata": {
+        "text_id": "5c151861-4c89-436d-a92a-c784bfc6ae5a",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:12:38.427631",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "48d5fb46-04ce-4463-acbd-678c59e83f03",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8905 is below the required 0.90. This indicates a significant loss of key words and specific phrasing from the original text. For example, 'plasticity of the brain' was simplified to 'brain can change and grow', losing the specific term 'plasticity'. The word 'proponent' was entirely omitted. 'Seemingly innate talents' was simplified to 'natural talents', losing the nuance of 'seemingly'. 'Experimentation' was replaced with 'trying new things', and 'problem-solving strategies' with 'ways to solve problems'. These lexical changes, while simplifying, reduce the fidelity to the original text's specific language. Additionally, the text failed the CEFR Compliance Check, being classified as B1 instead of the required A2. This is due to vocabulary such as 'psychologist' (a B2 candidate) and 'growth' (a B1 candidate within 'growth mindset'), and the sustained presentation of a somewhat abstract concept like 'praising the process versus the result', which pushes the conceptual load beyond a typical A2 level. Suggestion: To meet the BERTScore requirement, retain more specific original vocabulary where possible, or ensure A2 replacements are lexically closer. To achieve A2 CEFR compliance, simplify vocabulary further, for example, replacing 'psychologist' with 'person who studies the mind', and break down complex ideas into even smaller, more concrete steps.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8905,
+          "meaningbert": 0.7611
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:13:00.017944",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck is a person who studies the mind. She talks about a 'growth mindset'. With a 'growth mindset', you believe you can learn. You believe you can get better. She says our brain can change a lot. She says we can learn new skills and talents. Maybe we are not good at them at first.\n\nMany people praise the final result. They also praise talents. People think these talents are natural. But maybe they are not. For example, they say, \"You are good at seeing small things.\" Or, \"You are good at organising events.\"\n\nBut studies show a different way. We should praise the way people do things. Praise their hard work. Praise them for trying new things. Praise them for their ways to solve problems. This praise helps people learn new skills. It helps them make their talents better.",
+      "timestamp": "2025-09-01 17:13:00.018475",
+      "metadata": {
+        "text_id": "e16d820f-7e51-4d00-9880-2184d8eac8d7",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:13:25.237599",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "39a4c7b1-ab07-4a7e-9574-32a56d4183fd",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8862 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original text. While simplification is necessary for A2, the lexical choices made resulted in insufficient overlap with the source material. For example, 'psychologist' was replaced with 'person who studies the mind', 'plasticity' with 'can change a lot', 'proponent' was omitted, 'innate talents' was rephrased as 'talents. People think these talents are natural', 'experimentation' became 'trying new things', and 'honing' was simplified to 'make better'. These lexical deviations collectively caused the BERTScore to fall below the required threshold. \n\nAdditionally, the CEFR classifier rated the output as B1, not A2. This is a further deviation from the A2 standard. Specific B1 structures include the use of a relative clause in 'Carol Dweck is a person who studies the mind' and 'We should praise the way people do things'. A2 texts typically rely on simpler, more direct sentence structures without such embedded clauses. \n\nSuggestion: To improve the BERTScore, you must retain more of the original's specific vocabulary where possible, even if defined simply. For example, 'psychologist' could be retained and defined in simple terms. To achieve A2 classification, simplify sentences further. Avoid relative clauses like 'who studies the mind' or 'the way people do things'. Break these into two simpler, independent sentences.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8862,
+          "meaningbert": 0.815
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:13:46.682281",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck is a psychologist. She studies the mind. She talks about a 'growth mindset'. This means you believe you can learn. You believe you can get better. She says our brain has plasticity. This means our brain can change. We can learn new skills and talents. Maybe we are not good at them at first.\n\nMany people praise the final result. They also praise innate talents. This means talents you are born with. People think these talents are natural. For example, they say, 'You are good at seeing small things.' Or, 'You are good at organising events.'\n\nBut studies show a different way. We should praise the process. This is how people do things. Praise their hard work. Praise experimentation. This means trying new things. Praise their ways to solve problems. This praise helps people learn new skills. It helps them hone their talents. This means making them better.",
+      "timestamp": "2025-09-01 17:13:46.684032",
+      "metadata": {
+        "text_id": "447014d3-3a41-44bf-a79b-84d44d141709",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:14:20.187881",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "277ed66f-bde4-4577-af5f-68db0cb5db9c",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8862 is below the required 0.90. This indicates a significant loss of specific lexical detail from the original text, even if the general meaning is preserved. Your output deviates from the A2 standard in several critical areas: Deviations: 1. BERTScore Failure: The BERTScore of 0.8862 is too low. For example, the original text's specific term 'proponent' was omitted, and the idiomatic expression 'have an eye for details' was simplified to 'good at seeing small things'. While the meaning is conveyed, the lexical precision and fidelity to the original phrasing are lost. 2. Vocabulary Exceeds A2 Level: The text uses multiple words that are above the A2 CEFR standard. 'Psychologist' (B2), 'means' (B2), 'making' (B2), and 'growth' (B1, in 'growth mindset') are all present. A2 texts must strictly adhere to A2 vocabulary. Suggestion: Rephrase sentences to incorporate more of the original's specific vocabulary where appropriate, ensuring the BERTScore meets the 0.90 threshold. Replace all B1 and B2 vocabulary with simpler A2 equivalents. For instance, instead of 'psychologist', describe the role in A2 terms. Avoid using 'means' repeatedly for definitions; use simpler sentence structures or rephrase.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8862,
+          "meaningbert": 0.8312
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:14:39.911774",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck is a person who studies the mind. She teaches about a 'growth mindset'. A 'growth mindset' is when you believe you can learn. You believe you can get better. She says our brain has plasticity. Our brain can change. We can learn new skills. We can learn new talents. Maybe we are not good at them at first.\n\nMany people praise the final result. They also praise innate talents. Innate talents are talents you are born with. People think these talents are natural. For example, they say, 'You are good at seeing details.' Or, 'You are good at organising events.'\n\nBut studies show a different way. We should praise the process. This is how people do things. Praise their hard work. Praise experimentation. Experimentation is trying new things. Praise their ways to solve problems. This praise helps people learn new skills. It helps them hone their talents. To hone talents is to make them better.",
+      "timestamp": "2025-09-01 17:14:39.912300",
+      "metadata": {
+        "text_id": "851f2bca-b704-4324-8e41-78e4653865ce",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:15:16.569035",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2e4cb3dc-5ee0-4122-b582-7d8843f82dd5",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8816 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original text, even with successful simplification of meaning. For example, phrases like 'psychologist and proponent', 'tend to focus', 'seemingly innate', 'research suggests', 'problem-solving strategies', and 'continued honing' were either removed or replaced with less specific A2 vocabulary, leading to a lexical deviation that exceeds the acceptable threshold for fidelity.\n\nFAIL: CEFR Compliance. The classifier rated the text as B2, not A2. This is due to the presence of several words above the A2 level, even though definitions were provided. The word 'growth' in 'growth mindset' is B1. The word 'plasticity' is B2/C1. The word 'innate' in 'innate talents' is B2/C1. The word 'experimentation' is B1. The word 'hone' in 'hone talents' is B2/C1. While defining these terms is a good strategy for B1, for a strict A2 text, these words should ideally be replaced with simpler A2 synonyms or rephrased entirely to avoid their use. The presence of these higher-level words elevates the text beyond the A2 standard.\n\nSuggestion: To improve the BERTScore, retain more of the original's specific terminology where possible, or find A2 synonyms that are lexically closer. For CEFR compliance, replace all B1/B2/C1 vocabulary with strictly A2 words. For example, instead of 'plasticity', use only 'Our brain can change'. Instead of 'innate talents', use 'talents you are born with' without using the word 'innate'. Replace 'experimentation' with 'trying new things' and 'hone' with 'make better' consistently.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.8816,
+          "meaningbert": 0.8168
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:15:31.760144",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck is a person who studies the mind. She teaches about a 'growth mindset'. A 'growth mindset' is when you believe you can learn. You believe you can get better. She says our brain can change. We can learn new skills. We can learn new talents. Maybe we are not good at them at first.\n\nMany people praise the final result. They also praise talents you are born with. People think these talents are natural. For example, they say, 'You are good at seeing details.' Or, 'You are good at organising events.'\n\nBut studies show a different way. We should praise the process. This is how people do things. Praise their hard work. Praise trying new things. Praise their ways to solve problems. This praise helps people learn new skills. It helps them make their talents better.",
+      "timestamp": "2025-09-01 17:15:31.760672",
+      "metadata": {
+        "text_id": "ef004331-1b3c-4a28-8c0b-4c2434927dfd",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:15:59.427939",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "99706919-4b40-4210-b9e1-25973c65ca6a",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The MeaningBERT score of 0.6814 is below the required 0.75. The core message regarding the depth of brain plasticity and the continuous 'honing' of talents is significantly diluted by oversimplification. The nuance of terms like 'proponent' and 'seemingly innate' is lost. The BERTScore of 0.8875 is below the required 0.90. This indicates a significant loss of key lexical detail. Original terms such as 'psychologist', 'plasticity', 'seemingly innate talents', 'experimentation', and 'problem-solving strategies' were replaced with less precise or overly simplified phrases, reducing the fidelity to the original text's specific language. Suggestion: Reintroduce more specific A2-level vocabulary to better capture the original text's detail without exceeding the A2 standard. Suggestion: Ensure the simplification of concepts like 'plasticity' and 'honing' retains the full implication of continuous development and improvement. Suggestion: Review the replacement of specific terms to ensure greater lexical overlap and fidelity to the original phrasing.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8875,
+          "meaningbert": 0.6814
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:16:11.430657",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck is a psychologist. She talks about a 'growth mindset'. A 'growth mindset' means you believe you can learn. You believe you can get better. She says our brain can change and grow. We can learn new skills and talents. Maybe we are not good at them at first.\n\nMany people praise the final result. They also praise talents that seem natural. For example, they say, 'You are good at seeing details.' Or, 'You are good at organising events.'\n\nBut studies show a different way. We should praise the process. This is how people do things. Praise their hard work. Praise trying new things. Praise their ways to solve problems. This helps people learn new skills. It helps them make their talents better and better.",
+      "timestamp": "2025-09-01 17:16:11.431725",
+      "metadata": {
+        "text_id": "7f4a1c6a-3898-4a19-8250-5df476050f03",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:16:31.412197",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4aee5428-17fe-4aa8-836b-3b40a1b14886",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.894 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original text. While the meaning is largely preserved, the lexical fidelity is not sufficient for a pass. Specific examples of lost or significantly altered phrasing include: 'proponent' was removed. 'plasticity of the brain' was simplified to 'brain can change and grow', losing the specific scientific term. 'tend to focus our praise' was simplified to 'praise'. 'research suggests' was simplified to 'studies show a different way'. 'encourage the development' was simplified to 'helps people learn'. 'continued honing of talents' was simplified to 'make their talents better and better'. These cumulative changes, while aiming for simplicity, resulted in a BERTScore below the required threshold. Suggestion: Retain more of the original's specific vocabulary where possible, even if it requires a brief A2-level explanation, to improve lexical overlap without increasing complexity. For example, 'plasticity' could be explained as 'the brain's ability to change easily'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.894,
+          "meaningbert": 0.8491
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "session_id": "4608e092-6f5b-404c-a176-11bd9983121a",
+  "created_at": "2025-09-01 17:53:32.106047",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:53:34.027530",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "08-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Dreams about getting a phone call from an old friend, or about the death of someone close, are usually caused by chance rather than by a prediction. Although we often forget the many times we have dreamed about such events, they never actually happen.",
+      "timestamp": "2025-09-01 17:53:34.027646",
+      "metadata": {
+        "text_id": "6ff94a3d-88ce-4443-8d15-7a427f0a1862",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:53:34.998542",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ed85857d-f210-4c30-b086-b4e111008fd0",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Integrity. The output introduces a significant factual error that alters the core meaning of the original text. The original states '...we probably choose to forget all the times we dream about such events but they don't happen,' which is a statement about probability and memory bias. The output incorrectly changes this to '...they never actually happen.' This transforms a nuanced point about frequency into an incorrect absolute statement, which is a critical failure in preserving the original's factual basis.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9322,
+          "meaningbert": 0.8844
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:53:42.101496",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Dreams about getting a phone call from an old friend, or about the death of someone close, are usually caused by chance rather than by a prediction. Although we often forget the many times we have dreamed about such events, they usually don\u2019t happen.",
+      "timestamp": "2025-09-01 17:53:42.101774",
+      "metadata": {
+        "text_id": "7fd8a755-276b-46a7-a087-8f2802d7331d",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 17:54:02.010389",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "53b0ec62-28d2-4d62-a44d-ed142de9f63c",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "This is an excellent simplification that successfully passes all diagnostic checks. Factual integrity is perfectly maintained. The MeaningBERT (0.89) and BERTScore (0.93) are well above the required thresholds, confirming that the core message and key details were preserved. The output correctly achieved the target B1 classification. The vocabulary strategy was exemplary; replacing 'coincidence' with 'chance' and 'prophecy' with 'prediction' are ideal simplifications for the B1 level. The sentence structure is also strong, effectively using 'Although' to create a complex sentence that is appropriate for the target audience.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9353,
+          "meaningbert": 0.891
+        }
+      }
+    }
+  ]
+}

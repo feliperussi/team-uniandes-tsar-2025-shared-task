@@ -1,0 +1,102 @@
+{
+  "session_id": "6ce43170-fae0-4cc1-9a12-e151c08aba83",
+  "created_at": "2025-08-31 17:57:22.189724",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-08-31 17:57:22.217941",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "02-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Although earthquakes damage all structures including bridges, this kind of collapse is not very common, especially with modern ones. Engineers have learned how to design bridges in earthquake zones on ground that is more resistant to movement.",
+      "timestamp": "2025-08-31 17:57:22.218056",
+      "metadata": {
+        "text_id": "3bed642d-4e95-44fd-b699-9c95bae06bac",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 17:57:22.224089",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ac4cb924-8e55-457b-b319-4b198c2abb73",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text fails because it was classified as B2, not the target B1 level. The primary reason for this higher classification is the sentence structure. The use of 'Although' to begin the first sentence creates a complex sentence with a subordinate clause, which is a grammatical structure more typical of the B2 level. Additionally, the B2-level vocabulary word 'collapse' was retained from the original text. Suggestion: To meet the B1 target, restructure the first sentence. For example: 'Earthquakes damage all structures, including bridges. However, this kind of collapse is not very common, especially with modern ones.' This uses a simpler structure and a common B1 connector."
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-08-31 17:57:35.179080",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes damage all structures, including bridges. However, this kind of falling down is not very common, especially with modern ones. Engineers have learned how to design bridges in earthquake zones on ground that is more resistant to movement.",
+      "timestamp": "2025-08-31 17:57:35.179277",
+      "metadata": {
+        "text_id": "1e6d0262-c256-4881-b21a-a1bd4b3e701f",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 17:58:04.047167",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6ea94c12-6264-4c32-8f82-4076e3f0cea3",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text passes the Factual Integrity and Meaning Preservation checks with a high MeaningBERT score of 0.87. However, it fails on the third priority check. The output was classified by the metrics as 'A2', which is below the required B1 target level, indicating an over-simplification. The linguistic evidence for this is the replacement of B1/B2 level vocabulary ('collapse', 'infrequent') with simpler A1/A2 phrases ('falling down', 'not very common'). While the resulting text is clear, it lacks the lexical complexity expected for a B1 learner. Suggestion: To meet the B1 target, retain some of the more precise original vocabulary. For example, the word 'collapse' is a key term that a B1 learner would understand in this context. Keeping it would have maintained the text at the appropriate CEFR level."
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-08-31 17:58:15.715352",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes damage all structures, including bridges. However, this kind of collapse is infrequent, especially with modern ones. Engineers have learned how to design bridges in earthquake zones on ground that is more resistant to movement.",
+      "timestamp": "2025-08-31 17:58:15.716460",
+      "metadata": {
+        "text_id": "e14a114d-2ab6-4edd-bb14-0382ff012d3e",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 17:58:54.476976",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ee230191-75aa-4428-af0f-f388a5e9952f",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "The provided JSON is an excellent example of the required format. The feedback is direct, blunt, and concise. It clearly states the reason for failure ('FAIL: CEFR Compliance'), cites the specific sentence causing the issue ('Engineers have learned...'), explains the grammatical problem ('uses a subordinate clause'), and provides a constructive suggestion for correction. This is a perfect model of the desired output."
+      }
+    }
+  ]
+}

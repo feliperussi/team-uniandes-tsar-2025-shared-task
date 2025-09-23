@@ -1,0 +1,191 @@
+{
+  "session_id": "5dd1a668-e7ed-4592-8c5b-7d001a9ec311",
+  "created_at": "2025-09-01 16:57:17.193596",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 16:57:17.202270",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "34-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Graffiti is writing or drawing on walls or other places. Vandalism is when you damage things that are not yours. It is a bad thing to do.\n\nIs graffiti art? Or is it vandalism? People have different ideas about this. But in many countries, it is vandalism. This is when people write or paint on public things. Or on private things.\n\nPolice stop many street artists. Some artists must pay money. City councils are unhappy. Cleaning graffiti costs a lot of money. They clean buildings. They clean buses and trains.",
+      "timestamp": "2025-09-01 16:57:17.202652",
+      "metadata": {
+        "text_id": "a4569685-5fdc-4daf-99e3-f093435f0c36",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 16:57:17.209358",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ae75b25a-e7eb-4bd9-a2fe-96c0d76b7ed8",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8991 is below the required 0.90. This indicates a slight but critical loss of key words and factual phrasing from the original text. While the meaning is largely preserved, the lexical choices and additions deviate too much from the original wording to meet the strict fidelity requirement. Specific deviations include: 1. The phrase 'depends on your point of view' was replaced with 'People have different ideas about this', which is a lexical shift. 2. The specific term 'fines' was replaced with the more general 'money', reducing lexical precision. 3. The phrase 'complain about the high cost' was replaced with 'are unhappy. Cleaning graffiti costs a lot of money', which alters the original phrasing and lexical density. 4. The introduction of definitions for 'graffiti' and 'vandalism' at the beginning, while helpful for A2, adds content not present in the original text, contributing to the lower BERTScore. Suggestion: Ensure that while simplifying, the core vocabulary and phrasing from the original text are retained as much as possible to maintain a high BERTScore. Avoid adding new information that was not in the original source when aiming for high fidelity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8991,
+          "meaningbert": 0.7529
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 16:57:24.412847",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Is graffiti art or vandalism? It depends on what you think. In many countries, writing or painting on public or private things is vandalism. Police stop many street artists. Some artists must pay fines. City councils complain about the high cost. They clean graffiti off buildings, buses, and trains.",
+      "timestamp": "2025-09-01 16:57:24.413414",
+      "metadata": {
+        "text_id": "c890a4c3-2401-41c5-ae37-c17b70a1cda5",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 16:57:36.142798",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b3aadd74-b88e-4feb-aa7e-d41eccf65074",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The classifier rated the text as B1, not the required A2. This is primarily due to the use of vocabulary above the A2 level. The word 'private' is a B1 vocabulary item, which is not permitted for an A2 text. Additionally, the phrase 'It depends on what you think' uses an embedded clause structure that can be considered B1. For A2, simpler sentence structures are required. Suggestion: Replace 'private' with an A2 equivalent like 'not public' or 'someone's own'. Rephrase 'It depends on what you think' to a simpler A2 structure such as 'People have different ideas' or 'Everyone thinks differently'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.963,
+          "meaningbert": 0.9079
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 16:57:41.944550",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Is graffiti art or vandalism? People have different ideas. In many countries, writing or painting on public or not public things is vandalism. Police stop many street artists. Some artists must pay fines. City councils complain about the high cost. They clean graffiti off buildings, buses, and trains.",
+      "timestamp": "2025-09-01 16:57:41.947168",
+      "metadata": {
+        "text_id": "426041e0-73f4-4e37-9745-ddd94a319d19",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 16:57:59.105258",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b59bf32f-70da-476e-827b-5965dc0350d9",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as B1, not the required A2. The sentence 'In many countries, writing or painting on public or not public things is vandalism.' contains structures too complex for A2. The use of gerunds ('writing or painting') as a subject phrase is a B1 characteristic. Additionally, the phrase 'not public things' is an awkward and non-standard construction for A2. Suggestion: Rephrase the sentence to use simpler subject-verb structures. For example, 'In many countries, if people write or paint on public places or on other people's things, it is vandalism.' This simplifies the subject and uses more direct A2 vocabulary.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9514,
+          "meaningbert": 0.8701
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 16:58:05.969690",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Is graffiti art or vandalism? People have different ideas. In many countries, if people write or paint on public places or on other people's things, it is vandalism. Police stop many street artists. Some artists must pay fines. City councils complain about the high cost. They clean graffiti off buildings, buses, and trains.",
+      "timestamp": "2025-09-01 16:58:05.970084",
+      "metadata": {
+        "text_id": "23604d8d-6c70-4db6-805a-f0bd02de9232",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 16:58:25.805915",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1221bfbc-f2ec-4ebc-b48e-20b8858e43b6",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as B1, not the required A2. The classifier result of B1 indicates that the text exceeds the A2 complexity standard. While the vocabulary is appropriate for A2, the sentence structure is not consistently simple enough. The sentence 'In many countries, if people write or paint on public places or on other people's things, it is vandalism.' is too long and structurally complex for an A2 level. The combination of a conditional clause with multiple prepositional phrases within a single sentence pushes it into B1 territory. A2 requires shorter, more direct sentences that convey one main idea at a time. Suggestion: Split the complex conditional sentence into two or more simpler sentences to reduce its length and structural load. For example, 'In many countries, people write or paint on public places. They also paint on other people's things. This is vandalism.' or 'In many countries, it is vandalism. This happens if people write or paint on public places or on other people's things.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9473,
+          "meaningbert": 0.8402
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 16:58:31.905148",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Is graffiti art or vandalism? People have different ideas. In many countries, people write or paint on public places. They also paint on other people's things. This is vandalism. Police stop many street artists. Some artists must pay fines. City councils complain about the high cost. They clean graffiti off buildings, buses, and trains.",
+      "timestamp": "2025-09-01 16:58:31.905549",
+      "metadata": {
+        "text_id": "37dd88e6-ae55-4b34-8804-d13d743cfe96",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 16:58:44.252358",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "29c0d516-b8a3-4a60-bfd9-d2f2f9f14b5c",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text successfully meets all A2 CEFR readability standards. Factual integrity is maintained, and the core meaning is preserved with a MeaningBERT score of 0.8541 and a BERTScore of 0.9448. The CEFR classifier accurately rated the text as A2. The vocabulary is appropriate for A2, using simple words and phrases. Sentence structures are short and direct, with limited use of connectors, adhering to A2 grammatical requirements. No deviations from the protocol were found.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9448,
+          "meaningbert": 0.8541
+        }
+      }
+    }
+  ]
+}

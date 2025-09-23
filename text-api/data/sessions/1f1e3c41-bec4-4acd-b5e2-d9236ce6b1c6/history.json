@@ -1,0 +1,396 @@
+{
+  "session_id": "1f1e3c41-bec4-4acd-b5e2-d9236ce6b1c6",
+  "created_at": "2025-08-31 23:50:00.512141",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:50:00.519263",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "12-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A brain is the part inside your head. It helps you think and move your body.\n\nFrom 100,000 to 50,000 years ago, we see early human signs. We see pictures on rocks, for example. We do not know how this and language go together. Brains did not grow bigger suddenly. But people became smarter, and they did more things. Did using language make their brains grow? Or did smarter brains start to make language?",
+      "timestamp": "2025-08-31 23:50:00.520038",
+      "metadata": {
+        "text_id": "080f72e7-7584-47d8-835d-dd044155632d",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:50:00.526754",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b8b8178e-30e9-40d3-a0a6-399de1098ab0",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text uses multiple words above the A2 level and complex structures.\nDetected deviations:\n- The verb \"help\" (in \"It helps you think\") is not in the A2 list.\n- The nouns \"signs\", \"rocks\", and \"pictures\" are not approved A1/A2 vocabulary.\n- The past form \"became\" is B1; the A1 list has no \"become\" or its past.\n- The adjective \"smarter\" is B1 level and not in A1/A2.\n- The gerund \"using\" introduces a B1 structure; A2 learners should use simple infinitives or base forms.\nSuggestion: Replace these words with entries from the provided A1/A2 lists (for example, use \"got\" instead of \"became\", \"more clever\" instead of \"smarter\"), remove or simplify gerund phrases, and use only the allowed connectors and vocabulary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9166,
+          "meaningbert": 0.7901
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:53:55.617186",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A brain is the part inside your head. You think and move with it.\nFrom 100,000 to 50,000 years ago, we see early human life. For example, we see old things they made. We do not know how this and language go together. Brains did not get bigger suddenly. But people got more clever, and they did more things. Did language make their brains grow? Or did bigger brains start to make language?",
+      "timestamp": "2025-08-31 23:53:55.617410",
+      "metadata": {
+        "text_id": "9ed518aa-1fc7-4004-b7cd-8d59cc0d873d",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 23:55:14.255971",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4407ad38-0b1d-435b-b9f8-6335b44b83a9",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6384 is below the required 0.75 threshold.\n- The writer's version replaces 'cave paintings' with the vague phrase 'old things', losing key evidence of early human civilisation.\n- It omits 'early human civilisation' entirely, reducing the nuance of the original message.\n- An unrelated sentence 'A brain is the part inside your head.' was added, introducing content not in the original.\nSuggestion: Restore the specific terms 'civilisation' and 'cave paintings'. Remove the extraneous definition. Keep the original focus on language and brain development questions.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9133,
+          "meaningbert": 0.6384
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:56:14.585410",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Between 100,000 and 50,000 years ago, we see early human civilisation. For example, we see cave paintings. We do not know the link with language. Brains did not get bigger suddenly. But people became more clever. They did more things. Did using language make brains develop? Or did brains develop first and then make language?",
+      "timestamp": "2025-08-31 23:56:14.586489",
+      "metadata": {
+        "text_id": "7f5c957d-417c-45cd-af37-d93b87916b5c",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:56:40.274356",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1fa42d4d-f4d5-4b87-9766-0c2c1268b2a0",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Vocabulary Compliance. The text uses words outside the allowed A2 list:\n- 'civilisation' is not in the A1 or A2 vocabulary.\n- 'cave' is classified as B1 level.\n- 'paintings' is not on the A2 list.\n- 'brains' and the form 'did' are not in the A1/A2 lists.\n- 'things' is not an A2 word.\nThese words violate A2 constraints. Suggestion: Replace 'early human civilisation' with 'early human life'. Change 'cave paintings' to 'paintings on rock'. Remove or replace 'brains', 'did', and 'things' with simpler synonyms defined in the A2 list.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.936,
+          "meaningbert": 0.7898
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:05:53.245674",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Between 100,000 and 50,000 years ago, we see early human life. For example, we see pictures on rock. We do not know the link with language. In that time, the human brain was about the same size. The brain is the part in your head that thinks. But people became more clever. Maybe using language made the brain grow. Or maybe a bigger brain made language.",
+      "timestamp": "2025-09-01 00:05:53.247771",
+      "metadata": {
+        "text_id": "8cbb904a-a7f5-4170-825b-42a19ca76c2e",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:06:10.662497",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5080063b-6b5d-40d9-92cc-cc910358e56b",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.663 is below the required 0.75. Evidence: The original term \u201ccivilisation\u201d was replaced with \u201cearly human life,\u201d erasing the idea of a society. The phrase \u201cmore complex and more intelligent\u201d became simply \u201cmore clever,\u201d losing the nuance of complexity and intelligence growth. Suggestion: Use \u201ccivilisation\u201d instead of \u201clife.\u201d Rephrase to include both \u201ccomplex\u201d and \u201cintelligent\u201d rather than only \u201cclever.\u201d",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.911,
+          "meaningbert": 0.663
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:06:56.051101",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Between 100,000 and 50,000 years ago, we see early human civilisation. For example, we see cave paintings. We do not know the link with language. In that time, the human brain was about the same size. The brain is the part in your head that thinks. But people became more complex and more intelligent. Maybe using language made brains grow. Or maybe bigger brains started language.",
+      "timestamp": "2025-09-01 00:06:56.053324",
+      "metadata": {
+        "text_id": "a76ff9d3-59ad-4cf9-a51a-fb45afada518",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 7/10 - FAIL",
+      "timestamp": "2025-09-01 00:07:14.148387",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "005e8e5f-9f1a-4803-990f-7b0af24d2f45",
+        "grade": 7,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Compliance Failure. The text uses words above A2 level which breaks the CEFR A2 requirement.\n- The word \"cave\" is a B1-level word, not in the A2 vocabulary list.\n- The word \"complex\" is a B1-level word, not in the A2 vocabulary list.\nSuggestion: Replace \"cave\" with a simpler phrase such as \"rock paintings\" or \"paintings on rocks.\" Replace \"complex\" with an A2-level phrase like \"not simple\" or \"made of many parts.\" Ensure all words are on the standard A2 list.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9247,
+          "meaningbert": 0.8568
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:08:10.479729",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Between 100,000 and 50,000 years ago, we see early human civilisation.\nFor example, we see paintings on rocks.\nWe do not know the link with language.\nIn that time, the human brain was about the same size.\nThe brain is the part in your head that thinks.\nBut people became not simple and more intelligent.\nMaybe using language made brains grow.\nOr maybe more intelligent brains started language.",
+      "timestamp": "2025-09-01 00:08:10.481828",
+      "metadata": {
+        "text_id": "2b0b2c32-8130-4bcf-aa4d-2b70de2fd7e9",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 00:08:25.758729",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7131a2ff-af59-4fbc-91d4-35761efb0ece",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The phrase \"paintings on rocks\" replaces \"cave paintings\", altering the specific factual detail.\n- The writer\u2019s output uses \"paintings on rocks\" instead of the original \"cave paintings\".\nSuggestion: Replace \"paintings on rocks\" with \"cave paintings\" to restore the accurate detail.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9121,
+          "meaningbert": 0.8625
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:11:12.734620",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Between 100,000 and 50,000 years ago, we see early human civilisation.\nFor example, we see cave paintings.\nWe do not know the link with language.\nBrains did not suddenly get bigger.\nIn that time, the human brain was about the same size.\nThe brain is the part in your head that thinks.\nBut people became smarter.\nMaybe using language made brains work better.\nOr maybe smarter brains started language.",
+      "timestamp": "2025-09-01 00:11:12.735519",
+      "metadata": {
+        "text_id": "cc4e8211-309d-4c47-a614-4b74009f1eb7",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 00:11:36.837138",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5f8fdf93-9d9f-4a87-a212-7767f6e6dcc6",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. Classifier rated B1, not A2. Deviations:\n- The word \"cave\" is a B1-level word and not on the A2 list.\n- The noun \"civilisation\" is above A2 level vocabulary.\n- The phrase \"For example, we see cave paintings.\" uses a B1-style discourse marker and separate sentence structure.\nSuggestion: Replace \"cave\" with simpler A2 vocabulary (e.g., \"rock paintings\"), remove \"civilisation\" by saying \"people lived long ago,\" merge the example into the main sentence (use only and, but, so, because), and use only short, simple sentences.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9181,
+          "meaningbert": 0.8654
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:18:55.603895",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: 100,000 to 50,000 years ago, people made rock paintings. We do not know the link with language. Brains did not suddenly get bigger. A brain is the part in your head that thinks. But people became smarter. They did more difficult things. Did language make brains change? Or did stronger brains make language?",
+      "timestamp": "2025-09-01 00:18:55.605561",
+      "metadata": {
+        "text_id": "a3b2034e-319c-4c01-91c4-7375d1916cad",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:19:15.660707",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "dba35297-10a3-4252-9bb8-98768f452beb",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6487 is below the required 0.75, showing loss of the core message.\nDetected deviations:\n- Removed the concept of \u201cearly human civilisation,\u201d which is central in the original.\n- Lost the nuance of increased complexity by changing \u201cmore complex and more intelligent\u201d to simply \u201csmarter\u201d and \u201cdid more difficult things.\u201d\n- Added an extra definition \u201cA brain is the part in your head that thinks,\u201d which is not in the original and distracts from the main inquiry.\n- Changed \u201ccave paintings\u201d to \u201crock paintings,\u201d reducing specificity.\nSuggestion: Restore mentions of \u201ccivilisation\u201d and \u201ccomplex,\u201d remove the added brain definition, and maintain original terms like \u201ccave paintings\u201d to preserve meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.906,
+          "meaningbert": 0.6487
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:19:57.875153",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We saw early human civilisation between 100,000 and 50,000 years ago.\nFor example, we saw cave paintings.\nNo one knows the connection with language.\nBrains did not suddenly get bigger.\nBut humans became more complex and more intelligent.\nDid using language make their brains develop?\nOr did more complex brains start to produce language?",
+      "timestamp": "2025-09-01 00:19:57.877640",
+      "metadata": {
+        "text_id": "062cb416-e915-457d-8084-7b83ed9dfbab",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 00:20:14.459746",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d039fade-dbe6-4a34-a084-03078c7fc457",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text uses B1 level words that are not permitted at A2: cave, connection, complex.\n- Replace the word cave with a simpler term (rock art, drawings on rock)\n- Replace connection with link or relation\n- Replace complex with not simple or complicated\nSuggestion: Use only A1\u2013A2 vocabulary. Split or rephrase any remaining too-difficult words to meet A2 standards.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9472,
+          "meaningbert": 0.9453
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:20:54.464543",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Between 100,000 and 50,000 years ago, we saw early human civilisation.\nFor example, we saw drawings on rock.\nNo one knows the link to language.\nBrains did not suddenly get bigger.\nA brain is the part in the head that thinks.\nBut people became more complicated and more intelligent.\nDid using language make their brains develop?\nOr did more complicated brains start to produce language?",
+      "timestamp": "2025-09-01 00:20:54.468152",
+      "metadata": {
+        "text_id": "a6d53b9c-bdf3-4832-af72-600a715cb2d6",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 00:21:17.887054",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "901df801-3ff8-46db-ac25-89ce3719a4c5",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Deep Qualitative Audit Failure due to B1 vocabulary. Sentence: \"But people became more complicated and more intelligent.\" The word \"complicated\" is B1 level and not on the A2 list. Suggestion: Replace \"complicated\" with an A2 level word such as \"hard\".",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9452,
+          "meaningbert": 0.8453
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:22:04.194258",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Between 100,000 and 50,000 years ago, we saw early human civilisation.\nFor example, we saw drawings on rock.\nNo one knows the link to language.\nBrains did not suddenly get bigger.\nA brain is the part in the head that thinks.\nBut people became more intelligent.\nThey did more kinds of things.\nDid using language make their brains develop?\nOr did better brains start to make language?",
+      "timestamp": "2025-09-01 00:22:04.198065",
+      "metadata": {
+        "text_id": "79b8f356-95dc-47f2-a50a-9419b6583a0c",
+        "version": 11
+      }
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "session_id": "32e8d744-af2b-4028-8d33-a3aff11c6708",
+  "created_at": "2025-09-01 17:31:47.358588",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:31:47.364872",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "120-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Do not always add negative comments after positive ones.  \nIf positive and negative comments seem together, the positives can be ignored.  \nMake sure you sometimes give positive comments just for their own reason.  \nAvoid the urge to give more negative comments.",
+      "timestamp": "2025-09-01 17:31:47.365541",
+      "metadata": {
+        "text_id": "cc6dee68-a72c-4836-83ef-c004e6289a64",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:31:47.373388",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0278fc18-935f-4d39-9bbe-4851416f2e45",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6789 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text.\n\n- Factual Inaccuracy: The original text warns against offering 'constructive criticism'. Your output changes this to 'give more negative comments'. These are not the same. This alteration changes the fundamental advice being given.\n- Vocabulary Violation: The B1-level word 'urge' was used in the final output. This word is too advanced for the A2 standard and must be replaced.\n- Meaning Loss: The original concept of positive feedback becoming 'devalued' was completely lost in your simplification.\n\nSuggestion: Rephrase the final sentence to accurately represent 'constructive criticism'. A phrase like 'advice to improve' is more accurate and A2-compliant. Remove the word 'urge'. Restore the concept of positive comments losing their value.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9013,
+          "meaningbert": 0.6789
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:31:57.770401",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Do not always add a negative comment after a positive comment.  \nIf positive and negative comments are together, the positive ones lose value.  \nThe positive ones can be ignored.  \nMake sure you sometimes give positive comments just for their own reason.  \nAvoid giving advice to improve right after the positive comment.",
+      "timestamp": "2025-09-01 17:31:57.770629",
+      "metadata": {
+        "text_id": "87deae4a-42a9-4acd-b4df-3a1e7fe53579",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:32:17.190275",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "22d28afe-b841-47ac-b706-daeff34ec888",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8942 is below the required 0.90 threshold. This is a critical failure and indicates that key lexical items from the original text were not preserved. The replacement of the core term 'feedback' with 'comment' is the primary cause of this low score. Additionally, a qualitative audit reveals further violations. The word 'value' is B1 level and is not permitted in an A2 text. The phrase 'for their own reason' is an unnatural and incorrect simplification of 'for its own sake'. Suggestion: Restore the A2-level word 'feedback' from the original text. Replace the phrase 'lose value' with a simpler A2 construction, such as 'do not seem important'. Rephrase 'for their own reason' to 'just because they are good'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8942,
+          "meaningbert": 0.8143
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:32:24.946456",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Do not always add a negative feedback after a positive feedback.  \nWhen positive and negative feedback are together, the feedback seems not important.  \nThe positive feedback can be ignored.  \nMake sure you sometimes give positive feedback just because they are good.  \nAvoid giving advice to improve right after the positive feedback.",
+      "timestamp": "2025-09-01 17:32:24.946843",
+      "metadata": {
+        "text_id": "1345cfd5-78da-44b4-adc3-b40e5f7c45a5",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:32:46.878444",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ec2684cb-47a7-4947-85db-02898832b0a6",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8956 is below the required 0.90 threshold. This indicates a significant loss of key phrasing from the original text.\n\nVocabulary Violation: The B1 word 'feedback' is used five times. This is a severe violation of the A2 standard. An A2 text cannot rely on B1 vocabulary.\n\nLexical Loss: The original's concept of positives becoming 'devalued' was simplified to 'seems not important', which loses the specific meaning and contributed to the low BERTScore.\n\nGrammatical Error: The phrase 'a negative feedback' is incorrect. 'Feedback' is an uncountable noun and cannot be preceded by 'a'.\n\nSuggestion: Replace the word 'feedback' with an A2-level phrase like 'comments' or 'what you think'. Rephrase the sentence 'the feedback seems not important' to better capture the original meaning of 'devalued'. Remove the article 'a' before 'negative feedback'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8956,
+          "meaningbert": 0.8518
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:32:59.032930",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Do not always add a negative comment after a positive comment.  \nWhen positive and negative comments are together, positive can seem less important.  \nThe positive comment can be ignored.  \nMake sure you sometimes give a positive comment because it is good.  \nAvoid giving advice to improve right after the positive comment.",
+      "timestamp": "2025-09-01 17:32:59.033279",
+      "metadata": {
+        "text_id": "73b2f4a9-3b23-401e-8332-6cac2cff6a94",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:33:20.322738",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "fdcf3e3a-df87-4c3c-a3c1-9a5e151a934f",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8919 is below the required 0.90 threshold. This indicates a significant loss of key words from the original text. The core term 'feedback' was replaced with 'comment' throughout the text. This reduces lexical fidelity. The phrase 'constructive criticism' was replaced with 'advice to improve'. While the meaning is similar, the fidelity to the original phrasing is lost, contributing to the low score. Suggestion: Retain the key term 'feedback' as it is a common A2-level word. Rephrase the final sentence to more closely align with the original's concept while maintaining A2 simplicity. For example: 'Do not give advice on how to be better right after the positive feedback.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8919,
+          "meaningbert": 0.7828
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:33:25.663199",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Do not always add a negative feedback after a positive feedback.  \nWhen positive and negative feedback are together, the positive can seem less important.  \nThe positive feedback can be ignored.  \nMake sure you sometimes give positive feedback just because it is good.  \nDo not give advice on how to be better right after the positive feedback.",
+      "timestamp": "2025-09-01 17:33:25.665106",
+      "metadata": {
+        "text_id": "735f238c-6c01-4a78-90ec-537d99a33916",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:33:45.335696",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "52781d4a-3ac2-420d-a591-efff802bd191",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Compliance. The text fails because it repeatedly uses a B1-level word without providing a required A2-level definition.\n\n- Violation: The word 'feedback' is classified as B1. It appears five times in your output. It was not defined as a keyword. An A2 reader cannot be expected to know this word. This is a fundamental error.\n- Violation: The word 'advice' is a high-A2/low-B1 word. Its use is not acceptable without simplification or definition.\n\nSuggestion: The word 'feedback' must be defined in simple A2 terms at its first use. Example: 'Feedback is when you tell someone what you think about their work.' Alternatively, rephrase the entire text to avoid the word entirely.\nSuggestion: Replace 'advice' with a simpler A2 phrase. Example: 'Do not tell them how to do better.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9005,
+          "meaningbert": 0.8543
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:33:52.470464",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Feedback is when you tell someone what you think about their work.  \nDo not always add a negative feedback after a positive feedback.  \nWhen positive and negative feedback are together, the positive can seem less.  \nThe positive feedback can be ignored.  \nMake sure you sometimes give positive feedback just because it is good.  \nDo not tell them how to do better after the positive feedback.",
+      "timestamp": "2025-09-01 17:33:52.470897",
+      "metadata": {
+        "text_id": "3a061fb6-a9d8-4964-a667-0c5ed1238e1b",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:34:17.302311",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "da48fc5d-05ec-4f1d-ad40-a0b36f1d3c24",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8861 is below the required 0.90 threshold. This indicates an unacceptable loss of key concepts from the original text.\n\n- Deviation 1: The original text states that positive feedback can become 'devalued'. Your version, 'the positive can seem less', is too vague and fails to capture the specific meaning of losing value or importance.\n- Deviation 2: The original text uses the specific term 'constructive criticism'. Your replacement, 'tell them how to do better', is a functional simplification but contributes to the overall loss of lexical fidelity detected by the BERTScore metric.\n- Deviation 3: The B1 keyword 'feedback' is used repeatedly. While you correctly provided a simple definition in the first sentence, its high frequency in a text aiming for A2 is not ideal.\n\nSuggestion: Restore fidelity. The concept of 'devalued' must be communicated more clearly. Use a phrase like 'the good words do not feel important'. The text must more closely mirror the specific meanings of the original, even when using simpler words.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8861,
+          "meaningbert": 0.7736
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:34:29.321298",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Feedback is when you tell someone what you think about their work.  \nDo not always add a negative comment after a positive one.  \nWhen positive and negative comments are together, the positive feels less important.  \nThe positive comment can be ignored.  \nMake sure you sometimes give positive comments just because they are good.  \nDo not give constructive criticism right after the positive comment.",
+      "timestamp": "2025-09-01 17:34:29.321826",
+      "metadata": {
+        "text_id": "a8c87be1-ffdb-4471-a520-c5a6f475b67f",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:34:53.549291",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "339901fc-03bb-42bb-aa23-c9e396b766fc",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7074 is below the required 0.75 threshold. This indicates a failure to preserve the core message. The BERTScore of 0.8826 is also below the 0.90 minimum, showing a significant loss of key phrasing.\n\n- Meaning Deviation: The original text states that positive feedback becomes 'devalued'. Your version, 'the positive feels less important', is a weaker statement and does not fully capture the original meaning of losing all value.\n- Fidelity Deviation: The BERTScore is low because you replaced the key term 'feedback' with 'comment' throughout the text after the initial definition. This reduces lexical consistency with the source text.\n- Vocabulary Violation: The phrase 'constructive criticism' is a B1 concept. It was used without simplification, making it too complex for the A2 level.\n\nSuggestion: Rephrase the text to restore the original meaning of 'devalued'. Use the word 'feedback' consistently instead of 'comment'. Replace 'constructive criticism' with a simpler A2 phrase like 'advice to make it better'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8826,
+          "meaningbert": 0.7074
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:35:05.189762",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Feedback is when you tell someone what you think about their work.  \nDo not always add a negative feedback after a positive feedback.  \nWhen positive and negative feedback are together, the positive feedback loses value.  \nThe positive feedback can be ignored.  \nMake sure you sometimes give positive feedback just because it is good.  \nDo not give advice to make it better after the positive feedback.",
+      "timestamp": "2025-09-01 17:35:05.191054",
+      "metadata": {
+        "text_id": "625e3a13-f0f3-4f78-8af6-01cd394604c3",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:35:30.996562",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b0a1fa96-7499-448c-a209-0d3ca26e3d23",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8845 is below the required 0.90. This is an instant failure.\n\n- Fidelity Failure: The low BERTScore indicates that key words and phrasing from the original text were lost. The replacement of terms like 'devalued' and 'constructive criticism' with 'loses value' and 'advice to make it better' caused this drop in score. While the meaning was preserved, the lexical fidelity is insufficient.\n\n- Vocabulary Violation: The text uses the B1 word 'value'. All B1-level vocabulary must be replaced or defined in simple A2 terms. The word 'feedback' was correctly defined, but 'value' was not.\n\nSuggestion: Rephrase sentences to improve lexical fidelity to the original text without sacrificing A2 simplicity. Replace the B1 word 'value' with an A2 equivalent, such as 'is not important' or 'does not seem special'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8845,
+          "meaningbert": 0.7508
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:35:49.860304",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Feedback is when you tell someone what you think about their work.  \nDo not always add a negative comment after a positive comment.  \nPositive and negative comments together can make the comment seem not nice.  \nThe positive comment can be ignored.  \nMake sure you sometimes give a positive comment because it is good.  \nDo not give advice right after the positive comment.",
+      "timestamp": "2025-09-01 17:35:49.862512",
+      "metadata": {
+        "text_id": "c99628c3-a6c5-44f7-89e3-2fb66f65afdc",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:36:12.368251",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "75b4c4f3-e2ec-40a3-916c-124593755ee0",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.62 is significantly below the required 0.75. The original text states that positive feedback becomes 'devalued', meaning it loses its worth. Your version changes this to 'seem not nice', which is a different and much weaker concept, failing to preserve the core message.\n\n- Fidelity Failure: The BERTScore of 0.87 is below the 0.90 threshold. This is due to the inconsistent replacement of the key term 'feedback' with the more generic word 'comment' after the first sentence.\n- Inconsistent Terminology: You define 'feedback' in the first sentence but then switch to using 'comment' for the rest of the text. This is confusing and contributes to the low fidelity score.\n\nSuggestion: Restore the core meaning of 'losing value'. Rephrase 'seem not nice' to something like 'the good feedback will not seem important' or 'people will stop believing the positive feedback'. Use the key term 'feedback' consistently after you define it.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.87,
+          "meaningbert": 0.6211
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:36:26.240883",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Feedback is when you tell someone how they did.  \nDo not always add a negative feedback after a positive feedback.  \nIf positive feedback is followed by negative feedback, the feedback loses value.  \nThe positive feedback can be ignored.  \nMake sure you sometimes give positive feedback on its own.  \nDo not give advice right after the positive feedback.",
+      "timestamp": "2025-09-01 17:36:26.242349",
+      "metadata": {
+        "text_id": "6a936d26-791b-400e-9ea3-0f29466e9c66",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:37:01.966469",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "aae42659-1eb7-4838-8a1e-ae89756b8331",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8833 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n- The simplification of complex concepts like 'devalued' and 'constructive criticism' to 'loses value' and 'advice' was too aggressive, causing the drop in lexical fidelity.\n- The B1 word 'value' was used. This is not on the A2 word list.\nSuggestion: Rephrase to restore fidelity. Replace 'loses value' with a simpler A2 phrase like 'the good words are not important anymore'. Replace 'advice' with a phrase that is closer to the original meaning, such as 'ways to do better'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8833,
+          "meaningbert": 0.8568
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:37:28.400429",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Feedback is when you tell someone how they did.  \nDo not always add a negative comment after a good comment.  \nWhen a good comment, then a bad one follows.  \nThe good words are not needed anymore.  \nThe good comment can be ignored.  \nMake sure you sometimes give a good comment on its own.  \nDo not give ways to do better right after the good comment.",
+      "timestamp": "2025-09-01 17:37:28.401729",
+      "metadata": {
+        "text_id": "ee1ed9a5-50f8-4944-8382-7befd337c6df",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:37:49.852078",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "80aee443-673d-4adb-9258-c03246dea545",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5427 is critically below the required 0.75 threshold. This indicates a severe loss of the original message. The simplification has distorted the core concepts.\n\n- Fidelity Failure: The BERTScore of 0.8594 is also below the 0.90 minimum. Key concepts from the original text were lost.\n- Meaning Distortion: The original concept of positive feedback becoming 'devalued' (losing importance) was incorrectly simplified to 'not needed anymore'. This is a factual misrepresentation of the original meaning.\n- Grammatical Error: The sentence 'When a good comment, then a bad one follows.' is grammatically incomplete and incorrect for any CEFR level. It lacks a proper clause structure.\n- Over-simplification: The attempt to reach A2 level resulted in a text that is choppy and fails to convey the original's advice with any accuracy.\n\nSuggestion: You must rewrite the text to preserve the original meaning. The concept of 'devalued' must be rephrased correctly, for example: 'the good words start to feel less important'. Correct the incomplete sentence to a full, simple sentence like 'If a bad comment always follows a good one, people will ignore the good comment.'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8594,
+          "meaningbert": 0.5427
+        }
+      }
+    }
+  ]
+}

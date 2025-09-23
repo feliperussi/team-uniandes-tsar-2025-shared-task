@@ -1,0 +1,63 @@
+{
+  "session_id": "620fe3c0-614a-4d09-ad93-9f2937855c15",
+  "created_at": "2025-08-31 23:11:06.030420",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:11:12.718083",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "02-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes a lot. A bridge is a structure people use to cross rivers or roads. Engineers are people who plan and build things like bridges. \n\nEarthquakes can break many things. They can break bridges too. But bridges falling down because of earthquakes does not happen very often. New bridges are stronger. Engineers plan new bridges in places where earthquakes happen. They make bridges that can stand strong and not move much during an earthquake.",
+      "timestamp": "2025-08-31 23:11:12.718437",
+      "metadata": {
+        "text_id": "b023c88a-c67b-48df-b12e-fcb85d35ee13",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:11:12.777505",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0ee69279-1d94-4d0a-b025-145dadbd2252",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score is 0.6022, which is well below the required 0.75 threshold, indicating poor preservation of the original text's core message about bridge design and location to resist earthquakes. FAIL: Fidelity Failure. The BERTScore is 0.8816, below the 0.90 minimum, showing significant loss of key factual terms and phrasing from the original, such as 'relatively infrequent' and 'design bridges on areas that are much more resistant to movement.' The writer's output adds irrelevant definitions and simplifies key concepts like 'earthquake' and 'engineers' unnecessarily, which dilutes the original message. Although classified as A2, the low metric scores and omission of the core idea about engineering adaptations in earthquake zones cause the failure. Suggestion: Retain the focus on how engineers design bridges in earthquake zones on land that moves less. Remove redundant definitions of simple words already known at A2 level. Use simpler but precise phrasing that keeps the original meaning that bridge collapses during earthquakes are infrequent due to modern design practices.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8816,
+          "meaningbert": 0.6022
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:11:15.472161",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes can damage bridges and other structures. But this does not happen very often. Now, engineers design bridges in places where the ground moves less during earthquakes. This helps bridges stay strong and not fall down. Modern bridges are safer because of this.",
+      "timestamp": "2025-08-31 23:11:15.472533",
+      "metadata": {
+        "text_id": "5bcfbf0a-4457-46f4-bbe6-94979fb4dbc2",
+        "version": 2
+      }
+    }
+  ]
+}

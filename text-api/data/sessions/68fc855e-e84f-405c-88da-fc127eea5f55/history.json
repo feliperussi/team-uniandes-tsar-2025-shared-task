@@ -1,0 +1,80 @@
+{
+  "session_id": "68fc855e-e84f-405c-88da-fc127eea5f55",
+  "created_at": "2025-09-01 17:39:01.366779",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:39:01.375376",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "85-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: One of the most important modern roles of zoos is to support international breeding programs, especially for endangered species. In the wild, some of the rarest species have difficulty finding mates and reproducing. They may also be threatened by poachers, loss of their habitat, and predators. A good zoo will allow these species to live and reproduce in a safe environment. Also, as numbers of some wild species fall, there is a greater danger that populations become too genetically alike. Breeding programs give a safeguard: zoo\u2011born animals can be released into the wild to raise genetic diversity.",
+      "timestamp": "2025-09-01 17:39:01.376284",
+      "metadata": {
+        "text_id": "46b6a691-0c08-4374-a912-537f38bf8265",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:39:01.388646",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0fb77071-350b-470f-bb16-d5e892a4f08c",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2' instead of the required 'B1'. This is a direct result of retaining high-level vocabulary from the original text. Specifically, the output uses the words 'reproducing' (a C1-level term), 'genetically' (B2), and 'diversity' (B2). While many other words were simplified effectively, failing to simplify these key terms kept the overall text complexity too high for the B1 target. To correct this, 'reproducing' could be changed to 'breeding'. The concept of 'genetic diversity' needs simplification. For instance, 'populations become too genetically alike' could be rephrased as 'all the animals in a group become too similar', and 'to raise genetic diversity' could be changed to 'to make the group of animals stronger by adding new family members'.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9795,
+          "meaningbert": 0.9378
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:39:15.424785",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: One of the most important modern roles of zoos is to support international breeding programs, especially for endangered species. In the wild, some of the rarest species have difficulty having mates and breeding. They may also be threatened by poachers, loss of their habitat, and predators. A good zoo will allow these species to live and breed in a safe environment. Also, as numbers of some wild species fall, there is a greater danger that all the animals in a group become too similar. Breeding programs give a safeguard: zoo\u2011born animals can be released into the wild to make the group of the animals better by adding new family members.",
+      "timestamp": "2025-09-01 17:39:15.426427",
+      "metadata": {
+        "text_id": "b63205fa-13a3-4382-a8ac-ca8744a06074",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-09-01 17:39:39.560906",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "940c0e30-586d-4520-a6b4-6531e3b2f482",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "PASS: The submission successfully passes all priority checks. Factual integrity is perfectly maintained throughout the text. The MeaningBERT (0.86) and BERTScore (0.96) are both well above the required thresholds, confirming that the core message and key details have been preserved. The text correctly achieves the target B1 CEFR level. The vocabulary strategy is excellent, with effective substitutions like 'enable' to 'allow' and 'secure' to 'safe'. The simplification of the complex concept 'increase genetic diversity' to 'make the group of the animals better by adding new family members' is particularly strong, as it explains a scientific idea using accessible language. For future improvement, the phrase 'make the group of the animals better' could be slightly more precise, for example, 'to improve the health of the animal group', but the current phrasing is clear and effective for the target audience.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9647,
+          "meaningbert": 0.8603
+        }
+      }
+    }
+  ]
+}

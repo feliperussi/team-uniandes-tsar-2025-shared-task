@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "726fb021-12f5-4e96-8c5e-2c69b097bdc3",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Are things getting worse every day? Is progress impossible? A writer named Steven Pinker says there is good news. He says we are making progress. We live longer, healthier, freer, and happier lives.\n\nBut Pinker says there is a big problem. He talks about the Enlightenment. The Enlightenment was an important time. In this time, people started to think about reason and science. Today, some leaders attack these ideas. They tell people to only care about their own group. They tell people not to believe in others.\n\nPinker says this is very dangerous. When leaders do this, they can hurt important things. They can hurt democracy. What is democracy? In a democracy, people choose their government. They can also stop countries from working together.",
+    "version": 6,
+    "created_at": "2025-09-01 10:45:08.173883",
+    "updated_at": "2025-09-01 10:45:08.173894",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "aaf6b66f-6055-4f1a-bdba-6b13b14acf06",
+    "approval": "FAIL",
+    "grade": 2,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7235 is below the required 0.75 threshold. The original text's warning about 'fatalism' and 'distrust' is not fully captured by your simplification 'not to believe in others'. This is an instant failure.\n\n- Fidelity Failure: The BERTScore of 0.8937 is below the 0.90 minimum. Key phrases like 'world co-operation' were replaced with 'working together', losing lexical precision and contributing to the score drop.\n\n- CEFR Compliance Failure: The classifier rated the output as B1, not the required A2. This is a direct result of using the B1-level word 'democracy'. Defining the term does not excuse its use.\n\n- Vocabulary Violation: The word 'democracy' is B1 level and must be removed. The goal is to use A2 vocabulary, not to define B1 vocabulary.\n\nSuggestion: Remove the word 'democracy'. Rephrase the sentence to describe the concept using only A2 words, such as 'hurt the way people choose their leaders'. Revise the text to more accurately reflect the original's concepts of 'fatalism' and 'distrust' to improve meaning preservation scores.",
+    "metrics": {
+      "cefr_compliance": "B1",
+      "bertscore": 0.8937,
+      "meaningbert": 0.7235
+    },
+    "created_at": "2025-09-01 10:45:32.450537"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "3edffb45-583e-4871-8c21-70396f8cc8ec",
+    "cefr_level": "A2",
+    "text_id": "110-a2",
+    "text_translated": "Are things getting worse every day? Is it impossible for things to get better? A writer named Steven Pinker says there is good news. He says we live longer lives now. We are also healthier, more free, and happier.\n\nBut Pinker says there is a big problem. The Enlightenment was a time in history. People started to think about reason and science. Today, some people attack these ideas. Some leaders tell people not to trust others. This is very dangerous. It can hurt important things, like democracy. And it can stop countries from working together.",
+    "version": 1,
+    "created_at": "2025-09-01 10:41:54.468413",
+    "updated_at": "2025-09-01 10:41:54.468414",
+    "metrics_meaningbert": 0.7431,
+    "metrics_cefr_compliance": "A2"
+  }
+}

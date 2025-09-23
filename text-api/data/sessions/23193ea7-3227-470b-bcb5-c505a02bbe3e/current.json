@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "c484ed8a-c931-42c2-b641-5c85e35ce759",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Julie Wong is a very important researcher. She studies robots. She also studies computers that can think.\n\nShe wrote more than 50 papers. She wrote some papers alone. She wrote other papers with other people. Her papers are in important science magazines. Other scientists check her work first. So, the papers are very good.\n\nShe often speaks at meetings for scientists. These meetings are in different countries. In 2012, she won a very important award. The award was the Royal Academy Simone Fielding fellowship.\n\nJulie lives with her family. They live in a smart home. She made the plan for the house herself.",
+    "version": 3,
+    "created_at": "2025-08-31 20:12:53.118144",
+    "updated_at": "2025-08-31 20:12:53.118188",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "97e98793-3a0e-4a02-90fb-f05db2d74c6e",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning and Fidelity Failure. The MeaningBERT score of 0.7128 is below the 0.75 threshold, and the BERTScore of 0.8867 is below the 0.90 threshold. This indicates a critical loss of the original text's core message and specific terminology. The simplification was too aggressive, resulting in a text that does not adequately represent the source material.\n\n- Fidelity Loss: The low BERTScore is a direct result of replacing key original terms. Words like 'leading', 'Robotics and AI', 'peer-reviewed', 'international conferences', and 'prestigious' were replaced with phrases that do not carry the same weight or specificity. This damages the factual precision of the text.\n\n- Meaning Loss: The low MeaningBERT score shows that the core message about the subject's high status and specific achievements was diluted. 'Leading researcher' becoming 'very important researcher' loses the concept of being at the forefront of a field.\n\n- Vocabulary Violation: The text includes the words 'royal' (B1) and 'academy' (C1). These words are above the A2 level. Their inclusion, even as part of a proper name, is a direct violation of the A2 vocabulary standard.\n\nSuggestion: The text must be rewritten. You must find A2-level phrasing that more closely preserves the meaning of the original's key terms. The goal is to increase both the MeaningBERT and BERTScore metrics above their respective thresholds without introducing B1-level vocabulary or sentence structures.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8867,
+      "meaningbert": 0.7128
+    },
+    "created_at": "2025-08-31 20:13:31.162985"
+  },
+  "attempt_number": 3,
+  "best_attempt": {
+    "id": "c484ed8a-c931-42c2-b641-5c85e35ce759",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Julie Wong is a very important researcher. She studies robots. She also studies computers that can think.\n\nShe wrote more than 50 papers. She wrote some papers alone. She wrote other papers with other people. Her papers are in important science magazines. Other scientists check her work first. So, the papers are very good.\n\nShe often speaks at meetings for scientists. These meetings are in different countries. In 2012, she won a very important award. The award was the Royal Academy Simone Fielding fellowship.\n\nJulie lives with her family. They live in a smart home. She made the plan for the house herself.",
+    "version": 3,
+    "created_at": "2025-08-31 20:12:53.118144",
+    "updated_at": "2025-08-31 20:12:53.118188",
+    "metrics_meaningbert": 0.7128,
+    "metrics_cefr_compliance": "A2"
+  }
+}

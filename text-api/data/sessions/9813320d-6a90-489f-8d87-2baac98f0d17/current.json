@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "bd6dbbe2-245b-4fcb-8d2f-240e123b107d",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "\"The Life of Pi\" is a book. It tells an amazing story. The story is about a teenage boy from India. His name is Pi.\n\nHis ship sinks in the Pacific Ocean. He is stuck on a small boat with a very dangerous tiger. He cannot escape.\n\nA Canadian writer wrote the book. His name is Yann Martel. It is his third book. It came out in 2001.\n\nAfter that, it sold over seven million copies around the world. It also won many prizes. You can read it in 41 languages.\n\nMartel's father worked for his country's government. He worked in other countries. So, Martel lived in many places as a child. He lived in Costa Rica, Canada, France and Mexico.",
+    "version": 16,
+    "created_at": "2025-08-31 21:13:01.512397",
+    "updated_at": "2025-08-31 21:13:01.512408",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "9859f926-036b-4090-a861-86ca91fc4608",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6964 is below the required 0.75 threshold. This indicates a failure to preserve the core message. While the facts are correct, the simplification from 'extraordinary story' and 'ferocious tiger' to 'amazing story' and 'very dangerous tiger' lost the dramatic tone of the original text. The model has correctly identified this loss of nuance as a meaning shift.\n\n- Vocabulary Violation: The word 'escape' is B1 level and is not permitted. All vocabulary must strictly adhere to the A2 list.\n- Structural Simplification: The text is broken into too many short, disconnected sentences. This contributes to the loss of narrative flow and the low MeaningBERT score.\n\nSuggestion: Rephrase to better capture the original's tone. Replace 'amazing' with a phrase like 'a very special and surprising story'. Remove the B1 word 'escape'. A suitable A2 alternative is 'He cannot get away'. Combine some of the very short sentences to improve the flow, for example: 'The story is about a teenage boy from India named Pi.'",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.9081,
+      "meaningbert": 0.6964
+    },
+    "created_at": "2025-08-31 21:13:35.169232"
+  },
+  "attempt_number": 16,
+  "best_attempt": {
+    "id": "4a36d71c-57e2-487e-b50d-32eb02171a67",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "\"The Life of Pi\" is a book. It tells an amazing story about a teenage boy from India. His name is Pi.\n\nHis ship is destroyed in the Pacific Ocean, and he is trapped on a small boat with a dangerous tiger.\n\nA Canadian writer wrote the book. His name is Yann Martel. It is his third book, and it came out in 2001.\n\nAfter that, it sold over seven million copies around the world and won many prizes. You can read it in 41 languages.\n\nMartel's father was a diplomat. A diplomat works for their country in other countries. So, Martel lived in many places as a child. He lived in Costa Rica, Canada, France and Mexico.",
+    "version": 6,
+    "created_at": "2025-08-31 21:05:33.174282",
+    "updated_at": "2025-08-31 21:05:33.174294",
+    "metrics_meaningbert": 0.7538,
+    "metrics_cefr_compliance": "A2"
+  }
+}

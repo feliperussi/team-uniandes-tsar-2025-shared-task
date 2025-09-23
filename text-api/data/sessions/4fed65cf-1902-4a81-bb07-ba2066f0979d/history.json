@@ -1,0 +1,80 @@
+{
+  "session_id": "4fed65cf-1902-4a81-bb07-ba2066f0979d",
+  "created_at": "2025-09-01 17:34:46.826741",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:34:46.852430",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "36-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Most people have four to six dreams each night after they turn ten, which means they can have about 2,000 dreams in a year.  \nBy the time they are eighty, the average person may have experienced around 140,000? Actually 140,000 dreams. Even though we forget 95\u201199\u202f% of them, a few thousand dreams are still remembered during a life.  \nIt is not hard to think that, by chance, a dream can be followed by a real event that is similar. This is especially true when the dream is about something that happens often in everyday life.",
+      "timestamp": "2025-09-01 17:34:46.852575",
+      "metadata": {
+        "text_id": "84a42ba3-134c-43ff-ab1a-d280f23475c4",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:34:49.431771",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c0dc331c-5f4d-427c-a70b-9d2a3c43b551",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'A2', which is below the required 'B1' target. This failure is due to oversimplification of sentence structures and vocabulary. For example, the original complex sentence beginning 'It's not too difficult to believe...' was broken into two short, simple sentences, which is a characteristic of A2-level text. To reach B1, aim for more sentence variety and use appropriate connectors to combine ideas. Additionally, a significant quality issue must be addressed: the phrase 'around 140,000? Actually 140,000 dreams' is confusing and stylistically poor. It should be rewritten for clarity, for example, as 'may have experienced around 140,000 dreams'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9292,
+          "meaningbert": 0.8659
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:34:57.075602",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Most people have four to six dreams each night after they turn ten, which means they can experience about 2,000 dreams in a year. By the time they reach eighty, the average person may have experienced around 140,000 dreams. Although we forget 95\u201199\u202f% of them, a few thousand dreams are still remembered over a lifetime. It is not hard to believe that, by chance, a dream may be followed by a real\u2011life event that is similar, especially when the dream concerns something that happens frequently in everyday life.",
+      "timestamp": "2025-09-01 17:34:57.075897",
+      "metadata": {
+        "text_id": "0bdf2f60-f150-4270-8cff-133cde35adb9",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-09-01 17:35:21.520608",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4eb80c4e-b0e6-43c2-87fa-e03bbd5fd723",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "This is a high-quality simplification that successfully passes all priority checks. Factual Integrity: All numbers, concepts, and logical connections from the original text were preserved with perfect accuracy. Meaning and Fidelity: The MeaningBERT score of 0.88 and BERTScore of 0.94 are excellent, indicating that the core message and key phrasing were maintained effectively. CEFR Compliance: The output correctly achieved the target B1 level. Qualitative Analysis: The simplification is very well executed. The replacement of 'coincidence' with 'chance' and 'not too difficult' with 'not hard' are excellent examples of effective B1-level vocabulary substitution. The sentence structure is clear and flows well. The only minor point for consideration is the replacement of the A1 word 'often' with the B1 word 'frequently'; while this is a valid B1 word, retaining the simpler original would also have been an effective strategy. Overall, this is a strong submission.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9433,
+          "meaningbert": 0.8856
+        }
+      }
+    }
+  ]
+}

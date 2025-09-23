@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "8c1ce904-c696-407d-812e-8c87808c338d",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Between 100,000 and 50,000 years ago we see evidence.  \nThe evidence is pictures in caves.  \nThe pictures show early human society.  \nNo one knows how the pictures are linked to language.  \nTheir brains did not get bigger suddenly.  \nTheir brains became better at thinking.  \nThey could do more things and were smarter.  \nDid language help their brains work better?  \nOr did smarter brains create language?",
+    "version": 11,
+    "created_at": "2025-09-01 17:59:46.175562",
+    "updated_at": "2025-09-01 17:59:46.175562",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "35e634e5-f5ec-4e42-815f-a525d72380a2",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Fidelity Failure. The BERTScore of 0.8859 is below the required 0.90. This indicates a significant loss of key words from the original text. The text also fails for CEFR non-compliance.\n\n- Fidelity Deviation: Key terms like 'cave paintings' and 'human civilisation' were replaced with 'pictures in caves' and 'human society'. This oversimplification reduces lexical fidelity below the acceptable threshold, causing the low BERTScore.\n- CEFR Deviation: The text was classified as B1, not A2. The sentence 'No one knows how the pictures are linked to language' uses a subordinate clause beginning with 'how'. This is a B1 grammatical structure. A2 level requires simpler sentence constructions.\n- Suggestion: Restore key terms like 'cave paintings' to increase fidelity. Break the B1 sentence into two simple A2 sentences. Example: 'The pictures have a link to language. No one knows what it is.'",
+    "metrics": {
+      "cefr_compliance": "B1",
+      "bertscore": 0.8859,
+      "meaningbert": 0.7924
+    },
+    "created_at": "2025-09-01 18:00:21.466793"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "eec35d0c-1148-44aa-a57d-3225140d76d1",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Between 100,000 and 50,000 years ago we see early human civilisation start.  \nWe see this in cave paintings.  \nNo one knows the link between the paintings and language.  \nHuman brains did not get bigger suddenly.  \nBut humans could do more things and were smarter.  \nDid language help brains develop?  \nOr did smarter brains create language?",
+    "version": 3,
+    "created_at": "2025-09-01 17:54:51.196473",
+    "updated_at": "2025-09-01 17:54:51.196475",
+    "metrics_meaningbert": 0.9085,
+    "metrics_cefr_compliance": "A2"
+  }
+}

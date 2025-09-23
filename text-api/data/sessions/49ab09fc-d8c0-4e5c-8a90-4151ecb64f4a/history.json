@@ -1,0 +1,413 @@
+{
+  "session_id": "49ab09fc-d8c0-4e5c-8a90-4151ecb64f4a",
+  "created_at": "2025-09-01 17:53:14.287177",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:53:18.953514",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "01-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Now NASA is working toward tracking some of the smaller asteroids, which are at least 140\u202fmetres wide. Scientists estimate that there are about 25\u202f000 asteroids of this size, but only around 8\u202f000 have been recorded so far, leaving roughly 17\u202f000 still unknown. The 2013 Chelyabinsk event showed how dangerous a 19\u2011metre asteroid can be, when it exploded over the Russian city and injured about 1\u202f200 people. Therefore, these mid\u2011sized asteroids could pose a serious threat if they ever move into Earth\u2019s orbit.",
+      "timestamp": "2025-09-01 17:53:18.953630",
+      "metadata": {
+        "text_id": "9398fa20-0c67-4225-a8aa-6831865d4a01",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-09-01 17:53:19.002720",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9120682c-fbc8-44de-969d-e68c4df77b66",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The output was classified as 'B2', which is too complex for the target B1 level. This is likely due to the use of B2-level vocabulary such as 'pose' (in 'pose a serious threat') and 'roughly'. Additionally, the sentence 'The 2013 Chelyabinsk event showed how dangerous a 19\u2011metre asteroid can be, when it exploded over the Russian city and injured about 1 200 people' uses a complex structure with a subordinate clause that is more characteristic of B2. To meet the B1 requirement, replace 'pose a serious threat' with a simpler alternative like 'be a serious danger'. Replace 'roughly' with 'about' or 'around'. Consider splitting the long sentence about the Chelyabinsk event into two shorter sentences for better B1 readability, for example: 'The 2013 Chelyabinsk event showed how dangerous a 19-metre asteroid can be. It exploded over the Russian city and injured about 1,200 people.'",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9309,
+          "meaningbert": 0.8866
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:53:22.835730",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Now NASA is working toward tracking some of the smaller asteroids, which are at least 140\u202fmetres wide. Scientists estimate that there are about 25\u202f000 asteroids of this size, but only around 8\u202f000 have been recorded so far, leaving about 17\u202f000 still unknown. The 2013 Chelyabinsk event showed how dangerous a 19\u2011metre asteroid can be. It exploded over the Russian city and injured about 1\u202f200 people. So these middle\u2011sized asteroids could be a serious danger if they ever move into Earth\u2019s orbit.",
+      "timestamp": "2025-09-01 17:53:22.835884",
+      "metadata": {
+        "text_id": "18165e93-ccaa-4c30-a50f-4ec3115d7d46",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 17:53:53.328231",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a014969b-4e9c-4c05-8eea-2952bc24186b",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2' instead of the required 'B1'. The primary reason for this is the grammatical complexity of the second sentence: 'Scientists estimate that there are about 25 000 asteroids of this size, but only around 8 000 have been recorded so far, leaving about 17 000 still unknown.' The use of a final participial phrase ('leaving about...') is a structure more typical of the B2 level. To meet the B1 requirement, this sentence should be simplified. Suggestion: Split the sentence into two or three shorter ones, for example: 'Scientists estimate there are about 25,000 asteroids of this size. So far, only around 8,000 have been recorded. This leaves about 17,000 still unknown.' The text successfully passed the factual integrity and meaning preservation checks.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9319,
+          "meaningbert": 0.8897
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:54:02.011222",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Now NASA is working towards tracking some of the smaller asteroids, which are at least 140 metres wide. Scientists estimate there are about 25,000 asteroids of this size. So far, only around 8,000 have been recorded. This leaves about 17,000 still unknown. The 2013 Chelyabinsk event showed how dangerous a 19\u2011metre asteroid can be. It exploded over the Russian city and injured about 1,200 people. So these middle\u2011sized asteroids could be a serious danger if they ever move into Earth\u2019s orbit.",
+      "timestamp": "2025-09-01 17:54:02.011585",
+      "metadata": {
+        "text_id": "dec078e5-b8c1-407c-8497-75adc56bec0c",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 17:54:35.273540",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "82ba9386-8bc3-4fee-a8b4-895e64cf6e04",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The target level is B1, but the output was classified as B2. This is likely due to the use of grammatical structures that are at the high end of B1 and often classified as B2. Specifically, the non-defining relative clause in the first sentence ('...asteroids, which are at least 140 metres wide.') and the embedded question in the fifth sentence ('...showed how dangerous a 19-metre asteroid can be.') increase the complexity. To ensure a B1 classification, consider simplifying these structures. For example, the first sentence could be split into two: 'NASA is tracking smaller asteroids. These asteroids are at least 140 metres wide.' Despite the CEFR classification, the simplification is excellent in all other aspects. Factual integrity is perfect, and the high MeaningBERT (0.86) and BERTScore (0.95) confirm that meaning was preserved. The strategy of breaking down long sentences into shorter, connected ones was very effective.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9513,
+          "meaningbert": 0.8596
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:54:44.035628",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: NASA is tracking smaller asteroids. These asteroids are at least 140 metres wide. Scientists estimate that there are about 25,000 asteroids of this size. So far only around 8,000 have been recorded. This leaves about 17,000 still unknown. The 2013 Chelyabinsk event showed that a 19\u2011metre asteroid can be dangerous. It exploded over a Russian city and injured about 1,200 people. These middle\u2011sized asteroids could be a serious danger if they move into Earth\u2019s orbit.",
+      "timestamp": "2025-09-01 17:54:44.036057",
+      "metadata": {
+        "text_id": "f4a76883-536a-4c47-a29a-b10b661069bc",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 17:55:11.273788",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e2d74355-d0c3-4a92-8c88-60f1467a8e08",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The output was classified as 'B2', which is above the required 'B1' target level. This is likely due to the use of multiple complex sentence structures. For example, the sentences 'Scientists estimate that there are about 25,000 asteroids of this size' and 'These middle-sized asteroids could be a serious danger if they move into Earth\u2019s orbit' use subordinate clauses that increase the text's complexity. To meet the B1 requirement, consider simplifying one of these structures. For instance, the second example could be rewritten as: 'These middle-sized asteroids could move into Earth's orbit. This would be a serious danger.' On a positive note, the text successfully passed the Factual Integrity and Meaning Preservation checks with high scores, indicating the core information was conveyed accurately.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9387,
+          "meaningbert": 0.8835
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:55:17.922089",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: NASA is tracking smaller asteroids. These asteroids are at least 140 metres wide. Scientists estimate about 25,000 asteroids of this size. So far only around 8,000 have been recorded. This leaves about 17,000 still unknown. The 2013 Chelyabinsk event showed that a 19\u2011metre asteroid can be dangerous. It exploded over a Russian city and injured about 1,200 people. These middle\u2011sized asteroids could move into Earth's orbit. This would be a serious danger.",
+      "timestamp": "2025-09-01 17:55:17.922427",
+      "metadata": {
+        "text_id": "7cf83bad-6b75-4fd6-8cca-c6b889d92409",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:55:48.119067",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "29cb589f-4465-4538-b2e9-ea777684a731",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'A2' instead of the required 'B1'. While the submission is factually accurate and preserves the original meaning well, it over-simplifies the sentence structure. The original text's complex sentences were broken down into too many short, simple sentences, resulting in a choppy flow that lacks the complexity expected at the B1 level. For example, the final two sentences, 'These middle\u2011sized asteroids could move into Earth's orbit. This would be a serious danger,' should be combined. Suggestion: To achieve a B1 level, combine some of these simple sentences using connectors and conditional clauses, such as 'Therefore, these middle-sized asteroids would be a serious danger if they moved into Earth's orbit.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9365,
+          "meaningbert": 0.8682
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:55:53.233444",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: NASA is tracking smaller asteroids that are at least 140 metres wide. Scientists estimate that there are about 25,000 such asteroids, and only around 8,000 have been recorded so far, leaving roughly 17,000 still unknown. The 2013 Chelyabinsk event showed that a 19\u2011metre asteroid can be dangerous; it exploded over a Russian city and injured about 1,200 people. Therefore, these middle\u2011sized asteroids would be a serious danger if they moved into Earth's orbit.",
+      "timestamp": "2025-09-01 17:55:53.233745",
+      "metadata": {
+        "text_id": "450313b5-3469-4b70-af62-c457c082dcf3",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-09-01 17:56:22.224778",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f9d960e0-2ca9-46ec-829c-a041523bf49a",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2', which is above the target 'B1' level. This is likely due to sentence structures that are too complex. For example, the sentence '...so far, leaving roughly 17,000 still unknown' uses a participial clause ('leaving...') which is a B2-level structure. Suggestion: Rephrase this as two simpler sentences, such as '...so far. This leaves roughly 17,000 still unknown.' Additionally, the use of a semicolon in '...can be dangerous; it exploded...' is more common at B2. Suggestion: Replace the semicolon with a full stop to create two separate sentences. These changes will help align the text with B1-level grammatical expectations.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9395,
+          "meaningbert": 0.9091
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:56:29.203999",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: NASA is tracking smaller asteroids that are at least 140 metres wide. Scientists estimate that there are about 25,000 such asteroids, and only around 8,000 have been recorded so far. This leaves about 17,000 still unknown. The 2013 Chelyabinsk event showed that a 19\u2011metre asteroid can be dangerous. It exploded over a Russian city and injured about 1,200 people. Therefore, these middle\u2011sized asteroids would be a serious danger if they moved into Earth's orbit.",
+      "timestamp": "2025-09-01 17:56:29.204314",
+      "metadata": {
+        "text_id": "53823a97-019b-4cc8-9258-6b9ebeb4d4f7",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 7/10 - FAIL",
+      "timestamp": "2025-09-01 17:57:02.104672",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e2e11a70-8aa5-42d0-b1aa-538059fddc16",
+        "grade": 7,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2', which is too complex for the target B1 level. While the simplification was generally excellent, the final sentence likely caused the higher classification: 'Therefore, these middle\u2011sized asteroids would be a serious danger if they moved into Earth's orbit.' The combination of the connector 'Therefore', the modal verb 'would', and the conditional 'if' clause creates a grammatical structure more typical of B2. To meet the B1 requirement, this sentence could be simplified further, for example: 'This shows that these middle-sized asteroids are a serious danger. They could cause a lot of damage if they enter Earth's orbit.' On a positive note, the submission passed all factual integrity and meaning preservation checks with high scores, and the strategy of splitting the original complex sentence was very effective.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9382,
+          "meaningbert": 0.8686
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:57:14.423720",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: NASA is tracking smaller asteroids that are at least 140 metres wide. Scientists estimate that there are about 25,000 such asteroids, and only around 8,000 have been recorded so far. This leaves about 17,000 still unknown. The 2013 Chelyabinsk event showed that a 19\u2011metre asteroid can be dangerous. It exploded over a Russian city and injured about 1,200 people. This shows that these middle\u2011sized asteroids are a serious danger. They could cause a lot of damage if they enter Earth's orbit.",
+      "timestamp": "2025-09-01 17:57:14.424135",
+      "metadata": {
+        "text_id": "588fcac9-f0fb-4d41-b9d4-9a52ca60fa2c",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 17:57:45.124860",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f0ce6e21-259d-4ff5-8ffd-94420604911e",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The output was classified as 'B2', which is above the target 'B1' level. While the text passed the critical checks for factual integrity and meaning preservation, its linguistic complexity is too high. The B2 classification is likely due to the combination of several features, such as the passive voice in 'have been recorded' and the repeated use of reporting clauses like 'Scientists estimate that...'. To correct this, simplify one of these more complex structures. For example, 'and only around 8,000 have been recorded so far' could be rephrased as 'and they have only recorded around 8,000 of them'. Despite this issue, the strategy of breaking down the original long sentence was excellent and greatly improved clarity.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9339,
+          "meaningbert": 0.8712
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:57:53.463784",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: NASA is tracking smaller asteroids that are at least 140 metres wide. They think there are about 25,000 of these asteroids, and they have only recorded around 8,000 of them. That means about 17,000 are still unknown. The 2013 Chelyabinsk event showed that a 19\u2011metre asteroid can be dangerous. It exploded over a Russian city and injured about 1,200 people. So these middle\u2011sized asteroids are a serious danger. They could cause a lot of damage if they enter Earth's orbit.",
+      "timestamp": "2025-09-01 17:57:53.464281",
+      "metadata": {
+        "text_id": "b837fd9f-bcc3-4a08-9e57-50a30da9343e",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:58:17.443328",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d2f5b854-025f-48be-9515-2c770128156e",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2' instead of the required 'B1'. The primary reason for this is likely the use of the word 'means' in the sentence 'That means about 17,000 are still unknown,' as 'means' is often classified as B2-level vocabulary. To correct this and meet the B1 target, replace this phrase with a simpler alternative. Suggestion: Change 'That means about 17,000 are still unknown' to 'So, about 17,000 are still unknown.' The submission is otherwise strong, passing both factual integrity and meaning preservation checks with high scores.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9309,
+          "meaningbert": 0.8952
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:58:24.874651",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: NASA is tracking smaller asteroids that are at least 140 metres wide. They think there are about 25,000 of these asteroids, and they have only recorded around 8,000 of them. So, about 17,000 are still unknown. The 2013 Chelyabinsk event showed that a 19\u2011metre asteroid can be dangerous. It exploded over a Russian city and injured about 1,200 people. So these middle\u2011sized asteroids are a serious danger. They could cause a lot of damage if they enter Earth's orbit.",
+      "timestamp": "2025-09-01 17:58:24.875558",
+      "metadata": {
+        "text_id": "5a3d0ca9-aedd-4d9c-a1d3-9f1d950caeea",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:58:55.314547",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d668cabd-6f16-41a3-b7b9-18e69920b5ab",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2' instead of the required 'B1'. While the simplification strategy of splitting the long final sentence was excellent and the vocabulary choices were appropriate, the resulting text likely has too high a density of complex grammatical structures for a B1 level. The paragraph contains a relative clause ('asteroids that are...'), a compound sentence, a noun clause ('showed that...'), and a conditional clause ('if they enter...'). This combination likely pushed the classification to B2. Suggestion: To lower the complexity, simplify one of these structures further. For example, change the first sentence to 'NASA is tracking smaller asteroids. These asteroids are at least 140 metres wide.' This would reduce the grammatical density and help achieve the target B1 classification. The submission is commended for its perfect factual accuracy and high meaning preservation scores.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9299,
+          "meaningbert": 0.8745
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:59:04.686304",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: NASA is tracking smaller asteroids. These asteroids are at least 140 metres wide. Scientists think there are about 25,000 of them. They have recorded only about 8,000. That means about 17,000 are still unknown. The 2013 Chelyabinsk event was caused by a 19\u2011metre asteroid. It injured about 1,200 people. These middle\u2011sized asteroids are a serious danger. They could cause a lot of damage by entering Earth\u2019s orbit.",
+      "timestamp": "2025-09-01 17:59:04.687719",
+      "metadata": {
+        "text_id": "dc89a3f7-a386-46e8-a2e2-6d5ef72c0ae4",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:59:28.631126",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f52fc34d-e38b-43c2-905e-fd2b380661ee",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'A2', which is below the required 'B1' target level. While the simplification is factually accurate and preserves the core meaning, it has been oversimplified. The output consists of a series of very short, simple sentences that lack the complexity and flow expected at a B1 level. For example, the sentences 'They have recorded only about 8,000. That means about 17,000 are still unknown.' are choppy. To correct this, combine sentences using B1-level connectors to create more complex structures and improve readability. A better alternative would be: 'Scientists think there are about 25,000 of them, but they have only recorded about 8,000, which means about 17,000 are still unknown.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9233,
+          "meaningbert": 0.873
+        }
+      }
+    }
+  ]
+}

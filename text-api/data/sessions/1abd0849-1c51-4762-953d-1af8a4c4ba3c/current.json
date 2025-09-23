@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "b760f54f-fb1e-4793-b33b-694838fec132",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "It is good to know about different cultures. A culture is the way a group of people live. This can help us talk to people without problems. But we must be careful with stereotypes. A stereotype is a simple, wrong idea about a group of people. Stereotypes are bad for business. They can stop us from building good business relationships.\n\nA person's country is important. It changes their thoughts and actions. But many other things are also important. These things make a person. The area they come from is important. Their age and their friends are important. If they are a man or a woman is also important. Their company and their life also change them.\n\nSo, it is good to know about these differences. But we should keep this knowledge in our minds. We should not use it to think about people in a simple way. We must not think all people from one country are the same. We must see every person as one person.",
+    "version": 6,
+    "created_at": "2025-09-01 01:15:05.367237",
+    "updated_at": "2025-09-01 01:15:05.367246",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "8237ba5d-94ee-4d1f-bf13-52a0849f9a7e",
+    "approval": "FAIL",
+    "grade": 2,
+    "feedback": "FAIL: Meaning Preservation Failure. The primary reason for failure is the catastrophic loss of meaning, evidenced by a MeaningBERT score of 0.5553, which is far below the required 0.75 threshold. The text also fails the fidelity check with a BERTScore of 0.8695, below the 0.90 minimum.\n\n- MeaningBERT Failure: The original text's core message is about the subtle balance between cultural awareness and the danger of stereotyping. Your version oversimplifies this to a basic list of facts, losing the crucial concept that this knowledge should be kept 'at the back of our minds' and not used to 'pigeonhole' people. This loss of nuance is a critical failure.\n- BERTScore Failure: Key lexical items from the original were completely removed, not simplified. Terms like 'miscommunication', 'detrimental', 'corporate culture', and 'pigeonhole' carry significant weight. Their removal resulted in a text that does not faithfully represent the original's vocabulary.\n- CEFR Compliance Failure: The text is incorrectly classified as B1, not A2. This is due to unacceptable grammatical complexity. The sentence 'If they are a man or a woman is also important' uses a subordinate clause as the subject, which is a B1 structure.\n- Corrective Actions:\n- Suggestion: Restore the core meaning. The text must communicate the idea of holding knowledge in reserve, not just having it. Rephrase the final paragraph to reflect this.\n- Suggestion: Fix the B1 grammar. Rephrase the complex sentence. Use 'It is also important if a person is a man or a woman.' This is a simpler A2 structure.\n- Suggestion: The simplification was too aggressive, leading to meaning loss. You must simplify while preserving the specific concepts of the original text.",
+    "metrics": {
+      "cefr_compliance": "B1",
+      "bertscore": 0.8695,
+      "meaningbert": 0.5553
+    },
+    "created_at": "2025-09-01 01:15:35.842433"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "cf9458fd-ad6a-4412-b063-13c5476aff15",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Culture is the way people in a country live, think, and act.\n\nIt is good to know about different cultures. This helps us understand people better. But we must be careful. We should not use simple ideas about a group of people. These ideas are often wrong. They can break good business relationships.\n\nA person's country is important. It changes how they act and think. But many other things also make a person who they are. For example, their age and their family are important. The company they work for is important. And the things that happen in their life are important.\n\nSo, we should remember that people can be different. But we must not think everyone from one country is the same. We must know each person as a person.",
+    "version": 2,
+    "created_at": "2025-09-01 01:11:59.029341",
+    "updated_at": "2025-09-01 01:11:59.029352",
+    "metrics_meaningbert": 0.542,
+    "metrics_cefr_compliance": "A2"
+  }
+}

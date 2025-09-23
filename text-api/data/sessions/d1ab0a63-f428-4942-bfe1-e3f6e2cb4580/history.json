@@ -1,0 +1,228 @@
+{
+  "session_id": "d1ab0a63-f428-4942-bfe1-e3f6e2cb4580",
+  "created_at": "2025-09-01 01:10:40.737271",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 01:10:40.757317",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "16-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last two hundred years, improvements in technology and health meant that fewer children died young, which led to rapid population growth. These large families then had even more children who lived long enough to become adults and have their own families. However, when contraception, which are methods used to prevent pregnancy, became more widely available in the 1960s, the global average number of babies per woman has fallen from six to as low as two.",
+      "timestamp": "2025-09-01 01:10:40.757449",
+      "metadata": {
+        "text_id": "7d1f5ac3-34d9-4833-8f50-6b999d747a40",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 01:10:40.763262",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7e954906-349e-4714-a6a6-27b71531ae7c",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2', which is too complex for the required 'B1' target. While the output is factually correct and preserves the original meaning well, its grammatical structure is too advanced. The primary issue is the final sentence: 'However, when contraception, which are methods used to prevent pregnancy, became more widely available in the 1960s, the global average number of babies per woman has fallen from six to as low as two.' This sentence is overly long and contains multiple clauses, including an embedded non-defining relative clause used for the definition. This complex structure is characteristic of a B2 level. Suggestion: To achieve a B1 level, the definition and the main point should be in separate, simpler sentences. For example: 'Contraception means using methods to prevent pregnancy. In the 1960s, contraception became easier for people to get. As a result, the average number of babies per woman fell from six to two.'",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9623,
+          "meaningbert": 0.8527
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 01:10:53.158532",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last two hundred years, improvements in technology and health meant that fewer children died young, which led to rapid population growth. These large families then had even more children who lived long enough to become adults and have their own families. Contraception means using methods to prevent pregnancy. In the 1960s, contraception became more widely available. As a result, the global average number of babies per woman has fallen from six to as low as two.",
+      "timestamp": "2025-09-01 01:10:53.159925",
+      "metadata": {
+        "text_id": "92cb435a-7c82-4237-8b88-73805c229392",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-09-01 01:11:19.001688",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e81c7a92-bd00-4efe-aa32-b163dfe8b9bb",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2', which is above the target 'B1' level. The primary reason for this is the structural complexity of the first sentence: 'In the last two hundred years, improvements in technology and health meant that fewer children died young, which led to rapid population growth.' Using a 'that' clause followed by a 'which' clause that refers to the entire preceding idea is a B2-level structure. To fix this, split the sentence into two or three simpler ideas. For example: 'In the last two hundred years, technology and health improved. This meant fewer children died young, and it led to rapid population growth.' On a positive note, the submission was factually accurate and scored very high on meaning preservation (MeaningBERT 0.90, BERTScore 0.96). The handling of the keyword 'contraception' by providing a clear definition was also excellent.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9571,
+          "meaningbert": 0.9046
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 01:11:38.531057",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last two hundred years, improvements in technology and health meant that fewer children died young. This led to rapid population growth. These large families then had even more children who lived long enough to become adults and have their own families. Contraception means using methods to prevent pregnancy. In the 1960s, contraception became more widely available. As a result, the global average number of babies per woman has fallen from six to as low as two.",
+      "timestamp": "2025-09-01 01:11:38.531507",
+      "metadata": {
+        "text_id": "3137bfd6-f7f4-4dd5-ad92-aef6b60256b4",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-09-01 01:12:01.640230",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ee6544c4-8663-4e71-927e-b9fc5bac2032",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'A2', which is below the required 'B1' target. This is because the original complex sentences were broken down into too many short, simple sentences, such as 'This led to rapid population growth.' While factually correct and clear, this choppiness is characteristic of an A2 level. To improve, try to combine some of these sentences to create more B1-level structures. For example, 'When contraception became more widely available in the 1960s, the global average number of babies per woman fell from six to two.' This uses a subordinate clause, which is appropriate for B1. On a positive note, the factual integrity was perfect, meaning preservation scores were high, and the keyword 'contraception' was defined clearly.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9571,
+          "meaningbert": 0.9105
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 01:12:18.065224",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last two hundred years, improvements in technology and health meant that fewer children died young, which led to rapid population growth. These large families then had even more children who lived long enough to become adults and have their own families. Contraception means using methods to prevent pregnancy. However, when contraception became more widely available in the 1960s, the global average number of babies per woman fell from six to as low as two.",
+      "timestamp": "2025-09-01 01:12:18.067718",
+      "metadata": {
+        "text_id": "99b96e4c-518c-4fd1-aacf-955c5143e680",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 01:12:41.270744",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "99963757-a25a-4fd0-915c-da6709be9a23",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The output was classified as B2, which is too complex for the target B1 level. The primary reason is sentence structure. The first sentence, 'In the last two hundred years, improvements in technology and health meant that fewer children died young, which led to rapid population growth,' is too complex. The use of a non-defining relative clause ('which led to...') to refer to the entire preceding clause is a B2-level structure. Suggestion: Split this into two simpler sentences, such as: 'In the last two hundred years, technology and health improved. This meant fewer children died young, and the population grew quickly.' Additionally, while the keyword 'contraception' was correctly defined, the definition introduced the C1-level word 'pregnancy'. A simpler definition like 'Contraception means using methods to stop a woman from having a baby' would be more appropriate for a B1 audience.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9591,
+          "meaningbert": 0.8794
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 01:12:55.803222",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last two hundred years, improvements in technology and health meant that fewer children died young. This led to rapid population growth. These large families then had even more children who lived long enough to become adults and have their own families. Contraception means using methods to stop a woman from having a baby. However, when contraception became more widely available in the 1960s, the global average number of babies per woman fell from six to as low as two.",
+      "timestamp": "2025-09-01 01:12:55.804595",
+      "metadata": {
+        "text_id": "101ee128-9052-470c-86f1-446393730373",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 01:13:17.457287",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "43a55f70-1702-49a1-85f2-517423f9f705",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2', which is above the target 'B1' level. The failure is likely due to complex sentence structures. For example, the sentence 'However, when contraception became more widely available in the 1960s, the global average number of babies per woman fell from six to as low as two' combines a connector, a subordinate time clause, and a dense noun phrase. Suggestion: Simplify this by breaking it into shorter sentences, such as 'However, contraception became more available in the 1960s. After this, the average number of babies for each woman in the world fell from six to two.' The text successfully preserved all facts and meaning, and correctly defined the keyword 'contraception', but the sentence complexity must be reduced to meet the B1 requirement.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9569,
+          "meaningbert": 0.8592
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 01:13:32.432859",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last two hundred years, improvements in technology and health meant that fewer children died young. This led to rapid population growth. These large families then had even more children who lived long enough to become adults and have their own families. Contraception means using methods to stop a woman from having a baby. However, contraception became more available in the 1960s. After this, the average number of babies for each woman in the world fell from six to two.",
+      "timestamp": "2025-09-01 01:13:32.436286",
+      "metadata": {
+        "text_id": "bd1e08ba-5b07-4120-87e0-c29dd4fd8231",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 01:13:55.222832",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "511f4b63-d027-4de0-950e-6014b8f80da5",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'A2', which is below the required 'B1' target. While the simplification is factually correct, preserves meaning well (as shown by high MeaningBERT and BERTScore values), and successfully defines the keyword 'contraception', the sentence structure is overly simplified for the B1 level. The strategy of breaking the original text into very short, declarative sentences (e.g., 'This led to rapid population growth.') resulted in a text that lacks the complexity expected at B1. To improve, try to combine some of these short sentences using B1 connectors like 'because' or 'which'. For example, 'Because of improvements in technology and health, fewer children died young, which led to rapid population growth.' This would create a more fluent text with the sentence variety needed for a B1 classification.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9469,
+          "meaningbert": 0.8615
+        }
+      }
+    }
+  ]
+}

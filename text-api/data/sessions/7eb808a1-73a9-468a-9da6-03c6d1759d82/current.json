@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "5845807a-a9b2-41e4-9caa-53477354c71e",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "The sun was bright, so Sam closed his eyes a little. He looked at a car far away. The car made dust go up into the air. It went to the Big House. The horses moved their tails. They did not care about their owner. This was his first visit in ten months. Sam waited. Mr Carter was his boss. Mr Carter only came here when it was important. This was good for Sam. He knew he must stay away from his boss to keep his job. Mr Carter was hot. He cleaned the sweat from his neck. His shirt was wet in some parts. The wet parts looked like maps. His skin was getting red in the June sun. But his skin showed he did not work outside. He was a rich man. He worked inside while other people did the hard work.",
+    "version": 6,
+    "created_at": "2025-09-01 10:33:46.590609",
+    "updated_at": "2025-09-01 10:33:46.590615",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "652f5995-cbca-4bf0-9533-7ba7f9b91180",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5624 is significantly below the required 0.75 threshold. This indicates a severe loss of the original text's core message and characterization. The original's nuance about Sam's job security and the implied judgment of Mr. Carter was lost in the simplification.\n\n- Vocabulary Violation: The B1-level word 'dust' was used. This word is not on the A2 list and must be replaced or explained in simpler terms. Suggestion: Rephrase to 'The car made the dry ground go up into the air'.\n\n- Structural Complexity: The text uses B1-level sentence structures. The sentence 'He knew he must stay away from his boss to keep his job' is a complex clause. The sentence 'his skin showed he did not work outside' is also a complex clause. These must be broken into simple A2 sentences. Suggestion: Rewrite 'He knew he must stay away...' to 'He had a job. He wanted to keep his job. So, he stayed away from his boss.'\n\n- Loss of Detail: The original text states the horses kicked at flies. Your version, 'The horses moved their tails', loses this specific detail, contributing to the low fidelity score.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.9005,
+      "meaningbert": 0.5624
+    },
+    "created_at": "2025-09-01 10:34:11.857770"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "8858ef3c-3b19-452f-9d14-a72052d50224",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "The sun was bright. Sam closed his eyes a little. He looked at a car far away. The car made the dirt go up into the air. It was going to the Big House.\n\nThe horses moved their tails. They did not care about their owner. This was his first visit in ten months.\n\nSam waited. Mr Carter was his boss. Mr Carter only came here when it was important. Sam was happy about this. He knew he could keep his job if he stayed away from his boss.\n\nMr Carter was hot. He cleaned the sweat from his neck. His shirt was wet in some parts. The wet parts looked like maps. His skin was getting red in the June sun. But his skin was not dark. He was a man with money. Other people did the work for him.",
+    "version": 2,
+    "created_at": "2025-09-01 10:30:26.442625",
+    "updated_at": "2025-09-01 10:30:26.442631",
+    "metrics_meaningbert": 0.5886,
+    "metrics_cefr_compliance": "A2"
+  }
+}

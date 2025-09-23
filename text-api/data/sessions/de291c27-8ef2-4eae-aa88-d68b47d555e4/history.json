@@ -1,0 +1,43 @@
+{
+  "session_id": "de291c27-8ef2-4eae-aa88-d68b47d555e4",
+  "created_at": "2025-08-31 23:47:30.548156",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-08-31 23:47:30.558905",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "01-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: NASA is now working to record some of the smaller asteroids, which are space rocks that travel around the Sun, especially those that are 140 metres wide or more. Of the estimated 25,000 asteroids of this size, about 8,000 have been recorded so far, which leaves 17,000 still not found. In 2013, a 19-metre asteroid exploded above the city of Chelyabinsk in Russia and injured 1,200 people. For this reason, these middle-sized asteroids could be very dangerous if they enter Earth's orbit.",
+      "timestamp": "2025-08-31 23:47:30.559429",
+      "metadata": {
+        "text_id": "fcf383f1-44eb-4c24-8753-e0adef48adef",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-08-31 23:47:30.569153",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "328a8c02-da96-4974-818c-55f44dca813a",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2' likely because of long sentences with embedded clauses and complex connectors. For example, the sentence \"NASA is now working to record some of the smaller asteroids, which are space rocks that travel around the Sun, especially those that are 140 metres wide or more.\" contains a parenthetical definition and multiple clauses that exceed B1 complexity. To correct this, split it into shorter sentences and use simpler linking words. Instead of \"For this reason,\" use \"So\" or \"That is why.\" This will reduce syntactic complexity and align the text with the expected B1 level.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9601,
+          "meaningbert": 0.8479
+        }
+      }
+    }
+  ]
+}

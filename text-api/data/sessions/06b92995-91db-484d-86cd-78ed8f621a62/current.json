@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "772451bb-812c-48da-9732-40e0b76ff12f",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "In the last 200 years, technology and health got better.\nThis meant fewer children died young, so the number of people grew very fast.\nFamilies were very large.\nTheir children also survived and had more children.\nBut in the 1960s, contraception became easier to get.\nContraception is a medicine or a thing. It stops a woman from having a baby.\nBecause of this, the average number of babies for one woman in the world went down from six to about two.",
+    "version": 16,
+    "created_at": "2025-08-31 21:20:34.064476",
+    "updated_at": "2025-08-31 21:20:34.064490",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "8ee4207d-cac1-4e75-b5a1-133084b852e3",
+    "approval": "FAIL",
+    "grade": 4,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7308 is below the required 0.75 threshold. The text fails to adequately preserve the core message of the original.\n\n- Primary Deviation: The original text establishes a direct causal link: 'improvements... fuelling rapid population growth'. Your version weakens this relationship by splitting it into two separate statements: 'technology and health got better' and 'This meant fewer children died young, so the number of people grew very fast'. This separation reduces the semantic strength of the cause-and-effect relationship, resulting in a lower meaning score.\n\n- Secondary Deviation: The original text states the number of babies declined 'to as low as two'. Your version uses 'to about two'. This changes the meaning from a specific lower boundary to a general approximation, losing critical precision from the source text.\n\n- Suggestion: Rephrase to more directly connect the cause and effect. For example: 'Because technology and health got better, fewer children died young and the population grew very fast.'\n\n- Suggestion: Restore the original precision. The phrase 'as low as two' must be simplified while retaining its meaning, not replaced with an approximation. Use 'went down to only two'.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.9186,
+      "meaningbert": 0.7308
+    },
+    "created_at": "2025-08-31 21:21:02.905906"
+  },
+  "attempt_number": 16,
+  "best_attempt": {
+    "id": "772451bb-812c-48da-9732-40e0b76ff12f",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "In the last 200 years, technology and health got better.\nThis meant fewer children died young, so the number of people grew very fast.\nFamilies were very large.\nTheir children also survived and had more children.\nBut in the 1960s, contraception became easier to get.\nContraception is a medicine or a thing. It stops a woman from having a baby.\nBecause of this, the average number of babies for one woman in the world went down from six to about two.",
+    "version": 16,
+    "created_at": "2025-08-31 21:20:34.064476",
+    "updated_at": "2025-08-31 21:20:34.064490",
+    "metrics_meaningbert": 0.7308,
+    "metrics_cefr_compliance": "A2"
+  }
+}

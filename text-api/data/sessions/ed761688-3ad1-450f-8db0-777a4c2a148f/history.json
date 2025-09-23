@@ -1,0 +1,80 @@
+{
+  "session_id": "ed761688-3ad1-450f-8db0-777a4c2a148f",
+  "created_at": "2025-08-31 23:45:15.639796",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:45:15.645124",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "02-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes can break buildings and bridges. But bridges do not fall down often. Modern bridges are even safer. Engineers design bridges carefully in places with earthquakes. They choose strong ground that moves less. So the bridges stay safe when the ground shakes.",
+      "timestamp": "2025-08-31 23:45:15.645555",
+      "metadata": {
+        "text_id": "82db8027-8ecf-4730-8e4a-ab34de7017e9",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:45:15.653125",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "72893471-7943-41a3-846a-63777ed19297",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6629 is below the required 0.75. The rewritten text replaces \u201cdamage all structures, including bridges\u201d with \u201cbreak buildings and bridges,\u201d losing the broad scope of damage. It also changes \u201careas that are much more resistant to movement\u201d to \u201cstrong ground that moves less,\u201d oversimplifying the concept. Suggestion: Restore the phrase \u201cdamage all structures, including bridges.\u201d Retain \u201cengineers have learned to design bridges in earthquake zones\u201d and use \u201cresistant to movement\u201d to match the original meaning exactly.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9102,
+          "meaningbert": 0.6629
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:46:09.888967",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes damage all structures, including bridges. But this kind of collapse is not common. It is rare, especially with modern bridges. Engineers learned how to design bridges in earthquake zones. They build on areas that are much more resistant to movement.",
+      "timestamp": "2025-08-31 23:46:09.890959",
+      "metadata": {
+        "text_id": "eb06c2e0-b49c-411f-8cd2-601ab04917cf",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-08-31 23:46:25.350593",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d889670d-e7aa-48e5-81de-0ebe617635f5",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR vocabulary compliance. Contains words beyond A2 level.\n- earthquakes (level B1)\n- damage (level B1)\n- rare (level B1)\n- collapse (level B2)\nSuggestion: Replace these with A2-level words such as 'shake' for earthquakes, 'hurt' or 'break' for damage, 'not often' for rare, 'fall' for collapse. Ensure all vocabulary stays within A2.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9697,
+          "meaningbert": 0.8317
+        }
+      }
+    }
+  ]
+}

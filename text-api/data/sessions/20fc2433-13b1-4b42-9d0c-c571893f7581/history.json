@@ -1,0 +1,598 @@
+{
+  "session_id": "20fc2433-13b1-4b42-9d0c-c571893f7581",
+  "created_at": "2025-08-31 21:02:06.665836",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:02:06.676143",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "08-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes you dream about something. For example, you dream a friend calls you. Or you dream that someone you know dies. Then, this thing happens in real life.\n\nYou may think your dream showed you the future. But this is probably not true. It is just a coincidence. This means it happened by chance. We also forget many dreams. We dream about things, but then they do not happen. We only remember the dreams that come true.",
+      "timestamp": "2025-08-31 21:02:06.677183",
+      "metadata": {
+        "text_id": "bbc98da9-a8e5-45c6-8c5d-a292763ab2c4",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 21:02:06.690837",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7f272f8a-e55e-4716-b8b6-97dae4e99f10",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6606 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message. The BERTScore of 0.882 is also below the 0.90 minimum, confirming a loss of key phrasing.\n\n- Primary Failure: The original text presents a contrast between 'coincidence' and 'prophecy'. Your version explains coincidence but fails to include the opposing idea of prophecy (seeing the future), which is central to the original meaning. This is why the MeaningBERT score is low.\n- Vocabulary Violation: The word 'coincidence' is B2 level. You are required to use A2 vocabulary. Defining a B2 word is not a substitute for using an A2 word. The phrase 'happened by chance' should have been used instead of the word 'coincidence'.\n- Lexical Loss: The phrase 'death of someone close' was simplified to 'someone you know dies'. This simplification, while understandable, contributes to the low BERTScore by losing lexical fidelity.\n\nSuggestion: Rewrite the text to explicitly state the contrast. For example: 'You may think your dream can tell you the future, but it cannot.' Remove the B2 word 'coincidence' and use the A2 phrase 'it happened by chance' directly. Restore the concept of 'forgetting' as a deliberate choice, as implied by the original's 'we probably choose to forget'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.882,
+          "meaningbert": 0.6606
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:02:19.872534",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes you dream about an old friend.\nFor example, they call you on the phone.\nOr you dream that someone close to you dies.\nThen, this thing happens in real life.\nYou may think your dream tells you the future.\nBut this is probably not true.\nIt just happened by chance.\nWe also have many dreams that do not happen.\nWe probably choose to forget those dreams.\nWe only remember the dreams that come true.",
+      "timestamp": "2025-08-31 21:02:19.873079",
+      "metadata": {
+        "text_id": "b5624c8b-e233-4ffc-9a85-d463d6d33468",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 21:02:42.728169",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "95b9acc1-609e-47fc-a240-73b1f3afdac8",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8868 is below the required 0.90 threshold. This is a high-priority failure.\n\n- The low score indicates a significant loss of key words and phrasing from the original text.\n- The original text contrasts 'coincidence' with 'prophecy'. Your version explains coincidence ('happened by chance') but only implies the opposite of prophecy ('your dream tells you the future... this is probably not true'). This rephrasing loses lexical fidelity.\n- The original phrase 'such events' was omitted, further reducing the score.\n- While the text correctly simplifies the concept for an A2 audience and passes the MeaningBERT check, it deviates too far from the source text's specific vocabulary, resulting in this failure.\n\nSuggestion: To increase fidelity, you must retain more key terms from the source. Rephrase to more directly contrast the concepts. For example: 'You may think the dream shows the future, but it is just a coincidence.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8868,
+          "meaningbert": 0.7667
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:03:07.897680",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: You may dream about a phone call from an old friend.\nOr you may dream about the death of someone close.\nYou may think the dream shows the future.\nBut it is more likely a coincidence.\nWe also forget all the times we dream about such events.\nAnd these events do not happen.",
+      "timestamp": "2025-08-31 21:03:07.899002",
+      "metadata": {
+        "text_id": "646c4472-b43e-41ee-a072-0801390dcaf5",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 21:03:33.242669",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "dfd38205-e4e8-4bb6-9d85-28f4b6883a0c",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Standard Violation. The text fails because it uses a word that is not on the A2-level vocabulary list.\n\n- B2 Vocabulary Used: The word 'coincidence' is classified as B2 level. Its inclusion is an immediate failure. A2 texts must strictly adhere to A2 vocabulary or define more complex words in simple terms. This word was not defined.\n\n- Structural Complexity: The sentence 'We also forget all the times we dream about such events' uses a relative clause ('we dream about such events') to describe 'times'. This structure is at the upper limit of A2 complexity and risks being classified as B1.\n\nSuggestion: Replace 'coincidence' with an A2-level explanation. Rephrase the sentence to 'But it is more likely that two things just happen at the same time by chance.' Simplify the complex sentence into two separate ideas. For example: 'We also dream about these events many times. But we forget when they do not happen.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.917,
+          "meaningbert": 0.8643
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:03:47.283200",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: You may dream about a phone call from an old friend.\nOr you may dream about the death of someone close.\nYou may think the dream shows the future.\nBut it is more likely that two things just happen at the same time.\nWe also dream about these events many times.\nBut we forget when they do not happen.",
+      "timestamp": "2025-08-31 21:03:47.283623",
+      "metadata": {
+        "text_id": "d9bd93e6-a70d-4613-9ecb-1202d8867332",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:04:17.588374",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f70e99d5-044a-4c09-9d51-dcf7972e9450",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with all A2 standard requirements.\n\n- Factual Integrity: The output is factually identical to the original text.\n- Meaning and Fidelity: The metrics are excellent. MeaningBERT at 0.82 and BERTScore at 0.903 confirm that the core message and key lexical items have been preserved with high fidelity.\n- CEFR Compliance: The A2 classification is correct. The text avoids complex structures and vocabulary that would push it into the B1 level.\n- Qualitative Audit: The vocabulary is strictly confined to the A1 and A2 levels. The simplification of 'coincidence' to 'two things just happen at the same time' and 'prophecy' to 'the dream shows the future' is a model of effective A2 writing. Sentence structure is simple, clear, and uses appropriate A2-level connectors. No deviations were found.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.903,
+          "meaningbert": 0.82
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:04:25.988038",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: You may dream about a phone call from an old friend.\nOr you may dream about the death of someone close.\nYou may think the dream shows the future.\nBut it is more likely that two things just happen at the same time.\nWe also dream about these events many times.\nBut we forget when they do not happen.",
+      "timestamp": "2025-08-31 21:04:25.990140",
+      "metadata": {
+        "text_id": "cf2ffca4-5426-43cc-accb-33de77cc7158",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 21:04:47.311611",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ea04ce1e-dbe4-4e4d-9cc8-633339c04d25",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text uses a grammatical structure above the A2 level, despite the classifier's A2 rating. Your qualitative analysis must be more rigorous than the automated tool. The sentence 'But it is more likely that two things just happen at the same time' uses a 'that-clause' following an adjective ('likely that...'). This is a B1 grammatical structure and is an unacceptable deviation from the A2 standard. Suggestion: Rephrase to eliminate the complex clause. Use two simple sentences. Example: 'This is not the future. It is more likely two things happening at the same time.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.903,
+          "meaningbert": 0.82
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:05:17.896818",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: You may dream about a phone call from an old friend.\nOr you may dream about the death of someone close.\nYou may think the dream shows the future.\nBut it is not the future.\nIt is more likely two things are just happening at the same time.\nWe also dream about these events many times.\nBut we forget when they do not happen.",
+      "timestamp": "2025-08-31 21:05:17.897345",
+      "metadata": {
+        "text_id": "542927ab-a567-4b5a-a501-79c30176ae28",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-08-31 21:05:43.860789",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "afdf7278-339b-42b9-abd6-b122c3a3b8c8",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8977 is below the required 0.90 threshold. This indicates a loss of key words and phrasing from the original text. The text successfully simplifies complex ideas for an A2 audience, but in doing so, it deviates too far from the original's specific vocabulary. The original's term 'coincidence' was replaced with 'two things are just happening at the same time'. While the meaning is similar, the lexical loss is what caused the score to drop below the minimum requirement. The nuance in 'we probably choose to forget' was also lost in the simplification to 'we forget'. Suggestion: Revise the text to re-integrate key concepts from the original more directly, which will improve the fidelity score. The core structure is sound, but the phrasing must align more closely with the source material to pass.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8977,
+          "meaningbert": 0.7581
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:06:06.863695",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: You may dream about a phone call from an old friend.\nOr you may dream about the death of someone close.\nYou may think the dream shows the future.\nBut it is not the future.\nIt is more likely just chance.\nWe also dream about these events many times.\nBut we probably choose to forget when they do not happen.",
+      "timestamp": "2025-08-31 21:06:06.865872",
+      "metadata": {
+        "text_id": "e92fe6e0-88a3-4478-a39c-ed0467f4c7b7",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:06:29.125523",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6a1a0476-a138-463f-a0e0-44df4b29cd49",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: Full Compliance. The output meets all A2 standard requirements.\n\n- Factual Integrity: The core message is preserved without error.\n- Metrics Compliance: MeaningBERT score of 0.8168 and BERTScore of 0.91 are well above the required thresholds.\n- CEFR Classification: The text correctly classified as A2.\n- Qualitative Audit: The vocabulary is strictly limited to A1 and A2 levels. The original complex sentence was correctly broken down into multiple short, simple sentences using basic A2 connectors like 'but' and 'or'. The simplification is exemplary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.91,
+          "meaningbert": 0.8168
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:06:42.535581",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: You may dream about a phone call from an old friend.\nOr you may dream about the death of someone close.\nYou may think the dream shows the future.\nBut it is not the future.\nIt is more likely just chance.\nWe also dream about these events many times.\nBut we probably choose to forget when they do not happen.",
+      "timestamp": "2025-08-31 21:06:42.536344",
+      "metadata": {
+        "text_id": "4a7b5460-ddc6-4221-a7b0-535f597fcf21",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:07:07.737735",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "83220407-766d-41ca-8dee-e3bb335b8a87",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS. The text fully complies with the A2 standard.\n- Factual Integrity: The core message of the original text is preserved without error. The concepts of 'prophecy' and 'coincidence' were correctly simplified to 'shows the future' and 'chance'.\n- CEFR Compliance: The text correctly registers as A2. All vocabulary is within the A1/A2 range, with words like 'likely' and 'chance' being appropriate for the level.\n- Structural Simplicity: The original complex sentence was successfully broken down into multiple short, simple sentences. The use of connectors like 'But' and 'Or' is appropriate for A2.\n- Metrics: All metrics are above the required thresholds, with a MeaningBERT of 0.8168 and a BERTScore of 0.91, indicating high fidelity to the original source.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.91,
+          "meaningbert": 0.8168
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:07:17.032758",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: You may dream about a phone call from an old friend.\nOr you may dream about the death of someone close.\nYou may think the dream shows the future.\nBut it is not the future.\nIt is more likely just chance.\nWe also dream about these events many times.\nBut we probably choose to forget when they do not happen.",
+      "timestamp": "2025-08-31 21:07:17.033715",
+      "metadata": {
+        "text_id": "bb8dd628-f1be-4927-b996-e9d45e43be65",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-08-31 21:07:43.785078",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c871f075-dbe1-4a26-afe4-98b60ead6f86",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text successfully meets all A2 criteria.\n\n- Factual Integrity: The core message of the original text is fully preserved without any factual deviation.\n- Metrics Compliance: MeaningBERT (0.82) and BERTScore (0.91) are well above the required thresholds, confirming high fidelity to the source material.\n- CEFR Classification: The text correctly classifies as A2, demonstrating appropriate linguistic complexity.\n- Vocabulary Control: All vocabulary is strictly within the A1/A2 levels. Words like 'likely' and 'chance' are appropriate A2 replacements for 'coincidence' and 'prophecy'.\n- Structural Simplicity: The original complex sentence was effectively broken down into short, simple sentences suitable for an A2 reader. The use of connectors is limited and appropriate.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.91,
+          "meaningbert": 0.8168
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:07:53.019985",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: You may dream about a phone call from an old friend.\nOr you may dream about the death of someone close.\nYou may think the dream shows the future.\nBut it is not the future.\nIt is more likely just chance.\nWe also dream about these events many times.\nBut we probably choose to forget when they do not happen.",
+      "timestamp": "2025-08-31 21:07:53.020539",
+      "metadata": {
+        "text_id": "1aaa54ad-9f15-4ee6-a631-ef8f3abe89ac",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:08:19.746866",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "63600419-2912-4000-93ca-7e581e40d6e4",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS. The text fully complies with the A2 standard.\n- Factual Integrity: The core message of the original text is preserved without error. The concepts of 'prophecy' and 'coincidence' were correctly simplified to 'shows the future' and 'chance'.\n- CEFR Compliance: The text correctly registers as A2. All vocabulary is within the A1/A2 range, with words like 'likely' and 'chance' being appropriate for the level.\n- Structural Simplicity: The original complex sentence was successfully broken down into multiple short, simple sentences. The use of connectors like 'But' and 'Or' is appropriate for A2.\n- Metrics: All metrics are above the required thresholds, with a MeaningBERT of 0.8168 and a BERTScore of 0.91, indicating high fidelity to the original source.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.91,
+          "meaningbert": 0.8168
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:08:30.945173",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: You may dream about a phone call from an old friend.\nOr you may dream about the death of someone close.\nYou may think the dream shows the future.\nBut it is not the future.\nIt is more likely just chance.\nWe also dream about these events many times.\nBut we probably choose to forget when they do not happen.",
+      "timestamp": "2025-08-31 21:08:30.946204",
+      "metadata": {
+        "text_id": "b1114c0e-5648-4671-a2d5-03a6456b2928",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 21:08:55.285934",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "70019222-766a-4583-987d-bb843cd61baa",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Structural Complexity. The text passes all metric checks but fails the qualitative audit due to a sentence structure that exceeds the A2 standard.\n- The sentence 'But we probably choose to forget when they do not happen' is a complex sentence. It uses a subordinate clause beginning with 'when'. This is a B1 grammatical structure.\n- A2 level texts must use short, simple sentences. Connectors should be limited to basic coordinators like 'and', 'but', or 'so'.\n- Suggestion: Rephrase this concept using two simple A2 sentences. For example: 'But these dreams do not happen many times. We probably choose to forget those times.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.91,
+          "meaningbert": 0.8168
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:09:07.436208",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 12,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: You may dream about a phone call from an old friend.\nOr you may dream about the death of someone close.\nYou may think the dream shows the future.\nBut it is not the future.\nIt is more likely just chance.\nWe also dream about these events many times.\nBut they do not happen.\nWe probably choose to forget those times.",
+      "timestamp": "2025-08-31 21:09:07.437474",
+      "metadata": {
+        "text_id": "fd53ef1a-733b-4f78-896d-3a3ec2dffbc5",
+        "version": 12
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:09:28.520597",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3f2c214a-9391-416d-a9bf-2540c8cf4ca0",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: Full Compliance. The output meets all A2 standard requirements without deviation.\n\n- Factual Integrity: The core message of the original text is preserved without error.\n- Metric Compliance: MeaningBERT score of 0.8313 and BERTScore of 0.9111 are well above the required thresholds, indicating successful meaning and lexical preservation.\n- CEFR Classification: The text is correctly classified as A2.\n- Qualitative Audit: The vocabulary is strictly limited to A1 and A2 levels. The original complex sentence has been expertly deconstructed into a series of short, simple sentences using basic connectors. This is a model execution of A2 simplification.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9111,
+          "meaningbert": 0.8313
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:09:44.392575",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 13,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: You may dream about a phone call from an old friend.\nOr you may dream about the death of someone close.\nYou may think the dream shows the future.\nBut it is not the future.\nIt is more likely just chance.\nWe also dream about these events many times.\nBut they do not happen.\nWe probably choose to forget those times.",
+      "timestamp": "2025-08-31 21:09:44.394176",
+      "metadata": {
+        "text_id": "2fd022f5-cfae-44b0-8319-21c9cba527bb",
+        "version": 13
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:10:08.076073",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "72814d00-0c5d-403e-b333-823fd2afafac",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with all A2 standards.\n\n- Factual Accuracy: The output is factually identical to the original text. The core concepts of dreams as coincidence and the act of forgetting unfulfilled dreams are perfectly preserved.\n- CEFR Compliance: The text correctly classifies as A2. The vocabulary is strictly limited to the A1 and A2 levels. Words such as 'death', 'likely', and 'chance' are appropriate for this level.\n- Structural Simplicity: The original complex sentence has been correctly deconstructed into a series of short, simple sentences. This is the required structure for A2.\n- Metrics: All metrics are well above the minimum thresholds. MeaningBERT at 0.83 and BERTScore at 0.91 confirm that meaning and key terms were retained with high fidelity.\n\nThis output is a model example of A2 simplification. No corrections are required.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9111,
+          "meaningbert": 0.8313
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:10:22.684446",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 14,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: You may dream about a phone call from an old friend.\nOr you may dream about the death of someone close.\nYou may think the dream shows the future.\nBut it is not the future.\nIt is more likely just chance.\nWe also dream about these events many times.\nBut they do not happen.\nWe probably choose to forget those times.",
+      "timestamp": "2025-08-31 21:10:22.687723",
+      "metadata": {
+        "text_id": "32063b13-f894-44d0-bde9-3dd268677cf3",
+        "version": 14
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:10:45.477296",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "358cf50b-2c8c-4edd-8553-80c2c19f2e47",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with all A2 standards.\n\n- Factual Integrity: The output is factually identical to the original text. The core concepts of dreams being chance (coincidence) and not prophecy (the future) are perfectly preserved.\n- Metrics Compliance: The MeaningBERT score of 0.83 and BERTScore of 0.91 are well above the required thresholds, indicating successful preservation of meaning and lexical fidelity.\n- CEFR Classification: The text correctly registered as A2, meeting the primary objective.\n- Qualitative Audit: The text demonstrates exemplary adherence to A2 principles. The original complex sentence was correctly deconstructed into a series of short, simple sentences. Vocabulary is strictly limited to the A1/A2 levels. The structure is clean and easily digestible for an A2 reader. No deviations were found.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9111,
+          "meaningbert": 0.8313
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:10:54.678480",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 15,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: You may dream about a phone call from an old friend.\nOr you may dream about the death of someone close.\nYou may think the dream shows the future.\nBut it is not the future.\nIt is more likely just chance.\nWe also dream about these events many times.\nBut they do not happen.\nWe probably choose to forget those times.",
+      "timestamp": "2025-08-31 21:10:54.682180",
+      "metadata": {
+        "text_id": "1a26498b-5f8e-41cb-95f7-a4716f839de7",
+        "version": 15
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:11:20.988015",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "63bfec80-449c-4139-8ea1-8d4fbbc43ae0",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with all A2 standards.\n\n- Factual Accuracy: The output is factually identical to the original text. The core concepts of dreams as coincidence and the act of forgetting unfulfilled dreams are perfectly preserved.\n- CEFR Compliance: The text correctly classifies as A2. The vocabulary is strictly limited to the A1 and A2 levels. Words such as 'death', 'likely', and 'chance' are appropriate for this level.\n- Structural Simplicity: The original complex sentence has been correctly deconstructed into a series of short, simple sentences. This is the required structure for A2.\n- Metrics: All metrics are well above the minimum thresholds. MeaningBERT at 0.83 and BERTScore at 0.91 confirm that meaning and key terms were retained with high fidelity.\n\nThis output is a model example of A2 simplification. No corrections are required.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9111,
+          "meaningbert": 0.8313
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:11:32.976354",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 16,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: You may dream about a phone call from an old friend.\nOr you may dream about the death of someone close.\nYou may think the dream shows the future.\nBut it is not the future.\nIt is more likely just chance.\nWe also dream about these events many times.\nBut they do not happen.\nWe probably choose to forget those times.",
+      "timestamp": "2025-08-31 21:11:32.977994",
+      "metadata": {
+        "text_id": "be597ed3-524a-4da5-baaa-c79676cbe081",
+        "version": 16
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:11:59.046705",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "60ac3874-0a40-498d-ba88-44aa21d4b904",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with all A2 standards.\n\n- Factual Accuracy: The output is factually identical to the original text. The core concepts of dreams as coincidence and the act of forgetting unfulfilled dreams are perfectly preserved.\n- CEFR Compliance: The text correctly classifies as A2. The vocabulary is strictly limited to the A1 and A2 levels. Words such as 'death', 'likely', and 'chance' are appropriate for this level.\n- Structural Simplicity: The original complex sentence has been correctly deconstructed into a series of short, simple sentences. This is the required structure for A2.\n- Metrics: All metrics are well above the minimum thresholds. MeaningBERT at 0.83 and BERTScore at 0.91 confirm that meaning and key terms were retained with high fidelity.\n\nThis output is a model example of A2 simplification. No corrections are required.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9111,
+          "meaningbert": 0.8313
+        }
+      }
+    }
+  ]
+}

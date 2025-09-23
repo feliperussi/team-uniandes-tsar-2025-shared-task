@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "b83650fa-0302-4ee1-a27e-759a200b352b",
+    "cefr_level": "A2",
+    "text_id": "10-a2",
+    "text_translated": "A parental leave means when a parent stops working for some time to take care of a new baby.  \nPro-rata basis means you get paid only for the days or hours you work.  \nWorkload is all the work a person has to do.  \n\nI stopped working for some time to care for my children.  \nWhen I started work again, I told my boss I want to work less.  \nI want to spend more time with my children before they go to school.  \nMy boss and I chose that I will work three days each week.  \nBecause I work less, I get less money now.  \nBut my workload did not get smaller.  \nI do the work of five days in only three days.  \nI get paid less money but I do the same work as before.",
+    "version": 1,
+    "created_at": "2025-08-31 23:11:12.786451",
+    "updated_at": "2025-08-31 23:11:12.786452",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "4668c2b6-7b95-4f85-b86a-7ca6b620a676",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Factual Inaccuracy. The 'Writer's Output' converts 'parental leave' into a definition rather than preserving the original narrative fact that the speaker returned from parental leave. This changes the text from a personal story to a general explanation, losing core meaning. FAIL: Meaning Preservation Failure. The MeaningBERT score is 0.6373, below the required 0.75, indicating poor preservation of the original message about workload increase and pay decrease. FAIL: Fidelity Failure. The BERTScore is 0.8544, under the 0.90 threshold, showing key terms like 'significant cut', 'paid on a pro-rata basis', and the impact on pay and workload were inadequately retained or oversimplified. FAIL: CEFR Compliance. The classifier rated B1 due to use of words like 'basis' and 'means' (B1 and B2 vocabulary) and complex phrase structures such as 'When I started work again, I told my boss I want to work less' which uses a tense inconsistency and a that-clause implied by 'I told my boss'. The text uses explanatory sentences not suitable for A2 simplicity and vocabulary. Vocabulary audit shows critical terms like 'basis' remain unreplaced and 'means' appears, both above A2 level. Sentence constructions are often compound or complex beyond A2 short and simple sentences. Suggestion: Remove definitions inserted into the text and integrate the narrative only. Replace B1/B2 vocabulary like 'basis' and 'means' with simpler alternatives or omit. Use very simple present/past tense sentences without embedded explanations. Focus strictly on keeping the original personal story and factual content intact without additional definitions. Split complex sentences into shorter ones connected only by 'and', 'but', 'so', or 'because'. Rephrase to restore the original mention of pay reduction due to 'pro-rata' and emphasize the workload not decreasing despite fewer working days.",
+    "metrics": {
+      "cefr_compliance": "B1",
+      "bertscore": 0.8544,
+      "meaningbert": 0.6373
+    },
+    "created_at": "2025-08-31 23:11:12.824876"
+  },
+  "attempt_number": 1,
+  "best_attempt": {
+    "id": "b83650fa-0302-4ee1-a27e-759a200b352b",
+    "cefr_level": "A2",
+    "text_id": "10-a2",
+    "text_translated": "A parental leave means when a parent stops working for some time to take care of a new baby.  \nPro-rata basis means you get paid only for the days or hours you work.  \nWorkload is all the work a person has to do.  \n\nI stopped working for some time to care for my children.  \nWhen I started work again, I told my boss I want to work less.  \nI want to spend more time with my children before they go to school.  \nMy boss and I chose that I will work three days each week.  \nBecause I work less, I get less money now.  \nBut my workload did not get smaller.  \nI do the work of five days in only three days.  \nI get paid less money but I do the same work as before.",
+    "version": 1,
+    "created_at": "2025-08-31 23:11:12.786451",
+    "updated_at": "2025-08-31 23:11:12.786452",
+    "metrics_meaningbert": 0.6373,
+    "metrics_cefr_compliance": "B1"
+  }
+}

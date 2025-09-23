@@ -1,0 +1,413 @@
+{
+  "session_id": "4a22bc7c-7470-4a62-a8b3-0df4c6727ac0",
+  "created_at": "2025-09-01 17:38:21.169843",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:38:21.176276",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "71-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In 2010, NASA\u2019s planetary protection team, which is a group of scientists that watches space for objects that could hit Earth, had already found and recorded about 90\u202f% of the asteroids that are about 1\u202fkm wide and pass near our planet. These near\u2011Earth objects, which are rocks the size of mountains and are inside 50\u202fmillion kilometres of Earth\u2019s orbit, are what scientists keep track of. NASA estimates that about 50 more objects still need to be recorded, but it says none of the 887 known objects pose a big danger to our planet.",
+      "timestamp": "2025-09-01 17:38:21.176558",
+      "metadata": {
+        "text_id": "1fbaa224-2899-4e42-96d8-c3eb9c311c46",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:38:21.183922",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3b78055d-0c66-4790-8d63-1e99a2ae1ba3",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Integrity. The original text refers to the 'planetary defence team', but the output incorrectly changes this to 'planetary protection team'. In the context of NASA, these are two distinct offices with different missions, making this a significant factual error that must be corrected. \n\nAdditionally, the output fails on CEFR Compliance. The text was classified as B2, which is too complex for the B1 target. This is primarily due to overly long sentences with multiple embedded clauses, such as the first sentence which contains three subordinate clauses. To meet the B1 requirement, this sentence must be broken into two or three shorter, simpler sentences. The use of the B2-level verb 'pose' also contributed to the incorrect classification; a simpler B1 alternative like 'are a big danger' should have been used.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9164,
+          "meaningbert": 0.8474
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:38:24.455884",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In 2010 the NASA planetary defence team \u2013 a group of scientists that watches space for objects that could hit Earth \u2013 had already found and recorded about 90\u202f% of the asteroids that are about 1\u202fkm wide and pass near our planet. These near\u2011Earth objects are rocks the size of mountains that come within 50\u202fmillion kilometres of Earth\u2019s orbit. NASA says about 50 more objects still need to be recorded. It also says that none of the 887 known objects are a big danger to our planet.",
+      "timestamp": "2025-09-01 17:38:24.458375",
+      "metadata": {
+        "text_id": "0fd62d04-4d7c-40be-bf6b-b3bf303ecd75",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:38:46.134191",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "90211cea-250b-433b-884f-aa00a041aefd",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2' instead of the target 'B1'. This is because the first sentence is structurally too complex. The definition for 'planetary defence team' was embedded using a long appositive phrase ('\u2013 a group of scientists that watches space for objects that could hit Earth \u2013'), which is a B2-level grammatical structure. Suggestion: Separate the definition into its own sentence to reduce complexity. For example: 'The NASA planetary defence team is a group of scientists that watches space for objects that could hit Earth. In 2010, this team had found and recorded...'. On a positive note, the text successfully maintained factual integrity and achieved high scores for meaning preservation.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9229,
+          "meaningbert": 0.8472
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:38:50.873984",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The NASA planetary defence team is a group of scientists that watches space for objects that could hit Earth. In 2010 this team had found and recorded about 90\u202f% of the asteroids that are about 1\u202fkm wide and pass near our planet. Near\u2011Earth objects are rocks the size of mountains that come within 50\u202fmillion kilometres of Earth\u2019s orbit. NASA says about 50 more objects still need to be recorded. It also says that none of the 887 known objects are a big danger to our planet.",
+      "timestamp": "2025-09-01 17:38:50.874339",
+      "metadata": {
+        "text_id": "8ec93699-f628-43a9-983d-165b3ac4ad4b",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:39:13.327188",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "076dda4f-eab7-4e37-ae40-19bfeabce01f",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2' instead of the required 'B1'. This is likely because of the consistent use of long sentences with embedded relative clauses, such as '...a group of scientists that watches space...' and '...asteroids that are about 1 km wide...'. This sentence structure is too complex for a B1 level when used repeatedly. Suggestion: To meet the B1 requirement, break these complex sentences into two simpler ones. For example: 'The NASA planetary defence team is a group of scientists. This team watches space for objects that could hit Earth.'",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.919,
+          "meaningbert": 0.8325
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:39:20.424114",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The NASA planetary defence team (a group of scientists who watch space for objects that could hit Earth) looks for dangerous space rocks. In 2010 the team had found and recorded about 90\u202f% of the asteroids. The asteroids are about 1\u202fkm wide and they pass near our planet. Near\u2011Earth objects (rocks that come within 50\u202fmillion kilometres of Earth\u2019s orbit) are the size of mountains. NASA estimates that about 50 more objects still need to be recorded. The agency also says that none of the 887 known objects are a big danger to our planet.",
+      "timestamp": "2025-09-01 17:39:20.426303",
+      "metadata": {
+        "text_id": "ce8b032b-265c-487c-aa7e-c2bdf29d6bda",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:39:41.154393",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4da52f5f-6a5d-4e07-847b-4eb42165b5b4",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2', which is too complex for the target 'B1' level. The primary reason for this is the sentence structure used for definitions. The first sentence, 'The NASA planetary defence team (a group of scientists who watch space for objects that could hit Earth) looks for dangerous space rocks,' uses a long parenthetical phrase with a nested relative clause. This is a B2-level grammatical structure. Suggestion: To meet the B1 requirement, break the definition into separate, simple sentences. For example: 'The NASA planetary defence team is a group of scientists. They watch space for objects that could hit Earth.' On a positive note, the submission passed all factual integrity and meaning preservation checks, with strong MeaningBERT (0.827) and BERTScore (0.9098) metrics.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9098,
+          "meaningbert": 0.827
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:39:44.346860",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The NASA planetary defence team is a group of scientists. They watch space for objects that could hit Earth. In 2010 they had found and recorded about 90\u202f% of the asteroids that are about 1\u202fkm wide and pass near our planet. Near\u2011Earth objects are rocks that come within 50\u202fmillion kilometres of Earth\u2019s orbit. They are the size of mountains. NASA estimates that about 50 more objects still need to be recorded. The agency also says that none of the 887 known objects are a big danger to our planet.",
+      "timestamp": "2025-09-01 17:39:44.347525",
+      "metadata": {
+        "text_id": "277bee9c-6f34-4110-8094-50d7c75920ab",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 17:40:07.994478",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "cd4e12aa-ebdf-46db-80db-b9c424857163",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The output was classified as 'B2', which is too complex for the target 'B1' level. The primary reason for this is likely the sentence: 'In 2010 they had found and recorded about 90 % of the asteroids that are about 1 km wide and pass near our planet.' This sentence combines multiple clauses and is structurally too advanced for a B1 reader. Suggestion: Split this into two simpler sentences, such as: 'By 2010, they had found about 90% of these asteroids. These are objects that are about 1 km wide and pass near our planet.' On a positive note, the factual integrity is perfect, and the definitions provided for 'planetary defence team' and 'near-Earth objects' are clear and effective. The MeaningBERT and BERTScore metrics are also very strong, indicating excellent content preservation.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.918,
+          "meaningbert": 0.8292
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:40:12.497073",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The NASA planetary defence team is a group of scientists. They watch space for objects that could hit Earth. By 2010, they had found about 90\u202f% of these asteroids. These are objects that are about 1\u202fkm wide and pass near our planet. Near\u2011Earth objects are rocks that come within 50\u202fmillion kilometres of Earth\u2019s orbit. They are the size of mountains. NASA estimates that about 50 more objects still need to be recorded. The agency also says that none of the 887 known objects are a big danger to our planet.",
+      "timestamp": "2025-09-01 17:40:12.497523",
+      "metadata": {
+        "text_id": "070e6340-7de9-4c98-81f3-1db3f5c0b35c",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:40:34.651757",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f6613986-3c84-43b0-b1cd-bdb5cce1a31c",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The output was classified as 'B2', which is too complex for the target B1 level. While the text is factually correct and preserves the original meaning, its grammatical structure is too advanced. This is likely due to the repeated use of noun clauses, such as in the sentence 'NASA estimates that about 50 more objects still need to be recorded'. The use of the passive voice ('to be recorded') also increases the complexity. To meet the B1 requirement, these sentences should be simplified. For example, 'NASA estimates that...' could be rephrased as 'NASA thinks that...' or the sentence could be split to avoid the complex clause structure.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9132,
+          "meaningbert": 0.8284
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:40:44.017817",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The planetary defence team (the group of scientists that watches space for objects that could hit Earth) works for NASA. By 2010 they had found and logged about 90\u202f% of the asteroids that are about 1\u202fkm wide and pass near Earth. We call them near\u2011Earth objects (near\u2011Earth objects are rocks that come close to Earth). They are as big as mountains and they are inside 50\u202fmillion kilometres of Earth\u2019s orbit. NASA says there are about 50 more objects to log. The agency also says none of the 887 known objects are a big danger to our planet.",
+      "timestamp": "2025-09-01 17:40:44.020056",
+      "metadata": {
+        "text_id": "655f7bf2-66ce-4f2e-9a3b-aed0d296fb43",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:41:06.880693",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8ec2e20b-0b44-4a32-8b2f-2ad428484cc9",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2', which is above the required 'B1' target level. This is primarily due to complex sentence structures. For example, the sentence 'The planetary defence team (the group of scientists that watches space for objects that could hit Earth) works for NASA' uses a long parenthetical clause which is too advanced for B1. Suggestion: Split definitions into separate sentences, such as 'The planetary defence team works for NASA. This team is a group of scientists that watches space for objects that could hit Earth.' Additionally, the C1-level vocabulary word 'log' was not replaced with a simpler alternative like 'record' or 'list', further increasing the text's complexity.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9143,
+          "meaningbert": 0.7826
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:41:11.168773",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The planetary defence team works for NASA. This team is a group of scientists that watches space for objects that could hit Earth. By 2010 they had recorded about 90\u202f% of the asteroids that are about 1\u202fkm wide and pass near Earth. We call these objects near\u2011Earth objects. Near\u2011Earth objects are space rocks that are as big as mountains and that come within 50\u202fmillion kilometres of Earth\u2019s orbit. NASA estimates that about 50 more objects still need to be recorded. The agency also says that none of the 887 known objects are a big danger to our planet.",
+      "timestamp": "2025-09-01 17:41:11.170609",
+      "metadata": {
+        "text_id": "aff211d2-798f-4498-902c-bfdeb0c25432",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:41:33.103171",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0dc11ad9-6c5b-48a2-97e9-59983a54a1cd",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2' instead of the target 'B1'. This failure is due to overly complex sentence structures that are more typical of a B2 level. For example, the sentence 'This team is a group of scientists that watches space for objects that could hit Earth' uses multiple dependent clauses. A similar issue occurs in the sentence defining near-Earth objects. To correct this and achieve a B1 level, these complex sentences must be broken down into shorter, simpler ones. Suggestion: 'This team is a group of scientists. They watch space for objects that could hit Earth.' On a positive note, the submission successfully maintained factual integrity and preserved the original meaning, as confirmed by the high BERTScore and MeaningBERT scores. The keyword definitions were also clear and effective.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9127,
+          "meaningbert": 0.794
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:41:37.801158",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The planetary defence team works for NASA. It is a group of scientists. They look for space rocks that could hit Earth. Near\u2011Earth objects are space rocks. They are as big as mountains and they come within 50\u202fmillion kilometres of Earth\u2019s orbit. By 2010 the team had recorded about 90\u202f% of the asteroids that are about 1\u202fkm wide and pass near Earth. NASA estimates that about 50 more objects still need to be recorded. The agency also says that none of the 887 known objects are a big danger to our planet.",
+      "timestamp": "2025-09-01 17:41:37.801563",
+      "metadata": {
+        "text_id": "9009c907-efae-4ca0-aa55-31bc6410cf2c",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:41:59.933460",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "45d8caa0-d05d-4f8d-a969-bb7c4f8b589f",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2' instead of the target 'B1'. This is likely due to the sentence: 'By 2010 the team had recorded about 90 % of the asteroids that are about 1 km wide and pass near Earth.' The use of the past perfect tense ('had recorded') combined with a long relative clause makes this sentence too grammatically complex for the B1 level. Suggestion: Split this into two simpler sentences, such as: 'By 2010, the team had recorded about 90% of these asteroids. These asteroids are about 1 km wide and pass near Earth.' On a positive note, the output passed all factual and meaning preservation checks, and the keyword definitions were clear.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9155,
+          "meaningbert": 0.8089
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:42:05.926920",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The planetary defence team (a group of scientists at NASA that works to protect Earth from space rocks) works for NASA. They look for space rocks that could hit Earth. Near\u2011Earth objects (space rocks that come within 50\u202fmillion kilometres of Earth\u2019s orbit) are as big as mountains. By 2010 the team recorded about 90\u202f% of these asteroids. These asteroids are about 1\u202fkm wide and pass near Earth. NASA says about 50 more objects still need to be simple. The agency also says that none of the 887 known objects are a big danger to our planet.",
+      "timestamp": "2025-09-01 17:42:05.928544",
+      "metadata": {
+        "text_id": "88ef7b6a-b879-447d-9382-fae210717fe7",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:42:29.689069",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e858bc90-e489-4e75-9730-efab62bbc1d6",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Integrity. The primary reason for failure is a significant factual error that changes the meaning of a key statement. The original text states 'With an estimated 50 left to log...', but the output incorrectly states 'NASA says about 50 more objects still need to be simple.' This changes the remaining task from one of recording or cataloging objects to making them 'simple', which is nonsensical in this context. Additionally, the text fails the CEFR Compliance check, receiving a 'B2' classification instead of the required 'B1'. This is likely due to the use of long, complex parenthetical phrases to define terms, such as '(a group of scientists at NASA that works to protect Earth from space rocks)'. For a B1 level, it is better to use two separate, simpler sentences. Suggestion: First, correct the factual error by replacing 'simple' with a word like 'recorded' or 'found'. Second, to achieve a B1 level, break the first two sentences into shorter ones, separating the definitions from the main clauses.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.904,
+          "meaningbert": 0.8264
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:42:33.783855",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The planetary defence team is a group of scientists at NASA that works to protect Earth from space rocks. They look for near\u2011Earth objects. Near\u2011Earth objects are space rocks that come within 50\u202fmillion kilometres of Earth\u2019s orbit. These objects can be as big as mountains and are about 1\u202fkm wide. By 2010 the team had recorded about 90\u202f% of these asteroids. NASA knows about 887 objects and says none of them are a big danger to our planet. NASA says about 50 more objects still need to be recorded.",
+      "timestamp": "2025-09-01 17:42:33.784436",
+      "metadata": {
+        "text_id": "f597ec9a-94f9-489a-af69-f0863fa24810",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:42:54.203585",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "15e9c8c0-14a6-45d6-922e-43114a67a292",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'A2', which is below the required 'B1' target level. The simplification was too aggressive, resulting in overly simple sentence structures and vocabulary. The main issue is the choppy flow, exemplified by the sentences: 'They look for near\u2011Earth objects. Near\u2011Earth objects are space rocks...'. This repetition is characteristic of an A2 level. To achieve a B1 level, these sentences should be combined using a relative clause, for instance: 'They look for near-Earth objects, which are space rocks that come within 50 million kilometres of Earth\u2019s orbit.' While the factual integrity was excellent and the keyword definitions were handled well, the failure to meet the target CEFR level is critical.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9092,
+          "meaningbert": 0.8185
+        }
+      }
+    }
+  ]
+}

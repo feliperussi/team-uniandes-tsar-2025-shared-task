@@ -1,0 +1,80 @@
+{
+  "session_id": "162ed345-9592-4906-8348-c6de566d7464",
+  "created_at": "2025-09-01 17:34:24.840067",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:34:24.880419",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "34-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Graffiti can be seen as art or as vandalism, depending on your view. In many countries, writing or painting on public or private property is treated as vandalism. Many street artists are stopped by the police, although some have to pay fines, and city councils also complain about the high cost of cleaning graffiti from buildings, buses and trains.",
+      "timestamp": "2025-09-01 17:34:24.880588",
+      "metadata": {
+        "text_id": "66f551c3-9792-4717-b505-006b571efc4d",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:34:24.924811",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "da4dfcc3-0175-430d-ba2b-44547097f07a",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Integrity. The simplification alters the logical relationship between key facts. The original text states 'Many street artists have been stopped by the police and some have had to pay fines', indicating two related consequences. The output incorrectly states 'Many street artists are stopped by the police, although some have to pay fines'. The use of 'although' introduces a contrast that is not present in the original text, which uses 'and' to link the two events. This changes the meaning. A correct simplification would be: 'Many street artists are stopped by the police, and some have to pay fines.' While the metrics for meaning and fidelity are high and the CEFR level is correct, this logical error constitutes a critical failure.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9615,
+          "meaningbert": 0.9429
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:34:35.204865",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Graffiti can be seen as art or as vandalism, depending on your view. In many countries, writing or painting on public or private property is treated as vandalism. Many street artists have been stopped by the police, and some have to pay fines, and city councils also complain about the high cost of cleaning graffiti from buildings, buses and trains.",
+      "timestamp": "2025-09-01 17:34:35.205294",
+      "metadata": {
+        "text_id": "544c78c2-8491-4960-a93d-1f79e0e70d3b",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 8/10 - PASS",
+      "timestamp": "2025-09-01 17:34:57.076953",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "563cbd94-7253-44a6-be15-866901103301",
+        "grade": 8,
+        "approval": "PASS",
+        "feedback_text": "The output successfully passes all primary checks for factual integrity, meaning preservation, and CEFR compliance. The MeaningBERT (0.94) and BERTScore (0.96) are both excellent, indicating that the core message and key terms were well-preserved. The vocabulary choices are appropriate for the B1 level. The primary area for improvement is sentence structure. The final sentence, 'Many street artists have been stopped by the police, and some have to pay fines, and city councils also complain about the high cost of cleaning graffiti from buildings, buses and trains,' is a run-on sentence connected by 'and... and...'. For better clarity and flow, this should be split into two sentences: 'Many street artists have been stopped by the police and some have to pay fines. City councils also complain about the high cost of cleaning graffiti...'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9652,
+          "meaningbert": 0.9436
+        }
+      }
+    }
+  ]
+}

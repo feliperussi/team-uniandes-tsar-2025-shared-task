@@ -1,0 +1,80 @@
+{
+  "session_id": "79101c81-3fed-4d62-a600-ab2ffa51b007",
+  "created_at": "2025-09-01 17:15:23.474044",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:15:24.528939",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "62-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Writing about your dreams means you start to remember more details.  \nSo think about the people and place in the dream.  \nThey might add meaning too.  \nIn one week you will see how much you wrote.  \nNow you can start to link your dreams to events.  \nYou can also link them to feelings in your daily life.",
+      "timestamp": "2025-09-01 17:15:24.529087",
+      "metadata": {
+        "text_id": "c13701e7-d8db-4067-9f75-cfbefd4dbd89",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:15:24.562016",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1a2a0c6d-fd28-492a-87c6-7c1a4d358425",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Violation. The text passes all metric checks but fails the deep qualitative audit due to the use of a B2-level word.\n- The word 'means' in the first sentence is classified as B2 vocabulary. All vocabulary must be strictly A2 or below.\n- The sentence 'Writing about your dreams means you start to remember more details' is unacceptable for A2 level due to this word choice.\nSuggestion: Rephrase the first sentence to eliminate the B2 word. Use a simpler A2 structure. For example: 'When you write about your dreams, you start to remember more details.' or 'Writing about your dreams helps you remember more details.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9252,
+          "meaningbert": 0.9453
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:15:29.106613",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: When you write about your dreams, you start to remember more details.  \nThink about the people and the place in the dream.  \nThey can add meaning too.  \nAfter one week you will see how much you wrote.  \nNow you can start to link your dreams to events.  \nYou can also link them to feelings in daily life.",
+      "timestamp": "2025-09-01 17:15:29.106757",
+      "metadata": {
+        "text_id": "44afc749-01df-4390-901e-36b8ea8233fa",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 17:15:55.275418",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "71c27a19-0575-4556-9693-b1af46cd6471",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text successfully simplifies the original content to a clear A2 level while passing all metric checks.\n\n- Sentence Structure: The original complex sentences were correctly broken down into short, simple sentences. The first long sentence was correctly split into three distinct ideas, which is a model simplification.\n- Vocabulary: All vocabulary is strictly within the A1-A2 range. The B1-level word 'connecting' was appropriately replaced with the A2 word 'link'.\n- Metrics: All metrics are well above the required thresholds. MeaningBERT at 0.8669 and BERTScore at 0.9184 confirm high fidelity to the original message.\n- Clarity: The final output is exceptionally clear and easy for an A2 learner to understand. No deviations from the standard were detected.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9184,
+          "meaningbert": 0.8669
+        }
+      }
+    }
+  ]
+}

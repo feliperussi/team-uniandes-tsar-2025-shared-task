@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "af47e7eb-2a84-45b1-b087-b1a407d7983a",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "\"The Life of Pi\" is a book. It tells a very unusual story about a boy from India named Pi. His big boat sinks in the Pacific Ocean. He is trapped on a small boat with a very dangerous tiger.\n\nA Canadian writer named Yann Martel wrote the book. It was his third book and it came out in 2001. The book sold more than seven million copies all over the world. It also won many prizes, and people translated it into 41 languages.\n\nMartel's father was a diplomat. A diplomat is a person who works for their country in other countries. Because of this job, Martel lived in many places as a child. He lived in Costa Rica, Canada, France and Mexico.",
+    "version": 6,
+    "created_at": "2025-09-01 01:31:52.647750",
+    "updated_at": "2025-09-01 01:31:52.647762",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "9be1ed12-d6d1-4d30-9df2-3a73960709e7",
+    "approval": "FAIL",
+    "grade": 4,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7215 is below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text.\n\n- Primary Deviation: The replacement of the B2 word 'extraordinary' with the A2 phrase 'very unusual' significantly weakens the original meaning. 'Extraordinary' implies a sense of wonder and amazement, which 'unusual' does not capture. This is a critical loss of meaning that caused the metric failure.\n- Analysis: While the text is factually correct and structurally simple, the semantic weight of key concepts has been diluted. The CEFR A2 standard requires simplification, not a complete loss of the original's tone and intent.\n- Positive Observation: The text correctly identifies the C1 word 'diplomat' and provides a clear, A2-level definition. The sentence structure is appropriate for the target level.\n- Corrective Action: The concept of 'extraordinary' must be restored using A2 vocabulary. Suggestion: Rephrase 'a very unusual story' to 'an amazing story' or 'a story that is very special'. This will better align with the original's semantic intent and improve the meaning preservation score.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.9229,
+      "meaningbert": 0.7215
+    },
+    "created_at": "2025-09-01 01:32:15.741069"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "206535e4-9517-47ec-b5c4-e9e954a47f38",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "\"The Life of Pi\" is a book. It tells an amazing story about a boy from India named Pi. After his big boat sinks in the Pacific Ocean, he is trapped on a small boat with a dangerous tiger.\n\nA Canadian writer named Yann Martel wrote the book. It was his third book and it came out in 2001. The book sold more than seven million copies all over the world. It also won many prizes, and people translated it into 41 languages.\n\nMartel's father had an important job for his country. So, when Martel was a child, he lived in many places, like Costa Rica, Canada, France and Mexico.",
+    "version": 4,
+    "created_at": "2025-09-01 01:30:31.425371",
+    "updated_at": "2025-09-01 01:30:31.425381",
+    "metrics_meaningbert": 0.7456,
+    "metrics_cefr_compliance": "A2"
+  }
+}

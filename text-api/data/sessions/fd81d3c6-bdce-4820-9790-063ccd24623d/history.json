@@ -1,0 +1,228 @@
+{
+  "session_id": "fd81d3c6-bdce-4820-9790-063ccd24623d",
+  "created_at": "2025-09-01 10:48:06.474283",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:48:06.479661",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "63-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past, more bridges were made of wood, which meant they could catch fire much more easily. This was a particular problem for old train bridges, where the small flashes of fire from the steel wheels on the steel tracks could sometimes cause the bridge to burn down completely.",
+      "timestamp": "2025-09-01 10:48:06.480094",
+      "metadata": {
+        "text_id": "09afa39d-47ce-488c-85be-c3cd64d226ec",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:48:06.484351",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1535dcf2-41d3-4f37-b378-c27ab48fee21",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The MeaningBERT score of 0.6429 is significantly below the required 0.75 threshold. This indicates a loss of the original text's core message. The likely cause is the simplification of 'susceptible to fire' (an inherent quality of the material) to 'could catch fire' (a possibility of an event), which alters the semantic nuance. Additionally, the text failed the CEFR compliance check. The classifier result was 'B2' instead of the target 'B1'. This is due to overly complex sentence structures. For example, the sentence 'In the past, more bridges were made of wood, which meant they could catch fire much more easily' uses a relative clause referring to the entire preceding clause, a B2-level structure. To correct this, split the complex sentences into simpler ones. Suggestion: 'In the past, more bridges were made of wood. This meant they could catch fire more easily.' This change will improve readability and help meet the B1 target.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9486,
+          "meaningbert": 0.6429
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:48:24.332074",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past, more bridges were made of wood. This meant they could burn much more easily. This was a particular problem for old train bridges, where the small flashes of fire from the steel wheels on the steel tracks could sometimes cause the bridge to burn down completely.",
+      "timestamp": "2025-09-01 10:48:24.332362",
+      "metadata": {
+        "text_id": "c5e367d5-9ad1-46e9-8586-8c46db9c3061",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:48:43.320808",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "cab9b8ae-87f0-4155-8033-79aa120a1220",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The MeaningBERT score of 0.6307 is below the required 0.75 threshold. This indicates a significant shift in the core message. The original text uses the phrase 'susceptible to fire,' which describes a state of vulnerability. The simplification to 'they could burn much more easily' changes this to a statement of ability. While the general idea is preserved, this loss of nuance is likely what caused the low score. To improve this, consider a phrasing that retains the sense of vulnerability, such as: 'This meant they were at a higher risk of catching fire.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9481,
+          "meaningbert": 0.6307
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:48:54.140044",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past, more bridges were made of wood. This meant they were at a higher risk of catching fire. This was a particular problem for old train bridges, where the small flashes of fire from the steel wheels on the steel tracks could sometimes cause the bridge to burn down completely.",
+      "timestamp": "2025-09-01 10:48:54.141515",
+      "metadata": {
+        "text_id": "7ba57197-9d97-41ef-be51-c6970b22668f",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:49:25.336397",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9c0649fa-46e6-423c-8cb7-3495fa786f80",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The primary reason for failure is the MeaningBERT score of 0.64, which is significantly below the required 0.75 threshold. This indicates a shift in the core message. The likely cause is the change from the original's neutral observation 'This was particularly true of' to the simplified text's 'This was a particular problem for'. This rephrasing alters the semantic focus from a factual example to a negative issue, which the model correctly identified as a meaning deviation. Additionally, the submission failed the CEFR compliance check. The text was classified as 'B2' instead of the target 'B1'. This is due to the final sentence being too long and structurally complex for a B1 level: 'This was a particular problem for old train bridges, where the small flashes of fire from the steel wheels on the steel tracks could sometimes cause the bridge to burn down completely.' To correct this, the sentence should be split into two or more simpler sentences. For example: 'This was a particular problem for old train bridges. Small flashes of fire from the steel wheels could cause the bridge to burn down.'",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.948,
+          "meaningbert": 0.6409
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:49:36.240911",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past, more bridges were made of wood. This meant they were at a higher risk of catching fire. This was especially true for old train bridges. Small flashes of fire from the steel wheels on the steel tracks could sometimes cause the bridge to burn down completely.",
+      "timestamp": "2025-09-01 10:49:36.241317",
+      "metadata": {
+        "text_id": "a1210e9a-49b2-4737-83b4-65d6cde5996e",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:49:55.871257",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ff4c6b06-ad74-48ea-b953-a1677e2bff15",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The MeaningBERT score of 0.69 is below the required 0.75 threshold, indicating a loss of the core message. The likely cause is the change from 'the spark created by the steel wheels' in the original text to 'Small flashes of fire from the steel wheels' in the output. The original describes a specific cause-and-effect relationship (friction creating a spark), while the simplified version is less precise and could be interpreted differently, thus altering the core meaning. To correct this, consider rephrasing to maintain the idea of creation, for example: 'The steel wheels on the steel tracks could create small sparks that sometimes caused the bridge to burn down completely.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9488,
+          "meaningbert": 0.6914
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:50:11.250363",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past, more bridges were made of wood. This meant they were at a higher risk of catching fire. This was especially true for old train bridges. The steel wheels on the steel tracks could create small sparks that sometimes caused the bridge to burn down completely.",
+      "timestamp": "2025-09-01 10:50:11.250851",
+      "metadata": {
+        "text_id": "793f3097-31e8-4639-8bc8-3516472a046e",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:50:38.595726",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "26aa1dbd-4492-4970-8fdc-9bf3a1ad3ab8",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The MeaningBERT score of 0.6777 is below the required 0.75 threshold, indicating a loss of the original text's core message. This is likely because the original text used a single complex sentence with 'where' to create a strong causal link between the train bridge and the sparks. By splitting this into two separate sentences ('This was especially true for old train bridges. The steel wheels...'), the simplified text presents the information as two sequential facts, weakening the direct causal relationship and altering the nuance. To fix this, re-establish the explicit link using a B1 connector, for example: 'This was especially true for old train bridges because the steel wheels on the steel tracks could create small sparks.' While the text passed the factual check and achieved the correct B1 classification, the failure to preserve the semantic nuance is a critical error.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9494,
+          "meaningbert": 0.6777
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:50:48.753134",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past, more bridges were made of wood. This meant they were at a higher risk of catching fire. This was especially true for old train bridges because the steel wheels on the steel tracks could create small sparks that sometimes caused the bridge to burn down completely.",
+      "timestamp": "2025-09-01 10:50:48.754237",
+      "metadata": {
+        "text_id": "b89c6427-30a2-4127-888c-c64d18616d92",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:51:10.945250",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "cd79c723-1f44-4a48-8ca7-144b8be83ade",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The MeaningBERT score of 0.6866 is below the required 0.75 threshold, indicating a significant shift in the core message despite the text being factually correct. The likely cause for this low score is the change in the logical connector in the second half of the text. The original uses 'where' to describe the circumstances of the fire ('...where the spark created...'). The output changes this to 'because' ('...because the steel wheels...'), which alters the sentence's focus from describing the situation to explaining a reason. This subtle change in the semantic relationship was detected by the model as a loss of meaning. To improve, the sentence should be rephrased to maintain the original descriptive link, for instance: 'This was especially true for old train bridges, as the steel wheels on the steel tracks could create small sparks that sometimes caused the bridge to burn down.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.951,
+          "meaningbert": 0.6866
+        }
+      }
+    }
+  ]
+}

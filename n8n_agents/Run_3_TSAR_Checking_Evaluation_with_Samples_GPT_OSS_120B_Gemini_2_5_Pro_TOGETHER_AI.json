@@ -1,0 +1,2840 @@
+{
+  "name": "TSAR_Checking_Evaluation_with_Samples_TOGETHER_AI",
+  "nodes": [
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "loose",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "a283c209-a2c8-4164-bf9c-318017fd262c",
+                    "leftValue": "={{ $('Input').item.json.body.target_cefr }}",
+                    "rightValue": "A2",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "A2"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "loose",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $('Input').item.json.body.target_cefr }}",
+                    "rightValue": "B1",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    },
+                    "id": "f9702ec2-57fe-4622-be2d-f6a6c446d4dc"
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "B1"
+            }
+          ]
+        },
+        "looseTypeValidation": true,
+        "options": {
+          "allMatchingOutputs": false
+        }
+      },
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.2,
+      "position": [
+        -3936,
+        4432
+      ],
+      "id": "b37be16d-c823-4c5f-afc2-b0153954f746",
+      "name": "Switch",
+      "alwaysOutputData": false,
+      "executeOnce": false,
+      "retryOnFail": false
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "ee4757d0-622a-431e-a288-337cf06954ae",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        -5312,
+        4432
+      ],
+      "id": "498d3327-47bd-4d5c-8bbf-8a14c1be6946",
+      "name": "Input",
+      "webhookId": "ee4757d0-622a-431e-a288-337cf06954ae"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Using your expert A2 CEFR assessment protocol, evaluate the following materials and provide your judgment in the required JSON format.\n\nOriginal Text:\n{{ $('Input').item.json.body.original }}\nWriter's Output:\n{{ $('A2 Writer').last().json.output }}\nKeywords for Definition:\n{{ $('Basic LLM Chain').item.json.output.toJsonString() }}\nVocabulary Candidates for Replacement:\n{{ $('Get Vocabulary A2 (1)').item.json.tagged_words.toJsonString()}}\nMetrics Computation:\n{{ $('Metrics Computation A2 (1)').item.json.toJsonString() }}",
+        "options": {
+          "systemMessage": "=You are a strict and meticulous AI examiner. Your sole purpose is to enforce unwavering adherence to the CEFR A2 readability standard. You are not a helpful assistant; you are a rigid diagnostician. Your feedback must be a brutally honest analysis that pinpoints every deviation from the A2 standard without hesitation.\n\n**Rigorous Diagnostic Protocol (Executed in Order of Priority):**\n\nYou will follow this protocol in sequence. A failure at a higher priority step is an instant FAIL and must be the primary focus of your feedback.\n\n**Absolute Priority 1: Factual Integrity Check (Manual Verification)**\n*   **Your Task:** Before anything else, you will act as a fact-checker. Manually compare the `Writer's Output` against the `Original Text`.\n*   **Rule:** Any discrepancy in facts, numbers, names, or the core message is an **instant FAIL**.\n*   **Feedback Requirement:** If it fails here, your feedback must start with \"FAIL: Factual Inaccuracy.\" and quote the specific error.\n\n**Priority 2: Meaning and Fidelity Check (Metrics)**\n*   **Your Task:** You will now check two critical metrics for content preservation. Failure on either is an instant FAIL.\n*   **Rule 2a (MeaningBERT):** The `MeaningBERT-Orig` score **must be approximately 0.75 or higher**. A score below this indicates a failure to preserve the core message.\n*   **Rule 2b (BERTScore):** The `BERTScore-Orig` score **must be 0.90 or higher**. A score below this indicates a significant loss of key words and factual phrasing from the original.\n*   **Diagnostic Duty:** If it fails here, your feedback must specify which metric failed and why.\n\n**Priority 3: CEFR Compliance Check (Metrics Verification)**\n*   **Your Task:** If the text is factually correct and preserves meaning, check the `CEFR_Classifier_Result`.\n*   **Rule:** The classifier result **must be exactly \"A2\"**. If it is \"A1\" (too simple) or \"B1\" (too complex), it is an **instant FAIL**.\n*   **Diagnostic Duty:** If it fails here, you must analyze the text to find the linguistic evidence that caused the incorrect classification.\n\n**Priority 4: Deep Qualitative Audit (Comprehensive Analysis)**\n*   **Your Task:** If the text passes all previous checks, conduct a full audit to determine the final grade and provide detailed feedback.\n*   **Vocabulary Audit:** This is critical for A2. Scan the text for any word not on a standard A2 list. Any unapproved B1/B2 word is a failure. Check if `Keywords` were defined in radically simple A2 terms.\n*   **Structural Analysis:** The text must use short, simple sentences. Use of connectors should be limited to `and`, `but`, `so`, `because`.\n\n**Feedback Generation Mandate (CRITICAL):**\nYour feedback must be an unforgiving diagnostic report.\n\n*   **Structure:** State the final verdict (FAIL/PASS) and the primary reason based on the priority list. Then, provide a bulleted list of all detected deviations.\n*   **Be Specific and Cite Evidence:** Do not be vague.\n    *   **Correct (MeaningBERT):** \"FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.68 is too low. The original text emphasizes 'punishment', but your version only says 'follow the rules', which loses the core meaning.\"\n    *   **Correct (BERTScore):** \"FAIL: Fidelity Failure. The BERTScore of 0.88 is below the required 0.90. This is because key terms like 'US invasion of Iraq' were replaced with overly simple phrases like 'the war', losing important lexical detail.\"\n    *   **Correct (CEFR):** \"FAIL: CEFR Compliance. Classifier rated B1. The sentence 'Suzanne says that her brain mixed...' uses a 'that-clause', a B1 structure. This must be simplified.\"\n*   **Provide a Corrective Path (Bluntly):** Frame suggestions as direct commands. \"Suggestion: Split the long sentence. Remove the word 'efficient'. Rephrase to restore the concept of 'punishment'.\"\n\n**Output Format:**\nYour response must be a single, non-negotiable JSON object and absolutely nothing else. The `feedback` string must contain plain text only. Do not use any Markdown formatting (like asterisks for bold, or bullet point markers).\n```json\n{\n  \"approval\": \"PASS\" or \"FAIL\",\n  \"grade\": an integer number between 1 and 10,\n  \"feedback\": \"Direct, blunt, and diagnostic feedback that explains exactly why the text failed or passed, citing metrics, specific words, and sentences as evidence. The feedback text must be plain text without any markdown.\"\n}"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        -2912,
+        4128
+      ],
+      "id": "c894104f-6bd2-4b27-98e9-0b644fe00043",
+      "name": "A2 Evaluator",
+      "retryOnFail": true,
+      "executeOnce": true,
+      "waitBetweenTries": 5000,
+      "maxTries": 5
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Using your expert B1 CEFR assessment protocol, evaluate the following materials and provide your judgment in the required JSON format.\n\nOriginal Text:\n{{ $('Input').item.json.body.original }}\nWriter's Output:\n{{ $('B1 Writer').last().json.output }}\nKeywords for Definition:\n{{ $('Basic LLM Chain').item.json.output.toJsonString() }}\nVocabulary Candidates for Replacement:\n{{ $('Get Vocabulary B1 (1)').item.json.tagged_words.toJsonString()}}\nMetrics Computation:\n{{ $('Metrics Computation B1 (1)').item.json.toJsonString() }}",
+        "options": {
+          "systemMessage": "=You are a Chief Assessor and expert linguistic diagnostician for the TSAR text simplification competition. Your role is to conduct a rigorous, multi-priority evaluation. Your primary goal is to produce a final judgment that includes **actionable, diagnostic feedback** based on a strict order of checks. You are precise, fair, and your analysis is the key to improving the text.\n\n**Comprehensive Diagnostic Protocol (Executed in Order of Priority):**\n\nYour evaluation must follow these steps in sequence. A failure at any high-priority step results in an instant FAIL.\n\n**Priority 1: Factual Integrity Check (Manual Verification)**\n*   **Your Task:** Your first and most critical task is to act as a fact-checker. **Manually compare the `Writer's Output` against the `Original Text` sentence by sentence.**\n*   **What to Look For:** Discrepancies in numbers, names, dates, locations, key actions, or relationships (e.g., changing \"did not\" to \"did\").\n*   **Rule:** A single significant factual error is an **instant FAIL**, regardless of any other scores. Your feedback must pinpoint this error precisely.\n\n**Priority 2: Meaning and Fidelity Check (Metrics)**\n*   **Your Task:** You will now check two critical metrics for content preservation. Failure on either is an instant FAIL.\n*   **Rule 2a (MeaningBERT):** The `MeaningBERT-Orig` score **must be approximately 0.75 or higher**. A score below this indicates a failure to preserve the core message.\n*   **Rule 2b (BERTScore):** The `BERTScore-Orig` score **must be 0.90 or higher**. A score below this indicates a significant loss of key words and factual phrasing from the original.\n*   **Diagnostic Duty:** If it fails here, your feedback must specify which metric failed and why.\n\n**Priority 3: CEFR Compliance Check (Metrics Verification)**\n*   **Your Task:** If the text is factually correct and preserves meaning, check the `CEFR_Classifier_Result`.\n*   **Rule:** The classifier result **must be exactly \"B1\"**. If it is \"A2\" (too simple) or \"B2\" (too complex), it is an **instant FAIL**.\n*   **Diagnostic Duty:** If it fails here, you must analyze the text to find the linguistic evidence that caused the incorrect classification.\n\n**Priority 4: Semantic and Qualitative Analysis (Deeper Diagnosis)**\n*   **Your Task:** If the text passes all previous checks, you will conduct a full analysis to determine the final grade and provide comprehensive feedback.\n*   **Structure and Flow:** Assess sentence variety and the use of B1 connectors. Is the text fluent or choppy?\n*   **Vocabulary Strategy:** Verify that `Keywords` were defined and `Vocabulary Candidates` were handled correctly. Note any errors or successes.\n\n**Feedback Generation Guidelines (CRITICAL):**\nYour feedback must be a clear, actionable diagnosis.\n\n*   **Prioritize the Reason for Failure:** Start with the highest-priority rule that was broken.\n    *   **If Factual Error:** State \"FAIL: Factual Integrity.\" Then quote the error: \"The original text states '[quote from original]', but the output incorrectly states '[quote from output]'.\"\n    *   **If Meaning Preservation Fails:** State \"FAIL: Meaning Preservation.\" Then explain the issue by connecting the score to the text: \"The MeaningBERT score of 0.69 is below the required 0.75 threshold. This is likely because the original text's emphasis on 'punishment' was lost when simplified to 'following the rules', altering the core message.\"\n    *   **If Fidelity Fails:** State \"FAIL: Fidelity Failure.\" Then explain: \"The BERTScore of 0.88 is below the required 0.90. This is because key terms like 'Potentially Hazardous Asteroids' were replaced with the generic phrase 'dangerous rocks', losing important lexical detail.\"\n    *   **If CEFR Mismatch:** State \"FAIL: CEFR Compliance.\" Then explain why: \"The text was classified as 'B2' likely because the sentence '[quote complex sentence]' uses structures too advanced for B1. Suggestion: Split this into two sentences.\"\n*   **Provide Constructive Suggestions:** Always propose a clear path to correction.\n*   **Be Holistic:** Synthesize all your findings. Even on a \"PASS\", you can provide feedback for improvement.\n\n**Output Format:**\nYour response must be a single, non-negotiable JSON object. The `feedback` string must contain plain text only. Do not use any Markdown formatting (like asterisks for bold, or bullet point markers).\n\n{\n\"approval\": \"PASS\" or \"FAIL\",\n\"grade\": an integer number between 1 and 10,\n\"feedback\": \"Actionable, diagnostic feedback that prioritizes factual integrity, interprets metrics, cites specific textual evidence, and provides clear suggestions for improvement. The feedback text must be plain text without any markdown.\"\n}"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        -2912,
+        4720
+      ],
+      "id": "4e65faa8-1d46-4ee2-bf15-0ae63e81f8f5",
+      "name": "B1 Evaluator",
+      "retryOnFail": true
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "5cec48b5-dfce-490f-9b9c-dea843ae4f9c",
+              "leftValue": "={{$('Answer Evaluator A2').item.json.output.approval}}",
+              "rightValue": "PASS",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            },
+            {
+              "id": "79455fb9-dd02-456c-810a-fe62e7edd5ff",
+              "leftValue": "={{$('Metrics Computation A2 (1)').last().json.cefr_compliance}}",
+              "rightValue": "A2",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            },
+            {
+              "id": "524d7a26-e6a7-4446-aec4-87868c38ff4b",
+              "leftValue": "={{$('Metrics Computation A2 (1)').last().json.meaningbert}}",
+              "rightValue": 0.75,
+              "operator": {
+                "type": "number",
+                "operation": "gt"
+              }
+            },
+            {
+              "id": "5bf8116c-0a59-40f2-a37c-1c725ebdf811",
+              "leftValue": "={{$('Metrics Computation A2 (1)').last().json.bertscore}}",
+              "rightValue": "0.9",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "looseTypeValidation": true,
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        -2208,
+        4128
+      ],
+      "id": "f6f650cc-752a-4142-ac7f-65bfb2c31c48",
+      "name": "If1"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "5cec48b5-dfce-490f-9b9c-dea843ae4f9c",
+              "leftValue": "={{$('Answer Evaluator B1').item.json.output.approval}}",
+              "rightValue": "PASS",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            },
+            {
+              "id": "5094d4c4-2300-4047-a10c-b96f39c277d9",
+              "leftValue": "={{$('Metrics Computation B1 (1)').last().json.cefr_compliance}}",
+              "rightValue": "B1",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            },
+            {
+              "id": "e71426ee-f458-47e2-a252-3c5f7c17bf00",
+              "leftValue": "={{$('Metrics Computation B1 (1)').last().json.meaningbert}}",
+              "rightValue": 0.8,
+              "operator": {
+                "type": "number",
+                "operation": "gt"
+              }
+            },
+            {
+              "id": "60348fc1-4aab-4e89-85b4-696f0b72b912",
+              "leftValue": "={{$('Metrics Computation B1 (1)').last().json.bertscore}}",
+              "rightValue": 0.9,
+              "operator": {
+                "type": "number",
+                "operation": "gt"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "looseTypeValidation": true,
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        -2208,
+        4720
+      ],
+      "id": "b593d807-57b7-42dd-a980-138c92efd947",
+      "name": "If2"
+    },
+    {
+      "parameters": {
+        "jsonSchemaExample": "{\n\t\"approval\": \"PASS\",\n  \"grade\": \"8\",\n\t\"feedback\": \"This is the Feedback\"\n}"
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.3,
+      "position": [
+        -2432,
+        4352
+      ],
+      "id": "f80824ce-07c9-4c23-b97f-0333717baa78",
+      "name": "Structured Output Parser2"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=1. The Original Text:\n{{ $('Input').item.json.body.original}}\n2. A list of Keywords to Define. These are important concepts for the text.\n{{ $('Basic LLM Chain').item.json.output.toJsonString() }}\n3. A list of Words candidates to replace. These are words with their CEFR levels.\n{{ $('Get Vocabulary').item.json.tagged_words.toJsonString()}}\n4. Style examples\n{{ $('Get Examples').item.json.data}}",
+        "options": {
+          "systemMessage": "=You are a translation assistant and expert in text simplification. Your job is to rewrite advanced English text for a CEFR A2 (elementary) level audience. Your goal is maximum clarity and immediate comprehension, **emulating the simple style of provided examples**.\n\nYou will receive these inputs:\n1. The Original Text.\n2. A list of important Keywords to Define. You must explain them in radically simple terms.\n3. A list of Words candidates to replace with A2 equivalents.\n4. **Style Examples:** One or more paragraphs that represent the target A2 style you must imitate.\n\n**Workflow (follow step by step):**\n\n**1. Analyze Target Style (Your First Step):**\n- Before you do anything else, carefully study the `Style Examples`.\n- Notice their key features: very short sentences (usually under 12 words), simple A1/A2 vocabulary, and only the most basic connectors (`and`, `but`, `so`, `because`).\n- **These examples are your primary guide for what a perfect A2 text looks like. Your final text must have the same simple structure.**\n\n**2. Identify the Core Message:**\n- Extract only the essential facts (who, what, where, when) from the `Original Text`. Ignore nuance and secondary details.\n\n**3. Simplify Vocabulary:**\n- Follow the instructions for the two vocabulary lists exactly.\n- Path A (Keywords): Define each Keyword with simple A2 vocabulary before using it. Example: \"An earthquake is when the ground shakes a lot.\"\n- Path B (Replacements): Replace every complex word you can with a simple A1 or A2 word. Example: Change 'opportunities' to 'chances'.\n\n**4. Adapt Grammar:**\n- Eradicate all passive voice (e.g., change `The city is called...` to `The city's name is...`).\n- Eliminate all perfect tenses (`have done`, `had seen`).\n- Use Present and Past simple, \"going to\" for future, and Present Continuous for actions now.\n\n**5. Restructure Sentences Following the Style (CRITICAL RULE):**\n- Your main guide is the style you analyzed from the `Style Examples`.\n- As you saw in the examples, you **must** use very short, clear sentences (maximum 10–12 words) with only one main idea per sentence.\n\n**6. Use Connectors:**\n- Use only the most basic connectors (`and`, `but`, `because`, `so`), just like in the examples.\n\n**7. Keep Tone Neutral and Simple.**\n\n**8. Final Check:**\n- Ensure an adult learner in an A2 English class would understand without help.\n\n**9. Self-Correction Check:**\n- Before finishing, ask yourself: \"Does my final text have the same simple structure as the style examples? Are my sentences short and direct?\" Also, \"Did I define the Keywords simply, or did I just replace them?\" If you made a mistake, fix it.\n\n**Answer format:**\nGive only the simplified translated text at A2 level. Do not explain your steps."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        -3712,
+        4128
+      ],
+      "id": "45c6b5c3-6b9e-4a7d-bd27-f1f36220dd4c",
+      "name": "A2 Writer",
+      "retryOnFail": true,
+      "executeOnce": true,
+      "waitBetweenTries": 5000,
+      "maxTries": 5
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8001/api/v1/sessions/create",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "target_cefr",
+              "value": "={{ $('Input').last().json.body.target_cefr }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -1984,
+        4224
+      ],
+      "id": "5aed275c-5540-469f-8cdb-bdde1f5a388f",
+      "name": "Get Token A2"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8001/api/v1/texts/create",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "session_id",
+              "value": "={{ $('Get Token A2').item.json.session_id }}"
+            },
+            {
+              "name": "cefr_level",
+              "value": "={{ $('Input').item.json.body.target_cefr}}"
+            },
+            {
+              "name": "text_id",
+              "value": "={{ $('Input').item.json.body.text_id}}"
+            },
+            {
+              "name": "text_translated",
+              "value": "={{ $('A2 Writer').item.json.output }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -1760,
+        4224
+      ],
+      "id": "ee1ed29c-ded1-45e2-93b0-65556f9b4947",
+      "name": "Save Current Text A2",
+      "retryOnFail": true
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $('A2 Evaluator').item.json.output }}",
+        "hasOutputParser": true,
+        "messages": {
+          "messageValues": [
+            {
+              "message": "Convert this response into JSON format. It must be a single, non-negotiable JSON object and absolutely nothing else. ```json {   \"approval\": \"PASS\" or \"FAIL\",   \"grade\": an integer number between 1.0 and 10.0,   \"feedback\": \"Example text.\" } ```"
+            }
+          ]
+        },
+        "batching": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.7,
+      "position": [
+        -2560,
+        4128
+      ],
+      "id": "c48023a5-5053-472e-820f-9fe95236aa3a",
+      "name": "Answer Evaluator A2",
+      "retryOnFail": true,
+      "waitBetweenTries": 3000,
+      "executeOnce": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8001/api/v1/feedback/create",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "session_id",
+              "value": "={{ $('Get Token A2').item.json.session_id}}"
+            },
+            {
+              "name": "approval",
+              "value": "={{ $('Answer Evaluator A2').item.json.output.approval}}"
+            },
+            {
+              "name": "grade",
+              "value": "={{ $('Answer Evaluator A2').item.json.output.grade.toNumber()}}"
+            },
+            {
+              "name": "feedback",
+              "value": "={{ $('Answer Evaluator A2').item.json.output.feedback}}"
+            },
+            {
+              "name": "cefr_compliance",
+              "value": "={{ $('Metrics Computation A2 (1)').last().json.cefr_compliance }}"
+            },
+            {
+              "name": "=meaningbert",
+              "value": "={{ $('Metrics Computation A2 (1)').last().json.meaningbert }}"
+            },
+            {
+              "name": "bertscore",
+              "value": "={{ $('Metrics Computation A2 (1)').last().json.bertscore }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -1536,
+        4224
+      ],
+      "id": "9ee37993-e827-497a-8462-801cb7e1074e",
+      "name": "Save Feedback A2",
+      "retryOnFail": true
+    },
+    {
+      "parameters": {
+        "url": "=http://127.0.0.1:8001/api/v1/texts/{{$('Get Token A2').item.json.session_id}}/current",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -1312,
+        4224
+      ],
+      "id": "0542c604-0dc1-4d82-93ad-0b4808304a56",
+      "name": "Get Current Text A2",
+      "retryOnFail": true
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Your task is to correct the \"Failed A2 Attempt\" based on the feedback provided. Ensure the new version is a perfect A2 level text.\n\n1. Original Complex Text (for context and fact-checking):\n```\n{{ $('Input').last().json.body.original}}\n```\n2. Failed A2 Attempt (the text you must fix):\n```\n{{ $('Get Current Text A2').last().json.text.toJsonString()}}\n```\n3. Evaluator's Feedback (the problems you must solve):\n```\n{{ $('Get Current Text A2').last().json.feedback.toJsonString()}}\n```\n\n4. A list of Keywords to Define. These are important concepts for the text.\n{{ $('Basic LLM Chain').item.json.output.toJsonString() }}\n\n5. A list of Words candidates to replace. These are words with their CEFR levels.\n{{ $('Get Vocabulary A2 (2)').item.json.tagged_words.toJsonString()}}\n\n6. Style Examples\n{{ $('Get Examples').item.json.data}}",
+        "options": {
+          "systemMessage": "=You are an Expert A2 Text Editor and Refinement Specialist. Your sole purpose is to surgically correct a text that has failed an evaluation. You will receive a failed text, a precise evaluation report, and a set of A2 style examples. Your job is to generate a new version that fixes every identified issue, ensuring the final text perfectly matches the simple style of the examples.\n\n**Inputs You Will Receive:**\n\n1.  **The Original Text** (Your source of truth for facts and meaning).\n2.  **The Failed Attempt** (The text you must fix).\n3.  **The Evaluator's Feedback & Metrics** (The diagnosis showing *why* it failed).\n4 and 5.  **Vocabulary Lists** (Keywords to define and words to replace).\n6.  **Style Examples** (The target A2 style you must imitate in your correction).\n\n**Your Core Task: Targeted Correction Guided by A2 Style**\n\nYour primary task is to interpret the `Evaluator's Feedback` and modify the `Failed Attempt` to resolve the specific problems. You must use the `Style Examples` as your guide for *how* to implement the corrections.\n\n**1. If the feedback indicates a `CEFR Classification` failure (e.g., rated B1 instead of A2):**\n    *   **Diagnosis:** The text is too complex.\n    *   **Your Action:** You MUST radically simplify its linguistic complexity **to match the extreme simplicity shown in the `Style Examples`**.\n    *   **Method:** Look at the examples to see their very short sentences and basic grammar. Apply that exact pattern: break down any complex sentences in the failed text and remove any non-A2 grammar.\n\n**2. If the feedback indicates a `Meaning Preservation` failure (low `MeaningBERT` or `BERTScore`):**\n    *   **Diagnosis:** The text has strayed too far from the original's meaning.\n    *   **Your Action:** This is a content-focused fix. Carefully compare your `Failed Attempt` with the `Original Text`. Identify where the core message was lost or key facts were omitted. Rephrase sections to be more faithful to the source material, **while keeping the language extremely simple, like in the examples.**\n\n**3. If the feedback indicates a Factual Error:**\n    *   **Diagnosis:** The text contains incorrect information.\n    *   **Your Action:** This is your highest priority. Correct the factual error by referencing the `Original Text`. Ensure the corrected fact is expressed in simple A2 language.\n\n**General Guidelines (To be applied during your corrections):**\n\n*   **Vocabulary:** Continue to follow the strict A2 rules for defining Keywords and replacing advanced words.\n*   **Grammar:** Eradicate all passive voice and perfect tenses. Use only Present/Past simple, \"going to\", and Present Continuous.\n*   **Structure:** All sentences must be short (max 10-12 words), with one idea per sentence, just like the `Style Examples`.\n*   **Do Not Over-Correct:** Only change what is necessary to fix the reported problems.\n* No unnecessary jumplines\n\n**Final Check:**\nBefore concluding, ask yourself: \"Does my new version directly address every point in the feedback? And does it now look and feel exactly like the simple `Style Examples`?\"\n\n**Answer Format:**\nGive only the new, corrected A2 text. Do not explain your steps."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        -864,
+        4112
+      ],
+      "id": "401dc644-da1b-421c-8eeb-fc923fe9152e",
+      "name": "A2 Rewriter",
+      "executeOnce": true,
+      "retryOnFail": true,
+      "waitBetweenTries": 5000,
+      "alwaysOutputData": false,
+      "maxTries": 5
+    },
+    {
+      "parameters": {
+        "jsonSchemaExample": "{\n\t\"approval\": \"PASS\",\n  \"grade\": \"8\",\n\t\"feedback\": \"This is the Feedback\"\n}"
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.3,
+      "position": [
+        640,
+        4336
+      ],
+      "id": "a9082beb-c003-4ddb-bf8a-2a572d057196",
+      "name": "Structured Output Parser4"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Using your expert B1 CEFR assessment protocol, evaluate the following materials and provide your judgment in the required JSON format.\n\nOriginal Text:\n{{ $('Input').item.json.body.original }}\nWriter's Output:\n{{ $('Save New Text A2').last().json.text.text_translated}}\nKeywords for Definition:\n{{ $('Basic LLM Chain').last().json.output.toJsonString() }}\nVocabulary Candidates for Replacement:\n{{ $('Get Vocabulary A2 (3)').last().json.tagged_words.toJsonString()}}\nMetrics Computation:\n{{ $('Metrics Computation A2 (2)').last().json.toJsonString() }}",
+        "options": {
+          "systemMessage": "=You are a strict and meticulous AI examiner. Your sole purpose is to enforce unwavering adherence to the CEFR A2 readability standard. You are not a helpful assistant; you are a rigid diagnostician. Your feedback must be a brutally honest analysis that pinpoints every deviation from the A2 standard without hesitation.\n\n**Rigorous Diagnostic Protocol (Executed in Order of Priority):**\n\nYou will follow this protocol in sequence. A failure at a higher priority step is an instant FAIL and must be the primary focus of your feedback.\n\n**Absolute Priority 1: Factual Integrity Check (Manual Verification)**\n*   **Your Task:** Before anything else, you will act as a fact-checker. Manually compare the `Writer's Output` against the `Original Text`.\n*   **Rule:** Any discrepancy in facts, numbers, names, or the core message is an **instant FAIL**.\n*   **Feedback Requirement:** If it fails here, your feedback must start with \"FAIL: Factual Inaccuracy.\" and quote the specific error.\n\n**Priority 2: Meaning and Fidelity Check (Metrics)**\n*   **Your Task:** You will now check two critical metrics for content preservation. Failure on either is an instant FAIL.\n*   **Rule 2a (MeaningBERT):** The `MeaningBERT-Orig` score **must be approximately 0.75 or higher**. A score below this indicates a failure to preserve the core message.\n*   **Rule 2b (BERTScore):** The `BERTScore-Orig` score **must be 0.90 or higher**. A score below this indicates a significant loss of key words and factual phrasing from the original.\n*   **Diagnostic Duty:** If it fails here, your feedback must specify which metric failed and why.\n\n**Priority 3: CEFR Compliance Check (Metrics Verification)**\n*   **Your Task:** If the text is factually correct and preserves meaning, check the `CEFR_Classifier_Result`.\n*   **Rule:** The classifier result **must be exactly \"A2\"**. If it is \"A1\" (too simple) or \"B1\" (too complex), it is an **instant FAIL**.\n*   **Diagnostic Duty:** If it fails here, you must analyze the text to find the linguistic evidence that caused the incorrect classification.\n\n**Priority 4: Deep Qualitative Audit (Comprehensive Analysis)**\n*   **Your Task:** If the text passes all previous checks, conduct a full audit to determine the final grade and provide detailed feedback.\n*   **Vocabulary Audit:** This is critical for A2. Scan the text for any word not on a standard A2 list. Any unapproved B1/B2 word is a failure. Check if `Keywords` were defined in radically simple A2 terms.\n*   **Structural Analysis:** The text must use short, simple sentences. Use of connectors should be limited to `and`, `but`, `so`, `because`.\n\n**Feedback Generation Mandate (CRITICAL):**\nYour feedback must be an unforgiving diagnostic report.\n\n*   **Structure:** State the final verdict (FAIL/PASS) and the primary reason based on the priority list. Then, provide a bulleted list of all detected deviations.\n*   **Be Specific and Cite Evidence:** Do not be vague.\n    *   **Correct (MeaningBERT):** \"FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.68 is too low. The original text emphasizes 'punishment', but your version only says 'follow the rules', which loses the core meaning.\"\n    *   **Correct (BERTScore):** \"FAIL: Fidelity Failure. The BERTScore of 0.88 is below the required 0.90. This is because key terms like 'US invasion of Iraq' were replaced with overly simple phrases like 'the war', losing important lexical detail.\"\n    *   **Correct (CEFR):** \"FAIL: CEFR Compliance. Classifier rated B1. The sentence 'Suzanne says that her brain mixed...' uses a 'that-clause', a B1 structure. This must be simplified.\"\n*   **Provide a Corrective Path (Bluntly):** Frame suggestions as direct commands. \"Suggestion: Split the long sentence. Remove the word 'efficient'. Rephrase to restore the concept of 'punishment'.\"\n\n**Output Format:**\nYour response must be a single, non-negotiable JSON object and absolutely nothing else. The `feedback` string must contain plain text only. Do not use any Markdown formatting (like asterisks for bold, or bullet point markers).\n```json\n{\n  \"approval\": \"PASS\" or \"FAIL\",\n  \"grade\": an integer number between 1 and 10,\n  \"feedback\": \"Direct, blunt, and diagnostic feedback that explains exactly why the text failed or passed, citing metrics, specific words, and sentences as evidence. The feedback text must be plain text without any markdown.\"\n}"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        160,
+        4112
+      ],
+      "id": "43ce89c7-ad3c-4aba-beec-fb43935c66ac",
+      "name": "A2 Final Evaluator",
+      "executeOnce": true,
+      "retryOnFail": true,
+      "waitBetweenTries": 5000,
+      "maxTries": 5
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $('A2 Final Evaluator').item.json.output }}",
+        "hasOutputParser": true,
+        "messages": {
+          "messageValues": [
+            {
+              "message": "Convert this response into JSON format. It must be a single, non-negotiable JSON object and absolutely nothing else. ```json {   \"approval\": \"PASS\" or \"FAIL\",   \"grade\": an integer number between 1.0 and 10.0,   \"feedback\": \"Example text.\" } ```"
+            }
+          ]
+        },
+        "batching": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.7,
+      "position": [
+        512,
+        4112
+      ],
+      "id": "61fcfc43-f699-47de-8445-a0d65ae8142b",
+      "name": "A2 Answer Final Evaluator",
+      "retryOnFail": true,
+      "waitBetweenTries": 3000,
+      "executeOnce": true,
+      "maxTries": 5
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8001/api/v1/texts/create",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "session_id",
+              "value": "={{ $('Get Token A2').item.json.session_id }}"
+            },
+            {
+              "name": "cefr_level",
+              "value": "={{ $('Input').item.json.body.target_cefr}}"
+            },
+            {
+              "name": "text_id",
+              "value": "text_001"
+            },
+            {
+              "name": "text_translated",
+              "value": "={{ $('A2 Rewriter').item.json.output }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -512,
+        4112
+      ],
+      "id": "8df5fe67-7925-4d34-b089-f90798d387c1",
+      "name": "Save New Text A2",
+      "retryOnFail": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8001/api/v1/feedback/create",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "session_id",
+              "value": "={{ $('Get Token A2').item.json.session_id}}"
+            },
+            {
+              "name": "approval",
+              "value": "={{ $('A2 Answer Final Evaluator').item.json.output.approval}}"
+            },
+            {
+              "name": "grade",
+              "value": "={{ $('A2 Answer Final Evaluator').item.json.output.grade.toNumber()}}"
+            },
+            {
+              "name": "feedback",
+              "value": "={{ $('A2 Answer Final Evaluator').item.json.output.feedback}}"
+            },
+            {
+              "name": "cefr_compliance",
+              "value": "={{$('Metrics Computation A2 (2)').last().json.cefr_compliance}}"
+            },
+            {
+              "name": "bertscore",
+              "value": "={{$('Metrics Computation A2 (2)').last().json.bertscore}}"
+            },
+            {
+              "name": "meaningbert",
+              "value": "={{$('Metrics Computation A2 (2)').last().json.meaningbert}}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        864,
+        4112
+      ],
+      "id": "a51da102-2e5d-4bd7-8924-eb346d97b2e4",
+      "name": "Save New Feedback A2",
+      "retryOnFail": true
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Analyze the \"Original Text\" and extract the Key Concept Nouns that are above the specified \"Target Level\".\n\nTarget Level:\n```\n{{ $('Input').item.json.body.target_cefr }}\n```\nOriginal Text:\n```\n{{ $('Input').item.json.body.original }}\n```",
+        "options": {
+          "systemMessage": "=You are a strategic linguistic analyst. Your mission is to read a text and identify the few, truly essential **Topic Nouns** that are so central to the text's meaning that they cannot be simply replaced. Your goal is to find the words that a teacher would need to define on the board before starting a lesson.\n\nTo do this, you will perform a critical reasoning test for every potential noun.\n\n**Your Reasoning Process:**\n\nFor every noun that is more advanced than the `Target Level`, you must ask yourself this question:\n\n**\"Is this word *replaceable* or is it *irreplaceable*?\"**\n\nTo decide, use this test:\n\n1.  **The Paraphrase Test:** Can I replace this word with a simple, short A2 phrase (2-4 words) and still keep the core meaning of the sentence?\n    *   Example: The word `consequences`. Can I replace it with \"the results\" or \"what happens next\"? Yes. The meaning is clear. Therefore, `consequences` is **replaceable**.\n\n2.  **The Repetition Test:** If I use that simple phrase, would I have to repeat it over and over again in the text, making it sound awkward and clunky?\n    *   Example: The word `gravity` in a text about gravity. The simple phrase is \"the force that pulls things down\". If the text mentions `gravity` five times, repeating that long phrase each time is very bad. It's much better to define `gravity` once and then use the word. Therefore, `gravity` is **irreplaceable**.\n\n**Your Decision Rule:**\n\n-   If a word is **irreplaceable** (it fails the Repetition Test or cannot be easily paraphrased), you **MUST** extract it as a keyword. These are the words that are better to define.\n-   If a word is **replaceable** (it passes the Paraphrase Test easily), you **MUST IGNORE** it. These words should be simplified by the next agent, not defined.\n\n**Your Task:**\n- You will be given a text and a `Target Level`.\n- Apply the reasoning process above to every noun that is more advanced than the `Target Level`.\n- Extract ONLY the nouns that you determine are **irreplaceable**.\n- Do not extract verbs, adjectives, or any noun that is easily replaceable by simpler terms.\n- If no words are truly irreplaceable, return an empty list.\n- Try to get at most one, (or two if it is extremely necessary, only if this term is key for the understanding of the text).\n- The list can be empty if every term is at the target level or can be easily replaced without making the text verbose.\n\n**Output Format:**\nYour response must be a single JSON object with one key, \"keywords\", which contains the list of irreplaceable nouns.\n\n{\n\"keywords\": [\"word1\", \"word2\"]\n}"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        -5088,
+        4432
+      ],
+      "id": "c8c1ddbc-15be-4cd1-9aae-e7cff1f638e4",
+      "name": "Key Words Extractor",
+      "retryOnFail": true,
+      "waitBetweenTries": 5000,
+      "executeOnce": true,
+      "maxTries": 5
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{$('Key Words Extractor').item.json.output}}",
+        "hasOutputParser": true,
+        "messages": {
+          "messageValues": [
+            {
+              "message": "Transforn the input in this format: { \"keywords\": [\"word1\", \"word2\", \"word3\"]}"
+            }
+          ]
+        },
+        "batching": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.7,
+      "position": [
+        -4736,
+        4432
+      ],
+      "id": "3bf9473a-b884-442d-b833-3785bd866303",
+      "name": "Basic LLM Chain",
+      "retryOnFail": true,
+      "waitBetweenTries": 3000
+    },
+    {
+      "parameters": {
+        "jsonSchemaExample": "{\n  \"keywords\": [\"word1\", \"word2\", \"word3\"]\n}"
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.3,
+      "position": [
+        -4608,
+        4656
+      ],
+      "id": "ae91efdb-8616-46a8-880f-e0e1872945c3",
+      "name": "Structured Output Parser1"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8001/api/v1/vocabulary/tag",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "text",
+              "value": "={{ $('Input').item.json.body.original}}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -4384,
+        4432
+      ],
+      "id": "a6519c80-7f22-479a-a8c4-240a4cedc5df",
+      "name": "Get Vocabulary"
+    },
+    {
+      "parameters": {
+        "jsonSchemaExample": "{\n\t\"approval\": \"PASS\",\n  \"grade\": \"8\",\n\t\"feedback\": \"This is the Feedback\"\n}"
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.3,
+      "position": [
+        640,
+        4912
+      ],
+      "id": "8e9d8528-6056-4fc3-a8fe-669b0cd53a37",
+      "name": "Structured Output Parser6"
+    },
+    {
+      "parameters": {
+        "jsCode": "const input = $('Save New Text B1').last().json;\n\nreturn [\n  {\n    output: input.text.text_translated\n  }\n];\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1312,
+        4592
+      ],
+      "id": "682afef8-18ef-41cd-b760-80fabd073704",
+      "name": "Code2"
+    },
+    {
+      "parameters": {
+        "jsonSchemaExample": "{\n\t\"approval\": \"PASS\",\n  \"grade\": \"8\",\n\t\"feedback\": \"This is the Feedback\"\n}"
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.3,
+      "position": [
+        -2432,
+        4944
+      ],
+      "id": "6171b99e-b1e9-4a56-8359-fc58d3280c95",
+      "name": "Structured Output Parser3"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=1. The Original Text:\n{{ $('Input').item.json.body.original}}\n2. A list of Keywords to Define. These are important concepts for the text.\n{{ $('Basic LLM Chain').item.json.output.toJsonString() }}\n3. A list of Words candidates to replace. These are words with their CEFR levels.\n{{ $('Get Vocabulary').item.json.tagged_words.toJsonString()}}\n4. Style Examples\n{{ $('Get Examples').item.json.data}}",
+        "options": {
+          "systemMessage": "=You are a translation assistant and expert in text simplification. Your job is to rewrite advanced English text to meet the specific linguistic profile of a CEFR B1 (intermediate) level. Your goal is not maximum simplicity, but to achieve a specific level of **controlled complexity** that demonstrates B1 proficiency, **emulating the style of provided examples**.\n\nYou will receive these inputs:\n\n1. The Original Text.\n2. A list of important Keywords to Define. You must explain them briefly in simple words.\n3. A list of Words candidates to replace with B1 equivalents.\n4. **Style Examples:** One or more paragraphs that represent the target B1 style you must imitate.\n\n**Workflow**\n\n**1. Analyze Target Style (Your First Step):**\n- Before you do anything else, carefully study the `Style Examples`.\n- Identify their key characteristics: average sentence length, variation in length, common connectors used (e.g., 'although', 'who', 'which'), and the overall flow.\n- **These examples are your primary guide for the structure and 'feel' of the final text.**\n\n**2. Identify the Core Message:**\n- Extract the main facts (who, what, where, when, why) from the `Original Text`.\n- Keep all important details to preserve its meaning.\n\n**3. Simplify Vocabulary:**\n- Use the two vocabulary lists you received.\n- Path A (Keywords): Define each Keyword the first time it appears. Example: \"Democracy, which is a system where people choose their leaders by voting, is...\"\n- Path B (Replacements): Replace difficult words with B1-level vocabulary where possible without changing the core meaning. Example: Change \"purchase\" → \"buy\".\n\n**4. Adapt Grammar:**\n- Use simple tenses (Present, Past) as your foundation.\n- Actively use structures that demonstrate B1 proficiency, such as the Present Perfect and the First Conditional, if they are present in the `Style Examples`.\n\n**5. Restructure Sentences Following the Style (CRITICAL RULE):**\n- Your main guide for sentence structure is the style you analyzed from the `Style Examples`.\n- As seen in the examples, you should create well-structured, flowing sentences that connect ideas.\n- **Vary sentence length and combine related ideas into single, longer sentences (around 15-25 words) using B1 connectors, mirroring the complexity of the examples.**\n- Incorrect: \"He is a musician. He is old. He still makes music.\"\n- Correct (emulating a B1 style): \"He is a musician who still makes music, even though he is old.\"\n\n**6. Use Connectors to Combine Ideas:**\n- Actively use B1-level connectors to link clauses and build more complex sentences, similar to those found in the `Style Examples`. Use: and, but, because, so, when, if, who, that, which, although, however.\n\n**7. Keep Tone Neutral and Clear.**\n\n**8. Final Check:**\n- Ensure the final paragraph is coherent, preserves the meaning of the original, and closely matches the linguistic profile of the `Style Examples`.\n\n**9. Self-Correction Check:**\n- Ask: “Does my final text have a similar rhythm, sentence length, and complexity to the style examples? Did I combine sentences effectively?” If not, fix it.\n\n**Answer format:**\nGive only the simplified text at B1 level. Do not explain your steps"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        -3712,
+        4720
+      ],
+      "id": "1bfb21d5-a0f2-41a8-b7f8-7d30fe530e17",
+      "name": "B1 Writer",
+      "alwaysOutputData": true,
+      "retryOnFail": true
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $('B1 Evaluator').item.json.output }}",
+        "hasOutputParser": true,
+        "messages": {
+          "messageValues": [
+            {
+              "message": "Convert this response into JSON format. It must be a single, non-negotiable JSON object and absolutely nothing else. ```json {   \"approval\": \"PASS\" or \"FAIL\",   \"grade\": an integer number between 1.0 and 10.0,   \"feedback\": \"Example text.\" } ```"
+            }
+          ]
+        },
+        "batching": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.7,
+      "position": [
+        -2560,
+        4720
+      ],
+      "id": "5ffa6864-a5a3-4070-a749-8f54d0c3bd38",
+      "name": "Answer Evaluator B1",
+      "retryOnFail": true,
+      "waitBetweenTries": 3000,
+      "executeOnce": true
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Your task is to correct the \"Failed Attempt\" based on the specific \"Evaluator's Feedback\". Your goal is to produce a new version that will PASS the B1 evaluation.\n\n1. Original Text (For fact-checking and meaning preservation):\n```\n{{ $('Input').last().json.body.original}}\n```\n2. The Failed Attempt (The text you must fix):\n```\n{{ $('Get Current Text B1').last().json.text.toJsonString()}}\n```\n3. Evaluator's Feedback (The diagnosis and problems you must solve):\n```\n{{ $('Get Current Text B1').last().json.feedback.toJsonString()}}\n```\n\n4. Vocabulary and Keyword Lists:\n- Keywords to Define: {{ $('Basic LLM Chain').item.json.output.toJsonString() }}\n\n5. A list of Words candidates to replace. These are words with their CEFR levels.\n{{ $('Get Vocabulary B1 (2)').item.json.tagged_words.toJsonString()}}\n\n6. Style Examples\n{{ $('Get Examples').item.json.data}}",
+        "options": {
+          "systemMessage": "=You are an Expert Text Editor and Refinement Specialist. Your sole purpose is to surgically correct a text that has failed an evaluation. You will receive a failed text, a precise evaluation report, and a set of style examples. Your job is to generate a new version that fixes every identified issue, ensuring the final text matches the target style.\n\n**Inputs You Will Receive:**\n\n1.  **The Original Text** (Your source of truth for facts and meaning).\n2.  **The Failed Attempt** (The text you must fix).\n3.  **The Evaluator's Feedback & Metrics** (The diagnosis showing *why* it failed).\n4 and 5.  **Vocabulary Lists** (Keywords to define and words to replace).\n7.  **Style Examples** (The target B1 style you must emulate in your correction).\n\n**Your Core Task: Targeted Correction Guided by Style**\n\nYour primary task is to interpret the `Evaluator's Feedback` and modify the `Failed Attempt` to resolve the specific problems. You must use the `Style Examples` as your guide for *how* to implement the corrections.\n\n**1. If the feedback indicates a `CEFR Classification` failure (e.g., rated A2 instead of B1):**\n    *   **Diagnosis:** The text is too simple.\n    *   **Your Action:** You MUST increase its linguistic complexity **to match the level shown in the `Style Examples`**.\n    *   **Method:** Analyze the examples to see how they combine sentences and use B1 connectors (`who`, `which`, `although`). Apply that exact pattern to combine the short, choppy sentences in the failed text.\n\n**2. If the feedback indicates a `CEFR Classification` failure (e.g., rated B2 instead of B1):**\n    *   **Diagnosis:** The text is too complex.\n    *   **Your Action:** You MUST decrease its linguistic complexity **to match the level shown in the `Style Examples`**.\n    *   **Method:** Analyze the examples to see their typical sentence length and structure. Break down the overly long or complex sentences in the failed text to mirror the simpler, clearer style of the examples.\n\n**3. If the feedback indicates a `Meaning Preservation` failure (low `MeaningBERT` or `BERTScore`):**\n    *   **Diagnosis:** The text has strayed too far from the original's meaning.\n    *   **Your Action:** This is a content-focused fix. Carefully compare your `Failed Attempt` with the `Original Text`. Identify where the core message was lost or key facts were omitted. Rephrase sections to be more faithful to the source material. The style examples are less important for this specific fix.\n\n**4. If the feedback indicates a stylistic issue (e.g., a low grade despite passing):**\n    *   **Diagnosis:** The text is technically correct but lacks fluency.\n    *   **Your Action:** Your primary goal is to rewrite the problematic sections to **match the rhythm and flow of the `Style Examples`**.\n\n**General Guidelines (To be applied during your corrections):**\n\n*   **Vocabulary:** Continue to follow the rules for defining Keywords and replacing advanced words.\n*   **Do Not Over-Correct:** Only change what is necessary to fix the reported problems. Preserve parts of the text that were not flagged as problematic.\n* No unnecessary jumplines\n\n**Final Check:**\nBefore concluding, ask yourself: \"Does my new version directly address every point in the feedback? And does it now stylistically resemble the `Style Examples`?\"\n\n**Answer Format:**\nGive only the new, corrected text. Do not explain your steps."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        -864,
+        4688
+      ],
+      "id": "9c686fcc-d4e1-4772-b0ba-7f02ce598014",
+      "name": "B1 Rewriter",
+      "executeOnce": true,
+      "retryOnFail": true,
+      "waitBetweenTries": 5000,
+      "alwaysOutputData": false,
+      "maxTries": 5
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Using your expert B1 CEFR assessment protocol, evaluate the following materials and provide your judgment in the required JSON format.\n\nOriginal Text:\n{{ $('Input').item.json.body.original }}\nWriter's Output:\n{{ $('Save New Text B1').last().json.text.text_translated }}\nKeywords for Definition:\n{{ $('Basic LLM Chain').last().json.output.toJsonString() }}\nVocabulary Candidates for Replacement:\n{{ $('Get Vocabulary B1 (3)').last().json.tagged_words.toJsonString()}}\nMetrics Computation:\n{{ $('Metrics Computation B1 (2)').last().json.toJsonString() }}",
+        "options": {
+          "systemMessage": "=You are a Chief Assessor and expert linguistic diagnostician for the TSAR text simplification competition. Your role is to conduct a rigorous, multi-priority evaluation. Your primary goal is to produce a final judgment that includes **actionable, diagnostic feedback** based on a strict order of checks. You are precise, fair, and your analysis is the key to improving the text.\n\n**Comprehensive Diagnostic Protocol (Executed in Order of Priority):**\n\nYour evaluation must follow these steps in sequence. A failure at any high-priority step results in an instant FAIL.\n\n**Priority 1: Factual Integrity Check (Manual Verification)**\n*   **Your Task:** Your first and most critical task is to act as a fact-checker. **Manually compare the `Writer's Output` against the `Original Text` sentence by sentence.**\n*   **What to Look For:** Discrepancies in numbers, names, dates, locations, key actions, or relationships (e.g., changing \"did not\" to \"did\").\n*   **Rule:** A single significant factual error is an **instant FAIL**, regardless of any other scores. Your feedback must pinpoint this error precisely.\n\n**Priority 2: Meaning and Fidelity Check (Metrics)**\n*   **Your Task:** You will now check two critical metrics for content preservation. Failure on either is an instant FAIL.\n*   **Rule 2a (MeaningBERT):** The `MeaningBERT-Orig` score **must be approximately 0.75 or higher**. A score below this indicates a failure to preserve the core message.\n*   **Rule 2b (BERTScore):** The `BERTScore-Orig` score **must be 0.90 or higher**. A score below this indicates a significant loss of key words and factual phrasing from the original.\n*   **Diagnostic Duty:** If it fails here, your feedback must specify which metric failed and why.\n\n**Priority 3: CEFR Compliance Check (Metrics Verification)**\n*   **Your Task:** If the text is factually correct and preserves meaning, check the `CEFR_Classifier_Result`.\n*   **Rule:** The classifier result **must be exactly \"B1\"**. If it is \"A2\" (too simple) or \"B2\" (too complex), it is an **instant FAIL**.\n*   **Diagnostic Duty:** If it fails here, you must analyze the text to find the linguistic evidence that caused the incorrect classification.\n\n**Priority 4: Semantic and Qualitative Analysis (Deeper Diagnosis)**\n*   **Your Task:** If the text passes all previous checks, you will conduct a full analysis to determine the final grade and provide comprehensive feedback.\n*   **Structure and Flow:** Assess sentence variety and the use of B1 connectors. Is the text fluent or choppy?\n*   **Vocabulary Strategy:** Verify that `Keywords` were defined and `Vocabulary Candidates` were handled correctly. Note any errors or successes.\n\n**Feedback Generation Guidelines (CRITICAL):**\nYour feedback must be a clear, actionable diagnosis.\n\n*   **Prioritize the Reason for Failure:** Start with the highest-priority rule that was broken.\n    *   **If Factual Error:** State \"FAIL: Factual Integrity.\" Then quote the error: \"The original text states '[quote from original]', but the output incorrectly states '[quote from output]'.\"\n    *   **If Meaning Preservation Fails:** State \"FAIL: Meaning Preservation.\" Then explain the issue by connecting the score to the text: \"The MeaningBERT score of 0.69 is below the required 0.75 threshold. This is likely because the original text's emphasis on 'punishment' was lost when simplified to 'following the rules', altering the core message.\"\n    *   **If Fidelity Fails:** State \"FAIL: Fidelity Failure.\" Then explain: \"The BERTScore of 0.88 is below the required 0.90. This is because key terms like 'Potentially Hazardous Asteroids' were replaced with the generic phrase 'dangerous rocks', losing important lexical detail.\"\n    *   **If CEFR Mismatch:** State \"FAIL: CEFR Compliance.\" Then explain why: \"The text was classified as 'B2' likely because the sentence '[quote complex sentence]' uses structures too advanced for B1. Suggestion: Split this into two sentences.\"\n*   **Provide Constructive Suggestions:** Always propose a clear path to correction.\n*   **Be Holistic:** Synthesize all your findings. Even on a \"PASS\", you can provide feedback for improvement.\n\n**Output Format:**\nYour response must be a single, non-negotiable JSON object. The `feedback` string must contain plain text only. Do not use any Markdown formatting (like asterisks for bold, or bullet point markers).\n\n{\n\"approval\": \"PASS\" or \"FAIL\",\n\"grade\": an integer number between 1 and 10,\n\"feedback\": \"Actionable, diagnostic feedback that prioritizes factual integrity, interprets metrics, cites specific textual evidence, and provides clear suggestions for improvement. The feedback text must be plain text without any markdown.\"\n}"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        160,
+        4688
+      ],
+      "id": "fd231a88-2cc4-4f60-b016-2f8d9bfdb31f",
+      "name": "B1 Final Evaluator",
+      "executeOnce": true,
+      "retryOnFail": true,
+      "waitBetweenTries": 5000,
+      "maxTries": 5
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $('B1 Final Evaluator').item.json.output }}",
+        "hasOutputParser": true,
+        "messages": {
+          "messageValues": [
+            {
+              "message": "Convert this response into JSON format. It must be a single, non-negotiable JSON object and absolutely nothing else. ```json {   \"approval\": \"PASS\" or \"FAIL\",   \"grade\": an integer number between 1.0 and 10.0,   \"feedback\": \"Example text.\" } ```"
+            }
+          ]
+        },
+        "batching": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.7,
+      "position": [
+        512,
+        4688
+      ],
+      "id": "4ea568d0-112b-4a1d-9594-5fcdbb0566f4",
+      "name": "B1 Answer Final Evaluator",
+      "retryOnFail": true,
+      "waitBetweenTries": 3000,
+      "executeOnce": true,
+      "maxTries": 5
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8001/api/v1/sessions/create",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "target_cefr",
+              "value": "={{ $('Input').last().json.body.target_cefr }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -1984,
+        4816
+      ],
+      "id": "dce21197-f465-43b9-83d2-311a80789680",
+      "name": "Get Token B1",
+      "retryOnFail": true
+    },
+    {
+      "parameters": {
+        "url": "=http://127.0.0.1:8001/api/v1/texts/{{$('Get Token B1').item.json.session_id}}/current",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -1312,
+        4816
+      ],
+      "id": "193e4728-54fc-476f-b5b8-fe1aee0d30d2",
+      "name": "Get Current Text B1",
+      "retryOnFail": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8001/api/v1/texts/create",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "session_id",
+              "value": "={{ $('Get Token B1').item.json.session_id }}"
+            },
+            {
+              "name": "cefr_level",
+              "value": "={{ $('Input').item.json.body.target_cefr}}"
+            },
+            {
+              "name": "text_id",
+              "value": "text_001"
+            },
+            {
+              "name": "text_translated",
+              "value": "={{ $('B1 Rewriter').last().json.output }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -512,
+        4688
+      ],
+      "id": "69583677-20cf-4e66-932f-1434fc9c7aee",
+      "name": "Save New Text B1",
+      "retryOnFail": true
+    },
+    {
+      "parameters": {
+        "options": {
+          "temperature": 0
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        512,
+        4912
+      ],
+      "id": "3e98c2a1-eeab-47cb-b9a3-d7396e62bdde",
+      "name": "Google Gemini Chat Model12",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "h5QwlIXcVV9aWG6M",
+          "name": "Google Gemini(PaLM) API ARIAS"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "return $('A2 Writer').last().json"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -1984,
+        4032
+      ],
+      "id": "705c2f88-7bf5-4639-8ff7-0322f309c862",
+      "name": "Code3"
+    },
+    {
+      "parameters": {
+        "jsCode": "const input = $('Save New Text A2').last().json;\n\nreturn [\n  {\n    output: input.text.text_translated\n  }\n];\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1312,
+        4016
+      ],
+      "id": "4ca34278-1685-4bf2-8605-acd763c830b0",
+      "name": "Code1"
+    },
+    {
+      "parameters": {
+        "jsCode": "return $('B1 Writer').last().json"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -1984,
+        4528
+      ],
+      "id": "848e6c96-0647-4a8f-8bd0-938841e09d95",
+      "name": "Code7"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8001/api/v1/metrics/evaluate",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "simplified_text",
+              "value": "={{$('B1 Writer').last().json.output}}"
+            },
+            {
+              "name": "original_text",
+              "value": "={{ $('Input').last().json.body.original }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -3136,
+        4720
+      ],
+      "id": "bb7039ce-702b-4081-84a4-0a5ac69c8be2",
+      "name": "Metrics Computation B1 (1)"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8001/api/v1/metrics/evaluate",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "simplified_text",
+              "value": "={{ $('Save New Text B1').last().json.text.text_translated }}"
+            },
+            {
+              "name": "original_text",
+              "value": "={{ $('Input').last().json.body.original }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -64,
+        4688
+      ],
+      "id": "f7c371f5-c66d-454b-a807-72456e375256",
+      "name": "Metrics Computation B1 (2)"
+    },
+    {
+      "parameters": {
+        "url": "http://127.0.0.1:8001/api/v1/examples/get-examples",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "count",
+              "value": "10"
+            },
+            {
+              "name": "target_cefr",
+              "value": "={{ $('Input').item.json.body.target_cefr }}"
+            },
+            {
+              "name": "text_id",
+              "value": "={{ $('Input').item.json.body.text_id}}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -4160,
+        4432
+      ],
+      "id": "c22af026-b07a-40d9-9012-bf7b33be576a",
+      "name": "Get Examples"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8001/api/v1/metrics/evaluate",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "simplified_text",
+              "value": "={{$('A2 Writer').last().json.output}}"
+            },
+            {
+              "name": "original_text",
+              "value": "={{ $('Input').last().json.body.original }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -3136,
+        4128
+      ],
+      "id": "19595629-94bd-43fa-873f-2389f777121e",
+      "name": "Metrics Computation A2 (1)"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8001/api/v1/metrics/evaluate",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "simplified_text",
+              "value": "={{ $('Save New Text A2').last().json.text.text_translated }}"
+            },
+            {
+              "name": "original_text",
+              "value": "={{ $('Input').last().json.body.original }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -64,
+        4112
+      ],
+      "id": "3f18de9f-1cb8-4bee-a59c-ba3c6e561ba9",
+      "name": "Metrics Computation A2 (2)"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8001/api/v1/vocabulary/tag",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "text",
+              "value": "={{ $('A2 Writer').item.json.output}}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -3360,
+        4128
+      ],
+      "id": "314ce1b1-925e-47d2-8b1f-4a0bf8ed5b96",
+      "name": "Get Vocabulary A2 (1)"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8001/api/v1/vocabulary/tag",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "text",
+              "value": "={{ $('Get Current Text A2').last().json.text.text_translated }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -1088,
+        4112
+      ],
+      "id": "7f1e3d62-a2e6-4bff-8cd6-722f2e97f185",
+      "name": "Get Vocabulary A2 (2)",
+      "retryOnFail": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8001/api/v1/vocabulary/tag",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "text",
+              "value": "={{ $('Save New Text A2').last().json.text.text_translated }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -288,
+        4112
+      ],
+      "id": "e1a3c0d5-0c49-45d3-bf98-dbad894fb994",
+      "name": "Get Vocabulary A2 (3)",
+      "retryOnFail": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8001/api/v1/vocabulary/tag",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "text",
+              "value": "={{ $('B1 Writer').item.json.output}}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -3360,
+        4720
+      ],
+      "id": "e7d25256-a74c-48d7-b4c0-5a916b7f1cb6",
+      "name": "Get Vocabulary B1 (1)"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8001/api/v1/texts/create",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "session_id",
+              "value": "={{ $('Get Token B1').item.json.session_id }}"
+            },
+            {
+              "name": "cefr_level",
+              "value": "={{ $('Input').item.json.body.target_cefr}}"
+            },
+            {
+              "name": "text_id",
+              "value": "={{ $('Input').item.json.body.text_id}}"
+            },
+            {
+              "name": "text_translated",
+              "value": "={{ $('B1 Writer').item.json.output }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -1760,
+        4816
+      ],
+      "id": "e75f95d4-d4ae-4683-a3c5-93fc61efc772",
+      "name": "Save Current Text B1",
+      "retryOnFail": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8001/api/v1/vocabulary/tag",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "text",
+              "value": "={{ $('Get Current Text B1').last().json.text.text_translated }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -1088,
+        4688
+      ],
+      "id": "7839f1bd-b8d2-49ae-b781-1c019c4d7e09",
+      "name": "Get Vocabulary B1 (2)",
+      "retryOnFail": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8001/api/v1/vocabulary/tag",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "text",
+              "value": "={{ $('B1 Rewriter').item.json.output}}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -288,
+        4688
+      ],
+      "id": "a3b936e1-d159-4697-999f-4d44a1a01cbc",
+      "name": "Get Vocabulary B1 (3)",
+      "retryOnFail": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8001/api/v1/feedback/create",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "session_id",
+              "value": "={{ $('Get Token B1').item.json.session_id}}"
+            },
+            {
+              "name": "approval",
+              "value": "={{ $('B1 Answer Final Evaluator').last().json.output.approval}}"
+            },
+            {
+              "name": "grade",
+              "value": "={{ $('B1 Answer Final Evaluator').last().json.output.grade.toNumber()}}"
+            },
+            {
+              "name": "feedback",
+              "value": "={{ $('B1 Answer Final Evaluator').last().json.output.feedback}}"
+            },
+            {
+              "name": "cefr_compliance",
+              "value": "={{$('Metrics Computation B1 (2)').last().json.cefr_compliance}}"
+            },
+            {
+              "name": "bertscore",
+              "value": "={{$('Metrics Computation B1 (2)').last().json.bertscore}}"
+            },
+            {
+              "name": "meaningbert",
+              "value": "={{$('Metrics Computation B1 (2)').last().json.meaningbert}}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        864,
+        4688
+      ],
+      "id": "cbc53943-1f13-4caf-8992-d53457898a51",
+      "name": "Save New Feedback B1",
+      "retryOnFail": true
+    },
+    {
+      "parameters": {
+        "jsCode": "const input = $('Get best attempt for A2').last().json;\n\nreturn [\n  {\n    output: input.best_attempt.text_translated\n  }\n];\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1984,
+        4320
+      ],
+      "id": "0496871b-98fa-4e66-a1ba-c1f4281d8e38",
+      "name": "Code"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8001/api/v1/feedback/create",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "session_id",
+              "value": "={{ $('Get Token B1').item.json.session_id}}"
+            },
+            {
+              "name": "approval",
+              "value": "={{ $('Answer Evaluator B1').item.json.output.approval}}"
+            },
+            {
+              "name": "grade",
+              "value": "={{ $('Answer Evaluator B1').item.json.output.grade.toNumber()}}"
+            },
+            {
+              "name": "feedback",
+              "value": "={{ $('Answer Evaluator B1').item.json.output.feedback}}"
+            },
+            {
+              "name": "cefr_compliance",
+              "value": "={{ $('Metrics Computation B1 (1)').last().json.cefr_compliance }}"
+            },
+            {
+              "name": "=meaningbert",
+              "value": "={{ $('Metrics Computation B1 (1)').last().json.meaningbert }}"
+            },
+            {
+              "name": "bertscore",
+              "value": "={{ $('Metrics Computation B1 (1)').last().json.bertscore }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -1536,
+        4816
+      ],
+      "id": "72d0ab89-a2f8-4196-b86b-da0e53312089",
+      "name": "Save Feedback B1",
+      "retryOnFail": true
+    },
+    {
+      "parameters": {
+        "jsCode": "const input = $('Get best attempt for B1').last().json;\n\nreturn [\n  {\n    output: input.best_attempt.text_translated\n  }\n];\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1984,
+        4912
+      ],
+      "id": "f1e0a863-d394-4cf6-a4e9-38759e1db7e9",
+      "name": "Code4"
+    },
+    {
+      "parameters": {
+        "url": "=http://127.0.0.1:8001/api/v1/sessions/{{$('Get Token B1').last().json.session_id}}/attempt-number",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1312,
+        4784
+      ],
+      "id": "ac438a99-dcb9-4b2a-941f-21bcdbfd7fb5",
+      "name": "Verify Attempts for B1"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "576fd603-62e0-430a-8451-60888fa5a7d4",
+              "leftValue": "={{$('Verify Attempts for B1').last().json.attempt_number}}",
+              "rightValue": 10,
+              "operator": {
+                "type": "number",
+                "operation": "gt"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        1536,
+        4912
+      ],
+      "id": "8de5695f-3bae-4d69-88f4-2d691af0e239",
+      "name": "If to verify max attempts for B1"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "576fd603-62e0-430a-8451-60888fa5a7d4",
+              "leftValue": "={{$('Verify Attempts for A2').last().json.attempt_number}}",
+              "rightValue": 10,
+              "operator": {
+                "type": "number",
+                "operation": "gt"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        1536,
+        4320
+      ],
+      "id": "8277d81c-0ed9-4ad9-aecd-4efcdec0e1e9",
+      "name": "If to verify max attempts for A2"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "5cec48b5-dfce-490f-9b9c-dea843ae4f9c",
+              "leftValue": "={{$('Save New Feedback A2').last().json.feedback.approval}}",
+              "rightValue": "PASS",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            },
+            {
+              "id": "121f67e7-27aa-4b45-b4cc-9e924fd8dc17",
+              "leftValue": "={{$('Save New Feedback A2').last().json.feedback.metrics.cefr_compliance}}",
+              "rightValue": "A2",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            },
+            {
+              "id": "eee67168-d123-4667-9749-2e6a2fc7b717",
+              "leftValue": "={{$('Save New Feedback A2').last().json.feedback.metrics.meaningbert}}",
+              "rightValue": 0.75,
+              "operator": {
+                "type": "number",
+                "operation": "gt"
+              }
+            },
+            {
+              "id": "e16684b4-b36c-4dda-881d-7573f9c5e335",
+              "leftValue": "={{$('Save New Feedback A2').last().json.feedback.metrics.bertscore}}",
+              "rightValue": 0.9,
+              "operator": {
+                "type": "number",
+                "operation": "gt"
+              }
+            },
+            {
+              "id": "1b615017-b187-448b-936f-997fe4a6e0b2",
+              "leftValue": "",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "looseTypeValidation": true,
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        1088,
+        4112
+      ],
+      "id": "820bfd45-2e82-49d8-8a30-ae8b24e26022",
+      "name": "Verify if meets the requirements for A2"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "5cec48b5-dfce-490f-9b9c-dea843ae4f9c",
+              "leftValue": "={{$('Save New Feedback B1').last().json.feedback.approval}}",
+              "rightValue": "PASS",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            },
+            {
+              "id": "781c9d89-1dcf-4460-abd3-88c053610b32",
+              "leftValue": "={{$('Save New Feedback B1').last().json.feedback.metrics.cefr_compliance}}",
+              "rightValue": "B1",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            },
+            {
+              "id": "af55c4c3-a2cf-4309-a2d8-1f5984040ff3",
+              "leftValue": "={{$('Save New Feedback B1').last().json.feedback.metrics.meaningbert}}",
+              "rightValue": 0.75,
+              "operator": {
+                "type": "number",
+                "operation": "gt"
+              }
+            },
+            {
+              "id": "3edfa907-cce1-4764-a0e4-bf0c4a3496c1",
+              "leftValue": "={{$('Save New Feedback B1').last().json.feedback.metrics.bertscore}}",
+              "rightValue": 0.9,
+              "operator": {
+                "type": "number",
+                "operation": "gt"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "looseTypeValidation": true,
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        1088,
+        4688
+      ],
+      "id": "afaecb98-c092-4738-94f9-8627089ac540",
+      "name": "Verify if meets the requirements for B1"
+    },
+    {
+      "parameters": {
+        "url": "=http://127.0.0.1:8001/api/v1/sessions/{{$('Get Token B1').last().json.session_id}}/best-attempt",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1760,
+        4912
+      ],
+      "id": "efc40ba3-40f2-407c-b267-e3e300dafefa",
+      "name": "Get best attempt for B1"
+    },
+    {
+      "parameters": {
+        "url": "=http://127.0.0.1:8001/api/v1/sessions/{{$('Get Token A2').last().json.session_id}}/best-attempt",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1760,
+        4320
+      ],
+      "id": "d35ffd08-ceb3-4a08-be1c-3165ee6ad255",
+      "name": "Get best attempt for A2"
+    },
+    {
+      "parameters": {
+        "url": "=http://127.0.0.1:8001/api/v1/sessions/{{$('Get Token A2').last().json.session_id}}/attempt-number",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1312,
+        4208
+      ],
+      "id": "0e441a27-c0aa-4bc2-9443-d88a2a5625d3",
+      "name": "Verify Attempts for A2"
+    },
+    {
+      "parameters": {
+        "options": {
+          "temperature": 0
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        -4736,
+        4656
+      ],
+      "id": "7c624a21-bb65-412f-bfbb-557ef1ef6786",
+      "name": "Google Gemini Chat Model",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "h5QwlIXcVV9aWG6M",
+          "name": "Google Gemini(PaLM) API ARIAS"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {
+          "temperature": 0
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        -2560,
+        4352
+      ],
+      "id": "af6d4de9-3614-4d3d-99f3-fe45ce8d2250",
+      "name": "Google Gemini Chat Model26",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "h5QwlIXcVV9aWG6M",
+          "name": "Google Gemini(PaLM) API ARIAS"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {
+          "temperature": 0
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        512,
+        4336
+      ],
+      "id": "478e5a3d-002f-4c6f-be13-9e1dffdd91a4",
+      "name": "Google Gemini Chat Model27",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "h5QwlIXcVV9aWG6M",
+          "name": "Google Gemini(PaLM) API ARIAS"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {
+          "temperature": 0
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        -2560,
+        4944
+      ],
+      "id": "ec7880c8-8f61-44ad-81e5-e45a75f14e2b",
+      "name": "Google Gemini Chat Model28",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "h5QwlIXcVV9aWG6M",
+          "name": "Google Gemini(PaLM) API ARIAS"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "openai/gpt-oss-120b",
+          "mode": "id"
+        },
+        "options": {
+          "temperature": 0
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        -5024,
+        4656
+      ],
+      "id": "08bde4b2-2842-4db0-876f-2ab6f30f1a89",
+      "name": "Together AI - GPT-OSS-120B1",
+      "credentials": {
+        "openAiApi": {
+          "id": "vDorphtbyBFF36xI",
+          "name": "Together AI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "openai/gpt-oss-120b",
+          "mode": "id"
+        },
+        "options": {
+          "temperature": 0
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        -3648,
+        4352
+      ],
+      "id": "4826425e-35bb-4868-bbda-ef4470ab0992",
+      "name": "Together AI - GPT-OSS-120B",
+      "credentials": {
+        "openAiApi": {
+          "id": "vDorphtbyBFF36xI",
+          "name": "Together AI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "openai/gpt-oss-120b",
+          "mode": "id"
+        },
+        "options": {
+          "temperature": 0
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        -3648,
+        4944
+      ],
+      "id": "8cef5ccc-0809-41d5-b454-e7c2833b6311",
+      "name": "Together AI - GPT-OSS-120B2",
+      "credentials": {
+        "openAiApi": {
+          "id": "vDorphtbyBFF36xI",
+          "name": "Together AI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "openai/gpt-oss-120b",
+          "mode": "id"
+        },
+        "options": {
+          "temperature": 0
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        -800,
+        4336
+      ],
+      "id": "80021ecc-3e52-4875-9dbb-c9655618bc30",
+      "name": "Together AI - GPT-OSS-120B5",
+      "credentials": {
+        "openAiApi": {
+          "id": "vDorphtbyBFF36xI",
+          "name": "Together AI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "openai/gpt-oss-120b",
+          "mode": "id"
+        },
+        "options": {
+          "temperature": 0
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        -800,
+        4912
+      ],
+      "id": "a6c55583-d1b1-4b9f-8294-beeddef13cc4",
+      "name": "Together AI - GPT-OSS-120B7",
+      "credentials": {
+        "openAiApi": {
+          "id": "vDorphtbyBFF36xI",
+          "name": "Together AI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "modelName": "models/gemini-2.5-pro",
+        "options": {
+          "temperature": 0
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        -2848,
+        4352
+      ],
+      "id": "b319852a-5a34-48d9-bc3a-b121295e29af",
+      "name": "Google Gemini Chat Model30",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "h5QwlIXcVV9aWG6M",
+          "name": "Google Gemini(PaLM) API ARIAS"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "modelName": "models/gemini-2.5-pro",
+        "options": {
+          "temperature": 0
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        -2848,
+        4944
+      ],
+      "id": "4e4af59a-69bd-4165-a9a6-d4f2e3fa80b5",
+      "name": "Google Gemini Chat Model31",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "h5QwlIXcVV9aWG6M",
+          "name": "Google Gemini(PaLM) API ARIAS"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "modelName": "models/gemini-2.5-pro",
+        "options": {
+          "temperature": 0
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        224,
+        4336
+      ],
+      "id": "a312a399-c358-440d-8a14-dd30011d0240",
+      "name": "Google Gemini Chat Model32",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "h5QwlIXcVV9aWG6M",
+          "name": "Google Gemini(PaLM) API ARIAS"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "modelName": "models/gemini-2.5-pro",
+        "options": {
+          "temperature": 0
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        224,
+        4912
+      ],
+      "id": "60fa56a0-ad7d-4290-9da4-1181eeb5be9c",
+      "name": "Google Gemini Chat Model33",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "h5QwlIXcVV9aWG6M",
+          "name": "Google Gemini(PaLM) API ARIAS"
+        }
+      }
+    }
+  ],
+  "pinData": {
+    "Input": [
+      {
+        "json": {
+          "headers": {
+            "host": "localhost:5678",
+            "user-agent": "curl/8.7.1",
+            "accept": "*/*",
+            "content-type": "application/json",
+            "content-length": "492"
+          },
+          "params": {},
+          "query": {},
+          "body": {
+            "target_cefr": "A2",
+            "text_id": "54-a2",
+            "original": "Faith47 is from Cape Town in South Africa. She paints big, colourful pictures of people and animals and likes to explore different locations. Her work is found on pavements, in empty factories and on abandoned cars. She likes the fact that most street art is temporary and will soon be removed by weather or cleaners from the city council. For her, this reflects how life is full of change with its cycle of endings and new beginnings."
+          },
+          "webhookUrl": "http://localhost:5678/webhook/2faca1e6-1442-4394-8538-f3a918abaef9",
+          "executionMode": "production"
+        }
+      }
+    ]
+  },
+  "connections": {
+    "Switch": {
+      "main": [
+        [
+          {
+            "node": "A2 Writer",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "B1 Writer",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Input": {
+      "main": [
+        [
+          {
+            "node": "Key Words Extractor",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "A2 Evaluator": {
+      "main": [
+        [
+          {
+            "node": "Answer Evaluator A2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "B1 Evaluator": {
+      "main": [
+        [
+          {
+            "node": "Answer Evaluator B1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If1": {
+      "main": [
+        [
+          {
+            "node": "Code3",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Get Token A2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If2": {
+      "main": [
+        [
+          {
+            "node": "Code7",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Get Token B1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Structured Output Parser2": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "Answer Evaluator A2",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "A2 Writer": {
+      "main": [
+        [
+          {
+            "node": "Get Vocabulary A2 (1)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Token A2": {
+      "main": [
+        [
+          {
+            "node": "Save Current Text A2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Save Current Text A2": {
+      "main": [
+        [
+          {
+            "node": "Save Feedback A2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Answer Evaluator A2": {
+      "main": [
+        [
+          {
+            "node": "If1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Save Feedback A2": {
+      "main": [
+        [
+          {
+            "node": "Get Current Text A2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Current Text A2": {
+      "main": [
+        [
+          {
+            "node": "Get Vocabulary A2 (2)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "A2 Rewriter": {
+      "main": [
+        [
+          {
+            "node": "Save New Text A2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Structured Output Parser4": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "A2 Answer Final Evaluator",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "A2 Final Evaluator": {
+      "main": [
+        [
+          {
+            "node": "A2 Answer Final Evaluator",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "A2 Answer Final Evaluator": {
+      "main": [
+        [
+          {
+            "node": "Save New Feedback A2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Save New Text A2": {
+      "main": [
+        [
+          {
+            "node": "Get Vocabulary A2 (3)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Save New Feedback A2": {
+      "main": [
+        [
+          {
+            "node": "Verify if meets the requirements for A2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Key Words Extractor": {
+      "main": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Basic LLM Chain": {
+      "main": [
+        [
+          {
+            "node": "Get Vocabulary",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Structured Output Parser1": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Vocabulary": {
+      "main": [
+        [
+          {
+            "node": "Get Examples",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Structured Output Parser6": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "B1 Answer Final Evaluator",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Structured Output Parser3": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "Answer Evaluator B1",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "B1 Writer": {
+      "main": [
+        [
+          {
+            "node": "Get Vocabulary B1 (1)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Answer Evaluator B1": {
+      "main": [
+        [
+          {
+            "node": "If2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "B1 Rewriter": {
+      "main": [
+        [
+          {
+            "node": "Save New Text B1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "B1 Final Evaluator": {
+      "main": [
+        [
+          {
+            "node": "B1 Answer Final Evaluator",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "B1 Answer Final Evaluator": {
+      "main": [
+        [
+          {
+            "node": "Save New Feedback B1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Token B1": {
+      "main": [
+        [
+          {
+            "node": "Save Current Text B1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Current Text B1": {
+      "main": [
+        [
+          {
+            "node": "Get Vocabulary B1 (2)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Save New Text B1": {
+      "main": [
+        [
+          {
+            "node": "Get Vocabulary B1 (3)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model12": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "B1 Answer Final Evaluator",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Metrics Computation B1 (1)": {
+      "main": [
+        [
+          {
+            "node": "B1 Evaluator",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Metrics Computation B1 (2)": {
+      "main": [
+        [
+          {
+            "node": "B1 Final Evaluator",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Examples": {
+      "main": [
+        [
+          {
+            "node": "Switch",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Metrics Computation A2 (1)": {
+      "main": [
+        [
+          {
+            "node": "A2 Evaluator",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Metrics Computation A2 (2)": {
+      "main": [
+        [
+          {
+            "node": "A2 Final Evaluator",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Vocabulary A2 (1)": {
+      "main": [
+        [
+          {
+            "node": "Metrics Computation A2 (1)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Vocabulary A2 (2)": {
+      "main": [
+        [
+          {
+            "node": "A2 Rewriter",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Vocabulary A2 (3)": {
+      "main": [
+        [
+          {
+            "node": "Metrics Computation A2 (2)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Vocabulary B1 (1)": {
+      "main": [
+        [
+          {
+            "node": "Metrics Computation B1 (1)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Save Current Text B1": {
+      "main": [
+        [
+          {
+            "node": "Save Feedback B1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Vocabulary B1 (2)": {
+      "main": [
+        [
+          {
+            "node": "B1 Rewriter",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Vocabulary B1 (3)": {
+      "main": [
+        [
+          {
+            "node": "Metrics Computation B1 (2)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Save New Feedback B1": {
+      "main": [
+        [
+          {
+            "node": "Verify if meets the requirements for B1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Save Feedback B1": {
+      "main": [
+        [
+          {
+            "node": "Get Current Text B1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Verify Attempts for B1": {
+      "main": [
+        [
+          {
+            "node": "If to verify max attempts for B1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If to verify max attempts for B1": {
+      "main": [
+        [
+          {
+            "node": "Get best attempt for B1",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Get Current Text B1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If to verify max attempts for A2": {
+      "main": [
+        [
+          {
+            "node": "Get best attempt for A2",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Get Current Text A2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Verify if meets the requirements for A2": {
+      "main": [
+        [
+          {
+            "node": "Code1",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Verify Attempts for A2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Verify if meets the requirements for B1": {
+      "main": [
+        [
+          {
+            "node": "Code2",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Verify Attempts for B1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get best attempt for B1": {
+      "main": [
+        [
+          {
+            "node": "Code4",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get best attempt for A2": {
+      "main": [
+        [
+          {
+            "node": "Code",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Verify Attempts for A2": {
+      "main": [
+        [
+          {
+            "node": "If to verify max attempts for A2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model26": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Answer Evaluator A2",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model27": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "A2 Answer Final Evaluator",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model28": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Answer Evaluator B1",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Together AI - GPT-OSS-120B1": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Key Words Extractor",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Together AI - GPT-OSS-120B": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "A2 Writer",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Together AI - GPT-OSS-120B2": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "B1 Writer",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Together AI - GPT-OSS-120B5": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "A2 Rewriter",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Together AI - GPT-OSS-120B7": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "B1 Rewriter",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model30": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "A2 Evaluator",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model31": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "B1 Evaluator",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model32": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "A2 Final Evaluator",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model33": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "B1 Final Evaluator",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "b84d74d3-c908-4ff2-9e3f-c5020a72c0a3",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "68a343dc4fdc0a1aa994538b185d46372a7bfdf2d53434d01cca623f8b5c815a"
+  },
+  "id": "YCnH3Gg2xVuVd0kC",
+  "tags": []
+}

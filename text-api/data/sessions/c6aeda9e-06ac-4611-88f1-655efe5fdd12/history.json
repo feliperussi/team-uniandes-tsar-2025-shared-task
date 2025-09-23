@@ -1,0 +1,413 @@
+{
+  "session_id": "c6aeda9e-06ac-4611-88f1-655efe5fdd12",
+  "created_at": "2025-08-31 20:40:23.393370",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:40:23.402001",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "20-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is an important researcher. She studies robots and AI. AI is when computers can think.\n\nShe wrote more than 50 papers. The papers are in important science magazines. Sometimes she wrote them with other people.\n\nShe often speaks at big meetings in different countries. In 2012, she won a very important prize.\n\nJulie lives with her family in a smart home. A smart home is a house that uses computers. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 20:40:23.404838",
+      "metadata": {
+        "text_id": "a96a028c-d979-4088-a3b3-3f6bc863999d",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:40:23.413154",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "33ab7717-9e99-40bf-9c34-75c24d8d4b8f",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on two critical metrics. The primary failure is the MeaningBERT score of 0.6601, which is significantly below the required 0.75 threshold. The secondary failure is the BERTScore of 0.8934, which is below the required 0.90.\n\n- Meaning Preservation Failure (MeaningBERT 0.6601): The original text's core message is about elite status and high achievement, using words like 'leading', 'highly regarded', and 'prestigious'. Your output reduces this to 'important', which is a significant loss of meaning. The text is no longer about an expert at the top of her field; it is merely about a person with an important job.\n\n- Fidelity Failure (BERTScore 0.8934): The score is too low because key lexical items were over-simplified or removed. Replacing 'leading researcher' with 'important researcher' and 'prestigious...fellowship' with 'very important prize' caused a loss of factual detail that dropped the score below the minimum threshold.\n\n- The definitions provided for 'AI' and 'smart home' are acceptable for A2, but they do not compensate for the core meaning loss in the main text.\n\nSuggestion: Rephrase the text to restore the core meaning of high achievement and expertise. The word 'important' is not strong enough. You must convey the concept of being a top expert without using B1/B2 vocabulary. Suggestion: Restore more specific, simplified terms for 'journals' and 'conferences' to increase fidelity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8934,
+          "meaningbert": 0.6601
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:40:41.396037",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is one of the best researchers. She studies robots and AI. AI is when computers can think.\n\nShe wrote more than 50 papers. Her papers are in the best science magazines. Sometimes she wrote them with other people.\n\nShe often speaks at special meetings for scientists in different countries. In 2012, she won a special prize. It is a prize that only the best researchers can win.\n\nJulie lives with her family in a smart home. A smart home is a house that uses computers. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 20:40:41.397011",
+      "metadata": {
+        "text_id": "d14e0462-393d-43dc-84f3-b7a6a073e334",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 20:41:11.362112",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "940c25cf-0b53-466d-afd6-1b871619a4d6",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6211 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text.\n\n- Fidelity Failure: The BERTScore of 0.8838 is below the 0.90 minimum. This is a direct result of removing key factual details like 'peer-reviewed journals' and the specific name of the fellowship, 'Royal Academy Simone Fielding fellowship'.\n\n- Structural Complexity Exceeds A2: The text uses B1 grammatical structures. The sentence 'It is a prize that only the best researchers can win' uses a relative 'that-clause'. This is not an A2 structure.\n\n- Structural Complexity Exceeds A2: The sentence 'A smart home is a house that uses computers' also uses a relative 'that-clause', which is too complex for this level.\n\n- Loss of Meaning: The phrase 'leading researcher' was simplified to 'one of the best researchers', which loses the nuance of being at the forefront of a field. 'Peer-reviewed journals' was simplified to 'science magazines', which is factually inaccurate and diminishes the academic achievement.\n\nSuggestion: The text must be rewritten. Restore the lost factual details using simple language. Break the sentences containing 'that-clauses' into two separate, simple sentences. For example: 'She won a special prize. Only the best researchers can win this prize.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8838,
+          "meaningbert": 0.6211
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:41:27.115745",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a top researcher. She studies robots and AI. AI is when computers can think.\n\nShe wrote more than 50 papers. Sometimes she wrote them with other people. Her papers are in special science magazines. Other scientists check the papers first.\n\nShe often speaks at meetings for scientists in different countries. In 2012, she won a special prize. The prize is the Royal Academy Simone Fielding fellowship. Only the best researchers can win this prize.\n\nJulie lives with her family in a smart home. A smart home is a special house. It uses computers. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 20:41:27.117244",
+      "metadata": {
+        "text_id": "7cddefd0-1b86-4fe4-8824-21a678bee072",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:41:55.578563",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0119b47a-fd1c-4ecc-acf6-fc12dacd358b",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for failure is the MeaningBERT score of 0.6788, which is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message. The simplification has removed the sense of importance and high achievement central to the original text.\n\n- Fidelity Failure: The BERTScore of 0.8893 is below the 0.90 minimum. This is a direct result of replacing specific, impactful words with overly generic substitutes. Key lexical detail was lost.\n- Meaning Dilution: The original text emphasizes the high status of the researcher's work ('leading', 'highly regarded', 'prestigious'). Your version reduces these concepts to generic words like 'top' and 'special', which do not carry the same weight. The meaning of her accomplishments has been diluted.\n- Example of Meaning Loss: Changing 'prestigious... fellowship' to 'a special prize' loses the core concept of a highly respected and competitive award. The explanation 'Only the best researchers can win this prize' helps, but the initial simplification is too severe.\n\nSuggestion: Do not replace key concepts with generic words. Retain the original term and explain it in a simple follow-up sentence. For example: 'She was awarded the prestigious Royal Academy fellowship. Prestigious means it is a very important prize that many people respect.' This preserves both fidelity and meaning while maintaining A2 readability.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8893,
+          "meaningbert": 0.6788
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:42:14.747783",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a leading researcher. This means she is one of the most important researchers. She studies robots and AI. AI is when computers can think. She wrote more than 50 papers. Sometimes she wrote them with other people. Her papers are in highly regarded science magazines. This means other scientists think the magazines are very good. Other scientists check the papers first. She often speaks at meetings for scientists in different countries. In 2012, she won the prestigious Royal Academy Simone Fielding fellowship. Prestigious means it is a very important award that many people respect. Julie lives with her family in a smart home. A smart home is a house that uses computers. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 20:42:14.749771",
+      "metadata": {
+        "text_id": "3c693dbe-5d94-47ff-b017-453bfb87aa8e",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 20:42:51.768692",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "70558294-3e49-44aa-af30-44c7ff94eba2",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on multiple high-priority metrics. The MeaningBERT score of 0.7394 is below the required 0.75 threshold. The BERTScore of 0.892 is below the required 0.90. These failures indicate that the core message and lexical fidelity of the original text were lost during simplification. The CEFR classifier also incorrectly rated the text as B1, a direct violation of the A2 requirement.\n\nDetected Deviations:\n- Meaning Preservation Failure: The MeaningBERT score is too low. Adding multiple explanatory sentences like 'This means she is one of the most important researchers' and 'AI is when computers can think' diluted the original message and lowered the score.\n- Fidelity Failure: The BERTScore is too low. The text did not maintain enough of the original's key phrasing, resulting in a loss of fidelity.\n- CEFR Compliance Failure: The classifier result is B1, not A2. This is unacceptable.\n- Vocabulary Violation: B1 and C1 words were retained ('leading', 'highly', 'prestigious', 'royal', 'academy'). Defining a complex word is not a substitute for replacing it with an A2 equivalent. The word 'means' is B2 level.\n- Structural Violation: The defining clause 'AI is when computers can think' is a B1 structure. The rhetorical device 'This means...' is too complex for A2.\n\nCorrective Path:\n- Suggestion: Remove all explanatory sentences that were not in the original text. This will improve meaning and fidelity scores.\n- Suggestion: Replace all vocabulary above A2 level. Do not define them; replace them. 'Leading' must become 'very important'. 'Prestigious' must become 'a very important award'. 'Highly regarded' must become 'very good'.\n- Suggestion: Rephrase complex definitions. Change 'AI is when computers can think' to a simple A2 sentence like 'AI helps computers to think'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.892,
+          "meaningbert": 0.7394
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:43:20.401323",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a very important researcher. She studies robots and AI. AI helps computers to think. She wrote more than 50 papers. Sometimes she wrote them with other people. Her papers are in very good science magazines. Other scientists check the papers first. She often speaks at meetings for scientists in different countries. In 2012, she won the Simone Fielding award. It is a very important award. Julie lives with her family in a smart home. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 20:43:20.404213",
+      "metadata": {
+        "text_id": "91294803-a7c9-4594-b16b-c24fffc17a2f",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-08-31 20:43:48.441948",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "750154b2-31fc-4035-b160-a025a3389fdb",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "PASS. The text successfully meets all A2 standard requirements.\n- Factual Integrity: The output is factually correct and aligns with the original text.\n- Meaning and Fidelity: The metrics are within acceptable ranges. The MeaningBERT score of 0.7871 and BERTScore of 0.9051 confirm that the core message and key terms were preserved.\n- CEFR Compliance: The text correctly classifies as A2.\n- Qualitative Audit: The vocabulary is strictly limited to the A1/A2 levels, with no unapproved words. Sentence structure is exemplary for the A2 standard, using short, simple declarative sentences. Complex concepts such as 'peer-reviewed' and 'international conferences' were successfully simplified into concrete A2 language ('Other scientists check the papers first' and 'meetings for scientists in different countries'). The submission adheres to the required standard.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9051,
+          "meaningbert": 0.7871
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:43:59.569870",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a very important researcher. She studies robots and AI. AI helps computers to think. She wrote more than 50 papers. Sometimes she wrote them with other people. Her papers are in very good science magazines. Other scientists check the papers first. She often speaks at meetings for scientists in different countries. In 2012, she won the Simone Fielding award. It is a very important award. Julie lives with her family in a smart home. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 20:43:59.571777",
+      "metadata": {
+        "text_id": "03365a05-ee29-45ea-b308-cc17ef8e4097",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:44:27.563998",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "17116f7f-ac1a-404b-889f-e80d48874c27",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS. The output meets all requirements for the A2 standard.\n- Factual Integrity: The text is factually correct. All key information regarding Julie Wong's profession, publications, awards, and home is accurately preserved.\n- Metric Compliance: The text passes all metric checks. The MeaningBERT score of 0.7871 and BERTScore of 0.9051 are above the required thresholds. The CEFR classifier correctly identifies the text as A2.\n- Vocabulary Discipline: Vocabulary is strictly confined to the A2 level. There are no B1 or higher-level words.\n- Structural Adherence: The text exclusively uses short, simple sentence structures. Complex concepts from the original text, such as 'peer-reviewed' and 'designed', have been successfully simplified into A2-compliant phrases.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9051,
+          "meaningbert": 0.7871
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:44:36.541010",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a very important researcher. She studies robots and AI. AI helps computers to think. She wrote more than 50 papers. Sometimes she wrote them with other people. Her papers are in very good science magazines. Other scientists check the papers first. She often speaks at meetings for scientists in different countries. In 2012, she won the Simone Fielding award. It is a very important award. Julie lives with her family in a smart home. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 20:44:36.541378",
+      "metadata": {
+        "text_id": "25dcf368-2d3d-4db1-aa5b-7bb0afe600cf",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:45:03.954615",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5a8eab34-b42c-4eca-b81a-2a1cdb3f4357",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: Exemplary Adherence to A2 Standard. The output successfully passes all diagnostic checks.\n\n- Factual Integrity: All key facts, names, and numbers from the original text have been accurately preserved.\n- Metrics Compliance: The MeaningBERT score of 0.7871 and BERTScore of 0.9051 are both above the required thresholds, confirming that the core message and key terms were successfully retained.\n- CEFR Classification: The text correctly classifies as A2, meeting the target level precisely.\n- Qualitative Audit: The text demonstrates a masterful control of A2 standards. Vocabulary is strictly limited to the A1 and A2 levels. Sentence structure is consistently short and simple. Complex concepts such as 'peer-reviewed' and 'designed' were correctly simplified into clear, A2-appropriate descriptions ('Other scientists check the papers first'; 'She made the plan for the house herself'). The submission is a model example of A2 simplification.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9051,
+          "meaningbert": 0.7871
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:45:24.117931",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a very important researcher. She studies robots and AI. AI helps computers to think. She wrote more than 50 papers. Sometimes she wrote them with other people. Her papers are in very good science magazines. Other scientists check the papers first. She often speaks at meetings for scientists in different countries. In 2012, she won the Simone Fielding award. It is a very important award. Julie lives with her family in a smart home. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 20:45:24.120609",
+      "metadata": {
+        "text_id": "b5a49744-6be1-4e81-be21-ec7203794048",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:45:50.796804",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "85775a02-0fc4-4bd8-8474-d75da5ec5e16",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: Exemplary Adherence to A2 Standard. The output successfully passes all diagnostic checks.\n\n- Factual Integrity: All key facts, names, and numbers from the original text have been accurately preserved.\n- Metrics Compliance: The MeaningBERT score of 0.7871 and BERTScore of 0.9051 are both above the required thresholds, confirming that the core message and key terms were successfully retained.\n- CEFR Classification: The text correctly classifies as A2, meeting the target level precisely.\n- Qualitative Audit: The text demonstrates a masterful control of A2 standards. Vocabulary is strictly limited to the A1 and A2 levels. Sentence structure is consistently short and simple. Complex concepts such as 'peer-reviewed' and 'designed' were correctly simplified into clear, A2-appropriate descriptions ('Other scientists check the papers first'; 'She made the plan for the house herself'). The submission is a model example of A2 simplification.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9051,
+          "meaningbert": 0.7871
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:46:04.753200",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a very important researcher. She studies robots and AI. AI helps computers to think. She wrote more than 50 papers. Sometimes she wrote them with other people. Her papers are in very good science magazines. Other scientists check the papers first. She often speaks at meetings for scientists in different countries. In 2012, she won the Simone Fielding award. It is a very important award. Julie lives with her family in a smart home. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 20:46:04.755966",
+      "metadata": {
+        "text_id": "ab112607-d9eb-49f2-b868-a056ef6929b8",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-08-31 20:46:33.371445",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c4797156-fabb-4510-9de1-4e4bc3c36cc3",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "PASS. The text successfully meets all A2 standard requirements.\n- Factual Integrity: The output is factually correct and aligns with the original text.\n- Meaning and Fidelity: The metrics are within acceptable ranges. The MeaningBERT score of 0.7871 and BERTScore of 0.9051 confirm that the core message and key terms were preserved.\n- CEFR Compliance: The text correctly classifies as A2.\n- Qualitative Audit: The vocabulary is strictly limited to the A1/A2 levels, with no unapproved words. Sentence structure is exemplary for the A2 standard, using short, simple declarative sentences. Complex concepts such as 'peer-reviewed' and 'international conferences' were successfully simplified into concrete A2 language ('Other scientists check the papers first' and 'meetings for scientists in different countries'). The submission adheres to the required standard.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9051,
+          "meaningbert": 0.7871
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:46:49.118068",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a very important researcher. She studies robots and AI. AI helps computers to think. She wrote more than 50 papers. Sometimes she wrote them with other people. Her papers are in very good science magazines. Other scientists check the papers first. She often speaks at meetings for scientists in different countries. In 2012, she won the Simone Fielding award. It is a very important award. Julie lives with her family in a smart home. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 20:46:49.118738",
+      "metadata": {
+        "text_id": "7bd16f54-e9cd-44d9-b007-3bb92159e009",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:47:16.012963",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "660bb548-de64-47c3-b78f-11c09e5becbe",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS. The output meets all requirements for the A2 standard.\n- Factual Integrity: The text is factually correct. All key information regarding Julie Wong's profession, publications, awards, and home is accurately preserved.\n- Metric Compliance: The text passes all metric checks. The MeaningBERT score of 0.7871 and BERTScore of 0.9051 are above the required thresholds. The CEFR classifier correctly identifies the text as A2.\n- Vocabulary Discipline: Vocabulary is strictly confined to the A2 level. There are no B1 or higher-level words.\n- Structural Adherence: The text exclusively uses short, simple sentence structures. Complex concepts from the original text, such as 'peer-reviewed' and 'designed', have been successfully simplified into A2-compliant phrases.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9051,
+          "meaningbert": 0.7871
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:47:34.977227",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a very important researcher. She studies robots and AI. AI helps computers to think. She wrote more than 50 papers. Sometimes she wrote them with other people. Her papers are in very good science magazines. Other scientists check the papers first. She often speaks at meetings for scientists in different countries. In 2012, she won the Simone Fielding award. It is a very important award. Julie lives with her family in a smart home. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 20:47:34.977861",
+      "metadata": {
+        "text_id": "0fe12de9-44b8-44c5-a06d-cf52e0e81869",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:47:59.636828",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "eeb74cb3-3f3a-48a0-b3b4-87984fd5321f",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: Full Compliance. The output meets all A2 standard requirements without deviation.\n\n- Factual Integrity: All facts, names, and numbers from the original text are correctly represented.\n- Metric Compliance: The MeaningBERT score of 0.7871 and BERTScore of 0.9051 are above the required thresholds, confirming preservation of meaning and lexical fidelity.\n- CEFR Classification: The text correctly classified as A2.\n- Qualitative Audit: The text is an exemplary model of A2 simplification. Complex B1/B2 concepts were successfully rephrased using A2 structures and vocabulary. For example, 'peer-reviewed journals' was correctly simplified to 'very good science magazines. Other scientists check the papers first.' and 'international conferences' became 'meetings for scientists in different countries'. The sentence structure is consistently simple and direct. No vocabulary above the A2 level was used. The submission is approved.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9051,
+          "meaningbert": 0.7871
+        }
+      }
+    }
+  ]
+}

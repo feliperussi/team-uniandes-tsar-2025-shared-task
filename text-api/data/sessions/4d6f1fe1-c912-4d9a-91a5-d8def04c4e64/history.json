@@ -1,0 +1,228 @@
+{
+  "session_id": "4d6f1fe1-c912-4d9a-91a5-d8def04c4e64",
+  "created_at": "2025-09-01 01:11:25.278743",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:11:25.290159",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "18-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many popular singers stop making new music. But Bruce Springsteen is different. He is almost 70 years old, and he still makes new music. His music is very popular. Many people go to see him in big stadiums. He is still one of the best.\n\nThis is not a surprise. His songs tell important stories about us. For example, listen to his song \"Born in the USA\". The stories in that song are still important today.",
+      "timestamp": "2025-09-01 01:11:25.291404",
+      "metadata": {
+        "text_id": "1599eb1c-663e-4eae-86ec-b2f184dd0304",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 01:11:25.301672",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9e4ebd49-a039-4381-b348-7f4d9545a290",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6391 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text.\n\n- Primary Deviation: The original text emphasizes the depth and timelessness of the stories with phrases like \"most fundamental stories\" and \"as relevant today as they ever were\". Your version simplifies this to \"important stories\" that are \"still important today\", losing the original's core meaning and intensity.\n- Secondary Deviation (Fidelity): The BERTScore of 0.8902 is below the 0.90 minimum. This reflects the loss of key descriptive words from the original.\n- Vocabulary Violation: The word \"making\" is classified as B2. This is an unacceptable deviation from the A2 vocabulary standard.\n\nSuggestion: Rephrase to restore the lost meaning. The concept of \"fundamental\" must be communicated in simple terms. Replace \"stop making\" with an A2-compliant phrase like \"do not make new music anymore\".",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8902,
+          "meaningbert": 0.6391
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:11:39.950743",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many popular singers do not make new music anymore. But Bruce Springsteen is different. He is almost 70 years old, and he still makes new music. His music is very popular. Many people go to see him in big stadiums. He is still one of the best.\n\nThis is not a surprise. His songs tell the most important stories about our lives. For example, listen to his song \"Born in the USA\". The stories in that song are as important today as in the past.",
+      "timestamp": "2025-09-01 01:11:39.951925",
+      "metadata": {
+        "text_id": "7b43e9e4-8408-46b6-9280-4a025702e927",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 01:12:03.706649",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "143df70c-eff5-46f9-8964-911507909f9d",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The submission fails on two critical metrics, indicating a severe deviation from the source text's core message and lexical content. This is an instant failure of the primary task.\n\n*   Meaning Preservation Failure: The MeaningBERT score of 0.6885 is critically below the required 0.75 threshold. The original text's central point is that the stories are 'fundamental' and 'relevant'. Your replacement with 'important' is too generic and fails to convey the specific meaning of why the music endures. The core message has been diluted.\n\n*   Fidelity Failure: The BERTScore of 0.8946 is below the minimum acceptable score of 0.90. This failure is caused by the complete removal of key descriptive concepts like 'chart-topping' and 'stadium-filling'. While simplification is required, you must find A2-level ways to represent these facts, not erase them. This has resulted in an unacceptable loss of factual detail.\n\nSuggestion: You must restore the original meaning. Rephrase to communicate the concept of 'relevance' directly. Use simple sentences to describe his success, for example: 'His new songs are number one.' and 'He plays music in very big stadiums for many people.' Do not sacrifice core facts for simplicity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8946,
+          "meaningbert": 0.6885
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:12:22.190080",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many popular singers do not make new music anymore. But Bruce Springsteen is different. He is almost 70 years old. He still makes new music. His new songs are number one. He plays music in very big stadiums for many people. He is still one of the best.\n\nThis is not a surprise. His songs tell our most basic stories about ourselves. For example, listen to his song \"Born in the USA\". The stories in that song are still true today. They were also true in the past.",
+      "timestamp": "2025-09-01 01:12:22.190515",
+      "metadata": {
+        "text_id": "9245b539-4978-4ec3-b6c2-4783df65980e",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 01:12:47.026076",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "82059888-1e2f-45a8-aeb6-72de74f11d39",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8924 is below the required 0.90 threshold. This indicates a loss of key phrasing from the original text.\n\n*   Primary Deviation: The simplification of specific B1/B2 concepts resulted in a loss of lexical fidelity. The phrase 'remains at the top of his game' was reduced to 'one of the best'. The concept of 'relevant' was reduced to 'true'. While these are acceptable simplifications for meaning, they are too distant from the original wording, causing the metric failure.\n*   Secondary Deviation: The text uses the B1-level word 'basic'. This is too advanced for the A2 standard.\n*   Positive Note: The text correctly simplifies complex sentences into short, clear A2-level structures, which is why it passed the CEFR classifier.\n\nSuggestion: Rephrase to restore lexical fidelity using A2 vocabulary. Change 'one of the best' to 'still a top singer'. Change 'true' to 'important for people'. Replace the word 'basic' with an A2 alternative like 'important'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8924,
+          "meaningbert": 0.8034
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:12:56.783807",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many popular singers do not make new music anymore. But Bruce Springsteen is different. He is almost 70 years old. He still makes new music. His new songs are number one. He plays music in very big stadiums for many people. He is still a top singer.\n\nThis is not a surprise. His songs tell our most important stories about ourselves. For example, listen to his song \"Born in the USA\". The stories in that song are still important for people today. They were also important in the past.",
+      "timestamp": "2025-09-01 01:12:56.784196",
+      "metadata": {
+        "text_id": "1c83ed25-2266-4f0a-b0ac-845fb774fd6e",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 01:13:22.168668",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3ee6be0d-da5d-4a71-9ab0-fcdd43d52570",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8912 is below the required 0.90 threshold. This indicates a loss of key words and phrasing from the original text. While the text successfully simplifies the message for an A2 audience, it does so by replacing specific terminology with more general words, which caused the fidelity score to drop. For example, the phrase 'best-selling album artists' was replaced with 'popular singers', and 'remains at the top of his game' was simplified to 'is still a top singer'. These changes, while preserving the general meaning, fail the strict lexical fidelity requirement. The text correctly achieved an A2 classification and preserved the core message (MeaningBERT score 0.7688), but the fidelity rule is absolute. Suggestion: Retain more of the original key terms. It is possible to keep phrases like 'best-selling' while simplifying the sentence structure around them. The goal is to simplify grammar, not to replace all specific vocabulary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8912,
+          "meaningbert": 0.7688
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:13:48.603303",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many best-selling album artists do not make new music anymore. But Bruce Springsteen is different. He is in his late 60s. He still makes chart-topping new music. He plays music in very big stadiums for many people. He is still at the top of his game.\n\nThis is not a surprise. His songs tell our most important stories about ourselves. For example, listen to his song \"Born in the USA\". The stories in that song are still important for people today. They were also important in the past.",
+      "timestamp": "2025-09-01 01:13:48.605826",
+      "metadata": {
+        "text_id": "4c909fb2-0579-4a2d-89ef-c959440471d3",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 01:14:13.862165",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5c2e3704-ffc4-4412-b324-436ef1ce4e62",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Qualitative Audit Failure. The text fails due to the inclusion of language that exceeds the A2 CEFR standard. While the metrics are acceptable, a manual audit reveals a critical error.\n\nB1 Level Idiom: The phrase 'at the top of his game' is a B1-level idiom. A2 level text must use literal, direct language. This idiomatic expression is conceptually too advanced and is an instant failure.\n\nVocabulary: The word 'chart-topping' is a compound adjective, which can be complex for A2 learners. While it passed the classifier, simpler phrasing is required for strict compliance.\n\nSuggestion: Remove the idiom 'at the top of his game'. Replace it with a simple, literal A2 phrase such as 'He is still one of the best' or 'He is still very successful'. Rephrase 'chart-topping new music' to 'new music that is very popular' or 'new music that is number one'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9093,
+          "meaningbert": 0.8349
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:14:27.626049",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many best-selling album artists do not make new music anymore. But Bruce Springsteen is different. He is in his late 60s. He still makes new music. His music is very popular. He plays music in very big stadiums for many people. He is still very successful.\n\nThis is not a surprise. His songs tell our most important stories about ourselves. For example, listen to his song \"Born in the USA\". The stories in that song are still important for people today. They were also important in the past.",
+      "timestamp": "2025-09-01 01:14:27.627257",
+      "metadata": {
+        "text_id": "e95cb93d-0f53-41cd-938f-6508c7440a4c",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 01:14:52.468458",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5f5cb93c-b7a2-4b76-9a01-498f6ab1ce35",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity and Meaning Preservation Failure. The submission fails on two critical metrics that take precedence over all other factors.\n\n- Fidelity Failure: The BERTScore of 0.8962 is below the required 0.90. This is a direct result of replacing specific, high-impact original phrases with generic A2 vocabulary. For example, 'chart-topping' and 'top of his game' were simplified to 'very popular' and 'very successful', losing essential lexical detail from the source text.\n\n- Meaning Preservation Failure: The MeaningBERT score of 0.7463 is below the required 0.75 threshold. The original text's concept of 'fundamental stories' was weakened by the substitution with 'important stories'. This simplification loses the core idea that the songs address the basic, foundational aspects of human experience.\n\n- While the text correctly achieves an A2 classification and uses appropriate sentence structures, this does not compensate for the failure to accurately preserve the source text's meaning and key vocabulary.\n\nSuggestion: Restore lexical fidelity. Do not use generic adverbs like 'very'. Instead of 'very popular', rephrase to capture the idea of being number one, such as 'his music is at the top'. Suggestion: Restore core meaning. The word 'fundamental' is critical. Rephrase 'important stories' to something that better captures the original meaning, such as 'stories about the most basic parts of our lives'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8962,
+          "meaningbert": 0.7463
+        }
+      }
+    }
+  ]
+}

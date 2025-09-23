@@ -1,0 +1,413 @@
+{
+  "session_id": "a2e618f6-bfb3-4ff2-85a7-334b6d64e84b",
+  "created_at": "2025-09-01 17:53:37.701106",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:53:37.770082",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "08-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes we dream about a phone call from an old friend.  \nSometimes we dream about the death of someone close.  \nThese dreams are usually just by chance, not a future telling.  \nWe often forget the dreams that do not happen.  \nWe choose to forget them.",
+      "timestamp": "2025-09-01 17:53:37.770250",
+      "metadata": {
+        "text_id": "05f4413c-cfaa-4166-aa6b-a67d51e09db4",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:53:38.807699",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f7fc090a-7e38-48c2-88ff-db6e785d5262",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.68 is significantly below the required 0.75 threshold. This is an instant failure. The core logical link in the original text is that we choose to forget the dreams that don't happen. By splitting this into two separate sentences ('We often forget...' and 'We choose to forget...'), you have broken this direct causal relationship and weakened the central argument. The BERTScore of 0.88 is also below the 0.90 minimum. This reflects the loss of key vocabulary like 'coincidence' and 'prophecy' which, while complex, carry the specific meaning of the original text. Suggestion: Combine the last two sentences to restore the original meaning. The text must clearly state that the act of forgetting is a choice we make about dreams that do not come true. Rephrase to better capture the original's contrast between coincidence and prophecy.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8855,
+          "meaningbert": 0.6832
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:53:49.557218",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes we dream about a phone call from an old friend.  \nSometimes we dream about the death of someone close.  \nThese dreams are just by chance, not a prophecy.  \nWe choose to forget the dreams that do not happen.",
+      "timestamp": "2025-09-01 17:53:49.557429",
+      "metadata": {
+        "text_id": "70eaf25d-31d1-4ba0-bc27-d59e548fe793",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:54:19.618326",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "92e4f745-542e-486a-976a-ba492d372237",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7087 is below the required 0.75 threshold. The BERTScore of 0.8948 is also below the 0.90 minimum. The text fails on fundamental meaning and vocabulary standards.\n\n- Meaning Inaccuracy: The original text states dreams are \"more likely\" to be coincidence and that we \"probably\" forget others. Your version presents these as certain facts (\"These dreams are just by chance\" and \"We choose to forget\"). This alters the core meaning from a possibility to a certainty.\n- Fidelity Loss: The BERTScore is too low because key phrases from the original, such as \"result of coincidence,\" were lost, reducing lexical fidelity.\n- Vocabulary Violation: The word \"prophecy\" is a B2/C1 level word. It is not acceptable for A2. It must be removed and replaced with a simple A2 explanation.\n- Suggestion: Rephrase to restore the original meaning. Change \"These dreams are just by chance, not a prophecy\" to \"These dreams happen by chance. They do not tell the future.\"\n- Suggestion: Restore the uncertainty. Change \"We choose to forget\" to \"We probably choose to forget\".",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8948,
+          "meaningbert": 0.7087
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:54:26.841111",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes we dream about a phone call from an old friend.  \nSometimes we dream about the death of someone close.  \nThese dreams may happen by chance.  \nThey do not tell the future.  \nWe probably choose to forget the dreams that do not happen.",
+      "timestamp": "2025-09-01 17:54:26.841491",
+      "metadata": {
+        "text_id": "ea9c73f5-b591-4870-b7b5-16efa51e9a7d",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:54:51.195736",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b11e9f73-43f1-4b09-a17d-9c26d823a1fd",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6233 is significantly below the required 0.75 threshold. The original text establishes a direct contrast: dreams are the result of 'coincidence rather than prophecy'. Your version separates this into two disconnected statements ('happen by chance' and 'do not tell the future'), which loses the core comparative meaning of the original sentence. This is a critical failure in preserving the message.\nSecondary Failure: Fidelity. The BERTScore of 0.8866 is below the 0.90 minimum. This reflects the loss of key lexical concepts like 'coincidence' and 'prophecy' which were replaced with overly simplified phrases.\nSuggestion: You must restore the original meaning's contrast. Rephrase the third and fourth sentences to create a direct comparison. Example: 'These dreams happen by chance, not because they tell the future.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8866,
+          "meaningbert": 0.6233
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:54:59.484246",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes we dream about a phone call from an old friend.  \nSometimes we dream about the death of someone close.  \nThese dreams happen by chance, not because they tell the future.  \nWe probably choose to forget the dreams that do not happen.",
+      "timestamp": "2025-09-01 17:54:59.484607",
+      "metadata": {
+        "text_id": "4d9caa88-d6dd-44fa-a08d-ff8081b027a5",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:55:22.957695",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5848c523-56ed-4e2f-aae1-546b916019fd",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6163 is catastrophically below the required 0.75 threshold. This indicates a severe loss of the original text's core message.\n\n- Primary Failure (MeaningBERT): The original text presents a single argument: specific types of dreams are more likely coincidence than prophecy. Your version splits the examples ('phone call', 'death') into separate, disconnected sentences, which breaks the logical link and weakens the central point.\n\n- Secondary Failure (BERTScore): The BERTScore of 0.8921 is below the minimum requirement of 0.90. This is a direct result of oversimplification. Key phrases like 'result of coincidence' and 'all the times' were removed, causing a loss of lexical fidelity.\n\n- Semantic Shift: The original states dreams are 'more likely' the result of coincidence, expressing probability. Your version states 'These dreams happen by chance', which is a statement of absolute fact. This is a significant change in meaning.\n\n- Suggestion: The text must be rewritten to preserve the original's argument structure. Combine the dream examples and the explanation. Restore the concept of probability. Example: 'Dreams about a phone call or a death are probably just by chance, not a message about the future.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8921,
+          "meaningbert": 0.6163
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:55:32.659749",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes we dream about a phone call from an old friend.  \nSometimes we dream about the death of someone close.  \nThese dreams are probably just chance, not a message about the future.  \nWe probably choose to forget the dreams that do not happen.",
+      "timestamp": "2025-09-01 17:55:32.661394",
+      "metadata": {
+        "text_id": "0ccf23f7-a3f1-42cb-9a1b-9cda2b3430cf",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:55:57.559862",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "45629464-7206-434c-b906-483bf6ad0edb",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.688 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text. The original text's core argument is about a psychological bias where we remember dreams that seem to come true and forget the many that do not. Your final sentence, 'We probably choose to forget the dreams that do not happen,' is too general and loses this critical nuance. It fails to convey the idea of forgetting the failed predictions. The BERTScore of 0.8968 is also below the 0.90 minimum, reflecting the loss of key phrasing. Suggestion: Rephrase the final sentence to restore the lost meaning. State that we often dream about these events, but we only remember the dreams when the event happens and forget them when it does not.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8968,
+          "meaningbert": 0.688
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:56:02.868844",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes we dream about a phone call from an old friend.  \nSometimes we dream about the death of someone close.  \nThese dreams are probably just chance, not a message about the future.  \nWe sometimes dream about these things.  \nWe only remember them when they happen.  \nWe forget them when they do not.",
+      "timestamp": "2025-09-01 17:56:02.869131",
+      "metadata": {
+        "text_id": "b01835ca-c180-48d7-9b6c-8d00cc2ba4d0",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:56:38.250341",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f68f2e55-e7c2-4a5d-9453-9dcabf5b0fa5",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6387 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message. The original text explains a psychological reason for remembering certain dreams (coincidence and selective memory). Your version breaks this down into simple statements that lose the cause-and-effect relationship. The concept of 'we probably choose to forget' is a key part of the meaning, which is lost in your simplification 'We forget them'. The BERTScore of 0.8783 is also below the 0.90 minimum, reflecting the loss of key vocabulary. Suggestion: Restore the core meaning. Combine sentences to show that the dreams are chance, not messages. Rephrase the final sentences to better explain that people remember the dreams that happen and forget the ones that do not.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8783,
+          "meaningbert": 0.6387
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:56:48.612115",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes we dream about a phone call from an old friend.  \nSometimes we dream about the death of someone close.  \nThese dreams are probably just chance, not a message about the future.  \nWe only remember the dream when it happens.  \nWe probably choose to forget the dream when it does not happen.",
+      "timestamp": "2025-09-01 17:56:48.612616",
+      "metadata": {
+        "text_id": "2d0cfe20-0c9a-40b5-83ac-023e764fc170",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:57:18.801118",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "da748c92-54c1-4e90-9100-ae9f04f38dd4",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6767 is significantly below the required 0.75 threshold. This is an instant failure and the primary reason for rejection.\n\n- Meaning Inaccuracy: The core message was altered. The original text explains a cognitive bias: 'we probably choose to forget all the times we dream about such events but they don't happen.' Your version changes this into a different statement: 'We only remember the dream when it happens.' This is a factual distortion of the original argument.\n\n- Fidelity Failure: The BERTScore of 0.8848 is below the 0.90 minimum. The text was over-simplified by breaking one complex sentence into five short, repetitive ones. This destroyed the logical flow and lexical structure of the original, leading to a low fidelity score.\n\n- Structural Defect: The original uses 'And, of course' to connect two related ideas into a single argument. By creating five separate sentences, you have lost this logical connection entirely, presenting the ideas as a disconnected list.\n\nSuggestion: Rephrase to restore the original meaning. The text must explain that we forget the dreams that do not come true. Do not state that we only remember the ones that do. Combine the final sentences to better reflect the original's single, connected idea.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8848,
+          "meaningbert": 0.6767
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:57:29.136665",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes we dream about a phone call from an old friend.  \nSometimes we dream about the death of someone close.  \nThese dreams are probably just chance, not a message about the future.  \nAnd, of course, we probably choose to forget the dreams.  \nWe forget them when they do not happen.",
+      "timestamp": "2025-09-01 17:57:29.137078",
+      "metadata": {
+        "text_id": "79a22d58-dfc3-4c79-a55d-36b02570ef7e",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:57:58.484475",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f3f7a4c1-72fd-40da-866b-2a88d0337026",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on two critical metrics, indicating an unacceptable deviation from the source material's meaning and fidelity.\n\n- MeaningBERT Score Failure: The score of 0.7432 is below the required 0.75 threshold. This indicates a loss of the core message. The original text directly links the act of forgetting to the dreams not coming true. Your version splits this into two separate sentences (\"we probably choose to forget the dreams. We forget them when they do not happen.\"), which weakens this critical connection and alters the meaning.\n\n- Fidelity Score Failure: The BERTScore of 0.8979 is below the required 0.90. This shows a significant loss of key phrasing from the original text. While simplification is necessary, the replacement of phrases like \"result of coincidence\" and \"all the times we dream about such events\" was too aggressive, causing a drop in lexical fidelity.\n\n- Suggestion: Rephrase the final two sentences to restore the direct link between forgetting and the dream's outcome. A better simplification would be: \"We probably choose to forget the dreams when they do not happen.\" This single sentence more accurately reflects the original meaning while maintaining A2 simplicity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8979,
+          "meaningbert": 0.7432
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:58:09.233089",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes we dream about a phone call from an old friend.  \nSometimes we dream about the death of someone close.  \nThese dreams are probably the result of coincidence.  \nThey are not a message about the future.  \nWe choose to forget the dreams when they do not happen.",
+      "timestamp": "2025-09-01 17:58:09.234682",
+      "metadata": {
+        "text_id": "c0eccf9b-bff8-418b-812c-bef6950f5f71",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:58:30.110290",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "56f93bbd-f125-4420-a822-09c3087720e2",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8918 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text. The simplification has removed too much of the source's lexical content. The original text states 'we probably choose to forget all the times we dream about such events'. Your version, 'We choose to forget the dreams', loses the specific phrases 'all the times' and 'such events', which is the primary cause for the low fidelity score. Suggestion: Rephrase the final sentence to include more of the original's specific words while maintaining A2 simplicity. The text must retain higher lexical fidelity to the source.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8918,
+          "meaningbert": 0.755
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:58:38.114714",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes we dream about a phone call from an old friend.  \nSometimes we dream about the death of someone close.  \nThese dreams are probably the result of coincidence.  \nThey are not a message about the future.  \nWe probably choose to forget all the times we dream.  \nWe forget such events when they do not happen.",
+      "timestamp": "2025-09-01 17:58:38.115822",
+      "metadata": {
+        "text_id": "106aacba-c89b-4134-bb5a-09051b80329a",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:59:02.896217",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6d349aba-b5ed-4853-a3a6-0f5ad910846a",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The sentence 'We probably choose to forget all the times we dream' is a misrepresentation of the original text. The original specifies that we forget the times we dream about specific events that do not happen, not that we forget all dreams.\n\n- Fidelity Failure: The BERTScore of 0.8941 is below the required 0.90 threshold. This is a direct result of the factual error. Your version loses the critical link between dreaming of an event and that event not happening, which damages the text's fidelity to the source.\n\n- Vocabulary Violation: The B2 word 'coincidence' was used directly. This word is too advanced for the A2 level and must be simplified. An A2 text cannot contain unsimplified B2 vocabulary.\n\n- Meaning Distortion: The final sentence, 'We forget such events when they do not happen,' is ambiguous. It implies we forget the real-world events, not the dreams about them, which alters the original meaning.\n\nSuggestion: The text must be rewritten to correct the factual error and simplify the vocabulary. Rephrase the final sentences to state: 'We often forget our dreams about these things when they do not happen.' Replace 'the result of coincidence' with an A2-compliant phrase like 'it just happens by chance'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8941,
+          "meaningbert": 0.8205
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:59:09.916761",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes we dream about a phone call from an old friend.  \nSometimes we dream about the death of someone close.  \nThese dreams just happen.  \nThey are not a message about the future.  \nWe often forget our dreams about these things.  \nWe forget them when they do not happen.",
+      "timestamp": "2025-09-01 17:59:09.918586",
+      "metadata": {
+        "text_id": "f0c9825f-f224-41bd-80a1-bf0596aa919c",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:59:42.407704",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b2ebed85-2651-4fc8-a029-54abdf961901",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The provided text fails on two critical metrics. The MeaningBERT score of 0.616 is substantially below the required 0.75 threshold, and the BERTScore of 0.876 is below the 0.90 minimum.\n\n- Meaning Loss: The original text establishes a direct contrast between 'coincidence' and 'prophecy'. Your version, 'These dreams just happen. They are not a message about the future,' fails to capture the specific concept of coincidence (things happening by chance). This is a critical loss of the core message.\n\n- Fidelity Loss: The low BERTScore is a direct result of removing key vocabulary from the original text. Words like 'coincidence', 'prophecy', 'result', and 'likely' were eliminated, which degraded the text's fidelity to the source.\n\n- Nuance Loss: The original states we 'probably choose to forget' dreams. Your version, 'We often forget', changes the meaning from a potential choice to a simple frequency.\n\n- Suggestion: You must reintroduce the core contrast. Rephrase to explain that dreams happen by chance, not as messages. Example: 'These dreams happen by chance. They are not messages about the future.'\n\n- Suggestion: Restore the lost nuance. Rephrase to include the idea of choice. Example: 'We often choose to forget the dreams that do not happen.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.876,
+          "meaningbert": 0.616
+        }
+      }
+    }
+  ]
+}

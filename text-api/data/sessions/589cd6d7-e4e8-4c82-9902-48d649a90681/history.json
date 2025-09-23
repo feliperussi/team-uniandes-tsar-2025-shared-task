@@ -1,0 +1,413 @@
+{
+  "session_id": "589cd6d7-e4e8-4c82-9902-48d649a90681",
+  "created_at": "2025-09-01 17:53:22.834325",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:53:22.849619",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "05-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Potentially Hazardous Asteroids are space rocks that could come close to Earth.  \nThey can pass inside 7.5 million kilometres of Earth's orbit.  \nNASA made a map of 1,400 of these rocks.  \nNone of them are likely dangerous.  \nThis is true for the next hundred years.  \nNASA has technology that is already there.  \nNASA can track these rocks.  \nNASA can guess about a possible hit.  \nThen NASA could use two protection plans.",
+      "timestamp": "2025-09-01 17:53:22.849731",
+      "metadata": {
+        "text_id": "041a84d8-fea9-4b84-9f18-877219e0cca3",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:53:24.344373",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a93d3c81-7b9a-447b-81f2-4d8242e60106",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8906 is below the required 0.90. This indicates a loss of key words from the original text. Terms like 'threat', 'impact', and 'defence solutions' were replaced with overly simple words like 'dangerous', 'hit', and 'protection plans', which reduces lexical precision.\n\n- Vocabulary Violation: The word 'protection' is B1 level and is not permitted. It must be replaced with an A2 alternative.\n- Structural Error: The sentence 'NASA has technology that is already there' is awkward and unnatural. The phrasing is poor for any level.\n- Redundancy: The repetition of 'NASA' in three consecutive sentences is stylistically poor and unnecessary.\n\nSuggestion: Restore more precise vocabulary to meet the fidelity score. Replace 'protection' with 'safety'. Rephrase 'that is already there' to 'that it can use now'. Combine the repetitive 'NASA' sentences for better flow.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8906,
+          "meaningbert": 0.8214
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:53:30.430241",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Potentially Hazardous Asteroids are space rocks that can come close to Earth.  \nThey can pass within 7.5 million kilometres of Earth's orbit.  \nNASA has a map of 1,400 of these rocks.  \nNone of them are a threat in the next hundred years.  \nNASA has technology that it can use now.  \nNASA can track these rocks.  \nIt can guess their impact.  \nIt can use two safety solutions.",
+      "timestamp": "2025-09-01 17:53:30.430537",
+      "metadata": {
+        "text_id": "38f205f7-446d-4a0f-9cd2-bf1dab412751",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:53:55.996623",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2ecb4829-0af1-427e-9ad9-5f6e103331bd",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8996 is below the required 0.90 threshold. This indicates a failure to retain sufficient lexical detail from the original source text.\n\n- CEFR Compliance Failure: The text was classified as B2, which is an instant failure. The target is A2. The use of B1 vocabulary is the primary cause of this incorrect classification.\n- Vocabulary Violation: The text uses multiple words above the A2 level. The following B1 words must be removed and replaced with A2 alternatives: 'within', 'threat', 'impact', 'safety'.\n- Keyword Definition Failure: The required keyword 'Potentially Hazardous Asteroids' was not defined in simple A2 terms. The output only used the term without explaining it.\n\nSuggestion: Replace 'within' with 'less than'. Replace 'threat' with 'danger'. Replace 'impact' with 'if they will hit Earth'. Replace 'safety solutions' with 'ways to keep Earth safe'. You must define the keyword as instructed.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.8996,
+          "meaningbert": 0.84
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:54:09.529856",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Potentially Hazardous Asteroids are space rocks that could be dangerous to Earth.  \nThey can pass less than 7.5 million kilometres from Earth\u2019s orbit.  \nNASA has a map of 1,400 of these rocks.  \nNone of them are a danger in the next hundred years.  \nNASA has technology it can use now.  \nNASA can track these rocks.  \nIt can guess if they will hit Earth.  \nIt can use two ways to keep Earth safe.",
+      "timestamp": "2025-09-01 17:54:09.530066",
+      "metadata": {
+        "text_id": "7863a51a-43f4-471c-8bc6-3e1c3e57fe7e",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:54:36.970517",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ad1368a1-b543-4359-94b8-d2bc025f5705",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8916 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\n- Secondary Failure: CEFR Compliance. The text was classified as B1, not A2. This is an automatic failure.\n- Grammatical Error: The sentence 'Potentially Hazardous Asteroids are space rocks that could be dangerous to Earth' uses a defining relative clause ('that could be...'). This is a B1 grammatical structure and is too complex for the A2 level.\n- Lexical Deviation: Replacing 'predictions' with 'guess' and 'threat' with 'danger' contributed to the low fidelity score, even if the meaning was generally preserved.\n\nSuggestion: Split the first sentence into two simple sentences to eliminate the B1 relative clause. Example: 'Potentially Hazardous Asteroids are space rocks. They can be dangerous to Earth.' Use simpler A2 synonyms that are closer in form to the original words to meet the fidelity requirement.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8916,
+          "meaningbert": 0.8561
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:54:47.600701",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Potentially Hazardous Asteroids are space rocks.  \nThey can be dangerous to Earth.  \nThey can pass less than 7.5 million kilometres from Earth\u2019s orbit.  \nNASA has a map of 1,400 of these rocks.  \nNone of them are dangerous in the next hundred years.  \nNASA has technology it can use now.  \nNASA can track these rocks.  \nNASA can predict if they will hit Earth.  \nNASA can use two ways to protect Earth.",
+      "timestamp": "2025-09-01 17:54:47.601115",
+      "metadata": {
+        "text_id": "3a385083-30c3-49d4-b230-47bd6088a916",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:55:17.917264",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2faddbfe-e7ff-4cc4-8b8e-5beefb990353",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8866 is below the required 0.90. This indicates a significant loss of key vocabulary. The original text's specific terms 'threat', 'impact', and 'defence solutions' were replaced with overly general words like 'dangerous' and 'ways to protect Earth', losing lexical precision.\n\nCEFR Compliance Failure: The text was classified as B1, not the required A2. The presence of the full technical term 'Potentially Hazardous Asteroids' and the large number '7.5 million' likely inflated the complexity rating beyond the A2 level.\n\nVocabulary Violation: The text includes the B2-level word 'potentially'. This word is part of the keyword phrase but must be avoided in the main body of an A2 text. The full name should be defined and then referred to with a simpler term.\n\nSuggestion: Restore key concepts from the original text using simple A2 words to meet the 0.90 BERTScore threshold. The simplification was too aggressive and lost meaning. Ensure the final text does not contain any B1 or B2 vocabulary outside of defined keywords. The structure must be simplified to avoid a B1 classification.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8866,
+          "meaningbert": 0.881
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:55:32.655986",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Potentially Hazardous Asteroids are space rocks that can come close to Earth.  \nThey can pass less than seven million kilometres from Earth\u2019s orbit.  \nNASA has a map of 1,400 of these asteroids.  \nNone of them are a threat in the next hundred years.  \nNASA has technology it can use now.  \nIt can track these asteroids.  \nIt can predict if they will hit Earth.  \nIt can use two protection plans to protect Earth.",
+      "timestamp": "2025-09-01 17:55:32.656466",
+      "metadata": {
+        "text_id": "6ded1c49-1796-46e7-9ff1-e283039a90fc",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:55:53.228532",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "26bffaad-9af7-4ba7-80de-28bfd7f8fe4b",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text states the distance is '7.5 million kilometres'. Your output incorrectly states 'less than seven million kilometres'. This is a critical error and an instant failure.\n- Fidelity Failure: The BERTScore of 0.8954 is below the required 0.90 threshold. This metric confirms that your text has lost key factual details from the original, specifically the incorrect number.\n- Vocabulary Violation: The words 'threat' and 'protection' are classified as B1 level. They are too advanced for an A2 text and must be replaced.\nSuggestion: Correct the distance to '7.5 million'. Replace 'threat' with an A2 alternative like 'a danger'. Replace 'protection plans' with a simpler phrase like 'ways to keep Earth safe'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8954,
+          "meaningbert": 0.8636
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:56:02.872455",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Potentially Hazardous Asteroids are space rocks that can come close to Earth.  \nThey can pass 7.5 million kilometres from Earth\u2019s orbit.  \nNASA has a map of 1,400 of these asteroids.  \nNone of them are a problem in the next hundred years.  \nNASA has technology it can use now.  \nIt can track these asteroids.  \nIt can predict if they will hit Earth.  \nIt can use two ways to keep Earth safe.",
+      "timestamp": "2025-09-01 17:56:02.872760",
+      "metadata": {
+        "text_id": "070c3a59-50fe-4ecb-b3c5-f7f96e1bf310",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 17:56:38.251702",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "585cdd35-7a2f-42b9-a90a-df235beba48b",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8926 is below the required 0.90 threshold. This indicates a significant loss of key vocabulary from the original text. While the core meaning was preserved, the simplification was too aggressive, sacrificing lexical fidelity. Specific deviations include: The phrase 'expected to be a threat' was reduced to 'are a problem', losing the nuance of future expectation and the specific word 'threat'. The phrase 'two defence solutions could be launched' was reduced to 'two ways to keep Earth safe', losing the key terms 'defence' and 'solutions'. Suggestion: Reintroduce key vocabulary from the original text within simple A2 sentence structures. Change 'are a problem' back to 'are a threat'. Rephrase 'use two ways to keep Earth safe' to something like 'use two defence solutions'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8926,
+          "meaningbert": 0.853
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:56:48.615489",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Potentially Hazardous Asteroids are space rocks that can come close to Earth.  \nThey can pass 7.5 million kilometres from Earth\u2019s orbit.  \nNASA has a map of 1,400 of these asteroids.  \nNone of them are a threat in the next hundred years.  \nNASA has technology it can use now.  \nIt can track these asteroids.  \nIt can predict if they will hit Earth.  \nIt can use two defence solutions.",
+      "timestamp": "2025-09-01 17:56:48.615868",
+      "metadata": {
+        "text_id": "78c773f3-6fc3-4f69-a192-299e9e44d7d3",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:57:14.419147",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ac85cd5b-4932-4576-b371-14f2d16c9036",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.898 is below the required 0.90. This indicates a failure to retain sufficient key words and phrasing from the original text.\n\n- Vocabulary Violation: The B1 words 'threat' and 'defence' were used. These are not A2-level words and must be replaced. The text must strictly adhere to the A2 vocabulary.\n\n- Keyword Definition Failure: The keyword 'Potentially Hazardous Asteroids' was not defined in simple A2 terms as required by the protocol. The term was used without explanation.\n\n- Structural Weakness: The phrase 'NASA has technology it can use now' is awkward. The pronoun 'it' is used too frequently in sequence, making the text repetitive and unnatural.\n\nSuggestion: Replace 'threat' with 'a danger' or 'a problem'. Replace 'defence solutions' with 'ways to protect Earth'. Define the keyword at the start of the text. Rephrase the final sentences to avoid repetitive pronoun use. For example: 'NASA has the technology to track these asteroids and predict if they will hit Earth. If an asteroid is a danger, NASA has two ways to protect Earth.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.898,
+          "meaningbert": 0.8634
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:57:29.131829",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Potentially Hazardous Asteroids are space rocks.  \nThey may be a danger to Earth.  \nNASA has a map of 1,400 of these asteroids.  \nNone of them are a danger in the next hundred years.  \nNASA has technology to track these asteroids.  \nNASA can predict if they will hit Earth.  \nIf an asteroid is a danger, NASA has two ways.  \nOne way is to keep Earth safe.  \nThe other way also keeps Earth safe.",
+      "timestamp": "2025-09-01 17:57:29.132278",
+      "metadata": {
+        "text_id": "6b8ba256-912f-4431-82ed-a5669415c4dc",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:57:53.465279",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c0f5f134-12f1-42d0-8d38-190aa227a90b",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6194 is significantly below the required 0.75 threshold. This indicates a severe loss of the original text's core message. The BERTScore of 0.8715 also fails to meet the 0.90 minimum, confirming a loss of key factual phrasing.\n\n- Factual Inaccuracy: The original text defines Potentially Hazardous Asteroids by their proximity to Earth (7.5 million kilometres). Your version omits this critical piece of information entirely.\n- Meaning Loss: The original text states NASA has 'two defence solutions'. Your sentences 'One way is to keep Earth safe. The other way also keeps Earth safe' are meaningless. They do not explain that NASA has actual plans or solutions. This is a complete failure to convey the original point.\n- Oversimplification: The text has been simplified to the point of being factually incomplete and nonsensical. The goal is simplification, not information destruction.\n\nSuggestion: You must restore the lost meaning. Rephrase the final sentences to state that NASA has two different plans or solutions to stop a dangerous asteroid. You must also add the key information that these asteroids are dangerous because they come close to Earth.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8715,
+          "meaningbert": 0.6194
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:58:05.589036",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Potentially: Potentially Hazardous Asteroids are space rocks.  \nThey come within 7.5 million kilometres of Earth.  \nNASA has a map of 1,400 of them.  \nNone are a danger in the next hundred years.  \nNASA has technology to track them.  \nNASA can predict if they will hit Earth.  \nNASA has two defence plans.  \nOne plan is to hit the asteroid with a spacecraft.  \nThe other plan is to push the asteroid away.  \nBoth plans keep Earth safe.",
+      "timestamp": "2025-09-01 17:58:05.590809",
+      "metadata": {
+        "text_id": "395a463d-8c1b-4157-825e-0b1784425e0c",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:58:24.872730",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "05fe050d-29c2-4cad-809a-beed12da44e0",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The writer's output contains fabricated information not present in the original text. The original text states NASA has 'two defence solutions' but does not specify what they are. Your output invents these solutions by stating: 'One plan is to hit the asteroid with a spacecraft. The other plan is to push the asteroid away.' This is an absolute failure of factual integrity.\n\n- Fidelity Failure: The BERTScore of 0.8772 is below the required 0.90 threshold. This indicates a significant loss of key phrasing from the original source.\n\n- Vocabulary Violation: The B1 word 'defence' was used. This word is not compliant with the A2 standard and must be replaced.\n\n- Suggestion: Remove the fabricated sentences describing the two plans. You must only report information present in the original text. Replace the B1 word 'defence' with an A2-compliant phrase such as 'safety plans' or 'ways to keep Earth safe'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8772,
+          "meaningbert": 0.845
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:58:34.460946",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Potentially Hazardous Asteroids are space rocks.  \nThey come within 7.5 million kilometres of Earth.  \nNASA has a map of 1,400 of them.  \nNone are a danger in the next hundred years.  \nNASA has technology to track them.  \nNASA can predict if they will hit Earth.  \nNASA has two ways to keep Earth safe.",
+      "timestamp": "2025-09-01 17:58:34.461571",
+      "metadata": {
+        "text_id": "f34575fd-f38f-4bd4-8c4e-377b31927105",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:58:58.936909",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d1eeba4d-2ecd-4cce-9186-db4bad261df3",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8938 is below the required 0.90 threshold. This indicates that key words and phrasing from the original text were lost during simplification.\n\n- Fidelity Loss: The aggressive simplification into very short sentences caused a drop in lexical similarity. The phrase 'two defence solutions could be launched' was changed to 'two ways to keep Earth safe', which preserves meaning but loses too much of the original phrasing, resulting in the low BERTScore.\n\n- Vocabulary Violation: The word 'within' is classified as B1 level. Its use is a direct violation of the A2 standard.\n\nSuggestion: Replace the B1 word 'within'. Rephrase the sentence to 'They come near Earth, less than 7.5 million kilometres away.' This is A2 compliant. Suggestion: To improve the BERTScore, rephrase sentences to be slightly closer to the original's vocabulary where possible without sacrificing A2 simplicity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8938,
+          "meaningbert": 0.8422
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:59:04.683821",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Potentially Hazardous Asteroids are space rocks.  \nThey come near Earth, less than 7.5 million kilometres away.  \nNASA has a map of 1,400 of them.  \nNone are a danger in the next hundred years.  \nNASA has technology to track them.  \nNASA can predict if they will hit Earth.  \nNASA could launch two defence solutions.",
+      "timestamp": "2025-09-01 17:59:04.685058",
+      "metadata": {
+        "text_id": "0298ef03-18e9-4ee1-b72d-4c909a362b59",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:59:28.629012",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6e402e79-7b10-4361-a9cd-c9a035751d4f",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8972 is below the required 0.90 threshold. This indicates a significant loss of lexical detail from the original text, making the output a poor representation despite its simplicity.\n\nDetected Deviations:\n- Vocabulary Violation: The text uses the B1-level words 'launch' and 'defence'. These are not A2 compliant and must be simplified. The presence of B1 vocabulary is an automatic failure.\n- Keyword Definition Failure: The keyword 'Potentially Hazardous Asteroids' was not defined in simple A2 terms. The term was used without explanation, which is unacceptable.\n- Structural Simplification Error: The connection between predicting an impact and launching a defence solution ('at which point') was completely lost. This resulted in two disconnected statements and contributed to the low fidelity score.\n\nSuggestion: Replace 'launch' with 'send up'. Replace 'defence solutions' with 'ways to protect Earth'. Combine the final two sentences to restore the cause-and-effect relationship, for example: 'If NASA predicts a rock will hit Earth, it could send up two things to protect us.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8972,
+          "meaningbert": 0.8476
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "session_id": "70af3a2d-5ccf-45c8-af47-4139b17357c5",
+  "created_at": "2025-09-01 10:30:03.517967",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:30:03.546541",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "26-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I work for a big IT company. The company's main office is in the USA. So I do all my work at home online.\n\nThis is good for me. I do not lose time travelling to work. I do not make small talk with people at the office. I work on different projects. This means I can choose when I work. This is very important to me. I can easily take time off. I can go to my children's school shows. Or I can make a time to see the dentist.\n\nBut there is a bad side. I do not have clear work hours. I often work late in the evening. Sometimes I do not eat dinner. This is because I need to finish a job.",
+      "timestamp": "2025-09-01 10:30:03.546648",
+      "metadata": {
+        "text_id": "ca9fdbcd-672e-4919-96bd-fd402f82a15c",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 7/10 - FAIL",
+      "timestamp": "2025-09-01 10:30:03.554660",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d7ac9711-5dbf-4840-b68d-ce8930638db3",
+        "grade": 7,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Exceeds A2 Standard. The text fails the deep qualitative audit. The word 'means' is classified as B2 level, which is a severe deviation from the A2 standard. While the text successfully maintains factual integrity, preserves the core meaning, and uses simple sentence structures, the inclusion of a single B2-level word constitutes a critical failure.\n\n- Vocabulary Violation: The word 'means' in the sentence 'This means I can choose when I work' is not A2-compliant.\n- Structural Compliance: The use of short sentences and simple connectors like 'So', 'But', and 'because' is correct for the A2 level.\n- Metrics Compliance: The text passed all metric checks, with a MeaningBERT score of 0.8385 and a BERTScore of 0.9146, indicating good preservation of the original message.\n\nSuggestion: Rephrase the sentence 'This means I can choose when I work.' to eliminate the B2-level vocabulary. Use a simpler A2 construction such as 'So, I can choose when I work.' or 'Because of this, I can choose when I work.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9146,
+          "meaningbert": 0.8385
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:30:17.243887",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I work for a big IT company. The company's main office is in the USA. So I do all my work at home online.\n\nThis is good for me. I do not lose time travelling to work. I do not make small talk with people at the office. I work on different projects. So I can choose when I work. This is very important to me. I can easily take time off. I can go to my children's school shows. Or I can make a time to see the dentist.\n\nBut there is a bad side. I do not have clear work hours. I often work late in the evening. Sometimes I do not eat dinner. This is because I need to finish a job.",
+      "timestamp": "2025-09-01 10:30:17.244475",
+      "metadata": {
+        "text_id": "c84d5fcb-e872-4f01-ac4d-3a0ee3fecb41",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 10:30:38.392221",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "05087398-3fce-4542-8592-4aec4b9751d2",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text is an exemplary model of A2 simplification, passing all diagnostic checks.\n\n- Factual Integrity: All key information from the original text is present and accurate. No discrepancies were found.\n- Metrics Compliance: The MeaningBERT score of 0.8182 and BERTScore of 0.9132 are well above the required thresholds, confirming excellent preservation of meaning and lexical fidelity.\n- CEFR Classification: The text correctly classifies as A2, meeting the target standard precisely.\n- Qualitative Audit: The text demonstrates a masterful adherence to A2 standards. Vocabulary is strictly limited to A1 and A2 levels. Simplifications such as 'global' to 'big', 'headquarters' to 'main office', and 'downside' to 'bad side' are perfect for the target level. The original text's complex sentences have been flawlessly broken down into short, simple sentences using appropriate A2-level connectors like 'So', 'But', and 'because'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9132,
+          "meaningbert": 0.8182
+        }
+      }
+    }
+  ]
+}

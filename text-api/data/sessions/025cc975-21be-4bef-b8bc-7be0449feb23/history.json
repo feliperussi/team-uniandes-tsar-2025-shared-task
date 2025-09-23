@@ -1,0 +1,117 @@
+{
+  "session_id": "025cc975-21be-4bef-b8bc-7be0449feb23",
+  "created_at": "2025-09-01 17:33:38.970597",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:33:38.982558",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "26-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I work for a large IT company that is based in the United States, but I do all my work online from home. This means I do not lose time travelling to an office or having idle chat with coworkers. I work on a project\u2011by\u2011project basis, and this flexible schedule is very important to me. I can easily take time off when my own children need me at school performances, or when I have to schedule a dentist appointment. The downside is that, without set office hours, I usually work late into the evening, sometimes skipping dinner to finish a task.",
+      "timestamp": "2025-09-01 17:33:38.982916",
+      "metadata": {
+        "text_id": "e1ab526c-23b1-499d-9044-7033d8f60ed9",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:33:38.992656",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ad77b560-fcb2-4829-95b8-573e72e4a74d",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The output was classified as 'A2', which is below the required 'B1' target. The simplification was too aggressive, resulting in a text that is simpler than intended. This is primarily due to vocabulary choices. For example, the original B1/B2 words 'global', 'valuable', and 'tend to' were replaced with the A1 alternatives 'large', 'important', and 'usually'. While the meaning was preserved and no factual errors were introduced, this level of vocabulary replacement lowered the overall CEFR rating. To correct this, retain some characteristic B1 vocabulary to ensure the text meets the target level, and focus more on simplifying sentence structures if needed.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.954,
+          "meaningbert": 0.8523
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:33:44.275886",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I work for a global IT company whose headquarters are in the United States, but I do all my work online from home. This means I don\u2019t waste time commuting or making idle chit\u2011chat with colleagues. I work on a project basis, and this flexibility is very valuable to me because it allows me to easily take time off when my children need me at school performances or when I have to schedule a dentist appointment. The downside is that, without clear office hours, I tend to work late into the evening, sometimes skipping dinner to finish a task.",
+      "timestamp": "2025-09-01 17:33:44.276070",
+      "metadata": {
+        "text_id": "c627e3be-c52b-4d22-9547-0f6c8ebece64",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:34:06.759139",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "10e6f08f-ad8d-47e9-9139-97b4c3086caa",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The output was classified as 'B2', which is too complex for the 'B1' target. This failure is due to both vocabulary and sentence structure. The output retained the B2-level word 'headquarters' and the C1-level word 'flexibility' without simplification, which are above the target proficiency level. Furthermore, the first sentence, \"I work for a global IT company whose headquarters are in the United States...\", uses a relative clause with 'whose' that is characteristic of B2 complexity. Suggestion: Replace 'headquarters' with a simpler term like 'main office'. Instead of 'flexibility', use a descriptive phrase like 'this freedom to choose my hours'. The first sentence should be split into two simpler sentences to meet B1 standards, for example: 'I work for a global IT company. Its main office is in the United States, so I do all my work online from home.'",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9768,
+          "meaningbert": 0.9452
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:34:13.209080",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I work for a global IT company. Its main office is in the United States, so I do all my work online from home. Because of this, I don\u2019t waste time commuting or making idle chit\u2011chat with colleagues. I work on a project basis, and this freedom to choose my hours is very valuable to me because it lets me easily take time off when my children need me at school performances or when I have to schedule a dentist appointment. A problem is that, without clear office hours, I tend to work late into the evening, sometimes skipping dinner to finish a task.",
+      "timestamp": "2025-09-01 17:34:13.209395",
+      "metadata": {
+        "text_id": "c5cedf46-8841-4c56-a391-63d132f2563d",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-09-01 17:34:46.812430",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c2ba5c31-9047-442d-a694-a9ab6b92925b",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "This is an excellent simplification that passes all priority checks. Factual integrity is perfectly maintained, and both the MeaningBERT (0.95) and BERTScore (0.97) are well above the required thresholds, indicating strong preservation of the original message. The text correctly achieves the target B1 classification. The vocabulary strategy is particularly effective; simplifying 'headquarters' to 'main office' and explaining 'flexibility' as 'freedom to choose my hours' are exemplary techniques. For further improvement, consider simplifying the idiomatic phrase 'idle chit-chat'. While many B1 learners might understand it from context, a phrase like 'casual conversation' would be more accessible.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9687,
+          "meaningbert": 0.9452
+        }
+      }
+    }
+  ]
+}

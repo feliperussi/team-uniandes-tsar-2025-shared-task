@@ -1,0 +1,154 @@
+{
+  "session_id": "1f6885d6-050d-4359-86cc-658aa8315da8",
+  "created_at": "2025-09-01 01:11:56.753346",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:11:56.769756",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "19-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Genes are parts of our body. They decide things like our hair colour.\n\nScientists have questions about genes and language. Did our genes change a long time ago? Did this change help us to speak?\n\nScientists found a gene that changed. This happened between 100,000 and 200,000 years ago. This gene seems to help us speak. It helps our brain move our mouth and face.\n\nMonkeys have a similar gene. But the monkey gene did not change.\n\nWe do not know everything about genes and language. It is too early to say. But maybe one day we will find the answers in our DNA.",
+      "timestamp": "2025-09-01 01:11:56.769889",
+      "metadata": {
+        "text_id": "97ee7e83-9b9d-4010-a171-198d51dd28a9",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 01:11:56.775110",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b81d4b93-9cd2-49e5-aa25-db6ba8aad5d7",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text states the mutation occurred 'between 200,000 and 100,000 years ago'. Your output incorrectly reverses this to 'between 100,000 and 200,000 years ago'. This is an absolute failure and invalidates the entire text.\n\n- Meaning Preservation Failure: The MeaningBERT score of 0.6669 is significantly below the required 0.75 threshold. The original text discusses the 'influence' of genes and a 'connection' with speaking. Your version simplifies this to 'help us speak', which loses the core scientific meaning of a relationship rather than direct causation.\n- Vocabulary Violation: The word 'gene' is a B2-level term. Its repeated use throughout the text exceeds the A2 vocabulary standard. An introductory definition is insufficient.\n\nSuggestion: Correct the factual error with the dates immediately. Restore the original meaning by using A2-level words to describe a 'link' or 'connection'. Avoid repeated use of B2 vocabulary; rephrase sentences to describe the concept without using the complex word.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9086,
+          "meaningbert": 0.6669
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:12:21.292876",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Genes are parts of our body. They decide things like our hair colour.\n\nScientists have questions about these parts and language. Did one of them change a long time ago? Did this change give us language?\n\nScientists found a part that changed. This happened between 200,000 and 100,000 years ago. This part seems to have a link with speaking. It has a connection with how our brain moves our mouth and face.\n\nMonkeys have a similar part in their body. But in monkeys, this part did not change.\n\nWe do not know everything about this subject. It is too early to say. But maybe one day we will find the answers in our DNA.",
+      "timestamp": "2025-09-01 01:12:21.293595",
+      "metadata": {
+        "text_id": "85cfbaa3-2425-4059-b055-499f35680ea2",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 01:12:41.836391",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "071e15e2-d6c6-42bb-ac5b-57446d588eac",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.72 is below the required 0.75 threshold. The original text's core concept of 'the influence of genetics on language development' was lost and oversimplified to 'questions about these parts and language'. This is a critical failure to preserve the central message.\n\nAdditional Violations:\n- Vocabulary Non-Compliance: The B1-level word 'connection' was used. All vocabulary must be strictly A2. The sentence 'It has a connection with...' is unacceptable.\n- Redundancy: The text uses 'link' (A2) and then 'connection' (B1) to express the same idea. This is inefficient and introduces a non-compliant word.\n\nCorrective Actions:\n- Suggestion: Restore the core meaning. Rephrase the introduction to state that scientists are studying how genes affect language.\n- Suggestion: Remove the word 'connection'. The sentence using the A2 word 'link' is sufficient. The second sentence is redundant and must be deleted or rewritten using only A2 words.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9028,
+          "meaningbert": 0.7237
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:12:56.785120",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Genes are parts of our body. They decide things like our hair colour.\n\nScientists are studying how genes affect language. Did one of them change a long time ago? Did this change give us language?\n\nScientists found a part that changed. This happened between 200,000 and 100,000 years ago. This part has a link with speaking. It helps our brain move our mouth and face.\n\nMonkeys have a similar part in their body. But in monkeys, this part did not change.\n\nWe do not know everything about this subject. It is too early to say. But maybe one day we will find the answers in our DNA.",
+      "timestamp": "2025-09-01 01:12:56.785919",
+      "metadata": {
+        "text_id": "4ae392fa-a277-4482-938f-54485236c3d2",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 01:13:19.890466",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "50a46f51-7398-4ac9-9557-9d504129a40b",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.668 is significantly below the required threshold of 0.75. This indicates a critical failure to preserve the core message of the original text.\n\n- Factual Distortion: The text introduces new information not present in the original. The sentences \"Genes are parts of our body. They decide things like our hair colour.\" are a complete fabrication. The original text does not provide a basic definition of genes; it begins by discussing research questions.\n\n- Loss of Core Concepts: The original's focus on the \"influence of genetics on brain and language development\" was oversimplified to \"how genes affect language.\" The key concept of \"development\" has been completely lost.\n\n- Vague Phrasing: The statement \"We do not know everything about this subject\" is too generic. It replaces the original's more precise idea that \"It's too early to say how much influence genes have on language,\" weakening the conclusion.\n\nSuggestion: Remove the fabricated introductory sentences. The text must only simplify the information provided, not add new definitions. Rephrase to restore the lost concepts. For example, instead of \"how genes affect language,\" use a phrase like \"how genes help our brain and language to grow.\" The text must be a simplification of the original, not a new text inspired by it.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9045,
+          "meaningbert": 0.668
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:13:45.105281",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Scientists are asking how genes help our brain and language to grow. Did a gene change a long time ago? Did this change give us language? Scientists found a gene that changed. This happened between 200,000 and 100,000 years ago. This gene has a link with speaking. It helps our brain move our mouth and face. Monkeys have a similar gene. But in monkeys, this gene did not change. It is too early to say how much genes affect language. But maybe one day we will find the answers in our DNA.",
+      "timestamp": "2025-09-01 01:13:45.106682",
+      "metadata": {
+        "text_id": "620f06c2-9aae-4c2f-b9c7-eba99a383e48",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 01:14:07.522590",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "19c784e6-61ad-4fdb-bd40-8d50b97b64ea",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS. The output meets all A2 standard requirements.\n- Factual Integrity: Maintained. All data points, including the timeframe (200,000 to 100,000 years ago) and the biological function (control of mouth and face), are correctly represented.\n- Metric Compliance: MeaningBERT (0.8172) and BERTScore (0.939) are well above the minimum thresholds, confirming high fidelity to the source text. The CEFR classifier correctly identified the output as A2.\n- Structural Analysis: The text demonstrates excellent adherence to A2 sentence structure. It consistently uses short, simple sentences and basic connectors ('but'). This is the required standard.\n- Vocabulary Control: Vocabulary is strictly limited to the A2 level, with the exception of the key term 'gene', which was correctly identified as a necessary keyword. This demonstrates proper handling of essential, off-level terminology.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.939,
+          "meaningbert": 0.8172
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "session_id": "6232e6b8-30cb-4082-8ac6-d40ee1c57f96",
+  "created_at": "2025-09-01 10:33:04.241198",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:33:04.270542",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "55-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Power distance is about the space between a boss and a worker. Sometimes this space is big. Sometimes it is small.\n\nAt her old job, Gabriela worked in a high power distance culture. In this culture, the space between a boss and a worker is very big. Leaders have a lot of power. They make the big decisions. Workers do not often question them.\n\nBut Gabriela's new team in Sweden is different. They work in a low power distance culture. Here, the space between a boss and a worker is small. Workers and bosses often work together. They find answers and make decisions together. Leaders are like coaches. They want workers to think for themselves. They also want workers to ask questions.",
+      "timestamp": "2025-09-01 10:33:04.270782",
+      "metadata": {
+        "text_id": "81bf631b-4c66-4355-87d2-de555b1602ff",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 10:33:04.278010",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7868854a-61af-4d1c-ba00-93e14f2687aa",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6692 is significantly below the required 0.75 threshold. This indicates a severe deviation from the original text's core message. A secondary failure is the BERTScore of 0.8992, which is below the 0.90 minimum for lexical fidelity.\n\n- Primary Deviation (Meaning): The original text is a direct comparison of two specific work cultures Gabriela experienced. Your output begins with a general definition of 'power distance'. This introductory paragraph was not present in the source material and fundamentally alters the text's purpose from a specific narrative to a general explanation, causing the meaning preservation failure.\n- Secondary Deviation (Fidelity): Key concepts were oversimplified, leading to a loss of meaning. The original's concept of 'authority are respected' is not the same as 'Leaders have a lot of power'. The concept 'expect to be challenged' is not accurately captured by 'want workers to ask questions'. This loss of nuance contributed to both metric failures.\n\nSuggestion: Remove the entire first paragraph. The task is to simplify the provided text, not to add new, explanatory content. Focus only on describing Gabriela's two work experiences. Rephrase to more closely capture the original concepts using A2 vocabulary. For example, the idea of 'respect' must be included.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8992,
+          "meaningbert": 0.6692
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:33:33.936692",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: At her old job, Gabriela worked in a high power distance culture. In this culture, workers respected their leaders. Leaders had a lot of power and made the big decisions. Workers did not often question them.\nBut Gabriela's new team in Sweden is different. They work in a low power distance culture. Here, workers and bosses often work together. They find answers and make decisions together. Leaders are like coaches. They want workers to think for themselves. They think it is good when workers question their ideas.",
+      "timestamp": "2025-09-01 10:33:33.937245",
+      "metadata": {
+        "text_id": "944d7bf0-9609-4661-a755-49da5fcc1527",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 10:33:55.263927",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6a0ef6d1-78a4-412c-a112-7c5f22c194a1",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text is a model of A2 compliance.\n\n- Factual Integrity: The output is factually identical to the original text. No discrepancies were found.\n- Metrics Compliance: MeaningBERT score (0.78) and BERTScore (0.93) are well above the required thresholds of 0.75 and 0.90 respectively. This confirms excellent preservation of the core message and key phrasing.\n- CEFR Classification: The text correctly classifies as A2, meeting the primary requirement.\n- Qualitative Audit: The vocabulary is strictly limited to the A2 level, with no B1 or higher terms present. Sentence structures are simple and short, using only basic connectors such as 'and' and 'but'. The simplification of concepts like 'subordinates' to 'workers' and 'encourage independent thought' to 'want workers to think for themselves' is an exemplary execution of A2 simplification principles. The text meets all standards without deviation.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9266,
+          "meaningbert": 0.7758
+        }
+      }
+    }
+  ]
+}

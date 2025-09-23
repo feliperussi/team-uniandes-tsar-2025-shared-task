@@ -1,0 +1,63 @@
+{
+  "session_id": "050bcb3c-a794-4b80-96d5-3d3f8ffa9da2",
+  "created_at": "2025-08-31 23:11:12.722087",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:11:12.784614",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "01-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An asteroid is a big rock in space. NASA is going to find and write down many small asteroids. These asteroids are 140 metres wide or more. There are about 25,000 of these rocks. NASA has found and written down about 8,000. So, 17,000 asteroids are not found yet. \n\nIn 2013, a smaller asteroid, 19 metres wide, exploded in the sky above Chelyabinsk, a city in Russia. It hurt 1,200 people. If the medium rocks come near Earth, they can be very dangerous.",
+      "timestamp": "2025-08-31 23:11:12.784800",
+      "metadata": {
+        "text_id": "ed4f8092-d604-4ce0-8ea1-16c5f9265340",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 23:11:12.823795",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "11a4547f-042f-4661-8726-a25c91407047",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score is 0.6739, which is below the required 0.75 threshold, indicating the core message is not well preserved. Specifically, the original text emphasizes that NASA is actively logging asteroids 140 metres wide or more, focusing on the danger posed by these 'middle-sized' asteroids entering Earth's orbit. The writer's output simplifies and fragments these ideas, removing the sense of ongoing effort ('working towards logging') and reducing the seriousness of the 'middle-sized asteroids' by calling them simply 'medium rocks'\u2014a B1-level word not appropriate for A2, and which adds ambiguity. This fails to fully convey the original risk and quantitative context. Additionally, the phrase 'NASA is going to find and write down many small asteroids' changes the nuance from methodical 'logging' to vague, less precise wording. The factual content about numbers is preserved, but the message about NASA's project progress and the hazard implications is weakened or distorted. Furthermore, the use of 'written' and 'medium' are B1-level words incompatible with an A2 simplification. This also risks failing CEFR vocabulary standards despite classifier output. Corrective path: Restore the expression of ongoing effort by NASA ('NASA is now trying to log...'). Replace 'medium rocks' with a simple A2 phrase like 'middle-sized rocks' or 'medium asteroids' but only if you can verify it is A2 vocabulary; otherwise short paraphrasing with 'rocks of medium size' is required. Simplify or replace 'written' with 'found and recorded' using only A2 vocabulary. Rephrase to balance factual precision and simplicity without losing the seriousness of the hazard. Ensure that quantitative data and cause-effect relationships ('if they enter Earth's orbit, they are dangerous') are stated plainly but fully. Finally, remove or rephrase any B1 vocabulary to strictly comply with A2 standards.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9193,
+          "meaningbert": 0.6739
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:11:15.477172",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An asteroid is a big rock in space. Now, NASA is trying to find and record some small asteroids. These asteroids are 140 metres wide or more. There are about 25,000 of these rocks. NASA has found and recorded about 8,000. So, 17,000 asteroids are not found yet.\n\nIn 2013, a smaller asteroid, 19 metres wide, exploded above the city of Chelyabinsk in Russia. It hurt 1,200 people. If the asteroids of this size come near Earth, they can be very dangerous.",
+      "timestamp": "2025-08-31 23:11:15.477341",
+      "metadata": {
+        "text_id": "9ca72e26-dd2d-4090-9af8-1a0e78b8b086",
+        "version": 2
+      }
+    }
+  ]
+}

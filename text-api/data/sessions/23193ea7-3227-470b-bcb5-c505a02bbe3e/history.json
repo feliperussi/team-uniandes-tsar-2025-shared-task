@@ -1,0 +1,117 @@
+{
+  "session_id": "23193ea7-3227-470b-bcb5-c505a02bbe3e",
+  "created_at": "2025-08-31 20:05:04.720746",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:05:06.595042",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "20-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is an important researcher. She studies robots and computers that can think.\n\nShe wrote more than 50 papers. She wrote some papers alone and some with other people. The papers are in good science magazines.\n\nShe often speaks at big meetings in different countries. In 2012, she won a very important prize.\n\nJulie lives with her family. They live in a special smart home with computers. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 20:05:06.595723",
+      "metadata": {
+        "text_id": "6f12e35b-4405-4c34-aa79-fa61f15f362a",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:05:08.113585",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e9aea86b-13b9-480a-9b5f-2ded9f325195",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6267 is well below the required 0.75 threshold. This indicates a severe loss of the original text's core message. The secondary BERTScore of 0.8941 is also below the 0.90 requirement, confirming a loss of key factual terms.\n\n- The original text establishes the subject as a 'leading researcher' in her field, a concept of high status and expertise. Your version weakens this to 'important researcher', which does not carry the same meaning of being at the top.\n- The phrase 'highly regarded, peer-reviewed journals' was replaced with 'good science magazines'. This is an unacceptable oversimplification that loses the critical meaning of academic quality and scientific validation.\n- The 'prestigious Royal Academy Simone Fielding fellowship' was reduced to 'a very important prize'. This loses specific factual information and the distinction between a prize and a fellowship, which is a significant alteration of the facts.\n\nSuggestion: The goal is simplification, not meaning erasure. Restore the concept of the subject being a 'top' or 'leading' expert. The simplification of complex terms like 'peer-reviewed journals' must still explain the concept, not just replace it with a vague, weaker term. Do not remove specific names of awards; simplify around them if necessary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8941,
+          "meaningbert": 0.6267
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:05:53.280726",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a top researcher. She studies robots and computers that can think.\n\nShe wrote more than 50 papers. She wrote some papers alone and some with other people. Her papers are in special science magazines. Other top scientists check her work first. This means the papers are very good.\n\nShe often speaks at big meetings in different countries. In 2012, she won a special award. It was the Royal Academy Simone Fielding fellowship.\n\nJulie lives with her family. They live in a special smart home with computers. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 20:05:53.282030",
+      "metadata": {
+        "text_id": "fd82e6bc-12d4-41b9-a7bc-51d0cc66389c",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 20:10:20.653601",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6348fd0f-143e-44cf-b338-4f0bc47de15c",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for failure is the catastrophic drop in meaning and fidelity scores. The MeaningBERT score of 0.6426 is significantly below the required 0.75 threshold. The BERTScore of 0.8927 is also below the 0.90 minimum. This indicates a severe loss of the original text's core message and factual precision.\n\n- MeaningBERT Failure: The score of 0.6426 demonstrates a failure to preserve the original meaning. Your simplification from professional terms like 'leading researcher' and 'prestigious award' to generic phrases like 'top researcher' and 'special award' stripped the text of its semantic weight.\n\n- BERTScore Failure: The score of 0.8927 shows a loss of key lexical items. Important phrases from the original, such as 'peer-reviewed journals' and 'international conferences', were replaced with overly simple equivalents, failing to maintain fidelity.\n\n- Vocabulary Violation: The text uses the word 'means' ('This means the papers are very good.'), which is classified as B2 level. This is an unacceptable deviation from the A2 vocabulary standard.\n\n- Structural Complexity: The sentence 'She studies robots and computers that can think' uses a 'that-clause', a structure that pushes the complexity towards B1. This structure is too advanced for the A2 level.\n\nSuggestion: Rephrase to restore the original meaning using only A2 vocabulary. Remove the B2 word 'means' and restructure the sentence. Simplify the sentence containing the 'that-clause' into two separate, simple sentences.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8927,
+          "meaningbert": 0.6426
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:12:53.119333",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a very important researcher. She studies robots. She also studies computers that can think.\n\nShe wrote more than 50 papers. She wrote some papers alone. She wrote other papers with other people. Her papers are in important science magazines. Other scientists check her work first. So, the papers are very good.\n\nShe often speaks at meetings for scientists. These meetings are in different countries. In 2012, she won a very important award. The award was the Royal Academy Simone Fielding fellowship.\n\nJulie lives with her family. They live in a smart home. She made the plan for the house herself.",
+      "timestamp": "2025-08-31 20:12:53.120752",
+      "metadata": {
+        "text_id": "c484ed8a-c931-42c2-b641-5c85e35ce759",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:13:31.165816",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "97e98793-3a0e-4a02-90fb-f05db2d74c6e",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The MeaningBERT score of 0.7128 is below the 0.75 threshold, and the BERTScore of 0.8867 is below the 0.90 threshold. This indicates a critical loss of the original text's core message and specific terminology. The simplification was too aggressive, resulting in a text that does not adequately represent the source material.\n\n- Fidelity Loss: The low BERTScore is a direct result of replacing key original terms. Words like 'leading', 'Robotics and AI', 'peer-reviewed', 'international conferences', and 'prestigious' were replaced with phrases that do not carry the same weight or specificity. This damages the factual precision of the text.\n\n- Meaning Loss: The low MeaningBERT score shows that the core message about the subject's high status and specific achievements was diluted. 'Leading researcher' becoming 'very important researcher' loses the concept of being at the forefront of a field.\n\n- Vocabulary Violation: The text includes the words 'royal' (B1) and 'academy' (C1). These words are above the A2 level. Their inclusion, even as part of a proper name, is a direct violation of the A2 vocabulary standard.\n\nSuggestion: The text must be rewritten. You must find A2-level phrasing that more closely preserves the meaning of the original's key terms. The goal is to increase both the MeaningBERT and BERTScore metrics above their respective thresholds without introducing B1-level vocabulary or sentence structures.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8867,
+          "meaningbert": 0.7128
+        }
+      }
+    }
+  ]
+}

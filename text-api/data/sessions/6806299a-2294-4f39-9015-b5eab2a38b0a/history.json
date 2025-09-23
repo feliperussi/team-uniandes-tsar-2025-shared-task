@@ -1,0 +1,80 @@
+{
+  "session_id": "6806299a-2294-4f39-9015-b5eab2a38b0a",
+  "created_at": "2025-09-01 17:40:46.199437",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:40:46.209817",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "109-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Terrie Sharp, a best\u2011selling writer, can tell a good story and has won the Olive Crime Writer Award twice. She was born in a neighbourhood in Glasgow that had the highest crime level, so she learned to stay quiet, avoid trouble, and even how to open car doors with a knife. Fortunately, she only turned that skill into novels, and today she is no longer quiet; she appears on popular daytime programmes such as Police Today and at writing conferences all over the UK.",
+      "timestamp": "2025-09-01 17:40:46.210512",
+      "metadata": {
+        "text_id": "3bf31cca-335a-4988-b9b3-d3fb51298efe",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:40:46.217458",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6def60c2-8151-45d2-ab93-14482fdcce05",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The output was classified as B2, which is too complex for the target B1 level. While the text successfully passed the critical checks for factual integrity and meaning preservation, its sentence structure is too advanced. The sentence 'Fortunately, she only turned that skill into novels, and today she is no longer quiet; she appears on popular daytime programmes such as Police Today and at writing conferences all over the UK' is long and uses a semicolon to join two independent clauses, a feature more typical of B2-level writing. Suggestion: To achieve a B1 level, split this complex sentence into shorter ones. For example: 'Fortunately, she only used this skill to write her novels. Today, she is no longer quiet. She appears on popular daytime programmes and at writing conferences all over the UK.'",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9517,
+          "meaningbert": 0.9077
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:40:52.513214",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Terrie Sharp, a best\u2011selling writer, can tell a good story and has won the Olive Crime Writer Award twice. She was born in a neighbourhood in Glasgow that had the highest crime level, so she learned to stay quiet, avoid trouble, and even how to open car doors with a knife. Fortunately, she only used this skill to write her novels. Today, she is no longer quiet. She appears on popular daytime programmes such as Police Today and at writing conferences all over the UK.",
+      "timestamp": "2025-09-01 17:40:52.513493",
+      "metadata": {
+        "text_id": "278aa914-074c-4e08-8a22-92ab2f33f537",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 17:41:12.071979",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "05ab4e15-6cf8-4b74-b8a4-706fe5ee306d",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "This is an exemplary simplification that passes all checks with high scores. Factual integrity is perfectly maintained, with all names, locations, and key actions correctly transferred. The MeaningBERT (0.91) and BERTScore (0.95) are excellent, indicating that the core message and key phrasing were preserved with high fidelity. The text correctly achieves the B1 CEFR target. The simplification strategies used are highly effective: the long final sentence of the original was expertly split into three shorter, clearer sentences, which significantly improves readability for a B1 audience. Vocabulary choices, such as changing 'housing estate' to 'neighbourhood' and 'stay out of trouble' to 'avoid trouble', are precise and appropriate for the target level. The final output is clear, fluent, and an excellent model of B1 simplification.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9524,
+          "meaningbert": 0.9078
+        }
+      }
+    }
+  ]
+}

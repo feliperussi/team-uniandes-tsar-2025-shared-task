@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "3bb76062-0e10-4a58-8519-c0831776fa3f",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Gerlinde climbed Everest.\nThen she decided to climb the world's fourteen 8,000-metre mountains.\nThese mountains are all over 8,000 metres high.\nShe climbs without using oxygen tanks to make it more difficult.\nThis is dangerous because there is not much oxygen on high mountains.\nThis can cause problems for your brain and body.\nGerlinde is a famous climber.\nShe uses this to help a charity in Nepal.\nThe charity helps poor children and children with no parents.",
+    "version": 6,
+    "created_at": "2025-09-01 10:39:30.320056",
+    "updated_at": "2025-09-01 10:39:30.320057",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "0996ec25-851e-443c-92f3-cf734efe06ac",
+    "approval": "FAIL",
+    "grade": 6,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6893 is below the required threshold of 0.75. The text fails to preserve the core message of the original text with sufficient accuracy.\n\n- Primary Deviation: The original text states that low oxygen levels 'can affect brain and body functioning'. Your version, 'can cause problems for your brain and body', is too vague. It loses the specific meaning that the brain and body may not work correctly. This simplification is the main reason for the metric failure.\n- Secondary Deviation: The original states Gerlinde uses her fame to 'support a charity'. Your version uses the word 'help'. While similar, 'support' implies a more formal or financial relationship which is lost with the more general term 'help'.\n\nSuggestion: Restore the original meaning with A2 vocabulary. Change the sentence 'This can cause problems for your brain and body' to 'This can make your brain and body not work well'. This phrasing is simple and accurately reflects the concept of 'affect functioning'.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.9297,
+      "meaningbert": 0.6893
+    },
+    "created_at": "2025-09-01 10:39:51.228350"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "3bb76062-0e10-4a58-8519-c0831776fa3f",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Gerlinde climbed Everest.\nThen she decided to climb the world's fourteen 8,000-metre mountains.\nThese mountains are all over 8,000 metres high.\nShe climbs without using oxygen tanks to make it more difficult.\nThis is dangerous because there is not much oxygen on high mountains.\nThis can cause problems for your brain and body.\nGerlinde is a famous climber.\nShe uses this to help a charity in Nepal.\nThe charity helps poor children and children with no parents.",
+    "version": 6,
+    "created_at": "2025-09-01 10:39:30.320056",
+    "updated_at": "2025-09-01 10:39:30.320057",
+    "metrics_meaningbert": 0.6893,
+    "metrics_cefr_compliance": "A2"
+  }
+}

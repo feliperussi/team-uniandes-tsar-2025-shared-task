@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "0492783d-74cd-492a-a7f4-e07ce539581e",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "In Britain, people spend a lot of money on new clothes.\nEach person spends more than \u00a31,000 every year.\nThis is about 4% of the money they get from their job.\nThis does not sound like a lot.\nBut it hides two serious problems for people and for the world.\nThe first problem is that people spend money they do not have.\nThey use credit cards to buy clothes.\nEach adult in Britain must pay back about \u00a3670.\nThis is 66% of the money they spend on clothes.\nThe second problem is that people buy things they do not need.\nBritain throws away 300,000 tons of clothes every year.\nMost of these clothes go to big places for rubbish.",
+    "version": 6,
+    "created_at": "2025-09-01 10:40:26.139251",
+    "updated_at": "2025-09-01 10:40:26.139256",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "1cdcaf64-91b3-4282-92b7-3e96d83e51d2",
+    "approval": "FAIL",
+    "grade": 4,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6644 is significantly below the required 0.75 threshold. The simplification has removed essential context from the original text, resulting in a loss of the core message.\n\n- Meaning Dilution: The original text specifies that people owe money \"to credit card companies.\" Your version, \"Each adult in Britain must pay back about \u00a3670,\" removes this crucial detail. This severs the direct link between using credit cards and the resulting debt, which is a central point of the original text.\n\n- Vague Simplification: The original identifies the environmental problem with the specific term \"landfill sites.\" Your replacement, \"big places for rubbish,\" is too vague and fails to convey the specific environmental impact of burying waste. This simplification loses the intended meaning.\n\n- Suggestion: Restore the lost meaning. The sentence about debt must explicitly mention credit card companies. The sentence about waste must be rephrased to better explain what a landfill is in simple terms, for example, \"Most of these clothes go into the ground in special places for rubbish.\"",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.9262,
+      "meaningbert": 0.6644
+    },
+    "created_at": "2025-09-01 10:40:47.748433"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "8bfffedc-60d7-41da-a496-02ae2a8a6efe",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "In Britain, people spend a lot of money on new clothes.\nEach person spends more than \u00a31,000 every year.\nThis is about 4% of the money they get from their job.\nThis does not sound like a lot.\nBut it hides two serious problems for people and for the world.\n\nFirst, many people use credit cards to buy clothes.\nThey spend money they do not have.\nFor each adult, British people must pay back about \u00a3670.\nThis is 66% of the money they spend on clothes.\nThis money is for credit card companies.\n\nAlso, people are buying things they do not need.\nBritain throws away 300,000 tons of clothes every year.\nMost of these clothes go to big places for rubbish.",
+    "version": 3,
+    "created_at": "2025-09-01 10:38:06.615942",
+    "updated_at": "2025-09-01 10:38:06.615947",
+    "metrics_meaningbert": 0.6849,
+    "metrics_cefr_compliance": "A2"
+  }
+}

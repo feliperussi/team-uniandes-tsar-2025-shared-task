@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "00fce799-8a3b-4b9c-8c93-b1b7c190da13",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Many best-selling album artists stop releasing new music when they are old.  \nBut Bruce Springsteen still releases new music.  \nIt is number one and fills stadiums.  \nHe is still at the top of his game.  \nHe is in his late 60s.  \nI am not surprised.  \nHe tells our most important stories about ourselves.  \nWhen you listen to his song \u201cBorn in the USA\u201d, the stories stay most important today.",
+    "version": 11,
+    "created_at": "2025-09-01 18:02:17.712633",
+    "updated_at": "2025-09-01 18:02:17.712636",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "e5e89305-d26b-4641-a615-471f80f4c7fc",
+    "approval": "FAIL",
+    "grade": 4,
+    "feedback": "FAIL: Fidelity Failure. The BERTScore of 0.8896 is below the required 0.90 threshold. This indicates a significant loss of key phrasing and lexical detail from the original text.\n\n- The primary error is in the final sentence. The original states the stories are 'as relevant today as they ever were'. Your version, 'the stories stay most important today', completely loses the critical comparison to the past ('as they ever were'). This is a major loss of meaning and the direct cause of the low fidelity score.\n- The replacement of 'relevant' with 'important' is an acceptable vocabulary simplification for A2, but when combined with the severe structural simplification, it contributes to the overall fidelity failure.\n\nSuggestion: Rephrase the final sentence to restore the lost meaning. Use a simple structure to make the comparison. Command: Change 'the stories stay most important today' to 'The stories are important today, just like they were in the past.'",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8896,
+      "meaningbert": 0.9002
+    },
+    "created_at": "2025-09-01 18:02:34.981913"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "c2042de7-458e-4664-a64b-18e863afd515",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Many best-selling album artists stop making new music when they are old.  \nBut Bruce Springsteen still releases new music.  \nIt is number one and fills stadiums.  \nHe is still at the top of his game.  \nHe is in his late 60s.  \nI am not surprised.  \nHe tells our most important stories about ourselves.  \nWhen you listen to his song \u201cBorn in the USA\u201d.  \nThe stories stay important today.",
+    "version": 10,
+    "created_at": "2025-09-01 18:01:49.753125",
+    "updated_at": "2025-09-01 18:01:49.753138",
+    "metrics_meaningbert": 0.9018,
+    "metrics_cefr_compliance": "A2"
+  }
+}

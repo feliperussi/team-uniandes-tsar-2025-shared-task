@@ -1,0 +1,63 @@
+{
+  "session_id": "1ad23b56-f0cb-4765-bac8-5dc1013ef3a7",
+  "created_at": "2025-08-31 23:11:25.323561",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:11:25.329161",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "14-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Seven Summits are the highest mountains on every continent.  \nEverest is the tallest mountain in the world.  \nKilimanjaro is a very tall mountain in Africa.  \n\nWasfia Nazreen saw a girl with a hula hoop when she was young.  \nThat girl came from a foreign country.  \nWasfia did not play with the hula hoop.  \nIn Bangladesh, girls do not play with hula hoops or ride bikes.  \n\nNow Wasfia climbs the Seven Summits.  \nShe has climbed Everest and Kilimanjaro.  \nShe is the first person to hula hoop on every mountain.  \n\nWasfia wants to help women and girls.  \nShe wants them to play sports, but many people say no.  \nShe hopes her actions will give women more strength and courage.",
+      "timestamp": "2025-08-31 23:11:25.329640",
+      "metadata": {
+        "text_id": "4f91fd06-4c6f-4ab7-8706-c096717c217a",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 23:11:25.336974",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3dd6fc23-0a0f-44b7-820a-ac75a53d289c",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8682 is below the required 0.90 threshold, indicating significant loss of key terms and factual phrasing from the original text. For example, the original states Wasfia is \"one of the few people in the world to have climbed the Seven Summits,\" but the output simplifies this to \"Now Wasfia climbs the Seven Summits,\" losing the uniqueness and rarity element. Additionally, the phrase \"first to have hula-hooped on each peak\" is rendered as \"She is the first person to hula hoop on every mountain,\" which loses the nuance of \"each\" specific peak and the challenging aspect posed by the original. The original text's deep cultural emphasis \"in a country which discourages them from doing sport\" is weakened to \"She wants them to play sports, but many people say no,\" which lessens the original's societal context. Furthermore, the keywords \"Seven Summits,\" \"Everest,\" and \"Kilimanjaro\" are reused, but important contextual details of \"empower women and girls\" as a form of resistance and cultural challenge are diluted. \n\nSuggestion: Restore precision about Wasfia being \"one of the few in the world\". Reintroduce the concept that the Seven Summits are unique, high peaks across continents exactly as in the original, not loosely \"very tall mountains.\" Restore the phrase \"to empower women and girls in a country which discourages them from doing sport\" exactly to keep the societal and motivational tone intact. Avoid simplifying \"each peak\" to \"every mountain\" without explanation. Raise the BERTScore by retaining these key factual and lexical details. Maintain the nuanced cultural background to preserve meaning. Address the vocabulary below A2 listed next.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8682,
+          "meaningbert": 0.8128
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:11:29.627525",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Seven Summits are the highest mountains on each continent.  \nEverest is the tallest mountain in the world.  \nKilimanjaro is a tall mountain in Africa.  \n\nWasfia Nazreen saw a foreign girl with a hula hoop when she was young.  \nIn Bangladesh, girls do not play with hula hoops or ride bikes.  \nWasfia did not play with the hula hoop then.  \n\nNow Wasfia is one of the few people in the world to climb the Seven Summits.  \nShe has climbed Everest and Kilimanjaro.  \nShe is the first person to hula hoop on each peak of the Seven Summits.  \n\nWasfia wants to empower women and girls in a country that stops them from doing sport.  \nShe hopes her actions give women and girls more strength and courage.",
+      "timestamp": "2025-08-31 23:11:29.627696",
+      "metadata": {
+        "text_id": "a4a3c2b8-876c-4cdc-af39-57007ac28986",
+        "version": 2
+      }
+    }
+  ]
+}

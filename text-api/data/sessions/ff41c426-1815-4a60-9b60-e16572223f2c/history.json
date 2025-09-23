@@ -1,0 +1,413 @@
+{
+  "session_id": "ff41c426-1815-4a60-9b60-e16572223f2c",
+  "created_at": "2025-09-01 17:59:42.404044",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:59:42.434710",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "20-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong works in robotics and AI.  \nShe is a well known researcher.  \nShe writes many papers.  \nShe has written more than 50 papers.  \nThe papers are in important journals.  \nShe often talks at conferences around the world.  \nIn 2012 she won a big award.  \nThe award came from a famous academy.  \nJulie lives with her family.  \nShe lives in a smart home she designed herself.",
+      "timestamp": "2025-09-01 17:59:42.434852",
+      "metadata": {
+        "text_id": "f98fa400-25f9-4d14-9cb1-5cd4e89d48d0",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:59:43.298360",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "984a4bf2-c6e0-4456-9695-a0e00e01f1d2",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8728 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original. The specific name of the award, 'the prestigious Royal Academy Simone Fielding fellowship', was oversimplified, losing critical lexical detail.\n\n*   Vocabulary Violation: The word 'academy' is C1 level. It must not be used in an A2 text. This is a severe error.\n*   Vocabulary Violation: The word 'written' is B1 level. The present perfect tense used here increases complexity. A simpler verb form is required.\n*   Structural Violation: The sentence 'She lives in a smart home she designed herself' uses a reduced relative clause, which is a B1 grammatical structure. This is too complex for A2.\n*   Redundancy: The text states 'She writes many papers' and immediately follows with 'She has written more than 50 papers.' This is repetitive.\n\nSuggestion: Split the final sentence into two simple sentences: 'She lives in a smart home. She designed it herself.' Remove the C1 word 'academy' and rephrase. Combine the repetitive sentences about papers into a single, clear statement.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8728,
+          "meaningbert": 0.7686
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:59:50.796423",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong works with robots and computers.  \nShe is a famous researcher.  \nShe made more than 50 papers.  \nThe papers are in important journals.  \nShe often talks at conferences around the world.  \nIn 2012 she won the Royal Simone Fielding fellowship.  \nJulie lives with her family.  \nShe lives in a smart home.  \nShe designed it herself.",
+      "timestamp": "2025-09-01 17:59:50.796690",
+      "metadata": {
+        "text_id": "4e0f3d81-4774-40db-9b6a-48f544b3db2a",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 18:00:21.465010",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "fad543ce-18e2-4d24-ba44-232b8c0f5bbe",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The text fails on the highest priority check. The name of the award is incorrect.\n\n- Factual Error: The original text specifies the 'Royal Academy Simone Fielding fellowship'. Your output omits the word 'Academy', stating 'Royal Simone Fielding fellowship'. This is a factual discrepancy and an immediate failure.\n- Fidelity Failure: The BERTScore of 0.8822 is below the required 0.90 threshold. This indicates a loss of key information. The omission of 'Academy' and the over-simplification of 'leading researcher' to 'famous researcher' contributed to this low score.\n- Vocabulary Violation: The word 'royal' is classified as B1. All vocabulary must be strictly A2 or below.\n\nSuggestion: Restore the full, correct name of the fellowship. Replace the B1 word 'royal' with an A2 alternative or rephrase the sentence to remove it. For example: 'she won an important award called the Royal Academy Simone Fielding fellowship'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8822,
+          "meaningbert": 0.8523
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 18:00:27.651305",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong works with robots and computers.  \nShe is a researcher.  \nShe has written more than 50 papers.  \nThe papers are in important journals.  \nShe often talks at conferences around the world.  \nIn 2012 she won an important award called the Academy Simone Fielding fellowship.  \nJulie lives with her family.  \nShe lives in a smart home.  \nShe designed it herself.",
+      "timestamp": "2025-09-01 18:00:27.651634",
+      "metadata": {
+        "text_id": "2cffa378-620d-45a0-a335-5d842f268bc6",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 18:00:54.782754",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "68fe1810-1547-4225-9a7f-a43173b00753",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The primary failure is a factual error in a proper name. The original text specifies the 'Royal Academy Simone Fielding fellowship'. Your output omits the word 'Royal', which is an unacceptable alteration of a fact. This text also fails on key metrics and vocabulary standards.\n\n- Fidelity Failure: The BERTScore of 0.8829 is below the required 0.90 threshold. This indicates a significant loss of key information. The removal of words like 'leading', 'prestigious', and 'Royal' caused this failure.\n- B1 Vocabulary Violation: The word 'written' is a B1-level verb. This is not compliant with the A2 standard.\n- C1 Vocabulary Violation: The word 'academy' is a C1-level noun. Its inclusion is a severe violation of the A2 standard.\n\nSuggestion: Transcribe all proper nouns with 100% accuracy. Replace 'written' with the A2-compliant past tense 'wrote'. To meet the fidelity requirement, you must find simple A2 ways to retain the meaning of key descriptive words from the original text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8829,
+          "meaningbert": 0.9452
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 18:00:59.023329",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong works with robots and computers.  \nShe is a top researcher.  \nShe wrote more than 50 papers.  \nThe papers are in important journals.  \nShe often talks at meetings around the world.  \nIn 2012 she won the Royal Academy Simone Fielding fellowship, an important award.  \nJulie lives with her family.  \nShe lives in a smart home.  \nShe designed the home herself.",
+      "timestamp": "2025-09-01 18:00:59.023591",
+      "metadata": {
+        "text_id": "60343ca7-6ba8-444c-8d7e-3047d7b7aee7",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 7/10 - FAIL",
+      "timestamp": "2025-09-01 18:01:21.505448",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "17eeb019-7ed5-4770-a4df-1e05aee6cf08",
+        "grade": 7,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8865 is below the required 0.90 threshold. This indicates a significant loss of key words from the original text.\n\n*   Lexical Deviation: The score dropped because specific B1/B2 terms were over-simplified, losing fidelity. For example, 'Robotics and AI' was replaced with 'robots and computers'. 'Highly regarded, peer-reviewed journals' was reduced to 'important journals'.\n*   Structural Success: The text correctly uses short, simple sentences, which resulted in a correct A2 classification.\n*   Meaning Preservation: The MeaningBERT score of 0.94 is excellent, showing the core message was understood.\n*   Suggestion: To pass, you must increase lexical fidelity. Re-introduce some key terms from the original text. For example, use 'Robotics and AI' as it is the name of a specific field. Change 'meetings around the world' to 'international meetings' to be closer to the original 'international conferences'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8865,
+          "meaningbert": 0.9429
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 18:01:27.197099",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong works in Robotics and AI.  \nShe is a top researcher.  \nShe wrote more than 50 papers.  \nThe papers are in well known peer reviewed journals.  \nShe often talks at international conferences.  \nIn 2012 she won the Royal Academy Simone Fielding fellowship.  \nJulie lives with her family.  \nShe lives in a smart home.  \nShe designed the home herself.",
+      "timestamp": "2025-09-01 18:01:27.197399",
+      "metadata": {
+        "text_id": "51e871c4-e7fa-4264-8e51-6f0776fc795b",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 18:01:47.281616",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "facad325-6d6d-4d90-ac16-6918e75afa3d",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.897 is below the required 0.90. This indicates an unacceptable loss of key words from the original text. The simplification of phrases like 'highly regarded' to 'well known' reduced lexical fidelity.\n\nVocabulary Violation: The text includes multiple words that are not on the A2 word list. This is a critical error. The word 'peer' (from 'peer reviewed') is B2 level. The word 'royal' is B1 level. The word 'academy' is C1 level. These words were not defined as keywords and are too advanced for the target reader.\n\nSuggestion: Remove all vocabulary above the A2 level. Rephrase sentences to avoid using these words. For the fellowship, state 'she won an important prize in 2012'. For the journals, state 'The papers are in good journals for other researchers'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.897,
+          "meaningbert": 0.9452
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 18:01:53.628338",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong works with robots and AI.  \nShe is a top researcher.  \nShe wrote more than 50 papers.  \nThe papers are in good places for other researchers.  \nShe often talks at international conferences.  \nIn 2012 she won a big prize.  \nJulie lives with her family.  \nShe lives in a smart home.  \nShe designed the home herself.",
+      "timestamp": "2025-09-01 18:01:53.628671",
+      "metadata": {
+        "text_id": "c6571396-3ced-4b27-a92d-04611f3b41b8",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 18:02:13.260907",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "78537bc6-77c1-4edd-8fb7-c70f0a378b81",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8714 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original text.\n- The phrase 'highly regarded, peer-reviewed journals' was replaced with 'good places for other researchers'. This simplification is too vague and loses critical lexical detail.\n- The specific award 'the prestigious Royal Academy Simone Fielding fellowship' was reduced to 'a big prize'. This is an excessive oversimplification that damages the text's fidelity to the source.\n- While the sentence structure is correctly simplified for A2, the loss of important nouns and descriptive terms is unacceptable.\nSuggestion: Restore fidelity. Rephrase to include more specific, A2-appropriate vocabulary. Use 'important journals' instead of 'good places'. Use 'a special award' instead of 'a big prize'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8714,
+          "meaningbert": 0.8716
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 18:02:16.887170",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong works with robots and AI.  \nShe is a top researcher.  \nShe wrote more than 50 papers.  \nThe papers are in important journals.  \nShe often talks at international conferences.  \nIn 2012 she won a special award.  \nJulie lives with her family.  \nShe lives in a smart home.  \nShe designed the home herself.",
+      "timestamp": "2025-09-01 18:02:16.889231",
+      "metadata": {
+        "text_id": "ede808f2-c10a-4425-a04b-8d88897aab81",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 18:02:36.734364",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5a4bdf00-4945-4e6d-8d08-d6175d39ea89",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8761 is below the required 0.90 threshold. This indicates an unacceptable loss of key words and phrasing from the original text. While the text successfully simplifies the concepts to an A2 level, it does so by removing too much specific information. The simplification of 'prestigious Royal Academy Simone Fielding fellowship' to 'a special award' is a primary cause for this low score. The core facts are preserved, but the fidelity to the source is not. Suggestion: Re-introduce key descriptive words in a simple context to increase fidelity. For example, change 'a special award' to 'a special science award' to better reflect the original's meaning without adding B1 complexity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8761,
+          "meaningbert": 0.9452
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 18:02:39.209748",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong works with robots and AI.  \nShe is a top researcher.  \nShe wrote more than 50 papers.  \nThe papers are in important journals.  \nShe often talks at international conferences.  \nIn 2012 she won a special science award.  \nJulie lives with her family.  \nShe lives in a smart home.  \nShe designed the home herself.",
+      "timestamp": "2025-09-01 18:02:39.212423",
+      "metadata": {
+        "text_id": "65f59ce9-044f-4fe6-af69-b5804366cb11",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 18:03:00.786035",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6688d5be-1bb0-476a-8203-0cc24d7c1625",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8768 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original text.\n\n- Primary Deviation: The phrase 'prestigious Royal Academy Simone Fielding fellowship' was replaced with 'a special science award'. This simplification is too aggressive. It removes specific, named entities which are critical facts, causing the fidelity score to drop below the acceptable threshold.\n- Secondary Deviation: The replacement of 'highly regarded, peer-reviewed journals' with 'important journals' also contributes to the loss of lexical detail.\n\nSuggestion: Retain specific names of awards, people, and institutions. The goal is to simplify sentence structure and vocabulary, not to erase core factual details. Rephrase to 'In 2012, she won an important award. The award was the Royal Academy Simone Fielding fellowship.' This preserves the key information while adhering to A2 sentence structure.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8768,
+          "meaningbert": 0.9453
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 18:03:03.790207",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong works with robots and AI.  \nShe is a top researcher.  \nShe wrote more than 50 papers.  \nThe papers are in highly regarded peer\u2011reviewed journals.  \nShe often talks at international conferences.  \nIn 2012 she won an award.  \nThe award was the Royal Academy Simone Fielding fellowship.  \nJulie lives with her family.  \nShe lives in a smart home.  \nShe designed the home herself.",
+      "timestamp": "2025-09-01 18:03:03.792494",
+      "metadata": {
+        "text_id": "fa599141-14ca-434a-8c7f-f96b4bb3d277",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 18:03:30.739585",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e38cfc1b-5d34-46aa-a814-0163663ffbfb",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8894 is below the required 0.90 threshold. This indicates a significant loss of key descriptive words from the original text.\n\n- Lexical Fidelity Error: Key concepts were oversimplified, causing the metric failure. The original text's 'prestigious' award was reduced to just 'an award', losing the core information about its importance.\n- Vocabulary Compliance Failure: The text is not A2 compliant. You failed to simplify B1, B2, and C1 level words. The phrases 'highly regarded peer\u2011reviewed journals' and 'Royal Academy' contain multiple words ('highly', 'peer', 'royal', 'academy') that are too advanced for an A2 reader.\n- Suggestion: Rephrase to restore lost meaning. Change 'an award' to 'a very important award'.\n- Suggestion: Remove all non-A2 vocabulary. Replace 'highly regarded peer\u2011reviewed journals' with a simple A2 phrase like 'very good science magazines'. Explain the proper noun 'Royal Academy' in simple terms, such as 'a special group for science'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8894,
+          "meaningbert": 0.9345
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 18:03:33.851504",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong works with robots and AI.  \nShe is a top researcher.  \nShe wrote more than 50 papers.  \nThe papers are in very good magazines.  \nShe often talks at international conferences.  \nIn 2012 she won a very important award.  \nThe award was from a special group for science.  \nJulie lives with her family.\"",
+      "timestamp": "2025-09-01 18:03:33.854052",
+      "metadata": {
+        "text_id": "d9e8a369-15e6-496f-80b2-1e6cc614e6a6",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 18:03:54.887669",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5d3ad24c-5c66-485d-9003-1531566761cf",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8668 is below the required 0.90. This indicates a critical loss of key information from the original text.\n\n- Omission of Fact: The entire concept of Julie Wong living in a 'smart home she designed herself' was deleted. This is an unacceptable loss of information.\n- Loss of Key Terms: The phrase 'highly regarded, peer-reviewed journals' was replaced with 'very good magazines'. This is a severe oversimplification that loses the professional and academic context.\n- Loss of Specificity: The name of the award, 'the prestigious Royal Academy Simone Fielding fellowship', was reduced to 'a very important award'. This removes a key factual detail.\n\nSuggestion: Restore the omitted information about the smart home. Rephrase to include the specific name of the award. Find a simple A2 way to explain 'peer-reviewed journals' instead of replacing it with an inaccurate term like 'magazines'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8668,
+          "meaningbert": 0.9106
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 18:03:58.572778",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong works with robots and AI.  \nShe is a top researcher.  \nShe has written more than 50 papers.  \nThe papers are in well\u2011known scientific journals that check each article.  \nShe often talks at international conferences.  \nIn 2012 she won the Royal Academy Simone Fielding fellowship.  \nThe fellowship is a very important award.  \nJulie lives with her family in a smart home she designed herself.",
+      "timestamp": "2025-09-01 18:03:58.575280",
+      "metadata": {
+        "text_id": "5bb4547a-c81f-4954-af71-c932b6272655",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 18:04:23.189605",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0ab98408-ba7f-4a55-92ca-8939f85951cc",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8947 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text.\n\n- Lexical Deviation: Key terms like 'leading researcher' and 'peer-reviewed' were replaced with overly simple phrases. This caused the fidelity score to drop below the minimum threshold.\n- Vocabulary Exceeds A2: The text includes the B1 word 'scientific'. The proper noun 'Royal Academy' contains B1 ('royal') and C1 ('academy') level words, increasing complexity.\n- Structural Complexity Exceeds A2: The sentence 'Julie lives with her family in a smart home she designed herself' uses a reduced relative clause, a B1 grammatical structure. The use of the present perfect tense ('has written') is also a B1 indicator.\n\nSuggestion: Rephrase to restore lexical fidelity. Replace 'scientific' with 'science'. Split the sentence containing the reduced relative clause into two simple sentences. Change 'has written' to the simple past 'wrote'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8947,
+          "meaningbert": 0.9452
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "session_id": "673631ff-b24a-4182-a146-a7be189745f2",
+  "created_at": "2025-09-01 17:06:53.092217",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:06:53.137492",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "29-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sam squinted in front of the sun.  \nHe looked at a far dry\u2011dirt path made by the car.  \nThe car went up to the Big House.  \nThe horses kicked and swished their tails at flies.  \nThey did not care about their owner's first visit in ten months.  \nSam waited.  \nMr Carter did not come out here if not\u2011needed.  \nThat was fine for Sam.  \nThe more Sam stayed away from his boss.  \nThe longer he kept his job.  \nMr Carter wiped sweat from the back of his neck.  \nWet spots on his shirt clumped like pictures in many maps.  \nHis body was changing red in the June sun.  \nOtherwise, he had a tan from staying inside.  \nHe was a man who earned money while others worked.",
+      "timestamp": "2025-09-01 17:06:53.137668",
+      "metadata": {
+        "text_id": "a43a140c-8729-46eb-b32d-121a4296ce9f",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:06:57.520252",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3c395032-778f-400e-85cc-e0f4fe9ae120",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6841 is substantially below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text. The oversimplification and use of unnatural phrasing have distorted the meaning.\n\nDiagnostic Analysis:\n- Fidelity Failure: The BERTScore of 0.8905 is below the 0.90 minimum. Key lexical items were lost.\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is an instant failure.\n- B1 Vocabulary Violation: The words 'dirt' and 'otherwise' are not on the A2 list. They must be removed.\n- B1 Structural Violation: The sentence 'He looked at a far dry-dirt path made by the car' uses a passive adjectival phrase ('made by the car'), which is a B1 structure.\n- Grammatical Error: The text contains two sentence fragments: 'The more Sam stayed away from his boss.' and 'The longer he kept his job.' This is unacceptable.\n- Unnatural Phrasing: The phrase 'if not-needed' is grammatically incorrect and unnatural. It fails to clearly convey the original meaning.\n\nCorrective Path:\n- Suggestion: Rephrase 'if not-needed' to a correct A2 structure like 'if he did not need to'.\n- Suggestion: Remove the B1 words 'dirt' and 'otherwise'. Replace 'dirt' with an A2 word like 'ground'.\n- Suggestion: Combine the sentence fragments into a complete A2 sentence. Example: 'When Sam stayed away from his boss, he could keep his job for longer.'\n- Suggestion: Split complex sentences. 'He looked at a far dry-dirt path made by the car' must become two simple sentences. Example: 'He looked at a path far away. The car made the path.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8905,
+          "meaningbert": 0.6841
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:07:18.867763",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sam squints at the sun.  \nHe looks at a path far away.  \nThe car made the path.  \nThe car goes up to the big house.  \nThe horses kick their tails at flies.  \nThey do not care about their owner.  \nIt is the owner's first visit in ten months.  \nSam waits.  \nMr Carter does not come out here unless he needs to.  \nThat is fine for Sam.  \nSam stays away from his boss.  \nHe can keep his job longer.  \nMr Carter wipes sweat from the back of his neck.  \nWet spots on his shirt clump like pictures in many maps.  \nHis skin turns red in the June sun.  \nHe has a tan from staying inside.  \nHe earns money while others work.",
+      "timestamp": "2025-09-01 17:07:18.868015",
+      "metadata": {
+        "text_id": "54ea0a8b-9a6a-49b4-b92f-594256abbc97",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:07:51.273466",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d015175f-5655-4ae2-8989-ab93b0e448ef",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6346 is critically below the required 0.75 threshold. This indicates a severe loss of the original text's core message.\n\n- Primary Failure (MeaningBERT): The original sentence 'The more he kept out of his boss's way, the longer he'd have a job' describes a direct conditional relationship. Your version, 'Sam stays away from his boss. He can keep his job longer,' breaks this into two simple statements, losing the essential cause-and-effect meaning.\n- Secondary Failure (BERTScore): The BERTScore of 0.8748 is below the 0.90 minimum. This fidelity loss is caused by replacing too many key descriptive words ('squinted', 'dust trail', 'drew together') with overly generic terms.\n- Tertiary Failure (CEFR Compliance): The text is classified as B1, not the required A2. The use of the conjunction 'unless' in 'Mr Carter does not come out here unless he needs to' is a B1-level grammatical structure. This is an unacceptable deviation.\n- Structural Error: The systematic change from past tense to present tense is a fundamental alteration of the narrative voice and is not a simplification.\n\nSuggestion: Rephrase the sentence containing 'unless' to use A2 structures. Example: 'Mr Carter only comes here when it is important.' Restore the conditional meaning. Example: 'If Sam stays away from his boss, his job is safe.' You must adhere strictly to A2 vocabulary and grammar.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8748,
+          "meaningbert": 0.6346
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:08:07.141649",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sam looked at the sun.  \nHe saw a dusty path far away.  \nThe car made the path.  \nThe car went up to the big house.  \nThe horses kicked their tails at flies.  \nThey did not care about their owner.  \nIt was the owner's first visit in ten months.  \nSam waited.  \nMr Carter only came here when he had to.  \nThat was fine for Sam.  \nIf Sam stayed away from his boss, his job stayed safe.  \nMr Carter wiped sweat from the back of his neck.  \nWet spots on his shirt looked like pictures on a map.  \nHis skin turned red in the June sun.  \nHe had a\u202ftan from staying inside.  \nHe earned money while others worked.",
+      "timestamp": "2025-09-01 17:08:07.141993",
+      "metadata": {
+        "text_id": "9d40ee17-738e-40f4-9774-26de9addbe09",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:08:38.396776",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "bde92000-6a3e-44cb-8081-83f4c1743ea6",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5789 is critically below the required 0.75 threshold. The output reduces a descriptive scene to a list of disconnected facts, losing the original text's atmosphere and nuance. The BERTScore of 0.8764 is also below the 0.90 minimum, indicating a severe loss of key descriptive language.\n\nCEFR Compliance Failure: The text was classified as B1, not the required A2. This is an automatic failure.\n\nVocabulary Violation: The word 'dusty' is B1 level. This is unacceptable for an A2 text.\n\nStructural Oversimplification: Breaking the first sentence into four separate, choppy sentences destroyed the original's flow and context. While A2 requires simple sentences, this level of fragmentation leads to meaning loss.\n\nSuggestion: Restore the core meaning. Combine related simple sentences using 'and'. Replace the B1 word 'dusty' with an A2 phrase, for example, 'a path with a lot of dust'. The sentence 'If Sam stayed away from his boss, his job stayed safe' uses a conditional structure that likely contributed to the B1 classification; rephrase it more simply, such as 'Sam knew he must stay away from his boss to keep his job'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8764,
+          "meaningbert": 0.5789
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:09:09.461474",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sam looked at the sun.  \nHe saw a path with a lot of dust far away.  \nA car drove up the path to the big house.  \nHorses stood near the path.  \nThey kicked and shook their tails at flies.  \nThey did not care about their owner.  \nIt was the owner's first visit in ten months.  \nSam waited.  \nMr Carter only came out when he had to.  \nThat was fine for Sam.  \nSam knew he must stay away from his boss.  \nHe did this to keep his job.  \nMr Carter wiped sweat from the back of his neck.  \nWet spots on his shirt looked like shapes on a map.  \nHis skin turned red in the June sun.  \nHe also had a light color from staying inside.  \nHe got money while others worked.",
+      "timestamp": "2025-09-01 17:09:09.461859",
+      "metadata": {
+        "text_id": "9feb2701-77fe-46e8-81f2-7365f702f19a",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:09:40.400642",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "25f9d184-f1b5-4564-b061-25edeca80202",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The submission fails on multiple high-priority checks. The primary failure is the inability to preserve the core message and lexical fidelity of the original text. The MeaningBERT score of 0.63 is significantly below the required 0.75 threshold. This indicates a critical loss of meaning. The BERTScore of 0.86 is also below the required 0.90, showing a failure to retain key vocabulary and phrasing.\n\n- Meaning Preservation Failure (MeaningBERT 0.63): The original text's sentence 'The more he kept out of his boss's way, the longer he'd have a job' conveys a specific conditional relationship. Your version, 'Sam knew he must stay away from his boss. He did this to keep his job,' is a simple statement of fact that loses this nuanced, cause-and-effect meaning.\n\n- Fidelity Failure (BERTScore 0.86): Key descriptive phrases like 'damp patches on his shirt drew together like shapes in an atlas' were over-simplified to 'Wet spots on his shirt looked like shapes on a map,' contributing to the low fidelity score.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is an automatic failure. The B1 classification was caused by specific grammatical structures that are too advanced for the A2 level.\n\n- B1 Grammar Violation: The sentence 'He got money while others worked' uses the subordinating conjunction 'while'. This is a B1 structure. It must be simplified using A2 connectors like 'and' or split into two sentences.\n\n- B1 Grammar Violation: The phrase 'from staying inside' uses a gerund after a preposition, which is a B1 structure.\n\n- B1 Vocabulary Violation: The word 'dust' is classified as B1 vocabulary and was used without simplification or definition.\n\nSuggestion: The text must be rewritten. Remove the B1 conjunction 'while'. Rephrase the sentence 'from staying inside' using a simple clause. Replace the B1 word 'dust' with an A2-level description. Re-evaluate sentence structures to ensure the logical connections from the original text are not lost during simplification.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8696,
+          "meaningbert": 0.6335
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:09:54.198445",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sam looked at the sun.  \nHe saw a path with dry dirt far away.  \nA car drove up the path to the big house.  \nHorses stood near the path.  \nThey kicked and shook their tails at flies.  \nThey did not care about their owner.  \nIt was the owner's first visit in ten months.  \nSam waited.  \nMr Carter only came out when he had to.  \nThat was fine for Sam.  \nSam stayed away from his boss.  \nThis helped him keep his job longer.  \nMr Carter wiped sweat from the back of his neck.  \nWet spots on his shirt looked like shapes on a map.  \nHis skin turned red in the June sun.  \nHe had a light skin because he stayed inside.  \nHe got money.  \nOthers did the work.",
+      "timestamp": "2025-09-01 17:09:54.198896",
+      "metadata": {
+        "text_id": "70bedf18-90d0-4970-b126-1779d0a53ae8",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:10:25.930831",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1a9a8c23-7e7d-4147-bbd4-2d941026c1ca",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6275 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message and descriptive nature of the original text. The BERTScore of 0.8695 also falls below the minimum fidelity requirement of 0.90.\n\n- CEFR Compliance Failure: The text was classified as B1, which is too complex. The A2 standard was not met.\n- Structural Violation: The sentence 'Mr Carter only came out when he had to' uses a 'when' clause. This is a complex sentence structure characteristic of the B1 level, not A2.\n- Vocabulary Violation: The text uses the word 'dirt', which is classified as B1 vocabulary.\n- Meaning Loss: The final sentences 'He had a light skin because he stayed inside. He got money. Others did the work.' are disconnected. They fail to convey the original meaning of a man who profits from the labor of others, which is a key character detail.\n\nSuggestion: The text must be rewritten. Simplify the sentence containing 'when' into two separate A2 sentences. Replace the B1 word 'dirt' with an A2 alternative like 'ground'. Rephrase the final section to better connect the concepts using only A2 structures and vocabulary.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8695,
+          "meaningbert": 0.6275
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:10:36.504758",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sam looked at the sun.  \nHe saw a path with dry ground far away.  \nA car drove up the path to the big house.  \nHorses stood near the path.  \nThey kicked and shook their tails at flies.  \nThey did not care about their owner.  \nIt was the owner's first visit in ten months.  \nSam waited.  \nMr Carter only came out.  \nHe did this only if he had to.  \nThat was fine for Sam.  \nSam stayed away from his boss.  \nThis helped him keep his job longer.  \nMr Carter wiped sweat from the back of his neck.  \nWet spots on his shirt looked at the back of his neck.  \nWet spots on his shirt looked like shapes on the map.  \nHis skin turned red in the June sun.  \nHe had a light skin because he stayed inside.  \nHe made money while other people worked.",
+      "timestamp": "2025-09-01 17:10:36.505312",
+      "metadata": {
+        "text_id": "30e5ac70-e6db-403e-ab74-78488b2bbb6b",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:11:09.005338",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1e32698e-bb83-4dbe-a322-ae0ae1601c97",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The output contains a nonsensical sentence that does not exist in the original text. This is an instant and critical failure.\n\n- Factual Error: The sentence 'Wet spots on his shirt looked at the back of his neck' is grammatically incorrect, nonsensical, and has no basis in the original text. The original describes patches drawing together, not looking at a neck.\n- Meaning Preservation Failure: The MeaningBERT score of 0.6285 is significantly below the required 0.75. This confirms a severe loss of the original message, caused by the factual error and oversimplification.\n- Fidelity Failure: The BERTScore of 0.8641 is below the 0.90 threshold. Key descriptive words and phrases from the original text were lost, reducing fidelity.\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. The sentence 'He made money while other people worked' uses the conjunction 'while', which is a B1-level structure. A2 level requires simpler connections.\n\nSuggestion: You must correct the factual error regarding the wet spots on the shirt. Rephrase to state that the wet spots looked like shapes on a map. Remove the B1-level conjunction 'while'. Split it into two A2 sentences. Example: 'Other people worked. He made money.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8641,
+          "meaningbert": 0.6285
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:11:20.296016",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sam looked at the sun.  \nHe saw a dusty trail far away.  \nA car drove on the trail to the big house.  \nHorses stood near the trail.  \nThey kicked and flicked their tails at flies.  \nThey did not care about their owner.  \nIt was the owner's first visit in ten months.  \nSam waited.  \nMr Carter only came out if he had to.  \nThat was fine for Sam.  \nSam stayed away from his boss.  \nThat helped him keep his job.  \nMr Carter wiped sweat from the back of his neck.  \nWet spots on the shirt looked like shapes on a map.  \nHis skin turned red in the June sun.  \nHe had a light tan from inside.  \nHe made money.  \nOther people worked.",
+      "timestamp": "2025-09-01 17:11:20.296475",
+      "metadata": {
+        "text_id": "644ef5e5-b6ce-451b-a41b-196735b21bb9",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:11:49.145097",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0a15f872-e50d-488d-9387-78ce1bb86df3",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6392 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text.\n\n- Fidelity Failure: The BERTScore of 0.8709 is below the 0.90 minimum. Key concepts and phrasing were lost in the simplification process.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is an automatic failure.\n\n- Vocabulary Violation: The text uses vocabulary that is too advanced for the A2 level. The word 'trail' is C1. The word 'dusty' is B1. These are unacceptable deviations.\n\n- Meaning Loss Through Fragmentation: The original text links ideas together. For example, Mr. Carter's 'indoor tan' is directly connected to him being a man who 'made money while other people did the work'. Your version, 'He had a light tan from inside. He made money. Other people worked', breaks this into three disconnected facts, destroying the original meaning.\n\n- Suggestion: You must rephrase using only A2 vocabulary. Replace 'trail' with 'road' or 'path'. Describe 'dusty' using simple words, such as 'The road had a lot of dust'. Reconnect the fragmented sentences to restore the cause-and-effect relationships from the original text. For example: 'He had a tan from being inside because he made money and other people did the work outside.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8709,
+          "meaningbert": 0.6392
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:12:00.647014",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sam looked at the sun.  \nHe saw a road far away.  \nThe road had a lot of dust.  \nA car drove on the road to the big house.  \nHorses stood near the road.  \nThe horses kicked and flicked their tails at flies.  \nThe horses did not care about their owner.  \nIt was the owner\u2019s first visit in ten months.  \nSam waited.  \nMr Carter only came out if he had to.  \nThat was fine for Sam.  \nSam stayed away from his boss.  \nThat helped him keep his job.  \nMr Carter wiped sweat from the back of his neck.  \nWet places were on his shirt.  \nThey looked like shapes on a map.  \nHis skin turned red in the June sun.  \nHis skin was light because he stayed inside.  \nHe made money while other people worked.",
+      "timestamp": "2025-09-01 17:12:00.647500",
+      "metadata": {
+        "text_id": "32d741f3-c99b-4a31-a20c-044a148dda68",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:12:42.385777",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7caf52c1-caa0-4366-8045-58ecd4f25de5",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for failure is the MeaningBERT score of 0.5992, which is critically below the required 0.75 threshold. This indicates a severe loss of the original text's core meaning and descriptive atmosphere. The text was reduced to a list of simple facts, stripping it of its narrative quality.\n\n- Meaning Preservation Failure: The original text's description of heat, distance, and character relationships was lost. The phrase 'squinted against the sun at the distant dust trail' became 'looked at the sun' and 'saw a road far away', which fails to convey the character's experience.\n\n- Fidelity Failure: The BERTScore of 0.8643 is below the 0.90 minimum. This is a direct result of replacing specific, descriptive words ('squinted', 'trail', 'damp patches', 'atlas', 'ruddy') with generic A2 terms, losing lexical fidelity.\n\n- CEFR Compliance Failure: The output was classified as B1, not the target A2. This is due to the inclusion of B1-level grammatical structures. The sentence 'He made money while other people worked' uses a 'while' clause, and 'Mr Carter only came out if he had to' uses a conditional 'if' clause. These are too complex for the A2 level.\n\n- Vocabulary Violation: The B1 word 'dust' was used directly. All vocabulary must conform to the A2 level.\n\n- Suggestion: Rephrase to restore the lost meaning. The goal is simplification, not elimination of meaning. The concept of 'indoor tan' must be explained more clearly, for example: 'His skin was not dark from the sun. He worked inside.'\n\n- Suggestion: Eliminate all B1 grammar. Break complex sentences using 'while' or 'if' into two separate, simple sentences. For example: 'Mr Carter did not like to come out. He only came when it was important.'\n\n- Suggestion: Replace the B1 word 'dust'. Use an A2 phrase like 'dirt in the air'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8643,
+          "meaningbert": 0.5992
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:12:57.139611",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sam squinted at a far trail of dirt in the air.  \nA car drove the trail on its way to the big house.  \nHorses kicked and flicked their tails at flies.  \nThe horses did not care about their owner.  \nIt was the owner\u2019s first visit in ten months.  \nSam waited.  \nMr Carter only came out when he needed to.  \nSam was fine with that.  \nSam stayed away from his boss.  \nThis helped him keep his job.  \nMr Carter wiped sweat from the back of his neck.  \nWet places were on his shirt.  \nThey looked like shapes on a map.  \nHis skin turned red in the June sun.  \nHis skin was not dark from the sun.  \nHe worked inside.  \nHe made money.  \nOther people worked.",
+      "timestamp": "2025-09-01 17:12:57.140381",
+      "metadata": {
+        "text_id": "aa20077c-075c-4f8c-b725-09c60e5d10aa",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:13:25.240819",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ada7c9b8-11bc-45d6-9f51-2236d8b89cf6",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.687 is critically below the 0.75 minimum. The text also fails the fidelity check with a BERTScore of 0.87, below the 0.90 requirement. These failures are absolute and render the text unacceptable.\n\n- The simplification was too extreme, resulting in a significant loss of the original message's nuance. The original text's description of Mr. Carter implies his wealth and status; your version is a simple list of facts that loses this meaning.\n- The text failed the CEFR compliance check, registering as B1 instead of the required A2. This is a direct violation of the core task requirement.\n- Vocabulary Violation: The word 'trail' is C1 level. The word 'dirt' is B1 level. These are not A2 words and are unacceptable.\n- Structural Deficiency: While using short sentences is correct for A2, the text is broken down into so many fragments that it reads unnaturally and contributes to the loss of meaning.\n\nSuggestion: You must rephrase to restore the core meaning of the original text. Replace all words above the A2 level. Combine some of the shortest sentences using simple connectors like 'and' or 'because' to improve readability without increasing complexity.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8749,
+          "meaningbert": 0.687
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:13:40.730541",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sam squinted against the hot sun and saw dust behind a car going to the big house.  \nThe horses kicked and flicked their tails at flies.  \nThe horses did not care that their owner had not visited for ten months.  \nSam waited.  \nMr Carter only came out when he had to.  \nSam was happy to stay away from his boss.  \nThis helped him keep his job.  \nMr Carter wiped sweat from the back of his neck.  \nWet spots on his shirt looked like shapes on a map.  \nHis skin turned red in the June sun.  \nHe also had a light colour on his skin because he worked in an office.  \nHe made money while other people did the hard work.",
+      "timestamp": "2025-09-01 17:13:40.731762",
+      "metadata": {
+        "text_id": "ebc81518-bd23-4260-b172-1ec7572c4c12",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:14:11.247480",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8e10c136-f83d-4e9a-a60d-b00505a47018",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6341 is catastrophically below the required 0.75 threshold. This indicates a severe deviation from the original text's core message. The text also fails on multiple subsequent checks.\n\n- Primary Failure (Meaning): The original text implies Sam's cautious, survival-based relationship with his boss. Your version, 'Sam was happy to stay away from his boss', changes this core meaning from fear/caution to simple preference, which is a factual misrepresentation of the character's motivation.\n\n- Secondary Failure (Fidelity): The BERTScore of 0.8983 is below the 0.90 minimum. This is a result of replacing specific vocabulary like 'atlas' and 'ruddy', which reduced lexical fidelity to the source.\n\n- Tertiary Failure (CEFR Compliance): The text was classified as B1, not A2. This is an automatic failure. The classification is correct due to the use of B1-level grammatical structures.\n\n- Grammatical Deviations: You used a 'that-clause' in 'The horses did not care that their owner...'. You used a participle clause in '...a car going to the big house'. You used the subordinator 'while' in '...while other people did the hard work'. These are all B1 structures and are not permitted.\n\n- Suggestion: Restore the original meaning of Sam's motivation. Do not state he was 'happy'; state that staying away was necessary for his job. Eliminate all B1 structures. Break complex sentences into simple A2 sentences. Example: 'The horses did not care. Their owner had not visited for ten months.' Example: 'He made money. Other people did the hard work.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8983,
+          "meaningbert": 0.6341
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:14:24.216074",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sam squinted against the hot sun.  \nHe saw dust behind a car.  \nThe car went to the big house.  \nThe horses kicked.  \nThe horses flicked their tails at flies.  \nThe horses did not care.  \nTheir owner had not visited for ten months.  \nSam waited.  \nMr. Carter only came out when he had to.  \nSam stayed away from his boss.  \nThis was needed for his job.  \nMr. Carter wiped sweat from the back of his neck.  \nWet spots on his shirt looked like shapes in an atlas.  \nHis skin turned ruddy in the June sun.  \nHe also had a light colour on his skin.  \nHe made money.  \nOther people did the hard work.",
+      "timestamp": "2025-09-01 17:14:24.216883",
+      "metadata": {
+        "text_id": "c20fae6c-6bfe-48d5-a6ed-ae8e6ba131b2",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:14:49.135659",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f93c49b6-0895-46ae-bbfa-baf211e10168",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on two critical metrics. The MeaningBERT score of 0.6269 is substantially below the required 0.75 threshold. The BERTScore of 0.8746 is also below the 0.90 minimum. This indicates a severe loss of the original text's core message and lexical fidelity due to excessive simplification.\n\n- Meaning Loss: The text was broken down into so many short, disconnected sentences that the relationships between ideas were destroyed. The original's cause-and-effect statement, 'The more he kept out of his boss's way, the longer he'd have a job,' is not captured by the two separate, weak sentences: 'Sam stayed away from his boss. This was needed for his job.'\n\n- Nuance Loss: The description of Mr. Carter's 'indoor tan of a man that made money while other people did the work' implies a specific lifestyle. Your version, 'He also had a light colour on his skin. He made money. Other people did the hard work,' states facts but loses the crucial implication that connects them.\n\n- Structural Failure: While the goal is simple sentences, your output is a list of disjointed statements, not a coherent paragraph. This is not acceptable A2 writing; it is a failure of communication.\n\nSuggestion: Re-write the text. Use simple A2 connectors like 'and', 'so', and 'because' to link related ideas. Do not break every single clause into a new sentence. Focus on preserving the original meaning, not just listing the facts. The goal is simplification, not deconstruction.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8746,
+          "meaningbert": 0.6269
+        }
+      }
+    }
+  ]
+}

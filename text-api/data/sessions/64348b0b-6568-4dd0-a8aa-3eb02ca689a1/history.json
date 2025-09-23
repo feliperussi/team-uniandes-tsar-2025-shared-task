@@ -1,0 +1,43 @@
+{
+  "session_id": "64348b0b-6568-4dd0-a8aa-3eb02ca689a1",
+  "created_at": "2025-08-31 23:17:47.179888",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:17:47.190720",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "02-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes a lot.\nEarthquakes can break many things.\nThey can break bridges too.\nBut bridges do not fall down very often.\nThis is true for new bridges even more.\nEngineers now design bridges for earthquake areas.\nThey choose strong ground that does not move easily.",
+      "timestamp": "2025-08-31 23:17:47.191446",
+      "metadata": {
+        "text_id": "2d471630-d1c9-46e0-b6fa-fb3cef8cf0b2",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 23:17:47.200509",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0355074c-a840-4b23-9d0e-9a19c18a102c",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8976 is below the required 0.90.\n- The original word \"structures\" was replaced with \"many things\", losing precise meaning.\n- The concept of \"collapse\" was omitted when describing infrequency.\nSuggestion: Restore the term \"structures\" instead of \"many things\" and add \"collapse\" when talking about how bridges rarely fail to match the original message.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8976,
+          "meaningbert": 0.7869
+        }
+      }
+    }
+  ]
+}

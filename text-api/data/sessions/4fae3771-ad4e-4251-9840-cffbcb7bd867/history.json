@@ -1,0 +1,154 @@
+{
+  "session_id": "4fae3771-ad4e-4251-9840-cffbcb7bd867",
+  "created_at": "2025-09-01 10:30:03.517417",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:30:03.546088",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "34-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Graffiti is pictures or writing on walls. Is graffiti art? Or is it a crime? Some people think it is art. But other people think it is a crime.\n\nVandalism is when someone breaks something that is not theirs. In many countries, graffiti is vandalism. This is because people paint on buildings for everyone. Or they paint on buildings that other people own.\n\nThe police stop many street artists. And sometimes, the artists must pay money. People who run the cities are not happy. They say it costs a lot of money to clean the graffiti. They clean it from buildings, buses and trains.",
+      "timestamp": "2025-09-01 10:30:03.546197",
+      "metadata": {
+        "text_id": "a0bacce5-8aa5-46f3-9a6a-8411bfd62d99",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:30:03.554030",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6681216b-2777-445b-9d54-d30d585ada6c",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6579 is significantly below the required 0.75 threshold. This is a critical failure to preserve the core message of the original text. The primary error is the definition of 'vandalism'. The original text states that writing on property is considered vandalism. Your text defines vandalism as 'when someone breaks something that is not theirs'. This is a different meaning and fundamentally alters the source text's argument. The BERTScore of 0.8928 is also below the 0.90 minimum, caused by replacing key terms like 'public or private property' with less precise phrases. Suggestion: Rephrase the definition of vandalism to align with the original text. It must be defined as the act of painting or writing on property that you do not own. Do not introduce the concept of 'breaking something'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8928,
+          "meaningbert": 0.6579
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:30:20.726056",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Graffiti is pictures or writing on walls. Is graffiti art? Or is it a crime? Some people think it is art. But other people think it is a crime. Vandalism is when someone writes or paints on something that is not theirs. In many countries, graffiti is vandalism. This is because people paint on buildings for everyone. Or they paint on buildings that other people own. The police stop many street artists. And sometimes, the artists must pay money. People who run the cities are not happy. They say it costs a lot of money to clean the graffiti. They clean it from buildings, buses and trains.",
+      "timestamp": "2025-09-01 10:30:20.727356",
+      "metadata": {
+        "text_id": "5a11d61d-a71e-4eda-b6fd-5858801b93c4",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:30:44.054495",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "08184795-848e-4c1d-9d8d-5bea0ce34f3a",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6592 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\n- Primary Deviation (Meaning): The original text presents a nuanced conflict between 'point of view' and the legal definition of 'vandalism'. Your version oversimplifies this into 'Some people think it is art. But other people think it is a crime', which loses the essential contrast between opinion and law.\n- Secondary Deviation (Fidelity): The BERTScore of 0.897 is below the required 0.90. This is caused by replacing specific, key terms from the original. For example, 'city councils' was replaced with the vague phrase 'People who run the cities', and 'pay fines' was reduced to 'pay money'. This damages the factual precision of the text.\n\nSuggestion: The text must be rewritten to preserve the original meaning. Restore the contrast between personal opinion ('point of view') and the legal reality ('considered vandalism'). Use more precise A2 vocabulary to increase fidelity; for example, 'city leaders' is better than 'people who run the cities'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.897,
+          "meaningbert": 0.6592
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:31:00.300947",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Graffiti is pictures or writing on walls. Is graffiti art? This depends on your point of view. But in many countries, the law says it is vandalism. Vandalism is when someone paints on property that is not theirs. People paint on public buildings or private property. The police stop many street artists. Some artists have to pay fines. Many city leaders complain about the cost. They say it costs a lot of money to clean the graffiti. They clean it from buildings, buses and trains.",
+      "timestamp": "2025-09-01 10:31:00.301562",
+      "metadata": {
+        "text_id": "73599fea-b796-466c-a926-420aa9ad9b50",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:31:20.974027",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "933bc58a-9f0b-4bed-a03f-734a8b74c831",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as B1, which is above the required A2 level. The failure is due to specific vocabulary and sentence structure violations.\n\n- B1 Vocabulary Violation: The words 'property' and 'private' are B1 level. They were identified for replacement but were used in the output. These words are too advanced for an A2 reader.\n\n- B1 Structural Violation: The sentence 'Vandalism is when someone paints on property that is not theirs' uses a 'when-clause' to provide a definition. This is a B1-level grammatical structure. An A2 text must use simpler, more direct sentences.\n\n- Suggestion: Replace 'property' with 'buildings' or 'things that are not theirs'. Replace 'private property' with 'buildings that people own'.\n\n- Suggestion: Rephrase the definition of vandalism. Example: 'Vandalism is a problem. Someone paints on a building. The building does not belong to them. This is vandalism.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9331,
+          "meaningbert": 0.8992
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:31:36.380942",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Graffiti is pictures or writing on walls. Is graffiti art? This depends on your point of view. But in many countries, the law says it is vandalism. Vandalism is a crime. Someone paints on a building. The building is not theirs. People paint on public buildings. They also paint on buildings that people own. The police stop many street artists. Some artists have to pay fines. Many city leaders complain about the cost. They say it costs a lot of money to clean the graffiti. They clean it from buildings, buses and trains.",
+      "timestamp": "2025-09-01 10:31:36.381361",
+      "metadata": {
+        "text_id": "05eed62e-ae28-42e3-9efb-55200690a2ef",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 10:31:58.757692",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ae68a02e-1d91-4260-8827-1c6896bc2ca0",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with all A2 requirements.\n\n- Factual Integrity: The output is factually identical to the original text. No information was lost or altered.\n- Metrics Compliance: All metrics are well within the required parameters. The MeaningBERT score of 0.87 and BERTScore of 0.92 confirm excellent preservation of meaning and key terms. The CEFR classifier correctly identified the text as A2.\n- Vocabulary Compliance: The vocabulary is strictly limited to the A1-A2 levels. There are no instances of B1 or higher vocabulary.\n- Structural Compliance: The text uses short, simple sentences. Complex structures have been successfully broken down into digestible A2-level statements. The use of connectors is appropriate for the level.\n- Keyword Definition: The keywords 'graffiti' and 'vandalism' were successfully defined using simple, clear A2 language, which is exemplary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9234,
+          "meaningbert": 0.8703
+        }
+      }
+    }
+  ]
+}

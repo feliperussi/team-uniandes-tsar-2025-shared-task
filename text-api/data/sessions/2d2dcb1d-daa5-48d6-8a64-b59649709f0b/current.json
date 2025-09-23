@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "42c1b6dc-8dba-42d5-ac81-604a5588e7a8",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Campbell says the hero first says no to the call to adventure. Then a guide appears. The guide helps the hero cross the threshold. The hero enters the special world. In that world the hero faces many tests. The hero meets friends. The friends are Han Solo, R2D2 and C3PO. The hero also fights a bad guy. The bad guy is Darth Vader. The special world is the Death Star. The hero gets ready for the biggest challenge.\n\nIn Star Wars the hero is Luke. Obi\u2011Wan is the guide. Obi\u2011Wan helps Luke. Han Solo, R2D2 and C3PO are Luke\u2019s friends. Darth Vader is the bad guy. The special world is the Death Star.",
+    "version": 11,
+    "created_at": "2025-09-01 17:14:39.913362",
+    "updated_at": "2025-09-01 17:14:39.913363",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "817b28fc-19f1-4a32-9713-9243ee23d897",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Fidelity Failure. The BERTScore of 0.8978 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text, compromising its fidelity.\n\n- Vocabulary Violation: The text retains the C1 word 'threshold'. This is unacceptable for the A2 level.\n- Vocabulary Violation: The text retains the B1 word 'challenge'. This is unacceptable for the A2 level.\n- Lexical Loss: The original text specifies 'the robots R2D2 and C3PO'. Your version omits the word 'robots', which is a loss of factual detail and contributes to the low fidelity score.\n- Structural Deviation: The complete restructuring of the text into two separate paragraphs, while attempting simplification, created too much distance from the original phrasing, causing the fidelity metric to fail.\n\nSuggestion: Restore the word 'robots' to the text. Replace 'threshold' with a simple A2 phrase like 'the entrance to the new world'. Replace 'challenge' with an A2 phrase like 'biggest problem' or 'hardest fight'. Re-integrate the examples into the main description to improve fidelity to the source text's structure.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8978,
+      "meaningbert": 0.7995
+    },
+    "created_at": "2025-09-01 17:15:04.690004"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "52355aa5-d279-4753-ba0b-e8def8e96d43",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Campbell says the hero refuses the call to adventure.  \nBut a mentor appears.  \nThe mentor helps the hero cross the threshold.  \nThe hero goes into the special world.  \nIn the special world the hero faces many tests.  \nThe hero meets friends.  \nHan Solo, R2D? Actually R2D2, and C3PO are friends.  \nThe hero also fights the enemy.  \nThe enemy is Darth Vader.  \nThe hero prepares for the biggest challenge.  \n\nIn Star Wars Luke is the hero.  \nObi\u2011Wan is the mentor.  \nObi\u2011Wan helps Luke.  \nHan Solo, R2D2, and C3PO are Luke\u2019s friends.  \nDarth Vader is the enemy.  \nThe special world is the Death Star.",
+    "version": 9,
+    "created_at": "2025-09-01 17:13:33.795490",
+    "updated_at": "2025-09-01 17:13:33.795491",
+    "metrics_meaningbert": 0.868,
+    "metrics_cefr_compliance": "A2"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "e95cb93d-0f53-41cd-938f-6508c7440a4c",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Many best-selling album artists do not make new music anymore. But Bruce Springsteen is different. He is in his late 60s. He still makes new music. His music is very popular. He plays music in very big stadiums for many people. He is still very successful.\n\nThis is not a surprise. His songs tell our most important stories about ourselves. For example, listen to his song \"Born in the USA\". The stories in that song are still important for people today. They were also important in the past.",
+    "version": 6,
+    "created_at": "2025-09-01 01:14:27.625256",
+    "updated_at": "2025-09-01 01:14:27.625263",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "5f5cb93c-b7a2-4b76-9a01-498f6ab1ce35",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Fidelity and Meaning Preservation Failure. The submission fails on two critical metrics that take precedence over all other factors.\n\n- Fidelity Failure: The BERTScore of 0.8962 is below the required 0.90. This is a direct result of replacing specific, high-impact original phrases with generic A2 vocabulary. For example, 'chart-topping' and 'top of his game' were simplified to 'very popular' and 'very successful', losing essential lexical detail from the source text.\n\n- Meaning Preservation Failure: The MeaningBERT score of 0.7463 is below the required 0.75 threshold. The original text's concept of 'fundamental stories' was weakened by the substitution with 'important stories'. This simplification loses the core idea that the songs address the basic, foundational aspects of human experience.\n\n- While the text correctly achieves an A2 classification and uses appropriate sentence structures, this does not compensate for the failure to accurately preserve the source text's meaning and key vocabulary.\n\nSuggestion: Restore lexical fidelity. Do not use generic adverbs like 'very'. Instead of 'very popular', rephrase to capture the idea of being number one, such as 'his music is at the top'. Suggestion: Restore core meaning. The word 'fundamental' is critical. Rephrase 'important stories' to something that better captures the original meaning, such as 'stories about the most basic parts of our lives'.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8962,
+      "meaningbert": 0.7463
+    },
+    "created_at": "2025-09-01 01:14:52.466729"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "4c909fb2-0579-4a2d-89ef-c959440471d3",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Many best-selling album artists do not make new music anymore. But Bruce Springsteen is different. He is in his late 60s. He still makes chart-topping new music. He plays music in very big stadiums for many people. He is still at the top of his game.\n\nThis is not a surprise. His songs tell our most important stories about ourselves. For example, listen to his song \"Born in the USA\". The stories in that song are still important for people today. They were also important in the past.",
+    "version": 5,
+    "created_at": "2025-09-01 01:13:48.602305",
+    "updated_at": "2025-09-01 01:13:48.602312",
+    "metrics_meaningbert": 0.8349,
+    "metrics_cefr_compliance": "A2"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "f60fbf0c-db65-4a98-8c49-b7190387b6f4",
+    "cefr_level": "B1",
+    "text_id": "text_001",
+    "text_translated": "**Asteroids** are rocks that fly through space. Some asteroids are dangerous because they can pass very close to Earth. This happens when an asteroid passes close to our planet. It must be within 7.5 million kilometres of our orbit. NASA has created a map of 1,400 of these asteroids. However, it does not expect any of them to be a danger in the next one hundred years. NASA already has the technology to track these objects. This helps them predict if one might hit Earth. If NASA predicts a hit, it could use two plans to protect the planet.",
+    "version": 11,
+    "created_at": "2025-08-31 20:39:22.329678",
+    "updated_at": "2025-08-31 20:39:22.329682",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "33bfc2a1-e6f9-4953-b7a9-94d00ed157e5",
+    "approval": "FAIL",
+    "grade": 4,
+    "feedback": "FAIL: CEFR Compliance. The output was classified as 'B2', which is too complex for the required 'B1' level. While the text successfully maintained factual accuracy and preserved the original meaning (as shown by the high BERTScore and MeaningBERT scores), its sentence structure likely caused the incorrect classification. The sentence 'However, it does not expect any of them to be a danger in the next one hundred years' is 19 words long and structurally more complex than typical B1 sentences. To correct this, split the long sentence into two shorter ones. For example: 'However, NASA does not expect this to be a problem. They believe Earth will be safe for the next 100 years.' This adjustment would reduce the average sentence length and help the text meet the B1 target. The definition of the keyword 'Asteroids' was handled well.",
+    "metrics": {
+      "cefr_compliance": "B2",
+      "bertscore": 0.9126,
+      "meaningbert": 0.8445
+    },
+    "created_at": "2025-08-31 20:39:51.004473"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "2bbcbb58-0884-4f57-bdaf-6f7b53bc5905",
+    "cefr_level": "B1",
+    "text_id": "text_001",
+    "text_translated": "**Asteroids** are rocks that fly through space. They are called 'Potentially Hazardous' if they are close enough to pass within 7.5 million kilometres of Earth's orbit. NASA has created a map of 1,400 of these asteroids, but none of them are expected to be a threat in the next one hundred years. With technology that is already available, NASA can track these objects and make predictions about a possible impact. If an impact is predicted, two defence solutions could be launched.",
+    "version": 2,
+    "created_at": "2025-08-31 20:32:50.718770",
+    "updated_at": "2025-08-31 20:32:50.718772",
+    "metrics_meaningbert": 0.9296,
+    "metrics_cefr_compliance": "B2"
+  }
+}

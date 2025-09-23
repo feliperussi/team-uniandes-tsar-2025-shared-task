@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "1225bdef-dbf0-4de7-a497-1d3210e6a7f5",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "The study found important information. We recommend a new way to lead people at Girox Foods. This new way should focus more on people. The company should let employees choose when they start and finish work. They should also be able to work from any place. Managers need to give staff new and difficult tasks. This helps them to learn and grow. Managers should also often tell employees they are doing good work. The company should invest more money to help employees improve their skills. This can help employees to communicate better. It can also help them understand other cultures. These changes will create a good work environment. Then, employees can do their best work.",
+    "version": 16,
+    "created_at": "2025-08-31 21:16:54.929409",
+    "updated_at": "2025-08-31 21:16:54.929427",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "b216d509-f796-4734-a3e6-740747647173",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6469 is substantially below the required 0.75 threshold. This indicates a critical failure to preserve the core message and intent of the original text.\n\n- Primary Deviation: The original text is a formal recommendation ('we recommend that...'). Your output changes this into a simple report of findings ('The study found...'). This alters the fundamental purpose of the text, causing the low meaning score.\n- Vocabulary Violation: The B1-level word 'invest' was used. This is a direct violation of the A2 standard. A2 vocabulary must be strictly enforced.\n- Nuance Loss: The original's 'positive reinforcement and recognition' is a specific management concept. Your simplification to 'tell employees they are doing good work' loses this specific meaning.\n\nSuggestion: Rephrase the text to begin with a clear recommendation, such as 'We recommend that Girox Foods should...'. Replace the word 'invest' with an A2-compliant phrase like 'spend more money to' or 'put more money into'. Restore the specific meaning of management actions.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.9013,
+      "meaningbert": 0.6469
+    },
+    "created_at": "2025-08-31 21:17:21.272680"
+  },
+  "attempt_number": 16,
+  "best_attempt": {
+    "id": "2b337125-01d3-4697-88f0-9269ffd70c93",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "We recommend a new management style for Girox Foods. This is a new way for leaders to manage people. This new style should focus more on people. The company should offer flexible work hours. Workers can choose when they start and finish work. The company should also let people work from any place. Leaders need to give workers new and difficult tasks. This helps workers to learn and grow. Leaders should also give positive feedback. They must recognize when people do a good job. The company should invest more money in training. This is for professional development. This training helps workers communicate better. It also helps them understand other cultures. These changes will create a positive environment. Then, workers can do their best work.",
+    "version": 11,
+    "created_at": "2025-08-31 21:12:46.019231",
+    "updated_at": "2025-08-31 21:12:46.019239",
+    "metrics_meaningbert": 0.6773,
+    "metrics_cefr_compliance": "A2"
+  }
+}

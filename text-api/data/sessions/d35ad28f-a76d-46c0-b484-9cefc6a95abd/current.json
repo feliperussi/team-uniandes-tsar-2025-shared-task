@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "1d4849c1-d26f-46be-8a81-f8db6f05ebc0",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Lewis wants to stop the damage to the sea. He wants to help the sea get better. This damage comes from things people do. He wants more 'sea protected areas'. These are parts of the sea that are safe. Now, only 3 per cent of the sea is a protected area. He wants this to be 10 per cent.\n\nPeople damage the sea in many ways. They catch too many fish. They also pollute the water and throw rubbish in it. Lewis saw this damage on his trips.\n\nHe swam over coral reefs. Coral reefs are like gardens under the sea. Many small animals live there. The water is hotter now, so the coral reefs lost their color. They turned white. He also saw underwater deserts. There was no life there, only plastic.\n\nLewis thinks nature can get better. But it needs space to do this. We must act quickly. If we do not take care of our seas, we will soon have a very big problem. It will be a problem that we cannot solve.",
+    "version": 6,
+    "created_at": "2025-09-01 10:45:26.002658",
+    "updated_at": "2025-09-01 10:45:26.002663",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "6d1b018c-96c3-4445-9b92-ef9535584adb",
+    "approval": "FAIL",
+    "grade": 2,
+    "feedback": "FAIL: Meaning Preservation Failure. The primary reason for this failure is the MeaningBERT score of 0.5989, which is substantially below the required 0.75 threshold. This indicates a critical loss of the original text's core message. The BERTScore of 0.8838 also fails to meet the minimum 0.90, confirming a significant loss of key terminology.\n\n- Meaning Loss: The original text conveys a strong sense of destruction and urgency with phrases like 'environmental destruction' and 'unsolvable problem'. Your version weakens this to 'help the sea get better' and 'a very big problem', which does not carry the same weight or meaning.\n\n- Vocabulary Violation: The B1-level word 'damage' is used four times. This word was identified as a candidate for replacement and must be simplified to adhere to the A2 standard. Using it repeatedly is a severe violation.\n\n- Structural Complexity: The final sentence, 'It will be a problem that we cannot solve,' uses a 'that-clause' structure which is more characteristic of B1 level. This structure must be simplified for A2 compliance.\n\nSuggestion: Rephrase the text to restore the original's urgent tone regarding destruction. Replace the B1 word 'damage' with an A2 alternative like 'harm' or rephrase the concept entirely. Simplify the final sentence to 'We cannot solve this problem.'",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8838,
+      "meaningbert": 0.5989
+    },
+    "created_at": "2025-09-01 10:45:49.336567"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "54ea9e48-1b9f-472c-8587-47f0e1fb9203",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Lewis wants to stop the damage to the sea. He wants more 'marine protected areas'. These are parts of the sea that are safe. Now, only 3 per cent of the sea is a protected area. He wants this to be 10 per cent.\n\nPeople are damaging the sea. They catch too many fish. They also pollute the water and throw rubbish in it. Lewis saw this damage on his trips.\n\nHe swam over coral reefs. Coral reefs are like gardens under the sea. Many small animals live there. The water is hotter now, so the coral reefs lost their color. They turned white. He also saw underwater deserts. There was no life there, only plastic.\n\nLewis thinks nature can get better. But it needs space to do this. We do not have much time. If we do not take care of our seas, we will have a problem. It will be impossible to fix.",
+    "version": 2,
+    "created_at": "2025-09-01 10:42:09.400284",
+    "updated_at": "2025-09-01 10:42:09.400288",
+    "metrics_meaningbert": 0.6467,
+    "metrics_cefr_compliance": "A2"
+  }
+}

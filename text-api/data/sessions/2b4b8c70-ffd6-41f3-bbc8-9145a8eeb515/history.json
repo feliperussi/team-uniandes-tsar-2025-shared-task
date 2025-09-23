@@ -1,0 +1,117 @@
+{
+  "session_id": "2b4b8c70-ffd6-41f3-bbc8-9145a8eeb515",
+  "created_at": "2025-09-01 17:04:11.496802",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:04:12.410723",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "74-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: **Everest** is a very, very high mountain. It is the highest mountain in the world.\n**Gerlinde Kaltenbrunner** is a woman's name. She is a famous climber.\n\nMore than 4,000 people went to the top of Everest.\nThey were from thirteen to eighty years old.\nGoing up high mountains is very dangerous.\nIt is very cold there.\nThere are very strong storms.\nBut the best climbers now want new difficult things.\n\nGerlinde Kaltenbrunner is from Austria.\nShe loved going up mountains when she was a young person.\nShe left school.\nShe worked as a nurse.\nBut she climbed in her free time.",
+      "timestamp": "2025-09-01 17:04:12.410892",
+      "metadata": {
+        "text_id": "25d8a947-3500-4d18-b8ed-b39758d35655",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:04:12.426202",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "085fb1d5-424c-4de9-b346-485df541848e",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The text fails to meet the minimum requirements for meaning preservation and lexical fidelity.\n\nThe MeaningBERT score of 0.6009 is significantly below the required 0.75. The core message regarding the extreme danger of high-altitude climbing and the specific motivation of elite climbers seeking new challenges is not adequately preserved. The original's 'extremely dangerous' is diluted to 'very dangerous', and 'look for new challenges' is weakened to 'want new difficult things', losing the precise meaning and intensity.\n\nThe BERTScore of 0.8991 is below the required 0.90. This indicates an unacceptable loss of lexical detail. The term 'climbers' was replaced with the less specific 'people'. The descriptive phrase 'freezing conditions and violent storms' was fragmented and simplified to 'very cold there' and 'very strong storms', losing the combined impact and specific vocabulary of the original.\n\nSuggestion: Rephrase to accurately convey the intensity of the danger and the specific motivation for new challenges. Use 'climbers' instead of 'people' where appropriate to maintain lexical accuracy. Ensure that descriptive elements like 'freezing conditions and violent storms' are simplified but retain their core meaning and impact within A2 vocabulary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8991,
+          "meaningbert": 0.6009
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:04:21.958507",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: **Everest** is a very, very high mountain. It is the highest mountain in the world.\n**Gerlinde Kaltenbrunner** is a woman's name. She is a famous climber.\n\nMore than 4,000 climbers went to the top of Everest.\nThey were from thirteen to eighty years old.\nIt is very, very cold and there are strong storms.\nClimbing high mountains is very, very dangerous.\nBut the best climbers now look for new hard things.\n\nGerlinde Kaltenbrunner is from Austria.\nShe loved going up mountains when she was a young person.\nShe left school.\nShe worked as a nurse.\nBut she climbed in her free time.",
+      "timestamp": "2025-09-01 17:04:21.959361",
+      "metadata": {
+        "text_id": "82237ef6-7449-4d9a-9389-f71a9bf2b615",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:04:41.811953",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "99175080-f97d-4232-b50a-655f6c7dec84",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy and Meaning Preservation Failure. The text fails on multiple high-priority checks. 1. Factual Inaccuracy: The output introduces facts not present in the original text. The statement 'Everest is the highest mountain in the world' is an addition. The original text does not state this. The statement 'Gerlinde Kaltenbrunner is a woman's name. She is a famous climber' contains two unstated facts. The original text does not mention her name is a woman's name, nor does it state she is famous. This is a significant deviation from the original's factual scope. 2. Meaning Preservation Failure: The MeaningBERT score of 0.6217 is significantly below the required 0.75. This indicates a failure to preserve the core message and the relationships between ideas in the original text. The original text connects the danger of climbing with the best climbers looking for new challenges. Your version separates these ideas into distinct, disconnected sentences: 'Climbing high mountains is very, very dangerous. But the best climbers now look for new hard things.' This loses the causal or contrasting relationship. The introduction of Gerlinde Kaltenbrunner is fragmented and includes unstated facts, disrupting the flow and purpose of her mention in the original text. Suggestions: Remove all information not explicitly stated in the original text. Do not add external facts, even if true. Ensure the logical connections and flow of ideas from the original text are maintained. Do not break down related concepts into isolated sentences. Rephrase to ensure the core message, including implied relationships between ideas, is fully preserved.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9008,
+          "meaningbert": 0.6217
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:04:53.938764",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: More than 4,000 climbers went to the top of Everest.\nThey were from thirteen to eighty years old.\nClimbing high mountains is very dangerous.\nIt is very cold and there are strong storms.\nBut the best climbers still look for new challenges.\n\nGerlinde Kaltenbrunner is from Austria.\nShe loved climbing mountains when she was a teenager.\nShe left school.\nShe worked as a nurse.\nBut she climbed in her free time.",
+      "timestamp": "2025-09-01 17:04:53.939134",
+      "metadata": {
+        "text_id": "73282bd6-1644-469e-a7de-6f0e000b69fc",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 17:05:06.152431",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "dc41d59e-c910-47ac-95b7-73889c33c806",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: All diagnostic protocols were successfully met. The text demonstrates unwavering adherence to the CEFR A2 readability standard. Factual integrity is maintained without deviation. MeaningBERT score of 0.8122 and BERTScore of 0.938 confirm excellent preservation of meaning and fidelity. The CEFR classifier accurately rated the text as A2. The qualitative audit confirms appropriate A2 vocabulary and simple sentence structures, utilizing only A2-level connectors such as 'and', 'but', and 'when'. No complex grammatical constructions or advanced vocabulary were detected.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.938,
+          "meaningbert": 0.8122
+        }
+      }
+    }
+  ]
+}

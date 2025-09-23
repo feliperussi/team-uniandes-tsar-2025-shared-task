@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "a4585937-0982-462a-96fa-bd61d2aebd73",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Our study found these things. So, we recommend Girox Foods should use a management style that puts its people first. The company should look for ways to offer flexible working hours. It should also let workers work from places they choose. Managers need to give workers new and interesting tasks. Managers need to give good feedback to workers. They need to show they see workers' good work. The company should spend more money on training. This training helps workers get better at their jobs. This training should help workers talk well with other people. It should help them talk well with people from other countries. This training can help make a good work environment. Workers can then do their best work.",
+    "version": 16,
+    "created_at": "2025-08-31 22:42:29.975942",
+    "updated_at": "2025-08-31 22:42:29.975972",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "c68478db-ed84-40cc-9139-f061a3f0964b",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning and Fidelity Failure. The text fails to preserve the core meaning and lexical fidelity of the original, indicating an insufficient understanding of the source material's nuances. This is a critical failure at Priority 2 of the diagnostic protocol. \n\nDetected Deviations:\n- Meaning Preservation Failure: The MeaningBERT score of 0.6008 is significantly below the required 0.75. The simplification has diluted the professional and strategic intent of the original. For example, 'professional development' is reduced to 'training helps workers get better at their jobs', losing the broader concept of career growth. 'Social and intercultural communication' is simplified to 'talk well with other people' and 'talk well with people from other countries', which loses the specific skill-based and formal aspect of 'communication'. The original's emphasis on 'positive reinforcement and recognition' is also weakened.\n- Fidelity Failure: The BERTScore of 0.8995 is below the required 0.90. This indicates a significant loss of key words and factual phrasing. Important terms such as 'adopt', 'people-oriented', 'explore', 'enable', 'variety', 'challenge', 'positive reinforcement', 'recognition', 'increased investment', 'professional development', 'social and intercultural communication', and 'contribute' have been replaced with less precise or overly simplified vocabulary, diminishing the lexical richness and accuracy of the output.\n- CEFR Compliance Failure (Secondary): The CEFR classifier rated the output as B1, not A2. While not the primary failure, this indicates the text is still too complex for the target A2 audience. This is likely due to the remaining complexity in sentence structures or vocabulary that, despite simplification attempts, still exceed A2 limits. For example, 'This training should help workers talk well with other people. It should help them talk well with people from other countries.' could be simplified further to combine ideas more directly for A2.\n\nCorrective Path:\n- Re-evaluate the original text to ensure all core concepts, especially the professional and strategic implications, are fully understood before simplification.\n- Focus on preserving the specific meaning of terms like 'professional development' and 'intercultural communication' with simpler A2 vocabulary, rather than just describing their outcome.\n- Ensure that all key terms from the original are represented in the A2 version, even if simplified, to meet the BERTScore threshold. Do not omit or drastically alter core concepts.\n- Review the text for any remaining B1 structures or vocabulary that caused the CEFR classifier to rate it as B1. Break down longer sentences and replace any non-A2 words.",
+    "metrics": {
+      "cefr_compliance": "B1",
+      "bertscore": 0.8995,
+      "meaningbert": 0.6008
+    },
+    "created_at": "2025-08-31 22:42:52.135243"
+  },
+  "attempt_number": 16,
+  "best_attempt": {
+    "id": "0b42e34e-509e-494b-8ed1-f316eff20c3b",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "We looked at the results of our study. We recommend a new management style for Girox Foods. Girox Foods should start using this style. This style cares more about people.\nThe company should find ways for workers to have more flexible hours. Workers can also work from places they choose.\nManagers need to give workers new tasks. These tasks should make workers think. Managers should praise their good work more. They should also show they see and value this work.\nThe company should spend more money on training. This training helps workers learn new skills for their jobs. This training helps workers talk well with other people. It also helps them talk well with people from other countries.\nThis can help make a better place to work. Workers can then do their best work.",
+    "version": 7,
+    "created_at": "2025-08-31 22:37:23.822613",
+    "updated_at": "2025-08-31 22:37:23.822617",
+    "metrics_meaningbert": 0.6169,
+    "metrics_cefr_compliance": "A2"
+  }
+}

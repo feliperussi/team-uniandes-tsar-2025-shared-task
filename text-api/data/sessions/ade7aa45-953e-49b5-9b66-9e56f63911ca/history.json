@@ -1,0 +1,154 @@
+{
+  "session_id": "ade7aa45-953e-49b5-9b66-9e56f63911ca",
+  "created_at": "2025-09-01 17:07:06.748463",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:07:06.827160",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "40-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: George Lucas made a famous movie.  \nHe used the hero's journey pattern.  \nA hero's journey is a story.  \nA main person leaves home.  \nThe person faces tests.  \nThe person comes back changed.  \nUsually the hero lives an ordinary life.  \nThen something happens.  \nThat something calls the hero to an adventure.  \nThe adventure changes everything.  \nStar Wars is a famous space movie series.  \nIt is about a battle between good and evil.  \nIn Star Wars, a boy named Luke lives an ordinary life.  \nHe lives with his aunt and uncle.  \nHe fixes robots.  \nHe finds a message from Princess Leia.  \nThe message is inside the robot R2D2.  \nThe message is the call to adventure.  \nIt starts Luke's hero's journey.",
+      "timestamp": "2025-09-01 17:07:06.827340",
+      "metadata": {
+        "text_id": "6ced347a-37b2-4fc0-bc58-8e96c425ed71",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:07:06.885032",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a2dd898b-2d62-45db-8564-17db92c813ba",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text states the message is 'to Obi-Wan Kenobi'. Your version omits this key fact. Additionally, you have introduced new information not present in the original text ('Star Wars is a famous space movie series. It is about a battle between good and evil.'). This is a factual deviation.\n\n- Meaning Preservation Failure. The MeaningBERT score of 0.6589 is significantly below the 0.75 minimum. Omitting key details like the recipient of the message and the context of George Lucas as an 'early director' has destroyed the core meaning.\n\n- Fidelity Failure. The BERTScore of 0.8597 is below the 0.90 threshold. This reflects the loss of important words and names from the source text.\n\n- Vocabulary Violation. The new sentences you added introduce B1-level words ('battle', 'evil') which are not compliant with the A2 standard.\n\nSuggestion: Rewrite the text to include all original facts without adding new ones. The message must be directed 'to Obi-Wan Kenobi'. Remove the sentences describing Star Wars. Simplify existing concepts, do not invent new ones.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8597,
+          "meaningbert": 0.6589
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:07:18.870040",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: George Lucas was an early movie maker.  \nHe used the hero's journey pattern.  \nA hero's journey is a story pattern.  \nA hero starts in an ordinary life.  \nThen something calls the hero to an adventure.  \nThe adventure changes everything.  \nStar Wars is a famous movie.  \nIn Star Wars, a boy named Luke lives an ordinary life.  \nHe lives with his aunt and uncle.  \nHe fixes robots.  \nHe finds a message inside the robot R2D2.  \nThe message is from Princess Leia.  \nThe message is for Obi-Wan Kenobi.  \nThe message is the call to adventure.  \nIt starts Luke's hero's journey.",
+      "timestamp": "2025-09-01 17:07:18.870292",
+      "metadata": {
+        "text_id": "a8ab519e-20df-41ba-87e8-2bfebffab218",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:07:51.257930",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2573e9e5-e9e2-4ae3-850b-3be3d4d9707e",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8794 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\n- Primary Deviation: The text is over-simplified to the point of losing lexical fidelity. The original phrase 'directly base his story on the 17 stages of the hero's journey' was reduced to 'He used the hero's journey pattern.' This simplification removed critical words like 'base', 'story', and 'stages', causing the low BERTScore.\n- Secondary Deviation: The text uses B1-level vocabulary. The words 'used' and 'princess' are not on the standard A2 list.\n- Structural Flaw: The text is broken into too many short, disconnected sentences. This damages the natural flow and contributes to the loss of original phrasing. For example: 'He finds a message inside the robot R2D2. The message is from Princess Leia. The message is for Obi-Wan Kenobi.'\n\nSuggestion: Rephrase sentences to include more key words from the original text without increasing complexity. Combine overly fragmented sentences to improve fidelity. Replace the B1 words 'used' and 'princess' with A2 alternatives.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8794,
+          "meaningbert": 0.8386
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:08:07.142705",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: George Lucas was an early movie maker.  \nHe makes his story on 17 stages of the hero's journey.  \nThe hero's journey is a story pattern.  \nA hero starts in an ordinary life.  \nThen something calls the hero to an adventure.  \nThe adventure changes everything.  \nStar Wars is a famous movie.  \nStar Wars shows a boy named Luke.  \nHe lives an ordinary life with his aunt and uncle.  \nHe fixes robots.  \nHe finds a message inside the robot R2.  \nThe message is from the lady Leia.  \nThe message is for Obi\u2011Wan Kenobi.  \nThe message is the call to adventure.  \nIt starts Luke\u2019s hero\u2019s journey.",
+      "timestamp": "2025-09-01 17:08:07.142987",
+      "metadata": {
+        "text_id": "632b9bf2-fe07-413e-8041-784937d416db",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:08:38.391930",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "01f24f9d-8b8b-4bcb-8b4f-d506bf50e8cb",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text specifies the robot's name is 'R2D2'. Your output shortens this to 'R2', which is a factual error and an instant failure.\n- Fidelity Failure: The BERTScore of 0.8756 is below the required 0.90. This is a secondary failure. The score is low because key factual terms from the original text, such as 'Princess Leia' and 'film directors', were replaced with less precise phrases like 'the lady Leia' and 'movie maker'. This damages the text's fidelity to the source.\n- Grammatical Error: The verb tense is incorrect and inconsistent. The text begins in the past tense ('George Lucas was...') but then incorrectly switches to the present tense ('He makes...'). The correct form is past tense: 'He made...'.\n- Structural Flaw: The text is broken into too many short, disconnected sentences. This makes the text choppy and difficult to follow. It reads like a list of facts, not a coherent paragraph.\n- Suggestion: Correct all factual details to match the original text exactly, including names like 'R2D2'. Maintain a consistent past tense. Combine some of the very short sentences using simple A2 connectors like 'and' or 'so' to create a more natural flow.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8756,
+          "meaningbert": 0.8506
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:08:53.674241",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: George Lucas was an early film director. He made his story using 17 stages of the hero's journey. The hero's journey is a story pattern. A hero starts in an ordinary life. Then something calls the hero to an adventure. The adventure changes everything. Star Wars is a famous movie. It shows a boy named Luke. Luke lived with his aunt and uncle. He fixed robots. He found a message inside the robot R2D2. The message was from Princess Leia. The message was for Obi\u2011Wan Kenobi. The message was the call to adventure. It started Luke\u2019s hero\u2019s journey.",
+      "timestamp": "2025-09-01 17:08:53.674649",
+      "metadata": {
+        "text_id": "4ecd0334-f7d2-4873-bac4-e8889e40666e",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 17:09:27.716316",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "df0c1178-3732-44e3-b668-67fe164e5a7b",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The output is an exemplary model of A2 simplification. It meets all requirements without deviation.\n\nFactual Integrity: Perfect. All key information from the original text was preserved without error.\n\nMeaning and Fidelity: The MeaningBERT score of 0.853 and BERTScore of 0.923 are well above the required thresholds, indicating successful preservation of the core message and key terms.\n\nCEFR Compliance: The A2 classification is correct. The text avoids all B1+ structures.\n\nQualitative Audit: The text demonstrates a masterful command of A2 constraints. Complex sentences from the original were systematically deconstructed into simple, declarative statements. Vocabulary is strictly limited to the A2 level. No corrections are required.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.923,
+          "meaningbert": 0.853
+        }
+      }
+    }
+  ]
+}

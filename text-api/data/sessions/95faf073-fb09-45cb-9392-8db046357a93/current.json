@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "e701c3ce-7964-4e26-9a80-b2c4bf9b3caf",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "In the past, new machines and better health helped people. Fewer children died young. So, the number of people in the world grew very fast. Families became large. These large families had more children. These children also lived and had their own children.\n\nBut in the 1960s, people could get contraception. This is a special thing to stop having babies. So, women had fewer babies. The number of babies went down from six to two. This happened all over the world.",
+    "version": 11,
+    "created_at": "2025-09-01 18:01:51.996837",
+    "updated_at": "2025-09-01 18:01:51.996837",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "d83f755c-e144-40f3-bfa8-6da4a97de152",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6283 is too low; it must be approximately 0.75 or higher. The core message regarding the direct causal link between technological and health improvements and the decline in child mortality, which then fueled population growth, is weakened. The original text states 'improvements in technology and health meant fewer children died young, fuelling rapid population growth.' Your version, 'new machines and better health helped people. Fewer children died young. So, the number of people in the world grew very fast,' separates these ideas and uses a less direct causal phrasing ('helped people' instead of 'meant fewer children died young'), which dilutes the original's precise meaning. Suggestion: Rephrase the first part to more clearly and directly link the improvements to the outcome of fewer child deaths and subsequent population growth.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.9064,
+      "meaningbert": 0.6283
+    },
+    "created_at": "2025-09-01 18:02:07.267525"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "99304c44-3203-45bb-9916-7ed1c6c939c3",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "In the past, new machines and better health helped people. Fewer children died young. This made the world's population grow very fast. Families became large. These large families had more children. These children also lived and had their own children.\n\nBut in the 1960s, people could get contraception. This is medicine to stop having babies. So, women had fewer babies. Before, women had six babies on average. Now, they have two babies on average. This happened all over the world.",
+    "version": 10,
+    "created_at": "2025-09-01 18:01:23.356524",
+    "updated_at": "2025-09-01 18:01:23.356528",
+    "metrics_meaningbert": 0.6791,
+    "metrics_cefr_compliance": "A2"
+  }
+}

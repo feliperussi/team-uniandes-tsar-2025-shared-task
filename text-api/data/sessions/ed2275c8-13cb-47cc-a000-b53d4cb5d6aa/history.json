@@ -1,0 +1,413 @@
+{
+  "session_id": "ed2275c8-13cb-47cc-a000-b53d4cb5d6aa",
+  "created_at": "2025-09-01 17:28:02.500625",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:28:02.531720",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "106-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A feedback sandwich is a way to give comments.  \nFirst you say something nice.  \nThen you say the problem.  \nThen you say something nice again.  \n\nYour manager stops you and says she wants to talk about your work.  \nYou worry all weekend about what you did wrong.  \nOn Monday you go into her office.  \nShe first praises you for good work on the project.  \nYou think this may be the start of a feedback sandwich.",
+      "timestamp": "2025-09-01 17:28:02.531864",
+      "metadata": {
+        "text_id": "bdbfbbfb-5d72-4d7f-83b6-b74abd6d8d4b",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:28:02.540517",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9293c924-85eb-48de-a228-da7138890d5e",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8784 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\n- Your simplification is too aggressive. While the core meaning is preserved, you have removed too much lexical detail from the source material.\n- The original phrase 'have a word about your performance' was reduced to 'talk about your work'. This loses the specific and important concept of 'performance'.\n- The original text specifies 'obligatory praise' and the 'typical feedback sandwich'. Your version removes these descriptive words, which are critical for fidelity.\n- Suggestion: Restore key descriptive words from the original. The text must be simplified, but not to the point where it loses its connection to the source. Rephrase to meet the 0.90 BERTScore requirement while maintaining A2 readability.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8784,
+          "meaningbert": 0.7967
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:28:09.350331",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A feedback sandwich is a way to give comments.  \nFirst you say something nice.  \nThen you say the problem.  \nThen you say something nice again.  \n\nYour manager stops you.  \nShe says she needs to have a word about your performance.  \nYou worry all weekend about what you might have done wrong.  \nOn Monday you go into her office.  \nShe first gives you obligatory praise.  \nIt is for the good work on the project.  \nYou think this may be the start of a typical feedback sandwich.",
+      "timestamp": "2025-09-01 17:28:09.350617",
+      "metadata": {
+        "text_id": "6b19e83d-30fb-4d6f-be59-c6e13d662f5b",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:28:44.309538",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a801dc91-5a26-41b0-8b01-a45ec82ea84c",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text states 'you wonder if this is the obligatory praise', which is the employee's thought. Your version changes this to a statement of fact: 'She first gives you obligatory praise.' This is a critical change in meaning and an immediate failure.\n\n- Fidelity Failure: The BERTScore of 0.8773 is below the required 0.90 threshold. This indicates a significant loss of key phrasing. The omission of 'in the recent project' contributed to this failure.\n\n- CEFR Compliance Failure: The text was classified as B1. The A2 standard was not met. This is a direct result of the vocabulary and structural violations listed below.\n\n- Vocabulary Violation: You introduced the word 'obligatory'. This is a B1/B2 level word and is unacceptable for an A2 text.\n\n- Structural Violation: The text uses multiple B1 grammatical structures. The sentence 'She says she needs to have a word...' is reported speech. The clause '...what you might have done wrong' is a noun clause. Both are too complex for the A2 level.\n\n- Suggestion: Rewrite the text to adhere to the A2 standard. Remove the word 'obligatory'. Simplify all B1 grammar into simple sentences. Restore the original text's perspective and factual details. For example, simplify 'what you might have done wrong' to 'You think: What did I do wrong?'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8773,
+          "meaningbert": 0.8463
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:28:55.915295",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Feedback sandwich is a way to give comments.  \nFirst you say something nice.  \nThen you say the problem.  \nThen you say something nice again.  \n\nYour manager stops you.  \nShe says she needs to talk about your performance.  \nIt is about the recent project.  \n\nYou think about the weekend.  \nYou wonder: What did I do wrong?  \n\nOn Monday you go into her office.  \nShe first says nice things about your work on the project.  \nYou think this may be the start of a feedback sandwich.",
+      "timestamp": "2025-09-01 17:28:55.916602",
+      "metadata": {
+        "text_id": "863423c0-16df-40ef-9214-d256c260311a",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:29:20.911337",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e1ef89cc-dc1a-4600-91e5-2fbbeee90e81",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.866 is below the required 0.90 threshold. This indicates a critical loss of lexical detail and nuance from the original text.\n\n- Fidelity Loss: The replacement of \"worry about it all weekend\" with \"think about the weekend\" is a severe error. \"Worry\" conveys negative emotion, which is central to the original text's meaning. \"Think\" is neutral and fails to preserve this meaning.\n- Vocabulary Violation: The B1 word \"wonder\" was used in the output. This is a direct violation of the A2 standard. All non-A2 vocabulary must be replaced.\n- Over-simplification: Key descriptive words like \"obligatory\" and \"typical\" were removed. While these are higher-level words, their complete removal without any simpler replacement contributed to the low fidelity score.\n\nSuggestion: Restore the core meaning of \"worry\". Rephrase the sentence containing \"wonder\" using A1/A2 vocabulary, for example, \"You ask yourself: What did I do wrong?\". Ensure that simplification does not erase essential emotional context from the source text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.866,
+          "meaningbert": 0.9025
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:29:26.840057",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Your manager stops you.  \nShe says she needs to talk about your performance.  \nIt is about the recent project.  \nYou worry about it all weekend.  \nYou ask yourself: What did I do wrong?  \nOn Monday you go into her office.  \nShe first says nice things about your work on the project.  \nYou think this may be the start of a usual feedback sandwich.",
+      "timestamp": "2025-09-01 17:29:26.840400",
+      "metadata": {
+        "text_id": "c9faeda6-ab25-4839-8aac-cec22e0e376e",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:29:51.248917",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d83f8c93-e18f-4486-9767-39dc2c97c85f",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8913 is below the required 0.90 threshold. This indicates a failure to retain key words and concepts from the original text.\n\n- Fidelity Loss: The original text explains the concept of \"obligatory praise\". Your version, \"She first says nice things,\" completely removes the meaning of obligation or necessity. This is a critical loss of meaning that caused the low BERTScore.\n- Factual Omission: The original text defines what a 'feedback sandwich' is (\"say something nice, say what you really want to say, say something nice again\"). Your text uses the term but completely omits the definition provided in the source. This is a major factual omission.\n- Vocabulary Violation: The term \"feedback\" is B1 level. While \"feedback sandwich\" was correctly identified as a keyword, its inclusion without the simple A2 definition from the source text is a compliance failure.\n\nSuggestion: Restore the lost meaning. You must re-introduce the concept that the manager feels she has to say something nice first. You must also include the definition of a 'feedback sandwich' that was present in the original text. Rephrase using only A1 and A2 vocabulary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8913,
+          "meaningbert": 0.9127
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:29:54.635110",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Your manager stops you.  \nShe says she must talk about your performance.  \nIt is about the recent project.  \nYou worry all weekend.  \nYou ask yourself: what did I do wrong?  \nOn Monday you go into her office.  \nShe first says something nice about your work.  \nShe feels she has to start with nice words.  \nThen she tells you what she really wants to say.  \nFinally she says something nice again.  \nThis is called a feedback sandwich.  \nA feedback sandwich means: say something nice, say the real point, say something nice again.",
+      "timestamp": "2025-09-01 17:29:54.635387",
+      "metadata": {
+        "text_id": "67993c58-e51d-4059-b64d-c81eaf11a1d3",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:30:21.780683",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3f1df273-594a-4ae2-b5e8-7974cbd32ac2",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8856 is below the required 0.90 threshold. This is an instant failure. The text also contains a vocabulary violation.\n\n- Fidelity Failure (BERTScore): The score is too low because key phrases from the original text were lost during simplification. The replacement of phrases like 'obligatory praise' and 'have a word' with simpler terms reduced the lexical overlap below the acceptable minimum.\n\n- Vocabulary Violation: The B2-level word 'means' was used in the sentence 'A feedback sandwich means...'. This word is not on the A2-approved list and must be replaced.\n\n- Meaning Shift: The original text states 'you wonder if this is the obligatory praise'. Your version changes this to 'She feels she has to start with nice words'. This incorrectly shifts the perspective from the employee's thought to a statement of fact about the manager's feelings.\n\nSuggestion: Replace the word 'means' with an A2-compliant alternative like 'is'. Rephrase the sentence about the manager's praise to reflect the employee's perspective, for example: 'You think she is starting with nice words because she has to.' This will also improve fidelity to the original meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8856,
+          "meaningbert": 0.8823
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:30:28.974459",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Your manager stops you.  \nShe says she must have a word about your performance.  \nIt is about the recent project.  \nYou worry all weekend.  \nYou ask yourself: what did I do wrong?  \nOn Monday you go into her office.  \nYou think she is starting with nice words because she has to.  \nYou wonder if this is the required praise.  \nThen she tells you the real point.  \nFinally she says something nice again.  \nThis is called a feedback sandwich.  \nA feedback sandwich is: say something nice, say the real point, say something nice again.",
+      "timestamp": "2025-09-01 17:30:28.975432",
+      "metadata": {
+        "text_id": "22bde4fc-eb07-4a32-b16c-1e09123ab659",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:30:55.451248",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "13b15c2e-e319-4659-8d63-e98ff250b873",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8884 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text. The replacement of specific concepts like 'praising you for the good work' with the overly simple phrase 'nice words' caused this drop in fidelity.\n\nAdditionally, the text fails the CEFR compliance check.\n\n- CEFR Level Violation: The text was classified as B1, not the required A2. This is a critical error.\n- B1 Vocabulary: You used the B1-level words 'wonder' and 'feedback'. These are not compliant with the A2 standard. The word 'praise' is A2 and should have been retained from the original.\n- B1 Structure: The sentence 'You wonder if this is the required praise' uses an 'if-clause' to report a thought, which is a B1 grammatical structure. An A2 text must use simpler constructions.\n\nSuggestion: Restore key lexical details from the original text to meet the fidelity requirement. Remove all B1 vocabulary immediately. Rephrase complex B1 sentences into simple, direct A2 sentences. For example, change 'You wonder if this is...' to 'You ask yourself: Is this...?'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8884,
+          "meaningbert": 0.8789
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:31:01.345170",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Your manager stops you.  \nShe says she must talk about your performance.  \nIt is about the recent project.  \nYou worry all weekend.  \nYou ask yourself: Did I do something wrong?  \nOn Monday you go into her office.  \nShe starts by praising you.  \nShe says you did good work on the project.  \nYou ask yourself: Is this required praise?  \nShe then tells you the real point.  \nShe ends by saying something nice again.  \nThis is a feedback sandwich.  \nA feedback sandwich is:  \nSay something nice.  \nSay the real point.  \nSay something nice again.",
+      "timestamp": "2025-09-01 17:31:01.348693",
+      "metadata": {
+        "text_id": "e1fd58df-f181-4b6c-8539-03808d747ace",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:31:30.161374",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "82d87d53-65d4-4539-9db6-db5286c4ce58",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8756 is below the required 0.90 threshold. This is an instant failure. The score indicates an unacceptable loss of key words and phrasing from the original text. A secondary failure was also detected in the vocabulary audit.\n\n- BERTScore Violation: The score is too low because key phrases were oversimplified. Replacing 'what you really want to say' with 'the real point' caused a significant drop in lexical fidelity.\n- Vocabulary Violation: The word 'required' is B1 level. It is not on the A2 list and is therefore a violation.\n\nSuggestion: Replace the B1 word 'required'. Rephrase the sentence 'Is this required praise?' using only A2 vocabulary. Restore the meaning of 'what you really want to say' with a more faithful A2 construction, such as 'the important thing she needs to tell you'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8756,
+          "meaningbert": 0.8588
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:31:40.810569",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Your manager stops you.  \nShe says she must talk about your performance.  \nIt is about the recent project.  \nYou worry all weekend.  \nYou ask yourself: Did I do something wrong?  \nOn Monday you go into her office.  \nShe starts by praising you.  \nShe says you did good work on the project.  \nYou ask yourself: Is this real praise?  \nShe then tells you the main thing she will tell you.  \nShe ends by saying something nice again.  \nThis is a feedback sandwich.  \nA feedback sandwich is:  \nSay something nice.  \nSay the main thing she will tell you.  \nSay something nice again.",
+      "timestamp": "2025-09-01 17:31:40.812873",
+      "metadata": {
+        "text_id": "866b0257-123a-4134-8934-af1437ea435a",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:32:04.582627",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4b0695c6-404e-4eec-9d16-32dae7af3741",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8735 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original text. The core diagnostic is a failure to maintain lexical fidelity.\n\n- Fidelity Loss: The low BERTScore is a direct result of replacing specific, meaning-rich phrases from the original. The phrase 'what you really want to say' was replaced with 'the main thing she will tell you'. The original implies a difficult or critical message, while your version is neutral and loses this essential meaning. The concept of 'obligatory praise' was also lost.\n\n- Vocabulary Violation: The B1 word 'feedback' is used. The term 'feedback sandwich' was correctly identified as a keyword for definition, but the B1 word 'feedback' remains in the text. This is a violation of the A2 vocabulary standard.\n\n- Structural Simplification Error: The text was broken into excessively short, disconnected sentences. This extreme simplification contributed to the loss of meaning and the resulting low fidelity score.\n\nSuggestion: Restore the core meaning. The middle part of the 'sandwich' is the most important and is not neutral. Rephrase to show it is the real, and likely difficult, message. Suggestion: Remove the B1 word 'feedback'. Create a simpler term like 'a talk sandwich' and define that instead. Suggestion: Combine some of the very short sentences to improve readability without increasing complexity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8735,
+          "meaningbert": 0.8584
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:32:15.246138",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Your manager stops you.  \nShe says she must talk about your performance on the recent project.  \nYou worry all weekend.  \nYou wonder if you did something wrong.  \nOn Monday you go into her office.  \nShe starts by praising you.  \nYou wonder if the praise is real.  \nThen she says the part you really want to say.  \nFinally she ends with another nice comment.  \nThis is a talk sandwich.  \nA talk sandwich is: say something nice.  \nThen say the part you really want to say.  \nThen say something nice again.",
+      "timestamp": "2025-09-01 17:32:15.246687",
+      "metadata": {
+        "text_id": "1c89af1b-cedc-46c5-9287-e65784fe284a",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:32:39.293901",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "720083b9-431b-4559-b125-3d9a2d214a71",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The text fails on the highest priority check. The original text's key term is 'feedback sandwich'. Your output changed this to 'talk sandwich'. This is a direct factual error. Additionally, the original states the manager says 'what you really want to say', but your version incorrectly states 'she says the part you really want to say', which changes the meaning.\n\nFidelity Failure: The BERTScore of 0.8863 is below the 0.90 minimum. This metric confirms that key terms from the original text were lost or altered, such as the change from 'feedback sandwich' to 'talk sandwich'.\n\nVocabulary Violation: The B1-level word 'wonder' was used twice. This word is not on the A2 list and must be replaced. A simpler A2 alternative like 'you think about' or 'you are not sure' is required.\n\nKeyword Failure: The keyword 'feedback sandwich' was not defined. It was incorrectly changed.\n\nSuggestion: Restore the term 'feedback sandwich' from the original text. Correct the sentence to reflect that the manager is saying what she wants to say, not what you want to say. Replace the B1 word 'wonder' with an A2-compliant phrase.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8863,
+          "meaningbert": 0.8859
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:32:43.808329",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Your manager stops you.  \nShe says she must talk about your performance.  \nIt is about the recent project.  \nYou worry all weekend.  \nYou are not sure if you did something wrong.  \nOn Monday you go into her office.  \nShe starts by praising you.  \nYou are not sure whether the praise is real.  \nThen she says the part she really wants to say.  \nFinally she ends with another nice comment.  \nThis is a feedback sandwich.  \nA feedback is a feedback sandwich means: say something nice.  \nThen say the part she really wants to say.  \nThen say something nice again.",
+      "timestamp": "2025-09-01 17:32:43.808753",
+      "metadata": {
+        "text_id": "b34714f8-032e-4a46-bda3-81f5d7e16e77",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:33:08.583301",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "41f17003-68fd-4d88-85c3-ca288c4a9736",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8787 is below the required 0.90. This indicates an unacceptable loss of lexical detail from the original text.\n\n- Vocabulary Violation: The text uses the B1 word 'whether'. The required A2 alternative is 'if'.\n\n- Vocabulary Violation: The text uses the B1 word 'feedback' and the B2 word 'means'. These words are above the A2 level and were not approved for use.\n\n- Structural Violation: The sentence 'You are not sure whether the praise is real' uses a B1 subordinate clause. This structure is too complex for the A2 standard.\n\n- Grammatical Error: The sentence 'A feedback is a feedback sandwich means: say something nice' is grammatically incorrect. It fails to function as a coherent definition.\n\n- Suggestion: Replace 'whether' with 'if'. The definition of 'feedback sandwich' must be rewritten as a complete, grammatically correct sentence. Example: 'A feedback sandwich is a type of comment. First, you say something nice. Then, you say the important part. Then, you say something nice again.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8787,
+          "meaningbert": 0.9058
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:33:18.393087",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Your manager stops you.  \nShe says she must talk about your performance.  \nIt is about the recent project.  \nYou worry all weekend.  \nYou are not sure if you did something wrong.  \nOn Monday you go into her office.  \nShe starts by praising you.  \nYou are not sure if the praise is real.  \nThen she says the part she really wants to say.  \nFinally she ends with another nice comment.  \nThis is a feedback sandwich.  \nA feedback sandwich is a comment.  \nFirst you say something nice.  \nThen you say the part you want to say.  \nThen you say something nice again.",
+      "timestamp": "2025-09-01 17:33:18.393699",
+      "metadata": {
+        "text_id": "3428ed7f-f7ef-4da9-8dd2-291f13c73029",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:33:40.110092",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "82773025-09ac-431a-b296-1bc8bb4bef7e",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.876 is below the required 0.90 threshold. This indicates a significant loss of key phrasing from the original text.\n\n- Deviation: The text is over-simplified, leading to a loss of lexical fidelity. Phrases like 'have a word about your performance in the recent project' were reduced to 'talk about your performance. It is about the recent project.' This simplification is too aggressive and loses important detail.\n\n- Deviation: The sentence structure is excessively fragmented. Breaking every clause into a separate sentence makes the text unnatural and contributes to the low fidelity score. For example, 'She says she must talk about your performance. It is about the recent project.' should be a single sentence.\n\n- Suggestion: Combine overly fragmented sentences to improve natural flow and fidelity. Rephrase to retain more of the original's key vocabulary without introducing B1 structures. For instance, use 'She wants to talk about your performance on the recent project.' to be more faithful to the source.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.876,
+          "meaningbert": 0.9051
+        }
+      }
+    }
+  ]
+}

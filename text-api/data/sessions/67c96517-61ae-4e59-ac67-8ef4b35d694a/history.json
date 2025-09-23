@@ -1,0 +1,265 @@
+{
+  "session_id": "67c96517-61ae-4e59-ac67-8ef4b35d694a",
+  "created_at": "2025-09-01 17:36:55.794233",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:37:01.975309",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "54-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Faith47, who comes from Cape Town in South Africa, creates colourful paintings of people and animals, and she often looks for new places to work. Her art appears on sidewalks, in vacant factories and on abandoned cars. She enjoys that most street art is temporary and will soon be washed away by weather or cleaners from the city council, because for her this shows that life is full of change, with a pattern of endings and new beginnings.",
+      "timestamp": "2025-09-01 17:37:01.975855",
+      "metadata": {
+        "text_id": "84999241-eabe-47b2-8312-173b29445b41",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:37:02.070160",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c509e616-5ef3-4fc6-95cb-0f34fb181472",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The MeaningBERT score of 0.69 is below the required 0.75 threshold. This indicates a significant shift in the core message. The likely cause is the rephrasing of the final sentence. The original text states the temporary nature of art 'reflects how life is full of change', which is an interpretation. The output changes this to 'because for her this shows that life is full of change', which introduces a direct cause-and-effect relationship not present in the original. This alters the nuance of the artist's philosophy. Suggestion: Rephrase the final clause to better match the original's reflective tone, for example, by stating 'For her, this shows that life is full of change...' without the strong causal word 'because'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9586,
+          "meaningbert": 0.6918
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:37:18.536313",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: {\"id\":\"84999241-eabe-47b2-8312-173b29445b41\",\"cefr_level\":\"B1\",\"text_id\":\"54-b1\",\"text_translated\":\"Faith47, who comes from Cape Town in South Africa, creates colourful paintings of people and animals, and she often looks for new places to work. Her art appears on sidewalks, in vacant factories and on abandoned cars. She enjoys that most street art is temporary and will soon be washed away by weather or cleaners from the city council. For her, this reflects how life is full of change, with its cycle of endings and new beginnings.\",\"version\":1,\"created_at\":\"2025-09-01T17:37:01.974924\",\"updated_at\":\"2025-09-01\" }",
+      "timestamp": "2025-09-01 17:37:18.536567",
+      "metadata": {
+        "text_id": "46db722f-4ded-4e5e-9f06-bd5a4241c5c0",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:37:46.362967",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "07fe0521-624d-43f3-bcdb-c5c43db08a72",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The submission fails on two critical metrics. The MeaningBERT score of 0.63 is significantly below the required 0.75, indicating a loss of the original's core message. This is likely due to cumulative changes, such as removing the descriptor 'big' from 'big, colourful pictures' and altering the nuance of 'likes to explore' to the more functional 'looks for new places to work'. Additionally, the submission fails the Fidelity Check. The BERTScore of 0.87 is below the 0.90 threshold, reflecting an excessive loss of key vocabulary from the original text. The text also fails on CEFR Compliance. The output was classified as B2, not the target B1. This is primarily caused by the first sentence, which uses a complex structure with a non-defining relative clause ('Faith47, who comes from...'). To fix this, split the first sentence into two simpler ones. For example: 'Faith47 is from Cape Town in South Africa. She creates colourful paintings...'. Finally, the B2-level word 'council' should have been simplified for a B1 audience (e.g., 'city workers').",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.8731,
+          "meaningbert": 0.6306
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:37:51.737948",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Faith47 is from Cape Town in South Africa. She creates big, colourful pictures of people and animals and likes to explore different locations. Her work can be seen on sidewalks, in empty factories and on abandoned cars. She likes that most street art is temporary and will soon be washed away by weather or cleaners from the city workers. For her, this shows how life is full of change, with its cycle of endings and new beginnings.",
+      "timestamp": "2025-09-01 17:37:51.738341",
+      "metadata": {
+        "text_id": "915b0747-af3b-4f56-b18a-d88a1e9d6af4",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:38:11.647802",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b7e98ace-d23e-4267-a0ef-b6270f3ff44e",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Integrity. The primary reason for failure is a factual error. The original text states the art is removed by 'cleaners from the city council', but the output incorrectly states 'cleaners from the city workers'. A 'city council' is a specific governing body, while 'city workers' is a generic term; this change alters a key fact about who removes the art.\n\nAdditionally, the submission fails on CEFR Compliance. The output was classified as 'A2', which is below the required 'B1' target. This over-simplification is likely due to the cumulative effect of several vocabulary changes, such as replacing 'reflects' with 'shows' and 'removed' with 'washed away'.\n\nTo correct this, first, restore the factual accuracy by changing 'city workers' back to 'city council'. Second, to meet the B1 requirement, consider retaining some of the original's slightly more advanced vocabulary, such as keeping the verb 'reflects', which is more appropriate for a B1 level than 'shows'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9831,
+          "meaningbert": 0.9453
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:38:18.254451",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Faith47 is from Cape Town, South Africa. She creates large, colourful pictures of people and animals and likes to explore different locations, so her work can be seen on pavements, in empty factories and on abandoned cars. She appreciates that most street art is temporary and will soon be removed by weather or cleaners from the city council, which, for her, reflects how life is full of change with its cycle of endings and new beginnings.",
+      "timestamp": "2025-09-01 17:38:18.254877",
+      "metadata": {
+        "text_id": "2487da63-54fe-4728-bccd-875d7c1f0d62",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:38:38.725897",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6dae1002-8618-4350-b4f5-31cff1460b3d",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2' instead of the required 'B1'. The primary reason for this is excessive sentence complexity. The original five sentences were condensed into only two, creating long and grammatically advanced structures. Specifically, the final sentence uses a non-defining relative clause ('...which, for her, reflects...'), a feature more typical of the B2 level. Suggestion: To achieve a B1 level, break the output back into shorter sentences. For example, split the final sentence into two: 'She appreciates that most street art is temporary and will soon be removed. For her, this reflects how life is full of change.'",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9838,
+          "meaningbert": 0.9082
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:38:41.245653",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Faith47 is from Cape Town, South Africa. She creates large, colourful pictures of people and animals. She likes to explore different locations, so her work can be seen on pavements, in empty factories and on abandoned cars. She appreciates that most street art is temporary. It will soon be removed by weather or cleaners from the city. For her, this shows how life is full of change, with a cycle of endings and new beginnings.",
+      "timestamp": "2025-09-01 17:38:41.247998",
+      "metadata": {
+        "text_id": "aabd1b2b-c2e6-4b4f-a432-2e68362aca87",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:39:04.072498",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0b84cd9f-4db6-4247-8c27-f5183f037d41",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'A2', which is below the target 'B1' level. This failure is due to an over-simplification of sentence structure. While the meaning and facts are well-preserved, the output consists of a series of short, simple sentences that are characteristic of an A2 text. For example, the original sentence 'She likes the fact that most street art is temporary and will soon be removed...' was split into two separate, simple sentences. To achieve a B1 level, try to combine some of these ideas using B1 connectors. For instance, you could write: 'She appreciates that most street art is temporary, as it will soon be removed by weather or cleaners from the city.' This creates a more complex sentence structure appropriate for the target level without losing clarity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9753,
+          "meaningbert": 0.9453
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:39:11.434560",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Faith47 is from Cape Town, South Africa, and she creates large, colourful pictures of people and animals while exploring different locations, which allows her work to appear on pavements, in empty factories and on abandoned cars. She appreciates that most street art is temporary, as it will soon be removed by weather or city cleaners, and for her this reflects how life is full of change, with a cycle of endings and new beginnings.",
+      "timestamp": "2025-09-01 17:39:11.435603",
+      "metadata": {
+        "text_id": "03dfaa86-d82f-4f37-bcaf-2c0439624f87",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:39:32.082107",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e1699ecf-29f8-4f1d-b17d-b629c92f01b3",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2' instead of the required 'B1'. This is a structural failure caused by combining multiple simple ideas into overly complex sentences. For example, the sentence 'Faith47 is from Cape Town, South Africa, and she creates large, colourful pictures of people and animals while exploring different locations, which allows her work to appear on pavements, in empty factories and on abandoned cars' uses multiple clauses ('and', 'while', 'which') that significantly increase the grammatical complexity beyond the B1 level. To correct this, the output should be broken down into shorter, more direct sentences. Suggestion: 'Faith47 is from Cape Town, South Africa. She creates large, colourful pictures of people and animals. She explores different locations, so her work appears on pavements, in empty factories and on abandoned cars.' This revised structure maintains the meaning while adhering to B1 syntactic standards.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9714,
+          "meaningbert": 0.8678
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:39:36.192917",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Faith47 is from Cape Town, South Africa. She creates large, colourful pictures of people and animals. She likes to explore different locations. She explores different locations, so her work appears on pavements, in empty factories and on abandoned cars. She appreciates that most street art is temporary. It will soon be removed by weather or city cleaners. For her, this shows how life is full of change, with a cycle of endings and new beginnings.",
+      "timestamp": "2025-09-01 17:39:36.194734",
+      "metadata": {
+        "text_id": "156ccb8c-2838-47f2-b9d4-1c80a960da59",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-09-01 17:39:56.293246",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c7d6113a-2df1-4a5c-b9f3-ef0984a75841",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "This is an excellent simplification that passes all checks. Factual integrity is perfectly maintained. The MeaningBERT (0.95) and BERTScore (0.97) are very high, confirming that the core message and key details were preserved. The text correctly achieves the target B1 level. The simplification strategies are effective, particularly the splitting of complex sentences and the simplification of phrases like 'cleaners from the city council' to 'city cleaners'. The replacement of 'reflects' with 'shows' is also a strong choice. For future improvement, consider the change from 'likes' (A1) to 'appreciates' (B2). While it works in context, a simpler alternative like 'She likes that...' would be more aligned with the goal of reducing complexity. Overall, this is a high-quality submission.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9725,
+          "meaningbert": 0.9452
+        }
+      }
+    }
+  ]
+}

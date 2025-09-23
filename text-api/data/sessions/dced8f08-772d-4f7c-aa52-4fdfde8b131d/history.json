@@ -1,0 +1,43 @@
+{
+  "session_id": "dced8f08-772d-4f7c-aa52-4fdfde8b131d",
+  "created_at": "2025-08-31 23:30:39.964914",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:30:39.976267",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "01-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An asteroid is a rock in space. It travels around the Sun.\n\nNow NASA is working to make a list of smaller asteroids. They are 140 metres wide or more.\n\nScientists think there are 25,000 of this size. NASA knows about 8,000 now. So 17,000 are not on the list yet.\n\nIn 2013, a 19-metre asteroid exploded above Chelyabinsk, Russia. It hurt about 1,200 people.\n\nSo middle-sized asteroids can be a serious danger. They can be a danger if they come near Earth.",
+      "timestamp": "2025-08-31 23:30:39.977338",
+      "metadata": {
+        "text_id": "dfabba60-d825-4502-8281-83d5482011dd",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 23:30:39.988384",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8d577c74-d830-4663-abb6-b9a1c2d8337a",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7015 is too low. The original text emphasizes logging asteroids to track them, but your version says make a list, losing the nuance of systematic tracking. The original warns that asteroids could enter Earth's orbit, but you wrote come near Earth, which shifts the specific hazard context.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.923,
+          "meaningbert": 0.7015
+        }
+      }
+    }
+  ]
+}

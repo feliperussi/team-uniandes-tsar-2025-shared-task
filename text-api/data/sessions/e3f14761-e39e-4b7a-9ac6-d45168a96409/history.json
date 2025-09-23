@@ -1,0 +1,413 @@
+{
+  "session_id": "e3f14761-e39e-4b7a-9ac6-d45168a96409",
+  "created_at": "2025-09-01 17:14:38.177335",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:14:38.207097",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "58-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Graffiti is writing or drawing on walls.  \nPeople painted and wrote on walls for a long time.  \nLong ago, people in Africa and Europe painted animals and people in caves.  \nGraffiti was found on old buildings in Greece, Italy, Syria, and Iraq.  \nIn the Roman town of Pompeii, archaeologists found many graffiti in Latin.  \nThey wrote messages about religion, politics, love, and some magic spells.",
+      "timestamp": "2025-09-01 17:14:38.207221",
+      "metadata": {
+        "text_id": "81741c70-e916-4978-9525-813dcdbe7363",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 17:14:38.211760",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1d0c327d-d4d1-4162-859c-693470437615",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Exceeds A2 Level. The text passed all metric and factual checks but failed the final qualitative audit due to vocabulary violations.\n\n- B1 Vocabulary Violation: The text uses the words 'religion' and 'politics'. These are abstract B1-level nouns and are not compliant with the A2 standard.\n- B1 Vocabulary Violation: The word 'magic' is also considered B1. While 'magic spells' is a common phrase, it pushes the boundary of A2 vocabulary.\n\nSuggestion: Replace all B1 vocabulary with simpler, descriptive A2 phrases. Rephrase 'messages about religion, politics' to 'messages about their gods and their leaders'. This maintains the meaning while adhering strictly to the A2 word list.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9267,
+          "meaningbert": 0.8117
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:14:43.639294",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Graffiti is writing or drawing on walls.  \nPeople have painted and written on walls for a long time.  \nLong ago, people in Africa painted animals in caves.  \nPeople in Europe painted people in caves.  \nGraffiti was found on old buildings in Greece, Italy, Syria, and Iraq.  \nIn the Roman town of Pompeii, archaeologists found many graffiti in Latin.  \nThey wrote messages about their gods and their leaders.  \nThey also wrote about love and special spells.",
+      "timestamp": "2025-09-01 17:14:43.640645",
+      "metadata": {
+        "text_id": "90334053-f202-48e7-bc5e-a5b886528a7e",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:15:16.565111",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "eb7deafc-3fff-4559-b8bb-1656ea2157fe",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7152 is below the required 0.75 threshold. This indicates a significant loss of the original text's core message.\n\n- Meaning Loss: Your simplification of message types caused the low score. Changing 'religious' and 'political' messages to messages 'about their gods and their leaders' is an inaccurate oversimplification. The original refers to broad categories, not just these specific subjects.\n- B1 Vocabulary Violation: The word 'written' is B1 level. Its use is a direct violation of the A2 standard.\n- Unsimplified Complex Vocabulary: You failed to simplify the word 'archaeologists'. This is not an A2 word. It must be replaced with a simple phrase like 'people who study old things'.\n- Grammatical Error: The phrase 'many graffiti' is incorrect. 'Graffiti' is an uncountable noun. The correct A2 phrasing is 'a lot of graffiti'.\n\nSuggestion: Rephrase the final sentences to restore the original meaning. Example: 'The messages were about religion, politics, and love.' Remove the word 'written' and replace it. Example: 'People painted and put words on walls'. Replace 'archaeologists' with a simple definition. Correct the grammar for 'graffiti'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9056,
+          "meaningbert": 0.7152
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:15:27.408787",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Graffiti is drawing or putting words on walls.  \nPeople have painted and put words on walls for a long time.  \nLong ago, people in Africa painted animals in caves.  \nPeople in Europe painted people in caves.  \nGraffiti was found on old buildings in Greece, Italy, Syria, and Iraq.  \nIn Pompeii, people who look at old things found graffiti.  \nThere was a lot of graffiti.  \nThe messages were about religion, politics, love, and magic.",
+      "timestamp": "2025-09-01 17:15:27.408979",
+      "metadata": {
+        "text_id": "749e60fd-311d-4238-a244-b491c92ca1d5",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:15:55.278613",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "368ef189-85bc-4559-b015-e8a8c81d4481",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The output misrepresents the original text's content about cave paintings.\n\n- Factual Inaccuracy: The original text states 'people in Africa and Europe used to paint pictures of animals and people in caves'. Your version incorrectly separates this into 'people in Africa painted animals' and 'People in Europe painted people'. This is a factual error.\n- Meaning Preservation Failure: The MeaningBERT score of 0.6089 is significantly below the required 0.75. Key facts, such as the graffiti in Pompeii being 'written in Latin', were omitted, which changes the core information.\n- Fidelity Failure: The BERTScore of 0.8932 is below the 0.90 minimum. This reflects the loss of important words like 'archaeologists' and 'ancient sites'.\n- Vocabulary Violation: The B1 words 'religion', 'politics', and 'magic' were used directly. These words are too advanced for A2 and must be simplified or explained.\n\nSuggestion: Rewrite the text to be factually correct. Restore the detail that the graffiti was in Latin. Replace the B1 vocabulary with simple A2 descriptions.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8932,
+          "meaningbert": 0.6089
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:16:02.111957",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Graffiti is drawing or writing on walls.  \nPeople have drawn on walls for a long time.  \nIn old Africa and Europe people painted pictures of animals and people in caves.  \nGraffiti was found on old buildings in Greece, Italy, Syria and Iraq.  \nIn the old Roman town of Pompeii archaeologists found graffiti.  \nThe graffiti was written in Latin.  \nThe messages were about gods, about people in charge, about love and about spells.",
+      "timestamp": "2025-09-01 17:16:02.112242",
+      "metadata": {
+        "text_id": "c4808702-bc90-4bff-b662-331501d58734",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:16:27.553342",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5f5bf181-7e01-422f-973a-ef09cf16aeb9",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6927 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text. The original text's emphasis on the continuous and widespread nature of graffiti throughout all of history is lost in your simplification. Deviation: The phrase 'throughout history' was simplified to 'for a long time'. This loses the meaning of continuous existence across different historical periods. Deviation: The original text mentions 'numerous examples' of graffiti in Pompeii, which highlights its commonality. Your version omits this detail, weakening the message. Deviation: The B1-level word 'written' is used. This is too complex for the A2 standard. The passive construction 'was written' is also a higher-level structure. Suggestion: Restore the core meaning of historical continuity. Rephrase the sentence 'The graffiti was written in Latin' to use a simpler, active A2 verb. For example: 'People in Pompeii wrote the graffiti in Latin'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9108,
+          "meaningbert": 0.6927
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:16:36.332523",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Graffiti is drawing or writing on walls.  \nPeople have drawn on walls for many years.  \nIn old Africa and Europe people painted pictures of animals in caves.  \nArchaeologists found graffiti on old buildings in Greece, Italy, Syria and Iraq.  \nArchaeologists found many graffiti pieces in the Roman town of Pompeii.  \nPeople in Pompeii wrote the graffiti in Latin.  \nThe messages talk about gods, leaders, love and spells.",
+      "timestamp": "2025-09-01 17:16:36.332926",
+      "metadata": {
+        "text_id": "69f9a5fb-9215-498b-88b6-95d6c3465fff",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:16:59.351063",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3bfcbf80-2fc3-4f45-9a5b-83ed4650a8a5",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The primary failure is a deviation from the source text.\n- Factual Error: The original text states that prehistoric people painted pictures of 'animals and people'. Your output omits 'people', stating only 'animals'. This is an unacceptable factual error.\n- Meaning Preservation Failure: The MeaningBERT score of 0.693 is significantly below the required 0.75 threshold. Your text presents a list of facts but fails to convey the original's core message that writing on walls is a practice that has continued 'throughout history'. The connection is lost.\nSuggestion: Correct the factual error in the sentence about cave paintings. Rephrase the opening to establish the historical connection more clearly. The facts must be 100% accurate to the source.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9033,
+          "meaningbert": 0.693
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:17:09.217902",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Writing on walls has been done throughout history.  \nGraffiti is drawing or writing on walls.  \nPeople have drawn or written on walls for a long time.  \nIn old Africa and Europe people painted pictures of animals.  \nThey also painted pictures of people in caves.  \nArchaeologists found graffiti on old buildings in Greece, Italy, Syria and Iraq.  \nArchaeologists also found many graffiti pieces in the Roman town of Pompeii.  \nPeople in Pompeii wrote the graffiti in Latin.  \nThe messages talk about gods, leaders, love and spells.",
+      "timestamp": "2025-09-01 17:17:09.218329",
+      "metadata": {
+        "text_id": "835c4d65-d485-4dc4-8cde-017972507aaf",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:17:31.130236",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b1815261-02c7-4b0e-8def-f9c5976372be",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6892 is critically below the required 0.75 threshold. The BERTScore of 0.8978 is also below the 0.90 minimum. This indicates a significant loss of the original text's core message and specific phrasing. The text also fails on CEFR compliance.\n- CEFR Compliance Failure: The text was classified as B1, not the required A2.\n- B1 Grammatical Structure: The sentence 'Writing on walls has been done throughout history' uses the passive voice ('has been done'). This is a B1 structure and is unacceptable for A2.\n- B1 Vocabulary: The word 'throughout' is B1 level. It must be replaced.\n- B1 Vocabulary: The word 'written' is B1 level. It must be replaced.\n- Redundancy: The sentences 'Writing on walls has been done throughout history' and 'People have drawn or written on walls for a long time' say the same thing. This is inefficient.\nSuggestion: Rewrite the text using only active voice. Remove all B1 vocabulary. Replace 'has been done' with an active construction like 'People have done...'. Replace 'throughout' with an A2 phrase like 'for a very long time'. Combine redundant sentences to be more direct.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8978,
+          "meaningbert": 0.6892
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:17:46.280437",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Graffiti means drawing or writing on walls.  \nPeople have drawn on walls for a very long time.  \nLong ago people in Africa drew pictures of animals.  \nLong ago people in Europe drew pictures of animals.  \nThey also drew pictures of people in caves.  \nArchaeologists have found graffiti on old buildings in Greece, Italy, Syria and Iraq.  \nThey also found many graffiti pieces in the Roman town of Pompeii.  \nIn Pompeii people write the graffiti in Latin.  \nThe graffiti talk about gods, leaders, love and magic spells.",
+      "timestamp": "2025-09-01 17:17:46.280917",
+      "metadata": {
+        "text_id": "6dfbd99a-491c-440b-9742-9d8ea0b2d517",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:18:14.895421",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f2944f0a-8c14-491b-9500-d36cee1d170d",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6707 is significantly below the required 0.75 threshold. The core historical context of the original text has been lost. The BERTScore of 0.893 is also below the 0.90 minimum, indicating a loss of key phrasing.\n\n- Factual Inaccuracy: The sentence 'In Pompeii people write the graffiti in Latin' is factually incorrect. The use of the present tense implies this is a current action. The original text describes historical findings. This is a critical error.\n\n- Vocabulary Violation: The word 'means' is B2 level. This is an unacceptable deviation from the A2 standard.\n\n- Vocabulary Violation: The word 'magic' is B1 level. This word is too advanced for an A2 text.\n\n- Meaning Shift: The phrase 'The graffiti talk about' is an inaccurate personification. The original text describes the content of the messages, not the actions of the graffiti itself.\n\nSuggestion: Correct the tense from 'write' to 'wrote' or 'was written in'. Replace 'means' with 'is'. Replace 'magic spells' with a simpler A2 phrase like 'special words'. Rephrase 'The graffiti talk about' to 'The messages were about'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.893,
+          "meaningbert": 0.6707
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:18:26.871725",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Graffiti is drawing or writing on walls.  \nPeople have drawn on walls for a long time.  \nLong ago people in Africa drew  pictures of animals.  \nLong ago people in Europe drew pictures of animals.  \nThey also drew pictures of people in caves.  \nArchaeologists have found graffiti on old buildings in Greece.  \nThey also found graffiti in Italy, Syria and Iraq.  \nThey also found many graffiti pieces in the Roman town of Pompeii.  \nIn Pompeii people wrote the graffiti in Latin.  \nThe messages were about gods, leaders, love and special words.",
+      "timestamp": "2025-09-01 17:18:26.872211",
+      "metadata": {
+        "text_id": "fdc3e291-3acb-4122-b37f-ac50933d6ad9",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:18:46.209684",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e3c1d7b5-f750-4f1e-8171-bcadb950a640",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on two critical metrics. The MeaningBERT score of 0.656 is significantly below the required 0.75 threshold. The BERTScore of 0.88 is below the required 0.90. This indicates a severe loss of the original message's core concepts and specific vocabulary.\n\n- Primary Deviation: The simplification of key concepts was too aggressive. The original text specifies 'religious, political and romantic messages, and even some magic spells'. Your version, 'gods, leaders, love and special words', is a vague approximation that loses the specific meaning and causes the metric failure.\n- Structural Deviation: The text is excessively fragmented. The sentences 'Long ago people in Africa drew pictures of animals' and 'Long ago people in Europe drew pictures of animals' are repetitive and should be combined for clarity and conciseness.\n\nSuggestion: Restore the meaning of the final sentence. A phrase like 'The messages were about religion, politics, and love. Some were magic words.' is more accurate. Combine the repetitive sentences into one: 'Long ago, people in Africa and Europe drew pictures of animals and people in caves.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8842,
+          "meaningbert": 0.656
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:18:55.698529",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Graffiti is drawing or writing on walls.  \nPeople draw on walls for a long time.  \nLong ago, people in Africa and Europe drew pictures of animals.  \nThey also drew pictures of people in caves.  \nArchaeologists found graffiti on old buildings in Greece.  \nThey found graffiti in Italy, Syria and Iraq.  \nThey found many graffiti pieces in the Roman town of Pompeii.  \nIn Pompeii people wrote the graffiti in Latin.  \nThe messages were about religion, politics and love.  \nSome were magic words.",
+      "timestamp": "2025-09-01 17:18:55.699033",
+      "metadata": {
+        "text_id": "90d97161-af0e-4641-adf8-5652f0b79cee",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:19:27.927923",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ff82813a-07c0-4476-b742-a0c5c5d8aa3b",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on two critical metrics. The MeaningBERT score of 0.7269 is below the required 0.75 threshold, and the BERTScore of 0.8935 is below the 0.90 threshold. This indicates a significant loss of the original text's core message and lexical detail.\n\n- Meaning Preservation Failure: The original text emphasizes that graffiti has existed 'throughout history'. Your version uses simple past tenses ('drew', 'found') and phrases like 'long ago', which loses the essential meaning of continuous historical presence.\n\n- Fidelity Failure: The low BERTScore is a direct result of oversimplification. Key phrases like 'prehistoric times' and 'ancient sites' were replaced with 'long ago' and 'old buildings', losing important detail and fidelity to the source.\n\n- Vocabulary Violation: The B1-level words 'religion' and 'politics' were used. These are not A2 vocabulary and must be simplified. For example, 'messages about gods' or 'messages about leaders'.\n\n- Grammatical Error: The sentence 'People draw on walls for a long time' uses the wrong tense. The simple present 'draw' does not fit with the duration 'for a long time'.\n\nSuggestion: Rephrase the opening to establish the historical context more accurately. Use more precise A2 vocabulary to improve fidelity. Replace all B1 words with A2-level descriptions. Correct the grammatical error in the second sentence.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8935,
+          "meaningbert": 0.7269
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:19:44.225788",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Graffiti is drawing or writing on walls.  \nPeople have drawn on walls for a long time.  \nIn very old times, people in Africa drew animal pictures.  \nPeople in Europe also drew animal pictures.  \nThey also drew pictures of people in caves.  \nArchaeologists have found graffiti on old buildings in Greece.  \nThey have found graffiti on old buildings in Italy, Syria and Iraq.  \nThey have found many graffiti pieces in the Roman town of Pompeii.  \nIn Pompeii, people wrote the graffiti in Latin.  \nThe messages were about gods.  \nSome messages were about people in charge.  \nSome were special words.",
+      "timestamp": "2025-09-01 17:19:44.226418",
+      "metadata": {
+        "text_id": "9bdffd49-a170-4e41-baa0-41d199ed7478",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:20:06.597110",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6856492b-d3fb-4c84-80e9-540b09b0ddeb",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6664 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message. A secondary failure is the BERTScore of 0.8803, which is below the 0.90 fidelity requirement.\n- Meaning Loss: The original text specified 'religious, political and romantic messages, and even some magic spells'. Your version omits 'romantic messages' entirely.\n- Vague Language: You replaced 'magic spells' with 'special words'. This is too vague and loses the specific meaning.\n- Lexical Fidelity: Replacing specific concepts like 'romantic' and 'magic' with generic terms caused the BERTScore to fall below the minimum standard.\nSuggestion: You must restore the core concepts. Rephrase to include the missing ideas. Use 'love messages' for 'romantic messages'. Use 'magic words' for 'magic spells'. Do not omit key information to achieve simplicity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8803,
+          "meaningbert": 0.6664
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:20:17.672719",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Graffiti is drawing or writing on walls.  \nPeople have drawn on walls for a long time.  \nIn very old times, people in Africa drew animal pictures.  \nPeople in Europe also drew animal pictures.  \nThey also drew pictures of people in caves.  \nArchaeologists have found graffiti on old buildings in Greece.  \nThey have found graffiti on old buildings in Italy.  \nThey have also found in Syria and Iraq.  \nThey have found many graffiti pieces in the Roman town of Pompeii.  \nIn Pompeii, people wrote the graffiti in Latin.  \nThe messages were about gods.  \nSome messages were about people in charge.  \nSome messages were about love.  \nSome messages were about magic words.",
+      "timestamp": "2025-09-01 17:20:17.673196",
+      "metadata": {
+        "text_id": "808d36aa-9657-4e81-be25-00666b81859b",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:20:44.448817",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b678791b-16bd-418d-a767-6b65dc6d1020",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6649 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text. The over-simplification into excessively short, disconnected sentences has destroyed the original's cohesive meaning.\n\n- Fidelity Failure: The BERTScore of 0.8741 is below the required 0.90. Key terms like 'prehistoric times' and 'magic spells' were replaced with overly simple phrases, causing a loss of important lexical detail.\n- Vocabulary Violation: The word 'magic' is classified as B1 but was used in the output. This is a direct violation of the A2 vocabulary standard.\n- Grammatical Error: The sentence 'They have also found in Syria and Iraq' is incomplete. It is missing the object 'graffiti'.\n\nSuggestion: Re-write the text. Combine short, repetitive sentences using 'and'. Correct the incomplete sentence by adding the object. Replace the B1 word 'magic' with an A2 alternative. The goal is simplification, not fragmentation. The text must still read as a coherent paragraph, not a list of isolated facts.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8741,
+          "meaningbert": 0.6649
+        }
+      }
+    }
+  ]
+}

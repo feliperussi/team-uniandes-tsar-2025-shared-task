@@ -1,0 +1,598 @@
+{
+  "session_id": "01c20922-8eb9-4362-b63f-ba757a56339b",
+  "created_at": "2025-08-31 23:58:19.352990",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:58:19.371495",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "10-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Pro-rata means you get money only for the days you work.  \nBasis means the way we do something.  \n\nI worked five days every week.  \nI had a baby and I stayed home.  \nAfter that, I wanted more time with my children before school.  \nI talked with my boss.  \nMy boss and I said I will work three days every week.  \nMy pay is lower now because I work only three days.  \nI get paid on a pro-rata basis.  \nBut I still have the same work.  \nI do five days of work in three days.  \nBut I get much less money for it.",
+      "timestamp": "2025-08-31 23:58:19.371632",
+      "metadata": {
+        "text_id": "c2e2068d-60b2-4af6-997f-8cc9c56a1eeb",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 23:58:19.375724",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5d944357-1a31-47fc-8214-5f29cae45fe2",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6408 is below the required 0.75 and the BERTScore of 0.8621 is below the required 0.90, indicating significant loss of core message and key lexical details. Detected deviations:\n- The MeaningBERT score of 0.6408 is too low and shows loss of the original grievance tone about unfair workload.\n- The BERTScore of 0.8621 is too low and reflects omission of terms like \"parental leave\", \"negotiating\", \"significant cut in my pay\", and \"slightest\".\n- The output removes the nuance of \"workload hasn't decreased in the slightest\" and the contrast of \"five days' worth of work in three days\".\nSuggestion: Reintroduce explicit references to \"parental leave\", \"negotiating with my boss\", \"pro-rata pay cut\", and the original contrast in workload. Use simple sentences but preserve these key terms.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8621,
+          "meaningbert": 0.6408
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:58:56.472425",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Pro-rata is when you get money only for the days you work.  \nBasis is the way we do something.\n\nI had a baby.  \nI had parental leave.  \nI wanted more time with my children before school starts.  \nI negotiated with my boss.  \nWe agreed that I work three days every week.  \nI have a big pay cut.  \nThis is a pro-rata pay cut.  \nMy workload has not decreased in the slightest.  \nI do five days' worth of work in three days.  \nI get much less money for it.",
+      "timestamp": "2025-08-31 23:58:56.473911",
+      "metadata": {
+        "text_id": "ab267496-021d-4bdc-8771-23e9f2b03f0c",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:59:11.303176",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6a36d8d4-4350-42a3-917d-e2076c423f76",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6971 is too low. Your version omits the contrast between a five-day workload and three-day pay and downplays the grievance tone. FAIL: Fidelity Failure. The BERTScore of 0.8715 is below 0.90. Key phrases like \"significant cut in my pay\" and \"workload hasn\u2019t decreased in the slightest\" were simplified or lost emphasis.\nDetected deviations:\n- You defined \u201cbasis\u201d but the original did not define it, shifting focus to definitions over content.\n- You removed the emotional emphasis on unfairness and replaced it with flat statements.\n- The original negotiation detail \"after negotiating with my boss\" became only \"I negotiated with my boss\"\u2014you dropped the sequence and causal nuance.\n- You failed to convey \"I\u2019m paid on a pro-rata basis\" as a cause of the pay cut; you only state the pay cut exists.\n- The phrase \"in the slightest\" lost its emphatic force.\nSuggestions: Restore the phrase \u201csignificant cut in my pay\u201d and link it directly to \u201cpro-rata basis.\u201d Reintroduce the original sequence \u201cafter I came out of parental leave\u201d to preserve context. Reinsert the grievance tone by keeping \u201chasn\u2019t decreased in the slightest!\u201d and showing the unfair contrast between days worked and pay.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.8715,
+          "meaningbert": 0.6971
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:59:49.827691",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Pro-rata means you are paid only for the days you work.\n\nI worked five days every week.  \nI had time off when my baby was born.  \nThen I came back to work.  \nI wanted more time with my children.  \nSchool will start soon.  \nThen I talked to my boss.  \nWe agreed I work three days every week.  \nThis gave me a significant cut in my pay.  \nI am paid on a pro-rata basis.  \nBut my workload has not decreased in the slightest!  \nI do five days' work in three days.  \nBut I earn much less money for that.  \nIt is not fair!",
+      "timestamp": "2025-08-31 23:59:49.829670",
+      "metadata": {
+        "text_id": "b8fb8813-b4fb-4887-ab09-c68171398219",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 00:00:05.277814",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "84bfdf69-7955-4f3d-964f-cfeb9fdf6d25",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8729 is below the required 0.90.\n1. The phrase \"parental leave\" was replaced with \"time off when my baby was born\", losing the original term and nuance.\n2. \"After negotiating with my boss\" became \"Then I talked to my boss\", weakening the formal action.\n3. An extra definition line \"Pro-rata means you are paid only for the days you work\" was added, which was not in the original.\nSuggestion: Restore the term \"parental leave\". Use the exact phrase \"negotiating with my boss\". Remove unauthorized additions to recover lost lexical content.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8729,
+          "meaningbert": 0.8272
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:01:50.902937",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I used to work five days every week.  \nThen I came back from parental leave.  \nI wanted more time with my children.  \nSchool will start soon.  \nAfter negotiating with my boss, we agreed on my schedule.  \nI work three days every week.  \nI earn much less money because of this.  \nI am paid on a pro-rata basis.  \nPro-rata means I earn money only for days I work.  \nBasis means how we calculate money.  \nNow I notice my work has not decreased.  \nI do five days of work in three days.  \nI earn much less money for the same work.  \nIt is not fair.",
+      "timestamp": "2025-09-01 00:01:50.903663",
+      "metadata": {
+        "text_id": "cacb0757-009b-43e9-bab2-ae6796ea8b67",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:02:05.823792",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "66dcc56c-539e-4c56-8ed3-ec1e46e6bcf8",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8734 is below the required 0.90. Key lexical details were lost or altered: the phrase \"significant cut in my pay\" was replaced by the vague \"earn much less money,\" and the term \"five-day week\" became \"five days every week,\" reducing fidelity. Suggestion: Restore exact key phrases from the original, e.g. use \"significant cut in my pay\" and retain core expressions verbatim to improve BERTScore.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8734,
+          "meaningbert": 0.7903
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:02:47.110962",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I worked a five-day week.  \nThen I came back from family leave.  \nI wanted more time with my children.  \nSchool will start soon.  \nI talked to my boss.  \nWe agreed on my schedule.  \nNow I work a three-day week.  \nThis meant a big cut in my pay.  \nI get paid on a pro-rata basis.  \nPro-rata is a rule for pay.  \nBasis is the way we use the rule.  \nIf I work three days, I get pay for three days.  \nNow I see my work is the same.  \nI do five days of work in three days.  \nThis is not fair.",
+      "timestamp": "2025-09-01 00:02:47.111419",
+      "metadata": {
+        "text_id": "aca959f3-5550-4cb4-84be-3d21ab07957e",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 00:03:05.269448",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ca451d09-ee59-493c-9430-c34df8e8cfc9",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The writer changed \"parental leave\" in the original text to \"family leave\", altering the specific factual term.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8669,
+          "meaningbert": 0.679
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:03:26.617156",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I worked a five-day week.\nThen I came back from parental leave.\nI wanted more time with my children.\nSchool will start soon.\nI talked to my boss.\nWe agreed on my schedule.\nNow I work a three-day week.\nThis meant a big cut in my pay.\nI get paid on a pro-rata basis.\nPro-rata means you get pay for days you work.\nBasis means the way we do something.\nIf I work three days, I get pay for three days.\nNow I see my work is the same.\nI do five days of work in three days.\nThis is not fair.",
+      "timestamp": "2025-09-01 00:03:26.619602",
+      "metadata": {
+        "text_id": "ec532105-ed70-4c49-8fc8-4f98f61f007b",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 00:03:47.544747",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c2c05bfa-02aa-47a7-94fa-ee9e96a2a8cd",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. Classifier rated B1. The text exceeds A2 level in multiple ways.\n- The definition sentences use the verb \"means\" (e.g., \"Pro-rata means you get pay\u2026\"). This is a B2-level definition structure, not A2.\n- The noun \"basis\" is classified as B1 and is too abstract for A2.\n- The added in-text definitions introduce complex clauses and abstract concepts, raising the level above A2.\n- The term \"pro-rata\" originates at C1 and is not on A2 word lists.\nSuggestion: Remove all in-text definitions. Replace \"pro-rata basis\" with a simple phrase like \"pay for days you work.\" Use only A2 vocabulary and very short sentences. Avoid abstract nouns and definition constructions.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9041,
+          "meaningbert": 0.7763
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:04:03.786794",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I worked a five-day week.  \nThen I came back from leave.  \nI wanted more time with my children.  \nSchool will start soon.  \nI talked to my boss.  \nWe agreed on my schedule.  \nNow I work a three-day week.  \nThis meant a big cut in my pay.  \nI get pay only for the days I work.  \nNow I see my work is the same.  \nI do five days of work in three days.  \nThis is not fair.",
+      "timestamp": "2025-09-01 00:04:03.788515",
+      "metadata": {
+        "text_id": "1bb7b237-b03b-4074-866b-b529fad5fba5",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 00:04:24.300048",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c3bc928e-9629-4636-b538-54a6822fa8a2",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.699 is below the required 0.75, indicating that the core message about workload overload is weakened.\n- FAIL: Fidelity Failure. The BERTScore of 0.8701 is below the required 0.90. Specific terms like \u201cparental leave,\u201d \u201cpro-rata basis,\u201d and \u201csignificant cut in my pay\u201d were replaced or omitted, losing important lexical detail.\nSuggestion: Reinstate exact phrases from the original such as \u201cparental leave,\u201d \u201cpro-rata basis,\u201d \u201ctypical five-day week,\u201d and \u201csignificant cut in my pay.\u201d Use the same structure to describe doing five days of work in three days to improve both metrics.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8701,
+          "meaningbert": 0.699
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:04:58.365528",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I worked a typical five-day week.  \nThen I came back from parental leave (time off for parents).  \nI wanted more time with my children before school started.  \nI talked to my boss.  \nWe agreed to a three-day work week.  \nThis meant a significant cut in my pay.  \nI got pay on a pro-rata basis (only for days I worked).  \nMy work did not go down.  \nI did five days of work in three days.  \nThis was not fair.",
+      "timestamp": "2025-09-01 00:04:58.367225",
+      "metadata": {
+        "text_id": "148fecd2-419d-4933-a466-89352c4e4712",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 00:05:13.941212",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "061da1c4-9324-4701-96f9-37b633b75515",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8888 is below the required 0.90. The text loses key lexical overlap. For example, the phrase \u201cpaid on a pro-rata basis\u201d was simplified to \u201conly for days I worked,\u201d reducing fidelity. Suggestion: retain exact wording \u201cpro-rata basis\u201d and include full phrase \u201cpaid on a pro-rata basis\u201d to restore lexical detail.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8888,
+          "meaningbert": 0.86
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:05:42.300952",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I worked a typical five-day week.\nThen I came back from parental leave (time off for parents).\nI wanted more time with my children before school started.\nI talked to my boss.\nWe agreed to a three-day work week.\nIt meant a significant cut in my pay.\nI was paid on a pro-rata basis.\nPro-rata means in proportion and basis means method.\nMy work did not go down.\nI did five days of work in three days.\nThis was not fair.",
+      "timestamp": "2025-09-01 00:05:42.301352",
+      "metadata": {
+        "text_id": "b9f85b61-c6b6-4b67-9ff3-f52bd4c3c231",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 00:06:02.097634",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "38d0ec23-3f30-4b15-90de-17af6b063e85",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Audit Failure. The text uses several words above the A2 level.\n- The word parental is C1 level and must be replaced with a simpler phrase (e.g. after my time off for parents).\n- significant is B1 level; replace with big or large.\n- basis is B1 level; replace with way or method.\n- means is B2 level; replace with is.\n- proportion is B2 level; replace with part.\nSuggestion: Remove or replace all B1, B2, and C1 words so that only A2 vocabulary remains.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.913,
+          "meaningbert": 0.797
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:06:28.608080",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I worked a typical five-day week.  \nThen I came back after my time off for parents.  \nI wanted more time with my children before school started.  \nI talked to my boss.  \nMy boss said yes.  \nI work three days a week.  \nIt meant a big cut in my pay.  \nI get paid in a pro-rata way.  \nPro-rata is when you get money for the days you work.  \nMy work did not go down.  \nI did five days of work in three days.  \nThis is not fair.",
+      "timestamp": "2025-09-01 00:06:28.611037",
+      "metadata": {
+        "text_id": "d72cc51e-907c-43d8-909f-241dd7b29811",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 00:06:42.206386",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "da6af688-2d51-44d6-ba3a-6c94e93c96ba",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8717 is below the required 0.90. Key phrases and terms were lost or simplified too much. For example, \u2018negotiating with my boss\u2019 became \u2018talked to my boss,\u2019 removing the sense of formal discussion. The phrase \u2018significant cut in my pay\u2019 was reduced to \u2018big cut in my pay,\u2019 losing nuance. The term \u2018parental leave\u2019 was changed to \u2018time off for parents,\u2019 which weakens the original meaning. Restore precise terms and retain more original phrasing to improve lexical fidelity and raise the BERTScore.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8717,
+          "meaningbert": 0.8248
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:07:10.515052",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I worked a typical five-day week.  \nThen I came back from parental leave.  \nParental leave means time away from work for parents.  \nI wanted more time with my children before they start school.  \nI negotiated with my boss.  \nMy boss agreed.  \nI now work three days a week.  \nI had a big cut in my pay.  \nI am paid on a pro-rata basis.  \nPro-rata means you get money for the days you work.  \nBasis means the way we calculate something.  \nMy work did not go down at all.  \nI do five days of work in three days.  \nThis is not fair.",
+      "timestamp": "2025-09-01 00:07:10.515683",
+      "metadata": {
+        "text_id": "b99bdc71-04a6-4a0c-9dd2-e73ce84a993d",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 00:07:30.194892",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "385b2848-38ce-4339-82d2-37f49fa353ea",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The MeaningBERT score of 0.6755 is below the required 0.75 and the BERTScore of 0.8677 is below the required 0.90.\n- MeaningBERT score 0.6755 below threshold 0.75 indicates loss of the core message about unfair workload and pay cut.\n- BERTScore 0.8677 below threshold 0.90 shows key terms and precise phrasing were simplified or omitted.\nSuggestion: Retain the emphasis on \"significant cut in pay\" and \"workload hasn\u2019t decreased\" exactly as in the original. Remove added definitions that dilute the narrative and rephrase to match the original structure and wording more closely.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.8677,
+          "meaningbert": 0.6755
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:07:54.678721",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 12,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I worked a five-day week.  \nThen I came back from leave.  \nI wanted more time with my children before school.  \nI talked with my boss and he agreed.  \nNow I work three days a week.  \nI have a big cut in my pay.  \nThey pay me on a pro-rata basis.  \nThis means I get money only for the days I work.  \nMy workload did not decrease at all.  \nI do five days of work in three days.  \nThis is not fair.",
+      "timestamp": "2025-09-01 00:07:54.681647",
+      "metadata": {
+        "text_id": "e5155b6b-9f31-45b4-9932-314b7aadeafc",
+        "version": 12
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:08:14.680062",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "45be7fae-60f9-4760-a0b2-10b48cab11e6",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8821 is below the required 0.90, indicating a loss of key lexical detail.\n- The term \"parental leave\" was replaced with the vague word \"leave,\" removing the specific context of childcare entitlement.\n- \"Significant cut in my pay\" became \"big cut in my pay,\" weakening the sense of financial impact.\n- The original complaint about \"getting paid much less for it\" was reduced to \"This is not fair,\" losing the explicit reference to decreased pay.\nSuggestion: Restore precise phrases from the original (e.g., \"parental leave,\" \"significant cut in my pay,\" \"getting paid much less for it\"). Maintain specific details to improve lexical fidelity and meet the required BERTScore.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8821,
+          "meaningbert": 0.848
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:08:32.468643",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 13,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I worked a five-day week.  \nThen I came back from my parental leave.  \nI wanted more time with my children before school.  \nI talked with my boss and he agreed.  \nNow I work three days a week.  \nI have a significant cut in my pay.  \nThey pay me on a pro-rata basis.  \nPro-rata (pro-RAH-tuh) is pay for the days you work.  \nBasis (BAY-sis) is the way something works.  \nMy workload did not decrease at all.  \nI do five days of work in three days.  \nI get paid much less for it.",
+      "timestamp": "2025-09-01 00:08:32.471752",
+      "metadata": {
+        "text_id": "65e00d68-8ab2-400b-bff5-4ad2a1fa9d11",
+        "version": 13
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:08:47.528333",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1496d8fc-486c-4f18-9ce1-edc7ed02ad6f",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8729 is below the required 0.90. The output splits original compound sentences into many short sentences and defines terms separately, which reduces lexical overlap and loses key phrasing. For example, breaking \"paid on a pro-rata basis\" into two sentences with a definition for \"basis\" disrupts the original wording. Suggestion: Restore the phrase \"paid on a pro-rata basis\" in one sentence without separate definitions. Suggestion: Combine related clauses to match the original sentence structure and preserve original keywords.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.8729,
+          "meaningbert": 0.8448
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:09:18.217756",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 14,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I worked a five-day week.  \nThen I came back from my leave to care for my children.  \nI wanted more time with my children before they start school.  \nMy boss agreed to let me work three days a week.  \nNow I work three days a week.  \nI have a big cut in my pay.  \nI am paid on a pro-rata basis.  \nPro-rata means you are paid only for days you work.  \nBasis means the way something works.  \nMy workload did not decrease at all.  \nI do five days of work in three days.  \nI get paid much less for it.",
+      "timestamp": "2025-09-01 00:09:18.221570",
+      "metadata": {
+        "text_id": "c997af4d-1123-4bb2-b111-687b27dffe83",
+        "version": 14
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:09:37.433132",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0a4ded5e-45d0-43a2-9b46-8c77abac88c6",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8792 is below the required 0.90.\n- Replaced \u2018parental leave\u2019 with \u2018my leave\u2019, losing the precise term from the original.\n- Simplified \u2018significant cut in my pay\u2019 to \u2018big cut in my pay\u2019, reducing nuance.\n- Added inline definitions for \u2018pro-rata\u2019 and \u2018basis\u2019 that were not in the original, disrupting factual flow.\nSuggestion: Restore the original phrases \u201cparental leave\u201d and \u201csignificant cut in my pay\u201d, remove inline definitions from the main text, and preserve key terms to raise the BERTScore above 0.90.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8792,
+          "meaningbert": 0.7851
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:10:10.962242",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 15,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I worked five days every week.\nThen I came back from my parental leave.\nI wanted more time with my children before they start school.\nMy boss agreed to let me work three days every week.\nNow I work three days every week.\nI have a significant cut in my pay.\nI am paid on a pro-rata basis.\nMy work did not decrease at all.\nI do five days of work in three days.\nI get paid much less for it.\n\npro-rata: you get paid only for the days you work.\nbasis: how something works.",
+      "timestamp": "2025-09-01 00:10:10.962969",
+      "metadata": {
+        "text_id": "23e9f747-b00e-4960-bcc5-69831d0d733e",
+        "version": 15
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 00:10:33.165757",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "55f0b303-3711-48ca-8ed8-c05b7cfb099e",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. Classifier rated B1, but the text must be A2. The writer\u2019s output uses words beyond A2 level, which breaches the A2 vocabulary requirement.\nDetected non-A2 vocabulary:\nsignificant (B1)\nbasis (B1)\ndecrease (B1)\nparental (C1)\nSuggestion: Replace each term with an A2-level alternative. For example, use big instead of significant, way instead of basis, go down instead of decrease, and family leave instead of parental leave. Ensure all words match the A2 word list and keep sentences short and simple.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9053,
+          "meaningbert": 0.8663
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:11:05.411130",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 16,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I worked five days every week.  \nThen I came back from my family leave.  \nI wanted more time with my children before they start school.  \nMy boss let me work three days every week.  \nNow I work three days every week.  \nI get a big cut in my pay.  \nI am paid in a pro-rata way.  \nMy work does not go down at all.  \nI do five days of work in three days.  \nI get paid much less for it.  \n\npro-rata: you get paid only for the days you work.",
+      "timestamp": "2025-09-01 00:11:05.413415",
+      "metadata": {
+        "text_id": "aaf259f2-d778-4f92-9ae1-47ed43ea78ad",
+        "version": 16
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:11:18.003707",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6dea763f-957d-4ccf-a4e6-c3a433fd5eaa",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8745 is below the required 0.90. Key terms such as \"negotiating with my boss\" and \"significant cut in my pay\" were replaced by overly simple phrases like \"My boss let me work three days\" and \"I get a big cut in my pay,\" losing important lexical detail. Suggestion: Restore phrases like \"negotiating with my boss\" and \"significant cut in my pay,\" and include \"parental leave\" instead of \"family leave.\"",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8745,
+          "meaningbert": 0.8561
+        }
+      }
+    }
+  ]
+}

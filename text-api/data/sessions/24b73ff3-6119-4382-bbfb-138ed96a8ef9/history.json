@@ -1,0 +1,228 @@
+{
+  "session_id": "24b73ff3-6119-4382-bbfb-138ed96a8ef9",
+  "created_at": "2025-09-01 10:39:27.387106",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:39:27.395016",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "93-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Methane is a type of gas. It is an important part of natural gas.\n\nA machine on Mars studies the air. In 2014, it found methane in the air. Methane does not last for a long time. It only lasts for a few hundred years. So, something on Mars is making more.\n\nNASA says Mars makes a lot of methane. The amount of methane changes with the seasons. It goes up and down. It is like the planet is breathing.",
+      "timestamp": "2025-09-01 10:39:27.395509",
+      "metadata": {
+        "text_id": "1c642c22-d1ad-44d4-89f6-2b436f9919b2",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:39:27.405044",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "577ba42e-ca89-48de-8aee-0fbd55b6efd3",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Compliance. The text fails due to the inclusion of words that are above the A2 CEFR level. While the structure is simple and the meaning is preserved, adherence to the A2 vocabulary list is non-negotiable.\n\n- Deviation 1: The word \"making\" is B2 level. The sentence \"So, something on Mars is making more\" violates the A2 standard. Suggestion: Rephrase this. Use \"something on Mars puts more methane into the air\".\n\n- Deviation 2: The word \"breathing\" is B1 level. The sentence \"It is like the planet is breathing\" uses vocabulary too advanced for A2. Suggestion: Rephrase this. Use \"It is like the planet takes air in and out\".",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9021,
+          "meaningbert": 0.7501
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:39:34.754022",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Methane is a type of gas. It is an important part of natural gas.\nA machine on Mars studies the air. In 2014, it found methane in the air. Methane does not last for a long time. It only lasts for a few hundred years. So, something on Mars puts more methane into the air.\nNASA says Mars makes a lot of methane. The amount of methane changes with the seasons. It goes up and down. It is like the planet takes air in and out.",
+      "timestamp": "2025-09-01 10:39:34.755391",
+      "metadata": {
+        "text_id": "0c2ad620-7d3e-4eb6-8da4-a2d47b882570",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:39:59.127580",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "cd76803a-8721-4289-8240-dd4112eb68f8",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7011 is below the required 0.75 threshold. The text fails to preserve the core scientific context of the original message.\n\n- Primary Failure (Meaning): The original text identifies methane as one of the 'most basic organic molecules' and a 'key ingredient' of natural gas. Your version, 'Methane is a type of gas. It is an important part of natural gas,' loses this critical scientific classification and reduces the significance of the discovery.\n- Secondary Failure (CEFR Compliance): The text was classified as B1, not the required A2. The sentence 'It is like the planet takes air in and out' uses a comparative structure ('like' + clause) that is characteristic of a B1 level. This structure is too complex for A2.\n- Factual Simplification Error: The original states Mars 'emits thousands of tons' of methane. Your simplification to 'makes a lot' loses the specific sense of scale, contributing to the meaning loss.\n\nSuggestion: Rephrase to restore the lost meaning. The concept of 'organic molecule' must be simplified, not deleted. The final sentence must be broken down to avoid the B1-level comparison. Example: 'This change is like breathing.' or 'The planet seems to breathe the gas.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9044,
+          "meaningbert": 0.7011
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:40:14.692331",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Methane is a gas. It is a very simple, natural material. It is a key part of natural gas.\nA machine on Mars studies the air. In 2014, it found methane in the air. Methane does not last for a long time. It only lasts for a few hundred years. So, something on Mars puts more methane into the air.\nNASA says Mars puts out thousands of tons of methane. The amount of methane changes with the seasons. It goes up and down. It is like the planet is breathing.",
+      "timestamp": "2025-09-01 10:40:14.693368",
+      "metadata": {
+        "text_id": "72902000-a621-4fbd-ae51-c2f9a341661c",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:40:35.679704",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e2d3dbcf-8c2b-4268-8ff9-e7c26d71947d",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as B1, which is an automatic failure. The A2 standard was not met.\n\n- Vocabulary Violation: The word 'breathing' is a B1-level verb. Its use is a direct violation of the A2 vocabulary requirements. The final sentence, 'It is like the planet is breathing,' is the primary cause for the B1 classification.\n\n- Structural Integrity: While most sentences are simple, the inclusion of B1 vocabulary negates this structural simplicity.\n\nSuggestion: Remove the word 'breathing'. Rephrase the final concept using only A2 vocabulary. Example: 'It is like the planet takes air in and pushes air out.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9081,
+          "meaningbert": 0.8332
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:40:46.654750",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Methane is a gas. It is a very simple, natural material. It is a key part of natural gas.\nA machine on Mars studies the air. In 2014, it found methane in the air. Methane does not last for a long time. It only lasts for a few hundred years. So, something on Mars puts more methane into the air.\nNASA says Mars puts out thousands of tons of methane. The amount of methane changes with the seasons. It goes up and down. It is like the planet takes air in and pushes air out.",
+      "timestamp": "2025-09-01 10:40:46.655910",
+      "metadata": {
+        "text_id": "e64b4a79-e380-4ca5-8826-ef62ccc768d8",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:41:09.160929",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "90dd1064-0a6f-47c8-b266-26a327344cf1",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as B1, which is too complex for the A2 standard. The text fails to meet the required CEFR level despite preserving the original meaning.\n- B1 Structural Complexity: The sentence 'It is like the planet takes air in and pushes air out' uses 'like' to introduce a full clause. This comparative clause structure is a B1-level feature.\n- B1 Reporting Structure: The sentence 'NASA says Mars puts out thousands of tons of methane' uses a reporting verb ('says') followed by a clause. This structure contributes to the B1 classification.\n- Suggestion: Simplify the complex comparison. Rephrase to 'This is like breathing.'\n- Suggestion: Break the reporting sentence into two simple sentences. Rephrase to 'NASA says this. Mars puts out thousands of tons of methane.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.905,
+          "meaningbert": 0.8153
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:41:26.458867",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Methane is a gas. It is a very simple, natural material. It is a key part of natural gas.\nA machine on Mars studies the air. In 2014, it found methane in the air. Methane does not last for a long time. It only lasts for a few hundred years. So, something on Mars puts more methane into the air.\nNASA says this. Mars puts out thousands of tons of methane. The amount of methane changes with the seasons. It goes up and down. This is like breathing.",
+      "timestamp": "2025-09-01 10:41:26.459187",
+      "metadata": {
+        "text_id": "89260a39-3203-4158-9e7f-5cde7ee0376e",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:41:44.955464",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3408ceb2-9eb6-4b15-a177-3eae96ec68e4",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as B1, which is too complex for the A2 standard. The primary cause for this failure is vocabulary choice.\n\n- Deviation: The word 'breathing' is a B1-level vocabulary item. Its inclusion automatically elevates the text's complexity beyond the A2 level. The final sentence, 'This is like breathing,' is the point of failure.\n\n- Suggestion: Remove the word 'breathing'. Rephrase the final sentence to describe the concept using only A1/A2 words. For example: 'It is like the planet takes air in and pushes air out.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9035,
+          "meaningbert": 0.8321
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:41:59.247439",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Methane is a gas. It is a very simple, natural material. It is a key part of natural gas.\nA machine on Mars studies the air. In 2014, it found methane in the air. Methane does not last for a long time. It only lasts for a few hundred years. So, something on Mars puts more methane into the air.\nNASA says this. Mars puts out thousands of tons of methane. The amount of methane changes with the seasons. It goes up and down. It is like the planet takes air in and pushes air out.",
+      "timestamp": "2025-09-01 10:41:59.249872",
+      "metadata": {
+        "text_id": "56018a77-ea59-4f0c-83a2-312c8b1fb08a",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:42:26.293314",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1cc2a5af-d8a0-4ca9-9f36-fa470e316349",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as B1, which is too complex for the A2 standard. The primary goal was not met.\n- The sentence 'It is like the planet takes air in and pushes air out' is the main reason for the B1 classification. Using a simile ('like') to explain an abstract, metaphorical idea is a B1-level language function. A2 text must be more direct and concrete.\n- The use of multiple phrasal verbs such as 'puts out', 'takes in', and 'pushes out' also contributes to the complexity, moving the text beyond a simple A2 level.\n- Suggestion: Remove the metaphorical final sentence. Replace it with a direct statement. For example: 'This change happens again and again with the seasons.'\n- Suggestion: Replace the phrasal verb 'puts out' with a simpler A2 verb. For example: 'Mars makes thousands of tons of methane.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9034,
+          "meaningbert": 0.8076
+        }
+      }
+    }
+  ]
+}

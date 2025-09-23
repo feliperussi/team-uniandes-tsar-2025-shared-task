@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "9db4bb6f-8368-47ef-917f-da7b1c464f13",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Girox Foods should change how its managers lead. They should focus more on their people.\nThe company should give employees flexible work hours. Employees can choose their start and finish times. They can also choose their work location.\nManagers should give staff interesting tasks. They should also recognize good work. They should tell employees when they do a good job.\nThe company should help employees learn new skills for their jobs. This training can help with communication skills. It can help employees talk with people from other cultures.\nThese changes will create a good work environment. Then, employees can do their best work.",
+    "version": 6,
+    "created_at": "2025-09-01 01:33:32.044058",
+    "updated_at": "2025-09-01 01:33:32.044068",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "f7543714-2fdf-4819-8777-71b0a1f686cd",
+    "approval": "FAIL",
+    "grade": 2,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6104 is significantly below the required 0.75 threshold. This indicates a severe loss of the original text's core message. The BERTScore of 0.894 is also below the 0.90 minimum, showing a failure to retain key phrasing.\n\n*   Meaning Loss: The original's concept of 'challenge our staff' was weakened to 'interesting tasks'. The management term 'positive reinforcement' was oversimplified to 'tell employees when they do a good job', losing its specific meaning. The recommendation for 'Increased investment' was completely omitted.\n*   Vocabulary Violation: The text uses words above the A2 level without justification or definition. 'flexible' is a B2 word. 'location' is a B1 word. 'communication' is a B1 word. These are unacceptable for an A2 text.\n\nSuggestion: Rephrase the text to restore the concepts of 'challenge' and 'investment'. Replace all words above the A2 level. 'flexible hours' must be rephrased as 'employees can choose their work times'. 'location' must be replaced with 'place'. 'communication' must be simplified to 'talking with people'.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.894,
+      "meaningbert": 0.6104
+    },
+    "created_at": "2025-09-01 01:34:07.369004"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "be35d16e-7e43-495c-8a3b-d7958f671ce6",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "We recommend changes to the management style at Girox Foods. The company should think more about its people.\n\nWorkers should have more flexible working hours. They should also be able to choose where they work.\n\nManagers need to give their staff challenging work. They also need to show workers that they are doing a good job. This is positive recognition.\n\nThe company should spend more money on professional development. This is training to help employees improve their skills. This training should focus on communication. It can help people talk with others from different countries.\n\nThis will create a good environment for employees. Then they can produce their best work.",
+    "version": 2,
+    "created_at": "2025-09-01 01:30:25.613938",
+    "updated_at": "2025-09-01 01:30:25.613942",
+    "metrics_meaningbert": 0.8107,
+    "metrics_cefr_compliance": "A2"
+  }
+}

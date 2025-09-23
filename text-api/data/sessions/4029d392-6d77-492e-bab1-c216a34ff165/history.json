@@ -1,0 +1,413 @@
+{
+  "session_id": "4029d392-6d77-492e-bab1-c216a34ff165",
+  "created_at": "2025-09-01 17:29:35.817334",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:29:35.863524",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "115-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Evolutionary biologists are scientists who study how living things change over time.  \nWe want to know where many words came from.  \nWe study our brain to find out.  \nWe compare our brain with other animals.  \nIt is not only about brain size.  \nIt also matters what our brain can do.  \nWe also ask when and why the brain changed.  \nThere are few physical clues.  \nOld tools do not show what speech they could make.  \nWe can see changes in the mouth.  \nWe can see changes in the throat.  \nWe can see changes in the tongue.  \nBy about 100,000 years ago, humans could make many different sounds.  \nBefore that, scientists can only guess if early humans used simple sounds.",
+      "timestamp": "2025-09-01 17:29:35.863738",
+      "metadata": {
+        "text_id": "aea3b612-7295-4c59-93db-b7b01df0a006",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:29:37.051586",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "163f3ecd-5c43-434e-987f-4f48fd2c7ea4",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure and CEFR Non-Compliance. The primary failure is the BERTScore of 0.8703, which is below the required 0.90. This indicates an unacceptable loss of key vocabulary from the original text. A secondary, equally critical failure is the B1 classification from the CEFR tool, which violates the A2 standard.\n\n- Fidelity Failure: The BERTScore is too low. Key concepts like 'capability for complex language' were replaced with 'many words', and 'remains of early humans' was removed entirely. This oversimplification sacrifices factual fidelity.\n- CEFR Compliance Failure: The text is rated B1, not A2. This is unacceptable.\n- B1 Grammar Detected: The first sentence, 'Evolutionary biologists are scientists who study how living things change over time,' uses a relative clause ('who study...'). This is a B1 structure and must be removed.\n- B1 Vocabulary Detected: The text includes B1 words such as 'living', 'throat', 'tongue', and 'used'. These are above the A2 level.\n\nSuggestion: Rephrase the definition of 'evolutionary biologists' to remove the B1 relative clause. Use two simple sentences instead. Example: 'Evolutionary biologists are a type of scientist. They study how animals change over a long time.' Replace all B1 vocabulary with A2 alternatives. Restore more key terms from the original text to meet the 0.90 BERTScore requirement.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8703,
+          "meaningbert": 0.7988
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:29:45.033890",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Evolutionary biologists are a type of scientist.  \nThey study how animals change over a long time.  \nWe want to know how we got the ability for many sounds.  \nWe study our brain to find clues.  \nWe compare our brain with other animals.  \nIt is not only about brain size.  \nIt also matters what our brain can do.  \nWe also ask when and why the brain changed.  \nThere are few physical clues.  \nOld tools do not show what speech they could make.  \nWe can see changes in the mouth.  \nWe can see this in the remains of early humans.  \nAbout 100,000 years ago, humans could make many sounds.  \nBefore that, scientists can only guess if early humans made simple sounds.",
+      "timestamp": "2025-09-01 17:29:45.034336",
+      "metadata": {
+        "text_id": "2d4ae493-1a09-45b6-a7d3-f4e1ca53719b",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:30:11.490989",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "09a4607e-1c5c-4e35-8e1f-788bf9622677",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text specifies the development of the 'mouth, throat and tongue'. Your output omits 'throat and tongue', stating only 'changes in the mouth'. This is an unacceptable loss of factual detail.\n\n- Meaning Preservation Failure: The metrics confirm a severe loss of meaning. The MeaningBERT score of 0.6591 is far below the 0.75 minimum. The BERTScore of 0.8702 is below the 0.90 minimum. This is caused by oversimplifying 'complex language' to 'many sounds' and omitting key anatomical details.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. The repeated use of subordinate clauses introduced by 'how', 'what', 'when', and 'why' elevates the grammatical complexity beyond the A2 standard.\n\n- Vocabulary Standard Violation: The C1-level word 'remains' was used directly. This is a clear violation. All vocabulary must be strictly within the A2 level or simplified.\n\n- Suggestion: Restore the omitted factual details ('throat and tongue'). Rephrase sentences to avoid multiple subordinate clauses; use simpler constructions. Replace the word 'remains' with an A2-level alternative like 'old bones' or 'parts of the body'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8702,
+          "meaningbert": 0.6591
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:30:21.776117",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Scientists study how animals change over a long time.  \nWe want to know how we got many sounds.  \nWe study our brain to find clues.  \nWe compare our brain with other animals.  \nIt is not only about brain size.  \nIt also matters what our brain can do.  \nWe also ask when and why the brain changed.  \nThere are few physical clues.  \nOld tools do not show what speech they could make.  \nWe can see changes in the mouth, throat and tongue.  \nWe see this in old bones of early humans.  \nAbout 100,000 years ago, humans could make many sounds.  \nBefore that, scientists can only guess if early humans made simple sounds.",
+      "timestamp": "2025-09-01 17:30:21.776518",
+      "metadata": {
+        "text_id": "c7341724-7804-4e8a-908d-f8ab4ce2fb1b",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:30:47.371963",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d010e4d0-1df7-43d2-82f3-0e190375ac45",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6621 is significantly below the required 0.75 threshold. This is an instant failure. The text also fails the fidelity check, with a BERTScore of 0.8784, which is below the 0.90 minimum.\n- Core Meaning Lost: The original text's central concept is the origin of 'complex language'. Your output reduces this to 'many sounds'. This simplification is too extreme and loses the essential meaning of language structure and complexity.\n- Vocabulary Violation: The B1-level words 'throat' and 'tongue' were used directly. All vocabulary must conform to the A2 standard. These words are too advanced and must be replaced or explained in simple terms.\n- Fidelity Loss: The low BERTScore reflects the replacement of specific concepts like 'complex language' and 'capability' with overly generic terms, resulting in a text that does not faithfully represent the original's key information.\nSuggestion: Rewrite the text. You must restore the concept of 'complex language'. Use simple A2 phrasing like 'language with many words and rules'. Replace the B1 words 'throat' and 'tongue' with descriptive A2 phrases like 'the part of the neck for breathing' and 'the part inside the mouth for speaking'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8784,
+          "meaningbert": 0.6621
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:30:56.514569",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Scientists want to know why humans have complex language.  \nComplex language means many words and rules.  \nWe compare human brains and animal brains.  \nIt is not only about brain size.  \nIt also matters what the brain can do.  \nWe also ask when and why the brain changed.  \nThere are few physical clues.  \nOld tools do not show what speech they could make.  \nWe see changes in the mouth area.  \nWe see changes in the neck part for breathing.  \nWe see changes in the mouth part for speaking.  \nWe see these changes in old human bones.  \nAbout 100,000 years ago humans could make complex language.  \nBefore that scientists can only guess.  \nEarly humans may have made simple sounds.  \nEvolutionary biologists are people who study species.  \nThey study how species change over time.",
+      "timestamp": "2025-09-01 17:30:56.514930",
+      "metadata": {
+        "text_id": "423d03c5-2c12-4e6a-9708-51ef9462ae62",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:31:17.159039",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0e48d93b-72de-42cd-bc43-ea7dfbcdc95e",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text states humans could make 'complex sounds' 100,000 years ago. Your output incorrectly states they could make 'complex language'. This is a critical error that changes the scientific meaning.\n\n- Meaning Preservation Failure. The MeaningBERT score of 0.67 is significantly below the required 0.75. Changing 'complex sounds' to 'complex language' fundamentally alters the core message about the origins of speech.\n- Fidelity Failure. The BERTScore of 0.86 is below the 0.90 threshold. Key phrases from the original were not preserved, leading to the factual error.\n- CEFR Compliance Failure. The text was classified as B1, not A2. This is a direct result of vocabulary and sentence structure violations.\n- Vocabulary Violation. The word 'complex' is B1 and is used twice. The word 'means' is B2. The definition for 'evolutionary biologists' introduces the B1 word 'species'. These are not A2-level words.\n- Structural Violation. The sentence 'Complex language means many words and rules' uses a defining structure ('X means Y') which is a B1-level construction.\n\nSuggestion: Correct the factual error immediately. Replace 'complex language' with 'difficult sounds' or 'many different sounds'. Remove the word 'complex' entirely. Rephrase the definition of 'complex language' using simple sentences. Example: 'Some language is not simple. It has many words and rules.' Remove the definition for 'evolutionary biologists' as it introduces more complex vocabulary.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8627,
+          "meaningbert": 0.6694
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:31:27.218210",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Scientists want to know why humans.  \nHumans have many different sounds.  \nWe compare human brains and animal brains.  \nIt is not only about brain size.  \nIt also matters what the brain can do.  \nWe also ask when and why the brain changed.  \nThere are few physical signs.  \nOld tools do not show what speech they could make.  \nWe see changes in the mouth area.  \nWe see changes in the mouth area for talk.  \nWe see these changes in old human bones.  \nAbout 100,000 years ago humans could make many different sounds.  \nBefore that scientists can only guess.  \nEarly humans may have made simple sounds.  \nScientists study how animals change over time.",
+      "timestamp": "2025-09-01 17:31:27.218631",
+      "metadata": {
+        "text_id": "1868538e-6815-4700-b5c5-5077bb919233",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:31:53.939840",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "41c27817-7295-40ba-9b32-d13bc25c3fe2",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.65 is significantly below the required 0.75 threshold. This indicates a severe loss of the original message's core meaning. The text also fails the fidelity check, with a BERTScore of 0.86, which is below the 0.90 minimum.\n\n*   Primary Failure: The original text's logical structure was destroyed. By breaking every idea into a separate, short sentence, the connections between concepts were lost. The original explains *why* we look at brains; your version is just a list of facts.\n*   Grammatical Error: The first sentence, 'Scientists want to know why humans.', is incomplete and makes no sense.\n*   Structural Flaw: The text is highly repetitive and unnatural. For example: 'We see changes in the mouth area. We see changes in the mouth area for talk.' One of these sentences is redundant.\n*   Keyword Mismanagement: The concept of 'evolutionary biologists' was not handled correctly. The sentence 'Scientists study how animals change over time' is tacked on at the end and is disconnected from the main text.\n\nSuggestion: Recombine sentences to restore logical flow using simple connectors like 'and' or 'so'. Correct the incomplete first sentence. Remove repetitive sentences. Do not add disconnected sentences to the end of the text to explain a concept.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8621,
+          "meaningbert": 0.6544
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:32:06.552820",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Scientists want to know how human speech began.  \nThey compare human brains with animal brains.  \nThey look at what the brain can do.  \nThey also ask when and why the brain changed.  \nThere are few physical clues from old tools.  \nOld tools do not show what speech early people could make.  \nWe can see changes in the mouth, throat and tongue.  \nBy about 100,000 years ago humans could make many different sounds.  \nBefore that scientists can only guess.  \nEarly humans may have made simple sounds.  \nEvolutionary biologists study how animals change over time.",
+      "timestamp": "2025-09-01 17:32:06.554916",
+      "metadata": {
+        "text_id": "1d7c9fa2-d431-4f28-8ffd-94ebdfd49c8d",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:32:32.644551",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8dd7855a-bcc6-439a-ab4e-796dac1cb966",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on two critical Priority 2 metrics.\n\nPrimary Failure: The MeaningBERT score of 0.6709 is significantly below the required 0.75 threshold. This indicates a severe loss of the original text's core message and logical structure. The original text explains *why* scientists study brains (to understand language), but your version presents this as a disconnected list of actions, destroying the cause-and-effect relationship.\n\nSecondary Failure: The BERTScore of 0.8769 is below the required 0.90. This is a result of oversimplification. Key phrases like 'capability for complex language' and 'artefacts left by our ancestors' were replaced with terms like 'human speech' and 'old tools', which lose essential lexical detail and nuance.\n\nDetected Deviations:\n- Meaning Loss: The logical link 'If we want to know X, we need to look at Y' was completely removed. Your text is a list of facts, not a logical explanation.\n- Context Omission: The original text's important point that brain function is more important than just brain size was entirely omitted.\n- Vocabulary Violation: The words 'throat' and 'tongue' are classified as B1 level, exceeding the A2 standard.\n\nCorrective Path:\n- Suggestion: Restore the logical flow using simple A2 connectors. Rephrase to connect the first two sentences: 'Scientists want to know how human speech began, so they compare human brains with animal brains.'\n- Suggestion: Reintroduce the omitted concept. Add a sentence like: 'How the brain works is more important than its size.'\n- Suggestion: Replace the B1 vocabulary. 'Throat' and 'tongue' are part of the mouth. Rephrase to 'We can see changes in the parts of the mouth.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8769,
+          "meaningbert": 0.6709
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:32:37.912643",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Scientists want to know how human speech began, so they compare human brains with animal brains.  \nThey look at what the brain can do.  \nThey also ask when and why the brain changed.  \nHow the brain works is more important than its size12.  \nThere are few physical signs from old tools.  \nOld tools do not show what speech early people could make.  \nWe can see changes in the parts of the mouth.  \nBy about 100,000 years ago humans could make many different sounds.  \nBefore that scientists can only guess.  \nEarly humans may have made simple sounds.  \nScientists who study how animals change look at this too.",
+      "timestamp": "2025-09-01 17:32:37.914038",
+      "metadata": {
+        "text_id": "ac5240ca-7fce-4aea-b4c6-6883c5258584",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:33:00.797044",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5f12ae5c-eaac-4c25-89ba-c02ad3064f5c",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6746 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text.\n\n- Fidelity Failure: The BERTScore of 0.8759 is below the 0.90 minimum. This is a direct result of oversimplification. The original text specifies the development of the 'mouth, throat and tongue', but your version reduces this to 'parts of the mouth', losing essential factual detail.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. The sentence 'Scientists who study how animals change look at this too' uses a relative clause ('who study...'), which is a B1 grammatical structure. This is unacceptable for an A2 text.\n\n- Factual Inaccuracy: The omission of 'throat and tongue' is a factual error. The original text lists three distinct body parts; your version only mentions one general area.\n\n- Typographical Error: A stray '12' appears at the end of the fourth sentence.\n\n- Suggestion: Restore the missing factual details about the 'throat and tongue'.\n\n- Suggestion: Eliminate the B1 relative clause. Rephrase the final sentence into two simple sentences. Example: 'Some scientists study how animals change. They also look at this.'\n\n- Suggestion: Remove the typographical error.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8759,
+          "meaningbert": 0.6746
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:33:12.849153",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Scientists want to know how human speech began.  \nThey compare human brains with animal brains.  \nThey look at what the brain can do.  \nThey also ask when the brain changed and why.  \nThey think brain function is more important than brain size.  \nThere are few physical signs from old tools.  \nOld tools do not show what speech early people could make.  \nWe can see changes in the mouth, throat and tongue.  \nBy about 100,000 years ago humans could make many different sounds.  \nBefore that scientists can only guess.  \nEarly humans may have made simple sounds.  \nEvolutionary biologists study how animals change.  \nSome scientists study how animals change.  \nThey also look at this.",
+      "timestamp": "2025-09-01 17:33:12.849733",
+      "metadata": {
+        "text_id": "26a4b418-d2b0-4fed-968d-7fcd09707bab",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:33:40.363388",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "eadf94c3-e54e-4477-a575-821a3e2c753b",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.664 is substantially below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text.\n\n- Fidelity Failure: The BERTScore of 0.8689 is below the 0.90 minimum. Key lexical items from the original text were lost during simplification.\n- Meaning Loss: The original text explains a complex idea about the *process* of evolution and the *lack of evidence*. Your output reduces this to a disconnected list of simple facts, losing the logical relationship between them. The concept of 'capability for complex language' is poorly represented by 'how human speech began'.\n- Factual/Structural Error: The sentences 'Evolutionary biologists study how animals change. Some scientists study how animals change. They also look at this.' are an incorrect addition. The original text uses the term 'evolutionary biologists' to identify who is guessing; you have inserted a clumsy definition into the text body, which disrupts the flow and alters the original's structure.\n- Vocabulary Violation: The text uses the B1-level words 'throat' and 'tongue'. These are not A2-compliant and must be replaced or described using simpler terms.\n\nSuggestion: Rewrite the text to restore the logical connections between ideas. Focus on explaining the *problem* scientists face (lack of evidence) as described in the original. Replace B1 vocabulary with A2-level descriptions. Handle keyword definitions separately from the main text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8689,
+          "meaningbert": 0.664
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:33:52.464897",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Scientists want to know why humans can use many words.  \nThey compare human brains with animal brains.  \nThey look at what the brain can do, not just its size.  \nThere are few simple signs from old tools.  \nOld tools do not show what early people could say.  \nWe can see changes in the mouth and voice.  \nAbout 100,000 years ago humans could make many sounds.  \nBefore that scientists can only guess.  \nThey think early humans may have used simple sounds.  \n\nEvolutionary biologists are scientists who study how species change over time.",
+      "timestamp": "2025-09-01 17:33:52.465438",
+      "metadata": {
+        "text_id": "5ec74c11-e86c-4b98-b279-c89e77eca23f",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:34:17.306102",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f36c415f-0166-4caf-abfd-b48045d6a549",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.64 is critically below the required 0.75 threshold. This indicates a severe loss of the original text's core message. The text also fails the fidelity check, with a BERTScore of 0.86, which is below the minimum requirement of 0.90.\n\n- Meaning Loss: The original text discusses the origin of the 'capability for complex language'. Your output reduces this to 'why humans can use many words'. This simplification loses the essential concepts of 'capability' and 'origin'. The original's focus on the scientific search for evidence is lost.\n\n- Fidelity Loss: The low BERTScore is a direct result of over-simplification. Key terms that carry specific meaning were removed. 'Artefacts left by our ancestors' became 'old tools', and 'evolved the ability to create complex sounds' became 'could make many sounds'. This strips the text of necessary detail.\n\n- Vocabulary Error: The B1 word 'species' is used in the keyword definition. An A2-compliant definition must not rely on B1 vocabulary. The definition for 'evolutionary biologists' must be rephrased using only A1/A2 words.\n\nSuggestion: The text must be rewritten. Restore the concept of 'ability' and the 'origin' of language. Re-introduce more precise A2-level nouns instead of overly generic ones like 'signs'. The goal is simplification, not total removal of meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8613,
+          "meaningbert": 0.6405
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:34:35.206176",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Scientists want to know where the ability for many words comes from.  \nThey compare human brains with other animal brains.  \nThey look at what the brain can do, not only its size.  \nThere are few clear clues from old artefacts.  \nArtefacts do not show what early people could say.  \nWe can see changes in the mouth, throat and tongue.  \nAbout 100,000 years ago humans could make many sounds.  \nBefore that scientists can only guess how early people talked.  \nThey think early people used simple sounds.  \nEvolutionary biologists are scientists who study how living things change over time.",
+      "timestamp": "2025-09-01 17:34:35.206980",
+      "metadata": {
+        "text_id": "95378d3e-d6b7-45ca-878d-766911572b6f",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:35:13.050734",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "750731cb-0cc7-4928-86b6-3906da413962",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6516 is substantially below the required 0.75 threshold. The original text's focus on 'how', 'when', and 'why' brains evolved was lost, reducing the text to a simple list of facts and failing to preserve the core explanatory message.\n\n- Fidelity Failure: The BERTScore of 0.8766 is below the 0.90 minimum. Key lexical items from the original text such as 'capability', 'complex language', and 'evolved' were replaced, resulting in a significant loss of fidelity.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is an automatic failure.\n\n- Structural Violation: The definition sentence 'Evolutionary biologists are scientists who study how living things change over time' uses a relative clause ('who study...'). This is a B1 grammatical structure and is unacceptable for an A2 text.\n\n- Vocabulary Violation: The text includes multiple B1-level words ('throat', 'tongue', 'used', 'living') that were not simplified. All vocabulary must conform to the A2 standard.\n\nSuggestion: Restore the lost meaning about the evolution of the brain. The definition must be rewritten into two simple A2 sentences to eliminate the B1 relative clause. Replace all B1 vocabulary with A2 alternatives.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8766,
+          "meaningbert": 0.6516
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:35:28.502405",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Scientists want to know how the ability to talk began.  \nThey compare human brains with animal brains.  \nThey study how brains work, not only size.  \nThey also ask when and why brains changed.  \nOld artefacts give signs.  \nArtefacts do not show what early people could say.  \nWe can see changes in the mouth.  \nAbout 100,000 years ago humans could make many sounds.  \nBefore that scientists can only guess how early people talked.  \nThey think early people used simple sounds.  \nEvolutionary biologists are scientists.  \nThey study how life changes over time.",
+      "timestamp": "2025-09-01 17:35:28.503244",
+      "metadata": {
+        "text_id": "dfe7354a-f896-43a5-83e2-5f0b82b61fb3",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:35:49.857700",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b09e98ba-700b-46a6-b4dd-b5b378e396b5",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text states there are 'very few physical clues' and that artefacts 'don't tell us what speech they were capable of making'. Your version incorrectly states 'Old artefacts give signs.' This is a direct contradiction and an instant failure.\n\nFAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6588 is critically below the required 0.75 threshold. The core message has been lost.\n\nFAIL: Fidelity Failure. The BERTScore of 0.8624 is below the minimum requirement of 0.90. This indicates a significant loss of key words and concepts from the original text.\n\nFAIL: CEFR Compliance. The text was classified as B1, not the required A2. This is unacceptable.\n\nVocabulary Violation. The word 'used' is B1 level. It must be replaced. The sentence 'They think early people used simple sounds' is not A2 compliant.\n\nStructural Violation. Appending definitions to the end of the text is not a valid simplification method. The text itself must be comprehensible at the A2 level.\n\nSuggestion: Rewrite the text from the beginning. Ensure every fact aligns with the original source. Remove the contradictory sentence about artefacts. Replace the B1 word 'used'. Do not rely on a glossary; simplify the main text.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8624,
+          "meaningbert": 0.6588
+        }
+      }
+    }
+  ]
+}

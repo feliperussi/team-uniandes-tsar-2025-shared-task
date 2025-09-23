@@ -1,0 +1,228 @@
+{
+  "session_id": "6642b646-06e6-4782-a4f9-f921d57eb26d",
+  "created_at": "2025-09-01 10:47:32.477936",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:47:32.484594",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "53-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In some areas, local governments have tried to encourage artists not to paint graffiti, which is pictures or writing on walls in public places, by allowing them to work in special areas. Taiwan is one of these places, and it has 'graffiti zones' where artists are free to paint and write on walls. In S\u00e3o Paulo in Brazil, the city government has even allowed some graffiti artists to paint on the city's subway trains.",
+      "timestamp": "2025-09-01 10:47:32.485198",
+      "metadata": {
+        "text_id": "0a2e1499-6bbe-4e04-adfe-26955f8935d8",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:47:32.491366",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "79ea1555-b45c-4018-bd18-7785f7b7faa8",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The MeaningBERT score of 0.6699 is below the required 0.75 threshold, indicating a significant change to the core message. The original text states that councils tried to encourage artists 'not to paint graffiti randomly on walls', meaning the goal was to control the location of the art. Your output simplifies this to 'not to paint graffiti', which incorrectly implies the goal was to stop the art form entirely. The loss of the concept 'randomly' is the primary reason for this failure. To correct this, you should rephrase to capture the original intent, for example: '...encourage artists not to paint graffiti on just any wall...'. While the vocabulary simplification was good (e.g., 'councils' to 'governments') and the keyword 'graffiti' was correctly defined, inserting the definition mid-sentence made the first sentence too long and complex for a B1 level. It would be better to place the definition in its own sentence.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9742,
+          "meaningbert": 0.6699
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:47:44.542439",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Graffiti is pictures or writing on walls in public places. In some areas, local governments have tried to encourage artists not to paint on just any wall by allowing them to work in special areas. Taiwan is one of these places, and it has 'graffiti zones' where artists are free to paint and write on walls. In S\u00e3o Paulo in Brazil, the city government has even allowed some graffiti artists to paint on the city's subway trains.",
+      "timestamp": "2025-09-01 10:47:44.544705",
+      "metadata": {
+        "text_id": "a5c52c46-b8a6-4faf-9f58-20faab9382b5",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:48:06.961277",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2f545b6e-9bef-46a5-a695-183cfd64db64",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The MeaningBERT score of 0.6586 is below the required 0.75 threshold. This failure is likely caused by the addition of the introductory sentence, \"Graffiti is pictures or writing on walls in public places.\" While defining a keyword is an excellent simplification strategy for a B1 audience, adding a full sentence of new information not present in the original text can lower the meaning similarity score as measured by this specific metric. The model interprets this new information as a deviation from the original's core message. Despite this metric-based failure, the submission is factually accurate, has a high fidelity score (BERTScore 0.96), and correctly meets the B1 CEFR target. To pass, the simplification must preserve meaning more closely according to the metric, which may require avoiding the addition of new definitional sentences.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9638,
+          "meaningbert": 0.6586
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:48:24.332955",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In some areas, local governments have tried to encourage artists not to paint graffiti (pictures or writing on walls in public places) on just any wall by allowing them to work in special areas. Taiwan is one of these places, and it has 'graffiti zones' where artists are free to paint and write on walls. In S\u00e3o Paulo in Brazil, the city government has even allowed some graffiti artists to paint on the city's subway trains.",
+      "timestamp": "2025-09-01 10:48:24.333280",
+      "metadata": {
+        "text_id": "04e64063-fdfd-4f76-8525-6967eaab107f",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:48:46.593120",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "21f5390a-6408-4795-b978-19f40f984cdb",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The MeaningBERT score of 0.68 is below the required 0.75 threshold. This indicates a significant shift in the core message as interpreted by the model. The likely cause is the insertion of the long parenthetical definition for 'graffiti' in the first sentence. While defining keywords is a good practice, adding a long clause inside a sentence can alter its semantic structure enough to fail this critical metric. Suggestion: Define the keyword in a separate, simple sentence to avoid this issue. For example: 'Graffiti is pictures or writing on walls in public places. In some areas, local governments encourage artists not to paint it on just any wall...'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9701,
+          "meaningbert": 0.6842
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:48:57.826446",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Graffiti is pictures or writing on walls in public places. In some areas, local governments have tried to encourage artists not to paint it on just any wall by allowing them to work in special areas. Taiwan is one of these places, and it has 'graffiti zones' where artists are free to paint and write on walls. In S\u00e3o Paulo in Brazil, the city government has even allowed some graffiti artists to paint on the city's subway trains.",
+      "timestamp": "2025-09-01 10:48:57.827346",
+      "metadata": {
+        "text_id": "d3689a86-5e3f-4f22-ac52-e0636ae5ecc1",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:49:19.438505",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "34024410-f975-4bcf-9c53-3e2afc923fb7",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The MeaningBERT score of 0.6358 is below the required 0.75 threshold. This failure is likely caused by the addition of the introductory sentence, 'Graffiti is pictures or writing on walls in public places.' While defining the keyword 'graffiti' is a good simplification strategy, adding a full sentence of new information that is not present in the original text significantly alters the semantic content from the perspective of the evaluation metric. The metric compares the output directly to the original, and this new information causes a divergence. To fix this, either remove the added definition or integrate it into an existing sentence to stay closer to the source text's structure.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9639,
+          "meaningbert": 0.6358
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:49:39.830591",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In some areas, local governments have tried to encourage artists not to paint graffiti (pictures or writing on walls in public places) on just any wall by allowing them to work in special areas. Taiwan is one of these places, and it has 'graffiti zones' where artists are free to paint and write on walls. In S\u00e3o Paulo in Brazil, the city government has even allowed some graffiti artists to paint on the city's subway trains.",
+      "timestamp": "2025-09-01 10:49:39.831919",
+      "metadata": {
+        "text_id": "3bf48845-8782-4d23-b0a9-93d7c6ec1c94",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:49:59.645473",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e8442b89-96f2-4de8-88a2-40e5e37f324a",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The MeaningBERT score of 0.6842 is below the required 0.75 threshold, indicating a significant deviation from the original text's core message. This is likely caused by inserting the long definition for 'graffiti' directly into the first sentence. While defining keywords is correct, this method disrupts the sentence's semantic structure, which the metric interprets as a loss of meaning. Suggestion: Define the keyword in a separate, preceding sentence to maintain clarity and flow. For example: 'Graffiti is pictures or writing on walls in public places. In some areas, local governments encourage artists not to paint it on just any wall...'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9701,
+          "meaningbert": 0.6842
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:50:11.248396",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Graffiti is pictures or writing on walls in public places. In some areas, local governments have tried to encourage artists not to paint it on just any wall by allowing them to work in special areas. Taiwan is one of these places, and it has 'graffiti zones' where artists are free to paint and write on walls. In S\u00e3o Paulo in Brazil, the city government has even allowed some graffiti artists to paint on the city's subway trains.",
+      "timestamp": "2025-09-01 10:50:11.248870",
+      "metadata": {
+        "text_id": "b6f8f72b-2b08-42e9-9f35-3bc75f1b4e41",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:50:32.791305",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "890a30f4-1e26-4175-909a-61ec62c25516",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The MeaningBERT score of 0.6358 is below the required 0.75 threshold. This failure is likely caused by the addition of the introductory sentence, 'Graffiti is pictures or writing on walls in public places.' While defining the keyword 'graffiti' is a good simplification strategy, adding a full sentence of new information that is not present in the original text significantly alters the semantic content from the perspective of the evaluation metric. The metric compares the output directly to the original, and this new information causes a divergence. To fix this, either remove the added definition or integrate it into an existing sentence to stay closer to the source text's structure.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9639,
+          "meaningbert": 0.6358
+        }
+      }
+    }
+  ]
+}

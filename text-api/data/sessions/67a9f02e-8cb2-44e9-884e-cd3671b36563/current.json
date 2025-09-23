@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "d86967d1-bb1b-452b-97a2-7abe9ae024b4",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Some bridge falls down are big questions.  \nEngineers study the bridge after it falls down.  \nThey try to find the reason.  \nSometimes the material is weak.  \nSometimes a key part has a problem.  \nEngineers make the bridge for a certain weight.  \nIf it carries more weight, it can fall down.",
+    "version": 11,
+    "created_at": "2025-09-01 17:59:23.944774",
+    "updated_at": "2025-09-01 17:59:23.944776",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "94c5ad8b-aa33-40df-a451-b0e6cb95126e",
+    "approval": "FAIL",
+    "grade": 2,
+    "feedback": "FAIL: Meaning Preservation Failure. The text fails on two critical metrics. The MeaningBERT score of 0.6262 is well below the required 0.75, indicating a significant loss of the original message. The BERTScore of 0.8688 is also below the 0.90 threshold, showing that key factual words were removed.\n- The simplification is too aggressive. The original's concept of a 'mystery' that requires a 'complete investigation' is lost when simplified to 'big questions' and 'study'. This changes the core meaning from a complex engineering problem to a simple question.\n- Key vocabulary was oversimplified, causing the low scores. 'Inferior-quality material' was reduced to 'weak', and 'defect' was reduced to 'problem'. This loses important technical meaning.\n- The phrase 'Some bridge falls down are big questions' is grammatically incorrect. It should be 'Why some bridges fall down is a big question' or similar.\nSuggestion: Restore the core concepts. Use A2-compliant phrasing that is more accurate. For example, 'Engineers do not always know why a bridge falls down' is better than 'Some bridge falls down are big questions'. The goal is simplification, not total loss of meaning.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8688,
+      "meaningbert": 0.6262
+    },
+    "created_at": "2025-09-01 17:59:51.636491"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "22e522c9-9be6-4023-b433-cf5979414a2b",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Some bridges fall down.  \nEngineers find why after a close look.  \nThey fall because they use low quality material.  \nThey fall because a key part has something wrong.  \nThe bridge is made to hold a certain amount of weight.  \nIt cannot hold more weight.",
+    "version": 6,
+    "created_at": "2025-09-01 17:56:06.981076",
+    "updated_at": "2025-09-01 17:56:06.981078",
+    "metrics_meaningbert": 0.7185,
+    "metrics_cefr_compliance": "A2"
+  }
+}

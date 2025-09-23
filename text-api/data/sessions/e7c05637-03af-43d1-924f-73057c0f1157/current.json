@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "299ac7e9-666b-45f1-a3ad-d4527766e44b",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Zoos have an important job.  \nThey protect animal types that are in trouble.  \nIn the wild these animals often cannot find a mate.  \nThey also face people who hunt and lose their homes.  \nZoos give them a safe place to live.  \nZoos also run baby programs.  \nThey work with other zoos around the world.  \nThese programs help the animals have babies safely.  \nThe babies keep the animal families healthy and strong.  \nThis protects the animal types for later.  \nZoo\u2011born animals can be released back into the wild.  \nThey add new families to the wild groups.",
+    "version": 11,
+    "created_at": "2025-09-01 17:27:33.853330",
+    "updated_at": "2025-09-01 17:27:33.853331",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "4b133538-8774-46b0-a3ee-6cad94a5bfc8",
+    "approval": "FAIL",
+    "grade": 2,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5001 is catastrophically below the required 0.75 threshold. This indicates a severe failure to preserve the original text's core message. The simplification was too extreme, resulting in the loss of essential concepts.\n\nFidelity Failure: The BERTScore of 0.8609 is also below the 0.90 minimum. Key lexical information from the original text was lost.\n\nMeaning Loss: The original text's central points about 'international breeding programmes' and 'genetic diversity' have been completely removed. Your text replaces these with vague phrases like 'baby programs' and 'keep the animal families healthy and strong', which do not carry the same meaning.\n\nB1 Vocabulary Violation: The text uses words that are not on the A2 list. 'mate', 'hunt', and 'safely' are B1 level vocabulary. This is a direct violation of the A2 standard.\n\nSuggestion: You must rewrite the text to restore the lost meaning. Re-introduce the concept of genetic diversity. Use a simple phrase like 'This is important so the animal families do not become too similar.' Re-introduce the concept of international cooperation. Use 'Zoos work with other zoos in different countries.' Replace the B1 vocabulary immediately. Use 'find a partner' instead of 'mate'. Use 'in a safe place' instead of 'safely'.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8609,
+      "meaningbert": 0.5001
+    },
+    "created_at": "2025-09-01 17:27:57.364480"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "d21978cd-58bd-48d8-9cc8-d4df66fbff57",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Zoos have an important job.  \nThey help animals that are very rare.  \nIn the wild these animals have few partners.  \nThey also face hunters and lose their homes.  \nThey also have danger from other animals.  \nZoos give them a safe place to live.  \nZoos give them a safe place to have babies.  \nZoos work with other zoos around the world.  \nThis is a baby program with many zoos.  \nThe program helps keep animals from being all from the same family.  \nWhen animals are too similar, they can have problems.  \nThe program adds new families to the group.  \nZoo\u2011born animals can be released into the wild.  \nThis adds new families to wild animals.",
+    "version": 7,
+    "created_at": "2025-09-01 17:24:50.055585",
+    "updated_at": "2025-09-01 17:24:50.055591",
+    "metrics_meaningbert": 0.5759,
+    "metrics_cefr_compliance": "A2"
+  }
+}

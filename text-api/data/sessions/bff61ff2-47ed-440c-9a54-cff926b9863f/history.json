@@ -1,0 +1,413 @@
+{
+  "session_id": "bff61ff2-47ed-440c-9a54-cff926b9863f",
+  "created_at": "2025-09-01 17:27:08.255601",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:27:08.284447",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "103-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many managers try to add positive comments to their comments.  \nThey put a negative comment between two positive ones.  \nHowever, when this is done, employees may think good comments hide negatives.  \nInstead, positive comments should not just soften the negative.  \nThey should be given to make stronger and help good performance.",
+      "timestamp": "2025-09-01 17:27:08.284600",
+      "metadata": {
+        "text_id": "4640d257-c33d-417c-ac69-991e5bc1a8d9",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:27:08.320955",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "77041475-dd5d-4999-8c6a-9c4e6716742e",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8899 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text. The text also fails on CEFR compliance.\n\n- CEFR Compliance Failure: The text was classified as B1, not A2. This is due to the use of grammatical structures that are too complex for the A2 level.\n- B1 Grammar (Passive Voice): The sentence 'They should be given to make stronger...' uses the passive voice ('be given'). This is a B1 structure. A2 requires simple, active sentences.\n- B1 Grammar (Complex Sentence): The sentence 'However, when this is done, employees may think good comments hide negatives' uses a subordinate clause ('when this is done'). This is a B1-level sentence structure.\n- Lexical Fidelity Loss: The original text's key term 'feedback' was replaced with 'comments'. While similar, this substitution reduces the direct lexical link to the source, contributing to the low BERTScore.\n\nSuggestion: Rephrase all sentences to use the active voice. Split complex sentences into separate, simple sentences. Use 'But' instead of 'However'. Restore the key term 'feedback' to improve fidelity.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8899,
+          "meaningbert": 0.8347
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:27:12.119115",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many managers try to add positive feedback.  \nThey put a negative feedback between two positive feedback.  \nBut employees may think positive feedback hides negatives.  \nBut positive feedback should not just soften the negative.  \nThey give positive feedback to strengthen good performance.",
+      "timestamp": "2025-09-01 17:27:12.119302",
+      "metadata": {
+        "text_id": "ce9d960f-8e55-40a7-8e85-35e35f4ab6e6",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:27:33.852787",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b38a0b4b-f290-449d-8317-90ac0fd4a3ed",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8792 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text. The text also fails on CEFR compliance and vocabulary.\n\nCEFR Compliance Failure: The text was classified as B1, not the required A2. This is an automatic failure.\nVocabulary Violation (B1): The word 'feedback' is B1 level. It is used repeatedly. This is unacceptable for an A2 text.\nVocabulary Violation (B2): The word 'strengthen' is B2 level. This is a severe deviation from the A2 standard.\nGrammatical Error: The phrase 'a negative feedback' is incorrect. 'Feedback' is an uncountable noun.\n\nSuggestion: Replace 'feedback' with an A2 word like 'comments' or 'information'. Replace 'strengthen' with an A2 phrase like 'to make... better' or 'to help'. Correct the grammatical error. Rewrite the text using only A2 vocabulary and sentence structures to meet the standard.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8792,
+          "meaningbert": 0.8952
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:27:39.009239",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many managers try to add positive comments.  \nThey put a negative comment between two positive comments.  \nBut employees may think the positive comments hide the negative.  \nPositive comments should not just soften the negative.  \nThey give positive comments to help good performance.",
+      "timestamp": "2025-09-01 17:27:39.009467",
+      "metadata": {
+        "text_id": "e4a6ef9f-b10f-40a6-b231-ffb11ce45a6c",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:28:01.619645",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6a8889c1-68f7-4efe-80cf-a192e30f813b",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8772 is below the required 0.90. This indicates a critical loss of key words and concepts from the original text. The simplification is too aggressive, resulting in a loss of meaning.\n\n- The concept of 'diminishing its value' from the original text has been completely omitted. This is a core part of the original message.\n- The phrase 'reinforce and encourage good performance' was reduced to 'help good performance'. This is a significant loss of meaning. 'Reinforce' means to make something stronger. Your version is too vague.\n- 'Sugarcoating the negatives' was simplified to 'hide the negative'. While close, it loses the specific nuance of making something bad seem more pleasant.\n\nSuggestion: Re-write the text. You must restore the missing concept that positive feedback loses its value. You must also find a simple A2 way to express the idea of 'reinforcing' or 'encouraging' good work, not just 'helping' it. For example: 'Positive comments should tell employees they are doing a good job and to keep doing it.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8772,
+          "meaningbert": 0.8553
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:28:05.367187",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many managers add positive comments.  \nThey put a negative comment between two positive comments.  \nEmployees may think the positive comments lose their value.  \nThey may see the positives as covering the negative.  \nPositive comments should tell employees they are doing a good job.  \nThey should also say to keep doing it.  \nThis makes the good work stronger.",
+      "timestamp": "2025-09-01 17:28:05.367442",
+      "metadata": {
+        "text_id": "17a2ec50-b81d-427e-ad47-356c2d18549c",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:28:30.111795",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ad8da55c-026d-4797-a7ae-66c75f284daf",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8629 is below the required 0.90 threshold. This indicates a significant loss of key phrasing and lexical detail from the original text. The original's specific concepts like 'diminishing its value' and 'reinforce and encourage' were oversimplified to 'lose their value' and 'makes the good work stronger', which caused the score to drop.\n\nAdditional Failures:\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is a direct result of using B1-level vocabulary and concepts.\n- Vocabulary Violation: The word 'value' is B1 level and is not permitted. The phrase 'lose their value' is too complex for the A2 standard.\n\nSuggestion: Remove the B1 word 'value'. Rephrase the sentence 'Employees may think the positive comments lose their value.' using only A1/A2 words. Example: 'Employees may think the good comments are not important.' or 'Employees may not believe the good comments.' The text must be rewritten to meet the 0.90 BERTScore and achieve an A2 classification.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8629,
+          "meaningbert": 0.8533
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:28:35.319783",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many managers add positive comments.  \nThey put a negative comment between two positive comments.  \nEmployees may think the good comments are not important.  \nThey may see the positives as covering the negative.  \nPositive comments should tell employees they are doing a good job.  \nThey should also say to keep doing it.  \nThis helps the good work stay strong.",
+      "timestamp": "2025-09-01 17:28:35.320114",
+      "metadata": {
+        "text_id": "cf1eb66f-ee9d-418b-b371-ce5a1eedf3ba",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:29:02.431453",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e83d299d-cbb5-4f64-897f-1947dc50cf17",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8607 is below the required 0.90 threshold. This indicates a significant loss of key words and factual phrasing from the original text.\n- The simplification is too aggressive, removing important concepts.\n- The original phrase 'reinforce and encourage good performance' was reduced to 'helps the good work stay strong', which loses the specific meaning of encouragement.\n- The concept of positive feedback 'diminishing its value' was oversimplified to 'are not important'. This is not an equivalent meaning.\n- The original's specific term 'sugarcoating' was replaced with the generic 'covering', losing lexical precision.\nSuggestion: The text must be rewritten to preserve more of the original's key vocabulary while remaining at an A2 level. Restore the concepts of 'encouragement' and 'value'. For example, rephrase 'helps the good work stay strong' to 'helps employees to continue their good work'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8607,
+          "meaningbert": 0.8455
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:29:11.016370",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many managers add positive comments.  \nThey put a negative comment between two positive comments.  \nEmployees may think the positive comments are just sugarcoating the negative.  \nThis can make the positive feedback lose its value.  \nPositive feedback should reinforce good performance.  \nIt should also encourage employees to keep doing good work.",
+      "timestamp": "2025-09-01 17:29:11.018145",
+      "metadata": {
+        "text_id": "2122073c-6c7b-47e0-a194-2571716b2de3",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:29:30.636099",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2fa3e94b-4f86-424f-a526-cbf4b4af36dd",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8829 is below the required 0.90. This indicates a failure to retain key lexical items from the original text. The submission also fails on CEFR compliance.\n\n- CEFR Compliance Failure: The text was classified as B1. The target level is A2. This is an instant failure.\n- B2 Vocabulary Violation: The word 'reinforce' is B2 level. It is not permitted. It must be replaced. Suggestion: Rephrase 'Positive feedback should reinforce good performance' to 'Good comments should support good work'.\n- B1 Vocabulary Violation: The word 'feedback' is used multiple times. This is a B1 word. Replace it with an A2 alternative like 'comments about work'.\n- B1 Vocabulary Violation: The word 'value' is B1 level. Rephrase the sentence to avoid it. Suggestion: Change 'lose its value' to 'seem less important'.\n- B1 Vocabulary Violation: The word 'encourage' is B1 level. Replace it with a simpler A2 phrase. Suggestion: Change 'encourage employees' to 'help employees'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8829,
+          "meaningbert": 0.9368
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:29:33.741983",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many managers add positive comments.  \nThey put a negative comment between two positive comments.  \nWorkers may think the positive comments just cover the negative.  \nThis can make the positive comments seem not as important.  \nPositive comments should help good work.  \nThey should also help workers keep doing good work.",
+      "timestamp": "2025-09-01 17:29:33.745420",
+      "metadata": {
+        "text_id": "b3e19ac5-b366-47d7-b114-e901419a81c3",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:30:01.670819",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f43b6564-a04c-4bdb-a6b4-98e4ee5b6323",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6965 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\nFidelity Failure: The BERTScore of 0.8639 is also below the 0.90 minimum. Key terms from the original like 'feedback', 'routine', 'diminishing its value', and 'reinforce' were removed, damaging lexical fidelity.\n\nLoss of Logic: The original text uses contrast ('However', 'Instead') to build an argument. Your version is a list of simple, disconnected statements that fails to show this relationship.\n\nWeak Translation: The concept of positive comments 'diminishing its value' is poorly translated to 'seem not as important'. The purpose of 'reinforce and encourage good performance' is oversimplified to 'help good work'.\n\nSuggestion: Reintroduce the word 'feedback'. Use simple connectors like 'but' and 'so' to restore the logical flow. Rephrase sentences to more accurately reflect the original's meaning about feedback losing its value and the need to encourage workers.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8639,
+          "meaningbert": 0.6965
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:30:06.912512",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many managers add positive feedback.  \nThey put a negative feedback between two positive feedbacks.  \nWhen this becomes routine, workers may think positive feedback covers the negative.  \nBut this can make positive feedback seem less important.  \nPositive feedback should reinforce good work.  \nIt should also encourage workers to keep doing good work.",
+      "timestamp": "2025-09-01 17:30:06.914297",
+      "metadata": {
+        "text_id": "dc24dacc-3024-493c-882f-18a3e5e87216",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:30:30.224519",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1dfd6901-5bc4-4b8a-9d7b-dfa65594570a",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8805 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text.\n\nThe text also fails the CEFR compliance check. The classifier rated the output as B1, which is too complex for the A2 standard.\n\nDetected Deviations:\n- CEFR Compliance Failure: The text is B1 level. This is a direct result of vocabulary violations.\n- Vocabulary Violation: You used the B1 words 'feedback' and 'encourage', and the B2 word 'reinforce'. These words are not on the A2 list and are too advanced. They must be replaced with simpler words or explanations.\n- Grammatical Error: The word 'feedback' is an uncountable noun. The plural form 'feedbacks' is incorrect.\n\nCorrective Path:\n- Suggestion: You must replace all B1 and B2 level words. Do not use 'feedback', 'reinforce', or 'encourage'.\n- Suggestion: Explain the concept of 'feedback' using A2 words. For example: 'what a manager says about a person's work'.\n- Suggestion: Rephrase the sentence 'Positive feedback should reinforce good work'. A correct A2 version would be: 'Saying good things shows the worker they are doing a good job'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8805,
+          "meaningbert": 0.8456
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:30:37.686724",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many managers say good things about work.  \nThey put a bad comment between two good comments.  \nWhen this happens often, workers may think good comments hide bad one.  \nThen the good comments seem less important.  \nSaying good things should show the worker they do a good job.  \nIt also helps the worker keep doing good work.",
+      "timestamp": "2025-09-01 17:30:37.688681",
+      "metadata": {
+        "text_id": "bc517ebc-7c13-43a1-b2fe-b6ef8b2c75e7",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:30:59.472999",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d168ae49-a916-4cdb-906c-e8dd71812972",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5949 is critically below the required 0.75 threshold. The text has been oversimplified to the point of losing the original's core message.\n\n- Fidelity Failure: The BERTScore of 0.8597 is also below the 0.90 minimum. This is a direct result of removing essential keywords from the original text, such as 'feedback', 'employees', 'routine', and 'performance'.\n\n- Meaning Distortion: The original text explains that positive feedback's value is 'diminished' because it is perceived as 'sugarcoating'. Your version, 'workers may think good comments hide bad one', is a less accurate simplification. The problem is not just hiding, but the loss of value for all positive comments.\n\n- Weakened Concept: The original's purpose for positive feedback is to 'reinforce and encourage good performance'. Your version, 'helps the worker keep doing good work', is a much weaker statement and fails to capture the active concept of reinforcement.\n\n- Suggestion: Re-introduce the key term 'feedback'. Rephrase to state that the good feedback loses its meaning or value. Rephrase the final sentences to more strongly express the idea of using good feedback to make good work stronger.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8597,
+          "meaningbert": 0.5949
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:31:03.857624",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many managers give feedback.  \nThey put a negative comment between two positive comments.  \nWhen they do this often, it becomes a routine.  \nEmployees then think the positive feedback is just sugarcoating the negative.  \nThe value of the positive feedback goes down.  \nGood feedback should instead make good performance stronger.  \nIt should encourage employees to keep doing good work.",
+      "timestamp": "2025-09-01 17:31:03.858190",
+      "metadata": {
+        "text_id": "0c606969-4b49-4e6e-87cc-dbccc33bcb98",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:31:22.786455",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e6f75e2f-3be8-4eff-b601-1d8a6e3d8449",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8833 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text. The text also fails the CEFR compliance check, with the classifier rating it as B1, which is too advanced for the A2 standard.\n\n- CEFR Level Violation: The text was classified as B1. This is a direct result of using unapproved B1 vocabulary.\n- Vocabulary Violation: The words 'feedback', 'value', and 'encourage' are B1 level. These words are too complex for an A2 audience and must be replaced or defined. The 'Keywords for Definition' list was empty, which is a procedural failure.\n- Fidelity Loss: The low BERTScore is a result of oversimplification. For example, replacing 'diminishing its value' with 'goes down' loses lexical precision.\n\nSuggestion: Replace all B1 vocabulary. Rephrase 'The value of the positive feedback goes down' to 'The good comments are not important anymore'. Rephrase 'It should encourage employees' to 'It should help employees want to do good work'. The core B1 term 'feedback' must be defined in simple A2 terms if it is to be used.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8833,
+          "meaningbert": 0.8673
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:31:30.162562",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many managers give comments.  \nThey put a negative comment between two positive comments.  \nWhen they do this often, it becomes regular.  \nEmployees then think the positive comments only hide the negative.  \nThe good comments are not useful anymore.  \nGood comments should make good performance stronger.  \nThey should help employees want to do good work.",
+      "timestamp": "2025-09-01 17:31:30.163765",
+      "metadata": {
+        "text_id": "08f03282-aeb8-452d-9600-d16abbd8276d",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:31:57.769038",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "39b88cdc-bbcb-4ebd-9392-04cc155b5245",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8639 is below the required 0.90 threshold. This indicates a significant loss of key phrasing and lexical detail from the original text, even though the general meaning is preserved.\n\n- The text fails because it oversimplifies the original concepts to a degree that harms fidelity. While the vocabulary and sentence structure are A2 compliant, the translation of ideas is too weak.\n- The original concept of 'sugarcoating the negatives' was reduced to 'hide the negative.' This is an inaccurate simplification. The goal is not to hide, but to make something unpleasant seem more acceptable.\n- The original's 'diminishing its value' became 'not useful anymore.' This is a loss of nuance. The feedback still has a use, but its value or positive impact is reduced, which is a different concept.\n- The original's 'reinforce and encourage good performance' was replaced with 'make good performance stronger.' This is a vague and imprecise substitution for the specific actions of reinforcing and encouraging.\n\nSuggestion: Revise the text to capture the original's key terms more accurately using A2 vocabulary. Do not replace specific concepts with generic descriptions. To explain 'sugarcoating,' you could write 'employees think the good comments are only there to make the bad comments seem better.' This preserves the meaning with A2 language.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8639,
+          "meaningbert": 0.8173
+        }
+      }
+    }
+  ]
+}

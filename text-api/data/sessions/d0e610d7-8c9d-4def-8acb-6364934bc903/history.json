@@ -1,0 +1,154 @@
+{
+  "session_id": "d0e610d7-8c9d-4def-8acb-6364934bc903",
+  "created_at": "2025-09-01 10:41:17.798078",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:41:17.809220",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "104-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I am in a group. The group wants to stop killer robots.\n\nKiller robots are not like in the movies. They are not scary robots from a film. But they are real now. Soldiers use machines like drones and special guns. These machines kill people. A person does not help very much.\n\nSoon, there will be new robots. They will follow orders. But in the end, they will decide who to kill. They will decide on their own.\n\nI think this is very wrong. It is also dangerous for all people. We need to be very careful. We must think about what we ask machines to do.",
+      "timestamp": "2025-09-01 10:41:17.810015",
+      "metadata": {
+        "text_id": "edd0da79-56d1-472a-a884-5b692f20d72b",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:41:17.818783",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5fc13e27-9718-43f8-bd96-5a8c5f7d5f38",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6648 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message and tone of the original text. A secondary failure was detected in the BERTScore of 0.8923, which is below the 0.90 requirement, indicating a loss of key phrasing.\n\nDetected Deviations:\n- The primary failure is the loss of the original text's urgent and cautionary tone. The original uses strong language like 'murderbots' and 'unethical', which you have neutralized to 'new robots' and 'very wrong'. This changes the entire message from a warning to a simple description.\n- The specific proper noun 'Campaign to Stop Killer Robots' was oversimplified to 'a group'. This removes essential context and factual detail, contributing directly to the low meaning and fidelity scores.\n- While the vocabulary and sentence structure are compliant with A2, the simplification was too aggressive, resulting in a text that does not accurately represent the source material's intent.\n\nSuggestion: Re-write to restore the core meaning. The text must convey a sense of warning and opposition. Do not remove specific names like the campaign; instead, explain it in simple terms if necessary. The goal is A2 readability, not the complete removal of important facts.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8923,
+          "meaningbert": 0.6648
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:41:44.953628",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I am in a group called the 'Campaign to Stop Killer Robots'. We want to stop robots that kill.\n\nKiller robots are not like in the movies. They are not scary robots from a film. But they are real now. Soldiers use machines like drones and special guns. These machines kill people. A person does not help very much.\n\nSoon, there will be robots that kill on their own. They will follow orders. But they will decide who to kill.\n\nI think this is completely wrong. It is very dangerous for all people. We need to be very careful. We must think about what we ask machines to do.",
+      "timestamp": "2025-09-01 10:41:44.953774",
+      "metadata": {
+        "text_id": "89b32eb1-213d-4874-8423-1989ad44b619",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 7/10 - FAIL",
+      "timestamp": "2025-09-01 10:42:09.402001",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "917ebe45-93e7-41ed-9abc-c1190d66578d",
+        "grade": 7,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8983 is below the required 0.90 threshold. This indicates a loss of key words from the original text. The primary cause of the low score is the oversimplification of 'military machines like drones, gun turrets and sentry robots' into 'machines like drones and special guns'. This loses important lexical detail. While the CEFR A2 classification is correct and the sentence structure is excellent, the loss of fidelity to the original phrasing is a critical failure. Suggestion: Restore the lost detail to meet the fidelity requirement. Rephrase 'machines like drones and special guns' to something more specific, such as 'machines like drones and robot guns that work on their own'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8983,
+          "meaningbert": 0.8348
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:42:24.998191",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I am in a group called the 'Campaign to Stop Killer Robots'. We want to stop robots that kill.\n\nKiller robots are not like in the movies. They are not scary robots from a film. But they are real now. Soldiers use machines like drones, robot guns, and robot guards. These machines kill people. A person does not help very much.\n\nSoon, there will be robots that kill on their own. They will follow orders. But they will decide who to kill.\n\nI think this is completely wrong. It is very dangerous for all people. We need to be very careful. We must think about what we ask machines to do.",
+      "timestamp": "2025-09-01 10:42:24.999402",
+      "metadata": {
+        "text_id": "c7240a69-6c7e-48da-ab66-45cdef5ca57f",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 7/10 - FAIL",
+      "timestamp": "2025-09-01 10:42:53.347329",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ece4f03c-d61e-4f9e-b909-39b9dc2d0626",
+        "grade": 7,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8996 is below the required 0.90 threshold. This indicates a failure to retain sufficient key words and phrasing from the original text. The text is factually correct and meets the A2 classification, but it fails on this critical metric. Deviation: Key terms were over-simplified, causing a loss of lexical fidelity. The original text specified 'gun turrets' and 'sentry robots'. Your output replaced these with the generic phrases 'robot guns' and 'robot guards'. This change is the primary reason for the score dropping below the minimum requirement. Deviation: The phrase 'very little human input' was changed to 'A person does not help very much'. While the meaning is similar, the rephrasing contributes to the overall fidelity loss. Suggestion: Retain specific, important nouns from the original text like 'gun turrets' and 'sentry robots'. Do not replace them with generic descriptions. The goal is simplification of structure, not the elimination of all specific terminology.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8996,
+          "meaningbert": 0.82
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:43:11.019721",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I am in a group called the 'Campaign to Stop Killer Robots'. We want to stop robots that kill.\n\nKiller robots are not like in the movies. They are not scary robots from a film. But they are real now. Soldiers use machines like drones, gun turrets, and sentry robots. These machines kill people. A person gives very little help.\n\nSoon, there will be robots that kill on their own. They will follow orders. But they will decide who to kill.\n\nI think this is completely wrong. It is very dangerous for all people. We need to be very careful. We must think about what we ask machines to do.",
+      "timestamp": "2025-09-01 10:43:11.021310",
+      "metadata": {
+        "text_id": "5fcd4273-69cc-443c-b5fd-e31b2b463494",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 10:43:32.114788",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "608c1338-7480-4ca4-a413-082fd7f15bbd",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text successfully meets all A2 requirements.\n\n- Factual Accuracy: The text is factually identical to the original source material. No information has been lost or altered.\n- Metrics Compliance: The MeaningBERT score of 0.8283 and BERTScore of 0.9052 are well above the required thresholds, confirming excellent preservation of meaning and key terms.\n- CEFR Classification: The text correctly classifies as A2, demonstrating perfect adherence to the target level.\n- Vocabulary Control: Vocabulary is strictly limited to the A2 level. Complex concepts from the original text were correctly simplified into A2 terms (e.g., 'unethical' became 'wrong'; 'humanity' became 'all people').\n- Sentence Structure: All sentences are short and use simple, direct structures appropriate for the A2 level. Complex ideas have been successfully broken down into individual, easy-to-understand sentences.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9052,
+          "meaningbert": 0.8283
+        }
+      }
+    }
+  ]
+}

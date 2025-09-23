@@ -1,0 +1,413 @@
+{
+  "session_id": "0eafb37d-ebdd-4104-bf6c-30dbf3a6ac52",
+  "created_at": "2025-09-01 17:53:14.283679",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:53:18.114114",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "03-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The `Capitol` is a big city. It is very strong. It rules all the other places.\n`Tributes` are young people. They are chosen to fight.\n\nThe Hunger Games is an event. It happens every year. The Capitol uses this event. It wants to punish the other places. This is because they fought the Capitol before. Every year, one boy and one girl are chosen. They are from each place. They are 12 to 18 years old. People choose them by chance. These young people must fight. Only one person can live. All the people in the country must watch this event on TV.",
+      "timestamp": "2025-09-01 17:53:18.114223",
+      "metadata": {
+        "text_id": "3e58b138-503a-4356-82a3-308fe8a58e84",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:53:19.004281",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "59096a56-e494-43b3-9b67-28baa05bbfc3",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. Your output did not adequately preserve the core meaning and lexical fidelity of the original text.\n\nDetected Deviations:\n*   Meaning Preservation Failure: The MeaningBERT score of 0.6672 is significantly below the required 0.75. While your text mentions punishment, the original emphasizes the Capitol's use of the Games 'to remind the districts that they are being punished for rebelling'. Your version, 'It wants to punish the other places. This is because they fought the Capitol before,' loses the nuance of the Games as an ongoing reminder and a tool of control, simplifying it to a direct act of punishment. The initial definitions, while helpful, also shift the focus from the immediate description of the event's purpose.\n*   Fidelity Failure: The BERTScore of 0.8912 is below the required 0.90. This indicates a loss of specific and important vocabulary from the original text.\n    *   'districts' was replaced with 'other places'. This loses the specific political subdivision.\n    *   'rebelling' was replaced with 'fought the Capitol before'. This is a less concise and less specific term for the act of rebellion.\n    *   'lottery' was replaced with 'by chance'. 'Lottery' is a specific method of selection that should be retained or defined simply.\n    *   'battle' was replaced with 'fight'. While similar, 'battle' implies a more organized and significant conflict.\n    *   'teenagers' was replaced with 'young people'. 'Teenagers' specifies an age group more precisely than 'young people'.\n    *   'nation' was replaced with 'country'. 'Nation' often carries a stronger political connotation.\n\nCorrective Path:\n*   Rephrase the purpose of the Hunger Games to more accurately reflect the 'remind and punish' aspect, rather than just 'wants to punish'.\n*   Retain key vocabulary from the original text where possible, such as 'districts', 'rebelling', 'lottery', 'battle', and 'teenagers'. If these words are deemed too complex for A2, they must be defined in extremely simple A1/A2 terms within the context of the sentence, not simply replaced with less precise synonyms.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8912,
+          "meaningbert": 0.6672
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:53:34.952654",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The `Capitol` is a big city. It is very strong. It rules many places. These places are called `districts`.\nThe Hunger Games is an event. It happens every year. The Capitol uses this event. It wants to remind the districts. The districts rebelled against the Capitol. So, the Capitol punishes them.\nEvery year, one boy and one girl are chosen. They are from each district. They are `teenagers`. They are 12 to 18 years old. People choose them by `lottery`. This means by chance. These teenagers must fight in a `battle`. Only one person can live. These chosen teenagers are called `tributes`. All the people in the `nation` must watch this event on TV.",
+      "timestamp": "2025-09-01 17:53:34.952870",
+      "metadata": {
+        "text_id": "0149c2db-1475-4ae2-9ee5-e13e80f8e224",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:53:49.561540",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "80483050-c75e-4108-a052-dda793017d4a",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The writer's output introduces information not present in the original text. The original text does not describe the Capitol as 'a big city' or 'very strong'. This is an addition of detail that deviates from the source material. The first four sentences of your output, 'The Capitol is a big city. It is very strong. It rules many places. These places are called districts.', are not derived from the provided original text and constitute a factual deviation.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.896,
+          "meaningbert": 0.8461
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:54:07.286647",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Hunger Games is an event. It happens every year. The `Capitol` uses this event. It wants to remind the districts. The districts rebelled against the Capitol. So, the Capitol punishes them.\nEvery year, one boy and one girl are chosen. They are from each district. They are teenagers. They are 12 to 18 years old. People choose them by `lottery`. This means by chance. These teenagers must fight in a battle. Only one person can live. These chosen teenagers are called `tributes`. All the people in the nation must watch this event on TV.",
+      "timestamp": "2025-09-01 17:54:07.287002",
+      "metadata": {
+        "text_id": "34cf9a3b-0ac4-4678-ac86-9d76baf30266",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:54:31.896433",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c7902b91-a61a-402b-b23d-1656608a8167",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Deviation. Despite the CEFR classifier rating the text as A2, a deep qualitative audit reveals the use of several B1 and B2 level words without adequate simplification or definition, which is a direct violation of A2 vocabulary standards. The text fails to maintain strict A2 lexical compliance. Specific deviations include: The word 'remind' (B1) is used in 'It wants to remind the districts.' This word is above A2 level and should be simplified. The word 'district' (B1) is used multiple times (e.g., 'from each district'). This word is above A2 level and requires simplification or a simpler synonym. The word 'battle' (B1) is used in 'fight in a battle.' This word is above A2 level and should be simplified. The word 'nation' (B1) is used in 'All the people in the nation.' This word is above A2 level and requires simplification. The word 'means' (B2) is used in 'This means by chance.' While it serves to define 'lottery', the word 'means' itself is a B2 level word. An A2 alternative should be used, such as 'This is like chance' or 'This is chance'. Suggestion: Replace all identified B1 and B2 vocabulary with simpler A2 equivalents or provide clear, simple A2 definitions for each instance. For example, 'remind' could be 'tell again', 'district' could be 'area' or 'part of the country', 'battle' could be 'big fight', 'nation' could be 'country' or 'all the people in the country'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9181,
+          "meaningbert": 0.8485
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:54:46.760296",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Hunger Games is an event. It happens every year. The `Capitol` is a powerful place. It uses this event. It wants to tell the areas again. The areas rebelled against the Capitol. So, the Capitol punishes them.\nEvery year, one boy and one girl are chosen. They are from each area. They are teenagers. They are 12 to 18 years old. People choose them by `lottery`. This is like chance. These teenagers must fight in a big fight. Only one person can live. These chosen teenagers are called `tributes`. All the people in the country must watch this event on TV.",
+      "timestamp": "2025-09-01 17:54:46.760644",
+      "metadata": {
+        "text_id": "b07627db-ecb9-4ecd-8815-e4718fa10dd9",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:55:07.854359",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "503e5565-b193-496a-98b3-3a6709850386",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7142 is below the required 0.75. The core message regarding the purpose of the Hunger Games has been diluted. The original text clearly states the Capitol 'uses [the Hunger Games] to remind the districts that they are being punished for rebelling.' Your version fragments this crucial purpose into 'It wants to tell the areas again. The areas rebelled against the Capitol. So, the Capitol punishes them.' This rephrasing weakens the direct causal link and the concept of the event itself serving as an ongoing reminder of punishment. The word 'remind' conveys a specific, deliberate act of memory enforcement that is lost in 'tell again'.\nSuggestion: Rephrase the section to explicitly state the Hunger Games' purpose as a direct reminder of punishment, using simpler A2 vocabulary and sentence structures while preserving the original's strong causal connection.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9062,
+          "meaningbert": 0.7142
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:55:22.958735",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Hunger Games is an event. It happens every year. The `Capitol` is a powerful place. The Capitol uses this event. It wants to remind the areas. It reminds them that they rebelled. It reminds them that the Capitol punishes them.\nEvery year, one boy and one girl are chosen. They are from each area. They are teenagers. They are 12 to 18 years old. People choose them by `lottery`. This is like chance. These teenagers must fight in a big fight. Only one person can live. These chosen teenagers are called `tributes`. All the people in the country must watch this event on TV.",
+      "timestamp": "2025-09-01 17:55:22.959146",
+      "metadata": {
+        "text_id": "c063b91e-b34c-4421-90ab-7adb3a78d8f1",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:55:53.229619",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d6305cf6-9f16-47ad-85d9-2c2c87547c23",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary and Keyword Definition Failure. The text contains multiple words above the A2 level and fails to define designated keywords in simple A2 terms as required. The MeaningBERT score of 0.7678 and BERTScore of 0.9121 indicate good content preservation, and the CEFR classifier correctly identified the text as A2, but a deep qualitative audit reveals critical deviations from A2 vocabulary standards. Specific deviations are as follows: The word 'powerful' (B1 level) is used in the sentence 'The Capitol is a powerful place.' This word is above the A2 vocabulary limit. The word 'remind' (B1 level) is used multiple times, for example, 'It wants to remind the areas.' and 'It reminds them that they rebelled.' This word is above the A2 vocabulary limit. The word 'lottery' (B1 level) is used in 'People choose them by lottery.' While an explanation 'This is like chance' is provided, the B1 word 'lottery' itself is used directly and is not a designated keyword for definition, making its direct inclusion a deviation. The keyword 'Capitol' was not defined in radically simple A2 terms. Its description 'The Capitol is a powerful place' uses the B1 word 'powerful', which is not an A2-level definition. The keyword 'tributes' was not defined in radically simple A2 terms. The text states 'These chosen teenagers are called tributes,' which is a statement of fact, not a definition using A2 vocabulary. Suggestion: Replace 'powerful' with A2 vocabulary such as 'very strong' or 'big and strong'. Replace 'remind' with A2 vocabulary such as 'tell them again' or 'make them think about'. Rephrase the sentence about 'lottery' to avoid the B1 word entirely, for example, 'People choose them by chance' or 'People choose them by drawing names from a hat'. Define 'Capitol' using only A2 words, for example, 'The Capitol is the main city and it is very important.' Define 'tributes' using only A2 words, for example, 'These teenagers are called 'tributes'. They are the people who must fight.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9121,
+          "meaningbert": 0.7678
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:56:14.337935",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Hunger Games is an event. It happens every year. The `Capitol` is the main city. It is very important and very strong. The Capitol uses this event. It wants to tell the areas again why it punishes them. It punishes them because they fought.\nEvery year, one boy and one girl are chosen. They are from each area. They are teenagers. They are 12 to 18 years old. People choose them by chance. These teenagers must fight in a big fight. Only one person can live. These chosen teenagers are called `tributes`. They are the people who must fight. All the people in the country must watch this event on TV.",
+      "timestamp": "2025-09-01 17:56:14.338385",
+      "metadata": {
+        "text_id": "964eb55d-1d5f-40f3-a029-e6e3a007906c",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:56:38.264222",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "700d7326-c803-4cf3-95d5-7613f685d095",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6391 is significantly below the required 0.75 threshold. The core message of the original text has been diluted and altered. The original text emphasizes the brutal nature of the games where 'only one person can survive'. Your version states 'Only one person can live', which significantly weakens the critical concept of a struggle against death. The original also states the Capitol uses the games 'to remind the districts that they are being punished for rebelling'. Your version, 'It wants to tell the areas again why it punishes them. It punishes them because they fought', loses the nuance of an ongoing reminder and the continuous state of 'being punished'. Additionally, the introduction of 'The Capitol is the main city. It is very important and very strong' adds information not central to the original text's core message about the purpose of the Hunger Games, further deviating from the original's focus.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9045,
+          "meaningbert": 0.6391
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:57:02.087106",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Hunger Games is an event. It happens every year. The `Capitol` is the main city. The Capitol uses this event to punish the areas. The areas fought against the Capitol. This event reminds them of their punishment.\nEvery year, one boy and one girl are chosen. They are from each area. They are 12 to 18 years old. People choose them by luck. These teenagers must fight in a big fight. Only one person can live. The others must die. These chosen teenagers are called `tributes`. They are the people who must fight. All the people in the country must watch this event on TV.",
+      "timestamp": "2025-09-01 17:57:02.087555",
+      "metadata": {
+        "text_id": "1e1debfe-f5b6-4b33-b99f-ef77aeffbccd",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:57:36.540016",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "634a9210-c185-4641-878c-51bc431c3968",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The writer's output contains information not present in the original text, which is an instant failure. Detected Deviations: Factual Inaccuracy: The sentence 'The Capitol is the main city.' is an added fact not found in the original source material. Meaning Preservation Failure: The MeaningBERT score of 0.7301 is below the required 0.75. While the text attempts to simplify, the cumulative effect of lexical substitutions and structural changes, along with the factual addition, has slightly altered the core semantic representation. Vocabulary Deviation: The words 'punish' and 'punishment' are classified as B1 vocabulary. For an A2 text, these words must be replaced with simpler A2 equivalents or rephrased to convey the meaning using A2 lexicon. Corrective Path: Remove the sentence 'The Capitol is the main city.' to ensure factual fidelity. Rephrase sections to strictly preserve the original meaning without adding new information or significantly altering semantic emphasis. Replace 'punish' and 'punishment' with A2 vocabulary. For example, 'make them suffer for' or 'give them a bad time for' could be considered, or rephrase the entire concept using simpler terms like 'make them pay for what they did'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9111,
+          "meaningbert": 0.7301
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:57:53.471072",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Hunger Games is an event. It happens every year. The `Capitol` is a place. It uses this event to remind the areas. The areas fought against the Capitol. The Capitol makes them pay for this.\nEvery year, one boy and one girl are chosen. They are from each area. They are 12 to 18 years old. People choose them by luck. These teenagers must fight in a big fight. Only one person can live. The others must die. These chosen teenagers are called `tributes`. They are the people who must fight. All the people in the country must watch this event on TV.",
+      "timestamp": "2025-09-01 17:57:53.471546",
+      "metadata": {
+        "text_id": "73ab00cd-23b7-4600-bc70-d9c9e33f1f71",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:58:17.433620",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "aef250a5-0e90-4f8f-96c9-440dc92da666",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Deviation. The word 'remind' is classified as B1 in the provided vocabulary list, but it is used in your A2 output. For example, the sentence 'It uses this event to remind the areas' contains this B1 vocabulary item. All other metrics passed: Factual Integrity was maintained, MeaningBERT score (0.7502) and BERTScore (0.9084) met the minimum requirements, and the CEFR classifier correctly identified the text as A2. However, the presence of B1 vocabulary is a direct violation of the strict A2 standard. Suggestion: Replace 'remind' with a simpler A2 phrase, such as 'tell' or 'make them remember'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9084,
+          "meaningbert": 0.7502
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:58:30.103802",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Hunger Games is an event. It happens every year. The `Capitol` is a place. It uses this event to tell the areas. The areas fought against the Capitol. The Capitol makes them pay for this.\nEvery year, one boy and one girl are chosen. They are from each area. They are 12 to 18 years old. People choose them by luck. These teenagers must fight in a big fight. Only one person can live. The others must die. These chosen teenagers are called `tributes`. They are the people who must fight. All the people in the country must watch this event on TV.",
+      "timestamp": "2025-09-01 17:58:30.104333",
+      "metadata": {
+        "text_id": "ba92f38e-8dd3-4abb-ace3-2dc140e8830d",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:58:49.138350",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b759e0a4-2f54-4017-a47c-5806a661e3c8",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7304 is below the required 0.75. The original text emphasizes that the Hunger Games are used to 'remind' the districts of their punishment for rebelling. Your version states 'The Capitol makes them pay for this', which describes the punitive action but loses the crucial nuance of the event serving as a continuous reminder or psychological tool. This subtle but critical aspect of the original message is diminished. The BERTScore of 0.9057 is acceptable, indicating good lexical fidelity. The CEFR classifier correctly identified the text as A2, indicating appropriate linguistic complexity for the target level. However, the failure to fully preserve the core meaning is a critical deviation.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9057,
+          "meaningbert": 0.7304
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:59:00.993829",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Hunger Games is an event. It happens every year. The `Capitol` is a place. It uses this event to remind the areas. The areas fought against the Capitol. The Capitol wants them to remember their punishment.\nEvery year, one boy and one girl are chosen. They are from each area. They are 12 to 18 years old. People choose them by luck. These teenagers must fight in a big fight. Only one person can live. The others must die. These chosen teenagers are called `tributes`. They are the people who must fight. All the people in the country must watch this event on TV.",
+      "timestamp": "2025-09-01 17:59:00.994804",
+      "metadata": {
+        "text_id": "0b3e8254-0313-4b60-87b9-fea2c98c2e6b",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:59:18.958843",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5ec31a3c-87c7-4301-ba6a-8193326d25e3",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Deviation. The text uses B1 vocabulary, specifically 'remind' and 'punishment', which are explicitly listed as B1 in the provided vocabulary candidates. Adherence to A2 vocabulary is non-negotiable for an A2 text. While the automated CEFR classifier rated the text as A2, the manual vocabulary audit identifies these specific words as exceeding the A2 level. The text otherwise demonstrates good structural simplification and factual integrity. Suggestion: Replace 'remind' with an A2 phrase such as 'make them think about' or 'tell them again about'. Suggestion: Replace 'punishment' with an A2 phrase such as 'the bad thing they did' or 'what happens when you do bad things'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9093,
+          "meaningbert": 0.8423
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:59:32.442625",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Hunger Games is an event. It happens every year. The `Capitol` is a place. It uses this event to make the areas think about this. The areas fought against the Capitol. The Capitol wants them to remember the bad thing they did.\nEvery year, one boy and one girl are chosen. They are from each area. They are 12 to 18 years old. People choose them by luck. These teenagers must fight in a big fight. Only one person can live. The others must die. These chosen teenagers are called `tributes`. They are the people who must fight. All the people in the country must watch this event on TV.",
+      "timestamp": "2025-09-01 17:59:32.443307",
+      "metadata": {
+        "text_id": "d260f640-95b8-4714-8854-4b523c1658b5",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:59:46.173109",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6572bb86-5127-4398-932f-6a5ce67f63da",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6787 is below the required 0.75. The original text clearly states the Capitol uses the event to remind districts they are 'being punished for rebelling'. Your version dilutes this core message to 'make the areas think about this' and 'remember the bad thing they did', which significantly weakens the concept of ongoing punishment and its explicit reason. Additionally, the phrase 'The others must die' is an explicit addition not present in the original text, further altering the precise meaning conveyed.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9058,
+          "meaningbert": 0.6787
+        }
+      }
+    }
+  ]
+}

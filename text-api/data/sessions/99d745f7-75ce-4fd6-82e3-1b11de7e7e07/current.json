@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "20c4b02a-2c89-4244-9810-a8e8396bd673",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "More people learn English than all other languages together.\nPeople speak English in the most countries.\nBut Chinese is different.\nMore people speak Chinese from birth than any other language.\nIt is not very important how many people speak a language from birth.\nIt is more important in how many countries people speak it.",
+    "version": 6,
+    "created_at": "2025-09-01 10:43:53.479879",
+    "updated_at": "2025-09-01 10:43:53.479883",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "377f80ed-9328-4c30-ba51-4a724abf1793",
+    "approval": "FAIL",
+    "grade": 2,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5663 is catastrophically below the required 0.75 threshold. The text fails to preserve the core message of the original.\n\n- Critical Error: The original text describes a statistical observation about correlation ('little correlation', 'stronger link'). Your output transforms this into a subjective value judgment.\n- Evidence: Your sentences 'It is not very important how many people speak a language from birth' and 'It is more important in how many countries people speak it' are opinions. The original text states facts about relationships between numbers, not what is 'important'. This is an unacceptable alteration of the source's meaning.\n- The BERTScore of 0.90 and the A2 classification are irrelevant due to the complete failure to maintain the original message.\n\nSuggestion: You must rephrase the final two sentences to reflect the concept of a 'link' or 'connection' without using the word 'important'. State that one thing is connected to the number of learners, and the other is not. For example: 'The number of learners is not linked to the number of native speakers. It is linked to the number of countries where the language is spoken.'",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.9061,
+      "meaningbert": 0.5663
+    },
+    "created_at": "2025-09-01 10:44:18.373737"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "ca625e7f-4471-4f17-825d-2cd98cf74685",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "More people learn English than all other languages together.\nPeople speak English in the most countries.\nBut Chinese is different.\nMore people speak Chinese from birth than any other language.\nThe number of native speakers is not the most important reason to learn a language.\nBut the number of countries where people speak it is very important.",
+    "version": 5,
+    "created_at": "2025-09-01 10:43:22.215249",
+    "updated_at": "2025-09-01 10:43:22.215252",
+    "metrics_meaningbert": 0.6517,
+    "metrics_cefr_compliance": "A2"
+  }
+}

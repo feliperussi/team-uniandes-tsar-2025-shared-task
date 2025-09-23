@@ -1,0 +1,228 @@
+{
+  "session_id": "afe2857a-5f2c-4fb5-ac51-1e381b1d66ad",
+  "created_at": "2025-09-01 10:30:03.519276",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:30:03.547189",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "30-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many people in the city of Berlin were not happy. They did not like that people killed wild pigs with guns. They said it was not kind. Hunters and people who love animals argued a lot.\n\nSo, the city government decided to make a new plan. It was a kinder plan for the pigs. They stopped killing the pigs with guns. Instead, they put up fences. They also made a new rule. The rule says people cannot feed the pigs.\n\nWe do not know if this plan will work. It may be a difficult problem. This is because the winters are warmer now. So, there are more pigs than in the past.",
+      "timestamp": "2025-09-01 10:30:03.547287",
+      "metadata": {
+        "text_id": "624ef076-1505-4096-a522-0bcd45081b61",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:30:04.384041",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "56861344-e41a-4656-9c43-36657f6415c7",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.558 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text.\n\n- Primary Meaning Loss: The original text's concept of a 'losing battle' was replaced with 'a difficult problem'. This is an unacceptable simplification. 'Losing battle' implies the plan will likely fail. 'Difficult problem' does not carry this meaning.\n- Semantic Downgrade: The phrase 'unnecessarily cruel' was reduced to 'not kind'. This loses the intensity and severity of the original concept.\n- Vocabulary Violation: The text uses the B1-level words 'killed' and 'killing'. These are not permitted at the A2 level.\n- Suggestion: Restore the original meaning. The text must communicate that the plan is not expected to work. Replace 'not kind' with a phrase like 'very bad for the animals'. Replace 'killed' with an A2-compliant word like 'shot'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9051,
+          "meaningbert": 0.558
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:30:22.557267",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many people in the city of Berlin were not happy. They did not like that people shot wild pigs with guns. They said this was very bad for the animals. Hunters and people who love animals argued a lot.\n\nSo, the city government decided to make a new plan. It was a kinder plan for the pigs. They stopped shooting the pigs with guns. Instead, they put up fences. They also made a new rule. The rule says people cannot feed the pigs.\n\nWe do not know if this plan will work. But the plan will probably fail. This is because the winters are warmer now. So, there are more pigs than in the past.",
+      "timestamp": "2025-09-01 10:30:22.557492",
+      "metadata": {
+        "text_id": "8fb8d859-5264-4e85-bdb0-688cdd5029bc",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:30:42.580476",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9ee64fac-1dc2-4e7b-82af-69ab46a74f41",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5551 is significantly below the required 0.75. The core reason for this failure is the omission of the concept of 'protests'. The original text states the city's action was a direct 'response to protests'. Your version removes this crucial cause-and-effect link, which fundamentally changes the story's context. Additionally, the phrase 'heated arguments' was simplified to 'argued a lot', losing the sense of intensity. The concept of 'unnecessarily cruel' was weakened to 'very bad for the animals'. Suggestion: You must reintroduce the concept of public protest to restore the original meaning. A sentence like 'Because many people protested, the city government made a new plan' is required.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9038,
+          "meaningbert": 0.5551
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:31:01.488517",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many people in the city of Berlin were not happy. They did not like that people shot wild pigs with guns. They said this was cruel. Hunters and people who love animals had big arguments. Because of this, many people protested.\n\nBecause people protested, the city government made a new plan. It was a kinder plan for the pigs. They stopped shooting the pigs. Instead, they put up fences. They also made a new rule. The rule says people cannot feed the pigs.\n\nWe do not know if this plan will work. But the plan will probably fail. This is because the winters are warmer now. So, there are more pigs than in the past.",
+      "timestamp": "2025-09-01 10:31:01.489029",
+      "metadata": {
+        "text_id": "74301699-72c0-4a0d-a936-cb68316621b0",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:31:29.879221",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "632a1ca8-6873-4392-9cd0-462966868478",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.597 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text. The original text presents a clear sequence: complaints about cruelty led to arguments, which led to protests, which directly caused the city council to act. Your version simplifies this to the point of losing the direct causal link, which is why the meaning score is low. Additionally, the B1 word 'cruel' was used. This word is not on the A2 list and must be simplified. The goal is to rewrite, not just copy complex words. Suggestion: Rephrase to restore the original cause-and-effect sequence. Replace the word 'cruel' with a simple A2 explanation, such as 'they said shooting the pigs was very bad and hurt them'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9036,
+          "meaningbert": 0.597
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:31:43.535059",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many people in Berlin were not happy. They said shooting wild pigs was very bad. They said it hurt the pigs. Because of this, hunters and animal lovers had big arguments. Then, many people protested.\n\nBecause people protested, the city government made a new plan. It was a kinder plan for the pigs. They stopped shooting the pigs. Instead, they put up fences. They also made a new rule. The rule says people cannot feed the pigs.\n\nWe do not know if this plan will work. But the plan will probably fail. This is because the winters are warmer now. So, there are more pigs than in the past.",
+      "timestamp": "2025-09-01 10:31:43.535902",
+      "metadata": {
+        "text_id": "9929ed22-0992-44b3-a6fc-4ac778228e5e",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:32:05.012226",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "549fa24e-8c2f-4585-96e1-697ab25cf255",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5928 is significantly below the required 0.75 threshold. The text has been oversimplified to the point that critical nuances from the original message are lost.\n\n- Primary Deviation: The core concepts of the original text were not adequately preserved. The model correctly detected a substantial shift in meaning.\n- Evidence of Meaning Loss 1: The original text's phrase 'unnecessarily cruel' carries a strong moral judgment. Your replacement, 'very bad' and 'it hurt the pigs', is a severe oversimplification that loses this critical nuance.\n- Evidence of Meaning Loss 2: The original describes a 'losing battle', a metaphor implying a difficult, ongoing struggle. Your version, 'the plan will probably fail', is a simple prediction that erases the meaning of a continuous effort against a growing problem.\n- Evidence of Meaning Loss 3: The term 'heated arguments' was reduced to 'big arguments', which fails to convey the anger and passion of the original.\n\nSuggestion: You must rephrase to restore the lost meaning while maintaining A2 simplicity. To convey 'cruel', use phrases like 'not kind' or 'a bad way to treat animals'. To convey 'losing battle', use a phrase like 'this is a very difficult problem' or 'it will be hard to win'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9062,
+          "meaningbert": 0.5928
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:32:19.137062",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many people in Berlin were not happy. They said shooting wild pigs was not kind. It was a bad way to treat animals. Because of this, hunters and animal lovers had angry arguments. Then, many people protested.\n\nBecause people protested, the city government made a new plan. It was a kinder plan for the pigs. They stopped shooting the pigs. Instead, they put up fences. They also made a new rule. The rule says people cannot feed the pigs.\n\nWe do not know if this plan will work. But this is a very difficult problem. It will be hard to win against the pigs. This is because the winters are warmer now. So, there are more pigs than in the past.",
+      "timestamp": "2025-09-01 10:32:19.137525",
+      "metadata": {
+        "text_id": "38bc8965-87b4-46d9-a5ea-ac123793e119",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:32:43.419422",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "10801ef4-081a-48ff-a134-11668ccb99c6",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5965 is significantly below the required 0.75. The original text's core message about 'cruelty' and 'peaceful action' was lost. Your version simplifies 'unnecessarily cruel' to 'not kind', which does not carry the same meaning. This is a critical failure to preserve the source's intent. Secondary violations include vocabulary exceeding the A2 level; the text uses the B2 word 'shooting' and the B1 word 'treat'. These words are not compliant and must be replaced. Additionally, there is a loss of specificity; the original phrase 'losing battle' is a specific concept, but your replacement, 'a very difficult problem', is too general. Suggestion: Rephrase to restore the original meaning. The concept of 'cruelty' must be made clear using A2 words. Replace 'shooting' with a simpler description like 'killing the pigs with guns'. Remove the word 'treat'. Rewrite the final paragraph to better reflect the idea of a 'losing battle'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9055,
+          "meaningbert": 0.5965
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:33:04.245735",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many people in Berlin were not happy. They said killing wild pigs with guns was wrong. They said it hurt the animals too much. Because of this, some people had angry arguments. Then, many people protested.\n\nBecause people protested, the city government made a new plan. It was a more peaceful plan. They stopped killing the pigs with guns. Instead, they put up fences. They also made a new rule. The rule says people cannot feed the pigs.\n\nWe do not know if this new plan will work. The city may lose this fight. This is because the winters are warmer now. Warmer winters mean there are more pigs than before.",
+      "timestamp": "2025-09-01 10:33:04.246622",
+      "metadata": {
+        "text_id": "6c992af3-8bbc-4f6d-a1d6-7dc5ea818573",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 10:33:27.693670",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b31fe3c1-ebeb-4fca-942d-0d4fe31f6d3b",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6224 is significantly below the required 0.75 threshold. The text fails to capture the core meaning of the original source.\n\n- Primary Deviation: The original text states the complaint was that shooting pigs was 'unnecessarily cruel'. Your version simplifies this to 'wrong' and 'hurt the animals too much'. This simplification loses the critical concept that the action was not just bad, but also not necessary, which was the basis for the protests.\n- Vocabulary Violation: The text uses the word 'peaceful', which is a B1 level word. This is an unacceptable deviation from the A2 standard.\n- Vocabulary Violation: The text uses the gerund 'killing'. While 'kill' is A1, its use as a noun here ('killing wild pigs') is a more complex B1 structure.\n\nSuggestion: Rephrase the opening to restore the original meaning. State 'People said it was not necessary to kill the pigs with guns'. Replace 'peaceful plan' with 'a plan that was better for the animals' or 'a plan that did not hurt the pigs'. Replace 'killing wild pigs' with 'to kill wild pigs'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9041,
+          "meaningbert": 0.6224
+        }
+      }
+    }
+  ]
+}

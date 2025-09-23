@@ -1,0 +1,413 @@
+{
+  "session_id": "e59d3902-37d8-4c76-acbb-63272f604ce6",
+  "created_at": "2025-08-31 20:34:40.099734",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:34:40.116336",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "15-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We have new information. So, we think Girox Foods should change. Managers should think more about their workers.\n\nWe should find new ways to help our workers. We can give them work hours that can change. We can also let them work from home or other places.\n\nManagers need to give workers interesting work. They also need to say \"good job\" more often.\n\nWe should spend more money on training. This can help workers talk to other people. It can also help them talk to people from other countries. This will make a good place to work. Then workers can do their best work.",
+      "timestamp": "2025-08-31 20:34:40.117025",
+      "metadata": {
+        "text_id": "cd21add1-822e-42e1-8c92-7a591bf64f0c",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 20:34:40.124546",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "04003c60-f101-414a-bf45-1c8f520c96a1",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5986 is catastrophically below the required 0.75 threshold. This indicates a severe loss of the original text's core message. The simplification process has destroyed the meaning.\n\n- Primary Failure (Meaning): The original text is a formal recommendation based on findings. Your version, 'We have new information. So, we think Girox Foods should change,' is overly simplistic and loses the professional weight and specific meaning of a recommendation. The concept of a 'people-oriented management style' is a central idea that has been completely erased.\n\n- Secondary Failure (Fidelity): The BERTScore of 0.8888 is below the minimum requirement of 0.90. This is a direct result of removing, rather than simplifying, key factual phrases. Terms like 'positive reinforcement', 'recognition', and 'intercultural communication' were deleted, damaging the text's fidelity to the source.\n\n- Structural Issue: While the sentence structure is simple, the simplification has made the text choppy and disconnected. The logical flow from 'findings' to 'recommendation' is gone.\n\nSuggestion: You must rewrite the text to preserve the original meaning. Restore the concept of a formal recommendation. Rephrase to include the idea of a 'people-oriented' approach. Do not simply delete key concepts like 'positive reinforcement' and 'intercultural communication'; find A2 ways to express them. For example, 'saying good job' is a weak substitute for 'positive reinforcement and recognition'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8888,
+          "meaningbert": 0.5986
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:35:00.305532",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We have new findings. We recommend a new management style for Girox Foods. This style should focus more on people. Managers need to think more about their workers.\n\nWe should offer workers hours that can change. We should also let them work from different places.\n\nManagers need to give staff interesting work. They also need to tell workers when they do a good job. They should show they see and value their work.\n\nWe should spend more money on training. This can help workers communicate better with others. It can also help them talk to people from other countries. This will make a good place for people to work. Then workers can do their best work.",
+      "timestamp": "2025-08-31 20:35:00.305739",
+      "metadata": {
+        "text_id": "7a30a76c-ab87-40c8-9a36-0cfeae6d46de",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 20:35:25.022983",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5a3e2480-2773-4e07-ad95-81258cadf6a4",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6655 is substantially below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text. The simplification was too aggressive, resulting in a loss of meaning.\n\n- Fidelity Failure: The BERTScore of 0.8978 is below the 0.90 minimum. Key terms from the original text, such as 'positive reinforcement' and 'professional development', were replaced with phrases that do not carry the same weight, causing a loss of lexical fidelity.\n\n- CEFR Compliance Failure: The classifier rated the text as B1, which is an automatic failure. The target is A2.\n\n- Vocabulary Violation: The text uses B1-level vocabulary. The words 'management' and 'value' are not A2-compliant. This is a direct cause of the incorrect B1 classification.\n\n- Suggestion: Rephrase the entire text. You must restore the original meaning while using only A2 vocabulary and sentence structures. Replace 'management' with a phrase like 'the way leaders work'. Replace 'value' with a phrase like 'show that their work is important'. The current output is unacceptable due to the severe loss of meaning and use of B1 vocabulary.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8978,
+          "meaningbert": 0.6655
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:35:42.177313",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We recommend a new way for leaders to work at Girox Foods. This new way should focus more on people. Leaders need to think more about their workers.\n\nWe should offer workers hours that can change. We should also let them work from different places.\n\nLeaders need to give staff interesting work. They should give positive comments to workers. They need to show that their work is important.\n\nWe should spend more money on training. This training helps workers communicate better with others. It also helps them talk to people from other countries. This will make a good place for people to work. Then workers can do their best work.",
+      "timestamp": "2025-08-31 20:35:42.179285",
+      "metadata": {
+        "text_id": "5aa9722a-befa-4243-80e6-7022475f2935",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:36:07.105041",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "36627027-5376-49bf-9ad5-c0f0378a5e42",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6456 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text.\n\n- Primary Meaning Deviation: The original text states managers must 'challenge our staff'. Your output changes this to 'give staff interesting work'. These are not the same. A 'challenge' implies difficulty and an opportunity for growth. 'Interesting work' does not carry this essential meaning.\n\n- Fidelity Failure: The BERTScore of 0.8917 is below the minimum requirement of 0.90. This is a direct result of replacing specific, key terms from the original text. For example, 'positive reinforcement and recognition' was reduced to 'positive comments', which loses the nuance of formal acknowledgment.\n\n- CEFR Compliance: While the text was correctly classified as A2, this is irrelevant because the content is not a faithful representation of the source material.\n\nSuggestion: You must rephrase the text to restore the original meaning. The concept of 'challenge' must be included. The idea of 'positive reinforcement' must be communicated more accurately than just 'positive comments'. Revise the sentence to state: 'Leaders need to give staff difficult work that helps them grow.' Revise the feedback sentence to: 'They should tell workers they did a good job and show the company values their work.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8917,
+          "meaningbert": 0.6456
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:36:21.259667",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We recommend a new way for leaders to work at Girox Foods. This new way should focus more on people. Leaders need to think more about their workers.\nWe should offer workers hours that can change. We should also let them work from different places.\nLeaders need to give staff difficult work. This work helps them grow. They should tell workers they did a good job. They should show the company values their work.\nWe should spend more money on training. This training helps workers communicate better with others. It also helps them talk to people from other countries. This will make a good place for people to work. Then workers can do their best work.",
+      "timestamp": "2025-08-31 20:36:21.260143",
+      "metadata": {
+        "text_id": "90011a3d-ebba-4f96-8875-ce9ba0326afc",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:36:47.327327",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4e4d6f8c-d693-48a2-bb24-43e8d7bccbcc",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5979 is critically below the required 0.75 threshold. This indicates a severe deviation from the original text's core message. The simplification has fundamentally altered the meaning.\n\n- Primary Failure (MeaningBERT): The original text recommends a 'people-oriented management style' and 'positive reinforcement and recognition'. Your output simplifies this to 'focus more on people' and 'tell workers they did a good job'. This simplification loses the professional and formal concepts of management strategy and formal recognition, causing the low meaning score.\n- Secondary Failure (BERTScore): The BERTScore of 0.8941 is below the required 0.90. This is due to replacing key original phrases like 'Increased investment in professional development' and 'social and intercultural communication' with overly simple terms like 'spend more money on training' and 'communicate better'. This loses lexical fidelity.\n- CEFR Compliance: While the text correctly classifies as A2, this is irrelevant due to the critical failure in preserving the original message.\n\nSuggestion: Re-write the text. You must preserve the core concepts of the original, not just the surface-level topics. Restore the concept of 'management style' and 'investment'. Rephrase to better capture the meaning of 'positive reinforcement' beyond just saying 'good job'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8941,
+          "meaningbert": 0.5979
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:37:04.140820",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We recommend a new management style for Girox Foods. This style should focus more on people. Managers need to think more about their workers.\nWe should offer workers flexible hours. We should also let them work from different places.\nManagers need to give staff challenging work. This helps them grow. They should also give positive feedback. They must show that the company values their work.\nThe company should invest more in professional development. This means more training for workers. This training helps workers communicate with others. It also helps them talk to people from other cultures. This will create a good place to work. Then workers can do their best work.",
+      "timestamp": "2025-08-31 20:37:04.141532",
+      "metadata": {
+        "text_id": "6955d61b-3f86-41f0-9bac-6fce0f5a837d",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 20:37:32.337229",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "89792878-5d62-4faf-bb19-3efa082346fb",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6668 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text. The nuance of concepts like 'positive reinforcement' and 'creating a positive environment' was lost in the simplification.\n\nThis text also fails the CEFR compliance check. The classifier rated it B1, which is too complex for the A2 standard. This failure is caused by the use of multiple unapproved B1 and B2 level words.\n\nDetected Deviations:\n- B1 Vocabulary Violation: The word 'management' is B1. This is not A2 level.\n- B1 Vocabulary Violation: The word 'challenging' is B1. This is not A2 level.\n- B1 Vocabulary Violation: The word 'feedback' is B1. This is not A2 level.\n- B1 Vocabulary Violation: The word 'invest' is B1. This is not A2 level.\n- B1 Vocabulary Violation: The word 'development' is B1. This is not A2 level.\n- B2 Vocabulary Violation: The word 'flexible' is B2. This is far too advanced for A2.\n\nSuggestion: Eradicate all B1 and B2 vocabulary. Do not use these words. You must describe the concepts using only A1 and A2 words. For example, 'flexible hours' must be rephrased as 'let workers choose when they start and finish work'. 'Invest in professional development' must be rephrased as 'spend more money on training for workers'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9059,
+          "meaningbert": 0.6668
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:37:53.034962",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We recommend a new way to lead people at Girox Foods. This new way should focus more on people. Bosses need to think more about their workers.\nWe should let workers choose when they start and finish work. We should also let them work from home or other places.\nBosses need to give staff interesting work. This work should make them think and learn new things. Bosses should praise their staff more often. They should say \"good job\" for work that is good.\nThe company should spend more money on training for workers. This training helps workers communicate with others. It also helps them talk to people from other cultures. This will make a happy place for people to work. Then workers will feel good and do their best work.",
+      "timestamp": "2025-08-31 20:37:53.035461",
+      "metadata": {
+        "text_id": "f531d549-8ef4-4904-a04b-5955ff57c5e2",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 20:38:25.038289",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e243a22f-5003-4178-abf5-3a4ffacef385",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5875 is catastrophically below the required 0.75 threshold. The text has been oversimplified to the point where the core professional meaning of the original recommendation is lost. A secondary failure is the BERTScore of 0.8888, which is below the minimum 0.90, indicating a significant loss of key terminology.\n\n- Meaning Damage: The original text recommends specific management strategies. Your version reduces these to overly simplistic actions. For example, 'positive reinforcement and recognition' is a formal concept that you have reduced to 'praise their staff' and 'say \"good job\"'. This loses the professional meaning.\n\n- Lexical Fidelity Loss: Key terms that anchor the original text's meaning were removed. 'Professional development' was replaced with 'training', which is a less specific A2 word but loses the nuance of career growth. 'People-oriented management style' was replaced with 'focus more on people', which is vague and loses the specific business context.\n\n- Tonal Inaccuracy: The original is a formal business recommendation. Your output reads like a simple list of suggestions for a school project, not a corporate strategy document. The simplification has destroyed the professional tone.\n\nSuggestion: The text must be rewritten. You must find A2-level ways to express the original's more complex ideas without losing their meaning. Restore the concepts of 'positive reinforcement' and 'professional development' in a way that an A2 reader can understand but that still reflects the original's intent. The current text is a failure of comprehension, not just language.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8888,
+          "meaningbert": 0.5875
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:38:45.757031",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We recommend a new management style for Girox Foods. This style should focus more on the workers. We should offer workers more flexible hours. We should also let them work from different places.\nManagers need to give staff interesting work. This work should help them learn and grow. Managers should also show they value good work. They should tell workers when their work is good. This is called positive reinforcement.\nThe company should invest more in professional development. This helps workers improve their skills for the future. This development can help with communication skills. It can help them talk with people from other cultures. This will create a good environment at work. Then, workers will produce their best work.",
+      "timestamp": "2025-08-31 20:38:45.759864",
+      "metadata": {
+        "text_id": "64d2c79c-c970-4b01-80da-575749fdeb34",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 20:39:14.937319",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "cd0fc5cb-54ea-4cd1-be11-7bb890c2c44d",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6685 is significantly below the required 0.75 threshold. The original text's concepts of 'challenging staff' and 'recognition' were oversimplified to 'interesting work' and 'value good work', losing the intended nuance and core message.\n\nCEFR Compliance Failure: The text is classified as B1, which is too complex for the A2 standard. This is a direct violation of the core requirement.\n\nVocabulary Violation: The text uses multiple words above the A2 level. These include 'management' (B1), 'flexible' (B2), 'value' (B1), 'invest' (B1), 'development' (B1), and 'communication' (B1). These words must be replaced with A2 equivalents.\n\nStructural Violation: The sentence 'Managers should also show they value good work' uses a subordinate clause structure, which is a B1-level construction. A2 texts must use simple, single-idea sentences.\n\nSuggestion: Rephrase to restore the original meaning of 'challenge' and 'recognition'. Replace all B1 and B2 vocabulary with simpler A2 words. For example, change 'management style' to 'way of leading people' and 'invest' to 'spend money on'. Break down all complex sentences into simple, single-clause statements.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9047,
+          "meaningbert": 0.6685
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:39:30.444323",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We recommend a new way to lead people at Girox Foods. This way should focus more on the workers. We should let workers choose their work hours. We should also let them work from different places.\nManagers need to give staff difficult work. This helps them learn new things. Managers should see when staff do good work. They should tell them \"good job\" more often.\nThe company should spend more money to help workers learn new skills. This can help them talk to other people better. It can help them talk with people from other countries. This will create a good environment at work. Then, workers will do their best work.",
+      "timestamp": "2025-08-31 20:39:30.447043",
+      "metadata": {
+        "text_id": "d6b152a2-3d7c-42c5-a9aa-228fb6758321",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 20:39:56.274703",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b6522852-70ea-42dd-9d5e-d4dd4fd666d1",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6289 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text.\n\n- Primary Deviation: The simplification was too aggressive, resulting in a loss of meaning. The original text's concept of 'positive reinforcement and recognition' is a formal business idea. Your version, 'tell them \"good job\" more often', is an oversimplification that loses this professional meaning.\n- Secondary Deviation: Fidelity Failure. The BERTScore of 0.8925 is below the 0.90 minimum. This is because key professional terms like 'professional development' and 'intercultural communication' were replaced with generic phrases, losing important lexical detail from the source.\n- Corrective Action: Rewrite the text. You must preserve the professional concepts from the original text while using A2 language. For 'positive reinforcement', use a phrase like 'Managers should show staff that their work is good and important.' For 'professional development', use 'The company should pay for training so workers can learn more.' The goal is simplification, not meaning loss.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8925,
+          "meaningbert": 0.6289
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:40:09.797978",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We recommend a new way to manage people at Girox Foods. This way should focus more on the workers. We should let workers choose their work hours. We should also let them work from different places.\nManagers need to give staff difficult work. This helps them learn new things. Managers should show staff that their work is good and important.\nThe company should pay for training so workers can learn more. This training can help them talk to other people better. It can help them talk with people from other countries. This will create a good environment at work. Then, workers will do their best work.",
+      "timestamp": "2025-08-31 20:40:09.799881",
+      "metadata": {
+        "text_id": "4ae29e46-971d-45e5-8ba3-b6e2df2b2f45",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:40:36.308191",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7190b7ed-264e-4f9d-943b-f76eac2bca8c",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6271 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\n- Fidelity Failure: The BERTScore of 0.8951 is below the minimum requirement of 0.90. This is a direct result of replacing specific business concepts with overly general terms.\n- Meaning Loss (Reinforcement): The original specifies 'positive reinforcement and recognition'. Your version, 'show staff that their work is good and important', is a vague interpretation that loses the specific management action being recommended.\n- Meaning Loss (Challenge): The original suggests managers 'challenge our staff'. Your version, 'give staff difficult work', changes the meaning from a positive opportunity for growth to a potentially negative task.\n- Lexical Simplification Error: Key terms like 'professional development' and 'social and intercultural communication' were replaced with 'training' and 'talk to other people better'. This oversimplification caused the drop in both meaning and fidelity scores.\n\nSuggestion: Re-write the text. You must preserve the specific meaning of key concepts from the original. Restore the concepts of 'positive reinforcement', 'recognition', and 'professional development' using simple A2 language without losing their meaning. For example, instead of 'show staff their work is good', use 'tell workers they did a good job often'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8951,
+          "meaningbert": 0.6271
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:40:52.440149",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We recommend a new way to manage people at Girox Foods. This way should focus more on the workers. We should let workers choose their work hours. We should also let them work from different places.\nManagers should give staff new tasks to help them grow. Managers should also tell workers they did a good job. They should recognize their good work often.\nThe company should pay for professional development. This means paying for courses for workers. These courses help them communicate better with others. They also help them understand people from other cultures. This will create a good environment at work. Then, workers will do their best work.",
+      "timestamp": "2025-08-31 20:40:52.442588",
+      "metadata": {
+        "text_id": "d7b0c7e6-1de3-483d-8df1-8b4543ff141e",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:41:22.153815",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "fe21e07b-384a-4fe6-9e3d-3c2d2d4bbcb7",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6525 is significantly below the required 0.75 threshold. This indicates the core message was not adequately preserved. The BERTScore of 0.8989 is also below the 0.90 minimum, showing a loss of key phrasing.\n\n*   Meaning Loss: The original text's concept of 'positive reinforcement and recognition' is more formal and impactful than your version's 'tell workers they did a good job'. The nuance is lost, causing the low metric score.\n*   Vocabulary Violation: The word 'development' is B1 level. The word 'means' is B2 level. Both are too advanced for an A2 text and must be removed.\n*   Suggestion: Rephrase the sentence 'The company should pay for professional development.' Use a simpler A2 word like 'training' or 'learning'.\n*   Suggestion: Remove the B2 word 'means'. Rewrite the sentence 'This means paying for courses for workers.' A correct A2 structure would be: 'The company will pay for courses for workers.'\n*   Suggestion: To improve the meaning score, rephrase to better capture the original's professional tone while remaining simple.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8989,
+          "meaningbert": 0.6525
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:41:43.634370",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We recommend a new way to manage people at Girox Foods. This way should focus more on the workers. We should let workers choose their work hours. We should also let them work from different places.\nManagers should give staff new tasks to help them grow. Managers should also say when work is good. They should do this often.\nThe company should pay for professional training. The company will pay for courses for workers. These courses help them communicate better with others. They also help them understand people from other cultures. This will create a good environment at work. Then, workers will do their best work.",
+      "timestamp": "2025-08-31 20:41:43.637101",
+      "metadata": {
+        "text_id": "f9196bad-52e0-429a-9b54-f7af3d9abfa5",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:42:10.956744",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "10ba2c31-ed74-40ae-97ba-512f07413b8e",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6341 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\n- Primary Deviation (Meaning): The original text recommends specific management concepts like 'positive reinforcement and recognition'. Your output simplifies this to 'say when work is good'. This translation is too simplistic and loses the professional meaning of a structured system for acknowledging employee contributions.\n\n- Secondary Deviation (Fidelity): The BERTScore of 0.8951 is below the minimum requirement of 0.90. This failure is a direct result of oversimplification. Key professional terms such as 'people-oriented management style' and 'professional development' were replaced with phrases that lack the necessary lexical detail, damaging the fidelity to the source text.\n\n- Suggestion: The text must be rewritten to preserve the original concepts more accurately within A2 constraints. The idea of 'positive reinforcement' must be conveyed more strongly than just 'say when work is good'. Rephrase to 'Managers should regularly tell staff that they have done a good job and thank them'. The concept of 'investment' must also be restored. Rephrase 'The company should pay for professional training' to 'The company should spend money to help workers learn new skills for their job'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8951,
+          "meaningbert": 0.6341
+        }
+      }
+    }
+  ]
+}

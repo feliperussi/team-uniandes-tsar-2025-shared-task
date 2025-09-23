@@ -1,0 +1,228 @@
+{
+  "session_id": "d35ad28f-a76d-46c0-b484-9cefc6a95abd",
+  "created_at": "2025-09-01 10:41:49.414421",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:41:49.422477",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "108-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Lewis wants to help the sea. He wants more special places in the sea to be safe. Now, only 3 per cent of the sea is safe. He wants this to be 10 per cent.\n\nThis is because people damage the sea. They catch too many fish. They also make the water dirty and throw plastic in it. Lewis saw this damage with his own eyes on his trips.\n\nHe swam over coral reefs. Coral reefs are like gardens under the sea. Many small animals live there. The water is hotter now, so the coral reefs lost their color. They turned white. He also saw places under the sea with no life. They were like deserts with only plastic.\n\nLewis thinks nature can get better. But it needs space to do this. We do not have much time. If we do not take care of our seas, we will have a big problem. We will not be able to fix it.",
+      "timestamp": "2025-09-01 10:41:49.423452",
+      "metadata": {
+        "text_id": "89c1294c-68e7-4e78-b41e-c71d51feb766",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 10:41:49.431292",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4361b741-866e-4ce7-b218-0b30fe83953d",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5663 is catastrophically below the required 0.75 threshold. This indicates a severe loss of the original text's core message and urgency.\n\n- Fidelity Failure: The BERTScore of 0.8823 is also below the 0.90 minimum. This is a direct result of removing or oversimplifying key factual terms from the original source.\n- Loss of Urgency: The original text describes an attempt to 'reverse the damage' and warns of an 'unsolvable problem'. Your version weakens this to 'help the sea' and a 'big problem'. This fundamentally changes the tone and severity of the message.\n- Vague Language: The term 'marine protected areas' is a specific concept. Your replacement, 'special places in the sea to be safe', is too vague and loses the official meaning, contributing to the low metric scores.\n- Concept Dilution: The original's specific causes of 'overfishing, polluting and littering' were simplified, losing the directness of the source material.\n\nSuggestion: The text must be rewritten to restore the original's meaning. Use stronger, more direct A2 language. Instead of 'help the sea', state 'stop the damage to the sea'. Instead of 'a big problem', state 'a problem that will be impossible to fix'. This restores the core meaning without using B1 vocabulary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8823,
+          "meaningbert": 0.5663
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:42:09.400487",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Lewis wants to stop the damage to the sea. He wants more 'marine protected areas'. These are parts of the sea that are safe. Now, only 3 per cent of the sea is a protected area. He wants this to be 10 per cent.\n\nPeople are damaging the sea. They catch too many fish. They also pollute the water and throw rubbish in it. Lewis saw this damage on his trips.\n\nHe swam over coral reefs. Coral reefs are like gardens under the sea. Many small animals live there. The water is hotter now, so the coral reefs lost their color. They turned white. He also saw underwater deserts. There was no life there, only plastic.\n\nLewis thinks nature can get better. But it needs space to do this. We do not have much time. If we do not take care of our seas, we will have a problem. It will be impossible to fix.",
+      "timestamp": "2025-09-01 10:42:09.400914",
+      "metadata": {
+        "text_id": "54ea9e48-1b9f-472c-8587-47f0e1fb9203",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:42:39.554841",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c19206c1-6b44-46b7-8a90-c09f8b290d00",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6467 is significantly below the required 0.75 threshold. The simplification process has removed the original text's sense of urgency and the strong causal link between the problem and the solution. The original's concept of 'reversing the damage' is stronger than your version's 'stop the damage'.\n\nAdditionally, the text fails the fidelity check. The BERTScore of 0.8894 is below the minimum 0.90, indicating that too many key words and phrases from the original text were lost.\n\nFurther violations were found:\nVocabulary Standard Violation: The text uses words above the A2 level. The word 'damage' is B1. The words 'marine' and 'damaging' are C1. These are unacceptable.\nInconsistent Simplification: The term 'marine protected areas' uses a C1 word ('marine') but is placed in quotes, which is not a valid simplification method for A2 readers.\n\nSuggestion: Rephrase sentences to restore the original's meaning of actively reversing a problem. Replace all words above the A2 level. 'Damage' must be replaced with a phrase like 'the bad things happening to'. 'Marine' must be replaced with 'sea'. The verb 'damaging' must be rephrased to 'are hurting'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8894,
+          "meaningbert": 0.6467
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:42:59.234948",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Lewis wants to fix the bad things happening to the sea. He wants more 'sea protected areas'. These are parts of the sea that are safe. Now, only 3 per cent of the sea is a protected area. He wants this to be 10 per cent.\n\nPeople are hurting the sea. They catch too many fish. They also pollute the water and throw rubbish in it. Lewis saw these bad things on his trips.\n\nHe swam over coral reefs. Coral reefs are like gardens under the sea. Many small animals live there. The water is hotter now, so the coral reefs lost their color. They turned white. He also saw underwater deserts. There was no life there, only plastic.\n\nLewis thinks nature can get better. But it needs space to do this. We do not have much time. If we do not take care of our seas, we will have a problem. It will be impossible to fix.",
+      "timestamp": "2025-09-01 10:42:59.235234",
+      "metadata": {
+        "text_id": "794964d0-96c8-4a55-a058-448ee3b6cee1",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 10:43:26.566675",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d0a78369-0639-487c-b1b7-d09897c7a3f8",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5873 is catastrophically below the required 0.75 threshold. This indicates a severe failure to preserve the core message of the original text. The text also fails the fidelity check, with a BERTScore of 0.8861, which is below the minimum of 0.90.\n\n- Meaning Dilution: The original text describes 'damage caused by human activity' and 'environmental destruction'. Your version reduces this to 'bad things happening to the sea'. This oversimplification completely loses the gravity and specificity of the original message.\n\n- Fidelity Loss: The BERTScore failure is a direct result of replacing precise concepts with vague terms. Key phrases from the original, such as 'human activity' and 'unsolvable problem', were omitted, resulting in a text that is lexically distant from the source.\n\n- Structural Compliance: While the text correctly adheres to A2 sentence structure and vocabulary, this is irrelevant due to the critical failure in preserving the source text's meaning.\n\nSuggestion: The text must be rewritten. Restore the core concepts of 'damage' and 'destruction' using A2-level vocabulary. The phrase 'bad things' is unacceptable. Rephrase the final sentences to more accurately reflect the original's warning of an 'unsolvable problem'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8861,
+          "meaningbert": 0.5873
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:43:45.903000",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Lewis wants to stop the damage to the sea. This damage comes from people's activity. He wants more 'sea protected areas'. These are parts of the sea that are safe. Now, only 3 per cent of the sea is a protected area. He wants this to be 10 per cent.\n\nPeople damage the sea. They catch too many fish. They also pollute the water and throw rubbish in it. Lewis saw this destruction on his trips.\n\nHe swam over coral reefs. Coral reefs are like gardens under the sea. Many small animals live there. The water is hotter now, so the coral reefs lost their color. They turned white. He also saw underwater deserts. There was no life there, only plastic.\n\nLewis thinks nature can get better. But it needs space to do this. We do not have much time. If we do not take care of our seas, we will soon have a problem. It will be impossible to fix.",
+      "timestamp": "2025-09-01 10:43:45.904977",
+      "metadata": {
+        "text_id": "1eacc1af-b6a5-49dd-b55a-91741657adb7",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 10:44:14.712131",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d85d850a-3f73-4a9e-a842-9d4d626f27ae",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6072 is critically below the required 0.75 threshold. This indicates a severe loss of the original text's core message. The BERTScore of 0.8879 also fails to meet the 0.90 fidelity standard.\n\n- Core Meaning Lost: The original text emphasizes an urgent need to 'reverse the damage'. Your text simplifies this to 'stop the damage', which is a different and weaker concept. The meaning is not preserved.\n- Vocabulary Violation: The B1 word 'damage' was used three times. The B2 word 'destruction' was also used. These words were identified as candidates for replacement and are not compliant with the A2 standard.\n- Fidelity Loss: Key phrases from the original, such as 'environmental destruction' and 'the clock is ticking', were replaced with phrases that, while simpler, contributed to the low fidelity and meaning scores.\n\nSuggestion: Rephrase the text to restore the original meaning. The concept of 'reversing' or 'fixing' the harm is critical. You must replace the words 'damage' and 'destruction' with A2-level vocabulary, such as 'harm' or 'bad things'. The text must be rewritten to achieve a MeaningBERT score of 0.75 or higher.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8879,
+          "meaningbert": 0.6072
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:44:35.531272",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Lewis wants to fix the harm to the sea. This harm comes from things people do. He wants more 'sea protected areas'. These are parts of the sea that are safe. Now, only 3 per cent of the sea is a protected area. He wants this to be 10 per cent.\n\nPeople harm the sea. They catch too many fish. They also pollute the water and throw rubbish in it. Lewis saw this harm on his trips.\n\nHe swam over coral reefs. Coral reefs are like gardens under the sea. Many small animals live there. The water is hotter now, so the coral reefs lost their color. They turned white. He also saw underwater deserts. There was no life there, only plastic.\n\nLewis thinks nature can get better. But it needs space to do this. We do not have much time. If we do not take care of our seas, we will soon have a problem. It will be impossible to fix.",
+      "timestamp": "2025-09-01 10:44:35.532372",
+      "metadata": {
+        "text_id": "22b93338-7bbf-4994-a4bd-05a6104e6213",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:45:04.853957",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4b5e158f-91db-4b4a-908b-36f217596d23",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5853 is critically below the required 0.75 threshold. This indicates a severe loss of the original text's core message. The text also fails the fidelity check, with a BERTScore of 0.8855 falling short of the 0.90 minimum.\n\n- Meaning Dilution: The original text conveys a strong sense of urgency and destruction with phrases like 'reverse the damage', 'environmental destruction', and 'the clock is ticking'. Your version weakens this to 'fix the harm' and 'we do not have much time', which fails to communicate the severity of the situation.\n\n- Lexical Fidelity Loss: The BERTScore failure is a direct result of oversimplifying key concepts. 'Unsolvable problem' was reduced to 'impossible to fix', losing the nuance of the original warning.\n\n- Structural Compliance Is Not Enough: While the sentence structure and vocabulary are compliant with the A2 level, the simplification process has sanitized the meaning. The primary goal of preserving the core message was not met.\n\nSuggestion: Re-introduce the original's sense of urgency using A2 vocabulary. Do not just simplify words; ensure the simplified text carries the same emotional and factual weight. Rephrase to restore the concepts of 'destruction' and 'urgency'. For example, instead of 'fix the harm', use 'stop the damage and help the sea get better'. Instead of 'we do not have much time', use 'we must act quickly'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8855,
+          "meaningbert": 0.5853
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:45:26.002893",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Lewis wants to stop the damage to the sea. He wants to help the sea get better. This damage comes from things people do. He wants more 'sea protected areas'. These are parts of the sea that are safe. Now, only 3 per cent of the sea is a protected area. He wants this to be 10 per cent.\n\nPeople damage the sea in many ways. They catch too many fish. They also pollute the water and throw rubbish in it. Lewis saw this damage on his trips.\n\nHe swam over coral reefs. Coral reefs are like gardens under the sea. Many small animals live there. The water is hotter now, so the coral reefs lost their color. They turned white. He also saw underwater deserts. There was no life there, only plastic.\n\nLewis thinks nature can get better. But it needs space to do this. We must act quickly. If we do not take care of our seas, we will soon have a very big problem. It will be a problem that we cannot solve.",
+      "timestamp": "2025-09-01 10:45:26.003390",
+      "metadata": {
+        "text_id": "1d4849c1-d26f-46be-8a81-f8db6f05ebc0",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 10:45:49.338813",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6d1b018c-96c3-4445-9b92-ef9535584adb",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for this failure is the MeaningBERT score of 0.5989, which is substantially below the required 0.75 threshold. This indicates a critical loss of the original text's core message. The BERTScore of 0.8838 also fails to meet the minimum 0.90, confirming a significant loss of key terminology.\n\n- Meaning Loss: The original text conveys a strong sense of destruction and urgency with phrases like 'environmental destruction' and 'unsolvable problem'. Your version weakens this to 'help the sea get better' and 'a very big problem', which does not carry the same weight or meaning.\n\n- Vocabulary Violation: The B1-level word 'damage' is used four times. This word was identified as a candidate for replacement and must be simplified to adhere to the A2 standard. Using it repeatedly is a severe violation.\n\n- Structural Complexity: The final sentence, 'It will be a problem that we cannot solve,' uses a 'that-clause' structure which is more characteristic of B1 level. This structure must be simplified for A2 compliance.\n\nSuggestion: Rephrase the text to restore the original's urgent tone regarding destruction. Replace the B1 word 'damage' with an A2 alternative like 'harm' or rephrase the concept entirely. Simplify the final sentence to 'We cannot solve this problem.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8838,
+          "meaningbert": 0.5989
+        }
+      }
+    }
+  ]
+}

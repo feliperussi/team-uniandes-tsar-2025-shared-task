@@ -1,0 +1,228 @@
+{
+  "session_id": "5af8e76a-180f-4b42-9c36-4b98334c9056",
+  "created_at": "2025-09-01 01:07:54.391564",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:07:54.402467",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "08-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes you dream about things.\nFor example, you dream a friend calls you.\nOr you dream that someone you know dies.\nThen, this thing happens in real life.\nThis is not because you can see the future.\nIt is just a coincidence. It happens by chance.\nWe often dream about these things.\nBut usually, they do not happen.\nWe forget the dreams that do not come true.",
+      "timestamp": "2025-09-01 01:07:54.405608",
+      "metadata": {
+        "text_id": "e64452ad-d1e1-4bef-aaf3-ec6bfefb4a0a",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 01:07:54.415751",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "eaad6709-76ef-42e7-839b-79d17b2845d5",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for failure is the MeaningBERT score of 0.66, which is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\n- Meaning Preservation Failure: The original text contrasts 'coincidence' with 'prophecy'. Your version replaces 'prophecy' with 'see the future', which is a less precise concept and weakens the original argument.\n- Fidelity Failure: The BERTScore of 0.88 is below the 0.90 minimum. This is due to the replacement of specific phrases like 'death of someone close' with simpler ones like 'someone you know dies', losing lexical accuracy.\n- Vocabulary Violation: The B2 word 'coincidence' is used. This is an immediate violation of the A2 standard. While you correctly explained it with 'It happens by chance', the complex word itself must be removed entirely.\n\nSuggestion: Remove the sentence 'It is just a coincidence.' The following sentence, 'It happens by chance,' is sufficient and A2-compliant. Rephrase to better capture the original's contrast between a special power and simple chance.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8863,
+          "meaningbert": 0.6628
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:08:08.806195",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes you dream about things.\nFor example, you dream a friend calls you.\nOr you dream that someone close to you dies.\nThen, this thing happens in real life.\nThis does not mean the dream shows the future.\nIt happens by chance.\nWe often dream about these things.\nBut usually, they do not happen.\nWe forget the dreams that do not come true.",
+      "timestamp": "2025-09-01 01:08:08.806505",
+      "metadata": {
+        "text_id": "d1ddf4fc-f4ae-4f89-b979-358ba130a24f",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 01:08:32.284358",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "fc5ee6dc-5356-4e8d-9e12-4b42429bbe37",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The provided text fails on two critical metrics, indicating a significant deviation from the source material's core message and phrasing.\n\n- Meaning Preservation Failure: The MeaningBERT score of 0.7152 is substantially below the required 0.75 threshold. The original text presents a clear argument contrasting coincidence with prophecy. Your version lists disconnected facts and fails to preserve this central argument, resulting in a critical loss of meaning.\n- Fidelity Failure: The BERTScore of 0.8905 is below the 0.90 minimum. This failure is a direct result of replacing key phrases like \"result of coincidence\" and \"choose to forget\" with phrases that are too lexically distant from the source text. This damages the factual fidelity.\n\nSuggestion: The text must be rewritten. You must restore the core contrast between a dream being a message about the future versus it being a chance event. The logical link between the sentences is too weak. Rephrase to improve lexical similarity to the original without introducing complex vocabulary. The current version is a list of simple statements, not a simplified explanation.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8905,
+          "meaningbert": 0.7152
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:08:50.016964",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: You can dream about a friend's phone call.\nOr you can dream that someone close to you dies.\nSometimes, this happens in real life.\nThis is not because the dream shows the future.\nIt is more likely the result of chance.\nWe often dream about these things.\nBut they usually do not happen.\nWe probably choose to forget all the times they do not happen.",
+      "timestamp": "2025-09-01 01:08:50.020060",
+      "metadata": {
+        "text_id": "d5f9a351-ab58-4000-a4e0-d054162a81e3",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 01:09:15.036772",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b59a685e-0459-4e3c-b169-55377dadd01b",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6492 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message's nuance.\n\n*   Primary Deviation: The original text makes a direct comparison: 'more likely to be the result of coincidence than prophecy'. Your version splits this into two separate sentences: 'This is not because the dream shows the future. It is more likely the result of chance.' This separation breaks the direct comparative link and alters the semantic structure, causing the metric failure.\n\n*   Structural Analysis: While the text passes the CEFR A2 classifier and uses appropriate vocabulary, the simplification strategy was too aggressive. Breaking the central comparison into two distinct statements caused a critical loss of meaning.\n\n*   Suggestion: Rephrase to restore the direct comparison. Combine the two sentences to show one idea is more likely than the other. A compliant structure would be: 'These dreams are more likely the result of chance, not a sign of the future.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9098,
+          "meaningbert": 0.6492
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:09:31.005387",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: You can dream about a friend's phone call.\nOr you can dream that someone close to you dies.\nSometimes, this happens in real life.\nThis is more likely the result of chance, not a sign of the future.\nWe often dream about these things.\nBut they usually do not happen.\nWe probably choose to forget all the times they do not happen.",
+      "timestamp": "2025-09-01 01:09:31.005835",
+      "metadata": {
+        "text_id": "7d2a441b-ffbc-4f3f-b801-8018c329d7d4",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 01:09:56.199588",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "641ecd3d-3b03-4f05-85d9-3ed9d5ee1538",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.69 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text.\n- The primary error is the introduction of the sentence 'Sometimes, this happens in real life.' This statement is not in the original text and it fundamentally changes the logical flow. The original text explains that the match between a dream and reality is a coincidence. Your version separates the dream and the event, weakening this core concept.\n- The original text groups two dream examples ('phone call' and 'death') to make a general point. By splitting them into two separate sentences ('You can dream... Or you can dream...'), you fragment the main idea.\nSuggestion: Remove the sentence 'Sometimes, this happens in real life.' Combine the dream examples into a single sentence to state that dreams about these things are usually the result of chance, not a sign of the future. This will restore the original meaning and logical structure.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9029,
+          "meaningbert": 0.6944
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:10:10.351372",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: You can dream about a friend's phone call or that someone close to you dies.\nThis is more likely the result of chance, not a sign of the future.\nWe often dream about these things.\nBut they usually do not happen.\nWe probably choose to forget all the times they do not happen.",
+      "timestamp": "2025-09-01 01:10:10.356940",
+      "metadata": {
+        "text_id": "ae4653d0-ed6a-4e55-b0fd-3a0eb5e4d52f",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 01:10:31.385889",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9acc7675-0e66-4b6f-802c-13a4a4b10645",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance Failure. The text was classified as B1, which is too complex for the A2 standard. The text fails because it uses grammatical structures that are above the target level.\n- B1 Grammar: The sentence '...or that someone close to you dies' uses a 'that-clause'. This is a B1 structure.\n- B1 Grammar: The final sentence uses the phrase '...all the times they do not happen'. This is a complex noun phrase with a relative clause, which is a B1 structure.\n- Suggestion: Remove the 'that-clause'. Rephrase the first sentence to use two simple noun objects. Example: 'You can dream about a friend's phone call or the death of someone close.'\n- Suggestion: Simplify the final sentence. Break the complex idea into smaller parts. Example: 'These things usually do not happen. We probably forget these times.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9117,
+          "meaningbert": 0.8377
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:10:42.882992",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: You can dream about a friend's phone call or the death of someone close.\nThis is more likely the result of chance, not a sign of the future.\nWe often dream about these things.\nBut they usually do not happen.\nWe probably forget these times.",
+      "timestamp": "2025-09-01 01:10:42.887580",
+      "metadata": {
+        "text_id": "b6e64d16-0772-440d-abda-33758c49621c",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 01:11:00.947090",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4b514725-5b1b-4466-8389-4ebfc8575e51",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with all A2 standard requirements.\n\n- Factual Integrity: The output is factually identical to the original text.\n- Meaning Preservation: The core message is maintained. This is confirmed by a MeaningBERT score of 0.83 and a BERTScore of 0.92, both of which exceed the required thresholds.\n- CEFR Compliance: The text correctly classifies as A2. It is neither too simple nor too complex.\n- Vocabulary Control: All words used are within the A1 and A2 levels. The simplification of 'coincidence' to 'chance' and 'prophecy' to 'a sign of the future' is an excellent example of A2 adaptation.\n- Structural Simplicity: The original complex sentence has been correctly deconstructed into multiple short, simple sentences, which is ideal for the A2 level.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9217,
+          "meaningbert": 0.8331
+        }
+      }
+    }
+  ]
+}

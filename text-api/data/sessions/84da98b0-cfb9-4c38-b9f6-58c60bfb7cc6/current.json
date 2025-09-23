@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "542bd15d-b90a-463d-a6b6-05daaafc3461",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Earthquakes can damage all structures, including bridges.  \nLuckily, bridges do not collapse often.  \nModern bridges also do not collapse often.  \nEngineers design bridges in earthquake zones.  \nThey build them on strong ground.  \nThis ground does not move easily.",
+    "version": 11,
+    "created_at": "2025-09-01 17:58:30.114715",
+    "updated_at": "2025-09-01 17:58:30.114716",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "2e82841e-e1d8-4e31-8fcf-462e7b1e62ff",
+    "approval": "FAIL",
+    "grade": 4,
+    "feedback": "FAIL: Fidelity Failure. The BERTScore of 0.8906 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text. The qualitative audit confirms this failure is due to both excessive rephrasing and vocabulary violations.\n\n- Vocabulary Violation: The B2 word 'collapse' was used. This is not A2 vocabulary. The phrase 'fall down' is the required A2 equivalent.\n- Vocabulary Violation: The B1 word 'damage' was used. This is not A2 vocabulary. The word 'break' is the required A2 equivalent.\n- Vocabulary Violation: The B1 word 'earthquake' was used. This is not A2 vocabulary. The phrase 'when the ground shakes' is the required A2 equivalent.\n- Fidelity Loss: The phrase 'areas that are much more resistant to movement' was simplified to 'strong ground'. While the meaning is similar, the rephrasing is too aggressive and contributes to the low fidelity score.\n\nSuggestion: Replace all words above the A2 level. The word 'collapse' must be replaced with 'fall down'. The word 'damage' must be replaced with 'break'. Rephrase to improve lexical similarity to the original text without sacrificing A2 simplicity.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8906,
+      "meaningbert": 0.803
+    },
+    "created_at": "2025-09-01 17:58:57.969740"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "5c648c4b-f3b6-4e60-bcc4-9b35660cbc7d",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Earthquakes shake and break all buildings and other things.  \nThey also shake and break bridges.  \nLuckily, bridges do not fall often.  \nThis is because new bridges are less likely to fall.  \nEngineers design bridges for earthquake areas.  \nThey put them on ground that does not move much.",
+    "version": 3,
+    "created_at": "2025-09-01 17:53:53.328851",
+    "updated_at": "2025-09-01 17:53:53.328852",
+    "metrics_meaningbert": 0.8058,
+    "metrics_cefr_compliance": "A2"
+  }
+}

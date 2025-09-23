@@ -1,0 +1,598 @@
+{
+  "session_id": "fbe83891-a575-4512-aacd-24532ab36a3b",
+  "created_at": "2025-08-31 23:50:44.267829",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:50:44.275414",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "04-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A pest is an animal that can hurt people or plants.\n\nSmall animals live in many cities and towns.\nWe see birds.\nWe see squirrels.\nWe see mice.\nWe see bugs.\n\nBut in the last few years, the news has many stories.\nThe stories say wild animals come into cities more and more.\n\nPeople saw bears in Vancouver parks.\nPeople saw leopards on Mumbai streets.\nPeople saw wild pigs in Berlin gardens.\n\nWhat happens when big animals come into our cities?\nAre they welcome?\nOr are they a danger or a pest?",
+      "timestamp": "2025-08-31 23:50:44.276009",
+      "metadata": {
+        "text_id": "3b2567d5-53c2-4a5b-bffe-f124f6504e25",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:50:44.287733",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "56751613-de4c-46f2-a99f-2bd50fa92823",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Vocabulary Audit. The text uses words that are not in the A2 list.\nFound 'pest' in sentence 1: not on A2 list.\nFound 'plants' in sentence 1: not on A2 list.\nFound 'stories' in sentence 3: not on A2 list.\nSuggestion: Replace 'pest' with a simpler phrase such as 'harmful animal'.\nSuggestion: Replace 'plants' with 'plant'.\nSuggestion: Replace 'stories' with 'news' or 'reports'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9131,
+          "meaningbert": 0.8095
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:51:17.775709",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: \"Pest\" is a word.  \nIt means an animal that can hurt people or plant.\n\nSmall animals live in many cities and towns.  \nWe see birds.  \nWe see squirrels.  \nWe see mice.  \nWe see bugs.\n\nBut in the last few years, the news has many reports.  \nThe reports say wild animals come into cities more and more.\n\nPeople saw bears in Vancouver parks.  \nPeople saw leopards on Mumbai streets.  \nPeople saw wild pigs in Berlin gardens.\n\nWhat happens when big animals come into our cities?  \nAre they welcome?  \nOr are they a danger or a pest?",
+      "timestamp": "2025-08-31 23:51:17.776824",
+      "metadata": {
+        "text_id": "1fee8aa9-0f79-42e4-a623-72eeb0694759",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:51:30.084531",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "aaee4acf-1591-4b35-883c-9d23dadebdfe",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore-Orig of 0.8811 is below the required 0.90. The writer\u2019s version drops \u201cworld\u2019s press\u201d entirely and replaces \u201cinsects\u201d with \u201cbugs,\u201d losing key lexical detail and factual phrasing from the original.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8811,
+          "meaningbert": 0.7781
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:51:51.200489",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Pest is a word.  \nIt is for an animal that can hurt people or plants.\n\nSmall animals live in many cities and towns. We see birds. We see squirrels. We see mice. We see insects.\n\nIn the last few years, the world's press has many reports. The reports say wild animals come into cities more and more.\n\nPeople saw bears in Vancouver parks. People saw leopards on Mumbai streets. People saw wild pigs in Berlin gardens.\n\nWhat happens when big animals come into our cities? Are they welcome or a danger? Or are they a pest?",
+      "timestamp": "2025-08-31 23:51:51.200852",
+      "metadata": {
+        "text_id": "4b6a70d9-2f92-44dc-990e-d2fb6f56263d",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:52:09.139120",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c8d8a527-6e38-41e3-8302-e29a32f1cbe2",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text uses a B1-level word. Detected deviation: the word \"press\" is B1 level (in \"In the last few years, the world's press has many reports.\"). A2 texts must use only A1 and A2 vocabulary. Suggestion: Replace \"press\" with an A2-level synonym such as \"news\".",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9095,
+          "meaningbert": 0.7856
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:52:34.963835",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Pest is a word. It is for an animal that can hurt people or plants. Small animals live in many cities and towns. We see birds. We see squirrels. We see mice. We see insects. In the last few years, the news has many reports. The reports say wild animals come into cities more and more. People saw bears in Vancouver parks. People saw leopards on Mumbai streets. People saw wild pigs in Berlin gardens. What happens when big animals come into our cities? Are they welcome or a danger? Or are they a pest?",
+      "timestamp": "2025-08-31 23:52:34.965935",
+      "metadata": {
+        "text_id": "8e85ff69-175a-4442-8bb9-bfbfe1c844c8",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:53:07.209670",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "17ee6aec-9d34-4616-9ad5-bde85fd57950",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Vocabulary Audit Failure. The text uses many words not in the approved A2 list. Detected unapproved words:\n- plants\n- cities\n- towns\n- birds\n- squirrels\n- insects\n- years\n- reports\n- bears\n- Vancouver\n- parks\n- leopards\n- Mumbai\n- streets\n- pigs\n- Berlin\n- gardens\n- happens\nSuggestion: Replace these with simpler, high-frequency A2 words. Remove proper nouns or define them simply. Stick strictly to vocabulary on the A2 list and keep sentences very short.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9188,
+          "meaningbert": 0.7861
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:53:48.418341",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Pest is a word.  \nIt is for an animal that can hurt people.  \nSmall animals live.  \nWe see mice.  \nNews say wild animals come more and more.  \nWhat when big animals come?  \nAre they a danger or a pest?  \nAre they welcome?",
+      "timestamp": "2025-08-31 23:53:48.419990",
+      "metadata": {
+        "text_id": "a90e6cfe-83e7-4eac-8492-d549722c0df2",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 23:54:00.247695",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "bbe4542d-d52e-472e-90ae-c6185cda69fe",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The writer's output omits the examples 'bears in Vancouver parks', 'leopards on the streets of Mumbai', and 'wild pigs in gardens in Berlin' from the original text, losing key factual details.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8438,
+          "meaningbert": 0.5604
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:54:10.327430",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A pest is an animal that can harm people.  \nMany small animals live in cities.  \nFor example, birds, squirrels, mice and insects.  \nBut now wild animals come more and more into cities.  \nPeople see bears in Vancouver parks.  \nThey see leopards on Mumbai streets.  \nThey see wild pigs in Berlin gardens.  \nWhat happens when big animals come into cities?  \nAre they a danger or a pest?  \nOr are they welcome?",
+      "timestamp": "2025-08-31 23:54:10.327884",
+      "metadata": {
+        "text_id": "ccf77278-632f-4191-8fe1-ac4b0b2fe5e1",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:54:34.959406",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b616c1b2-c04b-4c01-baf8-01d3cb59a349",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6613 is below the required 0.75. The summary omits the emphasis on the world's press reporting wild animals and downplays the idea of 'bigger and bigger numbers', losing the original scale and urgency\nFAIL: Fidelity Failure. The BERTScore of 0.8933 is below the required 0.90. Key phrases like 'world's press', 'reports', and 'bigger and bigger numbers' are removed or over-simplified\nSuggestion: Restore the phrase 'the world's press has been full of reports'.\nSuggestion: Reintroduce 'bigger and bigger numbers' to match the original meaning.\nSuggestion: Preserve critical lexical items to improve fidelity.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8933,
+          "meaningbert": 0.6613
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:55:03.471242",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Small animals like birds, squirrels, mice and insects live in many cities.\nRecently, the world\u2019s press is full of reports of wild animals.\nThey say wild animals come into cities in bigger and bigger numbers.\nPeople see bears in Vancouver parks.\nThey see leopards on Mumbai streets.\nThey see wild pigs in Berlin gardens.\nWhat happens when big animals come into cities?\nAre they welcome?\nOr are they a danger?\nOr are they a pest?\nA pest is an animal that harms people or plants.",
+      "timestamp": "2025-08-31 23:55:03.472405",
+      "metadata": {
+        "text_id": "c323fa5e-576c-47a6-9727-5a977a3f3b58",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 23:55:19.693724",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "daf4d7bc-2051-44b6-b78f-ca739a961a3f",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text uses the B1 level word 'press', which is not allowed in A2. Replace 'press' with a simpler A2 term such as 'news' or 'newspapers'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9469,
+          "meaningbert": 0.8446
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:55:27.584016",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Small animals like birds, squirrels, mice and insects live in many cities.  \nRecently, the news says wild animals come into cities more and more.  \nPeople see bears in Vancouver parks.  \nThey see leopards on Mumbai streets.  \nThey see wild pigs in Berlin gardens.  \nWhat happens when big animals come into cities?  \nAre they welcome?  \nOr are they a danger?  \nOr are they a pest?  \nA pest is an animal that harms people or plants.",
+      "timestamp": "2025-08-31 23:55:27.585514",
+      "metadata": {
+        "text_id": "6030a78a-ac45-4267-aa6d-99b0aaf45d92",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:55:41.888204",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "fb6132a4-6d99-47e4-872b-9fb1237aa418",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8998 is below the required 0.90.\n- The original phrase \"a common sight in many cities and towns\" was reduced to \"live in many cities,\" cutting key descriptive words.\n- \"The world's press has been full of reports\" was changed to \"the news says,\" losing precise lexical detail.\n- These simplifications caused insufficient overlap with the source text, triggering the BERTScore failure.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8998,
+          "meaningbert": 0.8394
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:56:22.572321",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Small animals are a common sight in many cities and towns.  \nPeople see birds, squirrels, mice and insects.  \nRecently, news from the world has many reports.  \nThey are about wild animals coming into cities.  \nPeople see more and more of them.  \nPeople see bears in Vancouver parks.  \nThey see leopards on the streets in Mumbai.  \nThey see wild pigs in gardens in Berlin.  \nWhat happens when big animals come into cities?  \nAre they welcome?  \nAre they a danger?  \nAre they a pest?  \nA pest is an animal that harms people or plants.",
+      "timestamp": "2025-08-31 23:56:22.575286",
+      "metadata": {
+        "text_id": "23900eb0-bebc-4ca6-a9ec-a0e391e3ea37",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:56:45.060696",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4bbd9856-ed24-4757-9861-fc3ec9a1188c",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8982 is below the required 0.90.\n- The phrase \"the world's press has been full of reports\" was changed to \"news from the world has many reports\", losing key lexical detail.\n- The phrase \"bigger and bigger numbers\" was simplified to \"more and more of them\", reducing emphasis.\nSuggestion: Restore the original phrase \"the world's press has been full of reports\".\nSuggestion: Use \"bigger and bigger numbers\" instead of \"more and more of them\".",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8982,
+          "meaningbert": 0.851
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:57:09.589635",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Small animals are a common sight in many cities and towns.\nPeople see birds, squirrels, mice and insects.\nRecently, the world's press has been full of reports.\nThey are about wild animals coming into cities.\nPeople see them in bigger and bigger numbers.\nPeople see bears in Vancouver parks.\nThey see leopards on the streets in Mumbai.\nThey see wild pigs in gardens in Berlin.\nWhat happens when big animals come into cities?\nAre they welcome?\nAre they a danger?\nAre they a pest?\nA pest is an animal that harms people or plants.",
+      "timestamp": "2025-08-31 23:57:09.592180",
+      "metadata": {
+        "text_id": "1b4597f1-b50e-4397-a2df-d84037c0ae72",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 23:57:38.002019",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "baa8a91c-82c0-40e8-91b6-b360bef68bed",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Audit. Unapproved B1 words detected.\n- 'sight' (line 1) is B1 level and not allowed in A2 writing.\n- 'press' (line 3) is B1 level and not allowed in A2 writing.\nSuggestion: Replace 'a common sight' with 'easy to see' or 'often seen'. Replace 'world's press' with 'world news' or 'news reports'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9517,
+          "meaningbert": 0.8888
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:58:01.491333",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Small animals are easy to see in cities and towns.  \nPeople see birds, squirrels, mice and insects.  \nRecently, world news has many reports.  \nThey are about wild animals coming into cities.  \nPeople see them in bigger and bigger numbers.  \nPeople see bears in Vancouver parks.  \nThey see leopards on the streets in Mumbai.  \nThey see wild pigs in gardens in Berlin.  \nWhat happens when big animals come into cities?  \nAre they welcome?  \nAre they a danger?  \nAre they a pest?  \nA pest is an animal that harms people or plants.",
+      "timestamp": "2025-08-31 23:58:01.495773",
+      "metadata": {
+        "text_id": "c4fd4db4-6f7f-4d08-843f-08b032cc41c9",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 23:58:28.320917",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "81fcf2b5-5200-464a-8df4-ab54a75465bc",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8988 is below the required 0.90. This indicates that key lexical items from the original have been lost.\n- The original phrase \"a common sight in many cities and towns\" was changed to \"are easy to see in cities and towns\", losing the concept of \"common sight\".\n- The phrase \"the world's press has been full of reports\" was simplified to \"world news has many reports\", dropping \"press\" and the intensity of \"full of reports\".\n- The addition of the definition \"A pest is an animal that harms people or plants.\" is not present in the original and introduces extraneous content.\nSuggestion: Restore the exact phrases \"a common sight in many cities and towns\" and \"the world's press has been full of reports\". Remove the added definition or only include it if it reflects the original text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8988,
+          "meaningbert": 0.8423
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:58:53.303186",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 12,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Small animals like birds, squirrels, mice and insects are a common sight in many cities and towns.  \nRecently, the world's press has been full of reports.  \nThese reports are about wild animals coming into cities in bigger and bigger numbers.  \nPeople see bears in Vancouver parks.  \nThey see leopards on the streets of Mumbai.  \nThey see wild pigs in gardens in Berlin.  \nWhat happens when big animals come into cities?  \nAre they welcome?  \nAre they a danger?  \nAre they a pest?  \nA pest is an animal that can be dangerous to people or plants.",
+      "timestamp": "2025-08-31 23:58:53.305817",
+      "metadata": {
+        "text_id": "0c6a9f6b-3e85-490f-a5f8-eb3cc15a736e",
+        "version": 12
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 23:59:15.780724",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6d8f2039-efc1-4e5a-ac52-7ae39e96c024",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance Violation. The text uses unapproved B1-level vocabulary.\n1. The word \u201csight\u201d in sentence 1 is B1-level. Replace it with an A2 alternative such as \u201cview\u201d or rephrase to \u201cwe often see small animals in cities.\u201d\n2. The word \u201cpress\u201d in sentence 2 is B1-level. Replace it with \u201cnews\u201d or \u201cmedia,\u201d which are A2-level.\nSuggestion: Review the entire text and remove any remaining words above A2 level. Use only A2-approved vocabulary lists.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.92,
+          "meaningbert": 0.8665
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:59:48.395058",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 13,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Small animals are in many cities and towns.  \nPeople see birds, squirrels, mice and insects.  \nRecently, the news is full of reports about wild animals in cities.  \nThese reports are about wild animals coming into cities.  \nThey come in bigger and bigger numbers.  \nPeople see bears in Vancouver parks.  \nThey see leopards on the streets of Mumbai.  \nThey see wild pigs in gardens in Berlin.  \nWhat happens when big animals come into cities?  \nAre they welcome?  \nAre they a danger?  \nAre they a pest?  \nA pest is an animal that can be dangerous.  \nIt can be dangerous to people or to plants.",
+      "timestamp": "2025-08-31 23:59:48.397803",
+      "metadata": {
+        "text_id": "7a82f78d-5925-4c7f-bebb-f0c978cc77c9",
+        "version": 13
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-08-31 23:59:56.931589",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "946cd78c-46d8-409e-964c-056ba0b5433e",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "The previous response did not comply with the requested JSON format. The schema requires a top-level 'output' object containing 'approval', 'grade', and 'feedback' as strings.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8988,
+          "meaningbert": 0.8527
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:00:18.319838",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 14,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: {\"output\":{\"approval\":\"PASS\",\"grade\":\"1\",\"feedback\":\"Small animals are in many cities and towns. People see birds, squirrels, mice and insects. Recently, news reports show more wild animals in cities. They come in bigger numbers. People see bears in Vancouver parks. They see leopards on the streets of Mumbai. They see wild pigs in gardens in Berlin. What happens when big animals come to cities? Are they welcome? Are they a danger? Are they a pest? A pest is an animal that is a danger. It can be dangerous for people or plants.\"}}",
+      "timestamp": "2025-09-01 00:00:18.323807",
+      "metadata": {
+        "text_id": "8d31c605-c0aa-4bdf-ab30-e1eba2edd6c1",
+        "version": 14
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 00:00:30.899714",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c33374b9-78b4-4eac-8428-87aada870124",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7461 is below the required 0.75, indicating the core message is not fully preserved. The original emphasises that press reports of wild animals entering cities in steadily increasing numbers, but the rewrite only says \u201cnews reports show more wild animals in cities,\u201d which loses the sense of a growing trend. Suggestion: Retain the phrase \u201cin recent years\u201d and \u201cin bigger and bigger numbers\u201d to mirror the original emphasis on the increasing frequency.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.915,
+          "meaningbert": 0.7461
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:00:44.922147",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 15,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: People see small animals in many cities and towns.  \nThey see birds, squirrels, mice and insects.  \nIn recent years, news reports say wild animals come to cities.  \nThey come in bigger and bigger numbers.  \nPeople see bears in Vancouver parks.  \nThey see leopards on the streets of Mumbai.  \nThey see wild pigs in gardens in Berlin.  \nWhat happens when big animals come to our cities?  \nAre they welcome?  \nAre they a danger?  \nAre they a pest?  \nA pest is an animal that is a danger.  \nIt can harm people or plants.",
+      "timestamp": "2025-09-01 00:00:44.926177",
+      "metadata": {
+        "text_id": "edd941e6-f8e2-4b29-99c0-395dccf3d53f",
+        "version": 15
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 00:01:03.699691",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "58a6f134-1970-4555-9017-640e21913bc4",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.897 is below the required 0.90 threshold.\n- BERTScore is 0.897, below the 0.90 minimum.\n- The phrase \"the world's press\" was replaced with \"news reports\", reducing specific lexical overlap.\n- \"are a common sight\" was changed to \"people see\", losing the original expression.\n- \"bigger animals\" was simplified to \"big animals\", weakening the fidelity to the source text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.897,
+          "meaningbert": 0.8198
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:01:37.214330",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 16,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Small animals are a common sight in many cities and towns.  \nThey include birds, squirrels, mice and insects.  \nIn recent years, the world\u2019s press is full of reports.  \nThe reports show wild animals coming into cities.  \nThey come in bigger and bigger numbers.  \nThere are bears in Vancouver parks.  \nThere are leopards on the streets of Mumbai.  \nThere are wild pigs in gardens in Berlin.  \nWhat happens when bigger animals come into our cities?  \nAre they welcome or considered a danger or a pest?  \nA pest is an animal that can harm people or plants.",
+      "timestamp": "2025-09-01 00:01:37.217128",
+      "metadata": {
+        "text_id": "54c95b8e-273f-41c4-a5ae-f3e3ead433e2",
+        "version": 16
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 00:01:53.429831",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d916537f-fc07-490a-b2e4-e35315407f98",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The writer added a new fact: \"A pest is an animal that can harm people or plants.\" This definition is not in the original text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9221,
+          "meaningbert": 0.9079
+        }
+      }
+    }
+  ]
+}

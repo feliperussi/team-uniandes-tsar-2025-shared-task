@@ -1,0 +1,413 @@
+{
+  "session_id": "67a9f02e-8cb2-44e9-884e-cd3671b36563",
+  "created_at": "2025-09-01 17:53:34.950069",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:53:35.001826",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "09-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some bridge collapses are mysteries.  \nEngineers only understand why after they do a full check.  \nThey used low quality material in the building.  \nSometimes it happens because a problem.  \nThe problem is in an important part of the bridge.  \nOther times they built the bridge to hold only a set weight.  \nIt cannot hold more.",
+      "timestamp": "2025-09-01 17:53:35.001984",
+      "metadata": {
+        "text_id": "d2eb137b-156f-4ee9-afc3-699433f3549b",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:53:36.826691",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a4e82d10-8dd1-47a7-9b1c-8a6763bc078a",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as B1, which is above the required A2 level. The failure is due to specific vocabulary and structural choices that increase complexity.\n- Vocabulary Violation: The word 'used' is B1 level. It must be replaced with an A2 alternative.\n- Vocabulary Violation: The word 'set' is B1 level. It must be replaced with an A2 alternative.\n- Grammatical Error: The sentence 'Sometimes it happens because a problem' is incorrect. This structure is non-standard and confusing.\n- Suggestion: Replace 'used' with 'put'.\n- Suggestion: Replace 'set weight' with 'a certain weight' or 'a special weight'.\n- Suggestion: Correct the grammar to 'Sometimes it happens because of a problem'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9006,
+          "meaningbert": 0.8431
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:53:46.201622",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some bridge collapses are mysteries.  \nEngineers only understand why after they do a A full check.  \nThey put low quality material in the bridge.  \nSometimes it happens because of a problem.  \nThe problem is in an important part of the bridge.  \nOther times they built the bridge to hold only one weight.  \nIt cannot hold more.",
+      "timestamp": "2025-09-01 17:53:46.201877",
+      "metadata": {
+        "text_id": "3b880efb-eaa7-40bc-97e2-c801e35a7e5a",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:54:16.230934",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d3509e1c-0d44-4e64-ab91-d1ec3208b21b",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The output alters the core message of the original text by presenting possibilities as certainties. This is an immediate failure.\n\n- Factual Error 1: The original text states that inferior material is a *possible* reason for collapse ('in some cases, this could happen because...'). Your text states definitively, 'They put low quality material in the bridge.' This changes the meaning from a speculative cause to a statement of fact.\n- Factual Error 2: The original text states a bridge was designed 'to support a certain amount of weight'. Your text misinterprets this as 'to hold only one weight'. 'A certain amount' refers to a maximum limit (e.g., 50 tons), not the number one.\n- Fidelity Failure: The BERTScore of 0.8964 is below the required 0.90. This metric confirms that key phrasing and accuracy were lost in the simplification process.\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. The simplification was not successful in meeting the target level.\n- Grammatical Error: The text contains the error 'a A full check'.\n\nSuggestion: You must preserve the original meaning. Rephrase to show these are possible reasons, for example, by starting sentences with 'Sometimes' or 'Maybe'. Correct the misinterpretation of 'a certain amount of weight' to something like 'a special weight limit'. Proofread for grammatical errors.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8964,
+          "meaningbert": 0.8106
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:54:24.820276",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some bridge collapses are mysteries.  \nEngineers only know why after a full check.  \nSometimes the collapse could be because low quality material was used.  \nSometimes the collapse could be because an important part is bad.  \nOther times the bridge may have a special weight limit.  \nIt cannot hold more weight.",
+      "timestamp": "2025-09-01 17:54:24.820706",
+      "metadata": {
+        "text_id": "4c808cbe-55b0-43e9-86cf-46a48ee09004",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:54:46.761620",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "39e6e209-4357-450c-95d3-82574d412fcd",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8978 is below the required 0.90. This is the primary reason for failure, indicating a significant deviation from the original text's phrasing. The text also fails on CEFR compliance and vocabulary.\n\n- CEFR Compliance Failure: The text was classified as B1, which is too complex for the A2 standard. This is a direct violation of the core requirement.\n\n- Vocabulary Violation: The text uses words above the A2 level. 'collapse' is a B2 word. 'limit' and 'used' are B1 words. These are unacceptable.\n\n- Grammatical Violation: The sentence '...low quality material was used' employs the passive voice ('was used'). This is a B1 grammatical structure and is not permitted at the A2 level.\n\n- Suggestion: Replace 'collapse' with 'fall down'.\n\n- Suggestion: Rephrase the sentence '...the bridge may have a special weight limit' to avoid the B1 word 'limit'. Use 'The bridge can only hold a certain amount of weight'.\n\n- Suggestion: Convert the passive voice sentence to active voice. Instead of '...low quality material was used', write '...builders used low quality material'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8978,
+          "meaningbert": 0.8053
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:54:53.288363",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some bridges fall down.  \nEngineers only know why after a full check.  \nSometimes builders built with low quality material.  \nSometimes an important part is bad.  \nOther times the bridge can only hold a certain amount of weight.  \nIt cannot hold more weight.",
+      "timestamp": "2025-09-01 17:54:53.288784",
+      "metadata": {
+        "text_id": "b4410eb5-9836-4d93-8040-c1fa6ee9193d",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:55:22.956564",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5c609468-5704-4b2a-8234-2e89047cc689",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6798 is significantly below the required 0.75 threshold. The text also fails the fidelity check, with a BERTScore of 0.8845, which is below the 0.90 minimum.\n\n- The core failure is the removal of causal relationships. The original text uses 'because' to explain *why* bridges collapse. Your version presents these reasons as a disconnected list of facts, which fundamentally changes the meaning.\n- Key vocabulary was oversimplified, leading to the low fidelity score. 'Engineers' is an acceptable A2 word. 'Investigation' was reduced to 'check', and 'defect' was reduced to 'bad', losing critical meaning and precision.\n- The text was broken into too many short, separate sentences. This destroyed the logical flow and the explanatory nature of the original passage.\n\nSuggestion: Reintroduce the word 'because' to connect the reasons to the collapses. Retain essential A2 vocabulary like 'engineers'. Combine related ideas into single sentences using simple connectors like 'and' or 'or' to restore the original text's logical structure.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8845,
+          "meaningbert": 0.6798
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:55:33.632074",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some bridges fall down.  \nEngineers find why after a full investigation.  \nThey fall because they use low quality material.  \nThey fall because a key part has a defect.  \nThey fall because the bridge only holds a certain amount of weight.",
+      "timestamp": "2025-09-01 17:55:33.632389",
+      "metadata": {
+        "text_id": "9273a5cf-4262-408d-9180-70475255ec48",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:55:57.561917",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ac5a24c4-d2a7-4f3e-a0e5-9ac6e55daa06",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.894 is below the required 0.90 threshold. This indicates an unacceptable loss of key words and phrasing from the original text.\n\n- CEFR Compliance Failure: The text was classified as B1. The target is A2. This is a direct result of using vocabulary that is too advanced.\n- Unapproved Vocabulary (B2): The word 'investigation' is not on the A2 list. This is a violation.\n- Unapproved Vocabulary (C1): The word 'defect' is not on the A2 list. This is a severe violation.\n\nSuggestion: Replace all non-A2 vocabulary. 'Investigation' must be rephrased to something like 'a careful study'. 'Defect' must be rephrased to 'a problem' or 'something wrong with it'. Adhere strictly to the A2 word list to pass.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.894,
+          "meaningbert": 0.8404
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:56:06.981391",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some bridges fall down.  \nEngineers find why after a close look.  \nThey fall because they use low quality material.  \nThey fall because a key part has something wrong.  \nThe bridge is made to hold a certain amount of weight.  \nIt cannot hold more weight.",
+      "timestamp": "2025-09-01 17:56:06.981779",
+      "metadata": {
+        "text_id": "22e522c9-9be6-4023-b433-cf5979414a2b",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:56:38.260915",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6fcaea28-c450-43ce-a580-5fee2276706a",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on two critical metrics. The MeaningBERT score of 0.7185 is below the required 0.75 threshold. The BERTScore of 0.8879 is below the required 0.90 threshold. This indicates an unacceptable loss of the original text's core message and lexical detail.\n\n- Meaning Loss: The original text states that collapses are \"mysteries\" requiring a \"complete investigation.\" Your version simplifies this to \"a close look.\" This is a severe oversimplification that loses the essential meaning of a formal, difficult process of discovery.\n\n- Fidelity Loss: The removal of key terms like \"investigation\" and the concept of \"a mystery\" is the direct cause of the low BERTScore. The text is too simplified, sacrificing fidelity for simplicity.\n\n- Suggestion: Restore the lost meaning. The sentence \"Engineers find why after a close look\" is inadequate. Rephrase to convey a more serious process. Example: \"Engineers must study the bridge for a long time to find the reason.\" This restores the meaning of a detailed investigation while remaining at an A2 level.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8879,
+          "meaningbert": 0.7185
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:56:48.614423",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some bridges fall down.  \nEngineers must study the bridge for a long time to find why.  \nSometimes the bridge falls because low quality material was used.  \nSometimes the bridge falls because a key part is wrong.  \nThe bridge can hold a certain amount of weight.  \nIt cannot hold more weight.",
+      "timestamp": "2025-09-01 17:56:48.614816",
+      "metadata": {
+        "text_id": "f158265c-81ef-40ae-87b4-d8c61eac708d",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:57:14.417955",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "27750003-5c36-4917-b58a-6e1d977aa235",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5974 is catastrophically below the required 0.75 threshold. This indicates a severe loss of the original text's core message.\n\n- The primary failure is the loss of cause-and-effect logic. The original text explains the *reasons* bridges collapse. Your output lists disconnected facts, which destroys the logical connection between the points.\n- The sentences \"The bridge can hold a certain amount of weight. It cannot hold more weight.\" are a critical error. They state simple facts but completely fail to explain that this is a *reason* for collapse, which was the entire point of the original sentence.\n- The BERTScore of 0.8849 is also below the 0.90 minimum, confirming that key lexical and structural information was lost during the simplification process.\n- The simplification is too aggressive. While the words are simple, the meaning they are supposed to convey has been lost.\n\nSuggestion: Re-write to explicitly connect the reasons to the outcome. Combine the final two sentences to restore the meaning. For example: \"A bridge can fall if it holds more weight than it was made for.\" This restores the cause-and-effect relationship that was lost.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8849,
+          "meaningbert": 0.5974
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:57:25.024662",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some bridges fall down.  \nEngineers study the bridge to find why.  \nSometimes the bridge falls because low quality material was put in it.  \nSometimes the bridge falls because a key part is wrong.  \nA bridge can fall if it holds too much weight.  \nIt was not built for that weight.",
+      "timestamp": "2025-09-01 17:57:25.025184",
+      "metadata": {
+        "text_id": "cfd2d1ee-3723-4cd1-8b58-0ffcca747e30",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:57:53.462940",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a20f827d-3cc4-4b19-91b3-04c819fac375",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6215 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\n- Fidelity Failure: The BERTScore of 0.88 is also below the 0.90 minimum. This is a direct result of oversimplification.\n- Loss of Core Concepts: The original text describes a process of discovery ('engineers only realise why after they conduct a complete investigation'). Your version ('Engineers study the bridge') loses this meaning of a difficult, post-event analysis.\n- Lexical Inaccuracy: Key terms were replaced with phrases that do not carry the same weight. 'Defect in a key piece' is not the same as 'a key part is wrong'. 'Inferior-quality material' is more specific than 'low quality material'.\n- Suggestion: The text has been simplified too much, sacrificing meaning for simplicity. Reintroduce the idea that engineers find the reason *after* the bridge falls. Use more precise A2 vocabulary to better reflect the original concepts, such as 'the material was not good' or 'a part had a problem'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.88,
+          "meaningbert": 0.6215
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:58:05.594330",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some bridges fall down.  \nEngineers look at the bridge after it falls.  \nThey try to find why it fell.  \nSometimes the material was not good.  \nSometimes a part had a problem.  \nSometimes the bridge was only built for a certain weight.  \nIf it carries more weight, it can fall.",
+      "timestamp": "2025-09-01 17:58:05.594834",
+      "metadata": {
+        "text_id": "25f75a83-2fbc-4ea6-9dc5-7dbede6c216c",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:58:37.176187",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0ac88607-7a95-4cac-93ee-ce1372e0c456",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5747 is critically below the 0.75 threshold. This indicates a severe loss of the original text's core message.\n\nFidelity Failure: The BERTScore of 0.8743 is also below the required 0.90. This is a direct result of replacing specific, important words with overly simple substitutes.\n\nLoss of Key Concepts: The simplification is too aggressive. The original text's concepts of a formal 'investigation' and an initial 'mystery' are completely lost. 'Engineers look at the bridge' does not convey the same meaning as 'engineers conduct a complete investigation'.\n\nVague Language: Replacing 'inferior-quality material' with 'material was not good' and 'a defect in a key piece' with 'a part had a problem' makes the text too vague and loses essential information.\n\nSuggestion: The text must be rewritten to preserve the original meaning while using A2 vocabulary and structure. Do not eliminate concepts; simplify them. Rephrase to include the idea of a formal 'study' or 'investigation'. Use stronger, simple words like 'bad' or 'weak' instead of 'not good' to better reflect 'inferior-quality'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8743,
+          "meaningbert": 0.5747
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:58:43.501631",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some bridge collapses are a mystery.  \nEngineers do a full study after a collapse.  \nThey try to find the reason.  \nSometimes the material is weak.  \nSometimes a key part has a defect.  \nEngineers designed the bridge for a certain weight only.  \nIf it carries more weight, it can fall.",
+      "timestamp": "2025-09-01 17:58:43.502790",
+      "metadata": {
+        "text_id": "2cecfed9-a23e-4f1b-9c35-974874d57b7f",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:59:09.913694",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9a462fb6-50f5-4c3b-a6c8-5940e114bdcf",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8862 is below the required 0.90. This is because you failed to replace key complex words from the original text, resulting in a low lexical similarity score for an A2 simplification.\n\n- CEFR Compliance Failure: The classifier correctly identified this text as B1, not A2. This is an instant failure.\n- Vocabulary Violation: The text is contaminated with non-A2 vocabulary. 'mystery' (B1), 'collapse' (B2), and 'defect' (C1) are all above the required level. Their presence is a direct violation of the A2 standard.\n- Grammatical Error: The first sentence, 'Some bridge collapses are a mystery,' is incorrect. The plural subject 'collapses' requires a plural complement 'mysteries'.\n\nSuggestion: Remove all non-A2 words immediately. Replace 'mystery' with 'a big question'. Replace 'collapse' with 'fall down'. Replace 'defect' with 'a problem' or 'something wrong with it'. Correct the grammatical error in the first sentence.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8862,
+          "meaningbert": 0.8314
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:59:23.944930",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some bridge falls down are big questions.  \nEngineers study the bridge after it falls down.  \nThey try to find the reason.  \nSometimes the material is weak.  \nSometimes a key part has a problem.  \nEngineers make the bridge for a certain weight.  \nIf it carries more weight, it can fall down.",
+      "timestamp": "2025-09-01 17:59:23.945460",
+      "metadata": {
+        "text_id": "d86967d1-bb1b-452b-97a2-7abe9ae024b4",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:59:51.636996",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "94c5ad8b-aa33-40df-a451-b0e6cb95126e",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on two critical metrics. The MeaningBERT score of 0.6262 is well below the required 0.75, indicating a significant loss of the original message. The BERTScore of 0.8688 is also below the 0.90 threshold, showing that key factual words were removed.\n- The simplification is too aggressive. The original's concept of a 'mystery' that requires a 'complete investigation' is lost when simplified to 'big questions' and 'study'. This changes the core meaning from a complex engineering problem to a simple question.\n- Key vocabulary was oversimplified, causing the low scores. 'Inferior-quality material' was reduced to 'weak', and 'defect' was reduced to 'problem'. This loses important technical meaning.\n- The phrase 'Some bridge falls down are big questions' is grammatically incorrect. It should be 'Why some bridges fall down is a big question' or similar.\nSuggestion: Restore the core concepts. Use A2-compliant phrasing that is more accurate. For example, 'Engineers do not always know why a bridge falls down' is better than 'Some bridge falls down are big questions'. The goal is simplification, not total loss of meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8688,
+          "meaningbert": 0.6262
+        }
+      }
+    }
+  ]
+}

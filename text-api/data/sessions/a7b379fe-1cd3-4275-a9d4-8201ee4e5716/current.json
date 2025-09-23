@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "4f20af51-52e3-489e-861a-77e2bed8d70e",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Gabriela noticed different cultures in her team.  \nShe started an open talk about her role.  \nShe asked the team how they felt.  \nThe team was pleased to be asked.  \nThe team said it was not normal for them.  \nThey did not like being told what to do not.  \nThey liked to act on their own.  \nThey liked to be creative.  \nGabriela told them exactly what to do.  \nThe team felt Gabriela thought they could not do the job well.  \nWhen the team tried to change her decisions, Gabriela felt bad.  \nThe team realized this when they challenged her.  \nThe team explained that this was how they always worked.",
+    "version": 11,
+    "created_at": "2025-09-01 17:20:12.994162",
+    "updated_at": "2025-09-01 17:20:12.994162",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "44f275b9-21ce-4804-89ed-3e2802f870ec",
+    "approval": "FAIL",
+    "grade": 2,
+    "feedback": "FAIL: Fidelity Failure. The BERTScore of 0.8811 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\n- Grammatical Error: The sentence 'They did not like being told what to do not' contains a double negative, which makes it grammatically incorrect and alters the intended meaning. This is a critical failure.\n- Vocabulary Violation: The text uses the word 'being', a B2-level gerund. This is too complex for the A2 standard. The phrase 'being told' must be simplified.\n- Lexical Loss: Key concepts from the original text such as 'initiative', 'creative freedom', and 'taking it personally' were oversimplified, contributing to the low BERTScore.\n- Ambiguous Pronoun: In the sentence 'The team realized this when they challenged her', the pronoun 'this' is unclear. It does not clearly refer back to 'Gabriela felt bad'.\n\nSuggestion: Correct the grammatical error immediately. Rephrase the sentence containing 'being' to use only A1/A2 vocabulary, for example, 'They did not like it when people told them what to do'. Restore the lost concepts using simpler A2 terms. Clarify the ambiguous pronoun by rejoining the sentences or being more specific.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8811,
+      "meaningbert": 0.8509
+    },
+    "created_at": "2025-09-01 17:20:38.892439"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "99bb8726-6237-4979-9b36-478cf784e448",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Gabriela saw that she and her team had different cultures. So she started a talk with them. She asked for their thoughts. They liked having more space and being creative. They liked taking action on their own. Gabriela told them exactly what to do. They felt she did not trust them. They saw she felt upset when they tried to challenge her decisions. But they said this was their normal way to work.",
+    "version": 5,
+    "created_at": "2025-09-01 17:16:36.327390",
+    "updated_at": "2025-09-01 17:16:36.327394",
+    "metrics_meaningbert": 0.8989,
+    "metrics_cefr_compliance": "A2"
+  }
+}

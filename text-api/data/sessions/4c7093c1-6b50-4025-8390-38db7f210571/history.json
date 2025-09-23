@@ -1,0 +1,413 @@
+{
+  "session_id": "4c7093c1-6b50-4025-8390-38db7f210571",
+  "created_at": "2025-09-01 17:53:27.863641",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:53:28.692912",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "07-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Life of Pi is a book.  \nIt tells an amazing story.  \nThe story is about Pi.  \nPi is a young boy from India.  \nHe is shipwrecked at sea.  \nHe is in a lifeboat with a fierce tiger.  \nThe book is the third book by Canadian writer Yann Martel.  \nIt was published in 2001.  \nAfter that it sold over seven million copies around the world.  \nIt won many prizes.  \nIt was translated into 41 languages.  \nYann Martel is the son of a government worker.  \nAs a child he lived in Costa Rica, Canada, France and Mexico.",
+      "timestamp": "2025-09-01 17:53:28.693021",
+      "metadata": {
+        "text_id": "65f8db58-fa84-4928-b55f-f0da683c3e34",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:53:28.713339",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d437052f-9487-49b2-b7bb-d766e8396d5b",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8994 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text. Vocabulary Violation: The word 'fierce' is a C1-level word. This is a severe deviation from the A2 standard. It must be replaced. Lexical Fidelity Loss: The replacement of specific terms like 'diplomat' with the more general 'government worker' contributed to the low fidelity score, even though the replacement word is A2-level. The sentence structure, using short, simple sentences, is appropriate for the A2 level. However, this does not compensate for the fidelity and vocabulary failures. Suggestion: Replace 'fierce' with an A2-appropriate word like 'dangerous' or 'strong'. Review all word choices to ensure they preserve as much of the original's specific meaning as possible while remaining within the A2 vocabulary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8994,
+          "meaningbert": 0.8696
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:53:37.765332",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Life of Pi is a book.  \nIt tells an amazing story.  \nThe story is about Pi.  \nPi is a young boy from India.  \nHe is shipwrecked at sea.  \nHe is in a lifeboat with a dangerous tiger.  \nIt is the third book by Canadian writer Yann Martel.  \nIt was published in 2001.  \nIt sold over seven million copies worldwide.  \nIt won many prizes.  \nIt was translated into 41 languages.  \nYann Martel is the son of a diplomat.  \nAs a child he lived in Costa Rica, Canada, France and Mexico.",
+      "timestamp": "2025-09-01 17:53:37.766022",
+      "metadata": {
+        "text_id": "6c738894-eab6-4aa6-bd68-27918f2bf876",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:53:59.246276",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "20c9de5d-af25-488b-9161-c7c227e71ea2",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Standard Violation. The text uses words that are not on the A2-level vocabulary list. This is a fundamental failure to adhere to the required standard.\n\n- The word 'worldwide' is B1 level. It must be replaced.\n- The word 'diplomat' is C1 level. This is a severe deviation from the A2 standard and is unacceptable.\n- The 'Keywords for Definition' list was empty. You failed to identify and simplify the non-compliant vocabulary.\n\nSuggestion: Replace 'worldwide' with the A2-compliant phrase 'all over the world'. Replace 'diplomat' with a simple A2 explanation, such as 'a person who works for his country in other countries'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9008,
+          "meaningbert": 0.908
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:54:09.528937",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Life of Pi is a book.  \nIt tells an amazing story.  \nThe story is about Pi.  \nPi is a young boy from India.  \nHe is shipwrecked at sea.  \nHe is in a lifeboat with a dangerous tiger.  \nIt is the third book by Canadian writer Yann Martel.  \nIt came out in 2001.  \nIt sold over seven million copies all over the world.  \nIt won many prizes.  \nIt was translated into 41 languages.  \nYann Martel is the son of a person.  \nThis person works for his country in other countries.  \nAs a child he lived in Costa Rica, Canada, France and Mexico.",
+      "timestamp": "2025-09-01 17:54:09.529340",
+      "metadata": {
+        "text_id": "48e106c8-1a4f-4221-bdc5-b354d7e5b2db",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:54:40.259651",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c66babf2-8b81-4b92-9700-f00602d7bab3",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8888 is below the required 0.90 threshold. This score indicates a significant loss of key words and factual phrasing from the original text.\n\n- Lexical Loss: Key terms were removed or oversimplified, causing the fidelity score to drop. The specific location 'Pacific Ocean' was deleted. The precise adjective 'ferocious' was replaced. This is unacceptable.\n- Vocabulary Violation: The word 'shipwrecked' is not A2 level. It is B1. This is a clear violation. Suggestion: Replace with 'His ship sinks at sea'.\n- Vocabulary Violation: The word 'translated' is not A2 level. It is B1. This is a clear violation. Suggestion: Rephrase to 'The book is in 41 languages'.\n- Structural Failure: The attempt to define 'diplomat' is clumsy. The sentences 'Yann Martel is the son of a person. This person works for his country in other countries.' are unnatural. Suggestion: Use a single, clear sentence like 'His father worked for his country in other countries'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8888,
+          "meaningbert": 0.8045
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:54:48.590593",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Life of Pi is a book.  \nIt tells an amazing story.  \nThe story is about Pi.  \nPi is a young boy from India.  \nHis ship sinks at sea.  \nHe is in a lifeboat with a dangerous tiger.  \nThe boat is in the Pacific Ocean.  \nIt is the third book by Canadian writer Yann Martel.  \nIt came out in 2001.  \nIt sold over seven million copies worldwide.  \nIt won many prizes.  \nThe book is in 41 languages.  \nYann Martel is the son of a diplomat.  \nHis father worked for his country in other countries.  \nAs a child he lived in Costa Rica.  \nHe also lived in Canada.  \nHe also lived in France.  \nHe also lived in Mexico.",
+      "timestamp": "2025-09-01 17:54:48.590946",
+      "metadata": {
+        "text_id": "5af775bd-220e-4b94-8f70-08ec94e408f7",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:55:19.047875",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "db1c4404-b8ef-4f17-981b-8fe6e7503d2d",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8774 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text, sacrificing factual precision for simplicity.\n\n- Fidelity Degradation: The low score is a direct result of replacing specific, important words from the original text. Terms like 'shipwrecked', 'trapped', 'published', and 'translated' were replaced with overly simple phrases like 'sinks at sea', 'is in a lifeboat', 'came out', and 'is in'. This damages the lexical connection to the source material.\n\n- Vocabulary Violation: The B1-level word 'worldwide' was used. This is not A2 vocabulary. Suggestion: Replace 'worldwide' with 'all over the world' or 'in many countries'.\n\n- Vocabulary Violation: The C1-level word 'diplomat' was used. Providing an explanation is a valid strategy, but avoiding the word entirely is safer for strict A2 compliance. Suggestion: Rephrase to avoid the term, for example: 'Yann Martel\u2019s father worked for his country in other places.'\n\n- Structural Issue: The text is excessively fragmented. The sequence of extremely short, disconnected sentences ('He also lived in Canada. He also lived in France. He also lived in Mexico.') is more characteristic of an A1 text. Suggestion: Combine some sentences using A2-level connectors like 'and' to improve flow. For example: 'As a child, he lived in Costa Rica, Canada, France and Mexico.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8774,
+          "meaningbert": 0.8118
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:55:32.658300",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Life of Pi is a book.  \nIt tells an amazing story.  \nThe story is about Pi.  \nPi is a young boy from India.  \nHe becomes shipwrecked.  \nHe gets trapped in a lifeboat with a tiger.  \nThe lifeboat is in the Pacific Ocean.  \nIt is the third book by Canadian writer Yann Martel.  \nThe book came out in 2001.  \nIt has sold over seven million copies all over the world.  \nIt has won many prizes.  \nThe book appears in 41 languages.  \nYann Martel is the son of a man who worked for his country.  \nAs a child, he lived in Costa Rica, Canada, France and Mexico.",
+      "timestamp": "2025-09-01 17:55:32.658625",
+      "metadata": {
+        "text_id": "7aff0fed-ed71-4372-b335-8240d7f39221",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:56:00.912604",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "986390c2-6253-485a-9e12-354121aed52d",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8938 is below the required 0.90 threshold. This indicates a failure to retain key lexical details from the original text.\n\n- Primary Deviation: The BERTScore is too low. This is a result of oversimplification that removes important meaning.\n- Lexical Loss: The original text specifies a 'ferocious tiger'. Your output reduces this to 'a tiger', losing a key descriptive detail that is central to the story's conflict.\n- Phrasing Inaccuracy: The phrase 'been translated into' was replaced with 'appears in'. This is a weak and imprecise substitution. 'Appears in' does not carry the same specific meaning as translation.\n- Structural Oversimplification: The text has been broken down into excessively short, disconnected sentences. This is more typical of an A1 level. An A2 text should connect simple, related ideas. For example, 'He becomes shipwrecked. He gets trapped...' should be combined into 'He becomes shipwrecked and gets trapped...'.\n\nSuggestion: Restore key descriptive words like 'ferocious'. Use a more accurate A2 phrase for 'translated', such as 'You can read the book in 41 languages'. Combine short, related sentences using the connector 'and' to achieve a more natural A2 structure.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8938,
+          "meaningbert": 0.7514
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:56:13.247415",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Life of Pi is a book.  \nIt tells an amazing story about Pi.  \nPi is a young boy from India.  \nHe becomes shipwrecked and gets trapped in a lifeboat with a ferocious tiger.  \nThe lifeboat is in the Pacific Ocean.  \nIt is the third book and it is written by Canadian writer Yann Martel.  \nThe book came out in 2001.  \nIt has sold over seven million copies worldwide.  \nIt has won many prizes.  \nYou can read the book in 41 languages.  \nYann Martel is the son of a man who worked for his country.  \nAs a child, he lived in Costa Rica, Canada, France and Mexico.",
+      "timestamp": "2025-09-01 17:56:13.247905",
+      "metadata": {
+        "text_id": "4165548e-8be2-4961-966a-99ccbd44749c",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:56:41.860137",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a06b779c-2844-4d2a-8534-0a7219421ac5",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR A2 Standard Violation. The text passed all metric checks but fails the qualitative audit due to vocabulary and grammatical structures that exceed the A2 level. The output is not compliant.\n\nDetected Deviations:\n\n- Vocabulary Exceeds A2 Level: The text includes multiple words that are B1 or higher. This is a critical failure. The word 'ferocious' is B2. The words 'shipwrecked', 'trapped', 'written', 'worldwide', and 'copies' are all B1. These must be simplified for an A2 audience.\n\n- B1 Grammatical Structure: The sentence 'Yann Martel is the son of a man who worked for his country' uses a relative clause ('who worked...'). This is a B1 structure. A2 texts must use simple, conjoined sentences.\n\nCorrective Path:\n\n- Suggestion: Replace all vocabulary above the A2 level. 'ferocious' must be changed to 'very dangerous'. 'shipwrecked' must be rephrased to 'his ship sinks'. 'trapped' must be changed to 'stuck'. 'worldwide' must be changed to 'in the world'.\n\n- Suggestion: Eliminate the B1 relative clause. The sentence about Martel's father must be split into two simple sentences. Example: 'Yann Martel\u2019s father worked for his country. Yann is his son.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9054,
+          "meaningbert": 0.8107
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:56:51.754748",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Life of Pi is a book.  \nIt tells an amazing story about Pi.  \nPi is a young boy from India.  \nHis ship sinks.  \nHe is stuck in a lifeboat with a very dangerous tiger.  \nThe lifeboat is in the Pacific Ocean.  \nIt is the third book.  \nA Canadian writer named Yann Martel wrote it.  \nThe book came out in 2001.  \nIt has sold over seven million books in the world.  \nIt has won many prizes.  \nYou can read the book in 41 languages.  \nYann Martel\u2019s father worked for his country.  \nYann is his son.",
+      "timestamp": "2025-09-01 17:56:51.756382",
+      "metadata": {
+        "text_id": "64effaeb-ca0a-4bea-8755-c37f099fa55b",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:57:14.420237",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "247dc411-615f-4de1-86b4-03b72c16341b",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6497 is substantially below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text. A secondary failure was detected in fidelity, with a BERTScore of 0.87, below the 0.90 minimum.\n\n- The primary cause of the meaning preservation failure is the complete omission of key information. The original text states that as a child, Martel \"lived in Costa Rica, Canada, France and Mexico.\" Your output removes this entire fact, which is a significant loss of content.\n- The simplification of the text into a series of short, disconnected sentences has damaged the narrative flow and contributed to the low metric scores.\n- The phrasing \"Yann Martel\u2019s father worked for his country. Yann is his son\" is unnatural and redundant. The second sentence is unnecessary.\n\nSuggestion: You must re-integrate the omitted factual information. The text must state that Martel lived in several countries as a child. Combine some of the overly simplistic sentences to create better, but still simple, connections. For example: \"Pi is a young boy from India whose ship sinks.\" Rephrase the final sentence to be more direct and less redundant, such as: \"His father was a diplomat, so Yann lived in many countries when he was a child.\"",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.87,
+          "meaningbert": 0.6497
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:57:25.025924",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Life of Pi is a book.  \nIt tells an amazing story about Pi.  \nPi is a young boy from India.  \nHis ship sinks.  \nHe is stuck in a lifeboat with a dangerous tiger.  \nThe lifeboat is in the Pacific Ocean.  \nThe book is the third by Yann Martel.  \nThe Canadian writer Yann Martel wrote it.  \nIt came out in 2001.  \nIt has sold over seven million copies worldwide.  \nIt has won many prizes.  \nYou can read it in 41 languages.  \nHis father worked for his country.  \nBecause of this, Yann lived in Costa Rica.  \nHe also lived in Canada, France and Mexico as a child.",
+      "timestamp": "2025-09-01 17:57:25.026378",
+      "metadata": {
+        "text_id": "e4d1200f-ccdf-431f-b432-ac5a7f9e3333",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:57:58.482942",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9d2f677f-49f0-49ba-bbfe-5563835ea0d1",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for failure is the MeaningBERT score of 0.71, which is below the required 0.75 threshold. This indicates a significant loss of the original text's core message. A secondary failure is the BERTScore of 0.88, which is below the 0.90 minimum, indicating a loss of key vocabulary and phrasing.\n\nDiagnostic Analysis:\n- Meaning Preservation Failure (MeaningBERT 0.71): The text's meaning was diluted by over-simplification. The concept of a 'diplomat' was reduced to 'worked for his country', which is too vague and loses the specific meaning of the original. The extreme fragmentation of sentences also weakened the connections between ideas.\n- Fidelity Failure (BERTScore 0.88): The text failed to retain key lexical items. Words like 'shipwrecked', 'trapped', 'author', and 'diplomat' were removed, causing a significant drop in fidelity to the source text.\n- Vocabulary Violation: The B1-level word 'worldwide' was used. This word is not on the A2 list and must be replaced or simplified.\n- Structural Weakness: The text is excessively fragmented into short, disconnected sentences. This choppy structure, while using simple grammar, makes the text difficult to follow and contributes to the loss of meaning. The sentences 'The book is the third by Yann Martel' and 'The Canadian writer Yann Martel wrote it' are redundant and poorly structured.\n\nCorrective Actions:\n- Suggestion: Restore the original meaning. The simplification of 'diplomat' is unacceptable. Rephrase to better capture the original concept using A2 vocabulary.\n- Suggestion: Improve sentence structure. Combine some of the short, choppy sentences to create better logical flow. For example, 'His ship sinks and he is stuck in a lifeboat...'\n- Suggestion: Replace the B1 word 'worldwide'. Use an A2-compliant phrase such as 'in many countries' or 'all over the world'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8831,
+          "meaningbert": 0.71
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:58:17.436250",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Life of Pi is a book.  \nIt tells the story of Pi.  \nPi is a young boy from India.  \nHis ship sinks and he is shipwrecked.  \nHe is trapped in a lifeboat.  \nA tiger is with him in the lifeboat.  \nThe lifeboat is in the Pacific Ocean.  \nThe book was written by Yann Martel, a Canadian writer.  \nIt was published in 2001.  \nIt has sold more than seven million copies in many countries.  \nIt has won many prizes.  \nIt can be read in 41 languages.  \nYann Martel\u2019s father was a diplomat.  \nA diplomat is a person who talks to other countries.  \nBecause of this, Yann lived in Costa Rica as a child.  \nHe also lived in Canada, France and Mexico as a child.",
+      "timestamp": "2025-09-01 17:58:17.436786",
+      "metadata": {
+        "text_id": "6ed372ea-9917-4b6e-8688-4ab6c65d6b27",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:58:44.437893",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2a9bab13-0c92-493e-9a2b-62ea9ac039bb",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8831 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text.\n\n- Fidelity Loss: Key descriptive words like 'extraordinary' and 'ferocious' were removed. The factual detail that this was the author's 'third book' was also omitted. This loss of specific information reduces the text's fidelity to the original source.\n- Vocabulary Violation: The word 'written' is a B1-level past participle. It is not compliant with the A2 standard.\n- Factual Omission: The original text states this was the 'third book' by the author. This fact was removed from your output.\n\nSuggestion: Rephrase the sentence 'The book was written by Yann Martel' to the active A2 form: 'Yann Martel wrote the book.' Restore the omitted fact that this was his third book. To improve the fidelity score, retain simple but important adjectives or find A2-level replacements.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8831,
+          "meaningbert": 0.8448
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:58:55.315964",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Life of Pi is a book.  \nIt tells a very special story of Pi.  \nPi is a young boy from India.  \nHis ship sinks and he is shipwrecked.  \nHe is trapped in a lifeboat.  \nA scary tiger is with him.  \nThe lifeboat is in the Pacific Ocean.  \nThis is Yann Martel's third book.  \nYann Martel wrote the book.  \nIt came out in 2001.  \nIt has sold more than seven million copies.  \nIt has won many prizes.  \nIt can be read in 41 languages.  \nYann Martel\u2019s father was a person who talks to other countries.  \nBecause of this, Yann lived in Costa Rica as a child.  \nHe also lived in Canada, France and Mexico as a child.",
+      "timestamp": "2025-09-01 17:58:55.316540",
+      "metadata": {
+        "text_id": "bbdf211e-ba5d-4cea-8b51-4578f2ba5744",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:59:21.228367",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "447b24c1-3407-45b9-acb0-b8789d3e44c4",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8785 is below the required 0.90 threshold. This indicates a significant loss of key phrasing from the original text.\n\n- The score is low because key vocabulary was over-simplified. Replacing 'ferocious' with 'scary', 'published' with 'came out', and 'translated into' with 'can be read in' reduces lexical fidelity.\n- Factual detail was lost. The original text specifies Yann Martel is a 'Canadian author'. Your version omits his nationality entirely.\n- The definition of 'diplomat' as 'a person who talks to other countries' is an acceptable A2 simplification, but combined with the other changes, it contributes to the low fidelity score.\n\nSuggestion: Restore the original key terms where possible. Re-insert the detail that the author is Canadian. You must maintain a higher degree of lexical similarity to the source text to meet the fidelity standard.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8785,
+          "meaningbert": 0.7645
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:59:32.451299",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Life of Pi is a book.  \nIt tells a special story about Pi.  \nPi is a young boy from India.  \nHis ship sinks and he is shipwrecked.  \nHe is trapped in a lifeboat.  \nA ferocious tiger is with him.  \nThe lifeboat is in the Pacific Ocean.  \nCanadian author Yann Martel wrote the book.  \nIt is his third book.  \nIt was published in 2001.  \nIt sold more than seven million copies.  \nIt won many prizes.  \nIt is available in 41 languages.  \nYann Martel\u2019s father was a diplomat.  \nBecause of this, Yann lived in Costa Rica as a child.  \nHe also lived in Canada, France and Mexico as a child.",
+      "timestamp": "2025-09-01 17:59:32.451938",
+      "metadata": {
+        "text_id": "231058bf-90fb-428f-819e-468f09a1cdfa",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:59:58.674620",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "813add66-4735-4b69-abe2-3538be1c7b79",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.885 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text. While simplification is necessary, it must not sacrifice lexical fidelity to this degree.\n\nDiagnostic Analysis:\n- Fidelity Failure: The low BERTScore is a direct result of replacing key descriptive words. Changing 'extraordinary story' to 'special story' and 'translated into' to 'available in' lost too much of the original's specific meaning.\n- Vocabulary Violation (B1+): The text includes multiple words that are not on the A2 list. This is a critical error. The word 'ferocious' is B2 level. The word 'published' is B1. The word 'shipwrecked' is B1. The word 'diplomat' is C1. These words must be replaced or defined in simple A2 terms.\n- Structural Simplification: The text is broken into too many short, disconnected sentences. This makes it read like a list, not a paragraph. While short sentences are good, they must still connect logically.\n\nCorrective Actions:\n- Suggestion: Replace all words above the A2 level. 'Ferocious' must be changed to 'very dangerous'. 'Diplomat' must be changed to 'a person who works for his country in other countries'. 'Published' must be changed to 'came out'.\n- Suggestion: Rephrase sentences to restore fidelity. For example, 'It is available in 41 languages' does not mean the same as 'It has been translated into 41 languages'. A better A2 version is 'People can read the book in 41 different languages'.\n- Suggestion: Combine some of the very short sentences using 'and' or 'but' to improve the flow of the text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.885,
+          "meaningbert": 0.8411
+        }
+      }
+    }
+  ]
+}

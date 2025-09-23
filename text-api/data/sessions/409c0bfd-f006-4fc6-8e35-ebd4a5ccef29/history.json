@@ -1,0 +1,413 @@
+{
+  "session_id": "409c0bfd-f006-4fc6-8e35-ebd4a5ccef29",
+  "created_at": "2025-09-01 17:23:02.781510",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:23:06.449875",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "95-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Horror films like places where no one lives.  \nThis can be an old hospital.  \nIt can be a scary empty house.  \nIt can be a town with no people.  \nThese places are quiet and empty.  \nThey feel alone.  \nWe ask how they looked when people lived there.  \nWe ask why people left.  \nMaybe they are very quiet, and that can be scary.  \nAlso, old places help horror film makers.  \nThey make it easy to show no phone signal there.",
+      "timestamp": "2025-09-01 17:23:06.450057",
+      "metadata": {
+        "text_id": "8b31ec8e-c248-4c18-902f-6b58a1c02566",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:23:07.349030",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7931d056-bd9d-4ad2-b753-95e23c294be4",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.68 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text.\n\n- Primary Failure (MeaningBERT): The original text explains *why* directors use these locations: it is 'handy' and makes the story 'more believable'. Your version states that old places 'help' and 'make it easy', which is a different and much weaker meaning. The core logic was lost.\n- Secondary Failure (BERTScore): The BERTScore of 0.87 is below the required 0.90. This is a direct result of replacing key concepts like 'abandoned' and 'believable' with overly simple words, losing lexical fidelity.\n- Vocabulary Violation: The word 'signal' is B1 level. It was not replaced with an A2-compliant alternative.\n\nSuggestion: You must rephrase the final two sentences to restore the original meaning. The text must explain that these places make it easier for the audience to believe that phones do not work. Replace the word 'signal' with an A2 phrase like 'phone service' or 'your phone does not work'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8769,
+          "meaningbert": 0.6866
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:23:16.912688",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Horror films like places where no one lives.  \nIt can be an old hospital.  \nIt can be a scary empty house.  \nIt can be a town with no people.  \nThese places are quiet and empty.  \nThey feel alone.  \nWe wonder how they looked.  \nWe wonder when people lived there.  \nWe wonder why people left.  \nMaybe they are very quiet, and that can be scary.  \nAlso, old places help horror film makers.  \nThey make it easier for people to think.  \nYour phone does not work there.",
+      "timestamp": "2025-09-01 17:23:16.913110",
+      "metadata": {
+        "text_id": "6d8ba08d-e64a-4f92-878e-442ccbc74272",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:23:45.363665",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c585ee53-43a4-4a37-a2cb-6bd1db4d216b",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The sentence 'They make it easier for people to think' is a complete misinterpretation of the original text's meaning, which is about making the lack of phone service more believable. This is a critical error.\n- Meaning Preservation Failure: The MeaningBERT score of 0.6988 is significantly below the required 0.75 threshold. Your text has lost the core message of the original, specifically the reason why abandoned places are useful for film directors.\n- Fidelity Failure: The BERTScore of 0.8685 is below the required 0.90. You failed to retain key concepts like 'believable' and 'phone coverage'.\n- Vocabulary Violation: The word 'wonder' is a B1-level verb. This is not compliant with the A2 standard.\n- Suggestion: You must rewrite the final three sentences to accurately state that in these places, it is easy to believe that a phone will not work. Replace the B1 verb 'wonder' with a simpler A2 phrase like 'We ask questions about...' or 'We think about...'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8685,
+          "meaningbert": 0.6988
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:23:56.595402",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Horror films like places where no one lives.  \nIt can be an old hospital.  \nIt can be a scary empty house.  \nIt can be a town with no people.  \nThese places are quiet and empty.  \nThey feel alone.  \nWe think about how they looked.  \nWe think about when people lived there.  \nWe think about why people left.  \nMaybe they are very quiet, and that can be scary.  \nOld places help horror film makers.  \nIt is easy to think the phone will not be working there.  \nYour phone does not work there.",
+      "timestamp": "2025-09-01 17:23:56.595761",
+      "metadata": {
+        "text_id": "7cd56e25-257b-4222-9d52-68ab7a426382",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:24:20.117252",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "91f3a08f-56e8-49f3-b1c6-d2f7814a7294",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7186 is below the required 0.75 threshold. This is an instant failure.\n\n- The core meaning was damaged. The original text creates a sense of mystery with questions like \"What was it like when people lived there? Why did they leave?\". Your version replaces this with flat, declarative statements (\"We think about...\"), which loses the intended feeling.\n- The BERTScore of 0.8669 is also below the 0.90 minimum. This indicates a significant loss of key vocabulary. Words like \"abandoned\", \"ghost town\", and \"believable\" were oversimplified, reducing fidelity to the source.\n- The sentence structure is too simple, even for A2. The repetition in \"It can be an old hospital. It can be a scary empty house. It can be a town with no people.\" is characteristic of A1 level text and makes the writing unnatural.\n- The final two sentences are redundant. \"It is easy to think the phone will not be working there. Your phone does not work there.\" This does not correctly capture the original's meaning of \"more believable\".\n\nSuggestion: Combine fragmented sentences using 'and' or 'or'. Rephrase to restore the questioning tone of the original. Revise the final sentence to accurately convey the idea of believability, for example: \"In these places, it is also easy for the story to say your phone has no signal.\"",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8669,
+          "meaningbert": 0.7186
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:24:29.209908",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Horror films like places where no one lives.  \nThey can be an old hospital or a scary empty house.  \nThey can also be an empty town.  \nThese places are quiet and feel alone.  \nWhat was it like when people lived there?  \nWhy did they leave?  \nThe quiet can make the place feel scary.  \nOld empty places help horror film makers.  \nIn these places, the story can say your phone has no signal.",
+      "timestamp": "2025-09-01 17:24:29.211226",
+      "metadata": {
+        "text_id": "104402c6-f6ca-4904-bf69-b029f1a54575",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:24:56.831439",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e8ec65b0-1ef5-4023-8560-9ac029ce26db",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6602 is significantly below the required 0.75 threshold. This indicates a critical loss of the original message's nuance.\n- The BERTScore of 0.8889 is also below the 0.90 minimum, confirming a loss of key phrasing. The original text explains that empty places are 'handy' for directors because it is more 'believable' that phones will not work. Your version states two separate facts but fails to connect them with this reason of believability.\n- The B1 vocabulary word 'signal' was used. This is a direct violation of the A2 standard. All vocabulary must be strictly A2.\n- Suggestion: Restore the lost meaning by explaining *why* these places are useful for filmmakers. Replace the B1 word 'signal' with an A2 phrase like 'your phone does not work'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8889,
+          "meaningbert": 0.6602
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:25:06.818019",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Horror films like places where no one lives.  \nThey can be an old hospital.  \nThey can be a scary empty house.  \nThey can be an empty town.  \nThese places are quiet.  \nThey feel alone.  \nWhat was it like when people lived there?  \nWhy did they leave?  \nThe quiet can make the place feel scary.  \nOld empty places help horror film makers.  \nIt seems true that your phone does not work.",
+      "timestamp": "2025-09-01 17:25:06.818484",
+      "metadata": {
+        "text_id": "062f7bc3-ddc7-4978-8372-e88ca45daa12",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:25:35.055838",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "44a84776-fb7c-434e-9a5f-8b73fd39f503",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity and Meaning Preservation Failure.\n\nThe primary reason for failure is non-compliance with required metrics. The BERTScore of 0.8731 is below the minimum of 0.90, and the MeaningBERT score of 0.7472 is below the minimum of 0.75. This indicates a significant loss of key words and a failure to preserve the core message.\n\n- Fidelity Loss: The text sacrifices too much detail from the original. Replacing 'abandoned hospital' with 'old hospital' and 'ghost town' with 'empty town' loses important lexical information, contributing to the low BERTScore.\n- Structural Deviation: The repetitive use of short, disconnected sentences like 'They can be an old hospital. They can be a scary empty house.' is a severe over-simplification of the original's structure. This choppy style reduces the fidelity to the source text.\n- Meaning Shift: The original text conveys a sense of mystery and atmosphere ('There's something about lonely, empty places'). Your version reduces this to a list of simple facts, which caused the MeaningBERT score to fall below the required threshold.\n\nSuggestion: Combine the list of places into a single sentence using 'and' or 'or' to better reflect the original structure. Re-evaluate word choices to retain more of the original's specific meaning without exceeding the A2 vocabulary. The goal is simplification, not complete reconstruction.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8731,
+          "meaningbert": 0.7472
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:25:47.149926",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Horror films like places where no one lives.  \nThey can be an abandoned hospital, an empty house, or ghost town.  \nThese places are very quiet.  \nThey feel alone and empty.  \nYou wonder what it was like when people lived there.  \nYou wonder why they left.  \nThe quiet can make the place feel scary.  \nAbandoned places help horror film makers.  \nIt seems true that your phone does not work there.",
+      "timestamp": "2025-09-01 17:25:47.150308",
+      "metadata": {
+        "text_id": "4f2a06cd-0fe3-4ab7-b91f-b9fcbadde935",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:26:11.606692",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9f494c15-6a11-42cc-a908-21e030b2d241",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8893 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text. The simplification process has removed too much lexical detail.\n\n- Vocabulary Violation: The text uses B1-level vocabulary. The words 'ghost' and 'wonder' are not on the A2 list. This is an unacceptable deviation.\n\n- Structural Violation: The sentence 'It seems true that your phone does not work there' uses a 'that-clause'. This is a B1 grammatical structure and is too complex for the A2 level.\n\n- Suggestion: Rephrase to increase fidelity and adhere to A2 standards. Replace 'ghost town' with 'an old town with no people'. Replace 'wonder' with 'think about'. Rewrite the final sentence to remove the complex clause, for example: 'Also, your phone often does not work in these places.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8893,
+          "meaningbert": 0.7952
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:26:18.197631",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Horror films like places where no one lives.  \nThey can be an abandoned hospital.  \nThey can be an empty house.  \nThey can be an old town with no people.  \nThese places are very quiet.  \nThey feel alone and empty.  \nYou think about what it was like when people lived there.  \nYou think about why they left.  \nThe quiet can make the place feel scary.  \nAbandoned places help horror film makers.  \nAlso, your phone often does not work in these places.",
+      "timestamp": "2025-09-01 17:26:18.198706",
+      "metadata": {
+        "text_id": "d9379985-5512-414c-b881-5e0f5db324f1",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:26:49.435397",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ce6744aa-3e83-46e0-a671-fb8c188bc081",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8768 is below the required 0.90 threshold. This indicates a significant loss of key words and concepts from the original text.\n\nPrimary Deviation: The core meaning of why directors use these locations was lost. The original explains it is 'more believable' that phones will not work, which is a plot device. Your version, 'your phone often does not work', states this as a simple fact, losing the critical connection to the film's story.\n\nSecondary Deviations: The descriptive word 'scary' was removed from 'scary empty house'. The concept of 'handy' was inadequately replaced with 'help'. The repetitive sentence structure ('They can be...') is too simplistic and degrades the text.\n\nSuggestion: Restore the lost meaning. Rephrase the final sentence to explain that it is easy for people to believe that phones do not work in these places, and this helps the story. Restore the word 'scary'. Combine the repetitive sentences.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8768,
+          "meaningbert": 0.8068
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:27:00.345518",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Horror films like an abandoned hospital.  \nThey also like a scary empty house.  \nThey also like an old town with no people.  \nThese places are very quiet.  \nThey feel alone and empty.  \nYou think about how people lived there.  \nYou think about why they left.  \nThe quiet can make the place feel scary.  \nAbandoned places help horror film makers.  \nIt is easy to believe that phones do not work there.  \nThis helps the story.",
+      "timestamp": "2025-09-01 17:27:00.346067",
+      "metadata": {
+        "text_id": "10dde0b9-aaba-4aa4-9fdc-d369b602c040",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:27:26.556117",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c619beb7-824e-4fb7-a4dd-3ddd996d27b0",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8733 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n- The text has been oversimplified, sacrificing lexical fidelity. Key terms were replaced with less precise phrases. For example, 'ghost town' was changed to 'old town with no people' and 'no phone coverage' became 'phones do not work'.\n- The original concept of 'uninhabited places' was completely removed and only implied through examples. This loses a core idea.\n- The sentence structure is excessively fragmented. The text is a list of short, disconnected statements which makes it sound unnatural and loses the flow of the original paragraph.\nSuggestion: Re-integrate key vocabulary from the original text, such as 'ghost town' and 'phone coverage'. Combine some of the very short sentences using simple A2 connectors like 'and' or 'so' to create a more natural text. For example: 'These places are very quiet, and they feel alone and empty.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8733,
+          "meaningbert": 0.8378
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:27:31.986881",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Horror films like uninhabited places.  \nThey use an abandoned hospital.  \nThey use a scary empty house.  \nThey use a ghost town.  \nThese places are very quiet and feel alone.  \nYou think about how people lived there.  \nYou think about why they left.  \nThe quiet can make the place feel scary.  \nAbandoned places help horror film makers.  \nIt is easy to believe phone coverage does not work there.  \nThis helps the story.",
+      "timestamp": "2025-09-01 17:27:31.987247",
+      "metadata": {
+        "text_id": "d554713a-0150-4f4b-b864-1d782c4497c3",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:27:57.363541",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a8a9c1df-e954-4402-b7bf-0186de80cf79",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8792 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text, failing the diagnostic protocol at Priority 2.\n\nVocabulary Violation: The B1 word 'ghost' was used in 'ghost town'. This is not A2 vocabulary.\nVocabulary Violation: The B2 word 'coverage' was used in 'phone coverage'. This is not A2 vocabulary. These words must be replaced with simpler A2 equivalents.\nStructural Issue: The text is overly fragmented. The repetition of 'They use...' and 'You think about...' is unnatural and too simplistic, even for A2.\n\nSuggestion: Replace non-A2 vocabulary immediately. 'Ghost town' must be rephrased as 'a town where no one lives'. 'Phone coverage' must be rephrased as 'your phone cannot work'. Combine some of the repetitive sentences to improve flow while maintaining A2 structure. For example: 'They use places like an abandoned hospital, a scary empty house, or a town with no people.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8792,
+          "meaningbert": 0.8323
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:28:01.621805",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Horror films like empty places.  \nThey use an abandoned hospital.  \nThey use a scary empty house.  \nThey also use a town where no one lives.  \nThese places are very quiet.  \nThe quiet makes them feel scary.  \nYou wonder how people lived there.  \nYou wonder why they left.  \nIn these places your phone cannot work.  \nThat makes the story feel real.",
+      "timestamp": "2025-09-01 17:28:01.622189",
+      "metadata": {
+        "text_id": "7107d63d-ed35-491e-84c1-687bf5d343d9",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:28:25.491599",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d4f21cbc-b348-4275-bcab-823e9f6731e0",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8623 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\n- Deviation: The original text's specific concept of 'phone coverage' was replaced with the more general 'your phone cannot work'. This simplification lost important lexical detail, contributing to the low score.\n- Deviation: The B1-level verb 'wonder' was used twice. This is an unacceptable vocabulary violation for an A2 text.\n\nSuggestion: Rephrase to restore the original concepts using A2 vocabulary. Replace 'You wonder how people lived there' with 'You think about how people lived there'. Replace 'your phone cannot work' with a phrase that more closely captures 'no phone coverage', such as 'you cannot use your phone to call for help'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8623,
+          "meaningbert": 0.8399
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:28:35.316535",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Horror films like empty places.  \nThey use an abandoned hospital.  \nThey use a scary empty house.  \nThey also use a town where no one lives.  \nThese places are very quiet.  \nThe quiet makes them feel scary.  \nYou think about how people lived there.  \nYou think about why they left.  \nYou cannot use your phone to call for help.  \nThat makes \"real\"? Wait, we need to keep \"That makes the story feel real.\" Let's correct.\n\nActually final text:\n\nHorror films like empty places.  \nThey use an abandoned hospital.  \nThey use a scary empty house.  \nThey also use a town where no one lives.  \nThese places are very quiet.  \nThe quiet makes them feel scary.  \nYou think about how people lived there.  \nYou think about why they left.  \nYou cannot use your phone to call for help.  \nThat makes the story feel real.",
+      "timestamp": "2025-09-01 17:28:35.317539",
+      "metadata": {
+        "text_id": "c2701562-2ef6-40b0-bb88-608bc6b4ba09",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:28:53.974955",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "bbec0acb-e6a6-413c-bc82-83fbc0c42e81",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.64 is significantly below the required 0.75 threshold. This indicates a critical loss of the original message. The original text explains that abandoned places are useful for directors because it is 'believable' that there is no phone service there. Your version changes this to 'That makes the story feel real', which is a different concept and alters the core logic. This is a secondary failure on fidelity. The BERTScore of 0.82 is below the 0.90 minimum. Key descriptive words like 'uninhabited', 'lonely', and 'believable' were removed, damaging the text's faithfulness to the source. Suggestion: The final concept must be rewritten. Restore the original idea that the lack of phone service is a believable detail for the setting. For example: 'In these places, it is easy to believe that your phone will not work.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8264,
+          "meaningbert": 0.6423
+        }
+      }
+    }
+  ]
+}

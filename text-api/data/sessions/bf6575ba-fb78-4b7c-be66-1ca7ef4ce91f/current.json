@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "357b419a-bd3a-4d40-9153-29be481431e4",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "A writer named Campbell studied hero stories. He found they have the same parts. First, the hero gets a call to an adventure. But at first, he does not want to go. Then a good teacher comes to help him. So the hero decides to leave his normal world. He enters a 'special world' for the adventure.\n\nIn the next part of the story, the hero has tests. He fights bad people and meets new friends. This helps the hero prepare for his biggest problem.\n\nFor example, Luke is the hero in Star Wars. His good teacher is Obi-Wan. His friends are Han Solo and the robots R2D2 and C3PO. The bad person is Darth Vader. The special world is the Death Star.",
+    "version": 6,
+    "created_at": "2025-09-01 10:34:03.215117",
+    "updated_at": "2025-09-01 10:34:03.215132",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "5c27305e-274f-4979-9115-db08093d5157",
+    "approval": "FAIL",
+    "grade": 4,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6761 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message and logical structure due to oversimplification.\n\n- The simplification has weakened the causal relationships described in the original text. The original states a mentor appears who helps the hero, and then they decide to go. Your version, 'Then a good teacher comes to help him. So the hero decides...', presents this as a simple sequence of events, not a direct cause and effect. The mentor's influence on the decision is diluted.\n- The original text describes the tests and fights as happening 'as the hero prepares', indicating a simultaneous process. Your version, 'This helps the hero prepare', changes this relationship to a consequence, altering the original meaning.\n- While the BERTScore of 0.9056 is acceptable, the low MeaningBERT score is a non-negotiable failure. The text does not accurately reflect the logical flow of the source material.\n\nSuggestion: Revise the text to restore the direct cause-and-effect relationships. The mentor's appearance must be the explicit reason the hero decides to act. The tests and fights must be framed as the direct process of preparation, not just helpful events.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.9056,
+      "meaningbert": 0.6761
+    },
+    "created_at": "2025-09-01 10:34:29.067886"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "4924b888-0062-4a53-97cf-99ad5b2f7412",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "A writer named Campbell found that many hero stories have the same parts. First, the hero gets a call to an adventure. But at first, he does not want to go. Then a wise teacher comes to help him. So the hero decides to leave his normal world. He enters a 'special world' for the adventure.\n\nIn the next part of the story, the hero has tests. He fights bad people and meets new friends. This helps the hero prepare for his biggest challenge.\n\nFor example, Luke is the hero in Star Wars. His wise teacher is Obi-Wan. His friends are Han Solo and the robots R2D2 and C3PO. The bad person is Darth Vader. The special world is the Death Star.",
+    "version": 5,
+    "created_at": "2025-09-01 10:33:32.214904",
+    "updated_at": "2025-09-01 10:33:32.214911",
+    "metrics_meaningbert": 0.767,
+    "metrics_cefr_compliance": "A2"
+  }
+}

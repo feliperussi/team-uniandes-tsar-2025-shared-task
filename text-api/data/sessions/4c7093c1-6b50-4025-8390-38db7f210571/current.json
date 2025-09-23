@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "231058bf-90fb-428f-819e-468f09a1cdfa",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "The Life of Pi is a book.  \nIt tells a special story about Pi.  \nPi is a young boy from India.  \nHis ship sinks and he is shipwrecked.  \nHe is trapped in a lifeboat.  \nA ferocious tiger is with him.  \nThe lifeboat is in the Pacific Ocean.  \nCanadian author Yann Martel wrote the book.  \nIt is his third book.  \nIt was published in 2001.  \nIt sold more than seven million copies.  \nIt won many prizes.  \nIt is available in 41 languages.  \nYann Martel\u2019s father was a diplomat.  \nBecause of this, Yann lived in Costa Rica as a child.  \nHe also lived in Canada, France and Mexico as a child.",
+    "version": 11,
+    "created_at": "2025-09-01 17:59:32.451155",
+    "updated_at": "2025-09-01 17:59:32.451155",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "813add66-4735-4b69-abe2-3538be1c7b79",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Fidelity Failure. The BERTScore of 0.885 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text. While simplification is necessary, it must not sacrifice lexical fidelity to this degree.\n\nDiagnostic Analysis:\n- Fidelity Failure: The low BERTScore is a direct result of replacing key descriptive words. Changing 'extraordinary story' to 'special story' and 'translated into' to 'available in' lost too much of the original's specific meaning.\n- Vocabulary Violation (B1+): The text includes multiple words that are not on the A2 list. This is a critical error. The word 'ferocious' is B2 level. The word 'published' is B1. The word 'shipwrecked' is B1. The word 'diplomat' is C1. These words must be replaced or defined in simple A2 terms.\n- Structural Simplification: The text is broken into too many short, disconnected sentences. This makes it read like a list, not a paragraph. While short sentences are good, they must still connect logically.\n\nCorrective Actions:\n- Suggestion: Replace all words above the A2 level. 'Ferocious' must be changed to 'very dangerous'. 'Diplomat' must be changed to 'a person who works for his country in other countries'. 'Published' must be changed to 'came out'.\n- Suggestion: Rephrase sentences to restore fidelity. For example, 'It is available in 41 languages' does not mean the same as 'It has been translated into 41 languages'. A better A2 version is 'People can read the book in 41 different languages'.\n- Suggestion: Combine some of the very short sentences using 'and' or 'but' to improve the flow of the text.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.885,
+      "meaningbert": 0.8411
+    },
+    "created_at": "2025-09-01 17:59:58.674165"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "6c738894-eab6-4aa6-bd68-27918f2bf876",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "The Life of Pi is a book.  \nIt tells an amazing story.  \nThe story is about Pi.  \nPi is a young boy from India.  \nHe is shipwrecked at sea.  \nHe is in a lifeboat with a dangerous tiger.  \nIt is the third book by Canadian writer Yann Martel.  \nIt was published in 2001.  \nIt sold over seven million copies worldwide.  \nIt won many prizes.  \nIt was translated into 41 languages.  \nYann Martel is the son of a diplomat.  \nAs a child he lived in Costa Rica, Canada, France and Mexico.",
+    "version": 2,
+    "created_at": "2025-09-01 17:53:37.765170",
+    "updated_at": "2025-09-01 17:53:37.765170",
+    "metrics_meaningbert": 0.908,
+    "metrics_cefr_compliance": "A2"
+  }
+}

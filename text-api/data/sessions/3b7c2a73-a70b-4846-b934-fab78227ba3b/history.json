@@ -1,0 +1,376 @@
+{
+  "session_id": "3b7c2a73-a70b-4846-b934-fab78227ba3b",
+  "created_at": "2025-08-31 21:02:02.579706",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-08-31 21:02:02.587408",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "08-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: For example, dreams about a phone call from an old friend or the death of someone close are more likely to happen because of coincidence, which means they happen by chance, rather than being a prediction of the future. Of course, we also probably choose to forget all the times we dream about these things but they do not happen.",
+      "timestamp": "2025-08-31 21:02:02.587964",
+      "metadata": {
+        "text_id": "8ad12a46-dc74-421f-863c-da9ab3fb0e01",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 21:02:02.595003",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "21848b77-2703-4519-8c72-6b13389cd981",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The primary reason for failure is that the output was classified as 'A2', which is below the required 'B1' target level. The text successfully preserves the original meaning and facts, as shown by the high MeaningBERT (0.90) and BERTScore (0.93) values. However, the simplification was too aggressive. The vocabulary is almost entirely from the A1/A2 levels, and the sentence structures are very basic. For example, replacing 'such events' with 'these things' lowers the lexical complexity. To reach the B1 target, consider using slightly more advanced connectors or sentence structures. For instance, you could rephrase to: 'Dreams about events like a phone call from a friend are usually a coincidence, meaning they happen by chance, rather than a prediction of what will happen.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9396,
+          "meaningbert": 0.9064
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-08-31 21:02:21.661678",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: For example, dreams about a phone call from an old friend or the death of someone close are more likely to be a coincidence, meaning they happen by chance, rather than a prediction of the future. And, of course, we probably choose to forget all the times we dream about such events which do not come true.",
+      "timestamp": "2025-08-31 21:02:21.662601",
+      "metadata": {
+        "text_id": "207504db-ab7d-4467-ac73-f6371108e68d",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-08-31 21:02:50.798786",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "da684adb-ffe3-471d-b831-1887b88dc9ce",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'A2', which is below the required 'B1' target. While the output is factually correct and preserves the original meaning excellently (MeaningBERT 0.94, BERTScore 0.94), the simplification was too aggressive. The strategy of defining the B2 word 'coincidence' with the clause 'meaning they happen by chance' is a good B1 technique. However, this, combined with the simplification of 'prophecy' and the use of otherwise simple vocabulary, resulted in a text that is too easy for the B1 level. To elevate this to B1, consider rephrasing the second sentence to introduce a slightly more complex grammatical structure. For example: 'We also tend to forget the many times we dream of these events but they do not actually happen.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9425,
+          "meaningbert": 0.9452
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-08-31 21:03:07.893743",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: For example, dreams about a phone call from an old friend or the death of someone close are more likely to be a coincidence, meaning they happen by chance, rather than a prediction of the future. And, of course, we also tend to forget the many times we dream of these events but they do not actually happen.",
+      "timestamp": "2025-08-31 21:03:07.894162",
+      "metadata": {
+        "text_id": "0dd506b8-a4f1-4abe-abf3-0cfa9c157d64",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-08-31 21:03:35.463204",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "49425470-61eb-4f6c-9244-abe169c67677",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'A2', which is below the required 'B1' target. While the simplification successfully preserved the original meaning and all facts, achieving excellent MeaningBERT (0.94) and BERTScore (0.93) ratings, it oversimplified the language. The text relies almost exclusively on A1/A2 vocabulary. For example, explaining the B2 word 'coincidence' with the simple phrase 'meaning they happen by chance' is a valid technique, but the final text lacks enough B1-level features to meet the target. To elevate the text to B1, consider introducing slightly more complex structures or vocabulary. For instance, the second sentence could be revised to: 'Furthermore, we tend to forget the many occasions we dream about such events, especially when they do not actually happen.' This maintains clarity while using B1-level language.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9379,
+          "meaningbert": 0.944
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-08-31 21:03:55.252052",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: For example, dreams about a phone call from an old friend or the death of someone close are more likely to be a coincidence, which means they happen by chance, rather than a prediction of the future. Furthermore, we tend to forget the many occasions we dream about such events, especially when they do not actually happen.",
+      "timestamp": "2025-08-31 21:03:55.253666",
+      "metadata": {
+        "text_id": "ce593135-9938-49c3-8a8d-b926b17a45eb",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 21:04:21.476237",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "924f5c46-cc13-4044-8d78-08f9940255e4",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text has been classified as 'A2', which is below the required 'B1' target level. Although the output successfully passed the Factual Integrity and Meaning Preservation checks with high scores (MeaningBERT: 0.87, BERTScore: 0.93), it fails on the core requirement of linguistic complexity. The A2 classification is likely due to the high density of A1/A2 vocabulary and simple sentence constructions. For example, the helpful explanatory clause 'which means they happen by chance' uses very basic language that contributes to the lower CEFR rating. To elevate the text to B1, consider revising clauses to use more characteristic B1 structures. For example, 'especially when they do not actually happen' could be rephrased as 'particularly if the events do not occur in reality' to better meet the target complexity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9271,
+          "meaningbert": 0.8669
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-08-31 21:04:36.303933",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: For example, dreams about a phone call from an old friend or the death of someone close are more likely to be a coincidence rather than a prediction of the future. Furthermore, we tend to forget the many occasions we dream about such events, particularly if the events do not occur in reality.",
+      "timestamp": "2025-08-31 21:04:36.305578",
+      "metadata": {
+        "text_id": "203cbdf4-6b56-4dcc-9b2c-14de80f6b94a",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 21:05:06.395050",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "222164e6-2771-442d-ac79-8fbb08b67c45",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'A2', which is below the required 'B1' target. The submission passed the critical Factual Integrity and Meaning Preservation checks, with high MeaningBERT (0.92) and BERTScore (0.93) values indicating the core message was retained. However, the final output is linguistically too simple for the B1 level. The A2 classification is likely due to the straightforward sentence structures and the replacement of the complex word 'prophecy' with a phrase made of simpler words ('prediction of the future'). While some B1 vocabulary was used ('tend', 'occur'), the overall grammatical complexity did not meet the target. Suggestion: To elevate the text to B1, consider using a slightly more complex sentence structure, for instance by using a relative clause. The second sentence could be revised to: 'Furthermore, we tend to forget the many occasions when we dream about such events, particularly if those events do not occur in reality.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9289,
+          "meaningbert": 0.9233
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-08-31 21:05:17.902982",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: For example, dreams about a phone call from an old friend or the death of someone close are more likely to be a coincidence rather than a prediction of the future. Furthermore, we tend to forget the many occasions when we dream about such events, particularly if the events do not occur in reality.",
+      "timestamp": "2025-08-31 21:05:17.903476",
+      "metadata": {
+        "text_id": "790975c7-c6bf-427c-b491-a65878cebbe5",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 21:05:48.538726",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f994e73d-fc99-4584-b506-dc961b24d43a",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The primary reason for failure is that the text was classified as 'A2' by the CEFR classifier, while the required level is 'B1'. A deeper analysis reveals a likely cause for this misclassification. The output incorrectly uses B2-level vocabulary such as 'coincidence' and 'furthermore'. The goal of B1 simplification is to remove complexity, not introduce words from a higher level. This makes the text unsuitable for the target audience. Suggestion: Replace 'coincidence' with a B1-appropriate phrase like 'something that happens by chance'. Replace the B2 connector 'Furthermore' with a simpler B1 alternative like 'Also' or 'In addition'. Revising these vocabulary choices should help the text achieve the correct B1 classification.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9292,
+          "meaningbert": 0.8702
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-08-31 21:06:00.151202",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: For example, dreams about a phone call from an old friend or the death of someone close are more likely to be something that happens by chance rather than a prediction of the future. Also, we tend to forget the many occasions when we dream about such events, particularly if the events do not occur in reality.",
+      "timestamp": "2025-08-31 21:06:00.152092",
+      "metadata": {
+        "text_id": "086f4d35-8dd3-49e8-a3d8-f6520881db62",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-08-31 21:06:28.852209",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "fb53a0ad-45c8-44fa-bc7d-13404a85079e",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The primary reason for failure is that the output was classified as 'A2', which is below the required 'B1' target. While the text successfully preserves factual integrity and meaning, with excellent MeaningBERT (0.86) and BERTScore (0.92) metrics, the simplification was too aggressive. The sentence structures are not complex enough for the B1 level. For example, simplifying 'the result of coincidence' to 'something that happens by chance' is very clear but reduces the conceptual complexity significantly. To improve, aim to retain slightly more complex sentence structures or vocabulary to meet the B1 standard. For instance, the second sentence could be revised to use a relative clause to increase complexity, such as: 'We also tend to forget the many occasions where we dream about events which do not actually occur.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9247,
+          "meaningbert": 0.8663
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-08-31 21:06:46.726165",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: For example, dreams about a phone call from an old friend or the death of someone close are more likely to be the result of coincidence rather than a prediction of the future. Also, we tend to forget the many occasions when we dream about events which do not actually happen.",
+      "timestamp": "2025-08-31 21:06:46.728428",
+      "metadata": {
+        "text_id": "0cc1e1dd-6f73-45c7-bff1-9e42510e8b45",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 21:07:12.337461",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7d7cceac-4332-4246-8ee2-8462229dae06",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The output was classified as 'A2', which is below the required 'B1' target level. While the submission successfully passed the critical checks for factual integrity and meaning preservation, the simplification was too aggressive. The text's reliance on simple sentence structures and a high density of A1/A2 vocabulary likely caused the lower classification. Although B1 words like 'prediction' and 'tend' were correctly used, they were not enough to elevate the overall complexity of the text. Suggestion: To reach the B1 level, consider combining the two sentences with a B1-level subordinator. For example: 'Dreams about... are more likely to be a coincidence, especially since we tend to forget the many times we dream about events that do not happen.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9318,
+          "meaningbert": 0.9371
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-08-31 21:07:23.379298",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: For example, dreams about a phone call from an old friend or the death of someone close are more likely to be the result of coincidence rather than a prediction of the future, especially since we tend to forget the many occasions when we dream about events which do not actually happen.",
+      "timestamp": "2025-08-31 21:07:23.382054",
+      "metadata": {
+        "text_id": "a3c7c149-317f-48af-806b-d80d6e520b48",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 21:07:49.478122",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9294298c-9a1c-4d62-9a15-c9234310d23c",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The output was classified as 'B2' instead of the target 'B1'. This is primarily due to two factors. First, the two original sentences were combined into a single, long, and complex sentence. The structure '...especially since we tend to forget the many occasions when we dream about events which do not actually happen' uses multiple subordinate clauses, which is a feature of B2-level writing. Second, the B2-level word 'coincidence' was retained from the original text instead of being simplified. To correct this, the output should be split back into two simpler sentences. For example: 'Dreams about these things are more likely to happen by chance than to be a prediction of the future. We also tend to forget the many times we have these dreams and they do not come true.'",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.93,
+          "meaningbert": 0.9206
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-08-31 21:08:04.423158",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: For example, dreams about a phone call from an old friend or the death of someone close are more likely to happen by chance than to be a prediction of the future. We also tend to forget the many times we have these dreams and they do not come true.",
+      "timestamp": "2025-08-31 21:08:04.423743",
+      "metadata": {
+        "text_id": "a82c7012-d542-42cd-b41c-9193d41861a9",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:08:28.473467",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e365f5e9-b7ab-4b3d-af67-3ad5bf07784b",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "This is an exemplary simplification that passes all checks. Factual integrity is perfectly maintained. The MeaningBERT (0.91) and BERTScore (0.93) are both excellent, confirming high fidelity to the original message. The B1 CEFR classification is accurate. The vocabulary strategy is particularly strong. Replacing the difficult concept of 'prophecy' with the clear phrase 'prediction of the future' is a perfect B1 simplification. Similarly, changing 'coincidence' to 'happen by chance' makes the meaning immediately accessible. The use of the B1 verb 'tend' is also a skillful choice. The final text is fluent, accurate, and perfectly aligned with the target level.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9295,
+          "meaningbert": 0.9113
+        }
+      }
+    }
+  ]
+}

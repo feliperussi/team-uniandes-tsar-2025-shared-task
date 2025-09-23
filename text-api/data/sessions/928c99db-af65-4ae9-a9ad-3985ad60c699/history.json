@@ -1,0 +1,228 @@
+{
+  "session_id": "928c99db-af65-4ae9-a9ad-3985ad60c699",
+  "created_at": "2025-09-01 10:43:20.649133",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:43:20.657410",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "120-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Feedback is when you tell someone if their work is good or bad.\n\nDon't always say something good and then something bad. If you do this, people will not listen to the good things. They will think the good comments are not important. They will only wait for the bad comments.\n\nSo, sometimes you should only say good things. Don't say anything bad after.",
+      "timestamp": "2025-09-01 10:43:20.658556",
+      "metadata": {
+        "text_id": "c68899df-0609-4ec3-84cb-fcfe7a7b75e6",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 10:43:20.667617",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "cc4da6a7-3185-466d-85c4-cb63f77b528e",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.4322 is critically below the required 0.75 threshold. This indicates a severe loss of the original message's core meaning.\n\n- Primary Deviation: The original text states that positive feedback becomes 'devalued and ignored'. Your version, 'people will not listen to the good things', is a different concept and fails to capture this essential meaning.\n- Fidelity Failure: The BERTScore of 0.8735 is below the 0.90 minimum. This is a direct result of replacing precise concepts like 'devalued' and 'constructive criticism' with overly simple phrases.\n- Unwarranted Addition: The first sentence, 'Feedback is when you tell someone if their work is good or bad,' is a definition that was not in the original text. This addition dilutes the primary message.\n\nSuggestion: Rephrase the text to restore the original meaning. Focus on the concept of the good comments losing their value. Example: 'If you always say something good and then something bad, the good comments lose their importance.' Remove the introductory definition. The task is to simplify the original text, not to add new information.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8735,
+          "meaningbert": 0.4322
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:43:34.657042",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Don't always say something good and then something bad. If you do this, the good comments lose their value. People will start to ignore the good comments. They will only wait for the bad comments.\n\nSo, sometimes you should only say good things. Don't say anything bad after.",
+      "timestamp": "2025-09-01 10:43:34.657342",
+      "metadata": {
+        "text_id": "a1086872-8501-45e4-ba91-49ef5e247d2f",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 10:43:55.380685",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "292b07a3-f5bc-44fb-bba6-c6e655ccccc9",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.0362 is a catastrophic deviation from the minimum requirement of 0.75. The text has lost the core meaning of the original source.\n\n- Primary Failure: The core concept of 'feedback' was completely removed and replaced with the generic phrase 'say something good'. This simplification is so extreme that it destroys the original message, resulting in the near-zero MeaningBERT score.\n- Secondary Failure: The BERTScore of 0.8864 is below the 0.90 threshold. This confirms a significant loss of key lexical items from the original text.\n- Vocabulary Violation: The B1 words 'value' and 'ignore' were used. These are not A2-compliant words and should have been replaced or defined.\n- Keyword Violation: The keyword 'feedback' was provided for definition. You did not define it; you eliminated it. This is a direct violation of the task.\n\nSuggestion: Reintroduce the word 'feedback'. Define it in simple A2 terms at the beginning. For example: 'Feedback is information about a person's work.' Then, rewrite the text using this key term. Replace 'lose their value' with an A2 phrase like 'are not important anymore'. Replace 'ignore' with 'do not listen to'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8864,
+          "meaningbert": 0.0362
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:44:09.430542",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Feedback is information about a person's work. Don't always give good feedback and then bad feedback. If you do this, the good feedback is not important anymore. People will not listen to the good feedback. They will only wait for the bad feedback.\n\nSo, sometimes you should only give good feedback. Do not give any bad feedback after it.",
+      "timestamp": "2025-09-01 10:44:09.430894",
+      "metadata": {
+        "text_id": "c5de965c-b207-4a42-8f6b-6ce52ade8462",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 10:44:32.734885",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1db3a0f5-a6b9-45d3-9a33-b39d47846631",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5223 is critically below the required 0.75 threshold. This is an instant failure.\n\n- The core message was altered. The original text states that positive feedback becomes 'devalued and ignored'. Your version changes this to 'People will only wait for the bad feedback'. This shifts the focus from the value of the feedback to the listener's anticipation, which is a significant change in meaning.\n- The BERTScore of 0.8855 is also below the 0.90 minimum. This is because key concepts from the original text, such as 'devalued', 'constructive criticism', and feedback given 'for its own sake', were completely removed instead of being simplified. This results in a loss of factual detail.\n- An introductory sentence defining 'feedback' was added. The original text does not contain this definition. Do not add information that is not in the source text.\n\nSuggestion: Rewrite the text. You must restore the original meaning that the good feedback itself loses its importance. Do not invent new concepts like 'waiting for the bad feedback'. Simplify the original ideas directly. For example, 'devalued' can be simplified to 'does not feel special' or 'loses its power'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8855,
+          "meaningbert": 0.5223
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:44:53.523629",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Don't always give good feedback and then bad feedback. If you do this, the good feedback is not important anymore. People will not listen to the good feedback. So, sometimes you should only give good feedback. Do not give any bad feedback after it.",
+      "timestamp": "2025-09-01 10:44:53.524787",
+      "metadata": {
+        "text_id": "58e95a56-d83c-466c-a338-731c413dba9e",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 10:45:16.364459",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1cf0a51c-691b-4321-b723-a7ee3020dc15",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.486 is critically below the required 0.75 threshold. This indicates a severe failure to preserve the core message of the original text.\n\n- Meaning Deviation: The original text explains that positive feedback becomes 'devalued and ignored'. This describes a psychological effect where the praise loses its value. Your version, 'the good feedback is not important anymore' and 'People will not listen', is an oversimplification that changes the meaning from a loss of value to a simple action of not listening. The core concept was lost.\n- Vocabulary Violation: The B1 keyword 'feedback' was used throughout the text but was not defined in simple A2 terms as required by the protocol. All B1+ words must be defined.\n\nSuggestion: Restore the original meaning. Rephrase to explain that the good words lose their power or do not feel special. You must also provide a simple A2 definition for the keyword 'feedback'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9005,
+          "meaningbert": 0.486
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:45:31.558473",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Feedback is when you tell someone if their work is good or bad. Don't always give good feedback and then bad feedback. If you do this, the good words are not special anymore. They lose their power. So, sometimes you should only give good feedback. Do not give any bad feedback after it.",
+      "timestamp": "2025-09-01 10:45:31.560232",
+      "metadata": {
+        "text_id": "96894bd0-2dcc-4a47-94e2-4a4e03bb07f1",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 10:45:53.203088",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "93af3a57-b106-4a8b-a3b5-c28766b1f862",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5417 is catastrophically below the required 0.75 threshold. This indicates a severe loss of the original message's core meaning. Your version simplifies the concept of feedback being 'devalued and ignored' to 'not special anymore', which is a significant downgrade in meaning. The text also fails the fidelity check. The BERTScore of 0.8849 is below the required 0.90, caused by replacing specific concepts like 'constructive criticism' with overly simple phrases. While the text successfully achieves an A2 classification and uses simple sentence structures, this was done at the expense of the original text's meaning, which is an absolute failure. Suggestion: Restore the original meaning with simple words. Instead of 'the good words are not special anymore', write 'people will stop listening to the good words'. This is simple but captures the idea of feedback being 'ignored'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8849,
+          "meaningbert": 0.5417
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:46:06.778645",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Feedback is when you tell someone if their work is good or bad. Don't always give good feedback and then bad feedback. If you do this, people will stop listening to the good words. So, sometimes you should only give good feedback. Do not give any bad feedback after it.",
+      "timestamp": "2025-09-01 10:46:06.779978",
+      "metadata": {
+        "text_id": "5ab2c8fa-e7c9-47d3-91e5-b93af7ae28b9",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:46:29.510331",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5ab5809b-29db-457c-a059-e426911db488",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5337 is catastrophically below the required 0.75 threshold. This indicates a severe deviation from the original text's core message.\n\n- Primary Failure (Meaning): The original text explains that positive feedback becomes 'devalued and ignored'. Your version, 'people will stop listening to the good words', is a different and less accurate concept. The core message about the loss of value has been erased.\n\n- Secondary Failure (Fidelity): The BERTScore of 0.8846 is below the required 0.90. This is a direct result of omitting the key concept of 'constructive criticism' from the original text. Your simplification removed a critical component of the source material.\n\n- Structural Error: You added a definition of 'feedback' at the beginning. This was not part of the original text and constitutes a factual addition, which is not permitted.\n\nSuggestion: You must rephrase the text to restore the original meaning. The concept that good feedback loses its 'value' or 'importance' is non-negotiable. You must also find a simple A2 way to express the idea of not adding 'constructive criticism' or 'advice for improvement'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8846,
+          "meaningbert": 0.5337
+        }
+      }
+    }
+  ]
+}

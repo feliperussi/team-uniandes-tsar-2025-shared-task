@@ -1,0 +1,228 @@
+{
+  "session_id": "c0651201-6c8a-4160-a6cb-d0b637fda709",
+  "created_at": "2025-09-01 10:31:17.226093",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:31:17.236075",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "41-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An asteroid is a big rock in space.\n\nThere is another idea to protect Earth. An asteroid could hit our planet. The idea is to destroy it with a nuclear bomb. This sounds like an idea from a movie. The movie Armageddon was about this.\n\nBut it is a real idea from NASA. The idea's name is HAMMER. They would send big rockets to the asteroid. They hope the rockets will push it. This will change its direction.\n\nBut sometimes the asteroid is very near Earth. Then this plan will not work. So the rockets will carry nuclear bombs. They will use the bombs to destroy the asteroid.",
+      "timestamp": "2025-09-01 10:31:17.237191",
+      "metadata": {
+        "text_id": "3179e3a1-525f-4d97-bb5f-6f4539397abd",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:31:17.246644",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6e307df3-217f-4a56-a50d-0889b33e42e7",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8925 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original text.\n\n- Lexical Loss: Key details were removed, causing the fidelity score to drop. The original text specifies 'eight-ton rockets', but your version only says 'big rockets'. This oversimplification loses important information and fails the fidelity check.\n- Unapproved Vocabulary: The text uses the B1-level words 'nuclear' and 'bomb'. These words are not on the A2 list and were not simplified. This is a direct violation of the CEFR A2 vocabulary standard.\n\nSuggestion: Re-introduce specific details from the original text to meet the fidelity requirement. Replace B1 vocabulary with A2-level descriptions. Change 'nuclear bomb' to 'a very powerful bomb that can destroy big things'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8925,
+          "meaningbert": 0.7602
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:31:33.223609",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An asteroid is a big rock in space.\n\nThere is another idea to protect Earth. An asteroid could hit our planet. The idea is to destroy it with a very powerful bomb. This sounds like an idea from a movie. The movie Armageddon was about this.\n\nBut it is a real idea from NASA. The idea's name is HAMMER. They would send eight-ton rockets to the asteroid. They hope the rockets will push it. This will change its direction.\n\nBut sometimes the asteroid is very near Earth. Then this plan will not work. So the rockets will carry very powerful bombs. They will use the bombs to destroy the asteroid.",
+      "timestamp": "2025-09-01 10:31:33.224681",
+      "metadata": {
+        "text_id": "cc3d2fde-82c8-47cb-a971-795a6c430cf1",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:31:55.636917",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d497bac9-7a69-4d7c-af04-f0b9d326f4bc",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7063 is below the required 0.75 threshold. This is an instant failure. The text also fails the fidelity check with a BERTScore of 0.8936, which is below the 0.90 minimum.\n\n- Meaning Preservation Failure: The original text specifies a 'nuclear weapon'. Your replacement, 'a very powerful bomb', is too vague and loses the core technical meaning. This is a critical alteration of the source information.\n- Fidelity Failure: The low BERTScore is a direct result of omitting key terms from the original, such as 'nuclear' and the full name of the HAMMER mission. This reduces factual precision.\n- Vocabulary Violation: The text uses the B1-level words 'powerful' and 'bomb'. These are not on the approved A2 vocabulary list and were not simplified or defined. This makes the text too complex.\n\nSuggestion: Restore the specific meaning of 'nuclear'. You must find an A2-compliant way to explain this concept. Replace the B1 word 'powerful' with an A2 alternative like 'strong'. The word 'bomb' must be replaced or defined in extremely simple terms.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8936,
+          "meaningbert": 0.7063
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:32:15.248719",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An asteroid is a big rock in space.\n\nThere is another idea to protect Earth. An asteroid could hit our planet. The idea is to use a nuclear weapon. A nuclear weapon is a very strong weapon. This sounds like an idea from a movie. The movie Armageddon was about this.\n\nBut it is a real idea from NASA. The idea's name is HAMMER. They would send eight-ton rockets to the asteroid. They hope the rockets will push it. This will change its direction.\n\nBut sometimes the asteroid is very near Earth. Then this plan will not work. So the rockets will carry nuclear weapons. They will use these weapons to destroy the asteroid.",
+      "timestamp": "2025-09-01 10:32:15.249155",
+      "metadata": {
+        "text_id": "3ce5f6d8-c026-47b4-869f-061d8ed8eb81",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:32:38.400247",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1657b21a-41e6-4ce1-a3c7-3647fa32046c",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8923 is below the required 0.90. This indicates a significant loss of key phrasing from the original text.\n\n- Lexical Deviation: The BERTScore is too low because key phrases like 'bumping it off course' were replaced with 'push it' and 'change its direction'. This simplification loses too much lexical detail from the source.\n- Vocabulary Violation: The text uses the B1-level words 'nuclear' and 'weapon' repeatedly. The provided definition, 'a very strong weapon', is insufficient to justify their inclusion in a strict A2 text.\n\nSuggestion: Replace the B1 term 'nuclear weapon' with an A2-level description, such as 'a special, very strong bomb'. Rephrase sentences to better reflect the original's specific actions, for example, use 'hit the asteroid to move it to a different path' instead of 'push it'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8923,
+          "meaningbert": 0.822
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:32:58.413971",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An asteroid is a big rock in space.\n\nThere is another idea to protect Earth. An asteroid could hit our planet. The idea is to use a special, very strong bomb. This sounds like an idea from a movie. The movie Armageddon was about this.\n\nBut it is a real idea from NASA. The idea's name is HAMMER. They would send eight-ton rockets to the asteroid. They hope to hit the asteroid. This will move it to a different path.\n\nBut sometimes the asteroid is very near Earth. Then this plan will not work. So the rockets will carry the special bombs. They will use these bombs to blow up the asteroid.",
+      "timestamp": "2025-09-01 10:32:58.415995",
+      "metadata": {
+        "text_id": "02fa9b4b-ee4f-4b2c-9d8b-02d76fcd4e46",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:33:24.947583",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "75b5db7a-7e40-463f-8de3-857a7dfb1c67",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7227 is below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text.\n\nFidelity Failure: The BERTScore of 0.8943 is also below the 0.90 minimum. This is a result of replacing key original terms like 'nuclear weapon' and 'bumping it off course' with less precise A2-level phrases.\n\nVocabulary Violation: The word 'bomb' is classified as B1 level. Its use is a direct violation of the A2 standard. The text must exclusively use A1/A2 vocabulary.\n\nMeaning Loss: The original text specifies a 'nuclear weapon'. Your replacement, 'a special, very strong bomb', is too vague and loses the specific meaning, contributing to the low MeaningBERT score.\n\nSuggestion: Remove the B1 word 'bomb'. Rephrase to explain the concept of a nuclear weapon in simple A2 terms, for example, 'a very powerful weapon that makes a big explosion'. Rephrase 'move it to a different path' to more closely match the original 'bumping it off course', for example, 'hit the asteroid to push it onto a new path'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8943,
+          "meaningbert": 0.7227
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:33:38.092168",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An asteroid is a big rock in space.\n\nThere is another idea to protect Earth. An asteroid could hit our planet. The idea is to use a nuclear weapon. This is a very powerful weapon that makes a big explosion. This sounds like an idea from a movie. The movie Armageddon was about this.\n\nBut it is a real idea from NASA. The idea's name is HAMMER. They would send eight-ton rockets to the asteroid. They hope to hit the asteroid. This will push it onto a new path.\n\nBut sometimes the asteroid is very near Earth. Then this plan will not work. So the rockets will carry nuclear weapons. They will use these weapons to blow up the asteroid.",
+      "timestamp": "2025-09-01 10:33:38.093953",
+      "metadata": {
+        "text_id": "d1317e66-06fa-4a23-bb06-b623de53a800",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:34:01.442140",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8f2e200a-1c0e-4d04-9d09-9eb580c29944",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8935 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\n- Lexical Fidelity Loss: The low BERTScore is caused by oversimplification. The original phrase 'Hypervelocity Asteroid Mitigation Mission for Emergency Response (HAMMER)' was reduced to 'The idea's name is HAMMER', losing important detail and causing the score to drop.\n- Vocabulary Violation: The text uses multiple B1-level words which are not compliant with the A2 standard. These include 'nuclear', 'weapon', 'powerful', and 'explosion'.\n- Failed Simplification: The attempt to explain 'nuclear weapon' by describing it as 'a powerful weapon' that makes 'a big explosion' is a critical error. You introduced two more B1 words ('powerful', 'explosion') instead of replacing the concept with A2-level vocabulary.\n\nSuggestion: Restore key lexical details from the original text where possible without increasing complexity. Remove all B1 vocabulary immediately. Rephrase the concept of 'a nuclear weapon' using only A2 words, for example, 'a special, very strong bomb'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8935,
+          "meaningbert": 0.8299
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:34:26.929598",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An asteroid is a big rock in space.\n\nThere is another idea to protect Earth. An asteroid could hit our planet. The idea is to use a special, very strong bomb. This bomb can blow up the asteroid. This sounds like an idea from a movie. The movie Armageddon was about this.\n\nBut it is a real idea from NASA. It is a plan with a long name. The name is Hypervelocity Asteroid Mitigation Mission for Emergency Response (HAMMER). They would send eight-ton rockets to the asteroid. They hope to hit the asteroid. This will push it onto a new path.\n\nBut sometimes the asteroid is very near Earth. Then this plan will not work. So the rockets will carry special, very strong bombs. They will use these bombs to blow up the asteroid.",
+      "timestamp": "2025-09-01 10:34:26.930021",
+      "metadata": {
+        "text_id": "62ebdc17-a178-4a31-9958-2ca7cdfac8b2",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 10:34:49.105037",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "77b8a281-0f5b-4f43-9b68-b9bad20c2732",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with all A2 requirements.\n- Factual Integrity: The output is factually correct and aligns with the original text.\n- Metrics: The MeaningBERT score of 0.8255 and BERTScore of 0.9036 are above the required thresholds, confirming meaning and fidelity are preserved.\n- CEFR Classification: The text was correctly classified as A2.\n- Qualitative Audit: The text is an exemplary model of A2 simplification. Vocabulary is strictly controlled. The complex concept of a 'nuclear weapon' is correctly paraphrased into simple A2 terms ('special, very strong bomb'). Sentence structures are short, direct, and use only basic A2 connectors. The submission is flawless.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9036,
+          "meaningbert": 0.8255
+        }
+      }
+    }
+  ]
+}

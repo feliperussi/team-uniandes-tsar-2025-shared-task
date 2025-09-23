@@ -1,0 +1,80 @@
+{
+  "session_id": "09b70070-3ff2-40ba-831c-02701baf0631",
+  "created_at": "2025-09-01 01:28:34.268697",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:28:34.279946",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "04-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: It is normal to see small animals in cities.\nYou can see birds, squirrels, and mice.\nBut now, something is different.\nMore and more wild animals are coming to cities.\nNewspapers and TV have many stories about this.\n\nFor example, people saw bears in parks in Vancouver.\nThey saw leopards on the streets in Mumbai.\nAnd they saw wild pigs in gardens in Berlin.\nWhat happens when big animals come to our cities?\nDo people welcome them?\nOr do people think they are a danger or a problem?",
+      "timestamp": "2025-09-01 01:28:34.280925",
+      "metadata": {
+        "text_id": "aa6ece43-0bd8-4607-8400-0ab925967718",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 01:28:34.289658",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0b68560b-5bde-4c8e-8fec-1750ce1d7d74",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7018 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text. The text also fails the Factual Integrity Check.\n\n- Factual Inaccuracy: The original text lists 'insects' as a common small animal. Your version omits this fact entirely. All factual details must be preserved.\n- Meaning Preservation Failure: The low MeaningBERT score is a direct result of oversimplification. The phrase 'the world's press has been full of reports' implies a global and significant media event. Your version, 'Newspapers and TV have many stories about this', reduces the scale and impact of the original meaning.\n\nSuggestion: Restore the missing fact about 'insects'. Rephrase the sentence about media reports to better capture the global scope. Example: 'Newspapers around the world have many stories about this.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9282,
+          "meaningbert": 0.7018
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:28:43.043856",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: It is normal to see small animals in cities.\nYou can see birds, squirrels, mice, and insects.\nBut now, something is different.\nMore and more wild animals are coming to cities.\nNewspapers around the world have many stories about this.\n\nFor example, people saw bears in parks in Vancouver.\nThey saw leopards on the streets in Mumbai.\nAnd they saw wild pigs in gardens in Berlin.\nWhat happens when big animals come to our cities?\nDo people welcome them?\nOr do people think they are a danger or a problem?",
+      "timestamp": "2025-09-01 01:28:43.045467",
+      "metadata": {
+        "text_id": "d996223f-2b6e-4aec-be68-0e6681b7da62",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 01:29:03.114549",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "db719fea-6955-4c56-b824-8b7402a0ce39",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with all A2 standard requirements.\n\n- Factual Integrity: The output is factually identical to the original text. All examples and core messages are preserved without error.\n- Metrics Compliance: All metrics are well within the required thresholds. MeaningBERT score of 0.80 and BERTScore of 0.93 confirm excellent preservation of meaning and lexical fidelity.\n- CEFR Classification: The A2 classifier result is correct. The text is a model of A2-level writing.\n- Qualitative Audit: The vocabulary is strictly confined to the A2 level. The simplification of 'pest' to 'problem' is an exemplary adaptation. Sentence structure is consistently simple, using short sentences and basic connectors appropriate for the A2 level. No deviations from the standard were detected.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9311,
+          "meaningbert": 0.8002
+        }
+      }
+    }
+  ]
+}

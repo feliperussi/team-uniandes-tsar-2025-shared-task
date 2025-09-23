@@ -1,0 +1,228 @@
+{
+  "session_id": "f6144101-3759-41ee-a0be-039e718ad5cc",
+  "created_at": "2025-09-01 17:02:54.480383",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:02:54.490008",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "67-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A 'disability' is when a part of your body or mind does not work well. For example, some people cannot see or hear.\n\nErik Weihenmayer is from the US. He likes many adventures. He rode a bike in the Morocco desert. He went kayaking in the big Grand Canyon. He climbed Mount Everest. It is amazing. He cannot see. He was blind from when he was 13 years old. He also helps people with disabilities. He wants them to move a lot. He takes young people who cannot see on climbing trips.",
+      "timestamp": "2025-09-01 17:02:54.490776",
+      "metadata": {
+        "text_id": "7695c992-5136-48ca-b76c-80263aa39adf",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:02:54.505229",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ffefed06-ab19-4562-98fd-2c1b891185db",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8967 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original text. While the core meaning is largely preserved, the lexical choices deviate too much from the source material, impacting fidelity. Specific deviations include: The phrase 'multi-adventurer' was replaced with 'likes many adventures', losing the specific lexical item. The phrase 'through the deserts of Morocco' was changed to 'in the Morocco desert'. The phrase 'kayaked through the Grand Canyon' was rephrased as 'went kayaking in the big Grand Canyon', adding 'big' and changing the verb structure. The adverb 'Amazingly' was converted into a full sentence 'It is amazing.', altering the grammatical structure and lexical form. The entire phrase 'Apart from his travels' was omitted from the output. The concept of 'encourage people with disabilities to live active lives' was simplified to 'He also helps people with disabilities. He wants them to move a lot.', losing the specific terms 'encourage' and 'active lives'. The phrase 'groups of young blind people on climbing expeditions' was changed to 'young people who cannot see on climbing trips', omitting 'groups of' and replacing 'expeditions' with 'trips'. These cumulative lexical changes and omissions are the direct cause of the BERTScore falling below the required threshold. Suggestion: Maintain closer lexical fidelity to the original text where possible, especially for key nouns and verbs, while still simplifying sentence structure. Do not omit factual phrases unless absolutely necessary for A2 simplification.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8967,
+          "meaningbert": 0.8371
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:03:17.791461",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A 'disability' is when a part of your body or mind does not work well. For example, some people cannot see or hear.\n\nErik Weihenmayer is from the US. He is a multi-adventurer. He rode a bike through the deserts of Morocco. He kayaked through the Grand Canyon. He climbed Mount Everest. Amazingly, Erik cannot see. He became blind when he was 13. Apart from his travels, he helps people with disabilities. He wants them to live active lives. He takes groups of young people who cannot see on climbing expeditions.",
+      "timestamp": "2025-09-01 17:03:17.791819",
+      "metadata": {
+        "text_id": "578c008b-c74b-40c2-87d0-a0c1af14d4d1",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:03:47.943572",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "bfd11c6f-57f3-4259-bc2d-f917764cdfed",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Deviation. Despite the CEFR classifier rating the text as A2, a meticulous qualitative audit reveals numerous words and phrases that exceed the A2 standard. The presence of B1 and B2 vocabulary is a direct violation of the A2 readability requirement. Specific deviations include: 1. The word 'disability' is classified as B2. While a definition is provided, the word itself is used twice in the main text ('helps people with disabilities'). For A2, simpler phrasing like 'people who cannot see or hear well' or 'people with problems with their body' should be used consistently. 2. 'multi-adventurer' is a complex compound noun. 'Adventurer' is B1/B2. An A2 equivalent would be 'a person who does many exciting trips' or 'a person who likes many adventures'. 3. The verb 'kayaked' is B1. For A2, 'went in a kayak' or 'used a kayak' is more appropriate. 4. The adverb 'Amazingly' is B1. For A2, 'It is amazing that Erik cannot see' or simply removing the adverb would be better. 5. The connector 'Apart from' is B1. For A2, 'Also, he helps...' or 'He also helps...' should be used. 6. The word 'expeditions' is B1/B2. For A2, 'climbing trips' or 'trips to climb' is required. Suggestion: Systematically replace all identified B1/B2 vocabulary with simpler A1/A2 equivalents. Rephrase sentences to avoid complex adverbs and connectors.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9273,
+          "meaningbert": 0.8461
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:03:55.498304",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A 'disability' is when a part of your body or mind does not work well. For example, some people cannot see or hear.\n\nErik Weihenmayer is from the US. He does many exciting trips. He rode a bike through the deserts of Morocco. He went in a kayak through the Grand Canyon. He climbed Mount Everest. It is amazing. Erik cannot see. He became blind when he was 13. Also, he helps people who have problems with their body. He wants them to live active lives. He takes groups of young people who cannot see on climbing trips.",
+      "timestamp": "2025-09-01 17:03:55.500142",
+      "metadata": {
+        "text_id": "0f93d9e0-02f9-48db-b7b5-2c771179e449",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:04:14.097166",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "fb1340c3-ac61-48d6-900c-d45c8a329bd8",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Compliance. The text contains multiple words above the A2 CEFR level, which is an absolute failure for this standard. The presence of B1 and B2 vocabulary is unacceptable. Specific deviations are as follows: - The word 'blind' is classified as B1. It is used in the sentence 'He became blind when he was 13.' This word must be replaced with A2-level phrasing such as 'cannot see'. - The word 'disability' is classified as B2. While it is the keyword being defined, the definition itself should avoid using the B2 term. The rule states 'Any unapproved B1/B2 word is a failure.' The presence of 'disability' in 'A 'disability' is when a part of your body or mind does not work well' is a direct violation. - The word 'Mount' (in 'Mount Everest') is classified as B2. Even as part of a proper noun, its presence violates the strict A2 vocabulary standard. Suggestion: Replace 'blind' with 'cannot see'. Rephrase the definition of 'disability' to avoid using the B2 word itself, for example, 'When a part of your body or mind does not work well, we call this a problem.' Rephrase 'Mount Everest' to 'the big mountain called Everest' or similar A2 phrasing.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9052,
+          "meaningbert": 0.8198
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:04:19.934258",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: When a part of your body or mind does not work well, we call this a problem. For example, some people cannot see or hear.\n\nErik Weihenmayer is from the US. He does many exciting trips. He rode a bike through the deserts of Morocco. He went in a kayak through the Grand Canyon. He climbed the big mountain called Everest. It is amazing. Erik cannot see. He could not see when he was 13. Also, he helps people who have problems with their body. He wants them to live active lives. He takes groups of young people who cannot see on climbing trips.",
+      "timestamp": "2025-09-01 17:04:19.935204",
+      "metadata": {
+        "text_id": "14e554a3-835b-4869-94ca-a5f8f53ba9da",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:04:38.766260",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "28de5ab0-ef4c-4877-bb7d-bda714b9992e",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Check Failure. Your output failed to preserve the core meaning and lexical fidelity of the original text.\n\n*   Meaning Preservation Failure: The MeaningBERT score of 0.7257 is below the required 0.75. The addition of an introductory paragraph ('When a part of your body or mind does not work well, we call this a problem. For example, some people cannot see or hear.') shifts the initial focus away from Erik Weihenmayer, which is the primary subject of the original text. This extraneous content dilutes the core message.\n*   Fidelity Failure: The BERTScore of 0.8983 is below the required 0.90. This is primarily due to the added introductory paragraph, which has no lexical overlap with the original text. Additionally, the simplification of phrases like 'multi-adventurer' to 'many exciting trips' and 'blind since the age of 13' to 'cannot see. He could not see when he was 13.', while aiming for A2, resulted in a loss of specific lexical detail and reduced the overall fidelity to the original phrasing.\n\nSuggestion: Remove the introductory paragraph. The A2 definition of 'disabilities' should be integrated more subtly or provided only if explicitly requested as a separate definition. Focus directly on Erik Weihenmayer's story as presented in the original text. Ensure that all key terms and facts from the original are represented with the closest possible lexical and semantic match while adhering to A2 vocabulary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8983,
+          "meaningbert": 0.7257
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:04:51.185573",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Erik Weihenmayer is from the US.\nHe does many exciting trips.\nHe rode a bike through the deserts of Morocco.\nHe went in a kayak through the Grand Canyon.\nHe climbed the big mountain called Everest.\nIt is amazing.\nErik cannot see.\nHe became blind at 13.\nHe also helps people who have problems with their bodies.\nHe wants them to live active lives.\nHe takes groups of young people who cannot see on climbing trips.",
+      "timestamp": "2025-09-01 17:04:51.185955",
+      "metadata": {
+        "text_id": "32bd06b5-085f-4baf-81fb-8d76b1cac4ea",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:05:08.948121",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3beab9ce-da42-41ac-bcdb-e29b6276d58f",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Audit. The word 'blind' is used in the sentence 'He became blind at 13.' and is explicitly listed as a B1 word in the provided 'Vocabulary Candidates for Replacement'. Adherence to the A2 standard requires the complete absence of B1 vocabulary. While the text generally simplifies well and the CEFR classifier rated it A2, the presence of a B1 word is a direct violation of the vocabulary standard. Suggestion: Replace 'blind' with an A2 equivalent such as 'cannot see' in all instances to maintain strict A2 compliance.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9233,
+          "meaningbert": 0.8353
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:05:13.534476",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Erik Weihenmayer is from the US.\nHe does many exciting trips.\nHe rode a bike through the deserts of Morocco.\nHe went in a kayak through the Grand Canyon.\nHe climbed the big mountain called Everest.\nIt is amazing.\nErik cannot see.\nHe could not see from 13 years old.\nHe also helps people who have problems with their bodies.\nHe wants them to live active lives.\nHe takes groups of young people who cannot see on climbing trips.",
+      "timestamp": "2025-09-01 17:05:13.536575",
+      "metadata": {
+        "text_id": "a3066a55-85c9-4c8d-a052-f513fc2ac47f",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 17:05:29.096739",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9b4d649c-903b-4b00-9354-900b482e5de9",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: All diagnostic checks passed with unwavering adherence to the CEFR A2 standard. Factual integrity is maintained without deviation. Meaning preservation is robust, with a MeaningBERT score of 0.827, exceeding the 0.75 threshold. Fidelity to the original text's key information is strong, evidenced by a BERTScore of 0.92, surpassing the 0.90 requirement. The CEFR classifier accurately identified the text as A2, confirming appropriate linguistic complexity. Vocabulary is strictly A2 or simpler. The term 'disabilities' was effectively simplified to 'people who have problems with their bodies', demonstrating precise A2-level rephrasing. Sentence structures are consistently short and simple, employing A2-level connectors such as 'who' and 'also' without introducing B1 complexity. No deviations from the rigorous A2 standard were detected.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.92,
+          "meaningbert": 0.827
+        }
+      }
+    }
+  ]
+}

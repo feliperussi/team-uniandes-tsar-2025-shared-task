@@ -1,0 +1,154 @@
+{
+  "session_id": "f262aa33-1484-4a65-93ff-cb99bfc55a75",
+  "created_at": "2025-09-01 17:19:21.799282",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:19:21.829445",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "38-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Wild animals frequently come into cities to look for food. In Cape Town, South Africa, `baboons`, which are a type of large monkey, have started to enter areas where people live, on the edge of the city, because they are searching for food. They open rubbish bins and eat fruit from gardens. Some baboons are very brave, and they have even gone into people's houses to take food from kitchen cupboards and fridges. Baboons can be `aggressive`, which means they might fight, and they have attacked many pet animals. Because of this, many people who live in the city do not want them there.",
+      "timestamp": "2025-09-01 17:19:21.829628",
+      "metadata": {
+        "text_id": "b52519c0-5b90-4dff-8a98-63f6ba282276",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:19:21.875138",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9251ebc5-5a3c-4bd8-8d6f-203b89bff931",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Integrity. The original text states 'They open rubbish bins and eat fruit from gardens and orchards.', but the output incorrectly states 'They open rubbish bins and eat fruit from gardens.', omitting 'orchards'. All specific details from the original text must be retained in the simplified version to ensure factual accuracy. This omission constitutes a factual error.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9461,
+          "meaningbert": 0.8436
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:19:34.847841",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Wild animals frequently come into cities to look for food. In Cape Town, South Africa, `baboons`, which are a type of large monkey, have started to enter areas where people live, on the edge of the city, because they are searching for food. They open rubbish bins and eat fruit from gardens and orchards. Some brave baboons have even come into people's houses and taken food from kitchen cupboards and fridges. Baboons can be `aggressive`, which means they might fight, and they have attacked many pet animals. So, understandably, many people who live in the city do not want them there.",
+      "timestamp": "2025-09-01 17:19:34.848111",
+      "metadata": {
+        "text_id": "46f49e38-4fd5-4762-8f81-ff5b609c2a29",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:19:50.487796",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c1135976-05ca-46ef-8a04-d499761e93f5",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'A2', which is too simple for the required 'B1' level. While the simplification maintained factual integrity and meaning, the linguistic choices resulted in a text that is below the target complexity. For example, 'residential areas' was simplified to 'areas where people live', and 'don't welcome their presence' was changed to 'do not want them there'. These changes, along with the explicit definitions like 'baboons, which are a type of large monkey' and 'aggressive, which means they might fight', collectively lowered the overall CEFR level to A2. To achieve a B1 level, consider retaining some B1 vocabulary where appropriate (e.g., 'residential areas' or 'presence') and integrating definitions more subtly or using slightly more complex sentence structures without sacrificing clarity. The current approach over-simplifies the language, making it suitable for a lower proficiency level than intended.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.957,
+          "meaningbert": 0.8541
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:20:17.673999",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Wild animals frequently come into cities to look for food. In Cape Town, South Africa, baboons, which are a type of large monkey, have started coming into residential areas on the edge of the city to feed. They open rubbish bins and eat fruit from gardens and orchards. Some brave baboons have even come into people's houses and taken food from kitchen cupboards and fridges. Baboons can be aggressive and have attacked many pet animals. So, understandably, many city residents don't welcome their presence.",
+      "timestamp": "2025-09-01 17:20:17.674207",
+      "metadata": {
+        "text_id": "3b544133-3c02-4412-8695-9fc8e23e7ebe",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:20:33.603123",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "92b8bb58-9859-43b5-ac64-28619da98516",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'A2', which is below the required 'B1' level. While the writer correctly defined 'baboons' with a B1-level relative clause ('which are a type of large monkey') and retained some higher-level vocabulary like 'residential' (C1), 'presence' (B2), and 'aggressive' (B1), the overall sentence structure and directness of the text lean too heavily towards A2. The simplification of 'a lot of' to 'many' and the splitting of the final sentence, while good for clarity, further contributed to lowering the perceived complexity. To achieve a B1 classification, the text needs to incorporate more consistent B1-level sentence structures, such as a greater variety of B1 connectors (e.g., 'however', 'therefore', 'although') or slightly more complex clause structures, without sacrificing clarity. The current output is too simplistic in its overall construction despite the presence of some B1+ vocabulary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9825,
+          "meaningbert": 0.9198
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:20:51.886382",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Wild animals frequently come into cities to look for food. In Cape Town, South Africa, baboons, which are a type of large monkey, have started coming into residential areas on the edge of the city to feed. They open rubbish bins and eat fruit from gardens and orchards; in fact, some brave baboons have even come into people's houses and taken food from kitchen cupboards and fridges. Baboons can be aggressive and have attacked a lot of pet animals, so understandably, many city residents don't welcome their presence.",
+      "timestamp": "2025-09-01 17:20:51.886906",
+      "metadata": {
+        "text_id": "87ebbeb7-ba6a-4665-abb7-85fa733db7c2",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-09-01 17:21:13.113162",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5c166080-295f-4b13-bcca-bd0f129f545c",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "The text successfully passed all priority checks. Factual integrity was perfectly maintained, with no discrepancies found between the original and simplified versions. Both MeaningBERT (0.9452) and BERTScore (0.9826) significantly exceeded the required thresholds, indicating excellent preservation of meaning and fidelity to the original content. The CEFR classifier accurately identified the output as 'B1', demonstrating successful adherence to the target complexity level. The writer effectively defined the keyword 'baboons' by adding 'which are a type of large monkey', which is a crucial simplification strategy for B1 learners. The use of 'frequently' as a replacement for 'often' is appropriate. The connection of two sentences using a semicolon and the B1 connector 'in fact' ('They open rubbish bins and eat fruit from gardens and orchards; in fact, some brave baboons have even come into people's houses and taken food from kitchen cupboards and fridges') is a good example of B1 sentence structuring. The overall flow is natural, and the vocabulary is well-suited for the B1 level, even with the retention of some B2/C1 words like 'presence' and 'residential', as the context and surrounding language make them accessible. This is a very strong simplification.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9826,
+          "meaningbert": 0.9452
+        }
+      }
+    }
+  ]
+}

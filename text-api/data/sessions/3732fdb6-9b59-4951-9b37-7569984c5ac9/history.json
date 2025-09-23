@@ -1,0 +1,413 @@
+{
+  "session_id": "3732fdb6-9b59-4951-9b37-7569984c5ac9",
+  "created_at": "2025-09-01 17:17:22.389110",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:17:25.183982",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "71-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In 2010 NASA's safety team found most big space rocks.  \nThey were about 1 km big.  \nThese rocks are as big as mountains.  \nThey are inside 50 million km of Earth\u2019s path.  \nNASA still needs to record about 50 more rocks.  \nNASA says none of the 887 rocks are a big danger.",
+      "timestamp": "2025-09-01 17:17:25.184089",
+      "metadata": {
+        "text_id": "3bcba5ff-142e-42e3-b5d1-a4115eacc02e",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:17:27.742281",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "71b77739-4eed-4dfa-8d9b-7c5827587466",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6378 is significantly below the required 0.75 threshold. The simplification was too aggressive and lost the core message of a formal, scientific cataloging program.\n\n- Fidelity Failure: The BERTScore of 0.8765 is also below the 0.90 minimum. This is a direct result of replacing key terms like 'planetary defence team', 'identified and logged', and 'orbit' with overly generic phrases.\n- B1 Vocabulary Violation: The word 'safety' is B1 level and was used in the phrase 'safety team'. This is not compliant with the A2 standard.\n- Meaning Shift: The original text describes a formal process of 'identifying and logging' by a 'planetary defence team'. Your version, 'safety team found', changes this to a simple act of discovery, which is a significant change in meaning.\n\nSuggestion: Rephrase to restore the original intent. Do not use the B1 word 'safety'. Change 'safety team found' to a phrase like 'a team at NASA made a list of'. This better reflects the original meaning of 'logged' using A2 vocabulary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8765,
+          "meaningbert": 0.6378
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:17:36.831658",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In 2010 a team at NASA made a list of most big space rocks.  \nThe rocks are about 1\u202fkm wide.  \nThey are inside 50\u202fmillion\u202fkm of Earth\u2019s path.  \nThe list has about 887 rocks.  \nAbout 50 more rocks are still not recorded.  \nNASA says none of the 887 rocks are a big danger.",
+      "timestamp": "2025-09-01 17:17:36.831878",
+      "metadata": {
+        "text_id": "efa45b0c-926b-48c7-ba7e-29faae91f9a7",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:17:59.585873",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3ce355cf-de31-48d5-a899-47197d73425d",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6318 is critically below the 0.75 minimum. The text has lost the core message of the original. Fidelity Failure: The BERTScore of 0.8656 is also below the required 0.90. This is a direct result of removing key factual terms like 'planetary defence team' and 'identified and logged'. Factual Inaccuracy: Replacing the specific data point '90 per cent' with the vague word 'most' is an unacceptable factual error. Precision must be maintained. Over-simplification: The phrase 'made a list of most big space rocks' is a poor and inaccurate summary of the original sentence. It loses the sense of a formal, scientific process. Suggestion: Re-write to restore the core facts. The concept of '90 per cent' must be included. The action of 'identifying and logging' must be represented more accurately than 'made a list'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8656,
+          "meaningbert": 0.6318
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:18:06.133456",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In 2010 a NASA planetary defence team found and logged 90 per cent of the near Earth rocks.  \nThese rocks are about 1\u202fkm wide.  \nThey are inside 50\u202fmillion\u202fkm of Earth\u2019s orbit.  \nThe team knows about 887 rocks.  \nAbout 50 more rocks are still not logged.  \nNASA says none of the 887 rocks are a big danger.",
+      "timestamp": "2025-09-01 17:18:06.133845",
+      "metadata": {
+        "text_id": "f199d63c-8632-4b18-8c74-91da9c2e6ac7",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:18:26.869133",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "bc64665a-2662-41d5-a649-365c4de33e7d",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.888 is below the required 0.90 threshold. This indicates a significant loss of key words and factual phrasing from the original text.\n\n- Lexical Simplification Error: The replacement of the specific term 'asteroids' with the generic word 'rocks' is the primary cause of the low fidelity score. This simplification loses too much of the original text's specific meaning.\n- Vocabulary Violation: The word 'logged' is a B1 level verb. It was retained in the output but is not compliant with the A2 standard. It must be replaced.\n\nSuggestion: Restore the term 'asteroids' to improve fidelity. It can be defined simply for the A2 level. Replace the B1 verb 'logged' with an A2 phrase such as 'made a list of' or 'wrote down'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.888,
+          "meaningbert": 0.8375
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:18:37.838048",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In 2010 a NASA team found 90 per cent of near\u2011Earth asteroids.  \nAsteroids are space rocks.  \nThey are about 1\u202fkm wide.  \nThey are inside 50\u202fmillion km of Earth\u2019s orbit.  \nThe team knows about 887 asteroids.  \nAbout 50 more asteroids are not on the list yet.  \nNASA says none of the 887 asteroids are a big danger.",
+      "timestamp": "2025-09-01 17:18:37.838379",
+      "metadata": {
+        "text_id": "8e66bd4a-9abe-4bcb-aeee-fe5a280834e0",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:19:06.479553",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "22b369dc-27cf-4678-8860-267083630feb",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8787 is below the required 0.90 threshold. This indicates an unacceptable loss of key information from the original text.\n- The simplification was too aggressive, resulting in a loss of important lexical detail.\n- Key concepts such as 'planetary defence team', 'logged', and 'near-Earth objects (NEOs)' were completely removed, not simplified. This is a fidelity error.\n- The descriptive detail 'the size of mountains' was also omitted, losing important context.\n- While the sentence structure and vocabulary are appropriate for A2, the core content has been diluted past the point of acceptability.\nSuggestion: Restore the lost meaning using simple A2 language. Rephrase 'a NASA team' to 'a NASA team that protects Earth' to reintroduce the concept of 'planetary defence'. Change 'found' to 'found and put on a list' to restore the meaning of 'logged'. You must retain more of the original text's specific details.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8787,
+          "meaningbert": 0.8574
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:19:18.133192",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In 2010 a NASA team that protects Earth found many near\u2011Earth objects.  \nThey logged 90\u202f% of them on a list.  \nNear\u2011Earth objects are big space rocks.  \nThey are about the size of mountains.  \nThey are about 1\u202fkm wide.  \nThey are inside 50\u202fmillion km of Earth\u2019s orbit.  \nThe team knows about 887 objects.  \nAbout 50 more objects are not yet on the list.  \nNASA says none of the 887 objects is a big danger.",
+      "timestamp": "2025-09-01 17:19:18.133600",
+      "metadata": {
+        "text_id": "3fa9f390-2776-42e4-8e48-c12c047ef7e7",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:19:46.311729",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6d525dd0-4a8e-40e1-9d1c-fb0a6e0efbc8",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8702 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n- The primary issue is excessive simplification and sentence fragmentation. The original text's three complex sentences were broken into nine overly simple sentences, which destroyed the original phrasing and lowered the fidelity score.\n- Key terminology was lost. The phrase 'planetary defence team' was replaced with 'a NASA team that protects Earth'. While the meaning is similar, the loss of the specific terminology contributed to the metric failure.\n- Suggestion: Revise the text to improve its fidelity. Combine some of the shortest sentences using simple A2 connectors like 'and'. For example: 'Near-Earth objects are big space rocks and they are about the size of mountains.' This will create a text that is less fragmented and more closely mirrors the original's structure while remaining at an A2 level.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8702,
+          "meaningbert": 0.8628
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:19:53.417688",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In 2010 the planetary defence team at NASA logged 90\u202f% of the near\u2011Earth objects that are about 1\u202fkm wide. These objects are big space rocks the size of mountains and they are inside 50\u202fmillion km of Earth\u2019s orbit. NASA knows about 887 objects and says about 50 more are not yet on the list, but none of them is a big danger.",
+      "timestamp": "2025-09-01 17:19:53.418501",
+      "metadata": {
+        "text_id": "eac68bcb-8146-44f9-b274-bc23687c75ba",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:20:19.527813",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "593a6321-80ff-44b9-8ebd-d26c8b03e8a3",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as B2, which is above the required A2 level. The primary cause is the use of the B1-level word 'defence' within the complex phrase 'planetary defence team'. This phrase is not suitable for an A2 audience. The verb 'logged' is also too advanced for A2. Suggestion: Replace 'the planetary defence team at NASA' with a simpler description like 'a team at NASA that protects Earth'. Replace 'logged' with a simpler phrase like 'found and put on a list'.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9174,
+          "meaningbert": 0.9452
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:20:30.475980",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In 2010 a team at NASA that protects Earth found many objects.  \nThey put 90\u202f% of them on a list.  \nThe objects are near\u2011Earth objects about 1\u202fkm wide.  \nThese objects are big space rocks the size of mountains.  \nThey are inside 50\u202fmillion km of Earth\u2019s orbit.  \nNASA knows about 887 objects.  \nIt says about 50 more are not yet on the list.  \nNone of them is a big danger.",
+      "timestamp": "2025-09-01 17:20:30.476440",
+      "metadata": {
+        "text_id": "588ebe81-e4b5-4164-9b19-ffc556e97ea5",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:20:55.465225",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a37f5ca9-2d78-4e93-b073-ccdc6f8e9596",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.873 is below the required 0.90 threshold. This indicates an unacceptable loss of key words and phrasing from the original text.\n\n- Fidelity Loss: Your simplification replaced too many specific terms from the original. Key words like 'planetary defence', 'identified', and 'asteroids' were removed, causing the fidelity score to drop. While simplification is necessary, it must not erase the core vocabulary to this extent.\n- Structural Complexity: The sentence 'In 2010 a team at NASA that protects Earth found many objects' uses a relative 'that-clause'. This is a B1-level grammatical structure and is too complex for the A2 standard. A2 texts must use simple, conjoined sentences.\n\nSuggestion: Restore key terms from the original text while keeping the sentence structure simple. Split the sentence with the 'that-clause' into two distinct sentences. Example: 'NASA has a team. This team protects Earth. In 2010, the team found...'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.873,
+          "meaningbert": 0.8631
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:20:59.776903",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In 2010 NASA had a planetary defence team.  \nThe team identified near\u2011Earth asteroids.  \nThey were about 1 km wide.  \nThe team logged 90\u202f% of them.  \nThe asteroids are inside 50\u202fmillion km of Earth.  \nNASA knows about 887 asteroids.  \nAbout 50 more are not yet logged.  \nNone of them is a big danger.",
+      "timestamp": "2025-09-01 17:20:59.777275",
+      "metadata": {
+        "text_id": "44c49e20-6efa-4744-9776-b37e41fe6c60",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:21:23.574423",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d1950aa1-75b5-4531-a1af-410bcd7e7296",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.872 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text due to oversimplification of structure without adequate simplification of vocabulary.\n\n- Vocabulary Exceeds A2 Level: The text uses multiple words above the A2 standard. 'Planetary' is a B2 word. 'Defence', 'identified', and 'logged' are B1 words. These terms must be replaced with simpler A2 alternatives.\n\n- Failure to Rephrase: The phrase 'planetary defence team' was copied directly. An A2-compliant text must rephrase complex concepts. Suggestion: Rephrase this to 'a team at NASA that protects the Earth'.\n\n- Grammatical Error: The final sentence 'None of them is a big danger' is awkward for this level. Suggestion: Rephrase to 'These asteroids are not a big danger to us'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.872,
+          "meaningbert": 0.8757
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:21:33.107847",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In 2010 NASA had a team that protects the Earth.  \nThe team found near\u2011Earth asteroids.  \nThe asteroids were about 1 km wide.  \nThe team saved 90\u202f% of them.  \nThe asteroids are inside 50 million km of Earth.  \nNASA knows about 887 asteroids.  \nAbout 50 more are not yet saved.  \nThese asteroids are not a big danger to us.",
+      "timestamp": "2025-09-01 17:21:33.108382",
+      "metadata": {
+        "text_id": "acd5e13c-2736-40e8-9514-f3f550582f53",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:21:55.260720",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "bedd1e8b-ad18-41b8-913b-2b7fcf58047a",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text states NASA 'identified and logged' the asteroids. Your text incorrectly states 'The team saved 90 % of them'. Logging an object is not the same as saving it. This is a critical misrepresentation of the source material.\n\n- Fidelity Failure: The BERTScore of 0.8686 is below the required 0.90. This is a direct result of replacing the correct concept of 'logging' with the incorrect concept of 'saving'.\n- Factual Error Propagation: The error is repeated. The original says '50 left to log', but your text says 'About 50 more are not yet saved'. This is also incorrect.\n\nSuggestion: You must restore the original meaning. Replace 'saved' with a simple A2 phrase that means 'logged', such as 'made a list of' or 'found and wrote down information about'. The sentence 'About 50 more are not yet saved' must be corrected to 'About 50 more are not yet on the list'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8686,
+          "meaningbert": 0.75
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:21:58.592498",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In 2010 NASA had a team that protects the Earth.  \nThe team found near\u2011Earth asteroids.  \nThe asteroids were about 1 km wide.  \nThe team wrote down 90\u202f% of them.  \nThe asteroids are inside 50 million km of Earth.  \nNASA knows about 887 asteroids.  \nAbout 50 more are not yet on the list.  \nThese asteroids are not a big danger to us.",
+      "timestamp": "2025-09-01 17:21:58.594943",
+      "metadata": {
+        "text_id": "043ca8d0-0efd-4c5d-b37b-b1691879109f",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:22:16.823801",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8ec29832-a344-4b54-a76a-54a798ab966c",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8688 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text. While the simplification to A2 is structurally sound, it has been achieved by removing too much specific terminology, which damages the text's fidelity to the source. For example, the specific term 'planetary defence team' was replaced with the generic 'a team that protects the Earth'. The actions 'identified and logged' were reduced to 'found' and 'wrote down', losing lexical precision. Suggestion: Reintroduce more specific A2-level vocabulary to increase fidelity. The phrase 'NASA's team to protect the planet' is more precise. The concept of 'logging' can be expressed as 'made a list of' to retain more of the original meaning while remaining simple.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8688,
+          "meaningbert": 0.8542
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:22:22.175149",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In 2010 NASA had a team to protect the planet.  \nThe team found near\u2011Earth asteroids.  \nThe asteroids were about 1 km wide.  \nThe team made a list of 90\u202f% of them.  \nThe asteroids are inside 50 million km of Earth.  \nNASA knows about 887 asteroids.  \nAbout 50 more are not yet on the list.  \nThese asteroids are not a big danger to us.",
+      "timestamp": "2025-09-01 17:22:22.176778",
+      "metadata": {
+        "text_id": "e08464ca-84a7-46e4-a17a-51fdfc84cca0",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:22:49.030992",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "04ca145a-5c93-4bd8-8ab6-1cf442a80526",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8712 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\n- The simplification of key terms like 'planetary defence team' to 'a team to protect the planet' and 'identified and logged' to 'found' and 'made a list' has excessively reduced lexical overlap with the source.\n- The output is a series of short, disconnected sentences. This structure fails to capture the narrative flow of the original text, further contributing to the low fidelity score.\n- While the facts are preserved, the text reads like a simple list rather than a cohesive summary.\n\nSuggestion: Reintroduce more precise A2-level vocabulary to increase fidelity. Combine some of the short sentences to improve readability and flow. For example, use 'NASA's team for planetary defence' to retain the original concept. Combine the sentences about finding and listing the asteroids to create a more natural connection.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8712,
+          "meaningbert": 0.815
+        }
+      }
+    }
+  ]
+}

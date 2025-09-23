@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "808d36aa-9657-4e81-be25-00666b81859b",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Graffiti is drawing or writing on walls.  \nPeople have drawn on walls for a long time.  \nIn very old times, people in Africa drew animal pictures.  \nPeople in Europe also drew animal pictures.  \nThey also drew pictures of people in caves.  \nArchaeologists have found graffiti on old buildings in Greece.  \nThey have found graffiti on old buildings in Italy.  \nThey have also found in Syria and Iraq.  \nThey have found many graffiti pieces in the Roman town of Pompeii.  \nIn Pompeii, people wrote the graffiti in Latin.  \nThe messages were about gods.  \nSome messages were about people in charge.  \nSome messages were about love.  \nSome messages were about magic words.",
+    "version": 11,
+    "created_at": "2025-09-01 17:20:17.672574",
+    "updated_at": "2025-09-01 17:20:17.672574",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "b678791b-16bd-418d-a767-6b65dc6d1020",
+    "approval": "FAIL",
+    "grade": 2,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6649 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text. The over-simplification into excessively short, disconnected sentences has destroyed the original's cohesive meaning.\n\n- Fidelity Failure: The BERTScore of 0.8741 is below the required 0.90. Key terms like 'prehistoric times' and 'magic spells' were replaced with overly simple phrases, causing a loss of important lexical detail.\n- Vocabulary Violation: The word 'magic' is classified as B1 but was used in the output. This is a direct violation of the A2 vocabulary standard.\n- Grammatical Error: The sentence 'They have also found in Syria and Iraq' is incomplete. It is missing the object 'graffiti'.\n\nSuggestion: Re-write the text. Combine short, repetitive sentences using 'and'. Correct the incomplete sentence by adding the object. Replace the B1 word 'magic' with an A2 alternative. The goal is simplification, not fragmentation. The text must still read as a coherent paragraph, not a list of isolated facts.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8741,
+      "meaningbert": 0.6649
+    },
+    "created_at": "2025-09-01 17:20:44.448465"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "81741c70-e916-4978-9525-813dcdbe7363",
+    "cefr_level": "A2",
+    "text_id": "58-a2",
+    "text_translated": "Graffiti is writing or drawing on walls.  \nPeople painted and wrote on walls for a long time.  \nLong ago, people in Africa and Europe painted animals and people in caves.  \nGraffiti was found on old buildings in Greece, Italy, Syria, and Iraq.  \nIn the Roman town of Pompeii, archaeologists found many graffiti in Latin.  \nThey wrote messages about religion, politics, love, and some magic spells.",
+    "version": 1,
+    "created_at": "2025-09-01 17:14:38.206951",
+    "updated_at": "2025-09-01 17:14:38.206953",
+    "metrics_meaningbert": 0.8117,
+    "metrics_cefr_compliance": "A2"
+  }
+}

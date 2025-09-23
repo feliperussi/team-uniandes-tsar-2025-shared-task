@@ -1,0 +1,117 @@
+{
+  "session_id": "6c6f79b5-8c1f-4572-abae-5d4378aced0c",
+  "created_at": "2025-09-01 10:29:53.126757",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:29:53.135844",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "39-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many bridge accidents happen when people are building the bridge. This is often because the engineers make a mistake. For example, they calculate a number wrong. Then, the bridge falls down because it is too heavy. This is very dangerous for the workers on the bridge. They can die.",
+      "timestamp": "2025-09-01 10:29:53.136428",
+      "metadata": {
+        "text_id": "33f3df8e-ad56-4091-9806-7ab9f6ba2849",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 10:29:53.145996",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b55e4722-82d5-45b0-9680-3426d638bda0",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary exceeds A2 standard. The text passed all automated checks for meaning and CEFR classification, but a manual audit reveals vocabulary that is too advanced for the target level.\n\n- B1 Vocabulary Violation: The word 'engineers' is B1 level. This is too complex for a strict A2 text.\n- B1 Vocabulary Violation: The word 'calculate' is B1 level. This is also too complex for A2.\n\nSuggestion: Replace 'engineers' with an A2 phrase such as 'the people who plan the bridge'.\nSuggestion: Rephrase 'they calculate a number wrong' to an A2 equivalent like 'they use the wrong numbers' or 'their math is wrong'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9257,
+          "meaningbert": 0.8281
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:30:03.519791",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many bridge accidents happen when people are building the bridge. This is often because the people who plan the bridge make a mistake. For example, their math is wrong. Then, the bridge falls down because it is too heavy. This is very dangerous for the workers on the bridge. They can die.",
+      "timestamp": "2025-09-01 10:30:03.520089",
+      "metadata": {
+        "text_id": "0a077693-dec3-4bbe-9dfa-74ba7c14adfd",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:30:28.750446",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "24f617b0-6e58-4aa6-a677-1985fff147a2",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6715 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\n- The primary failure is the translation of 'collapses under its own weight'. Your version, 'falls down because it is too heavy', is not equivalent. The original specifies that the bridge's own mass is the cause of the failure, a key engineering concept. Your version is too general and loses this precision.\n- The simplification of 'a miscalculation' to 'their math is wrong' is an oversimplification that contributes to the meaning drift.\n\nSuggestion: Restore the original meaning with A2 vocabulary. Rephrase 'collapses under its own weight' to 'the bridge is not strong enough for its own weight and it breaks'. Rephrase 'a miscalculation' to 'they made a mistake in their numbers'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9225,
+          "meaningbert": 0.6715
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:30:48.192005",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many bridge accidents happen when people are building the bridge. This is often because the people who plan the bridge make a mistake. For example, they made a mistake in their numbers. The bridge is not strong enough for its own weight, and it breaks. This is very dangerous for the workers on the bridge. They can die.",
+      "timestamp": "2025-09-01 10:30:48.194123",
+      "metadata": {
+        "text_id": "ec69f0e4-d33f-42a0-8ebc-0c6308a7d2e6",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 10:31:08.933850",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8707db5b-8d6b-49e0-9101-189cea3a6b6f",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with the A2 standard.\n\n- Factual Integrity: The output is a perfect factual match to the original text.\n- Metrics: All metrics are well within the required range. The MeaningBERT score of 0.78 and BERTScore of 0.92 indicate excellent preservation of the original message and key terms.\n- CEFR Compliance: The A2 classification is correct. The text demonstrates a model use of A2-level language.\n- Vocabulary: Vocabulary is strictly limited to A1 and A2 levels. No B1 or higher-level words were used.\n- Structure: Sentence structure is exemplary for A2. The original text's complex ideas, such as 'collapses under its own weight' and 'can be deadly', were correctly simplified into shorter, more direct sentences like 'it breaks' and 'They can die'.\n\nNo deviations from the A2 standard were detected. The output is a model example of simplification.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9227,
+          "meaningbert": 0.7776
+        }
+      }
+    }
+  ]
+}

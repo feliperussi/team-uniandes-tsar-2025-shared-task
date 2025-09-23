@@ -1,0 +1,43 @@
+{
+  "session_id": "831128e0-f338-46a4-9b55-029a33c34284",
+  "created_at": "2025-08-31 23:47:46.303274",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-08-31 23:47:46.318930",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "05-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Potentially Hazardous Asteroids, which are space rocks that can pass within 7.5 million kilometres of Earth's orbit, are called \u201cPHAs\u201d. NASA has made a map of 1,400 of them, and none of these is expected to be a threat in the next 100 years. With technology that already exists, NASA can track these objects and make predictions about a possible impact, and if that happens, two kinds of defence could be put into action.",
+      "timestamp": "2025-08-31 23:47:46.319491",
+      "metadata": {
+        "text_id": "e8c4e64b-9939-4aa3-ad07-56c33f4688e3",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 8/10 - FAIL",
+      "timestamp": "2025-08-31 23:47:46.332615",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9fa2a059-c7fb-4ef8-91d3-8d4642b42e0a",
+        "grade": 8,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The output was classified as B2 rather than the required B1. This is likely due to sentences with embedded clauses and parenthetical information, for example: \u201cPotentially Hazardous Asteroids, which are space rocks that can pass within 7.5 million kilometres of Earth\u2019s orbit, are called \u2018PHAs\u2019.\u201d To meet B1 criteria, break long sentences into shorter ones and reduce nested clauses. For instance, write: \u201cPotentially Hazardous Asteroids are called PHAs. They are space rocks that can pass within 7.5 million kilometres of Earth\u2019s orbit.\u201d Also replace complex connectors like \u201cwhich\u201d and \u201cand if that happens\u201d with simpler conjunctions or separate sentences. These changes will simplify structure and improve readability at the B1 level.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9558,
+          "meaningbert": 0.9177
+        }
+      }
+    }
+  ]
+}

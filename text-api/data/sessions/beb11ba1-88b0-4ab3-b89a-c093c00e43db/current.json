@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "8d1b6910-80b4-4984-b08c-0e81624f8a53",
+    "cefr_level": "B1",
+    "text_id": "text_001",
+    "text_translated": "After she climbed Everest, Gerlinde decided to climb all fourteen of the world's 8,000-metre mountains. To make the challenge more difficult, she climbs without using extra **oxygen**, which is the gas in the air that we need to breathe. This is very dangerous because the low amount of oxygen at the top of high mountains can affect how the brain and body work. As a famous climber, Gerlinde uses her fame to support a charity in Nepal which helps poor children and those who have no parents.",
+    "version": 6,
+    "created_at": "2025-09-01 10:52:28.434738",
+    "updated_at": "2025-09-01 10:52:28.434742",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "16b3be13-39fe-4ed4-8d9f-445085dc9f4d",
+    "approval": "FAIL",
+    "grade": 5,
+    "feedback": "FAIL: Meaning Preservation. The MeaningBERT score of 0.6696 is below the required 0.75 threshold. This score indicates a significant shift in the core message. The likely cause is in the second sentence. The original text states, 'To increase the challenge, Gerlinde climbs without using oxygen tanks.' The output adds a definition: '...she climbs without using extra oxygen, which is the gas in the air that we need to breathe.' While defining 'oxygen' is a good simplification strategy, adding this new information directly into the sentence about the challenge alters its primary focus and likely caused the drop in the meaning score. Suggestion: Separate the action from the definition to preserve the meaning of the original sentence. For example: 'To make the challenge more difficult, she climbs without using extra oxygen. Oxygen is the gas in the air that we need to breathe.' The text is factually correct and the vocabulary simplification (e.g., 'orphans' to 'those who have no parents') is excellent. Correcting the sentence structure to better preserve the original's focus should resolve the issue.",
+    "metrics": {
+      "cefr_compliance": "B1",
+      "bertscore": 0.951,
+      "meaningbert": 0.6696
+    },
+    "created_at": "2025-09-01 10:52:56.162856"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "eb04a815-a60d-4a3b-8d1d-ffd89c82e6d7",
+    "cefr_level": "B1",
+    "text_id": "text_001",
+    "text_translated": "After she climbed Everest, Gerlinde decided to climb all fourteen of the world's 8,000-metre mountains. To make the challenge more difficult, she climbs without using **oxygen**, which is the gas in the air that we need to breathe. This is very dangerous because the low amount of oxygen at the top of high mountains can affect how the brain and body work. As a famous climber, Gerlinde uses her fame to support a charity in Nepal which helps poor children and those who have no parents.",
+    "version": 3,
+    "created_at": "2025-09-01 10:50:34.692962",
+    "updated_at": "2025-09-01 10:50:34.692968",
+    "metrics_meaningbert": 0.6779,
+    "metrics_cefr_compliance": "B1"
+  }
+}

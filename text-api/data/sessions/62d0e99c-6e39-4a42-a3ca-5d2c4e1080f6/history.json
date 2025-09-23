@@ -1,0 +1,191 @@
+{
+  "session_id": "62d0e99c-6e39-4a42-a3ca-5d2c4e1080f6",
+  "created_at": "2025-09-01 17:22:10.183550",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:22:15.855113",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "89-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Hunger Games is a story about a competition.  \nYoung people fight to survive in the competition.  \nIt is a popular book for teens and young adult readers.  \nSuzanne Collins wrote it.  \nIt first came out in 2008.  \nSince then people translated it into 26 languages.  \nIt has sold millions of copies worldwide.  \nIt became the first book for readers to sell a million copies.  \nThe Hunger Games is now a big Hollywood movie.  \nIt is also very popular.  \nIt earned 152.5 million dollars in its first weekend.  \nThat was in North America alone.",
+      "timestamp": "2025-09-01 17:22:15.855413",
+      "metadata": {
+        "text_id": "9cc44053-5d85-4c33-b32d-9d2cc6bea76f",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:22:15.884928",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5524e2f7-4f10-4953-a491-ae0d0a7b8982",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text states the book sold 'more than a million electronic copies'. Your output states it sold 'a million copies'. The omission of 'more than' and the critical detail 'electronic' is a factual error and an instant failure.\n\n- Fidelity Failure: The BERTScore of 0.8931 is below the required 0.90 threshold. This confirms a loss of key information, specifically the word 'electronic'.\n\n- Vocabulary Violation: The text uses the B1-level words 'survive' and 'worldwide'. These words are not on the approved A2 list and were not simplified. 'Worldwide' must be replaced with an A2 phrase like 'around the world'.\n\n- Omission: The original text introduces the book as 'hugely successful'. Your version uses 'popular', which significantly weakens the meaning.\n\nSuggestion: Correct the factual error regarding electronic copies immediately. Replace the B1 vocabulary. Restore the full meaning of the original text while adhering to A2 constraints.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8931,
+          "meaningbert": 0.8074
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:22:24.810402",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Hunger Games is a big success story.  \nIt is about a competition.  \nYoung people fight to stay alive in the competition.  \nIt is a very popular book.  \nIt is for teens and young adults.  \nSuzanne Collins wrote it.  \nIt first came out in 2008.  \nSince then it was translated into 26 languages.  \nIt has sold millions of copies around the world.  \nIt also sold more than a million electronic copies.  \nIt is now a big Hollywood movie.  \nIt is also very popular.  \nIt earned 152.5 million dollars in its first weekend.  \nThat was in North America alone.",
+      "timestamp": "2025-09-01 17:22:24.810639",
+      "metadata": {
+        "text_id": "63b69de3-013e-49d1-aa4a-00ef154fb919",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:22:50.021958",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f7fedcf1-f82d-4a2f-93bf-6c6acbfac94c",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8832 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original text. The simplification of terms like 'hugely successful book' to 'big success story' and 'major Hollywood film' to 'big Hollywood movie' reduces lexical precision. The text is a list of short, disconnected sentences. This structure is too simple for the A2 level. A2 writing should connect ideas using simple conjunctions like 'and' or 'so'. The sentences 'It is about a competition. Young people fight to stay alive in the competition.' add information not present in the source text, further reducing fidelity. Suggestion: Retain more of the original key terms like 'successful book' and 'major film'. Combine short sentences to create more natural A2-level structures. For example: 'The Hunger Games is a very popular book for teens, and it is now a big Hollywood movie.' Do not add information that is not in the original text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8832,
+          "meaningbert": 0.8147
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:22:58.120002",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: textThe Hunger Games is a successful book for teens and young adults.  \nSuzanne Collins wrote it.  \nIt came out in 2008.  \nPeople translated it into 26 languages.  \nIt has sold millions of copies worldwide.  \nIt also sold more than a million electronic copies.  \nIt is now a major Hollywood film.  \nThe film earned 152.5 million dollars.  \nIt earned this in its opening weekend in North America.",
+      "timestamp": "2025-09-01 17:22:58.120216",
+      "metadata": {
+        "text_id": "e774b2e5-7be8-4d97-a5a2-56b94653da2a",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:23:26.282791",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "25b92b6a-ee47-49b2-9d96-874c43def663",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text states it was the 'first book for young readers to sell more than a million electronic copies'. Your version, 'It also sold more than a million electronic copies', omits the critical fact that it was the 'first'. This is a failure to preserve the core information.\n\nAdditional Deviations:\n- Vocabulary Violation: The word 'worldwide' is B1 level. It is not compliant with the A2 standard. Suggestion: Replace 'worldwide' with 'around the world'.\n- Vocabulary Violation: The word 'opening' is B2 level. It is not compliant with the A2 standard. Suggestion: Replace 'opening weekend' with 'first weekend'.\n- Structural Improvement: The text is a list of disconnected simple sentences. While grammatically correct, it is unnatural. Suggestion: Combine some ideas using A2 connectors like 'and' or 'so'. For example: 'Suzanne Collins wrote it, and it came out in 2008.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9032,
+          "meaningbert": 0.834
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:23:40.746498",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Hunger Games is a successful book for teens and young people.  \nSuzanne Collins wrote it, and it came out in 2008.  \nPeople translated it into 26 languages.  \nIt is sold around the world.  \nIt has sold millions of copies.  \nIt was the first book for young people.  \nIt sold over a million electronic copies.  \nIt is now a major Hollywood film.  \nThe film earned 152.5 million dollars.  \nIt earned this in its first weekend in North America.",
+      "timestamp": "2025-09-01 17:23:40.747530",
+      "metadata": {
+        "text_id": "5eaafd0b-3ee6-421f-bb7c-07ba11aeafa0",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:23:58.575445",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c1fcff11-9849-40a7-8882-d0c5cc4395c1",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The writer's output contains a critical error that misrepresents the original text. The sentence 'It was the first book for young people' is factually incorrect. The original text specifies the book was the 'first book for young readers to sell more than a million electronic copies', not the first book ever for that audience. This is a complete failure of factual integrity.\n\n- Factual Error: The statement 'It was the first book for young people' is a gross misinterpretation. It changes the specific achievement (first to sell a million e-copies) into a false historical claim.\n- Structural Degradation: The original text's sentences have been broken down into excessively short, disconnected statements. This results in a choppy, unnatural rhythm that is below A2 standard. The text reads like a list of facts, not a coherent paragraph.\n\nSuggestion: Correct the factual error immediately. The sentence must be rephrased to state: 'It was the first book for young people to sell over a million electronic copies.' Combine related short sentences to create better flow. For example: 'The film earned 152.5 million dollars in its first weekend in North America.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9015,
+          "meaningbert": 0.833
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:24:10.972342",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Hunger Games is a successful book for teens and young people.  \nSuzanne Collins wrote it and it came out in 2008.  \nPeople translated it into 26 languages.  \nIt has sold millions of copies around the world.  \nIt was first young\u2011people book to sell over a million electronic copies.  \nIt is now a major Hollywood film.  \nThe film earned 152.5 million dollars in its first weekend.  \nThat was in North America.",
+      "timestamp": "2025-09-01 17:24:10.972748",
+      "metadata": {
+        "text_id": "405b05aa-df10-425f-bb6d-b1e360ae4a89",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-09-01 17:24:36.962335",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3c096745-1956-4ca2-b750-f5a6714e3e84",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text meets all A2 requirements. Factual Integrity: All facts, names, and numbers from the original text are correctly preserved. Metric Compliance: The MeaningBERT score of 0.8265 and BERTScore of 0.9131 are well within the required thresholds, indicating successful meaning preservation and lexical fidelity. CEFR Classification: The text correctly classified as A2. Structural Analysis: The use of short, simple sentences is exemplary for the A2 level. The decision to split the final fact about North America into a separate sentence is a correct simplification strategy. Vocabulary: The vocabulary is strictly limited to the A2 level. Words like 'successful' and 'major' are used appropriately. Minor Point for Improvement: The phrase 'young-people book' is grammatically awkward. Suggestion: Use 'book for young people' for better fluency while remaining within A2 constraints.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9131,
+          "meaningbert": 0.8265
+        }
+      }
+    }
+  ]
+}

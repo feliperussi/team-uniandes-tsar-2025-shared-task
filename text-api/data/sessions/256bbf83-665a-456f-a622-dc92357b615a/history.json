@@ -1,0 +1,413 @@
+{
+  "session_id": "256bbf83-665a-456f-a622-dc92357b615a",
+  "created_at": "2025-09-01 17:22:16.822943",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:22:16.846789",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "90-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Word1 is a simple word we can use.  \nWord2 is another simple word.  \nWord3 is also a simple word.  \n\nMaybe dreams are a result of our mind sorting day thoughts.  \nBut dreams use symbols.  \nWhen we are awake, thoughts show as words in our mind.  \nThey are like a talk we have with ourselves.  \nWhen we are asleep, the brain part for language works less.  \nWhile the brain part for feelings works more.",
+      "timestamp": "2025-09-01 17:22:16.846896",
+      "metadata": {
+        "text_id": "4a0c083e-7930-4e55-802d-9f7c57579530",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:22:16.875281",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b832363c-3b5a-43ec-add3-28ce637aa7ae",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8785 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\n- Fidelity Failure: The BERTScore is too low. Replacing phrases like 'organising the thoughts we have during the day' with 'sorting day thoughts' and 'becomes less active' with 'works less' caused this drop. The simplification was too aggressive, losing lexical detail.\n- CEFR Compliance Failure: The text was classified as B1, not A2. The sentence 'While the brain part for feelings works more' is a dependent clause starting with the B1-level conjunction 'while'. This structure is too complex for the A2 standard.\n\nSuggestion: Rephrase to restore fidelity to the original text. Use phrasing closer to the source, like 'organising thoughts'. Suggestion: Eliminate the B1 structure. Rewrite the final two sentences as two separate, simple sentences. Example: 'The brain part for language works less. The brain part for feelings works more.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8785,
+          "meaningbert": 0.8132
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:22:22.171115",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Word1 is a simple word we can use.  \nWord2 is another simple word.  \nWord3 is also a simple word.  \n\nMaybe dreams are a result of our mind organising thoughts.  \nDreams use symbols.  \nWhen we are awake, thoughts show as words.  \nThey are like a talk we have with ourselves.  \nWhen we are asleep, the brain part for language works less.  \nThe brain part for feelings works more.",
+      "timestamp": "2025-09-01 17:22:22.171352",
+      "metadata": {
+        "text_id": "13375c6f-b79a-44d6-96b2-362f3b9d5ab4",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:22:52.796874",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ffd35b0e-de22-4369-82f5-3665ea52a346",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.873 is below the required 0.90 threshold. This indicates an excessive loss of key phrasing from the original text. The text also fails on CEFR compliance.\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. The sentence 'Maybe dreams are a result of our mind organising thoughts' uses a gerund structure ('organising thoughts') which is a B1-level grammatical form.\n- Vocabulary Violation: The words 'result', 'organising', and 'symbols' are B1 level. They were not simplified to an A2 equivalent.\n- Lexical Simplification Error: Phrases like 'the part of our brain that controls language' were changed to 'the brain part for language'. This simplification is too aggressive and damages the fidelity to the original, causing the low BERTScore.\n- Suggestion: Split the complex sentence. Example: 'Our mind organises our thoughts. Maybe dreams happen because of this.'\n- Suggestion: Replace all B1 vocabulary. 'Result' must be rephrased. 'Organising' must be replaced with a simpler verb like 'put in order'. 'Symbols' must be explained, for example, as 'pictures with a special meaning'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.873,
+          "meaningbert": 0.8194
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:22:58.121134",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Word1 is a simple word.  \nWord2 is another simple word.  \nWord3 is also a simple word.  \n\nMaybe dreams happen because our mind puts thoughts in order.  \nDreams use pictures with a special meaning.  \nWhen we are awake, thoughts appear as words.  \nThey are like a talk we have with ourselves.  \nWhen we are asleep, the brain part for language works less.  \nThe brain part for feelings works more.",
+      "timestamp": "2025-09-01 17:22:58.121358",
+      "metadata": {
+        "text_id": "4169c109-85fc-4926-8f07-53eec8aa756d",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:23:26.283755",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a79e3aa1-4cb4-40bd-be3d-cc2037a4e0a1",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8731 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\n- Lexical Fidelity Lost: Your simplification was too aggressive, removing essential vocabulary. The model detected this deviation.\n- Specific Examples of Loss: The term 'conversations' was replaced with 'talk'. The concept 'controls language' was reduced to 'for language'. The word 'emotions' was replaced with 'feelings'. These changes, while simplifying, damaged the text's fidelity to the source.\n- Cumulative Effect: While each individual change seems small, their combined effect resulted in a text that is lexically too distant from the original, causing the BERTScore to fall below the minimum standard.\n\nSuggestion: Re-evaluate the text. Reintroduce key terms from the original where possible without violating A2 vocabulary limits. For instance, 'active' is an A2 word that was removed. The phrase 'the part of the brain for language is less active' would have been more faithful and still compliant.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8731,
+          "meaningbert": 0.7526
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:23:37.159047",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Maybe dreams happen because our mind puts thoughts in order.  \nDreams use pictures with a special meaning.  \nWhen we are awake, thoughts appear as words.  \nThey are like conversations we have with ourselves.  \nWhen we are asleep, part of the brain controls language is less active.  \nThe part of brain that controls emotions is more active.",
+      "timestamp": "2025-09-01 17:23:37.159376",
+      "metadata": {
+        "text_id": "a743c9b0-edb6-42e3-b94b-270e7aea1544",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:24:02.137695",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "552d0e36-4804-4571-8cd9-184a2081365e",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as B1, which is above the required A2 level. The failure is due to sentence structure, not vocabulary. The text uses complex noun phrases and relative clauses, which are B1-level grammar.\n\n- Deviation: The sentence 'The part of brain that controls emotions is more active' uses a 'that-clause' (a relative clause) to define the noun 'part'. This is a B1 grammatical structure.\n- Deviation: The sentence 'They are like conversations we have with ourselves' uses a reduced relative clause. This is also a B1 structure.\n- Deviation: The sentence 'part of the brain controls language is less active' is grammatically incorrect. It attempts a complex B1 structure ('the part of the brain that controls language') but fails, which still signals complexity.\n\nSuggestion: Rephrase using only simple A2 structures. Break complex ideas into separate, short sentences. For example, instead of 'The part of brain that controls emotions is more active', write: 'The brain has a part for emotions. This part is more active.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9104,
+          "meaningbert": 0.9432
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:24:09.280830",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Maybe dreams happen because our mind orders thoughts.  \nDreams use pictures with meaning.  \nWhen we are awake, thoughts appear as words.  \nWe talk to ourselves inside our head.  \nWhen we are asleep, the brain has a part for language.  \nThis part is less active.  \nThe brain also has a part for emotions.  \nThis part is more active.",
+      "timestamp": "2025-09-01 17:24:09.281217",
+      "metadata": {
+        "text_id": "60272b4d-bbbf-4149-9516-a4935b89e2a8",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:24:39.860275",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5281d467-c597-4ba7-a158-3ed5d2d71aea",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8849 is below the required 0.90 threshold. This is the primary reason for failure. Fidelity Loss: The score indicates that key lexical items from the original text were lost. The simplification was too aggressive. The phrase 'the result of our mind organising the thoughts' was replaced with 'our mind orders thoughts', losing important words and reducing fidelity. CEFR Compliance Failure: The text was also classified as B1, not the required A2. While sentence structure is simple, the abstract topic and vocabulary choices like 'mind' and 'appear' likely caused the incorrect classification. Suggestion: To increase the BERTScore, re-integrate key vocabulary from the original. Change 'our mind orders thoughts' to 'our mind organises thoughts'. Rephrase 'The brain has a part for language' to 'One part of the brain controls language' to better reflect the original's phrasing while maintaining simplicity.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8849,
+          "meaningbert": 0.8827
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:24:44.651007",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Maybe dreams are the result of our mind organises thoughts.  \nDreams use pictures with meaning.  \nWhen we are awake, thoughts appear as words.  \nWe talk to ourselves in our head.  \nOne part of the brain controls language.  \nThis part is less active when we sleep.  \nOne part of the brain controls emotions.  \nThis part is more active when we sleep.",
+      "timestamp": "2025-09-01 17:24:44.651391",
+      "metadata": {
+        "text_id": "8e253c5e-ac2c-4eda-ac4c-7712a7f89663",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:25:08.690609",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "71d4bf91-1dfe-46d7-a52a-67c91dad0b78",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8908 is below the required 0.90. This is the primary reason for failure.\n\n- Fidelity Loss: The low BERTScore indicates a failure to retain key lexical details from the original text. The phrase 'thoughts we have during the day' was completely omitted, and 'symbolic meaning' was altered. This is an unacceptable loss of information.\n- CEFR Compliance Failure: The text was classified as B1, which is too complex for the A2 standard. The goal is A2, not B1.\n- Grammatical Error: The first sentence contains a significant grammatical error. 'Maybe dreams are the result of our mind organises thoughts' is incorrect. The verb form is wrong.\n\nSuggestion: Correct the grammar in the first sentence to '...our mind organising thoughts'. Re-integrate the omitted concept of 'thoughts during the day' to improve fidelity. The text must be simplified to meet the A2 classification while maintaining the core facts of the original.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8908,
+          "meaningbert": 0.9088
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:25:19.098030",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Maybe dreams are the result of our mind organising thoughts that we have during the day.  \nDreams show these thoughts as pictures with special meaning.  \nWhen we are awake, thoughts appear as words.  \nWe talk to ourselves in our head.  \nOne part of the brain controls language.  \nThis part is less active when we sleep.  \nOne part of the brain controls emotions.  \nThis part is more active when we sleep.",
+      "timestamp": "2025-09-01 17:25:19.098540",
+      "metadata": {
+        "text_id": "49f5bf4d-84b3-4ac5-a26d-5d9dcb5d006a",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:25:44.274235",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f4986f81-6a88-4374-ba34-b3d385bce257",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as B1, which is above the required A2 level. The failure is structural, not lexical. The first sentence, 'Maybe dreams are the result of our mind organising thoughts that we have during the day,' is the cause. The noun phrase 'our mind organising thoughts' uses a gerund structure that is too complex for the A2 standard. This structure elevates the text's complexity to B1. While the subsequent sentences are simple and effective, this initial complex sentence results in an immediate failure. Suggestion: Deconstruct the first sentence into multiple, simpler sentences. Example: 'Our mind organises the thoughts we have during the day. Maybe dreams are the result of this.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9,
+          "meaningbert": 0.9042
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:25:53.799106",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Our mind organises the thoughts we have during the day.  \nMaybe dreams are the result of this.  \nDreams show these thoughts as pictures with special meaning.  \nWhen we are awake, thoughts appear as words.  \nWe talk to ourselves in our head.  \nOne part of the brain controls language.  \nThis part is less active when we sleep.  \nOne part of the brain controls emotions.  \nThis part is more active when we sleep.",
+      "timestamp": "2025-09-01 17:25:53.799563",
+      "metadata": {
+        "text_id": "046aaaba-742c-41c8-8214-ebe4ce2f3cfa",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:26:23.294241",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "86d289cd-6394-4db6-b24b-53c0563b8bcb",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as B1, which is an automatic failure. The primary cause is a B1 grammatical structure retained from the original text. A secondary failure was detected in lexical fidelity.\n\n- CEFR Classification Failure: The classifier registered the text as B1. The sentence 'Our mind organises the thoughts we have during the day' uses a relative clause ('we have during the day'). This is a B1 structure. An A2 text must use simpler, conjoined sentences.\n\n- Fidelity Failure: The BERTScore of 0.8885 is below the required 0.90 threshold. The original text used 'but' and 'while' to create a direct contrast between the language and emotion parts of the brain. Your version presents them as separate facts, losing this important relationship and reducing fidelity to the source.\n\n- Suggestion: The sentence 'Our mind organises the thoughts we have during the day' must be rewritten. Split it into two simple sentences. Example: 'We have thoughts during the day. Our mind organises them.'\n\n- Suggestion: Reintroduce the contrast. Use 'but'. Example: 'The part for language is less active, but the part for emotions is more active.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8885,
+          "meaningbert": 0.9395
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:26:34.030252",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We have thoughts during the day.  \nOur mind organises them.  \nMaybe dreams are the result of this.  \nDreams show these thoughts as pictures with special meaning.  \nWhen we are awake, thoughts appear as words.  \nWe talk to ourselves in our head.  \nOne part of the brain controls language.  \nThe part for language is less active when we sleep.  \nBut the part for emotions is more active when we sleep.  \nOne part of the brain controls emotions.",
+      "timestamp": "2025-09-01 17:26:34.030793",
+      "metadata": {
+        "text_id": "09f0013f-2ec9-4430-8deb-789f87b13abb",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:27:00.343984",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c5a5d8de-00b1-4451-a42b-1ab14df74e72",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8828 is below the required minimum of 0.90. This indicates a significant loss of lexical detail and phrasing from the original text.\n\n- Primary Deviation (BERTScore): The text was over-simplified into excessively short, disconnected sentences. This fragmentation destroyed the syntactical relationship between concepts present in the original, causing the fidelity score to drop. The original's clause 'the part of our brain that controls language becomes less active while the part that controls emotions becomes more active' was broken apart, losing the direct comparative link.\n\n- Secondary Deviation (CEFR Compliance): The text also fails the CEFR compliance check. The provided classifier result is 'B1', which is above the target 'A2' level. This is a critical failure to meet the required standard.\n\nSuggestion: The text must be rewritten. While simplification is necessary, it cannot come at the cost of fidelity. Recombine sentences to restore the logical flow and phrasing of the original text. For example, connect the ideas about the language and emotion parts of the brain using a simple A2 connector like 'but'. This will improve the BERTScore. You must also analyze and simplify the text to ensure it meets the A2 classification, not B1.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8828,
+          "meaningbert": 0.8702
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:27:10.467251",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Maybe dreams are the result of our mind organizing thoughts.  \nThese thoughts come from the day.  \nWhen we are awake, thoughts appear as words.  \nWe talk to ourselves in our head.  \nOne part of the brain controls language.  \nWhen we sleep, that part becomes less active.  \nBut the part that controls emotions becomes more active.",
+      "timestamp": "2025-09-01 17:27:10.467930",
+      "metadata": {
+        "text_id": "06bf32c3-7d1b-473a-a3e1-951e6c72a7b4",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:27:29.827544",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "49ca6504-52f1-44fb-8056-52d90a8157ac",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The writer's output omits the critical concept of 'symbolic meaning' from the original text. This is a failure to preserve the core message. The original states dreams appear 'with symbolic meaning', but your version completely removes this fact.\n\n- CEFR Compliance Failure: The text was classified as B1, not A2. This is an instant failure. The reason is the repeated use of a B1 grammatical structure.\n- Structural Error: The sentences 'the part that controls language' and 'the part that controls emotions' use relative 'that-clauses'. This structure is too complex for the A2 level and must be simplified.\n\nSuggestion: Restore the omitted fact about 'symbolic meaning'. Rephrase the sentences with 'that-clauses' into simpler A2 structures. For example: 'One part of the brain is for language.' and 'Another part is for feelings.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9064,
+          "meaningbert": 0.8802
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:27:36.198968",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Maybe dreams are the mind's way to sort thoughts.  \nThe thoughts come from the day.  \nWhen we are awake, thoughts appear as words.  \nWe talk to ourselves in our head.  \nDreams have symbolic meaning.  \nOne part of the brain is for language.  \nWhen we sleep, that part becomes less active.  \nAnother part of the brain is for feelings.  \nWhen we sleep, that part becomes more active.",
+      "timestamp": "2025-09-01 17:27:36.202695",
+      "metadata": {
+        "text_id": "37027588-7cb6-40a4-8b8d-c37f7504bbec",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:28:01.620812",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5ad9952d-c14b-4a6c-be1b-10f05936c1c0",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8858 is below the required 0.90. This indicates a significant loss of key phrasing from the original text. The text also fails the CEFR compliance check. CEFR Compliance Failure: The text was classified as B1, not A2. This is an automatic failure. The cause is the use of the C1-level word 'symbolic'. This word is too advanced for the A2 level. Vocabulary Violation: The word 'symbolic' is C1 level. It must be removed and replaced with an A2 concept. Fidelity Loss: The original text states the brain 'controls language' and 'controls emotions'. Your version, 'is for language' and 'is for feelings', is too simple and loses the specific meaning of control, contributing to the low BERTScore. Suggestion: Replace the sentence 'Dreams have symbolic meaning.' with 'In dreams, things can mean something else.' Rephrase 'is for language' to 'is the part that controls language' to restore the original meaning and improve fidelity.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8858,
+          "meaningbert": 0.8475
+        }
+      }
+    }
+  ]
+}

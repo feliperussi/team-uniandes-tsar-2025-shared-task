@@ -1,0 +1,413 @@
+{
+  "session_id": "c5b1db5f-c722-40aa-add6-0344465b8c13",
+  "created_at": "2025-09-01 17:12:05.226853",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:12:12.195930",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "46-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: NASA wants to find more middle\u2011sized NEOs.  \nTo do this, NASA needs money to build NEOCam.  \nNEOCam is a small space telescope that looks for asteroids.  \nThe telescope will use heat light to see asteroids.  \nIf NASA gets the money, it can finish NEOCam I in ten years.  \nWhen NEOCam finds asteroids, the planetary defence team will act.  \nThe team must decide how to protect Earth from PHAs.  \nPHAs are big asteroids that could hit Earth.",
+      "timestamp": "2025-09-01 17:12:12.196305",
+      "metadata": {
+        "text_id": "99397699-12ff-4ed1-ba7f-ddbf1ade20ae",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:12:13.306680",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2a5c4324-e0ab-4981-93ac-41f89caa03bc",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The output introduces information not present in the original text. The writer's output states 'it can finish NEOCam I in ten years'. The original text makes no mention of 'NEOCam I'. This is an immediate and critical failure.\n\n- Fidelity Failure: The BERTScore of 0.8918 is below the required 0.90 threshold. This indicates a loss of key lexical detail from the original text. The change from 'achieve its goal' to 'finish NEOCam' contributes to this score reduction.\n\n- Meaning Preservation: The MeaningBERT score of 0.7789 is acceptable, but the factual error overrides this passing metric.\n\n- CEFR Compliance: The A2 classification is correct, but irrelevant due to the higher-priority failures.\n\nSuggestion: Remove the 'I' from 'NEOCam I'. Never add information that is not in the source text. Rephrase the sentence to more accurately reflect the original's meaning of 'achieve its goal', for example: 'If NASA gets the money, it can find the asteroids in ten years.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8918,
+          "meaningbert": 0.7789
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:12:21.893866",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: NASA wants to find more middle\u2011sized NEOs.  \nTo do this, NASA needs money to build NEOCam.  \nNEOCam is a small space telescope that looks for asteroids.  \nThe telescope will use heat light to see asteroids.  \nIf NASA gets the money, it can find asteroids.  \nIt can do this in ten years.  \nWhen NEOCam finds asteroids, the team will act.  \nThe team must decide how to protect Earth from PHAs.  \nPHAs are big asteroids that could hit Earth.",
+      "timestamp": "2025-09-01 17:12:21.894171",
+      "metadata": {
+        "text_id": "2ac34b3b-5a65-4e45-ac15-663fbdfe3dae",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:12:56.230517",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8b3c176b-3c42-4905-9dde-72e5df431dc4",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The text fails on two critical metrics before any qualitative analysis is considered.\n\nFirst, the MeaningBERT score of 0.7395 is below the required 0.75 threshold. The original text establishes a conditional relationship: 'Whether NASA can find... depends on getting the money'. Your version changes this to a simple desire: 'NASA wants to find...'. This alters the core meaning from a dependency to a simple goal, which is a significant deviation.\n\nSecond, the BERTScore of 0.8857 is below the required 0.90. This indicates a significant loss of key terminology. The phrase 'planetary defence team' was removed entirely, losing a critical concept. The idea of 'achieving its goal' was also lost.\n\nBeyond the metric failures, the text contains structural errors for the A2 level.\n- The sentence 'NEOCam is a small space telescope that looks for asteroids' uses a 'that-clause', which is a B1 structure.\n- The sentence 'PHAs are big asteroids that could hit Earth' also uses a 'that-clause'.\n\nSuggestion: Restore the conditional meaning. Rephrase to show that finding the asteroids depends on getting the money. Split the sentences that use 'that' into two simpler sentences. For example: 'NEOCam is a small space telescope. It looks for asteroids.' Reintroduce the concept of 'planetary defence' in simple terms.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8857,
+          "meaningbert": 0.7395
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:13:05.027353",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: NASA can find more middle sized NEOs only if it gets money.  \nIt needs money to build NEOCam.  \nNEOCam is a small space telescope.  \nIt looks for asteroids.  \nIt uses heat light to see asteroids.  \nIf NASA gets the money, NEOCam could achieve its goal.  \nIt could do this in ten years.  \nWhen NEOCam finds asteroids, the planetary defence team will act.  \nThe team must decide how to protect Earth from PHAs.  \nPHAs are big asteroids.  \nThey could hit Earth.",
+      "timestamp": "2025-09-01 17:13:05.027559",
+      "metadata": {
+        "text_id": "882d8095-3b19-4a73-9def-49a82f98fa93",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:13:33.798089",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "600c4d6d-7c25-4933-a3d8-fa7140e2c3cb",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8819 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\n- Fidelity Loss: The score dropped because key descriptive words were omitted. The original specifies 'the remaining middle-sized NEOs' and 'truly worrying asteroids'. Your version loses the concepts of 'remaining' and 'worrying', which reduces lexical fidelity to the source.\n\n- Vocabulary Violation: The B1 word 'defence' was used in the phrase 'planetary defence team'. This is an unacceptable deviation from the A2 vocabulary standard.\n\n- Simplification Error: The term 'infrared light' was simplified to 'heat light'. While simplification is required, 'heat light' is not a standard term. A better A2 simplification would be 'a special light that feels heat'.\n\nSuggestion: Replace the B1 word 'defence'. Rephrase 'planetary defence team' to 'the team that protects Earth'. Re-insert the concept that NASA is looking for the 'last' or 'other' NEOs. Restore the idea that PHAs are 'dangerous' or 'a big problem'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8819,
+          "meaningbert": 0.8188
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:13:46.674173",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Nasa can find the other middle-sized NEO? Actually we need to keep NEOs. Provide final text:\n\nNasa can find the other middle-sized NEOs only if it gets money.  \nIt needs money to build NEOCam.  \nNEOCam is a small space telescope.  \nIt looks for asteroids.  \nIt uses a special light that feels heat.  \nIf NASA gets the money, NEOCam could reach its goal.  \nIt could do this in ten years.  \nWhen NEOCam finds asteroids, the team that protects Earth will act.  \nThe team must decide how to protect Earth from PHAs.  \nPHAs are very worrying asteroids.  \nThey are a big problem.",
+      "timestamp": "2025-09-01 17:13:46.674492",
+      "metadata": {
+        "text_id": "be05e4e2-c2d1-4bf5-8034-2c6d45e5718b",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:14:18.385540",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "98371d1b-ac6a-405a-9067-91e144895c0a",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.61 is significantly below the required 0.75 threshold. The BERTScore of 0.86 is also below the required 0.90. This indicates a critical loss of the original text's core message and specific phrasing. The phrase 'Whether... depends on...' was oversimplified to 'only if...'. This changes the meaning from a dependency to a simple condition. The concept of the team needing to 'work out how to defend the planet' implies a complex process of planning and problem-solving. Your version, 'The team must decide how to protect Earth', loses this nuance. The specific threat 'defend the planet against being hit by' was lost. Your simplification 'protect Earth from PHAs' is too general. The sentence 'They are a big problem' was added. You must not add information that is not present in the original text. Suggestion: Rephrase the text to restore the original meaning. The relationship between finding NEOs and getting money is one of dependency. The action of the defense team is about planning and solving a problem, not just making a decision. Remove all sentences not supported by the original text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8677,
+          "meaningbert": 0.6122
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:14:34.526444",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: NASA wants to find the remaining middle\u2011sized NEOs.  \nThis depends on getting money to build NEOCam.  \nNEOCam is a small space telescope.  \nIt uses infrared light to look for asteroids.  \nIf NASA gets the money, NEOCam could work for ten years.  \nWhen NEOCam finds asteroids, the defence team still has work.  \nIt must work out how to defend the planet.  \nIt must stop PHAs from hitting Earth.  \nPHAs are potentially hazardous asteroids.",
+      "timestamp": "2025-09-01 17:14:34.526949",
+      "metadata": {
+        "text_id": "ad069e67-17a2-492a-973b-7c8a93f82d34",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:14:55.866223",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c3a169c0-d9c3-4e5e-b85a-6f30ac5979dd",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text states NASA could 'achieve its goal in ten years'. Your version changes this to 'NEOCam could work for ten years'. A mission goal's timeline is not the same as a telescope's operational lifespan. This is a critical error.\n\n- Fidelity Failure: The factual error contributed to a BERTScore of 0.8933, which is below the required 0.90 threshold. This confirms a significant loss of key phrasing from the original text.\n- Vocabulary Non-Compliance: The text is contaminated with words above the A2 level. 'Defence' (B1), 'defend' (B1), and 'potentially' (B2) are unacceptable. An A2 text cannot contain B-level vocabulary.\n\nSuggestion: Correct the factual error about the ten-year timeline to reflect 'achieving a goal'. Remove all B1 and B2 words. Rephrase 'defence team' to 'a team that protects Earth'. Rephrase 'defend the planet' to 'protect the planet'. The definition of PHA must be rewritten using only A2 words; 'potentially' is B2 and is forbidden.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8933,
+          "meaningbert": 0.8658
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:15:00.881916",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: NASA wants to find the remaining middle sized NEOs.  \nThis needs money to build NEOCam.  \nNEOCam is a small space telescope.  \nIt uses heat light to look for asteroids.  \nIf NASA gets the money, the project could reach its goal in ten years.  \nWhen NEOCam finds asteroids, a team that keeps Earth safe still has work.  \nThe team must find ways to keep the planet safe.  \nIt must stop PHAs from hitting Earth.  \nPHAs are rocks that could hit Earth.",
+      "timestamp": "2025-09-01 17:15:00.882258",
+      "metadata": {
+        "text_id": "66caf90e-8c66-4c37-a46f-2a4284c16438",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:15:25.374559",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ad19910d-b77f-481b-b643-8e0d3e9d99fb",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.886 is below the mandatory 0.90 threshold. This indicates a significant loss of key phrasing from the original text. The phrase 'planetary defence team' was oversimplified to 'a team that keeps Earth safe', losing critical lexical detail and causing the score to drop.\n\n- CEFR Compliance Failure: The text was classified as B1. This is an automatic failure. The sentence 'When NEOCam finds asteroids, a team that keeps Earth safe still has work' combines a subordinate time clause ('When...') with a relative clause ('that keeps...'). This is a complex B1 sentence structure and is unacceptable for the A2 standard.\n\n- Vocabulary Violation: The word 'remaining' is a B1-level adjective. It was carried over from the original text without simplification. This is a vocabulary error.\n\n- Suggestion: Split the complex sentence into two or more simple sentences. Example: 'NEOCam will find asteroids. After that, a special team has more work to do.'\n\n- Suggestion: Replace the B1 word 'remaining'. Use 'the other' or rephrase the sentence entirely.\n\n- Suggestion: To improve fidelity, use simpler but more direct phrasing that retains the original's specificity. 'A team for planet safety' is a more direct A2 simplification of 'planetary defence team' than the version provided.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.886,
+          "meaningbert": 0.8419
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:15:31.756968",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: NASA wants to find the other middle NEOs.  \nIt needs money to build NEOCam.  \nNEOCam is a small space telescope.  \nIt uses heat light to look for asteroids.  \nIf NASA gets the money, the project can reach its goal.  \nIt will take ten years.  \nNEOCam will find asteroids.  \nAfter that, a planetary defence team has more work.  \nThe team must find ways to keep the planet safe.  \nIt must stop PHAs from hitting Earth.  \nPHAs are rocks that could hit Earth.",
+      "timestamp": "2025-09-01 17:15:31.757297",
+      "metadata": {
+        "text_id": "07858285-77c9-43fa-82ad-9d0adf500350",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:16:05.554374",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e17d1520-b0b2-4a00-a7d0-3c128bc31c24",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on two critical metrics. The MeaningBERT score of 0.7455 is below the required 0.75 threshold. The BERTScore of 0.8775 is significantly below the required 0.90 threshold. These failures indicate that the simplification process has damaged the core message and lost too much lexical fidelity from the original text.\n\n- Metric Failure (BERTScore): The score of 0.8775 is too low. Key phrases like 'truly worrying asteroids' and the conditional 'could probably achieve' were oversimplified, losing important detail and nuance required to maintain fidelity.\n\n- Metric Failure (MeaningBERT): The score of 0.7455 is too low. The original text establishes a clear conditional relationship: IF NASA gets money, THEN it can achieve its goal. Your version presents this as a series of disconnected facts, which weakens this core logical link.\n\n- Vocabulary Violation: The text uses the B1-level word 'defence' in the phrase 'planetary defence team'. This is a direct violation of the A2 standard. All vocabulary must be strictly A2 or below.\n\n- Structural Issue: The text is a list of short, disconnected sentences. While simple sentences are required for A2, the complete lack of simple connectors like 'and' or 'so' makes the text choppy and difficult to follow.\n\nSuggestion: Remove the B1 word 'defence' immediately. Rephrase 'planetary defence team' to 'a team that keeps the planet safe'. Revise the text to better reflect the conditional 'if...then' structure of the original to improve metric scores. Combine some sentences using 'and' to improve flow. For example: 'NEOCam is a small space telescope and it uses heat light to look for asteroids.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8775,
+          "meaningbert": 0.7455
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:16:16.491196",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: NASA wants to find the other middle\u2011size NEOs.  \nIt needs money to build NEOCam.  \nNEOCam is a small space telescope.  \nIt uses heat light to look for asteroids.  \nIf NASA gets money, it could reach its goal in ten years.  \nNEOCam will find asteroids.  \nAfter that, a team that keeps the planet safe has more work.  \nThe team must find ways to stop very bad asteroids.  \nThese asteroids are called PHAs.  \nThey could hit Earth.",
+      "timestamp": "2025-09-01 17:16:16.491937",
+      "metadata": {
+        "text_id": "b1bf2e00-6d1c-48d2-9097-2df09e028a90",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:16:41.714181",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "138d5306-b20a-482e-9864-4edb8bf84a96",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for failure is the MeaningBERT score of 0.7047, which is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text. A secondary failure is the BERTScore of 0.885, which is below the 0.90 minimum, indicating a loss of key factual phrasing.\n\n- MeaningBERT Failure: The original text establishes a clear dependency: 'Whether NASA can find... depends on getting the money'. Your version, 'NASA wants to find... It needs money', weakens this critical cause-and-effect relationship into two separate statements, altering the core meaning.\n\n- BERTScore Failure: The simplification of key terms was too aggressive, reducing fidelity. Replacing 'planetary defence team' with 'a team that keeps the planet safe' and 'defend the planet' with 'stop very bad asteroids' created too much lexical distance from the source text, causing the score to drop below the minimum.\n\n- Structural Issue: The sentence 'After that, a team that keeps the planet safe has more work' uses a defining relative clause ('that keeps the planet safe'). While simple, this structure is borderline B1 and should be avoided for strict A2 compliance. It could be simplified further.\n\nSuggestion: Restore the direct link between money and the ability to find asteroids. Rephrase using simpler cause-effect language like 'NASA needs money because it wants to find...'. Re-evaluate simplifications of key terms to stay closer to the original meaning; for example, 'protect the planet' is a better A2 simplification of 'defend the planet' than 'stop very bad asteroids'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.885,
+          "meaningbert": 0.7047
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:16:50.055844",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: NASA needs money because it wants to find the other middle\u2011size NEOs.  \nThe money would be used to build NEOCam.  \nNEOCam is a small space telescope.  \nIt uses infrared (heat) light to look for asteroids.  \nIf NASA gets the money, NEOCam could work in ten years.  \nNEOCam would find the asteroids.  \nAfter that, a planetary defence team would have more work.  \nThe team must protect the planet from very dangerous asteroids.  \nThese asteroids are called PHAs.  \nThey could hit Earth.",
+      "timestamp": "2025-09-01 17:16:50.056987",
+      "metadata": {
+        "text_id": "31d8813d-4c70-4a33-92dc-af70000d9f7a",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:17:12.872985",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c23e5844-3bea-4afb-94db-3034d0626a4b",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8833 is below the required 0.90 threshold. This indicates a significant loss of key words and factual phrasing from the original text. The replacement of precise concepts like 'achieve its goal' with the vague phrase 'could work' damages the text's fidelity.\n\nAdditional violations detected:\n\n- Vocabulary Non-Compliance: The text includes B1-level vocabulary. The words 'used' and 'defence' were identified as B1 candidates for replacement but were kept in the final output. This is a direct violation of the A2 standard.\n\n- Structural Complexity: The sentence 'The money would be used to build NEOCam' employs the passive voice ('be used'). This is a B1 grammatical structure and is too complex for the A2 level.\n\nSuggestion: Restore fidelity by using more precise A2-level language. Replace 'could work' with a phrase that captures the original meaning, such as 'could find the asteroids'. Replace the B1 word 'used' with 'for'. Replace the B1 word 'defence' with an A2 phrase like 'team that protects'. Rephrase the passive sentence into an active one, for example: 'NASA will use the money to build NEOCam'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8833,
+          "meaningbert": 0.8458
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:17:25.180950",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: NASA needs money to find the other middle\u2011size NEOs.  \nNASA will use the money to build NEOCam.  \nNEOCam is a small space telescope.  \nIt uses infrared (heat) light to look for asteroids.  \nIf NASA gets the money, NEOCam could find asteroids in ten years.  \nAfter that, a planetary team that protects the planet will have work.  \nIt will have more work.  \nThe team must protect the planet from very dangerous asteroids.  \nThese asteroids are called PHAs.  \nThey could hit Earth.",
+      "timestamp": "2025-09-01 17:17:25.181521",
+      "metadata": {
+        "text_id": "38f88372-4b6b-4f69-94f7-2e892059ce2a",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:17:55.518205",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "df7ca08e-2b59-4cbd-8774-3cafc03efdb4",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8834 is below the required 0.90. This indicates an unacceptable loss of key phrasing and lexical precision from the original text due to oversimplification.\n\n- Deviation: The original concept 'work out how to defend the planet' was replaced with the vague and repetitive 'will have work. It will have more work.' This loses the core meaning of the team's task, which is problem-solving and planning a defense.\n\n- Deviation: The original phrase 'truly worrying asteroids' was simplified to 'very dangerous asteroids'. This replacement, while close in meaning, contributes to the overall drop in lexical fidelity measured by the BERTScore.\n\n- Deviation: The sentence 'a planetary team that protects the planet' uses a defining relative clause ('that protects...'). This is a B1-level grammatical structure and is too complex for the A2 standard.\n\n- Suggestion: Restore the specific action of the planetary team. State that the team must 'find a way to protect the planet'.\n\n- Suggestion: Combine the two sentences 'It will have work. It will have more work.' into a single, clear statement about the team's responsibility.\n\n- Suggestion: Rephrase the sentence with the relative clause. Use two simple sentences instead. Example: 'There is a planetary team. This team protects the planet.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8834,
+          "meaningbert": 0.8034
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:18:07.828270",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: NASA needs money to find the other middle\u2011size NEOs.  \nNASA will use the money to build NEOCam.  \nNEOCam is a small space telescope.  \nIt uses infrared light to look for asteroids.  \nIf NASA gets the money, NEOCam could find asteroids.  \nIt could do this in ten years.  \nThere is a planetary team.  \nThe team must find a way to protect the planet.  \nThe team must protect the planet from truly worrying asteroids.  \nThese asteroids are called PHAs.",
+      "timestamp": "2025-09-01 17:18:07.828904",
+      "metadata": {
+        "text_id": "f985e662-997a-44ac-bf08-48186ca97212",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 17:18:37.844904",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "70163369-2967-43aa-a1d8-975ff451bee8",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8867 is below the required 0.90 threshold. This indicates that too many key words and phrases from the original text were removed or over-simplified, damaging the text's fidelity.\n\n- Lexical Loss: The term 'planetary defence team' was reduced to 'planetary team'. The concept of 'defence' is critical and was lost.\n- Meaning Dilution: The original's 'achieve its goal' (finding the remaining NEOs) was simplified to 'find asteroids'. This loses the specific objective of completing a search.\n- Over-simplification: While simplification is necessary for A2, the aggressive reduction of phrases like 'work out how to defend' and 'being hit by' contributed to the low fidelity score.\n\nSuggestion: Reintroduce key terms to meet the fidelity requirement. Change 'planetary team' to 'planetary defence team'. Combine the final two sentences to restore context: 'The team must protect the planet from truly worrying asteroids called PHAs.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8867,
+          "meaningbert": 0.7886
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "session_id": "12e78a11-5b8f-4e10-9775-68e2f55b4bc4",
+  "created_at": "2025-09-01 17:12:12.207100",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:12:13.310683",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "111-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In old horror films, the main people were very scared. They could not call for help. They could not call the police. Now, mobile phones make this hard to believe. So, how can films keep people excited? The answer is: no phone signal! If you are a hero in a horror film, you will need to call for help. This happens at an important time. But you will almost certainly have no phone signal. Or your phone battery will die. This happens when you start to call. Sometimes, both things happen.",
+      "timestamp": "2025-09-01 17:12:13.310817",
+      "metadata": {
+        "text_id": "e0b5039d-36c8-4fa7-9e86-da09a77c6feb",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 17:12:16.451414",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9a070960-e8fa-4d56-9a80-d124ba52ed60",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Deviation. The text uses the word 'signal', which is classified as B1. For a strict A2 standard, all vocabulary must adhere to the A2 level or below. The original text used 'coverage', which is also not A2, but the task was to simplify to A2. Replacing a non-A2 word with another non-A2 word (even if slightly lower level) is a failure to meet the A2 vocabulary requirement. Suggestion: Rephrase 'no phone signal' using simpler A2 words, such as 'no phone works' or 'the phone does not work'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9247,
+          "meaningbert": 0.825
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:12:29.419092",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In old horror films, the main people were very scared. They could not call for help. They could not call the police. Now, mobile phones make this hard to believe. So, how can films keep people excited? The answer is: phones do not work! If you are a hero in a horror film, you will need to call for help. This happens at an important time. But your phone will almost certainly not work. Or your phone battery will die. This happens when you start to call. Sometimes, both things happen.",
+      "timestamp": "2025-09-01 17:12:29.419863",
+      "metadata": {
+        "text_id": "b6a7bcfc-9325-4047-9db1-b5f6250c8121",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 17:12:46.668619",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7e673a7b-a5f8-4647-8bf1-f6b8c80b463e",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: All diagnostic criteria met. The text successfully maintains factual integrity, preserves the core meaning with high fidelity (MeaningBERT 0.8373, BERTScore 0.9207), and is accurately classified as A2. The vocabulary is consistently at an A1/A2 level, with complex terms from the original text simplified effectively (e.g., 'protagonists' to 'main people', 'desperation' to 'very scared', 'maintain suspense' to 'keep people excited', 'coverage' to 'not work'). Sentence structures are simple and direct, using A2-appropriate connectors like 'So', 'If', 'But', 'Or', and 'when'. No deviations from the A2 standard were detected.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9207,
+          "meaningbert": 0.8373
+        }
+      }
+    }
+  ]
+}

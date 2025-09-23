@@ -1,0 +1,117 @@
+{
+  "session_id": "bb0f9683-79ec-4ddb-b043-e0e51d8ba7cc",
+  "created_at": "2025-08-31 23:50:35.008190",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-08-31 23:50:35.017526",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "01-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An asteroid is a small rock that travels around the Sun in space. NASA is now working toward logging some of the smaller asteroids, those that measure 140 metres across or more, because these objects could be harmful. Scientists think there are 25,000 asteroids of this size, but so far they have logged only about 8,000 and the other 17,000 remain unaccounted for. When a 19-metre asteroid exploded above the city of Chelyabinsk in Russia in 2013, it injured 1,200 people. This shows that medium asteroids could pose a great risk if they come into Earth\u2019s orbit.",
+      "timestamp": "2025-08-31 23:50:35.018679",
+      "metadata": {
+        "text_id": "4f3c39ae-830a-4062-9f63-4482aa414651",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 23:50:35.029118",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "872e6a85-db17-4f06-a869-af06b0313d38",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2' likely because the sentence 'This shows that medium asteroids could pose a great risk if they come into Earth\u2019s orbit.' uses the advanced verb 'pose' and a complex conditional structure that is more typical of B2. To correct this, replace 'pose a great risk' with a simpler phrase such as 'be very dangerous' and consider splitting the clause: for example, 'This shows that medium asteroids could be very dangerous. They could hit Earth\u2019s orbit and cause damage.'",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9431,
+          "meaningbert": 0.8504
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-08-31 23:50:52.739209",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An asteroid is a small rock that travels around the Sun in space. NASA is now working towards logging some of the smaller asteroids, those that measure 140 metres across or more, because these objects could be harmful. Scientists think there are 25,000 asteroids of this size, but so far they have logged only about 8,000 and the other 17,000 remain unaccounted for. When a 19-metre asteroid exploded above the city of Chelyabinsk in Russia in 2013, it injured 1,200 people. This shows that medium asteroids could be very dangerous. They could come into Earth\u2019s orbit and cause damage.",
+      "timestamp": "2025-08-31 23:50:52.740807",
+      "metadata": {
+        "text_id": "52236271-0818-4909-a191-36610591bc60",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-08-31 23:51:10.171544",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "286645c0-a70b-4700-89e7-d3f4114709df",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as B2 likely because it uses complex sentence structures and longer clauses that exceed B1 level. For example, the sentence \u201cNASA is now working towards logging some of the smaller asteroids, those that measure 140 metres across or more, because these objects could be harmful\u201d contains multiple embedded clauses and a causal connector. To meet B1, split long sentences into shorter ones and use simpler connectors. You could write: \u201cNASA is now trying to record smaller asteroids. They are 140 metres wide or more. Scientists worry they could be harmful.\u201d Also replace less common words like \u201clogging\u201d with simpler alternatives like \u201crecording\u201d or \u201ccounting.\u201d",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9421,
+          "meaningbert": 0.8475
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-08-31 23:51:28.998702",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An asteroid is a small rock that goes around the Sun in space. NASA is now trying to record smaller asteroids. They are 140 metres wide or more. Scientists worry these asteroids could be harmful. They think there are 25,000 of this size. So far, they have recorded about 8,000. They have not found the other 17,000 yet. In 2013, a 19-metre asteroid exploded above Chelyabinsk in Russia. It injured 1,200 people. This shows medium-sized asteroids can be very dangerous. They could come into Earth\u2019s orbit and cause damage.",
+      "timestamp": "2025-08-31 23:51:28.999900",
+      "metadata": {
+        "text_id": "cceddd37-7647-4160-9323-45f11c5210f5",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 8/10 - PASS",
+      "timestamp": "2025-08-31 23:51:46.565175",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "eae63d6c-d54e-4ef5-a5ed-9e4efa21452c",
+        "grade": 8,
+        "approval": "PASS",
+        "feedback_text": "The writer\u2019s output is factually accurate and preserves the original meaning with a MeaningBERT score of 0.8394 and a BERTScore of 0.9302, and it correctly meets the B1 CEFR level. The added definition of \u201casteroid\u201d fulfills the keyword requirement, and the choice of simpler verbs like \u201crecord\u201d for \u201clog\u201d and \u201cfound\u201d for \u201caccounted for\u201d aligns with the vocabulary strategy. To improve fluency and coherence, consider combining short sentences using connectors (for example, link the numbers sentence with \u201cso far\u201d into the previous sentence) and vary sentence openings beyond \u201cThey\u201d and \u201cIn 2013.\u201d You might also replace \u201cThey think there are 25,000 of this size\u201d with \u201cNASA estimates there are 25,000 asteroids of this size\u201d to maintain focus on the agency conducting the work. These adjustments will enhance cohesion and reader engagement while keeping the text at B1 level.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9302,
+          "meaningbert": 0.8394
+        }
+      }
+    }
+  ]
+}

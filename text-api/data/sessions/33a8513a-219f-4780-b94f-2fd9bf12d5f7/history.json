@@ -1,0 +1,413 @@
+{
+  "session_id": "33a8513a-219f-4780-b94f-2fd9bf12d5f7",
+  "created_at": "2025-09-01 17:30:53.092759",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:30:53.099264",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "118-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Girox Foods has about 12% workers leaving each year.  \nThe usual rate in the industry is 7%.  \nThe report's main goal is to look at why workers are involved.  \nIt will study the company.  \nIt will give advice to make work feel better.  \nIt will help keep workers.  \nIt will raise the number of workers who stay.",
+      "timestamp": "2025-09-01 17:30:53.099928",
+      "metadata": {
+        "text_id": "eb9f108e-7d70-428f-909e-21a395b7631c",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:30:53.120444",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "028c9766-6145-461c-90d3-0ad103280384",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6524 is significantly below the 0.75 threshold. The original text's goal is to 'investigate the causes of employee engagement', but your version 'look at why workers are involved' fundamentally changes the meaning. It fails to capture the concept of investigating the reasons for engagement.\n\nAdditionally, the text fails the Fidelity Check. The BERTScore of 0.8716 is below the required 0.90. Key terms like 'employee turnover' and 'employee retention' were lost, damaging lexical fidelity.\n\nFurther violations were detected:\n\nCEFR Compliance Failure: The classifier rated the text as B1, not the required A2. This is a direct result of using vocabulary and grammar that are too complex.\n\nVocabulary Violation: The word 'involved' is B1 level. It must be replaced with an A2 alternative.\n\nGrammar Violation: The sentence '...to look at why workers are involved' uses a noun clause ('why...'), which is a B1 structure. This must be simplified.\n\nRedundancy: The final two sentences, 'It will help keep workers' and 'It will raise the number of workers who stay', are repetitive. One must be removed.\n\nSuggestion: Rephrase the goal to focus on 'what makes workers want to stay in their jobs'. Remove the word 'involved'. Remove the final redundant sentence. Simplify the noun clause structure.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8716,
+          "meaningbert": 0.6524
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:30:56.513684",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Girox Foods has an employee turnover of about 12% each year.  \nThe usual rate in the industry is 7%.  \nThe main goal of this report is to find what makes workers want to stay.  \nIt will study the reasons for employee engagement.  \nIt will give advice to improve the workplace.  \nIt will help increase employee retention.",
+      "timestamp": "2025-09-01 17:30:56.513943",
+      "metadata": {
+        "text_id": "b603ff4a-c19d-477f-97d3-02b1ad2f909e",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:31:17.579519",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d496385c-b2fc-4f7f-beb6-658d47fcb4eb",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8954 is below the required 0.90. This indicates a failure to retain sufficient lexical detail from the original text.\n\nFAIL: CEFR Compliance. The text was classified as B1, which is an instant failure. The A2 standard was not met due to vocabulary and structural complexity.\n\nDiagnostic Analysis:\n- Vocabulary Violation: The words 'turnover', 'engagement', and 'retention' are C1 level. The word 'workplace' is B2 level. These words are far too advanced for the A2 level and must be replaced or explained in simple terms.\n- Structural Violation: The sentence 'The main goal of this report is to find what makes workers want to stay' uses a subordinate 'what-clause'. This is a B1 grammatical structure and is not permitted at the A2 level.\n\nCorrective Path:\n- Suggestion: Replace all vocabulary above the A2 level. 'Turnover' must be rephrased as 'when workers leave their jobs'. 'Engagement' must be simplified to a concept like 'how happy workers are'. 'Retention' must be rephrased as 'to make workers stay longer'.\n- Suggestion: Deconstruct the complex sentence. Rephrase as: 'The main goal of this report is to understand the reasons. We want to know why workers stay at their jobs.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8954,
+          "meaningbert": 0.9452
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:31:24.356502",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Girox Foods has about 12% of workers leaving each year.  \nThe usual rate in the industry is 7%.  \nThe main goal of this report is to find out the reasons.  \nWe want to know why workers stay at their jobs.  \nWe will study how happy workers are.  \nWe will give advice to make the job better.  \nWe will help workers stay longer.",
+      "timestamp": "2025-09-01 17:31:24.358282",
+      "metadata": {
+        "text_id": "f541b54f-9146-47cd-bb63-26de1f9dd3de",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:31:45.728979",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "49edeb89-2607-4250-b232-d30f79349ad3",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.69 is significantly below the required 0.75 threshold. This indicates a critical loss of the original message's core concepts.\n\n- Fidelity Failure: The BERTScore of 0.87 is also below the 0.90 minimum. This is a direct result of removing key factual terms like 'employee engagement', 'employee retention', and 'turnover'.\n- Meaning Dilution: The concept of 'employee engagement' was incorrectly simplified to 'how happy workers are'. These are not the same. Engagement is a more complex idea about connection to the job, which was lost.\n- Oversimplification: The phrase 'improve the employees' experience of the workplace' was reduced to 'make the job better'. This loses the specific focus on the 'experience' and the 'workplace'.\n\nSuggestion: The text must be rewritten to preserve the original's key business concepts. Do not remove essential terms like 'engagement' and 'retention'. Instead, define them in simple A2 terms if necessary. The goal is simplification, not elimination of meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8747,
+          "meaningbert": 0.6908
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:31:55.807278",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Girox Foods loses about 12\u202f% of its workers each year.  \nThe usual rate in the industry is about 7\u202f%.  \nThis report will find why workers are engaged.  \nEngaged means they feel connected to their job.  \nWe will study employee engagement in the company.  \nWe will give advice to improve the workplace experience.  \nWorkplace experience means how workers feel at work.  \nWe will try to keep workers longer.",
+      "timestamp": "2025-09-01 17:31:55.808245",
+      "metadata": {
+        "text_id": "cbdc52b8-2d2f-4dbc-a3a1-ecad363371d2",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:32:18.190749",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8f027a8f-0c17-41f2-9d4b-01d1eefb701b",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8684 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text. This is an instant failure.\n\nFAIL: CEFR Compliance. The classifier rated the text as B1, which is above the A2 target. This is a secondary but critical failure.\n\nDiagnostic Analysis:\n- The B1 classification is caused by the use of vocabulary above the A2 level. The provided analysis confirms this. The words 'engaged' (B1), 'means' (B2), 'workplace' (B2), and 'engagement' (C1) are not permitted.\n- The attempt to define complex words is noted, but the execution is flawed. The word 'means' is itself a B2 vocabulary item and cannot be used to define other words at an A2 level.\n- The C1 noun 'engagement' is used directly. This is a severe violation of the A2 standard.\n\nCorrective Path:\n- Suggestion: Remove all B1 and higher vocabulary. Do not use 'engaged', 'engagement', 'workplace', or 'means'.\n- Suggestion: Rephrase the sentence 'This report will find why workers are engaged' to 'This report will find why workers feel connected to their jobs'.\n- Suggestion: Rephrase the sentence 'We will study employee engagement in the company' to 'We will study how connected workers feel to the company'.\n- Suggestion: Replace definitional sentences using 'means'. Instead of 'Workplace experience means how workers feel at work', write 'We want to know how workers feel at work. This is the workplace experience.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8684,
+          "meaningbert": 0.8401
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:32:22.569722",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Girox Foods loses about 12\u202f% of its workers each year.  \nThe usual rate in the industry is about 7\u202f%.  \nThis report will find why workers feel connected to their jobs.  \nWe will study how employees feel about the company.  \nWe will give advice to improve the employee experience.  \nThe employee experience is how workers feel at work.  \nWe will try to keep workers longer.",
+      "timestamp": "2025-09-01 17:32:22.570052",
+      "metadata": {
+        "text_id": "a44f79c3-948b-46f7-90ee-896f30dd044e",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:32:43.807469",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b3073eb0-8bae-418e-b007-0d30811ec568",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8696 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text. The simplification was too aggressive, resulting in a loss of lexical fidelity.\n\n- The phrase 'annual employee turnover' was replaced with 'loses workers'. This loses the specific business term.\n- The phrase 'increase employee retention' was replaced with 'try to keep workers longer'. This is a less precise equivalent.\n- The text is overly fragmented into short, repetitive sentences starting with 'We will...'. This structure is too simplistic and unnatural.\n\nSuggestion: Reintroduce more precise A2-level vocabulary that aligns more closely with the original text's concepts. Combine some of the short sentences to create a more natural flow without increasing complexity. For example, 'This report will find why workers feel connected to their jobs and give advice to help keep them longer.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8696,
+          "meaningbert": 0.852
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:32:51.884259",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: .Girox Foods has an annual employee turnover of about 12\u202f% each year.  \nThe usual rate in the industry is about 7\u202f%.  \nThis report will find why employees feel connected to their jobs.  \nIt will give advice to improve the employee experience and increase employee retention.",
+      "timestamp": "2025-09-01 17:32:51.885931",
+      "metadata": {
+        "text_id": "544ec008-c207-4003-b4da-5306a32306b3",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:33:15.538526",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7f206b94-773d-4e3c-8866-1719ae972771",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text is classified as B1, not the required A2. This is a primary failure. The text also fails the fidelity check.\n\n- CEFR Violation (Vocabulary): The text uses vocabulary above the A2 level. 'Annual' is a B1 word. 'Turnover' is a C1 word. 'Retention' is a B2/C1 word. These are unacceptable deviations from the A2 standard.\n\n- CEFR Violation (Grammar): The sentence 'This report will find why employees feel connected to their jobs' uses a 'wh-clause' as the object of the verb. This is a B1 grammatical structure. A2 requires simpler, more direct sentences.\n\n- Fidelity Failure: The BERTScore of 0.8962 is below the required 0.90 threshold. This indicates a loss of key lexical information. Phrases like 'principal objective' and 'investigate the causes' were removed, damaging the text's fidelity to the original.\n\n- Redundancy: The phrase 'annual... each year' is repetitive. 'Annual' means 'each year'. This is inefficient writing.\n\nSuggestion: Replace all B1/C1 vocabulary with A2 alternatives or simple definitions. 'Annual' must be replaced with 'each year'. 'Turnover' must be explained, for example, as 'the number of people who leave the company'. 'Retention' must be explained as 'keeping employees at the company'.\n\nSuggestion: The B1 sentence structure must be broken down. Rephrase 'This report will find why...' to 'This report explains why...'. Or, 'This report is about employees. It explains why they feel connected to their jobs.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8962,
+          "meaningbert": 0.9452
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:33:23.971364",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Girox Foods has about 12\u202f% of its employees leave each year.  \nThe usual rate in the industry is about 7\u202f%.  \nThis report explains why employees feel connected to their jobs.  \nIt also looks at why people leave the company.  \nThe main aim of the report is to look at the causes.  \nThe report will give advice to improve the employee experience.  \nIt will also give advice to keep more employees at the company.",
+      "timestamp": "2025-09-01 17:33:23.971865",
+      "metadata": {
+        "text_id": "44631dc9-5776-4810-b314-dd89733eafcc",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:33:51.516217",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e2b9e2ba-ce83-403e-8604-361125faaca6",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.878 is below the required 0.90. This indicates a significant loss of key words from the original text. The text also fails the CEFR compliance check, registering as B1 instead of the required A2.\n\n- Fidelity Failure: Key terms from the original like 'turnover', 'standard', and 'objective' were replaced with overly simple phrases such as 'leave', 'usual rate', and 'main aim'. This simplification was too aggressive and lost lexical precision, causing the low BERTScore.\n- CEFR Compliance Failure: The text was classified as B1. This is unacceptable.\n- B1 Vocabulary: The word 'aim' is B1 level. It must be removed.\n- B1 Grammar: The text uses subordinate clauses, which are a B1 structure. For example, 'This report explains why employees feel connected...'. This is too complex for A2.\n- Redundancy: The text is repetitive. The sentences 'This report explains...', 'It also looks at...', and 'The main aim of the report is...' are inefficient and should be consolidated.\n\nSuggestion: Remove the B1 word 'aim'. Rephrase complex sentences with subordinate clauses into separate, simple sentences. For example, instead of 'This report explains why employees feel connected', write 'Some employees feel connected to their jobs. This report explains the reasons.' Consolidate the purpose of the report into one or two clear sentences to eliminate repetition.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.878,
+          "meaningbert": 0.9075
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:33:58.492086",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Girox Foods has a turnover of about 12\u202f% each year.  \nThe industry standard turnover is about 7\u202f%.  \nThis report looks at employee connection.  \nIt studies why some employees feel connected to their jobs.  \nIt shows why some employees leave the company.  \nThe goal of the report is to find the causes.  \nThe report will give advice to improve the employee experience.  \nThe report will give advice to keep more employees.",
+      "timestamp": "2025-09-01 17:33:58.493000",
+      "metadata": {
+        "text_id": "a0827ee1-1b04-4180-ad60-a08d9feb153f",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:34:24.844136",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "663764af-98f3-49ba-8739-78080f86470f",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8808 is below the required 0.90. This indicates a significant loss of key phrasing from the original text. The text also fails on CEFR compliance and vocabulary.\n\nCEFR Compliance Failure: The text was classified as B1, not A2. This is an instant failure. The cause is the use of vocabulary above the A2 level.\n\nVocabulary Violation: The text uses multiple words that are not on the A2 list. This is a critical error. The word 'turnover' is C1 level. The words 'standard' and 'connection' are B1 level. These words must be simplified.\n\nStructural Issues: The text is broken into too many short, repetitive sentences. While simplicity is required, this structure is unnatural and inefficient.\n\nSuggestion: Replace complex vocabulary with A2-level phrases. Replace 'turnover' with 'the number of people who leave their jobs'. Replace 'industry standard' with 'what is normal for other companies'. Combine related ideas into single, simple sentences using 'and' or 'but'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8808,
+          "meaningbert": 0.943
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:34:35.209056",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Girox Foods has about 12\u202f% of employees who leave each year.  \nWhat is normal for other companies is about 7\u202f%.  \nThis report studies why employees feel connected to their work.  \nIt also looks at why some leave.  \nThe goal is to find the causes.  \nThe report will give advice to improve the employee experience.  \nIt will also help keep more employees.",
+      "timestamp": "2025-09-01 17:34:35.209800",
+      "metadata": {
+        "text_id": "b5939af8-4c50-46bd-ae52-e67ef99a2579",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:35:15.332490",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e401a2ac-755b-4eaf-9457-1482ed00f63d",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8738 is below the required 0.90 threshold. This indicates a significant loss of key phrasing from the original text. The text also fails for being too complex.\n\n- Fidelity Failure: The low BERTScore is a direct result of replacing precise original terms. For example, 'industry standard' was replaced with 'What is normal for other companies'. This changes the phrasing too much, failing to preserve the original's lexical content.\n- CEFR Compliance Failure: The text was classified as B1. The target is A2. This is an automatic failure.\n- B1 Grammar Structure: The sentence 'What is normal for other companies is about 7 %' uses a 'Wh-clause' as the subject. This is a B1 structure and is not permitted.\n- B1 Grammar Structure: The sentence 'This report studies why employees feel connected to their work' uses an embedded question ('why employees feel...'). This is a B1 structure.\n\nSuggestion: Simplify all sentences to a basic Subject-Verb-Object structure. Remove all complex clauses. Rephrase 'What is normal for other companies is about 7 %' to 'For other companies, 7 % is normal.' Rephrase 'This report studies why employees feel connected to their work' to 'This report studies one question: Why do employees feel connected to their work?'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8738,
+          "meaningbert": 0.9131
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:35:30.992029",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Girox Foods has about 12\u202f% of employees who leave each year.  \nThe industry standard is 7\u202f%.  \nThis report studies one question.  \nIt asks about employees connected to work.  \nIt also looks at reasons some employees leave.  \nThe goal is to find the causes.  \nThe report will give advice to improve the employee experience.  \nIt will also help keep more employees.",
+      "timestamp": "2025-09-01 17:35:30.992606",
+      "metadata": {
+        "text_id": "f99c8b9b-eaad-42fc-863f-8a8e3ae09cf9",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:36:00.601083",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "306354b9-3d25-446e-a197-c2582336feb1",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8706 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\n- Fidelity Loss: The replacement of precise original phrases like 'principal objective of this report is to investigate' with the vague statement 'This report studies one question' caused the score drop. The core lexical information was lost.\n- CEFR Compliance Failure: The text was classified as B1, which is an instant failure. The A2 standard was not met.\n- Vocabulary Violation: The word 'standard' is B1 level vocabulary. It is not permitted at the A2 level.\n\nSuggestion: Replace the B1 word 'standard'. Use 'The normal number for the industry is 7 %.' Rephrase the sentences about the report's purpose to be more direct and closer to the original meaning. For example: 'This report looks for the reasons why employees leave.' This restores fidelity without increasing complexity.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8706,
+          "meaningbert": 0.9084
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:36:18.412260",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Girox Foods has about 12% of employees who leave each year.  \nThe normal number for the industry is 7%.  \nThis report looks for reasons why employees leave.  \nIt also looks at why employees feel connected to work.  \nThe goal is to make the employee experience better.  \nIt will give advice to make the experience better.  \nIt will help keep more employees.",
+      "timestamp": "2025-09-01 17:36:18.412859",
+      "metadata": {
+        "text_id": "3d27dc7f-7aa7-4b97-aab6-92091dc313d1",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:36:50.378481",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "bff5190a-07a0-4477-92ea-98c8941cdbdc",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8762 is below the required 0.90 threshold. This indicates a significant loss of key phrasing from the original text. Key terms like 'employee turnover' and 'investigate the causes' were replaced with overly simple phrases, losing necessary lexical detail.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is a direct violation of the core requirement.\n- Grammatical Complexity: The sentence 'Girox Foods has about 12% of employees who leave each year' uses a relative clause ('who leave...'), which is a B1 structure.\n- Grammatical Complexity: The sentences 'This report looks for reasons why employees leave' and 'It also looks at why employees feel connected to work' use subordinate wh-clauses. These are B1 structures and are too complex for the A2 level.\n\nSuggestion: Eliminate all complex clauses. Rephrase sentences to adhere to a simple Subject-Verb-Object structure. Example: 'About 12% of employees leave Girox Foods each year.' Split the 'why' clauses into separate, simple questions or statements.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8762,
+          "meaningbert": 0.8824
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "session_id": "d713687f-1647-43ca-ada4-bed14f690bf3",
+  "created_at": "2025-09-01 17:10:14.832138",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:10:14.936610",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "44-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1700s and 1800s two ideas about dreams were popular.  \nOne idea said that dream pictures show secret things in our aware mind.  \nFreud was a doctor who studied the mind.  \nFreud said we can learn about our secret feelings from dreams.  \nHe said this can help us see the problems they cause.  \nThe other idea was the opposite.  \nIt said dreams are just a group of mixed activity in the brain.  \nThe brain does this while it sorts memories and events from the day.  \nWhen we wake up, we try to make sense of these mixed images and feelings.  \nWe put them into a simple story.",
+      "timestamp": "2025-09-01 17:10:14.936949",
+      "metadata": {
+        "text_id": "9cd94e32-4f3c-4750-89ec-4626afc0fa78",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:10:19.548996",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "fdba0057-c9db-43df-b209-ab5752f7a717",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as B1, which is an instant failure. The goal is A2. The text fails due to the use of B1-level vocabulary and grammatical structures.\n\n- B1 Vocabulary Violation: The word 'aware' is B1 level. It was used in the phrase 'aware mind'. This is an unacceptable replacement for 'conscious'.\n\n- B1 Grammar Violation: The sentence 'Freud was a doctor who studied the mind' uses a relative clause with 'who'. This is a B1 structure. A2 requires simpler, separate sentences.\n\n- B1 Grammar Violation: The sentence 'The brain does this while it sorts memories...' uses the connector 'while'. This is a B1-level conjunction. A2 texts must use simpler connectors like 'and', 'but', 'so', 'because', or be split into separate sentences.\n\nSuggestion: Rewrite the text to eliminate all B1 elements. Replace 'aware' with an A2 phrase. Split the sentence containing 'who' into two simple sentences. Split the sentence containing 'while' into two simple sentences.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9086,
+          "meaningbert": 0.8544
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:10:29.661134",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1700s and 1800s two ideas about dreams were popular.  \nOne idea said that dream pictures show secret things in our mind.  \nFreud was a doctor.  \nHe studied the mind.  \nFreud said we can learn about our secret feelings from dreams.  \nHe said this can help us see the problems they cause.  \nThe other idea was opposite.  \nIt said dreams are just a mixed activity in the brain.  \nThe brain does this.  \nIt sorts memories and events from the day.  \nWhen we wake up we try to make sense of these images.  \nWe also try to make sense of the feelings.  \nWe put them into a simple story.",
+      "timestamp": "2025-09-01 17:10:29.661334",
+      "metadata": {
+        "text_id": "bbf7f712-e7a2-470a-98b0-e28cf1070e97",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:10:59.165439",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f9d36d9e-9cad-454e-8dc4-023944864f9a",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text is classified as B1, not the required A2. This is an instant failure. The repeated use of reported speech, such as 'Freud said we can learn...' and 'It said dreams are...', is a B1 grammatical structure.\n\n- Fidelity Failure: The BERTScore of 0.8935 is below the 0.90 minimum. This indicates a loss of important words and phrasing from the original text.\n- Vocabulary Violation: The word 'doctor' is a B1-level word. This is not permitted in an A2 text.\n- Extraneous Information: The sentences 'Freud was a doctor. He studied the mind.' were not in the original text. The task is to simplify the provided text, not to add new information.\n- Suggestion: Remove the B1 reported speech structures. Rephrase to present the ideas directly. For example: 'Freud's idea: We can learn about our secret feelings from dreams.' Remove the word 'doctor'. Do not add information that is not in the source text.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8935,
+          "meaningbert": 0.8565
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:11:12.945873",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1700s and 1800s two ideas about dreams were popular.  \nOne idea says dream pictures show secret things in our mind.  \nFreud's idea says we can learn about our secret feelings from dreams.  \nThis can help us see the problems they cause.  \nThe other idea says dreams are just mixed activity in the brain.  \nThe brain does this.  \nIt sorts memories.  \nIt also sorts events from the day.  \nWhen we wake up we try to make sense of the images.  \nWe also try to make sense of the feelings.  \nWe put them into a simple story.",
+      "timestamp": "2025-09-01 17:11:12.947539",
+      "metadata": {
+        "text_id": "31b92330-ec32-4de8-9e3d-efab84732a00",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:11:39.074002",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "22fedde7-78ad-42b8-9ae8-f0210b46bb5c",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.893 is below the required 0.90 threshold. This is the primary reason for failure. A secondary failure is the incorrect CEFR classification.\n\n- Fidelity Failure: The low BERTScore indicates a significant loss of key words from the original text. Replacing 'collection of random activity' with 'mixed activity' and 'organising memories' with 'sorts memories' sacrificed too much lexical precision for the sake of simplicity.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. The sentence 'When we wake up we try to make sense of the images' uses a subordinate clause of time beginning with 'When'. This is a B1-level grammatical structure and is not permitted.\n\n- Structural Failure: The text is overly fragmented. The sequence 'The brain does this. It sorts memories. It also sorts events from the day.' is unnaturally choppy. A2 level requires simple, complete sentences, not a series of disconnected phrases.\n\n- Suggestion: Rephrase the sentence with the B1 structure. Use two simple sentences connected by a time word. Example: 'We wake up. Then, we try to make sense of the images.' Combine the fragmented sentences using the A2 connector 'and'. Example: 'The brain sorts memories and events from the day.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.893,
+          "meaningbert": 0.8594
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:11:49.151531",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1700s and 1800s the brain sorts memories and events from the day.  \nOne idea says dream pictures show secret things in our mind.  \nFreud was a doctor who studied the mind.  \nHe said we can learn about secret feelings from dreams.  \nThis can help us see the problems they cause.  \nThe other idea says dreams are mixed random activity in the brain.  \nWe wake up.  \nThen we try to make sense of the images and feelings.  \nWe put them into a simple story.",
+      "timestamp": "2025-09-01 17:11:49.151927",
+      "metadata": {
+        "text_id": "4de9d86e-43cf-4986-a22c-c30d4250c9b8",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:12:12.205138",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4e45d65e-716b-4b85-8d86-e2b3a9ab2dcb",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The first sentence, 'In the 1700s and 1800s the brain sorts memories and events from the day,' is a severe misrepresentation. The original text presents this as one of two theories popular at that time, not as an established fact of that period. This is an instant and total failure.\n\nAdditional Failures:\nFidelity Failure: The BERTScore of 0.889 is below the required 0.90 threshold. This confirms that key information and phrasing from the original text were lost.\n\nCEFR Compliance Failure: The text is classified as B1, not the required A2. The sentence 'Freud was a doctor who studied the mind' uses a relative clause ('who'), which is a B1 grammatical structure. This is too complex for A2.\n\nVocabulary Violation: The B2 word 'random' is not A2-level vocabulary. It must be replaced.\n\nSuggestion: Rewrite the text from the beginning, ensuring the first sentence correctly introduces the two theories. Split the sentence about Freud into two simple A2 sentences, for example: 'Freud was a doctor. He studied the mind.' Replace the word 'random' with a simpler A2 concept like 'not in order' or 'mixed up'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.889,
+          "meaningbert": 0.8562
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:12:21.885641",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1700s and 1800s two ideas about dreams were popular.  \nOne idea says dream pictures show secret things in our mind.  \nFreud was a doctor.  \nHe studied the mind.  \nHe said we can learn about hidden feelings from dreams.  \nThis can help us see the problems they cause.  \nThe other idea says dreams are mixed activity in the brain.  \nThe brain sorts memories and events from the day.  \nWe wake up.  \nThen we try to make sense of the images and feelings.  \nWe put them into a simple story.",
+      "timestamp": "2025-09-01 17:12:21.886114",
+      "metadata": {
+        "text_id": "186d544a-2dca-4541-894f-0ebc0a33bc70",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:12:53.305049",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9387c688-171e-4371-9ed2-614653e6b9fe",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8928 is below the required 0.90 threshold. This indicates a failure to retain sufficient key phrasing from the original text. The text also fails on CEFR compliance.\n\n- Fidelity Failure (BERTScore): The score is too low because key phrases were oversimplified, losing lexical precision. For example, 'collection of random activity' was replaced with 'mixed activity'.\n\n- CEFR Compliance Failure (B1 Classification): The text was classified as B1, not the required A2. This is a critical error.\n\n- B1 Vocabulary Violation: The word 'hidden' is B1 level. It was not replaced with an A2 equivalent. This is an explicit violation of the A2 standard.\n\n- B1 Grammatical Structure: The sentence 'This can help us see the problems they cause' uses a relative clause with an omitted pronoun ('that' or 'which'). This is a B1 grammatical structure and is too complex for A2.\n\nSuggestion: Rephrase to eliminate B1 elements. Replace 'hidden' with an A2 word like 'secret'. Break down the complex sentence. Example: 'This helps us see our problems. These feelings cause the problems.' To improve the BERTScore, use phrasing closer to the original, such as 'random activity' instead of 'mixed activity'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8928,
+          "meaningbert": 0.8601
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:13:05.025115",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1700s and 1800s two ideas about dreams were popular.  \nOne idea says dream pictures show secret things in our mind.  \nFreud was a doctor.  \nHe studied the mind.  \nHe said we can learn about secret feelings from dreams.  \nThis helps us see our problems.  \nThese feelings cause the problems.  \nThe other idea says dreams are random activity in the brain.  \nThe brain sorts memories and events from the day.  \nWe wake up.  \nThen we try to make sense of the images and feelings.  \nWe put them into a simple story.",
+      "timestamp": "2025-09-01 17:13:05.025535",
+      "metadata": {
+        "text_id": "16db93c0-2c40-4b1a-bfa2-ff89cd10c17a",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:13:33.799263",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "08174a07-ce8f-4d86-b2d1-c1473023ae94",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.888 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\n- BERTScore Violation: The score is too low because key concepts were rephrased in a way that lost lexical fidelity. The original's 'organising memories' was changed to 'sorts memories', and 'some sort of story' became 'a simple story'. This level of simplification damages the text's faithfulness to the source.\n\n- Vocabulary Violation (B2): The word 'random' is B2 level. It was used without replacement or definition. This is a severe breach of the A2 standard.\n\n- Vocabulary Violation (B1): The word 'doctor' is B1 level. It was used to describe Freud. This word is not on the A2 list.\n\nSuggestion: Remove the B2 word 'random' and replace it with an A2 phrase like 'activity with no plan'. Remove the B1 word 'doctor'. Rephrase sentences to more closely match the original's vocabulary where possible without exceeding the A2 level, for example, using 'puts memories in order' instead of 'sorts memories'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.888,
+          "meaningbert": 0.8502
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:13:46.676850",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1700s and 1800s two ideas about dreams were popular.  \nOne idea says dream pictures show secret things in our mind.  \nFreud studied the mind.  \nHe said we can learn about secret feelings from dreams.  \nThis helps us see our problems.  \nThe other idea says dreams are activity with no plan.  \nIt happens in the brain.  \nThe brain puts memories and events from the day in order.  \nWe wake up.  \nWe try to make sense of the images and feelings.  \nWe put them into a story.",
+      "timestamp": "2025-09-01 17:13:46.678476",
+      "metadata": {
+        "text_id": "097c9a3b-8e2d-4b32-95ea-be149e1d603b",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 17:14:20.189642",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6f0ac6e4-6045-41b1-ab02-09959bdbcc4c",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8882 is below the required 0.90 threshold. This indicates an unacceptable loss of key words and phrasing from the original text.\n\n- Primary Deviation: The text fails the BERTScore metric. This is a non-negotiable failure of lexical fidelity.\n- Causal Analysis: The score was lowered by replacing key original phrases. For example, 'a collection of random activity' was changed to 'activity with no plan', and 'hidden from our conscious mind' was changed to 'secret things in our mind'.\n- Structural Note: While the simplification to short, simple sentences is appropriate for A2, the word choice deviated too far from the source text, causing the metric failure.\n- Suggestion: Revise the text to re-integrate more of the original key vocabulary. A better balance must be struck between simplification and lexical fidelity. You must preserve more of the original's specific terminology to meet the 0.90 BERTScore requirement.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8882,
+          "meaningbert": 0.8465
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:14:30.806217",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1700s and 1800s two ideas about dreams were popular.  \nOne idea says dream pictures show things hidden from our mind.  \nFreud was a doctor who studied the mind.  \nHe said we can learn about hidden feelings from dreams.  \nThis can help us see our problems.  \nThe other idea says dreams are a collection of random activity.  \nThis activity happens in the brain.  \nThe brain puts memories and events from the day in order.  \nWhen we wake up we try to make sense of the images.  \nWe also try to understand the feelings.  \nWe put them into a story.",
+      "timestamp": "2025-09-01 17:14:30.806786",
+      "metadata": {
+        "text_id": "f6195e5f-891c-457b-94b8-bb88f5574d94",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:14:52.933029",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7b27c63c-8888-4d0d-b54d-d03cb35570c6",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8992 is below the required 0.90 threshold. This indicates a failure to retain sufficient key phrasing from the original text. While simplification is necessary, the loss of lexical fidelity is too great. Furthermore, the text fails a qualitative vocabulary audit. Multiple words exceed the A2 CEFR level.\n\n- Vocabulary Violation: The word 'hidden' is B1. It must be replaced with an A2 equivalent, such as 'that we do not know about'.\n- Vocabulary Violation: The word 'collection' is B1. It must be replaced with a simpler A2 term like 'a group'.\n- Vocabulary Violation: The word 'random' is B2. This is a severe deviation from the A2 standard. It must be rephrased using A2 vocabulary, for example, 'activity with no reason' or 'activity without a pattern'.\n- Fidelity Loss: The phrase 'conscious mind' was reduced to 'mind'. This simplification contributed to the low BERTScore by losing a key term.\n\nSuggestion: Adhere strictly to A2 vocabulary lists. Replace all identified B1 and B2 words. Re-evaluate simplifications to ensure key terms are preserved where possible or defined with extreme simplicity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8992,
+          "meaningbert": 0.8573
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:15:04.684849",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1700s and 1800s two ideas about dreams were popular.  \nOne idea says dream pictures show things we do not know about.  \nThese things are in our conscious mind.  \nFreud was a doctor who studied the mind.  \nHe said we can learn about feelings we do not know about.  \nDreams can help us see our problems.  \nThe other idea says dreams are a group of activity.  \nThis activity has no reason.  \nThe brain puts memories and events from the day in order.  \nWhen we wake up we try to make sense of the images.  \nWe also try to understand the feelings.  \nWe put them into a story.",
+      "timestamp": "2025-09-01 17:15:04.685364",
+      "metadata": {
+        "text_id": "55a6c502-d74f-4489-8dde-98c7086ee54c",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:15:31.751548",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d62a8db9-8e99-4f1d-8d6f-13e6d87faf3f",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The text contains a critical error that reverses the meaning of the original source. The writer's output states, 'These things are in our conscious mind.' The original text states these things are 'hidden from our conscious mind.' This is a complete contradiction and an instant failure.\n\n- Fidelity Failure: The BERTScore of 0.887 is below the required 0.90 threshold. This indicates a significant loss of key phrasing from the original text, such as the concept of 'random activity'.\n\n- Vocabulary Violation: The B2-level word 'conscious' was used. This is not A2 vocabulary. The concept must be simplified using A2 words, for example, 'the part of your mind you know about'.\n\n- Meaning Dilution: The phrase 'a group of activity' is a poor simplification of 'a collection of random activity'. It loses the essential concept that the activity is 'random' or without a clear reason.\n\n- Suggestion: Correct the factual error immediately. The core meaning must be preserved. Remove the B2 word 'conscious' and rephrase the concept. Revise the description of the second theory to include the idea that the brain's activity is random or has no specific purpose.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.887,
+          "meaningbert": 0.8581
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:15:49.093200",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1700s and 1800s two ideas about dreams were popular.  \nOne idea says dream pictures show things we do not know about.  \nThese things are not seen by part of your mind you know.  \nFreud was a doctor who studied the mind.  \nHe said we can learn about feelings we do not know about.  \nDreams can help us see our problems.  \nThe other idea says dreams are activity with no reason.  \nThe brain puts memories and events from the day in order.  \nWhen we wake up we try to make sense of the images.  \nWe also try to understand the feelings.  \nWe put them into a story.",
+      "timestamp": "2025-09-01 17:15:49.093778",
+      "metadata": {
+        "text_id": "80346b5b-7bc7-4855-b4a3-05a6aa612ea4",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:16:21.200201",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "47c29f0b-e903-4acd-a37b-c800ea882034",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8858 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text due to oversimplification. The core meaning was mostly kept, but the lexical fidelity was compromised.\n\nDetected Deviations:\n- The phrase 'conscious mind' was replaced with 'part of your mind you know'. This is lexically distant and grammatically awkward for A2.\n- The B1-level verb 'represent' was simplified to 'show', losing precision.\n- The concept of 'random activity' was simplified to 'activity with no reason'. While similar in meaning, it loses the specific vocabulary of the original, contributing to the low fidelity score.\n- The original's causal link '...understand our hidden feelings and the problems they cause' was weakened to two separate sentences: 'He said we can learn about feelings we do not know about. Dreams can help us see our problems.'\n\nSuggestion: Revise the text to re-introduce more precise A2-level vocabulary that is closer to the original. For 'conscious mind', use a phrase like 'the part of your mind that is awake'. For 'random activity', a phrase like 'brain activity that is not planned' would be more faithful. Sentences must be simple, but vocabulary choices must not be so simplified that they damage fidelity to the source text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8858,
+          "meaningbert": 0.8668
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:16:27.549023",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1700s and 1800s two ideas about dreams were popular.  \nOne idea says dream pictures show the part of your mind that is awake.  \nFreud was a doctor who studied the mind.  \nHe said we can learn about hidden feelings and the problems they cause.  \nDreams can help us see these hidden feelings.  \nThe other idea says dreams are brain activity that is not planned.  \nThe brain puts memories and events from the day in order.  \nWhen we wake up we try to make sense of the images.  \nWe also try to understand the feelings.  \nWe put them into a story.",
+      "timestamp": "2025-09-01 17:16:27.549608",
+      "metadata": {
+        "text_id": "e9d4f2f7-d74f-403a-b628-2b3a74556d1a",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:16:46.965310",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c5f654b0-666c-4736-8f28-08c9ade530ec",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text states one idea is that dreams represent things 'hidden from our conscious mind'. Your text states 'dream pictures show the part of your mind that is awake'. This is the opposite of the original meaning and a complete failure of comprehension.\n\n- Fidelity Failure: The BERTScore of 0.8947 is below the required 0.90. This metric correctly identified that your text lost key lexical details from the original, such as 'conscious mind' and 'random activity'.\n\n- CEFR Compliance Failure: The text was classified as B1, exceeding the A2 target. The sentence 'Freud was a doctor who studied the mind' uses a relative clause ('who studied'), which is a B1-level grammatical structure.\n\n- Vocabulary Violation: The word 'hidden' is classified as B1 and was used without simplification. The word 'doctor' is also listed as B1. Unapproved B1 vocabulary is forbidden.\n\n- Suggestion: Rewrite the text to correct the severe factual error regarding the first theory of dreams. The concept is about the hidden, unconscious mind, not the awake mind. Remove the B1 vocabulary. Break the sentence about Freud into two simple A2 sentences to eliminate the B1 relative clause. Example: 'Freud was a doctor. He studied the mind.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8947,
+          "meaningbert": 0.878
+        }
+      }
+    }
+  ]
+}

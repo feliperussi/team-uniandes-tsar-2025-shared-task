@@ -1,0 +1,80 @@
+{
+  "session_id": "1223cd5f-f955-4594-80bd-5d84077329fb",
+  "created_at": "2025-09-01 10:36:04.866541",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:36:04.871201",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "74-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: More than 4,000 people climbed to the top of Everest. They were between 13 and 80 years old. Climbing high mountains is very dangerous. The weather is very cold and there are bad storms. But the best climbers in the world now want new things to do.\n\nGerlinde Kaltenbrunner is from Austria. She loved climbing mountains when she was young. After school, she worked as a nurse. But she still climbed mountains in her free time.",
+      "timestamp": "2025-09-01 10:36:04.871369",
+      "metadata": {
+        "text_id": "ad75d096-217d-42ac-911c-f87f85264a29",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:36:04.882755",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0f07e90c-98df-4aa4-9a90-018dbfa88124",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.712 is below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text. The original text uses the word 'Though' to establish a logical connection: despite the extreme danger, the best climbers seek new challenges. Your version separates these two ideas into disconnected sentences: 'Climbing high mountains is very dangerous... But the best climbers in the world now want new things to do.' This separation breaks the cause-and-effect relationship and weakens the original meaning. While vocabulary and sentence structure are compliant with A2 standards, the loss of this critical logical link is a severe error. Suggestion: Rephrase to restore the logical connection. A sentence like 'Climbing is dangerous, but the best climbers still want new challenges' would better preserve the original meaning while remaining at an A2 level.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9388,
+          "meaningbert": 0.712
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:36:38.759493",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: More than 4,000 people climbed to the top of Everest. They were between 13 and 80 years old. Climbing high mountains is very dangerous because of cold weather and bad storms. But the best climbers in the world still want new things to do.\n\nGerlinde Kaltenbrunner is from Austria. She loved climbing mountains when she was young. After school, she worked as a nurse. But she still climbed mountains in her free time.",
+      "timestamp": "2025-09-01 10:36:38.759632",
+      "metadata": {
+        "text_id": "21966186-f459-4ba3-b3be-b1f09e1902ed",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 10:37:04.536881",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6eb34cbe-5c04-48db-b00e-e0a5726bc5f0",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS. The output meets all requirements of the A2 standard.\n- Factual Integrity: Verified. All data points from the original text, including numbers (4,000), ages (13-80), and names (Gerlinde Kaltenbrunner), are accurately represented.\n- Meaning and Fidelity: Verified. MeaningBERT score of 0.77 and BERTScore of 0.94 exceed the minimum thresholds, indicating successful preservation of the original message and key terms.\n- CEFR Compliance: Verified. The classifier result is A2. The vocabulary is strictly confined to the A1/A2 lexicon.\n- Structural Analysis: Verified. Complex sentences from the source text have been correctly deconstructed into simple, declarative sentences appropriate for the A2 level. Connectors ('because', 'but') are used correctly within A2 constraints.\nThe submission is a textbook example of successful simplification. No corrections are necessary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9401,
+          "meaningbert": 0.7742
+        }
+      }
+    }
+  ]
+}

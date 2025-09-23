@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "71d53aaa-ddc2-49a0-a65c-a1ef8fa76521",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Auggie decides to go to school. Then he has his first day. He is very nervous. All children are nervous at a new school. But Auggie looks different. So his first day is very, very difficult. He has a bad feeling, and it does not stop.\n\nNobody wants to sit next to him. He sees other kids look at him for a long time. They also talk about him secretly. Luckily, he makes two friends. He makes friends with a boy named Jack. He also makes friends with a girl named Summer. He talks to her at lunch.\n\nBut the first day is not the only hard day. Soon, Auggie learns something sad. The other kids do not want to touch him. They are scared to get a sickness called 'the plague'. During the school year, some days are very good for Auggie. But some days are very bad. In the end, something very bad and surprising happens at a school camp. This scary event changes everything.",
+    "version": 6,
+    "created_at": "2025-09-01 10:39:45.511773",
+    "updated_at": "2025-09-01 10:39:45.511783",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "dc8b6d32-7142-47a1-85e4-a80596008439",
+    "approval": "FAIL",
+    "grade": 6,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7497 is below the required 0.75 threshold. This indicates a failure to preserve the core message's emotional intensity.\n\n- The original text uses the word 'agonising' to describe the first day. Your version, 'very, very difficult. He has a bad feeling, and it does not stop', simplifies this but loses the specific meaning of extreme mental suffering.\n- The original text describes an 'unexpected and traumatic event'. Your version, 'something very bad and surprising happens', is a correct simplification but fails to capture the severity of a 'traumatic' experience. The metric has correctly identified this slight dilution of meaning.\n- While the BERTScore of 0.9034 is acceptable and the CEFR classification is correct at A2, the loss of emotional weight is a critical failure in preserving the original text's intent.\n\nSuggestion: To pass, you must convey the original intensity using A2 vocabulary. Rephrase to better capture the negative emotional states. For 'agonising', consider 'His first day is terrible. He feels awful all day.' For 'traumatic', consider 'A very scary and bad thing happens at the school camp.'",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.9034,
+      "meaningbert": 0.7497
+    },
+    "created_at": "2025-09-01 10:40:08.145197"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "93503761-b07f-4022-a325-7fbfd4ffaa36",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Auggie decides to go to school. Then he has his first day. He is very nervous. All children are nervous at a new school. But Auggie looks different. So his first day is very, very difficult. He has a bad feeling, and it does not stop.\n\nNobody wants to sit next to him. He sees other kids look at him for a long time. They also talk about him secretly. Luckily, he makes two friends. He makes friends with a boy named Jack. He also makes friends with a girl named Summer. He talks to her at lunch.\n\nBut the first day is not the only hard day. Soon, Auggie learns something sad. The other kids do not want to touch him. They are scared to get a sickness called 'the plague'. During the school year, some days are very good for Auggie. But some days are very bad. In the end, something very bad and surprising happens at a school camp. This scary event changes everything.",
+    "version": 5,
+    "created_at": "2025-09-01 10:39:04.378056",
+    "updated_at": "2025-09-01 10:39:04.378066",
+    "metrics_meaningbert": 0.7497,
+    "metrics_cefr_compliance": "A2"
+  }
+}

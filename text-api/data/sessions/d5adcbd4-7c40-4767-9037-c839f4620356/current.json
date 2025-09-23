@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "b7c34cbb-e698-4705-9049-ca5a5a305134",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Asteroids are small rocks in space.\nSome asteroids are called 'PHAs'.\nThese PHAs can be dangerous.\nThey come very close to Earth.\nThey pass less than 7.5 million kilometres from Earth's path.\nNASA has a map of 1,400 PHAs.\nNone of them are a danger for the next 100 years.\nNASA has special technology.\nNASA tracks these PHAs.\nThey can predict if a PHA will hit Earth.\nThey can also say when.\nIf a PHA might hit, NASA has two ways to protect Earth.\nThey can send special things to space to stop it.",
+    "version": 16,
+    "created_at": "2025-08-31 22:39:51.359713",
+    "updated_at": "2025-08-31 22:39:51.359722",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "48c1c834-f874-4f07-bd65-b3391f5d9cfa",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Fidelity Failure. The BERTScore of 0.8965 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original text, even though the core meaning was largely preserved. The simplification of specific terminology reduced the lexical overlap too much. \n\nSpecific deviations:\n- The original phrase 'Potentially Hazardous Asteroids' was not fully retained or clearly introduced as a specific term, impacting lexical fidelity. The output only states 'Some asteroids are called 'PHAs'' without defining the 'Potentially Hazardous' aspect in the initial introduction of the term.\n- The phrase 'Earth's orbit' was simplified to 'Earth's path'. While semantically similar, 'orbit' is a key term that should have been retained or explained more directly if simplified.\n- The specific term 'defence solutions' was replaced with 'two ways to protect Earth. They can send special things to space to stop it.' This is an oversimplification that loses the precise lexical detail of 'defence solutions'.\n\nSuggestion: Retain more of the original specific terminology. For example, introduce 'Potentially Hazardous Asteroids' more directly. Use 'Earth's orbit' or explain it simply rather than replacing it. Rephrase 'defence solutions' to maintain lexical fidelity while remaining A2 compliant, such as 'two ways to defend Earth' or 'two plans to stop them'.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8965,
+      "meaningbert": 0.8134
+    },
+    "created_at": "2025-08-31 22:40:05.451153"
+  },
+  "attempt_number": 16,
+  "best_attempt": {
+    "id": "280f77ea-1126-44d4-850c-a2173deb28d2",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Asteroids are small rocks in space.\nSome are called 'Potentially Hazardous Asteroids' (PHAs).\nThese PHAs come very close to Earth.\nThey pass within 7.5 million kilometres of Earth's path.\nNASA has a map of 1,400 PHAs.\nNone of them are a danger for the next 100 years.\nNASA has special technology.\nNASA tracks these PHAs.\nThey can predict if a PHA will hit Earth.\nThey can also say when.\nIf a PHA might hit, NASA has two ways to protect Earth.\nThey can send special things to space to stop it.",
+    "version": 15,
+    "created_at": "2025-08-31 22:39:20.350661",
+    "updated_at": "2025-08-31 22:39:20.350664",
+    "metrics_meaningbert": 0.8501,
+    "metrics_cefr_compliance": "A2"
+  }
+}

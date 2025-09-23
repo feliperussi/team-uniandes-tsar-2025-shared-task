@@ -1,0 +1,80 @@
+{
+  "session_id": "b4be986e-0c4b-4320-ae26-b9fe0cef40f0",
+  "created_at": "2025-09-01 01:28:48.397182",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 01:28:48.411986",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "03-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Hunger Games is an event that happens every year, which the Capitol uses to remind the districts that they are being punished for a past rebellion. Every year, one boy and one girl aged 12 to 18 are chosen from each district by lottery to compete in a battle where only one person can survive. The chosen teenagers are called 'tributes', which is the name for the people who must fight, and the whole nation is forced to watch the event on television.",
+      "timestamp": "2025-09-01 01:28:48.412119",
+      "metadata": {
+        "text_id": "8bab8be8-aa50-45db-b5ac-29ff955e5b5f",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 01:28:49.274456",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "31ecf99e-09d2-4897-b193-6abb7965af9b",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'A2', which is below the required 'B1' target. While the submission successfully preserved all facts and meaning, with excellent metric scores, the simplification was too aggressive. The A2 classification is likely due to the combination of simple sentence structures and the replacement of 'annual event' with the more basic phrase 'event that happens every year'. The added definition for 'tributes', while helpful, also used very simple vocabulary, which contributed to lowering the overall complexity. To reach the B1 level, the writer should aim to use slightly more varied sentence structures. For instance, the final long sentence could be split into two for better B1-level clarity: 'The chosen teenagers are called 'tributes'. The whole nation is forced to watch the event on television.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9707,
+          "meaningbert": 0.9453
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 01:29:26.072281",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Hunger Games is an annual event, which the Capitol uses to remind the districts that they are being punished for a past rebellion. Every year, one boy and one girl aged 12 to 18 are chosen from each district by lottery to compete in a battle where only one person can survive. The chosen teenagers are called 'tributes', which is the name given to the people who must fight. The whole nation is forced to watch the event on television.",
+      "timestamp": "2025-09-01 01:29:26.073800",
+      "metadata": {
+        "text_id": "1a8c899b-54ae-4c5a-b344-3b8fecd8173e",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-09-01 01:29:47.088661",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d7b9e2d9-f279-43b5-b695-d60a74b664f1",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "Excellent work. The text successfully passes all checks for factual integrity, meaning preservation, and CEFR compliance. The simplification is clear and effective. The keyword 'tributes' was handled perfectly by integrating a clear definition directly into the text, which is a model example of how to manage key vocabulary. The simplification of the C1 word 'rebellion' was also well done. For future improvement, note that the B2-level word 'being' was retained in the phrase 'are being punished'. While acceptable here, a simpler alternative like 'are punished' could also be considered to further reduce complexity. Overall, this is a high-quality simplification that meets all core requirements.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9775,
+          "meaningbert": 0.9452
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "session_id": "eb00ddc1-bafc-4b5c-8bf9-2df0b1f838e9",
+  "created_at": "2025-09-01 17:06:36.392478",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:06:37.673937",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "22-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Wild dogs live in Moscow.  \nAbout 35,000 dogs stay on the streets.  \nSome dogs were born in the wild.  \nOther dogs were pets that people left.  \nSome dogs live alone.  \nOther dogs live in groups.  \nIn 2010 scientists watched the dogs.  \nThey saw that the dogs adapted well to city life.  \nThe dogs learned that crossing the road with people is safer.  \nSome dogs seem to understand traffic lights.",
+      "timestamp": "2025-09-01 17:06:37.674121",
+      "metadata": {
+        "text_id": "fcebc720-5c4a-473f-979d-0a0575dc3afa",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:06:38.738920",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "27e9178e-1ae9-4c02-bf2d-a9a30efe0b40",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6975 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message. The text also fails the fidelity check, with a BERTScore of 0.8956, which is below the 0.90 minimum.\n\n- The simplification of 'adapted remarkably successfully' to 'adapted well' loses the emphasis on the high degree of the dogs' success. This is a major contributor to the low MeaningBERT score.\n- The replacement of 'studied' with 'watched' changes the meaning. 'Studied' implies a formal, scientific process, whereas 'watched' is too casual and imprecise.\n- The replacement of 'abandoned by their owners' with 'pets that people left' loses the specific relationship (owner) and the negative connotation of abandonment.\n\nSuggestion: Restore the original meaning with A2-compliant vocabulary. Change 'watched the dogs' to 'studied the dogs'. Rephrase 'adapted well' to 'adapted very well' to better capture the original's intensity. Change 'pets that people left' to 'pets that their owners left'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8956,
+          "meaningbert": 0.6975
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:06:45.452341",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Wild dogs live in Moscow.  \nAbout 35,000 dogs stay on the streets.  \nSome dogs were born in the wild.  \nOther dogs were pets that their owners left.  \nSome dogs live alone.  \nOther dogs live in groups.  \nIn 2010 scientists studied the dogs.  \nThey saw that the dogs adapted very well to city life.  \nThe dogs learned that crossing the road with people is safer.  \nSome dogs seem to understand traffic lights.",
+      "timestamp": "2025-09-01 17:06:45.452603",
+      "metadata": {
+        "text_id": "0b58d2e2-f191-496b-aeb9-5649417f321f",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:07:09.161461",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3034dec4-1c10-4908-8928-92f40b0b7b17",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8995 is below the required 0.90 threshold. This indicates a failure to preserve key words and factual phrasing from the original text.\n\n- The primary cause of this failure is the cumulative effect of multiple word simplifications that, while individually acceptable, collectively reduce the text's fidelity to the source.\n- Key term replacement: The original text used specific words like 'abandoned', 'packs', and 'urban life'. Your replacements ('left', 'groups', 'city life') are simpler but less precise, causing the fidelity score to drop below the minimum requirement.\n- While the MeaningBERT score of 0.78 is acceptable, the low BERTScore shows that the core vocabulary of the original was not sufficiently preserved.\n\nSuggestion: Re-examine your word choices. While simplification is necessary for A2, you must not lose too much lexical detail. Find A2-level phrasing that more closely mirrors the original's specific concepts. For example, 'abandoned' could be rephrased as 'their owners did not want them anymore' to retain more of the original meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8995,
+          "meaningbert": 0.7847
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:07:18.871128",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Wild dogs live in Moscow.  \nAbout 35,000 dogs stay on the streets.  \nSome dogs were born in the wild.  \nOther dogs were pets whose owners did not want them anymore.  \nSome dogs live alone.  \nOther dogs live in packs.  \nIn 2010 scientists studied the dogs.  \nThey saw the dogs adapted well to life in the city.  \nThe dogs learned that crossing the road with people is safer.  \nSome dogs seem to understand traffic lights.",
+      "timestamp": "2025-09-01 17:07:18.871465",
+      "metadata": {
+        "text_id": "f7d9bd73-812b-4d98-8c44-87ec2c8c1a47",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:07:46.393995",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "df521499-07ae-4cae-bcb4-201934a476c6",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6893 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\n- Primary Deviation: The original text emphasizes that the dogs' adaptation is 'remarkably successful' and that they are one of the 'most interesting cases'. Your version simplifies this to 'adapted well', which completely loses the essential meaning of the adaptation being special and noteworthy.\n- Secondary Deviation: The BERTScore of 0.897 is below the required 0.90. This is a direct result of replacing key descriptive words like 'remarkably successfully' and 'urban life' with weaker, less precise A2 equivalents.\n\nSuggestion: The text must be rewritten to restore the core meaning. The concept that the dogs' adaptation is special and very successful must be present. The phrase 'adapted well' is insufficient. You must find a simple A2 way to express that their adaptation is very good or surprising.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.897,
+          "meaningbert": 0.6893
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:08:00.450881",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Wild dogs live in Moscow.  \nAbout 35,000 dogs stay on the streets.  \nSome dogs were born in the wild.  \nOther dogs were pets whose owners did not want them anymore.  \nSome dogs live alone.  \nOther dogs live in packs.  \nThe dogs are a very interesting case.  \nIn 2010 scientists studied the dogs.  \nThey found that the dogs adapted very well to city life.  \nTheir adaptation was very good and surprising.  \nThe dogs learned that crossing the road with people is safer.  \nSome dogs seem to understand traffic lights.",
+      "timestamp": "2025-09-01 17:08:00.451252",
+      "metadata": {
+        "text_id": "ab6bf5bf-f7fc-4468-acb8-a76c95fda602",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:08:26.060474",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "73f79c59-d7a4-4a1c-8711-44519887725f",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8942 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text. A secondary, but critical, failure was found in the vocabulary audit.\n\n- Fidelity Failure (BERTScore): The score is too low because key phrases were oversimplified, losing lexical detail. For example, 'adapted remarkably successfully to urban life' was changed to 'adapted very well to city life'. While the meaning is similar, the fidelity to the original phrasing is lost, causing the score to drop below the minimum requirement.\n\n- Vocabulary Violation: The C1-level word 'adaptation' was used in the sentence 'Their adaptation was very good and surprising.' This is an unacceptable deviation from the A2 vocabulary standard. All words must be at or below the A2 level.\n\n- Redundancy: The sentence 'Their adaptation was very good and surprising' is redundant. The previous sentence, 'They found that the dogs adapted very well to city life,' already conveys this information using an A2-appropriate verb ('adapted').\n\nSuggestion: Delete the sentence 'Their adaptation was very good and surprising.' This will remove both the C1 vocabulary violation and the redundancy. To improve the BERTScore, re-examine the original text and ensure that key nouns and concepts are retained where possible, even if the sentence structure is simplified.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8942,
+          "meaningbert": 0.7548
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:08:49.322286",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Wild dogs live in Moscow.  \nAbout 35,000 dogs stay on the streets.  \nSome dogs were born in the wild.  \nOther dogs were pets whose owners did not want them anymore.  \nSome dogs live alone.  \nOther dogs live in packs.  \nThey are an interesting case.  \nIn 2010 scientists studied the dogs.  \nThey found the dogs adapted very well to city life.  \nThe dogs learned that crossing the road with people is safer.  \nSome dogs seem to understand traffic lights.",
+      "timestamp": "2025-09-01 17:08:49.322734",
+      "metadata": {
+        "text_id": "6c78f72c-f8da-4d0b-b05d-1d1ad804548f",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-09-01 17:09:16.235842",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "15b4ba10-33c7-4ee8-bb2d-8e089eadec9c",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8948 is below the required 0.90. This indicates a loss of key words and phrasing from the original text, even though the core meaning was preserved.\n\n- Deviation: The original phrase 'adapted remarkably successfully' was replaced with 'adapted very well'. This simplification loses the specific intensity of the original adverb 'remarkably'.\n- Deviation: The original text specifies 'wild dogs living on the streets'. Your version states 'dogs stay on the streets', dropping the important adjective 'wild' in this specific sentence and changing the verb, which reduces lexical fidelity.\n- Deviation: The phrase 'pets that have been abandoned by their owners' was changed to 'pets whose owners did not want them anymore'. While a valid simplification for A2, the complete replacement of the concept 'abandoned' contributes to the fidelity score drop.\n\nSuggestion: Retain more of the original key vocabulary where possible. The phrase 'remarkably successfully' could be simplified to 'very successfully' to retain more meaning. Do not drop key adjectives like 'wild' when they are central to the description.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8948,
+          "meaningbert": 0.8208
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:09:27.730923",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Wild dogs live in Moscow.  \nAbout 35,000 wild dogs stay on the streets.  \nSome dogs came from the wild.  \nOther dogs were pets whose owners abandoned them.  \nSome dogs live alone.  \nOther dogs live in packs.  \nThey are an interesting case.  \nIn 2010 scientists studied the dogs.  \nThey found the dogs adapted very successfully to city life.  \nThe dogs learned that crossing the road with people is safer.  \nSome dogs seem to understand traffic lights.",
+      "timestamp": "2025-09-01 17:09:27.731334",
+      "metadata": {
+        "text_id": "ade444c1-46e4-43ff-8a1f-0a2e0eb985c1",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:10:00.798890",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "fa5fdc74-f220-44b0-a26c-d9cf9caf8bb8",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6542 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text.\n\n- Fidelity Failure: The BERTScore of 0.899 is below the minimum requirement of 0.90. Key lexical items were altered, reducing fidelity.\n- Meaning Dilution: The original text introduces the dogs as 'one of the most interesting cases'. Your version lists facts and adds 'They are an interesting case' as a weak, disconnected afterthought. This damages the central theme and contributes to the low MeaningBERT score.\n- B1 Vocabulary Violation: The B1 word 'successfully' was used. This is not A2 vocabulary. It must be replaced.\n- B1 Structural Violation: The sentence 'The dogs learned that crossing the road with people is safer' uses a 'that-clause', a B1 grammatical structure.\n- B1 Structural Violation: The sentence 'Other dogs were pets whose owners abandoned them' uses the relative pronoun 'whose', a B1 structure.\n\nSuggestion: Restore the original text's main point by starting with it. Replace 'successfully' with 'well'. Rephrase sentences to remove B1 structures. Example for 'that-clause': 'The dogs learned something. It is safer to cross the road with people.' Example for 'whose': 'Other dogs were pets. Their owners left them.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.899,
+          "meaningbert": 0.6542
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:10:14.838969",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Wild dogs in Moscow are a very interesting case.  \nAbout 35,000 wild dogs live on the streets.  \nSome dogs were born in the wild.  \nOther dogs were pets.  \nTheir owners left them.  \nSome dogs live alone.  \nOther dogs live in packs.  \nIn 2010 scientists studied the dogs.  \nThey found the dogs adapted well to city life.  \nThe dogs learned something.  \nIt is safer to cross the road with people.  \nSome dogs seem to understand traffic lights.",
+      "timestamp": "2025-09-01 17:10:14.839438",
+      "metadata": {
+        "text_id": "21ab072e-571e-46e1-84ad-c406df680557",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:10:45.224949",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f36e7bf1-c0b9-486e-86f9-78c917e125a7",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8981 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text, even though the core facts are preserved.\n\n- Primary Deviation: The text was over-simplified by breaking every complex sentence into multiple, short, disconnected sentences. This destroyed the lexical and structural fidelity to the original.\n- Evidence 1: The original sentence 'Some of the dogs were born wild, while others are pets that have been abandoned by their owners' was broken into three separate, choppy sentences. This fragmentation is the main cause of the low BERTScore.\n- Evidence 2: The phrase 'adapted remarkably successfully' was reduced to 'adapted well'. This loses the emphasis and specific vocabulary of the original text.\n- Evidence 3: The sentence 'They have learned that it is safer to cross the street with people' was broken into 'The dogs learned something. It is safer to cross the road with people.' This is an unnecessary and unnatural simplification that damages the text's flow and fidelity.\n\nSuggestion: Recombine some of the fragmented sentences using simple A2 connectors like 'and' or 'but'. Retain more of the original vocabulary when it is already at an A2 level. Do not break down every single clause into a new sentence.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8981,
+          "meaningbert": 0.8111
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:10:58.068304",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Wild dogs in Moscow are an interesting case.  \nAbout 35,000 wild dogs live on the streets.  \nSome dogs were born wild, while others were pets abandoned by owners.  \nSome dogs live alone, and other dogs live in packs.  \nIn 2010 scientists studied the dogs.  \nThey found the dogs adapted very well to city life.  \nThe dogs have learned it is safer to cross street with people.  \nSome dogs seem to understand traffic lights.",
+      "timestamp": "2025-09-01 17:10:58.068886",
+      "metadata": {
+        "text_id": "9d9b7b4a-9656-4ae7-8545-f03a957684f9",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 17:11:19.331873",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "05ba8412-64bb-4f22-a5d4-13c544c21c38",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with all A2 standard requirements.\n\n- Factual Integrity: The output is factually identical to the original text. All numbers and core concepts are preserved.\n- Meaning and Fidelity Metrics: The MeaningBERT score of 0.856 and BERTScore of 0.923 are well above the required thresholds, indicating successful preservation of the original message and key vocabulary.\n- CEFR Compliance: The text correctly classified as A2. The linguistic features align perfectly with this level.\n- Qualitative Audit: The text is a model of A2 simplification. Vocabulary is strictly limited to A1 and A2 words. Sentence structures are simple and clear, using appropriate A2 connectors like 'and' and 'while'. The simplification of 'remarkably successfully' to 'very well' and 'appear to' to 'seem' is executed perfectly. No deviations from the A2 standard were detected.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.923,
+          "meaningbert": 0.856
+        }
+      }
+    }
+  ]
+}

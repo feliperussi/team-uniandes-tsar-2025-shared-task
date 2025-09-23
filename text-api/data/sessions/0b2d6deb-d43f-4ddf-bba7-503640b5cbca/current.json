@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "8aefd5fc-2ca2-4351-98bf-568fc5457806",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Many big supermarkets get accusations of doing wrong things.  \nThey waste a lot of food.  \nThey do not pay suppliers enough money.  \nThey use too much plastic in packaging.  \nThe plastic hurts the environment.  \nMore and more customers are angry about the plastic waste.  \nSupermarkets now pay more attention.  \nSome big UK supermarkets have signed a pact.  \nThe pact says they will change packaging.  \nThey will try to cut plastic waste.",
+    "version": 11,
+    "created_at": "2025-09-01 18:00:02.283617",
+    "updated_at": "2025-09-01 18:00:02.283618",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "c540f48e-92f8-433c-bd72-c5c300b7224f",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Fidelity Failure. The BERTScore of 0.8762 is below the required 0.90 threshold. This indicates a significant loss of key words and factual phrasing from the original text. The text also fails the CEFR compliance check.\n\n- Fidelity Failure (BERTScore): The score is too low because specific B1/B2 concepts were replaced with overly generic A2 phrases, losing important lexical detail. For example, 'unethical acts' was replaced with 'wrong things' and 'consumer backlash' became 'customers are angry'. This simplification is too aggressive and loses fidelity to the source text.\n\n- CEFR Compliance Failure: The classifier rated the text as B1, which is an instant failure. The analysis shows this is due to the use of unapproved B1 vocabulary. The word 'waste' is a B1 word and was used twice. The words 'accusations' and 'pact' are also above the A2 level.\n\n- Suggestion: Replace the B1 word 'waste' with an A2 equivalent like 'rubbish' or 'things people throw away'.\n\n- Suggestion: Replace 'accusations' with a simple A2 phrase like 'people say they did'.\n\n- Suggestion: Replace 'pact' with 'agreement' or 'promise'.",
+    "metrics": {
+      "cefr_compliance": "B1",
+      "bertscore": 0.8762,
+      "meaningbert": 0.8369
+    },
+    "created_at": "2025-09-01 18:00:30.582680"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "0dc38848-8f57-48d1-9974-f87bf7bc3fc1",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Many big supermarkets did bad things.  \nThey threw away lots of food.  \nThey paid suppliers little money.  \nThey used too much plastic in packaging.  \nThis hurts our environment.  \nNow supermarkets pay more attention.  \nPeople were angry about plastic waste.  \nSome big UK supermarkets signed a pact.  \nThe pact promises to change packaging.  \nThey will cut plastic waste.",
+    "version": 5,
+    "created_at": "2025-09-01 17:56:24.614219",
+    "updated_at": "2025-09-01 17:56:24.614220",
+    "metrics_meaningbert": 0.8414,
+    "metrics_cefr_compliance": "A2"
+  }
+}

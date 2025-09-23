@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "3428ed7f-f7ef-4da9-8dd2-291f13c73029",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Your manager stops you.  \nShe says she must talk about your performance.  \nIt is about the recent project.  \nYou worry all weekend.  \nYou are not sure if you did something wrong.  \nOn Monday you go into her office.  \nShe starts by praising you.  \nYou are not sure if the praise is real.  \nThen she says the part she really wants to say.  \nFinally she ends with another nice comment.  \nThis is a feedback sandwich.  \nA feedback sandwich is a comment.  \nFirst you say something nice.  \nThen you say the part you want to say.  \nThen you say something nice again.",
+    "version": 11,
+    "created_at": "2025-09-01 17:33:18.392944",
+    "updated_at": "2025-09-01 17:33:18.392945",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "82773025-09ac-431a-b296-1bc8bb4bef7e",
+    "approval": "FAIL",
+    "grade": 4,
+    "feedback": "FAIL: Fidelity Failure. The BERTScore of 0.876 is below the required 0.90 threshold. This indicates a significant loss of key phrasing from the original text.\n\n- Deviation: The text is over-simplified, leading to a loss of lexical fidelity. Phrases like 'have a word about your performance in the recent project' were reduced to 'talk about your performance. It is about the recent project.' This simplification is too aggressive and loses important detail.\n\n- Deviation: The sentence structure is excessively fragmented. Breaking every clause into a separate sentence makes the text unnatural and contributes to the low fidelity score. For example, 'She says she must talk about your performance. It is about the recent project.' should be a single sentence.\n\n- Suggestion: Combine overly fragmented sentences to improve natural flow and fidelity. Rephrase to retain more of the original's key vocabulary without introducing B1 structures. For instance, use 'She wants to talk about your performance on the recent project.' to be more faithful to the source.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.876,
+      "meaningbert": 0.9051
+    },
+    "created_at": "2025-09-01 17:33:40.109633"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "c9faeda6-ab25-4839-8aac-cec22e0e376e",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Your manager stops you.  \nShe says she needs to talk about your performance.  \nIt is about the recent project.  \nYou worry about it all weekend.  \nYou ask yourself: What did I do wrong?  \nOn Monday you go into her office.  \nShe first says nice things about your work on the project.  \nYou think this may be the start of a usual feedback sandwich.",
+    "version": 4,
+    "created_at": "2025-09-01 17:29:26.839889",
+    "updated_at": "2025-09-01 17:29:26.839890",
+    "metrics_meaningbert": 0.9127,
+    "metrics_cefr_compliance": "A2"
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "session_id": "d7f43cc9-54e5-40a1-9bc6-015f854a7160",
+  "created_at": "2025-09-01 10:34:52.202329",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:34:52.218365",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "63-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past, many bridges were made of wood.\nWood can catch fire easily.\nThis was a big problem for old train bridges.\nTrains have steel wheels and the tracks are also steel.\nWhen the steel wheels moved on the tracks, they sometimes made a spark.\nA spark is a very small, hot piece of fire.\nThis spark could start a fire on the wood bridge.\nThen the whole bridge could burn down.",
+      "timestamp": "2025-09-01 10:34:52.218530",
+      "metadata": {
+        "text_id": "8cf7a0ed-da31-4a3c-bb81-9c48ac51ab9c",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:34:52.224627",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d138c6f9-8f18-472f-8b42-0603b687fae6",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5634 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\n- The original text establishes a direct link: wooden bridges were 'susceptible to fire'. Your version breaks this into two separate, general facts: 'many bridges were made of wood' and 'Wood can catch fire easily'. This separation destroys the specific meaning of vulnerability.\n- The original text explains a direct cause: 'the spark created by the steel wheels and steel tracks'. Your version breaks this cause-and-effect relationship into several disconnected sentences, which weakens the logical flow and overall meaning.\n- While the simplification of vocabulary and sentence structure is appropriate for A2, it was executed so aggressively that the central meaning was damaged beyond an acceptable level.\n\nSuggestion: Restore the core meaning by linking the ideas more directly. Use simple connectors like 'so' or 'because'. Example: 'In the past, many bridges were made of wood, so they could catch fire easily.' This re-establishes the cause-and-effect relationship required to preserve the original meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9059,
+          "meaningbert": 0.5634
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:35:26.416563",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past, many bridges were made of wood, so they could catch fire easily.\nThis was a big problem for old train bridges.\nTrains have steel wheels and steel tracks.\nWhen a train crossed a bridge, its steel wheels sometimes made a spark on the tracks.\nA spark is a very small, hot piece of fire.\nThis spark could start a fire on the wood bridge.\nThen the whole bridge could burn down.",
+      "timestamp": "2025-09-01 10:35:26.416887",
+      "metadata": {
+        "text_id": "7832b0f8-48d1-4e4b-b6bf-6dcf35bfbe08",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:35:51.127932",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a3e6811a-d69b-4ecd-a5d1-446e9e56dcb1",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5701 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text.\n\n- Primary Deviation: The original text establishes a direct and singular cause-and-effect relationship: 'the spark created by the steel wheels and steel tracks'. Your version breaks this unified concept into a series of separate, less connected sentences ('Trains have steel wheels and steel tracks.' followed by '...its steel wheels sometimes made a spark on the tracks.'). This fragmentation destroys the semantic core of the explanation, resulting in the low MeaningBERT score.\n\n- Fidelity Issue: While the BERTScore of 0.9089 is technically a pass, the low MeaningBERT score shows that simply using the right words is not enough. The relationship between those words was lost.\n\n- Suggestion: You must restore the direct causal link. Rephrase to explicitly connect the steel wheels and the steel tracks as the combined cause of the spark. The current version only mentions the wheels making the spark on the tracks, losing the crucial 'steel-on-steel' concept. A better structure would be: 'When a train's steel wheels moved on the steel tracks, they sometimes made a spark.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9089,
+          "meaningbert": 0.5701
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:36:21.130722",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past, many bridges were made of wood, so they could catch fire easily.\nThis was a big problem for old train bridges.\nWhen a train's steel wheels moved on the steel tracks, they sometimes made a spark.\nA spark is a very small, hot piece of fire.\nThis spark could start a fire on the wood bridge.\nThen the whole bridge could burn down.",
+      "timestamp": "2025-09-01 10:36:21.132812",
+      "metadata": {
+        "text_id": "7058d2e0-c076-41e7-9730-7572ece29a62",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:36:45.554153",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d180fe82-b0be-44ae-a464-7889df6d4e0b",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5632 is significantly below the 0.75 threshold. This indicates a critical failure to preserve the core message of the original text. The original text presents a concise historical fact about the high susceptibility of wood bridges to fire. Your output transforms this into a simple narrative, which, while factually correct, loses the original's emphasis and nuance. The concept of being 'much more susceptible' is diluted to 'could catch fire easily' and 'a big problem', which does not carry the same weight. The addition of a definition for 'spark', while a valid simplification technique, is extraneous information not present in the source and further contributes to the deviation in meaning. Suggestion: Rephrase to restore the original's focus on cause and effect. The text must more closely mirror the original's statement of fact rather than becoming a story. A better structure would be: 'In the past, wood bridges burned very easily. This was a special problem for old train bridges, because sparks from the train's steel wheels could start a fire on the wood.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9127,
+          "meaningbert": 0.5632
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:37:02.798775",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past, many bridges were made of wood.\nThese bridges burned very easily.\nThis was a big problem for old train bridges.\nA train's steel wheels on steel tracks sometimes made sparks.\nThese sparks could start a fire on the wood bridge.\nThen the whole bridge could burn down.",
+      "timestamp": "2025-09-01 10:37:02.800840",
+      "metadata": {
+        "text_id": "94e9513e-1c19-4ff2-a7b8-732f2ecf0141",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 10:37:26.277077",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "107fc0ca-78fe-45db-ab04-db2822069567",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5716 is critically below the required 0.75 threshold. This is an instant failure.\n\n- The core concept of 'susceptibility' from the original text has been lost. Your phrase 'burned very easily' describes an outcome, but fails to capture the original meaning of inherent weakness or vulnerability.\n- The direct cause-and-effect relationship has been fragmented across multiple sentences. The original text explicitly links the sparks to the fire as a direct cause. Your version presents these as separate events, which dilutes the meaning.\n- While factually correct, the text fails to preserve the semantic nuance of the source material, resulting in the unacceptable MeaningBERT score.\n\nSuggestion: Restore the concept of vulnerability. Rephrase to state that wood bridges had a weakness or a problem. For example: 'Wood bridges had a big problem: they could burn easily.' This re-establishes the core meaning of susceptibility required by the original text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9188,
+          "meaningbert": 0.5716
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:37:49.042741",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past, many bridges were made of wood.\nThese wood bridges had a big problem.\nThey could burn very easily.\nThis was a special problem for old train bridges.\nA train's steel wheels made sparks on the steel tracks.\nThese sparks could start a fire on the wood bridge.\nThen the whole bridge could burn down.",
+      "timestamp": "2025-09-01 10:37:49.043126",
+      "metadata": {
+        "text_id": "12606ce8-c37c-44ba-9199-3fee69cd165a",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:38:15.648786",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d1637f07-597a-41a0-b657-d2e433fd4d95",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.511 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text. The original text uses the word 'susceptible' to describe a specific vulnerability. Your version, 'had a big problem' and 'could burn very easily', is too general and loses this precise meaning. The original's emphasis 'particularly true' is stronger than your version's 'a special problem'. This weakens the focus on train bridges. While breaking the text into simple sentences is good for A2, in this case, it has diluted the direct cause-and-effect relationship described in the original, leading to the low meaning score. Suggestion: Revise the text to more closely reflect the original's concepts. You must better capture the idea of 'vulnerability to fire'. For example, try to link the cause and effect more directly. 'Old train bridges made of wood had a special problem: sparks from the train's wheels could easily make them burn down.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9143,
+          "meaningbert": 0.511
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:38:34.332387",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past, many bridges were made of wood.\nWood bridges could catch fire very easily.\nThis was especially a problem for old train bridges.\nA train's steel wheels made sparks on the steel tracks.\nThese sparks could set the wood bridge on fire.\nThen the whole bridge could burn down.",
+      "timestamp": "2025-09-01 10:38:34.332823",
+      "metadata": {
+        "text_id": "1ccf5de8-6f94-4054-9b48-207289376c69",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:38:58.754876",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "44a9cabf-3568-4537-9423-abf76be4eb7f",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5612 is significantly below the required 0.75 threshold. This indicates the core message was not adequately preserved.\n\n- The primary deviation is the loss of the original text's cause-and-effect structure. The original links the material (wood) directly to the fire risk ('more bridges were made of wood and were much more susceptible to fire'). Your version splits this into two separate, less connected ideas: 'many bridges were made of wood' and 'Wood bridges could catch fire very easily'. This weakens the central point.\n- The original states 'more bridges', which is a comparative statement about the past. Your version uses 'many bridges', which is a statement of quantity, not comparison. This alters the meaning.\n- While simplifying 'susceptible to fire' to 'could catch fire very easily' is appropriate for A2, this change contributed to the low semantic score by shifting the meaning from an inherent quality to a potential event.\n\nSuggestion: Rephrase to restore the original's meaning. Combine the first two sentences using an A2 connector like 'so' to re-establish the cause-and-effect link. Example: 'In the past, more bridges were made of wood, so they could catch fire very easily.' This change would better reflect the original's logic and improve the meaning preservation score.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9266,
+          "meaningbert": 0.5612
+        }
+      }
+    }
+  ]
+}

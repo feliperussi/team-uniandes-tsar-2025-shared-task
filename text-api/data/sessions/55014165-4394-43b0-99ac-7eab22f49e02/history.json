@@ -1,0 +1,43 @@
+{
+  "session_id": "55014165-4394-43b0-99ac-7eab22f49e02",
+  "created_at": "2025-08-31 23:35:55.618087",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:35:55.627178",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "02-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes a lot.\nEarthquakes can break buildings and bridges.\nLuckily, bridges do not fall down very often.\nThis is especially true for new bridges.\nEngineers design bridges for places with many earthquakes.\nThey choose strong ground, so the bridge does not move much.",
+      "timestamp": "2025-08-31 23:35:55.627591",
+      "metadata": {
+        "text_id": "d596a4e1-c643-48df-8dc5-eeeba009fc61",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 23:35:55.635580",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b0beafc6-be02-4a5b-b689-02ceed0a86de",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6976 is below the required 0.75, showing that the core message about engineers designing on ground resistant to movement is weakened. FAIL: Fidelity Failure. The BERTScore of 0.8983 is below the required 0.90, indicating loss of key phrasing such as \u201careas that are much more resistant to movement\u201d and \u201crelatively infrequent\u201d used in the original. Suggestion: Restore the phrase \u201crelatively infrequent\u201d to describe modern bridge collapse frequency. Suggestion: Include the concept of designing on \u201careas that are much more resistant to movement\u201d to match the original message more closely.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8983,
+          "meaningbert": 0.6976
+        }
+      }
+    }
+  ]
+}

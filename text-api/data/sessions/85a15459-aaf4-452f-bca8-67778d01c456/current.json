@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "dddf2785-063d-406e-a04a-ae402ce8f86d",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Earthquakes are when the ground shakes. They can break buildings and bridges. But bridges do not often fall down. Modern bridges fall down even less. This is because engineers build them well. They design bridges for places where the ground does not move much. This helps bridges stay safe.",
+    "version": 16,
+    "created_at": "2025-08-31 22:38:55.559535",
+    "updated_at": "2025-08-31 22:38:55.559536",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "5bf83937-2ce6-4ed3-a7f7-3a87b03bde0f",
+    "approval": "FAIL",
+    "grade": 2,
+    "feedback": "FAIL: The text failed on multiple critical diagnostic checks, including meaning preservation, lexical fidelity, and CEFR compliance. This is an unacceptable deviation from the required standards. Meaning Preservation Failure: The MeaningBERT score of 0.6756 is significantly below the required 0.75. The output introduces a general definition of earthquakes ('Earthquakes are when the ground shakes') which is not the primary focus of the original text, diluting the core message about structural damage and engineering solutions. Fidelity Failure: The BERTScore of 0.898 is below the required 0.90. Key lexical details from the original, such as 'damage all structures', 'relatively infrequent', 'earthquake zones', and 'much more resistant to movement', were not adequately preserved, leading to a loss of factual phrasing and precision. CEFR Compliance Failure: The CEFR classifier rated the text as B1, not the required A2. The sentence 'They design bridges for places where the ground does not move much' contains a relative clause with 'where', which is a B1 grammatical structure. This must be simplified. The phrase 'build them well' is too vague and does not convey the specific engineering solution of designing for 'areas that are much more resistant to movement' as stated in the original. Suggestion: Remove the introductory definition of earthquakes. Focus directly on the impact on structures and the engineering solutions. Rephrase the sentence containing the 'where' clause into two simpler A2 sentences. Ensure the concept of 'resistance to movement' is clearly and simply articulated. Use more precise A2 vocabulary to maintain fidelity to the original's specific details.",
+    "metrics": {
+      "cefr_compliance": "B1",
+      "bertscore": 0.898,
+      "meaningbert": 0.6756
+    },
+    "created_at": "2025-08-31 22:39:17.905066"
+  },
+  "attempt_number": 16,
+  "best_attempt": {
+    "id": "21cb8a10-4c08-4289-a6b2-fe95f203e1ad",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Earthquakes can break bridges. But bridges do not fall down often. Modern bridges fall down even less. Engineers know how to build bridges. They build them in places with earthquakes. They choose ground that is very strong. This ground does not move much. This design helps bridges stay safe.",
+    "version": 12,
+    "created_at": "2025-08-31 22:37:19.810590",
+    "updated_at": "2025-08-31 22:37:19.810591",
+    "metrics_meaningbert": 0.7295,
+    "metrics_cefr_compliance": "A2"
+  }
+}

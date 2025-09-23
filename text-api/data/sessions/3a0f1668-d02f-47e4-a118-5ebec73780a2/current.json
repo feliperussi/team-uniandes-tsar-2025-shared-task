@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "cf203f2d-bc33-4918-9fde-55b94557f93a",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Baboons are a type of big monkey.\nCape Town can be a dangerous place for them.\nSometimes, cars hurt or kill the baboons.\nOther times, they play with electric cables.\nThey get hurt by the electricity.\nBaboons are an endangered animal.\nThis means there are not many left in the world.\nThe city has a team to help the baboons.\nThis team works to save them.\nIt also stops problems between baboons and people.\nTheir job is to chase baboons out of the city.\nSometimes they catch the baboons.\nThen they take them to the countryside and let them go.\nThis plan helps.\nBut it is hard to stop the baboons from coming back.\nThey come back to the city.\nThis is because they find easy food there.",
+    "version": 6,
+    "created_at": "2025-09-01 10:33:43.130217",
+    "updated_at": "2025-09-01 10:33:43.130225",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "18ec33ec-bb62-4ad3-b55c-c2cf38e3149e",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6661 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\n- Primary Deviation: The text breaks down complex ideas into simple statements but loses the causal links between them. The original states the team was employed 'to save them and minimise conflicts'. Your version, 'The city has a team to help the baboons. This team works to save them. It also stops problems...', describes actions but fails to communicate the original purpose and intent.\n- Vocabulary Deviation: The B2-level word 'means' was used in the sentence 'This means there are not many left in the world.' This is an unacceptable vocabulary choice for the A2 level.\n- Structural Issue: The text is excessively fragmented. While short sentences are required for A2, the degree of separation here damages the logical flow and contributes to the low meaning preservation score.\n\nSuggestion: Rephrase to restore cause-and-effect relationships. Combine sentences where appropriate using A2 connectors like 'because'. For example, write 'The city has a team to save the baboons and to stop problems between them and people.' Remove the word 'means' and state the definition directly: 'Baboons are an endangered animal. There are not many left in the world.'",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.9077,
+      "meaningbert": 0.6661
+    },
+    "created_at": "2025-09-01 10:34:11.540779"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "ac643aa4-adaa-4eb5-bcee-9c128c57f980",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Baboons are a type of big monkey.\nCape Town can be a dangerous place for them.\nSometimes, cars hurt or kill the baboons.\nOther times, they play with electric cables.\nThey get hurt by the electricity.\nThere are not many baboons in the world, and they are in danger.\nTo save the baboons and stop problems between people, the city has a team to help.\nTheir job is to chase baboons out of the city.\nSometimes they catch the baboons.\nThen they take them to the countryside and let them go.\nThis plan helps a little.\nBut it is hard to stop the baboons from coming back.\nThey come back to the city.\nThis is because they find easy food there.",
+    "version": 4,
+    "created_at": "2025-09-01 10:31:56.701754",
+    "updated_at": "2025-09-01 10:31:56.701754",
+    "metrics_meaningbert": 0.7096,
+    "metrics_cefr_compliance": "A2"
+  }
+}

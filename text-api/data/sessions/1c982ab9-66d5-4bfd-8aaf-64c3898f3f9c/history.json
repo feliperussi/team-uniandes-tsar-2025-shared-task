@@ -1,0 +1,413 @@
+{
+  "session_id": "1c982ab9-66d5-4bfd-8aaf-64c3898f3f9c",
+  "created_at": "2025-09-01 17:14:49.129998",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:14:49.957358",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "60-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: First, we have DART. DART is a spacecraft that will hit an asteroid. The test will try to change the asteroid\u2019s path. The target is the moon of the asteroid Didymos. Didymos is a small asteroid that has a tiny moon. The moon is called Didymoon. Didymoon is about 150 metres wide. It goes around Didymos. Didymos is about 800 metres wide. The DART spacecraft will hit Didymoon. The hit should move Didymoon out of its path. The change will let Earth telescopes see it.",
+      "timestamp": "2025-09-01 17:14:49.957514",
+      "metadata": {
+        "text_id": "752994d8-6786-435e-b0d5-2f2e9462ad7a",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:14:52.924702",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "cd475556-40aa-4463-ac68-d2b307d6da37",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5948 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n- Fidelity Failure: The BERTScore of 0.8967 is below the 0.90 minimum. Key terms from the original text like 'orbit' and 'impact' were replaced with less precise A2 words ('path', 'hit'), reducing factual fidelity. The full name 'Double Asteroid Redirection Test' was also omitted.\n- Meaning Loss: The original text describes a 'Redirection Test'. Your output simplifies this to 'hit an asteroid' and 'change the asteroid\u2019s path', which fails to communicate the experimental nature of the mission. The core concept of a test is lost.\n- Vocabulary Violation: The B1-level word 'tiny' was used. This is not compliant with the A2 standard.\n- Suggestion: Restore the core meaning. State clearly that DART is a test to see if humans can move an asteroid.\n- Suggestion: Re-introduce the key term 'orbit'. It is central to the meaning.\n- Suggestion: Remove the word 'tiny'. Replace it with 'very small'.\n- Suggestion: Include the full name of the DART mission to improve fidelity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8967,
+          "meaningbert": 0.5948
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:14:59.034698",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: First, we have DART. DART stands for Double Asteroid Redirection Test. It is a test. It will see if we can move an asteroid. DART will impact the moon of the asteroid Didymos. Didymos is a very small asteroid. It has a moon called Didymoon. Didymoon is about 150 metres wide. Didymoon orbits Didymos. Didymos is about 800 metres wide. The DART spacecraft will hit Didymoon. The impact should move Didymoon out of its orbit. The change will let Earth telescopes see it.",
+      "timestamp": "2025-09-01 17:14:59.035012",
+      "metadata": {
+        "text_id": "e9939d08-c28e-4240-8da3-6fb31267fe5d",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:15:24.529766",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "12ff543a-1212-4e38-bb4f-a1220437bec5",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6429 is significantly below the required 0.75 threshold. This indicates the core message of the original text was not preserved.\n\n- The original text describes a test to see if a change is detectable ('hopefully the impact... will knock it out of its orbit enough for... telescopes to pick up'). Your version oversimplifies this into a statement of fact ('The change will let Earth telescopes see it'), losing the essential meaning of the experiment.\n- The text was classified as B1, not the required A2. This is a compliance failure.\n- The B1-level word 'impact' was used as both a verb and a noun. This word is too advanced for the A2 level.\n- The sentence 'It will see if we can move an asteroid' uses an if-clause as a direct object, which is a B1 grammatical structure.\n\nSuggestion: Restore the original meaning. The text must explain that the goal is to see if the change is big enough for telescopes to notice. Replace all instances of the B1 word 'impact' with the A2 word 'hit'. Rephrase the sentence 'It will see if...' to 'The test is to learn if...'. Simplify 'The change will let Earth telescopes see it' to 'Then, telescopes on Earth can see if Didymoon moved'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9125,
+          "meaningbert": 0.6429
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:15:29.107224",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: First, we have DART. DART is a spacecraft test. The test is to learn if we can move a small moon. The moon belongs to the asteroid Didymos. Didymos is an asteroid about 800 metres wide. Its moon is called Didymoon. Didymoon is about 150 metres wide. DART will hit Didymoon. The hit should move Didymoon out of its orbit. Then, telescopes on Earth can see if Didymoon moved.",
+      "timestamp": "2025-09-01 17:15:29.107436",
+      "metadata": {
+        "text_id": "eec52582-5af7-4337-a852-31faf2cb5e8a",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:15:55.282922",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "500cdb31-52e8-4f8c-8de7-74e63c8e5542",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.627 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text.\n\n- The primary failure is the loss of the \"Redirection Test\" concept. The original text's purpose is to test a method for redirecting an asteroid. Your version simplifies this to \"learn if we can move a small moon,\" which is too generic and loses the specific intent of the mission.\n- The original phrase \"knock it out of its orbit\" conveys a specific, forceful impact. Your replacement, \"move Didymoon out of its orbit,\" is weaker and less precise, contributing to the overall loss of meaning.\n\nSuggestion: Restore the core concept of redirection. Rephrase the second sentence to explain the test's purpose is to change the moon's path or direction. The phrase \"spacecraft test\" is insufficient; the purpose of the test must be stated clearly in A2 terms.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9022,
+          "meaningbert": 0.627
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:16:02.114112",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: First, we have DART. DART is a spacecraft. It will test a redirection test. The test will try to change a small moon's path. The small moon belongs to the asteroid Didymos. Didymos is an asteroid about 800 metres wide. Its moon is called Didymoon. Didymoon is about 150 metres wide. DART will hit Didymoon. The hit will knock Didymoon out of its orbit. Then Earth telescopes can see the change.",
+      "timestamp": "2025-09-01 17:16:02.114442",
+      "metadata": {
+        "text_id": "89e786c8-dad3-4449-9f74-cc4334160b40",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:16:27.557576",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4c32d13a-a7e6-477f-87b6-4e2064a8ad25",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The output contains a fundamental error about the subject. The original text states 'DART \u2013 the Double Asteroid Redirection Test', meaning DART is the name of the test. Your output incorrectly states 'DART is a spacecraft. It will test a redirection test.' This is a complete misrepresentation of the core fact.\n\n- Meaning Preservation Failure: The factual error caused the MeaningBERT score to drop to 0.6527, far below the required 0.75.\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is an automatic failure. The use of the unsimplified B1-level noun 'redirection' is the cause.\n- Vocabulary Violation: The word 'redirection' is not A2 level. It must be replaced with simpler language.\n\nSuggestion: Correct the primary factual error immediately. State that DART is the name of a test to change an asteroid's path. Remove the word 'redirection' and rephrase using A2 vocabulary like 'push' or 'change the way it moves'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.905,
+          "meaningbert": 0.6527
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:16:36.331002",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: First, we have DART. DART is the name of a test. The test will try to change an asteroid's small moon. The small moon belongs to the asteroid Didymos. Didymos is an asteroid about 800 metres wide. Its moon is called Didymoon. Didymoon is about 150 metres wide. DART will hit Didymoon. The hit will change Didymoon's path. Then Earth telescopes can see the change.",
+      "timestamp": "2025-09-01 17:16:36.331458",
+      "metadata": {
+        "text_id": "65bc4fdb-f962-47ca-82b7-d34574207ad7",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:17:01.132262",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4f0d0190-3e15-4360-86f2-d1f1609bec45",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6112 is catastrophically below the required 0.75 threshold. The text has been oversimplified to the point of losing the core scientific meaning.\n\n- MeaningBERT Failure: The score of 0.6112 indicates a severe loss of meaning. The original text explains a test to 'knock an asteroid out of its orbit'. Your version, 'change Didymoon's path', is too vague and loses the specific, crucial concept of an orbit.\n\n- Fidelity Failure: The BERTScore of 0.8986 is below the 0.90 minimum. This is caused by replacing precise original phrases with less accurate simplifications. For example, 'Earth-based telescopes' became 'Earth telescopes', losing lexical detail.\n\n- Context Loss: The original text provides the full name 'Double Asteroid Redirection Test', which explains the mission's purpose. Your version, 'DART is the name of a test', discards this essential information entirely.\n\nSuggestion: You must reintroduce the core concepts without increasing complexity. Explain that a moon moves around a bigger asteroid. State that the test will try to change this movement. Do not remove the meaning of the acronym DART; simplify its explanation instead.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8986,
+          "meaningbert": 0.6112
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:17:10.930343",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: DART stands for Double Asteroid Redirection Test.  \nDART will hit the small moon of the asteroid Didymos.  \nThe small moon is called Didymoon.  \nDidymoon is about 150 metres wide.  \nDidymos is about 800 metres wide.  \nDidymoon moves around Didymos in an orbit.  \nThe test will try to knock Didymoon out of its orbit.  \nIf it works, telescopes on Earth can see the change.",
+      "timestamp": "2025-09-01 17:17:10.931431",
+      "metadata": {
+        "text_id": "5ec17c2a-c6c2-461f-9a10-ea529406483f",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:17:36.830505",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "38c74ace-62a6-4775-81bd-d9818e4b8143",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6434 is significantly below the required 0.75. This indicates a critical loss of the original text's core message. The text also fails the fidelity check, with a BERTScore of 0.8844, below the 0.90 minimum.\n\n*   Meaning Loss: The original text conveys the purpose and hope of the mission with the phrase 'hopefully the impact... will knock it out of its orbit enough for... telescopes to pick up'. Your version, 'The test will try to knock Didymoon out of its orbit. If it works, telescopes on Earth can see the change', reduces this to a simple, conditional statement. The concepts of 'hope' and the change being 'enough' are completely lost.\n*   Structural Oversimplification: While simplifying for A2 is necessary, you have broken the text into too many short, disconnected sentences. This fragmentation is the direct cause of the low metric scores. The text reads like a list of facts, not a description of a plan.\n*   Fidelity Loss: The low BERTScore reflects the replacement of nuanced phrasing with overly simplistic terms, which damages the text's fidelity to the source.\n\nSuggestion: Recombine sentences to restore logical connections. Reintroduce the mission's goal. A better structure would be: 'The DART test will hit Didymoon to try and knock it out of its orbit. Scientists hope the change will be big enough for telescopes on Earth to see.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8844,
+          "meaningbert": 0.6434
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:17:46.277530",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: DART is a test mission.  \nIt will hit Didymoon, the small moon of the asteroid Didymos.  \nDidymoon is about 150 metres wide.  \nDidymos is about 800 metres wide.  \nThe test will try to knock Didymoon out of its orbit.  \nScientists hope the change will be enough for Earth telescopes to see.",
+      "timestamp": "2025-09-01 17:17:46.277923",
+      "metadata": {
+        "text_id": "500c9393-ca1a-41cc-ba60-233e364e6a5d",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:18:09.543185",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8df0e8ba-cbf6-42ee-a60c-b9a941d529f7",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6716 is significantly below the required 0.75 threshold. The core message of a 'redirection test' was lost.\n\n- Fidelity Failure: The BERTScore of 0.8823 is below the 0.90 minimum. Key lexical items from the original text such as 'impact' and 'orbiting' were removed, damaging fidelity.\n- Vocabulary Violation: The word 'mission' is a B2-level term and is not compliant with the A2 standard. It was not approved for use.\n- Loss of Nuance: The original text's concept of 'hopefully the impact... will knock it out... enough' was oversimplified to 'Scientists hope the change will be enough'. This loses the direct cause-and-effect relationship of the test.\n\nSuggestion: Restore the core meaning of a test designed to change an asteroid's path. Replace the B2 word 'mission' with an A2 alternative like 'plan'. Rephrase to more closely reflect the original's key concepts without using complex vocabulary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8823,
+          "meaningbert": 0.6716
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:18:25.210394",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: DART is a test plan.  \nIt will impact Didymoon.  \nDidymoon is a small moon of the asteroid Didymos.  \nDidymoon is about 150 metres wide.  \nDidymos is about 800 metres wide.  \nDidymoon is orbiting Didymos.  \nThe impact will try to knock Didymoon out of its orbit.  \nScientists hope the change will be enough for Earth telescopes to see.",
+      "timestamp": "2025-09-01 17:18:25.212374",
+      "metadata": {
+        "text_id": "8b9b2809-05b5-4586-8600-518979d61adf",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:18:46.210995",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "04ad1688-47c2-46c1-a3c2-4bb777b1142b",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.65 is significantly below the required 0.75 threshold. The original text presents a single, connected goal: the impact is a test to see if the change can be detected. Your version breaks this into a list of disconnected facts, losing the core purpose of the test.\n\n- Fidelity Failure: The BERTScore of 0.87 is below the 0.90 minimum. This is due to the omission of key terms like 'Double Asteroid Redirection Test' and 'Earth-based telescopes'.\n\n- Vocabulary Violation: The word 'impact' is B1 level and is not permitted. It must be replaced with a simpler A2 word.\n\n- Structural Deficiency: The text is excessively fragmented. The complete lack of simple connectors like 'and' or 'so' makes the text unnatural and contributes to the loss of meaning between sentences.\n\nSuggestion: Rephrase to connect the sentences and restore the cause-and-effect relationship. Replace the word 'impact' with 'hit'. Restore the full name of the DART test in the definition to improve fidelity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8734,
+          "meaningbert": 0.6506
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:18:53.144188",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The Double Asteroid Redirection Test, called DART, will hit Didymoon.  \nDidymoon is a small moon of the asteroid Didymos.  \nDidymoon is about 150 metres wide.  \nDidymos is about 800 metres wide.  \nThe hit will try to knock Didymoon out of its orbit.  \nScientists hope the change will be enough for Earth telescopes to see.",
+      "timestamp": "2025-09-01 17:18:53.144662",
+      "metadata": {
+        "text_id": "d6138ac0-9c15-41e1-a09d-42797a456a5b",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:19:18.131217",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d5d4e9a4-cb08-4025-9c46-afae07560cd2",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6635 is significantly below the required 0.75 threshold. This indicates the core message was lost.\n\n- Primary Error: The original text describes a 'test' where scientists 'hopefully' see a result. Your version, 'The hit will try to knock Didymoon out of its orbit', changes the meaning from a scientific experiment to a simple action, losing the concept of a test.\n- Fidelity Failure: The BERTScore of 0.8931 is below the 0.90 minimum. This is a secondary failure. Replacing 'Earth-based telescopes to pick up' with 'Earth telescopes to see' contributed to this loss of lexical detail.\n- CEFR Compliance Failure: The text was classified as B2, not the required A2. The first sentence, 'The Double Asteroid Redirection Test, called DART, will hit Didymoon', uses a complex noun phrase as the subject. This is a B1/B2 structure.\n- Suggestion: Restore the concept of a 'test' and 'hope'. Break the first sentence into two or three simpler sentences. For example: 'There is a test called DART. DART means Double Asteroid Redirection Test. The test will hit Didymoon.'",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.8931,
+          "meaningbert": 0.6635
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:19:25.222417",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: There is a test called DART.  \nDART stands for Double Asteroid Redirection Test.  \nThe test will hit Didymoon.  \nDidymoon is a small moon of the asteroid Didymos.  \nDidymoon is about 150 metres wide.  \nDidymos is about 800 metres wide.  \nThe test will try to knock Didymoon out of its orbit.  \nScientists hope the change will be enough for Earth telescopes to see.",
+      "timestamp": "2025-09-01 17:19:25.222903",
+      "metadata": {
+        "text_id": "f90c1aba-854e-44e6-baa1-d283e94122d1",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:19:46.319850",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "06cf0f39-94dc-4886-8dfa-cecb8148175c",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for failure is the MeaningBERT score of 0.6855, which is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\n- MeaningBERT Failure: The original text states a direct cause and effect: 'the impact of DART will knock it out of its orbit'. Your version weakens this to 'The test will try to knock Didymoon out of its orbit'. The introduction of 'try' fundamentally changes the meaning from a planned outcome to a mere attempt.\n\n- Fidelity Failure: The BERTScore of 0.8888 is below the minimum requirement of 0.90. This is due to the replacement of specific terms like 'impact' with the generic word 'test', and 'pick up' with 'see', losing lexical precision.\n\n- Structural Weakness: While breaking down complex sentences is a valid A2 strategy, here it has damaged the meaning. The original sentence connects the impact, the orbit change, and the observation into a single causal chain. Your version separates these into disconnected facts, losing the logical flow.\n\nSuggestion: Restore the original meaning. Remove the word 'try'. Rephrase to create a clear cause-and-effect relationship. Example: 'The DART test will hit Didymoon. This hit will knock it from its orbit. Scientists hope telescopes on Earth can see this change.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8888,
+          "meaningbert": 0.6855
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:20:00.709167",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: DART is a test to change a small space rock.  \nThe test will hit Didymoon.  \nDidymoon is the small moon of Didymos.  \nDidymoon is about 150 metres wide.  \nDidymos is about 800 metres wide.  \nThe hit will knock Didymoon out of its orbit.  \nScientists hope Earth telescopes can see the change.",
+      "timestamp": "2025-09-01 17:20:00.709997",
+      "metadata": {
+        "text_id": "8fc75710-c238-4f8f-bfb6-612bb450d287",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:20:25.714086",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8f734bf4-c6ad-47d8-8204-4a056a050474",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on multiple high-priority checks. The primary failure is the inability to preserve the core meaning and fidelity of the original text. The MeaningBERT score of 0.651 is significantly below the required 0.75 threshold. The BERTScore of 0.8692 is also below the 0.90 minimum. Additionally, the text fails the CEFR compliance check, registering as B1 instead of the required A2.\n\n- Meaning Preservation Failure (MeaningBERT 0.651): The original text states the goal is to 'knock it out of its orbit enough for Earth-based telescopes to pick up'. Your version simplifies this to 'change a small space rock' and 'see the change'. This is too vague and loses the specific scientific concepts of redirection and observation, which are central to the original message.\n\n- Fidelity Failure (BERTScore 0.8692): Key lexical items from the original text were lost. The full name 'Double Asteroid Redirection Test' was removed, and the specific word 'impact' was replaced with the generic 'hit', reducing fidelity.\n\n- CEFR Compliance Failure (Classifier: B1): The text was classified as B1, which is too complex. The sentence 'Scientists hope Earth telescopes can see the change' uses an implied 'that-clause' ('hope that...'), which is a B1 grammatical structure.\n\n- Suggestion: Restore the core meaning. State that the test is to 'move' or 'push' the moon, not just 'change' it. Rephrase the final sentence to remove the B1 structure. Example: 'Scientists will use telescopes on Earth. They want to see the moon move.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8692,
+          "meaningbert": 0.651
+        }
+      }
+    }
+  ]
+}

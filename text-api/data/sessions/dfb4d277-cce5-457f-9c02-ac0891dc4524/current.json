@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "316d0f45-6eb4-46d4-9cb4-af52e5ca6587",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "'Earthquake' means the ground shakes a lot.\nThe shaking can break buildings and bridges.\nLuckily, bridges do not fall down often.\nThis is true, especially for modern bridges.\nEngineers design bridges for places where the ground shakes.\nThey build on ground that does not move much.",
+    "version": 3,
+    "created_at": "2025-08-31 23:32:21.296113",
+    "updated_at": "2025-08-31 23:32:21.296135",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "c856d83f-bc7f-42f9-9361-06594fa4c716",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6865 is below the required 0.75. The rewrite compresses \u201cdamage all structures\u201d into \u201cbreak buildings and bridges,\u201d losing the sense that earthquakes affect every structure.\nFAIL: Fidelity Failure. The BERTScore of 0.8994 is below the required 0.90. Key phrase \u201cdamage all structures\u201d was replaced by \u201cbreak,\u201d reducing lexical precision.\nSuggestion: Retain the phrase \u201cdamage all structures\u201d to preserve full meaning.\nSuggestion: Use \u201cdamage\u201d instead of \u201cbreak\u201d for consistency with the original.\nSuggestion: Include \u201cincluding bridges\u201d to reflect the original scope.\nSuggestion: Restore \u201chave learned to design\u201d to show that engineers\u2019 methods improved over time.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8994,
+      "meaningbert": 0.6865
+    },
+    "created_at": "2025-08-31 23:32:41.173650"
+  },
+  "attempt_number": 3,
+  "best_attempt": {
+    "id": "90ea96a2-94ea-4b52-a4be-4cd95fd79b13",
+    "cefr_level": "A2",
+    "text_id": "02-a2",
+    "text_translated": "An earthquake is when the ground shakes a lot.\nEarthquakes can break buildings and bridges.\nBut bridges do not often fall down.\nThis is true for new bridges, especially.\nEngineers now make bridges strong in earthquake areas.\nThey choose strong ground for the bridge.\nThe ground does not move much in an earthquake.\nSo the bridge stays up better.",
+    "version": 1,
+    "created_at": "2025-08-31 23:30:25.623220",
+    "updated_at": "2025-08-31 23:30:25.623231",
+    "metrics_meaningbert": 0.7118,
+    "metrics_cefr_compliance": "A2"
+  }
+}

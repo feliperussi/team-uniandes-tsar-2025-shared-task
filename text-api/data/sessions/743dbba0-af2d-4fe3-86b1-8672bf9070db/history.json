@@ -1,0 +1,598 @@
+{
+  "session_id": "743dbba0-af2d-4fe3-86b1-8672bf9070db",
+  "created_at": "2025-08-31 21:02:05.466996",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:02:05.471955",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "02-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes a lot.\nEarthquakes can break many things.\nThey can break bridges too.\nBut bridges do not fall down often.\nThis is very true for new bridges.\nEngineers are people who build bridges.\nThey know how to build safe bridges in places with earthquakes.\nThey build them on ground that is very strong.\nThis ground does not move a lot.",
+      "timestamp": "2025-08-31 21:02:05.472117",
+      "metadata": {
+        "text_id": "36144a77-b2bc-4214-9fcb-4e680dbabe38",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 21:02:05.480102",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "dbed6a88-20f7-47e7-aae9-04e89b532ec0",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6416 is significantly below the required 0.75 threshold. This indicates a severe deviation from the original text's core message. A secondary failure was detected in the BERTScore of 0.8923, which is below the minimum of 0.90.\n\n- Meaning Preservation Failure: The original text focuses on a specific engineering concept: designing bridges on ground resistant to movement. Your output oversimplified this to 'strong ground that does not move a lot', losing the essential concept of 'resistance' and 'design'. The core message was diluted.\n\n- Fidelity Failure: The low BERTScore is a direct result of replacing key vocabulary. The original text's specific terms 'structures', 'collapse', 'infrequent', and 'resistant' were replaced with overly simple words like 'things', 'fall down', 'often', and 'strong'. This loss of lexical precision is unacceptable.\n\n- Structural Deviation: While simplifying sentences is required for A2, your output broke the original text into too many disconnected, simplistic statements. This fragmented the logical flow of the original message about cause and solution.\n\nSuggestion: You must re-write the text to preserve the original's core meaning. Restore the concept of engineers actively designing solutions for movement, not just building on 'strong' ground. Reintroduce A2-level synonyms that are closer to the original's vocabulary to meet the fidelity requirement.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8923,
+          "meaningbert": 0.6416
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:02:32.440354",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes a lot.\nEarthquakes can damage many things, including bridges.\nLuckily, it is not common for bridges to fall down.\nThis is especially true for new bridges.\nEngineers have learned how to design bridges for places with earthquakes.\nThey build them on ground that does not move easily.",
+      "timestamp": "2025-08-31 21:02:32.441975",
+      "metadata": {
+        "text_id": "bdad4ab2-0d03-473b-b5af-c05156d4a866",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-08-31 21:02:58.034462",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8cbd9836-74f2-4db5-88d8-5d34858ff323",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Violation. The text passes all automated checks but fails the deep qualitative audit due to the use of unapproved B1 vocabulary.\n\n- The word 'damage' is classified as B1 level. It was used without being replaced or defined in simple A2 terms. This is a direct violation of the A2 standard.\n- The text correctly defines the keyword 'earthquake' (\"An earthquake is when the ground shakes a lot\"), which demonstrates a partial understanding of the requirements.\n- Sentence structure is appropriately simple for the A2 level, breaking complex ideas into manageable parts.\n\nSuggestion: Replace the B1 word 'damage' with a suitable A2 alternative. Use 'break' or 'hurt' instead. For example: 'Earthquakes can break many things, including bridges.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9124,
+          "meaningbert": 0.8151
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:03:05.788379",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes a lot.\nEarthquakes can break many things, including bridges.\nLuckily, it is not common for bridges to fall down.\nThis is especially true for new bridges.\nEngineers have learned how to design bridges for places with earthquakes.\nThey build them on ground that does not move easily.",
+      "timestamp": "2025-08-31 21:03:05.788786",
+      "metadata": {
+        "text_id": "f8ed8aa6-de88-41e3-b8a1-f83569fd8b6b",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 21:03:35.490148",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6605a074-0dfc-4e7a-848b-2f77938ff4d8",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.73 is below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text.\n- The primary cause of the meaning loss is the simplification of 'Earthquakes damage all structures' to 'Earthquakes can break many things'.\n- The original text makes an absolute statement about the damage earthquakes cause. Your version weakens this statement by using 'can' and 'many', which introduces uncertainty and reduces the scope of the damage. This is a critical loss of meaning.\n- While the rest of the text is well-simplified for the A2 level, this initial deviation is too significant to pass.\nSuggestion: Restore the absolute certainty of the original statement. Rephrase the sentence to 'Earthquakes break all kinds of things, including bridges.' This change is necessary to meet the meaning preservation standard.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9112,
+          "meaningbert": 0.7305
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:03:43.363929",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes a lot.\nEarthquakes break all kinds of things, including bridges.\nLuckily, it is not common for bridges to fall down.\nThis is especially true for new bridges.\nEngineers have learned how to design bridges for places with earthquakes.\nThey build them on ground that does not move easily.",
+      "timestamp": "2025-08-31 21:03:43.365070",
+      "metadata": {
+        "text_id": "829a46f7-3ee1-4da0-9c63-afdde18ff18c",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:04:14.308688",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c7711289-6838-4eb7-ad17-babd1bbb0917",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with all A2 requirements.\n\n- Factual Integrity: The core message of the original text has been preserved without error.\n- CEFR Compliance: The CEFR_Classifier_Result is A2, and a manual audit confirms this classification. The text is a model example of A2 writing.\n- Vocabulary Audit: All vocabulary is within the A1-A2 range. The single B1 keyword, 'earthquake', was correctly identified and defined using simple A2 language (\"when the ground shakes a lot\").\n- Structural Analysis: The text uses short, simple sentences. Complex concepts from the original, such as 'relatively infrequent' and 'resistant to movement', were expertly simplified to 'not common' and 'does not move easily'.\n- Metrics: All metrics are well above the required thresholds, indicating excellent preservation of meaning and factual detail.\n\nNo deviations from the A2 standard were detected. The submission is exemplary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9106,
+          "meaningbert": 0.8062
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:04:31.006779",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes a lot. Earthquakes break all kinds of things, including bridges. Luckily, it is not common for bridges to fall down. This is especially true for new bridges. Engineers have learned how to design bridges for places with earthquakes. They build them on ground that does not move easily.",
+      "timestamp": "2025-08-31 21:04:31.008302",
+      "metadata": {
+        "text_id": "ea77492b-f22a-4b69-a50e-66d821619064",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:04:54.797878",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0e0b84e2-e625-472e-a6d9-3ed643c73fad",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with the A2 standard.\n- Factual Integrity: The output is factually identical to the original text.\n- CEFR Compliance: The text correctly classifies as A2. All vocabulary used, such as 'luckily' and 'especially', is appropriate for the A2 level.\n- Keyword Definition: The B1 keyword 'earthquake' was correctly identified and defined in simple A2 terms: 'An earthquake is when the ground shakes a lot.' This is the correct procedure.\n- Structural Simplicity: The text uses short, simple sentences exclusively, which is ideal for A2 readability. There are no complex clauses or connectors.\n- Metrics: All metrics are above the required thresholds. MeaningBERT at 0.81 and BERTScore at 0.92 confirm high fidelity to the source.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9151,
+          "meaningbert": 0.8062
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:05:10.098517",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes a lot. Earthquakes break all kinds of things, including bridges. Luckily, it is not common for bridges to fall down. This is especially true for new bridges. Engineers have learned how to design bridges for places with earthquakes. They build them on ground that does not move easily.",
+      "timestamp": "2025-08-31 21:05:10.098842",
+      "metadata": {
+        "text_id": "6ff209df-23a5-4494-8600-5ee827d6760a",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:05:38.577288",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5a838cef-6579-48de-b193-d6c7dfb4a8cd",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text successfully meets all A2 requirements.\n\n- Factual Accuracy: The output is factually identical to the original text.\n- CEFR Compliance: The text correctly registers as A2. All vocabulary is appropriate for the A2 level.\n- Keyword Handling: The B1 keyword 'earthquake' was correctly identified and defined in simple A2 terms at the beginning of the text. This is an exemplary practice.\n- Structural Simplicity: The use of short, simple sentences ensures high readability for an A2 audience.\n- Metrics: All metrics (MeaningBERT: 0.81, BERTScore: 0.92) are well above the required thresholds, confirming high fidelity to the original meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9151,
+          "meaningbert": 0.8062
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:05:51.725255",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes a lot. Earthquakes break all kinds of things, including bridges. Luckily, it is not common for bridges to fall down. This is especially true for new bridges. Engineers have learned how to design bridges for places with earthquakes. They build them on ground that does not move easily.",
+      "timestamp": "2025-08-31 21:05:51.725597",
+      "metadata": {
+        "text_id": "2a856133-adec-4b58-aedc-42ccc6774bd3",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:06:16.999845",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "bf5d9e5f-7725-4d47-940c-195f02d7468a",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: Full Compliance. The output meets all A2 standard requirements.\n- Factual Integrity: The text is factually identical to the original.\n- CEFR Compliance: The text correctly classifies as A2. All metrics are within the required thresholds. MeaningBERT score is 0.8062 and BERTScore is 0.9151, indicating successful meaning preservation and lexical fidelity.\n- Vocabulary Audit: All vocabulary is strictly within the A2 level. The B1 keyword 'earthquake' was correctly identified and defined in simple A2 terms ('when the ground shakes a lot') before use. This is the correct procedure.\n- Structural Analysis: The text uses short, simple sentences exclusively. This is exemplary A2 structure. No complex clauses or unapproved connectors were used.\nThe submission is a model example of A2 simplification.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9151,
+          "meaningbert": 0.8062
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:06:36.554062",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes a lot. Earthquakes break all kinds of things, including bridges. Luckily, it is not common for bridges to fall down. This is especially true for new bridges. Engineers have learned how to design bridges for places with earthquakes. They build them on ground that does not move easily.",
+      "timestamp": "2025-08-31 21:06:36.555397",
+      "metadata": {
+        "text_id": "6cf04f01-1b55-4edc-8b73-377002d1756f",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:07:00.645079",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a3b357b7-9926-40ee-818a-032e74f77e17",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with all A2 standard requirements.\n\n- Factual Integrity: The output is factually identical to the original text. No information was lost or altered.\n- CEFR Compliance: The CEFR classifier correctly identified the text as A2. The metrics confirm this with a MeaningBERT score of 0.8062 and a BERTScore of 0.9151, both exceeding the minimum thresholds.\n- Vocabulary Control: The vocabulary is perfectly aligned with the A2 level. The B1 keyword 'earthquake' was correctly identified and defined in simple A2 terms at the beginning of the text (\"An earthquake is when the ground shakes a lot.\"). This is the correct procedure.\n- Structural Simplicity: All sentences are short, direct, and use basic A2 structures. Complex ideas from the original, such as 'resistant to movement', were successfully rephrased into simple A2 concepts like 'does not move easily'.\n\nNo deviations from the A2 standard were detected. The execution is flawless.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9151,
+          "meaningbert": 0.8062
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:07:14.809861",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes a lot. Earthquakes break all kinds of things, including bridges. Luckily, it is not common for bridges to fall down. This is especially true for new bridges. Engineers have learned how to design bridges for places with earthquakes. They build them on ground that does not move easily.",
+      "timestamp": "2025-08-31 21:07:14.810929",
+      "metadata": {
+        "text_id": "6fde2453-2737-41dc-ba2b-ac7406b3e1b7",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:07:39.473064",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "cd3b1cee-90a1-462a-871b-9d7a272f9132",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with all A2 standard requirements.\n\n- Factual Integrity: The output is factually identical to the original text. No information was lost or altered.\n- CEFR Compliance: The CEFR classifier correctly identified the text as A2. The metrics confirm this with a MeaningBERT score of 0.8062 and a BERTScore of 0.9151, both exceeding the minimum thresholds.\n- Vocabulary Control: The vocabulary is perfectly aligned with the A2 level. The B1 keyword 'earthquake' was correctly identified and defined in simple A2 terms at the beginning of the text (\"An earthquake is when the ground shakes a lot.\"). This is the correct procedure.\n- Structural Simplicity: All sentences are short, direct, and use basic A2 structures. Complex ideas from the original, such as 'resistant to movement', were successfully rephrased into simple A2 concepts like 'does not move easily'.\n\nNo deviations from the A2 standard were detected. The execution is flawless.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9151,
+          "meaningbert": 0.8062
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:07:53.018652",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes a lot. Earthquakes break all kinds of things, including bridges. Luckily, it is not common for bridges to fall down. This is especially true for new bridges. Engineers have learned how to design bridges for places with earthquakes. They build them on ground that does not move easily.",
+      "timestamp": "2025-08-31 21:07:53.019217",
+      "metadata": {
+        "text_id": "9d5e1d91-86f8-45c5-bc10-abcf60db6aab",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:08:19.585544",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "73957d24-bcb5-44a7-b8e4-ac366ed499bf",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with the A2 standard.\n- Factual Integrity: The output is factually identical to the original text.\n- CEFR Compliance: The text correctly classifies as A2. All vocabulary used, such as 'luckily' and 'especially', is appropriate for the A2 level.\n- Keyword Definition: The B1 keyword 'earthquake' was correctly identified and defined in simple A2 terms: 'An earthquake is when the ground shakes a lot.' This is the correct procedure.\n- Structural Simplicity: The text uses short, simple sentences exclusively, which is ideal for A2 readability. There are no complex clauses or connectors.\n- Metrics: All metrics are above the required thresholds. MeaningBERT at 0.81 and BERTScore at 0.92 confirm high fidelity to the source.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9151,
+          "meaningbert": 0.8062
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:08:33.633073",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes a lot. Earthquakes break all kinds of things, including bridges. Luckily, it is not common for bridges to fall down. This is especially true for new bridges. Engineers have learned how to design bridges for places with earthquakes. They build them on ground that does not move easily.",
+      "timestamp": "2025-08-31 21:08:33.634190",
+      "metadata": {
+        "text_id": "1f3045e0-12b9-4fff-837f-88f25b7fe0e6",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:08:58.516259",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9f34e6f8-dc2d-495b-bdd1-09c58c665ed8",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text successfully meets all A2 requirements.\n\n- Factual Accuracy: The output is factually identical to the original text.\n- CEFR Compliance: The text correctly registers as A2. All vocabulary is appropriate for the A2 level.\n- Keyword Handling: The B1 keyword 'earthquake' was correctly identified and defined in simple A2 terms at the beginning of the text. This is an exemplary practice.\n- Structural Simplicity: The use of short, simple sentences ensures high readability for an A2 audience.\n- Metrics: All metrics (MeaningBERT: 0.81, BERTScore: 0.92) are well above the required thresholds, confirming high fidelity to the original meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9151,
+          "meaningbert": 0.8062
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:09:11.159328",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 12,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes a lot. Earthquakes break all kinds of things, including bridges. Luckily, it is not common for bridges to fall down. This is especially true for new bridges. Engineers have learned how to design bridges for places with earthquakes. They build them on ground that does not move easily.",
+      "timestamp": "2025-08-31 21:09:11.162796",
+      "metadata": {
+        "text_id": "3f4097fc-83f4-4286-acae-2efdb1152e2b",
+        "version": 12
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:09:34.611987",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "83d7d8cc-d100-47b8-ab93-c72d293c3f71",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with all A2 standard requirements.\n\n- Factual Integrity: The output is factually identical to the original text. No information was lost or altered.\n- CEFR Compliance: The CEFR classifier correctly identified the text as A2. The metrics confirm this with a MeaningBERT score of 0.8062 and a BERTScore of 0.9151, both exceeding the minimum thresholds.\n- Vocabulary Control: The vocabulary is perfectly aligned with the A2 level. The B1 keyword 'earthquake' was correctly identified and defined in simple A2 terms at the beginning of the text (\"An earthquake is when the ground shakes a lot.\"). This is the correct procedure.\n- Structural Simplicity: All sentences are short, direct, and use basic A2 structures. Complex ideas from the original, such as 'resistant to movement', were successfully rephrased into simple A2 concepts like 'does not move easily'.\n\nNo deviations from the A2 standard were detected. The execution is flawless.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9151,
+          "meaningbert": 0.8062
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:09:46.466845",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 13,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes a lot. Earthquakes break all kinds of things, including bridges. Luckily, it is not common for bridges to fall down. This is especially true for new bridges. Engineers have learned how to design bridges for places with earthquakes. They build them on ground that does not move easily.",
+      "timestamp": "2025-08-31 21:09:46.467529",
+      "metadata": {
+        "text_id": "b328734f-d80b-4593-8188-b3f6498a7fae",
+        "version": 13
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:10:15.059470",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8e9013a1-db98-4720-a323-d6fe5393dc91",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with all A2 standard requirements.\n\n- Factual Integrity: The output is factually identical to the original text. No information was lost or altered.\n- CEFR Compliance: The CEFR classifier correctly identified the text as A2. The metrics confirm this with a MeaningBERT score of 0.8062 and a BERTScore of 0.9151, both exceeding the minimum thresholds.\n- Vocabulary Control: The vocabulary is perfectly aligned with the A2 level. The B1 keyword 'earthquake' was correctly identified and defined in simple A2 terms at the beginning of the text (\"An earthquake is when the ground shakes a lot.\"). This is the correct procedure.\n- Structural Simplicity: All sentences are short, direct, and use basic A2 structures. Complex ideas from the original, such as 'resistant to movement', were successfully rephrased into simple A2 concepts like 'does not move easily'.\n\nNo deviations from the A2 standard were detected. The execution is flawless.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9151,
+          "meaningbert": 0.8062
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:10:30.078419",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 14,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes a lot. Earthquakes break all kinds of things, including bridges. Luckily, it is not common for bridges to fall down. This is especially true for new bridges. Engineers have learned how to design bridges for places with earthquakes. They build them on ground that does not move easily.",
+      "timestamp": "2025-08-31 21:10:30.079166",
+      "metadata": {
+        "text_id": "85630aeb-73db-45ee-a7ec-31d84ea0b6f7",
+        "version": 14
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:10:55.672731",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b5b32e84-db18-4db6-8a35-7a573aa2fcc9",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with the A2 standard.\n- Factual Integrity: The output is factually identical to the original text.\n- CEFR Compliance: The text correctly classifies as A2. All vocabulary used, such as 'luckily' and 'especially', is appropriate for the A2 level.\n- Keyword Definition: The B1 keyword 'earthquake' was correctly identified and defined in simple A2 terms: 'An earthquake is when the ground shakes a lot.' This is the correct procedure.\n- Structural Simplicity: The text uses short, simple sentences exclusively, which is ideal for A2 readability. There are no complex clauses or connectors.\n- Metrics: All metrics are above the required thresholds. MeaningBERT at 0.81 and BERTScore at 0.92 confirm high fidelity to the source.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9151,
+          "meaningbert": 0.8062
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:11:09.876509",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 15,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes a lot. Earthquakes break all kinds of things, including bridges. Luckily, it is not common for bridges to fall down. This is especially true for new bridges. Engineers have learned how to design bridges for places with earthquakes. They build them on ground that does not move easily.",
+      "timestamp": "2025-08-31 21:11:09.879982",
+      "metadata": {
+        "text_id": "ba0fcd87-5140-4ffd-9c32-29e10333b887",
+        "version": 15
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:11:37.214168",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3b336c6c-65ec-466a-a84b-3b632ef0769d",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text successfully meets all A2 requirements.\n\n- Factual Accuracy: The output is factually identical to the original text.\n- CEFR Compliance: The text correctly registers as A2. All vocabulary is appropriate for the A2 level.\n- Keyword Handling: The B1 keyword 'earthquake' was correctly identified and defined in simple A2 terms at the beginning of the text. This is an exemplary practice.\n- Structural Simplicity: The use of short, simple sentences ensures high readability for an A2 audience.\n- Metrics: All metrics (MeaningBERT: 0.81, BERTScore: 0.92) are well above the required thresholds, confirming high fidelity to the original meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9151,
+          "meaningbert": 0.8062
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:11:59.043882",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 16,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes a lot. Earthquakes break all kinds of things, including bridges. Luckily, it is not common for bridges to fall down. This is especially true for new bridges. Engineers know how to design bridges for places with earthquakes. They build them on ground that does not move easily.",
+      "timestamp": "2025-08-31 21:11:59.045036",
+      "metadata": {
+        "text_id": "d174ea40-8d7d-42ce-ad76-e5b481451db0",
+        "version": 16
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:12:22.172862",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ab5ecb51-546f-415f-b293-bc5026255803",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: Full Compliance. The text meets all A2 requirements.\n- Factual Integrity: The output is factually identical to the original text.\n- Metric Compliance: MeaningBERT (0.7762) and BERTScore (0.9135) are above the required thresholds of 0.75 and 0.90, respectively.\n- CEFR Classification: The text correctly classified as A2.\n- Qualitative Audit: The text demonstrates exemplary A2 standards. The B1 keyword 'earthquake' was correctly identified and defined in simple A2 terms ('when the ground shakes a lot'). All other vocabulary is within the A1/A2 range. Sentence structures are short, simple, and clear, avoiding complex clauses or connectors.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9135,
+          "meaningbert": 0.7762
+        }
+      }
+    }
+  ]
+}

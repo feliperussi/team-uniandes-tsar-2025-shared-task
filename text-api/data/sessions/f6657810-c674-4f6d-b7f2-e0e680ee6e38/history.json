@@ -1,0 +1,339 @@
+{
+  "session_id": "f6657810-c674-4f6d-b7f2-e0e680ee6e38",
+  "created_at": "2025-09-01 17:21:56.421450",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:21:56.427270",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "87-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: At first, Pi is very scared of the animals.  \nHe jumps into the ocean.  \nA shark is a big fish that can bite people.  \nA lifeboat is a small boat used for safety at sea.  \nThen he remembers that there are hungry sharks.  \nThey are in the water around him.  \nHe sees his only option is to climb back into the lifeboat.  \nOne by one, the animals in the lifeboat kill each other.  \nThey also eat each other.  \nUntil only Pi and the tiger are left.  \nPi names the tiger Richard Parker.  \nThe tiger is seasick and does not want to eat him.",
+      "timestamp": "2025-09-01 17:21:56.427470",
+      "metadata": {
+        "text_id": "04562445-4dd5-43f6-8d08-58e0904a58dd",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:21:56.434301",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "861e72c6-e581-4295-b4f4-f044fe371b61",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8975 is below the required 0.90. This indicates a loss of key words and phrasing from the original text. The word 'terrified' was replaced with 'very scared', and the concepts of 'fortunately' and 'no immediate interest' were removed entirely, reducing lexical precision.\n\nStructural Error: The sentence 'Until only Pi and the tiger are left.' is an incomplete sentence fragment. This is a grammatical failure.\n\nVocabulary Violation: The definitions for keywords use B1-level vocabulary. The words 'bite', 'used', and 'safety' are not A2. All definitions must use A2 words only.\n\nSuggestion: Combine the sentence fragment with the previous sentence to form a complete thought. Re-write the keyword definitions using only A1 and A2 vocabulary. Restore more precise wording from the original text where possible without increasing complexity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8975,
+          "meaningbert": 0.8455
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:22:06.663660",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: At first, Pi is terrified of the animals.  \nHe jumps into the ocean.  \nA shark is a big fish that can hurt people.  \nA lifeboat is a small boat.  \nIt helps people stay safe at sea.  \nThen he remembers hungry sharks are around him.  \nHe sees his only option is to climb back into the lifeboat.  \nOne by one, the animals in the lifeboat kill each other.  \nThey also eat each other.  \nOnly Pi and the tiger are left.  \nPi names the tiger Richard Parker.  \nLuckily, the tiger is seasick and does not want to eat him.",
+      "timestamp": "2025-09-01 17:22:06.663972",
+      "metadata": {
+        "text_id": "325608c4-f4c7-4279-b590-4225c3242465",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:22:33.306399",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2e7bdf25-98cf-47d8-8b92-d659c4e9b412",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.898 is below the required 0.90 threshold. This indicates a loss of key phrasing from the original text. The phrase 'has no immediate interest in eating him' was replaced with 'does not want to eat him', which loses lexical precision and lowers the fidelity score. Additionally, the text fails the qualitative vocabulary audit. The B1-level word 'terrified' was used. This word is not on the A2 list and must be replaced with a simpler alternative like 'very scared'. The definitions for 'shark' and 'lifeboat' are acceptable, but the core text contains a clear vocabulary violation. Suggestion: Replace the word 'terrified'. Re-evaluate sentence simplifications to ensure key lexical items from the source are retained where possible to meet the fidelity requirement.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.898,
+          "meaningbert": 0.8353
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:22:45.198694",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: At first, Pi is very scared of the animals.  \nHe jumps into the ocean.  \nA shark is a big fish that can hurt people.  \nA lifeboat is a small boat.  \nIt helps people stay safe at sea.  \nThen he remembers hungry sharks are around him.  \nHe sees his only option is to climb back into the lifeboat.  \nOne by one, the animals in the lifeboat kill each other.  \nThey also eat each other.  \nOnly Pi and the tiger are left.  \nPi names the tiger Richard Parker.  \nLuckily, the tiger is seasick and does not want to eat him right now.",
+      "timestamp": "2025-09-01 17:22:45.199530",
+      "metadata": {
+        "text_id": "2d2bfcbf-522b-4c3c-8a8a-29fbeddf429a",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:23:08.462015",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f5c76e72-e892-411a-974c-bc8041592dea",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.897 is below the required 0.90 threshold. This indicates a loss of key words and phrasing from the original text.\n\n- The replacement of 'terrified of' with 'very scared of' loses lexical precision.\n- The original phrase 'has no immediate interest in eating him' was simplified to 'does not want to eat him right now'. This changes the meaning slightly and loses the specific word 'immediate', contributing to the fidelity score drop.\n- The definitions for 'shark' and 'lifeboat' are inserted into the middle of the narrative. This disrupts the logical flow of the story.\n\nSuggestion: Place all keyword definitions at the beginning or end of the text, not within the story. Rephrase sentences to retain key words from the original where possible without exceeding the A2 level. To improve fidelity, change 'does not want to eat him right now' to a phrase that better captures the original meaning, such as 'is not interested in eating him now'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.897,
+          "meaningbert": 0.8358
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:23:13.704240",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A shark is a big fish that can hurt people.  \nA lifeboat is a small boat that helps people stay safe at sea.  \n\nAt first Pi is terrified of the animals.  \nHe jumps into the ocean.  \nHe remembers hungry sharks are around him.  \nHe sees his only option is to climb back into the lifeboat.  \nThe animals in the lifeboat kill each other one by one.  \nThey also eat each other.  \nOnly Pi and the tiger are left.  \nPi names the tiger Richard Parker.  \nLuckily the tiger is seasick and is not interested in eating him now.",
+      "timestamp": "2025-09-01 17:23:13.704720",
+      "metadata": {
+        "text_id": "fb47c9de-a848-429d-a55f-c4ec27b6854d",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:23:40.743513",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d3229918-31d3-4719-a197-607039d14400",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8954 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original text, failing a primary diagnostic test.\n\nVocabulary Violation: The B1-level word 'terrified' was used directly from the source text. This word is too advanced for the A2 standard and must be replaced. An A2 text cannot contain B1 vocabulary.\n\nLexical Simplification Error: The verb 'sees' is an inadequate replacement for 'realises'. While simple, it does not carry the same meaning of understanding or mental discovery, contributing to the low fidelity score.\n\nSuggestion: Replace 'terrified' with an A2 phrase like 'very afraid' or 'very scared'. Rephrase sentences to align more closely with the original's lexical choices to meet the 0.90 BERTScore threshold. Do not use B1 vocabulary under any circumstances.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8954,
+          "meaningbert": 0.8363
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:23:51.401708",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A shark is a big fish that can hurt people.  \nA lifeboat is a small boat that helps people stay safe at sea.  \n\nAt first Pi is very scared of the animals.  \nHe jumps into the ocean.  \nHe remembers hungry sharks are around him.  \nHe knows his only option is to climb back into the lifeboat.  \nThe animals in the lifeboat kill each other one by one.  \nThey also eat each other.  \nOnly Pi and the tiger are left.  \nPi names the tiger Richard Parker.  \nLuckily the tiger is seasick and does not want to eat him now.",
+      "timestamp": "2025-09-01 17:23:51.402168",
+      "metadata": {
+        "text_id": "cb3bf352-1467-477c-a0d6-1957dda25430",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 17:24:17.326368",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0b4cc00c-d5c6-4f82-aee1-4fb4c6c425a7",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8936 is below the required 0.90 threshold. This indicates a loss of key words and phrasing from the original text.\n- The replacement of 'terrified' with 'very scared' is a simplification, but it reduces lexical fidelity.\n- The change from 'realises' to 'knows' has a similar effect.\n- The phrase 'no immediate interest in eating him' was simplified to 'does not want to eat him now'. This change, while simplifying the structure, loses the specific meaning of 'immediate'.\n- The replacement of 'fortunately' with 'luckily' also contributes to the score reduction.\nSuggestion: Revise the text to restore some of the original key vocabulary without increasing sentence complexity. The goal is to raise the BERTScore above 0.90 while maintaining the A2 classification.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8936,
+          "meaningbert": 0.8443
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:24:25.545687",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A shark is a big fish that can hurt people.  \nA lifeboat is a small boat that helps people stay safe at sea.  \n\nAt first Pi is terrified of the animals.  \nHe jumps into the ocean.  \nHe remembers hungry sharks are around him.  \nHe realises his only option.  \nHe must climb back into the lifeboat.  \nAnimals in the lifeboat kill each other one by one.  \nThey also eat each other.  \nOnly Pi and the tiger are left.  \nPi names the tiger Richard Parker.  \nFortunately the tiger is seasick.  \nThe tiger has no immediate interest in eating Pi.",
+      "timestamp": "2025-09-01 17:24:25.546108",
+      "metadata": {
+        "text_id": "14032d35-a91d-4a88-980f-08fda4a128e0",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:24:54.750587",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "85b5999e-2d3b-4d68-a506-1ccf209c547f",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8883 is below the required 0.90. This indicates a significant loss of key phrasing and lexical detail from the original text.\n\n- Vocabulary Violation: The B1 words 'terrified' and 'immediate' were not replaced. These words are above the A2 level and are unacceptable. The word 'terrified' must be replaced with an A2 equivalent like 'very scared'. The word 'immediate' must be replaced with a simpler concept like 'right now'.\n- Structural Error: The sentence 'He realises his only option' is an incomplete fragment. It severs the direct logical link present in the original text where the 'option' is explicitly defined as climbing back into the boat. This fragmentation contributed to the low BERTScore.\n- Structural Degradation: The original text's relative clause '...the tiger, who he names Richard Parker...' was broken into two simple sentences. This oversimplification loses the grammatical connection and further damages fidelity to the source text.\n\nSuggestion: Replace all B1 vocabulary. Reconnect fragmented sentences to restore logical meaning. For example, combine 'He realises his only option' and 'He must climb back into the lifeboat' into a single, clear A2 sentence like 'He knows there is only one thing to do: he must climb back into the boat'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8883,
+          "meaningbert": 0.8601
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:25:08.686772",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A shark is a big fish that can hurt people.  \nA lifeboat is a small boat that helps people stay safe.  \n\nAt first Pi is very scared of the animals.  \nHe jumps into the ocean.  \nHe remembers hungry sharks are around him.  \nHe knows his only option is to climb back into the lifeboat.  \nAnimals in the lifeboat kill each other one by one.  \nThey also eat each other.  \nOnly Pi and the tiger are left.  \nHe names the tiger Richard Parker, who is seasick.  \nThe tiger has no interest in eating Pi right now.",
+      "timestamp": "2025-09-01 17:25:08.687912",
+      "metadata": {
+        "text_id": "daaf3b87-7d2a-4d81-9c86-740a4eff2e46",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:25:29.426177",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "258177c7-c5f4-4795-aab4-05c6a4001914",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8906 is below the required 0.90 threshold. This indicates a loss of key words and phrasing from the original text.\n\n- Primary Deviation (BERTScore): The phrase 'Fortunately for Pi' was completely removed. This phrase is critical as it conveys Pi's luck, a key element of the original sentence. Its omission directly caused the fidelity score to drop below the minimum requirement.\n- Secondary Deviation (Grammar): The sentence 'He names the tiger Richard Parker, who is seasick' uses a non-defining relative clause ('who is seasick'). This is a B1 grammatical structure and is too complex for the A2 level.\n\nSuggestion: Restore the lost meaning and simplify the complex grammar. Rephrase the final section. Example: 'He names the tiger Richard Parker. Pi is lucky. The tiger is seasick and does not want to eat him right now.' This breaks the B1 structure into two simple A2 sentences and reintroduces the concept of luck, which will improve the fidelity score.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8906,
+          "meaningbert": 0.8356
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:25:38.225738",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A shark is a big fish that can hurt people.  \nA lifeboat is a small boat that helps people stay safe.  \n\nAt first Pi is scared of the animals.  \nHe jumps into the ocean.  \nHe remembers hungry sharks are around him.  \nHe knows his only option is to climb back into the lifeboat.  \nAnimals in the lifeboat kill each other one by one.  \nThey also eat each other.  \nOnly Pi is left with the tiger.  \nHe names the tiger Richard Parker.  \nFortunately for Pi, the tiger is seasick.  \nThe tiger does not want to eat Pi now.",
+      "timestamp": "2025-09-01 17:25:38.226254",
+      "metadata": {
+        "text_id": "4661c515-7007-49b6-8cf7-86c8c988ec0a",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:26:06.038504",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "fa038128-a83f-4caa-9509-e3ec6fc5129d",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8893 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\n- The phrase 'has no immediate interest in eating him' was replaced with 'does not want to eat Pi now'. This simplification loses the specific meaning of 'immediate interest'.\n- The original text links ideas within sentences, such as 'the tiger, who he names Richard Parker, is seasick'. Your version breaks this into multiple, disconnected sentences, which reduces lexical and structural fidelity.\n- The text is overly fragmented. While short sentences are required for A2, the complete lack of simple connectors like 'and' or 'so' makes the text choppy and contributes to the low fidelity score.\n\nSuggestion: Restore key vocabulary to improve the score. Rephrase 'does not want to eat Pi now' to 'is not interested in eating Pi now'. Combine some of the very short sentences using simple A2 connectors like 'and' to better reflect the original text's structure without increasing complexity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8893,
+          "meaningbert": 0.8272
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:26:23.279007",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A shark is a big fish that can hurt people.\nA lifeboat is a small boat that helps people stay safe.\n\nAt first Pi is scared of animals and jumps into sea.\nHe remembers hungry sharks are near him. So he knows his only option is to climb back into the lifeboat.\nAnimals in the lifeboat kill each other one by one. They also eat each other.\nOnly Pi and the tiger are left.\nHe names the tiger Richard Parker. The tiger is seasick and is not interested in eating Pi now.",
+      "timestamp": "2025-09-01 17:26:23.280303",
+      "metadata": {
+        "text_id": "97d9d468-9849-4289-a831-ec99f479e491",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 17:26:43.407168",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7f4e4982-e052-455f-a3a4-35922db9f38a",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text is a model example of A2 simplification. It passes all quantitative and qualitative checks without deviation.\n\n- Factual Integrity: All key information from the original text is present and accurate. No facts were altered or omitted.\n- CEFR Compliance: The text correctly registers as A2. The metrics (MeaningBERT 0.82, BERTScore 0.92) confirm high fidelity to the source material, exceeding the minimum requirements.\n- Vocabulary Control: The vocabulary is strictly limited to A1 and A2 levels. No B1+ words were used. The keyword definitions for 'shark' and 'lifeboat' are clear and use A2-level language.\n- Structural Simplicity: Complex sentences from the original text were correctly broken down into short, simple sentences connected only by basic conjunctions like 'and' and 'so'. This meets the required standard perfectly.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9258,
+          "meaningbert": 0.8285
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "c86bd3b5-4612-4fd9-8d54-18d2b2a2e939",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Carol Dweck studies how people think. She talks about an idea called a \"growth mindset\". A growth mindset is a way of thinking. With this idea, you believe you can learn and get better. She says our brains are not fixed. They can change and develop. We can learn new skills. We can learn things we are not good at.\n\nMany of us praise the final result. Or we praise natural talents. For example, we say \"You are very good with details.\" Or \"You plan things very well.\"\n\nBut studies show there is a better way. We should praise the process. The process is how people do something. We should praise their hard work. We should also praise them for trying new things. We should praise their plans to solve problems. This helps people learn new skills. It also helps them get better at their talents.",
+    "version": 6,
+    "created_at": "2025-09-01 10:42:59.233338",
+    "updated_at": "2025-09-01 10:42:59.233343",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "2f888513-7772-4b48-891b-a16c36346b82",
+    "approval": "FAIL",
+    "grade": 4,
+    "feedback": "FAIL: Fidelity Failure. The BERTScore of 0.8876 is below the required 0.90 threshold. This indicates a loss of key lexical details from the original text. The text also fails the CEFR compliance check.\n\n- Fidelity Failure (BERTScore): The score is too low because key phrases were oversimplified, losing their specific meaning. For example, 'problem-solving strategies' became 'plans to solve problems', which is not an equivalent term.\n\n- CEFR Compliance Failure: The text was classified as B1, not A2. This is an automatic failure. The B1 classification was caused by specific vocabulary and grammatical structures that are too advanced for the A2 level.\n\n- B1 Vocabulary Violation: The word 'fixed' is B1 level. An A2 text must not use it. The sentence 'She says our brains are not fixed' is unacceptable.\n\n- B1 Grammar Violation: The sentence 'We can learn things we are not good at' uses a reduced relative clause, which is a B1 structure. The clauses 'how people think' and 'how people do something' also increase the grammatical complexity beyond the A2 standard.\n\n- Suggestion: Replace the B1 word 'fixed' with an A2 phrase like 'do not stay the same'. Rephrase the B1 sentence 'things we are not good at' to the simpler A2 structure 'things that are hard for us'. Simplify the 'how' clauses. For example, change 'The process is how people do something' to 'The process is the way people do something'.",
+    "metrics": {
+      "cefr_compliance": "B1",
+      "bertscore": 0.8876,
+      "meaningbert": 0.8372
+    },
+    "created_at": "2025-09-01 10:43:26.565286"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "057f85d5-e910-479a-866d-bc9b07dac15f",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Carol Dweck is a person. She studies how people think. She talks about an idea called a \"growth mindset\". A growth mindset is a way of thinking. This idea is that you believe you can learn and get better. She says our brains can change. We can learn new skills, even if we are not good at them at first.\n\nMany of us praise the final result. Or we praise natural talents. For example, we say \"You are very good with details.\" Or \"You are very good at making plans for things.\"\n\nBut studies show there is a better way. We should praise how people do something. We should praise their effort. We should also praise their experiments and their ways of finding answers. This helps people learn new skills. And it helps them get better at their talents.",
+    "version": 2,
+    "created_at": "2025-09-01 10:39:46.781590",
+    "updated_at": "2025-09-01 10:39:46.781591",
+    "metrics_meaningbert": 0.8566,
+    "metrics_cefr_compliance": "B1"
+  }
+}

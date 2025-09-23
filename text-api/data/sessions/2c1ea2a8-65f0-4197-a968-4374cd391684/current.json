@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "c230f0f7-a9cd-4db9-88f8-459a4cb1402a",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Meagan McGrath is from Canada.  \nShe loves very hard adventures.  \nShe has climbed the highest mountain on every continent.  \nShe rode a bike across Canada.  \nShe ran a long race in the Sahara Desert.  \nThe desert is about 45\u202f\u00b0C.  \nHer most remarkable adventure was a ski trip to the South\u00a0Pole.  \nOn the first day she fell into a glacier.  \nRescuers saved her.  \nMany people would have given up, but she decided to keep going.  \nShe pulled a sled with a tent and food.  \nShe moved through freezing weather and ice storms.  \nAfter forty days she finally reached the South\u00a0Pole.  \n\nThe Sahara Desert is a very hot desert.  \nThe South\u00a0Pole is? Actually South Pole is the bottom point of the Earth.  \nA glacier is a large slow\u2011moving sheet of ice.",
+    "version": 11,
+    "created_at": "2025-09-01 17:20:33.598233",
+    "updated_at": "2025-09-01 17:20:33.598233",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "d320a2a2-0fb9-4297-9469-c8f450cb3b3b",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation Failure. The submission fails on Priority 2 due to metrics falling below the required thresholds. The core message and lexical fidelity have been compromised.\n\n- MeaningBERT Score Failure: The score of 0.7285 is below the required 0.75. Your simplification into a list of disconnected facts lost the original text's narrative sense of continuous challenge and admiration. The original's tone is gone.\n\n- BERTScore Failure: The score of 0.8789 is below the required 0.90. This is a direct result of deleting key phrases like \"Not content with one amazing trip\" and altering important constructions like \"had to be rescued\" into the less nuanced \"Rescuers saved her.\"\n\n- B1 Vocabulary Violation: The text uses the B1 words \"remarkable\" and \"freezing\". This is an explicit violation of the A2 standard. These words must be replaced with A2-level vocabulary.\n\n- Defective Definition: The definition for \"South Pole\" is unacceptable. The inclusion of a question mark (\"is?\") and the conversational filler \"Actually\" is incorrect. Definitions must be simple, declarative statements.\n\n- Corrective Actions: 1. Replace \"remarkable\" with an A2 phrase like \"most special\" or \"most amazing\". 2. Replace \"freezing weather\" with \"very cold weather\". 3. Rewrite the definition for South Pole to be a direct statement, for example: \"The South Pole is the bottom point of the Earth.\" 4. Rephrase the rescue sentence to better capture the original meaning. Suggestion: \"She fell into a glacier and needed to be rescued.\"",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8789,
+      "meaningbert": 0.7285
+    },
+    "created_at": "2025-09-01 17:21:04.944342"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "22205eb8-53e2-44f4-aac3-271962a7b13f",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Some modern adventurers are never happy with one big trip.  \nMeagan McGrath from Canada is an example.  \nShe has climbed the highest mountain on each continent.  \nShe rode a bike across Canada.  \nShe ran a long race in the Sahara Desert.  \nThe desert was very hot, about 45\u202f\u00b0C.  \nThe most special journey was a ski trip to the South Pole.  \nOn the first day she fell into a glacier.  \nPeople rescued her.  \nMany people would have given up, but she decided to keep going.  \nShe pulled a sled with a tent and food.  \nShe did this in freezing cold.  \nShe walked through ice storms.  \nShe reached the South Pole after forty days.  \n\nThe Sahara Desert is a very hot desert.  \nThe South Pole is the southernmost point on Earth.  \nA glacier is a big slow moving ice.",
+    "version": 6,
+    "created_at": "2025-09-01 17:17:12.870655",
+    "updated_at": "2025-09-01 17:17:12.870656",
+    "metrics_meaningbert": 0.7484,
+    "metrics_cefr_compliance": "A2"
+  }
+}

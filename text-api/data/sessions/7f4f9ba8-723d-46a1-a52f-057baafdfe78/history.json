@@ -1,0 +1,80 @@
+{
+  "session_id": "7f4f9ba8-723d-46a1-a52f-057baafdfe78",
+  "created_at": "2025-08-31 23:39:39.003417",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:39:39.016732",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "02-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes a lot.\nEarthquakes can break buildings and bridges.\nLuckily, bridges do not fall down very often.\nThis is true for new bridges, especially.\nEngineers design safer bridges in places with earthquakes.\nThey build on strong ground that does not move much.",
+      "timestamp": "2025-08-31 23:39:39.017266",
+      "metadata": {
+        "text_id": "b8101770-2f88-4708-a7fe-86d470a9c823",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 23:39:39.027596",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "eb1d1a52-cda3-4760-9661-93da21a24070",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Audit Failure. The text includes the B1 level word 'earthquake', which is not allowed at CEFR A2. Detected deviations:\n1. The word 'earthquake' appears in sentences 1 and 5 and requires B1 knowledge.\nSuggestion: Replace 'earthquake' with a simpler A2 term such as 'big ground shake' or explicitly define it in A2-level language.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9024,
+          "meaningbert": 0.8445
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:40:27.662787",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A big ground shake is when the ground shakes a lot. Big ground shakes can break buildings and bridges. Luckily, bridges do not fall down very often. This is true for new bridges, especially. Engineers design safer bridges in places with big ground shakes. They build on strong ground that does not move much.",
+      "timestamp": "2025-08-31 23:40:27.663390",
+      "metadata": {
+        "text_id": "a27d3b5e-eced-43dd-b8f2-405d9fbbd3e4",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 23:40:45.291472",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4906e757-efd4-4132-b724-639dc7350c4a",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation and Fidelity Failure. The MeaningBERT score of 0.6697 is below the required 0.75. The BERTScore of 0.8931 is below the required 0.90.\nDetected deviations:\n- MeaningBERT below threshold indicates loss of the core message about modern bridges being designed to resist movement.\n- BERTScore below threshold shows loss of key lexical details such as 'Engineers have learned' and 'resistant to movement'.\nSuggestion: Restore the phrase 'Engineers have learned' instead of 'Engineers design' and include 'resistant to movement' to recover both meaning and factual fidelity.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8931,
+          "meaningbert": 0.6697
+        }
+      }
+    }
+  ]
+}

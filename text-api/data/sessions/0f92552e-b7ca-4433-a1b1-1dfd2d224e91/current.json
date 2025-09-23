@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "344afede-09b6-4b44-9e22-f2775616268f",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "People from different places can act differently. It is good to know this. This knowledge helps us understand people. It helps us avoid problems when we talk. But we must be careful. This knowledge can create stereotypes.\n\nStereotypes are simple ideas about a group of people. These ideas are often wrong. We must not use stereotypes. They are very bad for business relationships.\n\nA person's national culture is one part of them. But many other things are also important. A person comes from a region. This region is important. Their age is important. Their job is important. Their life is also important.\n\nSo, cultural knowledge is helpful. But we should not always think about it. We must not think all people from one country are the same. Every person is different.",
+    "version": 6,
+    "created_at": "2025-09-01 01:33:44.940602",
+    "updated_at": "2025-09-01 01:33:44.940613",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "0df2d440-28b0-42d2-820c-86e93e23997b",
+    "approval": "FAIL",
+    "grade": 1,
+    "feedback": "FAIL: Factual Inaccuracy. The output omits and alters key facts from the original text, constituting an immediate and primary failure.\n\n- The original text lists 'gender' and 'the communities we associate with' as influences on a person. Your output omits these facts entirely.\n- The original text specifies 'corporate culture'. Your output incorrectly changes this to 'job', which is a different concept and a factual error.\n- FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.59 is catastrophically below the required 0.75 threshold. The original's core message about stereotypes being 'detrimental' and knowledge being kept 'at the back of our minds' is lost. Your simplification is too extreme and fails to convey the original's meaning.\n- FAIL: Fidelity Failure. The BERTScore of 0.86 is below the minimum 0.90. This confirms a significant loss of key vocabulary and phrasing.\n- FAIL: CEFR Compliance. The classifier rated the text as B1, not the required A2. This is an automatic failure. The presence of the B1 word 'cultural' is a clear violation of the A2 vocabulary standard.\n\nSuggestion: The text requires a complete rewrite. Restore all factual points from the original, including 'gender' and 'communities'. Find an A2-compliant way to describe 'corporate culture', such as 'the rules at a person's company'. Eliminate the B1 word 'cultural'. The entire text must be rephrased to meet the A2 standard without sacrificing core facts and meaning.",
+    "metrics": {
+      "cefr_compliance": "B1",
+      "bertscore": 0.8634,
+      "meaningbert": 0.5957
+    },
+    "created_at": "2025-09-01 01:34:07.984363"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "c36cce64-7380-4e9b-8939-f45b46365aa9",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "People from different places can act differently. It is good to know this. This helps us understand other people. It helps us avoid problems.\n\nBut we must be very careful. We should not use stereotypes. Stereotypes are simple ideas about a group of people. These ideas are often wrong. Using stereotypes is very bad for business.\n\nA country's culture can change our thoughts and actions. But many other things are also important. The place we are from is important. The people we know are important. Our age is important. Our job and our life also change us.\n\nSo, knowledge about culture is useful. But we must use it carefully. We should not think all people from one country are the same. Every person is different.",
+    "version": 4,
+    "created_at": "2025-09-01 01:32:21.472476",
+    "updated_at": "2025-09-01 01:32:21.472480",
+    "metrics_meaningbert": 0.5609,
+    "metrics_cefr_compliance": "A2"
+  }
+}

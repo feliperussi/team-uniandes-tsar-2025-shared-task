@@ -1,0 +1,80 @@
+{
+  "session_id": "e9bb60a0-c119-47d8-825c-951d81ecf42a",
+  "created_at": "2025-09-01 17:36:50.390419",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:36:52.775371",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "56-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Gabriela noticed cultural differences between her and her team, so she decided to have a talk with them about how they felt about her being the boss. The team was happy to be asked, and they openly said they were not used to being told exactly what to do. They liked having more space for taking their own initiative and for being creative. When Gabriela told them exactly what she needed, they felt she did not trust them to do their job well. They also realized that Gabriela took it personally when they tried to question her decisions, and they felt this was how they had always worked.",
+      "timestamp": "2025-09-01 17:36:52.775625",
+      "metadata": {
+        "text_id": "982fc529-dff9-4ff7-a1db-7b9fa2eca2ea",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:36:58.673155",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "460277fa-db6f-4577-a6b8-c754c2ecb408",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Integrity. The simplification introduces a significant factual error that changes the outcome of the events described. The original text states the team communicated their perspective: '...and were able to explain that it was how they'd always worked.' The output changes this action into an internal feeling: '...and they felt this was how they had always worked.' This is incorrect. By removing the act of 'explaining', the output fails to convey that the team communicated their working style to Gabriela, which is a critical point in the original narrative. To correct this, the sentence should be revised to reflect the act of communication, for example: '...and they explained that this was how they had always worked.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9511,
+          "meaningbert": 0.9453
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:37:12.698547",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Gabriela noticed cultural differences between her and her team, so she decided to have a conversation with them about how they felt about her being the boss. The team was happy to be asked, and they openly said they were not used to being told exactly what to do. They liked having more space for taking their own initiative and for being creative. When Gabriela told them exactly what she needed, they felt she did not trust them to do their job well. They also realized that Gabriela took it personally when they tried to question her decisions, and they explained that this was how they had always worked.",
+      "timestamp": "2025-09-01 17:37:12.699169",
+      "metadata": {
+        "text_id": "1ab63dd5-3713-4dbf-be9f-ddbaa564d962",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-09-01 17:37:40.901725",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7c1e690a-1729-474b-8ec7-9fe43b95ef9e",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "This is a high-quality simplification that successfully passes all diagnostic checks. Factual integrity is perfectly maintained. The MeaningBERT (0.95) and BERTScore (0.95) are excellent, indicating strong preservation of the original message and key details. The text correctly achieves the target B1 CEFR level. The simplification strategies are very effective: complex concepts like 'leadership' were skillfully simplified to 'being the boss', and the phrase 'challenge or make changes to her decisions' was concisely reduced to 'question her decisions'. Sentence structure is clear and direct, improving flow and readability for the target audience. This is a strong example of a successful B1 simplification.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9535,
+          "meaningbert": 0.9453
+        }
+      }
+    }
+  ]
+}

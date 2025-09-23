@@ -1,0 +1,228 @@
+{
+  "session_id": "2f6c5a39-2808-4d18-96a2-6ae5bdf7fe2c",
+  "created_at": "2025-09-01 01:30:29.927403",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 01:30:29.937024",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "16-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last 200 years, because of better technology and health, fewer children died when they were young, and this led to rapid population growth. These large families then had even more children, who grew up to become adults and have their own families. However, things changed in the 1960s when contraception, which are methods used to prevent pregnancy, became more common. Since then, the global average number of babies for each woman has fallen from six down to just two.",
+      "timestamp": "2025-09-01 01:30:29.937228",
+      "metadata": {
+        "text_id": "437bc983-35d5-4917-9517-deea0c407b9c",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 01:30:29.941124",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f322055e-bd25-4873-afe5-df0620933d34",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2' instead of the target 'B1'. This is because of an overly complex sentence structure. Specifically, the sentence 'However, things changed in the 1960s when contraception, which are methods used to prevent pregnancy, became more common' contains nested clauses (a 'when' clause and a 'which' clause) that are too advanced for the B1 level. To fix this, split the complex sentence into simpler ones. For example: 'However, things changed in the 1960s. Contraception became more common. Contraception means methods used to prevent pregnancy.' On a positive note, the submission passed all higher-priority checks: it is factually accurate, and the high MeaningBERT (0.83) and BERTScore (0.94) confirm that meaning and key details were well-preserved. The vocabulary simplification was also excellent.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9422,
+          "meaningbert": 0.8278
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 01:30:49.353205",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last 200 years, because of better technology and health, fewer children died when they were young, and this led to rapid population growth. These large families then had even more children, who grew up to become adults and have their own families. However, things changed in the 1960s when contraception became more common. Contraception means methods used to prevent pregnancy. Since then, the global average number of babies for each woman has fallen from six down to just two.",
+      "timestamp": "2025-09-01 01:30:49.354853",
+      "metadata": {
+        "text_id": "6e4b6dcc-3100-4da3-8566-4da026d6553d",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 01:31:15.328062",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9bc7c798-a01a-47ea-be9d-923d32958b95",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2' instead of the target 'B1'. The primary issue is the definition of the keyword 'contraception'. The definition, 'Contraception means methods used to prevent pregnancy', introduces the C1-level word 'pregnancy', which is more complex than the target level. A better B1-level definition would be: 'Contraception means methods used to stop a woman from having a baby'. Additionally, the first sentence is structurally complex for a B1 reader. Suggestion: Split the first sentence into two to reduce its complexity. For example: 'In the last 200 years, technology and health got better. Because of this, fewer children died young, and the population grew quickly.' The text does successfully preserve the original meaning and facts.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9389,
+          "meaningbert": 0.8327
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 01:31:26.901681",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last 200 years, technology and health got better. Because of this, fewer children died young, and the population grew quickly. These large families then had even more children, who grew up to become adults and have their own families. However, things changed in the 1960s when contraception became more common. Contraception means methods used to stop a woman from having a baby. Since then, the global average number of babies for each woman has fallen from six down to just two.",
+      "timestamp": "2025-09-01 01:31:26.902173",
+      "metadata": {
+        "text_id": "503657ab-9e88-4daa-8619-87cdc71cd280",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 01:31:50.153934",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d01c8020-3e4a-4a21-af0d-db3f995973c9",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'A2', which is below the required 'B1' target. This failure is due to over-simplification of sentence structures and vocabulary. For example, sentences like 'In the last 200 years, technology and health got better' and 'Because of this, fewer children died young...' are structurally too simple for the B1 level. To improve, combine these ideas into a single, more complex sentence using B1-level connectors, such as: 'As technology and health improved over the last 200 years, fewer children died young, which caused the population to grow quickly.' On a positive note, the submission is factually accurate, preserves the original meaning well (MeaningBERT 0.83, BERTScore 0.93), and correctly defines the required keyword 'contraception'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9345,
+          "meaningbert": 0.835
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 01:32:07.247879",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: As technology and health improved over the last 200 years, fewer children died young, which caused the population to grow quickly. These large families then had even more children, who grew up to become adults and have their own families. However, things changed in the 1960s when contraception became more common. Contraception means methods used to stop a woman from having a baby. Since then, the global average number of babies for each woman has fallen from six down to just two.",
+      "timestamp": "2025-09-01 01:32:07.250016",
+      "metadata": {
+        "text_id": "e2663e8c-0632-41af-afdb-4b31a5b2987f",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 01:32:30.805089",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e1a5068a-0a5c-49f6-b569-236d3b9ea807",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'A2', which is below the required 'B1' target. This failure is due to over-simplification. While the text successfully preserved all facts and the core meaning, as confirmed by high BERTScore and MeaningBERT metrics, its vocabulary and sentence structure are too basic for the B1 level. For example, replacing 'declined' with 'fallen' and 'wider availability' with 'more common', combined with consistently simple sentence structures, pushed the text into the A2 category. To improve, reintroduce some B1-level vocabulary like 'available' or 'declined' and consider combining two simple sentences to create a slightly more complex structure that is still clear and readable for a B1 audience. The definition of 'contraception' was handled perfectly.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.934,
+          "meaningbert": 0.8536
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 01:32:46.085207",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: As technology and health improved over the last 200 years, fewer children died young, which caused the population to grow quickly. These large families then had even more children, who grew up to become adults and have their own families. However, things changed in the 1960s when contraception, which means methods used to stop a woman from having a baby, became more widely available. Since then, the global average number of babies for each woman has declined from six down to just two.",
+      "timestamp": "2025-09-01 01:32:46.088026",
+      "metadata": {
+        "text_id": "70c1af45-db46-4f04-903a-dcd577d6e9c3",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 01:33:09.117079",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ff1513a1-bac4-4bdd-ab71-c2760f2b743e",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2' instead of the required 'B1'. The primary reason for this is the use of overly complex sentence structures. For example, the sentence 'However, things changed in the 1960s when contraception, which means methods used to stop a woman from having a baby, became more widely available' contains multiple nested clauses, which is a feature of B2-level text. To correct this, break down complex sentences into shorter, simpler ones. For instance, that sentence could be rewritten as: 'However, things changed in the 1960s. Contraception became more widely available. Contraception means using methods to stop a woman from having a baby.' While the text successfully defined the keyword 'contraception' and maintained high factual accuracy (BERTScore 0.94, MeaningBERT 0.86), simplifying the sentence structure is essential to meet the B1 target.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9378,
+          "meaningbert": 0.8641
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 01:33:23.153421",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: As technology and health improved over the last 200 years, fewer children died young, which caused the population to grow quickly. These large families then had even more children, who grew up to become adults and have their own families. However, things changed in the 1960s. Contraception became more widely available. Contraception means methods used to stop a woman from having a baby. Since then, the global average number of babies for each woman has declined from six down to just two.",
+      "timestamp": "2025-09-01 01:33:23.154913",
+      "metadata": {
+        "text_id": "4f6f7cc3-3be7-4611-a1f7-7bdb1765b617",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 01:33:46.180241",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ef28e29d-6dd8-4ab6-8b25-052b3c44eef8",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "This is an excellent simplification that passes all checks. Factual integrity is perfectly maintained. The MeaningBERT score of 0.87 and BERTScore of 0.93 are very high, confirming that the core message and key details were successfully preserved. The text correctly achieved the target B1 classification. The writer's strategy was exemplary, particularly in splitting the final complex sentence into several shorter, clearer sentences. The required keyword 'contraception' was also defined clearly and naturally within the text, which is a model of best practice. This is a high-quality submission with no major areas for improvement.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9326,
+          "meaningbert": 0.8685
+        }
+      }
+    }
+  ]
+}

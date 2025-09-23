@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "25380224-3d61-4848-8863-2170e3ba2daa",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Pi is 16 years old.\nThe country has a new government and his parents do not like it.\nBecause they are worried about the future, they decide to close their zoo and move to Canada.\nThey sell some animals to zoos in North America.\nThe family travels to Canada on a big ship and takes the other animals with them.\nOn the journey, there is a very bad storm and the ship sinks.\nSadly, Pi's family and the people on the ship die in the water, but Pi survives in a small boat with a hyena, a zebra, an orang-utan and a very big tiger.",
+    "version": 6,
+    "created_at": "2025-09-01 10:41:36.969544",
+    "updated_at": "2025-09-01 10:41:36.969554",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "658a878e-125a-45c4-8775-5c99c96df3db",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6657 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text.\n\n- The simplification of key concepts has weakened the text's meaning. The original text conveys a specific sense of tragedy and sudden, disorienting events.\n- The phrase 'Tragically... all drown' was replaced with 'Sadly... die in the water'. This replacement is too general. It loses the specific, violent, and impactful meaning of 'drown', which is central to the tragic event.\n- The original 'finds himself in a lifeboat' implies a sudden and surprising situation. Your version, 'Pi survives in a small boat', is a simple summary of the outcome and loses this important nuance of disorientation.\n- While 'emigrate' is a B1 word, its replacement 'move' does not fully capture the meaning of leaving one's country permanently to settle in another.\n\nSuggestion: Rephrase to restore the core meaning. The concept of 'drowning' must be communicated more directly to preserve the tragic tone. The description of Pi's survival must better reflect the suddenness of the event.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.9442,
+      "meaningbert": 0.6657
+    },
+    "created_at": "2025-09-01 10:42:03.034309"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "c195f57a-db8c-41cd-a26b-7d3a437692ff",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Pi is 16 years old.\nThe country has a new government.\nHis parents do not like this government.\nThey are worried about the future, so they decide to close their zoo.\nThey want to move to Canada.\nThey sell some animals to zoos in North America.\nThe family travels to Canada on a big ship.\nThey take the other animals with them.\nOn the journey, there is a very bad storm and the ship sinks.\nSadly, Pi's family and the people on the ship die in the water, but Pi does not die.\nHe is in a small boat with a hyena, a zebra, an orang-utan and a very big tiger.",
+    "version": 3,
+    "created_at": "2025-09-01 10:39:01.360698",
+    "updated_at": "2025-09-01 10:39:01.360701",
+    "metrics_meaningbert": 0.6723,
+    "metrics_cefr_compliance": "A2"
+  }
+}

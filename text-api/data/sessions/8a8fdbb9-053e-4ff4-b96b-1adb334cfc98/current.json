@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "53046a7f-c656-4934-90f9-d63cc736b2f2",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "We have bought many things in our lives.  \nSome of them are not used well.  \n\nWe may have a thick wool coat, but we do not wear it because we live in a hot country.  \nWe thought it looked nice, despite the fact that it is not good.  \n\nWe may have an old phone.  \nWe keep it after we buy a new phone, but we use it little.  \n\nWe may have a car, but we only drive it on weekends.  \n\nWe may have a guest room.  \nWe turn it into a storeroom.  \n\nAll these things are not put to good use.",
+    "version": 11,
+    "created_at": "2025-09-01 17:25:38.222951",
+    "updated_at": "2025-09-01 17:25:38.222952",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "0f6a407d-06dd-4455-acc7-698918b24fd6",
+    "approval": "FAIL",
+    "grade": 1,
+    "feedback": "FAIL: Factual Inaccuracy. The original text states the wool coat is unused because 'we live in a tropical country'. Your version incorrectly states 'it is not good', which changes the core reason for the item's disuse.\n\n- Meaning Preservation Failure: This factual error is confirmed by the metrics. The MeaningBERT score of 0.6412 is critically below the required 0.75, indicating a severe loss of the original message.\n\n- Fidelity Failure: The BERTScore of 0.8637 is below the 0.90 threshold. This shows a failure to retain key factual phrasing from the source text.\n\n- Vocabulary Violation: The text uses the word 'despite', which is B1 level and not compliant with the A2 standard.\n\n- Structural Violation: The phrase 'despite the fact that' is a B1-level complex clause. A2 texts must use simpler connectors.\n\nSuggestion: Rephrase the sentence about the coat to state the correct reason: 'we live in a hot country'. Remove the B1 phrase 'despite the fact that'. Use a simple A2 connector like 'but'.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8637,
+      "meaningbert": 0.6412
+    },
+    "created_at": "2025-09-01 17:26:03.215152"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "ea313315-c9bd-4468-a251-dbedddbcf9aa",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "If we look at the things we own, we see a problem. We buy many things in our lives. Some of them we do not use for their purpose. For example, we may buy a thick wool coat. We buy it because it looks trendy. But we do not use the coat in a hot country. We may keep an old phone after we buy a new one. We use the old phone little. We may have a car that we drive only on weekends. We may have a guest room that we turn into a storeroom. We buy all these things but do not use them well.",
+    "version": 8,
+    "created_at": "2025-09-01 17:23:46.288719",
+    "updated_at": "2025-09-01 17:23:46.288719",
+    "metrics_meaningbert": 0.6671,
+    "metrics_cefr_compliance": "A2"
+  }
+}

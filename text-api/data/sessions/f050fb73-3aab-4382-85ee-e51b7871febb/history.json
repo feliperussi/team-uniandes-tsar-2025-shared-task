@@ -1,0 +1,598 @@
+{
+  "session_id": "f050fb73-3aab-4382-85ee-e51b7871febb",
+  "created_at": "2025-08-31 22:18:46.218911",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:18:46.232694",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "17-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Knowing about different ways people act can help us.\nIt can stop problems when we talk.\nBut we must also remember something very important.\nA stereotype is a simple idea about a group of people. It is often not true.\nStereotypes can be bad for good work relationships.\n\nCulture from a country can change how we act and think.\nBut other things also change us a lot.\nThe place we come from changes us.\nThe people we spend time with change us.\nOur age changes us.\nIf we are a man or a woman changes us.\nOur work culture changes us.\nOur own life experiences change us.\n\nSo, we should know about possible differences.\nBut we should not use them to judge all people from one country.",
+      "timestamp": "2025-08-31 22:18:46.232802",
+      "metadata": {
+        "text_id": "7b87345a-399f-4d28-a0ec-edff14ce2159",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:18:47.172584",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2d563927-bad4-473a-b8a2-d34d7b74c3cd",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Preservation Failure. The text fails to adequately preserve the core meaning and lexical fidelity of the original, and it also fails CEFR compliance. \n\nDetected Deviations:\n- Meaning Preservation Failure: The MeaningBERT score of 0.6239 is significantly below the required 0.75. The nuanced concepts of 'expectations and behaviour' and 'miscommunication' are oversimplified to 'ways people act' and 'problems when we talk'. Furthermore, the instruction to 'keep knowledge at the back of our minds' is reduced to 'know about possible differences', losing the subtle implication of how that knowledge should be applied.\n- Fidelity Failure: The BERTScore of 0.8811 is below the required 0.90. This indicates a significant loss of specific lexical detail. Key terms such as 'expectations', 'behaviour', 'miscommunication', 'detrimental', 'business relationships', 'national cultures', 'shaping', 'region', 'communities', 'gender', 'corporate culture', 'individual experiences', 'potential differences', 'pigeonhole', and 'entire nation' were replaced with less specific or simpler alternatives, reducing the lexical overlap with the original text.\n- CEFR Compliance Failure: The CEFR classifier rated the text as 'B1', not the required 'A2'. This is primarily due to the use of the word 'judge' in the sentence 'But we should not use them to judge all people from one country.' The word 'judge' is classified as a B1 vocabulary item, which is above the A2 standard.\n\nCorrective Path:\n- Rephrase sentences to more accurately reflect the specific concepts of 'expectations and behaviour' without oversimplifying. For example, instead of 'ways people act', consider 'how people expect things and how they act'.\n- Restore more specific vocabulary where possible, ensuring it remains within the A2 level. For instance, 'detrimental' could be 'very bad' or 'harmful'. 'Business relationships' could be 'work friendships' or 'work connections'.\n- Replace the B1 word 'judge' with an A2 alternative. For example, 'think badly of' or 'make quick decisions about'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8811,
+          "meaningbert": 0.6239
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:18:56.893294",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Knowing about different ways people expect things and act can help us.\nIt can stop problems when we talk to each other.\nBut we must also remember something very important.\nA stereotype is a simple idea about a group of people. It is often not true.\nStereotypes can be very bad for good work friendships.\n\nCulture from a country can change how we act and think.\nBut other things also change us a lot.\nThe place we come from changes us.\nThe people we spend time with change us.\nOur age changes us.\nIf we are a man or a woman changes us.\nOur work culture changes us.\nOur own life experiences change us.\n\nSo, we should know about these possible differences.\nWe should remember them.\nBut we should not use them to think all people from one country are the same.",
+      "timestamp": "2025-08-31 22:18:56.893580",
+      "metadata": {
+        "text_id": "1ad94ace-3301-4077-bce5-b6d23b707069",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 22:19:25.774040",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5999cbcf-f350-4119-b325-a17f792bb926",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The text fails to preserve the core message and lexical fidelity of the original.\n\nDetected Deviations:\n1.  Meaning Preservation Failure: The MeaningBERT score of 0.5981 is significantly below the required 0.75. The original text emphasizes the 'detrimental' nature of stereotypes for 'business relationships' and the caution against 'pigeonholing individuals of an entire nation'. Your version simplifies 'detrimental' to 'very bad' and 'business relationships' to 'work friendships', losing the specific negative impact and professional context. The nuanced warning against 'pigeonholing' is reduced to 'think all people from one country are the same', which diminishes the original's critical message about individual differences and judgment.\n2.  Lexical Fidelity Failure: The BERTScore of 0.8786 is below the required 0.90. This indicates a significant loss of key words and factual phrasing. For example, 'miscommunication' was replaced by 'problems when we talk to each other', 'detrimental' by 'very bad', 'business relationships' by 'work friendships', 'corporate culture' by 'work culture', and 'pigeonhole the individuals of an entire nation' by 'think all people from one country are the same'. These replacements, while simpler, deviate too much from the original's specific terminology.\n3.  CEFR Compliance Failure: The CEFR_Classifier_Result is 'B1', not the required 'A2'. The presence of the word 'stereotype' (C1 level) contributes to this classification, even though it is defined. For strict A2 compliance, even defined keywords should ideally be within the A2 vocabulary range or replaced with A2 synonyms if possible, or the definition should be the primary term used.\n\nCorrective Path:\n1.  Rephrase to more accurately convey the 'detrimental' impact of stereotypes on 'business relationships'. Use A2 vocabulary to describe the negative consequences more precisely.\n2.  Increase lexical overlap with the original text where appropriate, ensuring key concepts are represented with A2-level synonyms that maintain fidelity. For instance, 'miscommunication' could be explained as 'not understanding each other well'.\n3.  Ensure all vocabulary, including keywords, strictly adheres to the A2 level. If a keyword is above A2, it must be replaced by an A2 synonym or the definition itself must serve as the primary term, avoiding the higher-level word entirely.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8786,
+          "meaningbert": 0.5981
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:19:38.679898",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Knowing about different ways people expect things and act can help us.\nIt can stop us from not understanding each other well.\nBut we must also remember something very important.\nSimple ideas about a group of people are often not true.\nThese ideas can hurt how we work with people in business.\n\nCulture from a country can change how we act and think.\nBut other things also change us a lot.\nThe place we come from changes us.\nThe people we spend time with change us.\nOur age changes us.\nIf we are a man or a woman changes us.\nHow people work in a company changes us.\nOur own life experiences change us.\n\nSo, we should know about these possible differences.\nWe should remember them.\nBut we should not use these ideas to judge all people from one country.",
+      "timestamp": "2025-08-31 22:19:38.680282",
+      "metadata": {
+        "text_id": "c8ee93bd-efb1-4abe-9409-56b9959e60dd",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:20:01.018267",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2967b0f8-aa5b-4a20-aafc-2c32d8d8e69c",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure and Fidelity Failure. The MeaningBERT score of 0.5844 is significantly below the required 0.75, indicating a failure to preserve the core message. The BERTScore of 0.8805 is also below the required 0.90, showing a loss of key lexical detail. The original text emphasizes the 'detrimental' nature of 'cultural stereotypes' and the 'vital' need for 'increased awareness'. Your version dilutes this by simplifying 'cultural stereotypes' to 'Simple ideas about a group of people are often not true', which loses the nuance of fixed, oversimplified, and potentially harmful generalizations. The strong warning about 'detrimental' effects is softened to 'can hurt'. The concept of 'increased awareness' is reduced to 'Knowing about different ways'. The phrase 'keep at the back of our minds' is simplified to 'know about these possible differences. We should remember them', losing the nuance of subtle, background awareness. While the text was classified as A2, this does not compensate for the significant loss of original meaning and lexical fidelity. Suggestion: Rephrase the definition of 'stereotypes' to include the idea of fixed or oversimplified ideas. Strengthen the language to convey the 'detrimental' impact more clearly. Ensure key concepts like 'miscommunication' and 'corporate culture' are simplified without losing their specific meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8805,
+          "meaningbert": 0.5844
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:20:13.423920",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: It is very important to know about different ways people expect things and act.\nThis can help us understand each other better.\nBut we must also remember something very important.\nStereotypes are simple ideas about a group of people.\nThese ideas are often not true.\nThey can be very bad for how we work with people in business.\n\nCulture from a country can change how we act and think.\nBut other things also change us a lot.\nThe place we come from changes us.\nThe people we spend time with change us.\nOur age changes us.\nIf we are a man or a woman changes us.\nHow people work in a company changes us.\nOur own life experiences change us.\n\nSo, we should know about these possible differences.\nWe should remember them.\nBut we should not use these ideas to think bad things about all people from one country.",
+      "timestamp": "2025-08-31 22:20:13.424466",
+      "metadata": {
+        "text_id": "487d2f64-d7c7-4b95-afa7-05ae60e3cda2",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:20:37.357631",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "32341309-0b40-424a-8be1-bacccc0508a8",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation and Fidelity Failure. The text fails to adequately preserve the core meaning and lexical fidelity of the original text, and also fails CEFR compliance. The MeaningBERT score of 0.6482 is significantly below the required 0.75, indicating a substantial loss of the original message's nuance and impact. The BERTScore of 0.8771 is below the required 0.90, demonstrating a significant loss of key vocabulary and factual phrasing. Furthermore, the CEFR classifier rated the text as B1, not A2, indicating it is too complex for the target level. Deviations are detailed below: 1. Meaning Preservation Failure: The MeaningBERT score of 0.6482 is too low. The original text's emphasis on 'avoid cases of miscommunication' is diluted to 'help us understand each other better'. The strong warning against 'detrimental to building good business relationships' is weakened to 'very bad for how we work with people in business'. The precise concept of 'pigeonhole the individuals of an entire nation' is oversimplified to 'think bad things about all people from one country', losing the specific nuance of categorization. 2. Fidelity Failure: The BERTScore of 0.8771 is below the required 0.90. Key lexical items from the original text were replaced with less precise or generic terms. Examples include 'increased awareness' replaced with 'know about different ways', 'expectations and behaviour' replaced with 'expect things and act', 'miscommunication' replaced with 'understand each other better', 'detrimental' replaced with 'very bad', 'shaping' replaced with 'change', 'corporate culture' replaced with 'how people work in a company', and 'pigeonhole' replaced with 'think bad things about'. This loss of specific vocabulary reduces the fidelity to the original content. 3. CEFR Compliance Failure: The CEFR classifier rated the text as B1, not A2. This is primarily due to the use of B1-level sentence structures. Specifically, the sentences 'If we are a man or a woman changes us.' and 'How people work in a company changes us.' use noun clauses as subjects, which are considered B1 grammatical structures. These must be simplified for A2. Suggestion: Rephrase sentences to restore the original meaning's strength and precision. For example, 'avoid miscommunication' instead of 'understand each other better'. Use more direct and A2-appropriate phrasing for complex ideas. Simplify B1 grammatical structures; for example, 'Our gender changes us.' instead of 'If we are a man or a woman changes us.' and 'The way people work in a company changes us.' or 'Work culture changes us.' instead of 'How people work in a company changes us.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8771,
+          "meaningbert": 0.6482
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:20:46.960690",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: It is good to know about how people expect things and how they act.\nThis can help us avoid bad talks.\nBut we must also remember one important thing.\nStereotypes are simple ideas about a group of people.\nThese ideas are often not true.\nThey can be bad for business talks.\n\nCulture from a country can change how we act and think.\nBut other things also change us a lot.\nThe place we come from changes us.\nThe people we spend time with change us.\nOur age changes us.\nOur gender changes us.\nWork culture changes us.\nOur own life experiences change us.\n\nSo, we should know about these possible differences.\nWe should remember them.\nBut we should not use these ideas to put all people from one country in a small box.",
+      "timestamp": "2025-08-31 22:20:46.961518",
+      "metadata": {
+        "text_id": "355f7214-9ac1-414b-b998-a03ffe767723",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:21:13.616267",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "102f190b-cc32-4d3f-af5f-79ee59776f8e",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6037 is significantly below the required 0.75. The nuanced message of the original text, particularly regarding the distinction between 'increased awareness' and the 'detrimental' nature of 'cultural stereotypes' in 'building good business relationships', has been lost in the simplification. The original implies a more active and critical understanding, while your version presents a more passive 'good to know' approach, failing to capture the depth of the original's warning. \n\nFAIL: Fidelity Failure. The BERTScore of 0.8856 is below the required 0.90. Your text replaced many key terms from the original with overly simplified or less precise phrases, leading to a significant loss of lexical detail. For example, 'increased awareness' became 'good to know', 'miscommunication' became 'bad talks', and 'detrimental to building good business relationships' became 'bad for business talks'. This reduces the fidelity to the original's specific phrasing. \n\nFAIL: CEFR Compliance. The classifier rated your text as B1, not A2. This indicates the text is still too complex for the target level. \n1. Grammar: The primary reason for this classification is the use of implicit relative clauses, which are characteristic of B1 grammar. For instance, 'The place we come from changes us' and 'The people we spend time with change us' are B1 structures. A2 requires simpler sentence constructions or explicit relative pronouns. \n2. Vocabulary: The word 'gender' is classified as B1, but it is used in your A2 text ('Our gender changes us.'). All vocabulary must strictly adhere to the A2 level. \n\nSuggestion: Rephrase sentences to explicitly state relationships rather than implying them with omitted relative pronouns. For example, change 'The place we come from changes us' to 'We come from a place. This place changes us.' or 'The place where we live changes us.' Replace the B1 word 'gender' with an A2 alternative or rephrase the sentence to avoid it. Ensure that the core message about the nuance of using cultural knowledge (awareness vs. stereotyping) is preserved more accurately, even with simpler words.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8856,
+          "meaningbert": 0.6037
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:21:24.507820",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We should know that people expect different things. They also act in different ways. This can help us. We can avoid problems when we talk.\nBut we must remember one important thing. Stereotypes are simple ideas about a group of people. These ideas are often not true. They can stop us from making good business relationships.\n\nCulture from a country can change how we act and think. But other things also change us a lot.\nWe come from a place. This place changes us.\nWe spend time with people. These people change us.\nOur age changes us.\nIf we are a man or a woman, this changes us.\nWork culture changes us.\nOur own life experiences change us.\n\nSo, we should know about these possible differences. We should remember them. But we should not use these ideas to think all people from one country are the same.",
+      "timestamp": "2025-08-31 22:21:24.508328",
+      "metadata": {
+        "text_id": "a2d748b9-d87c-4973-aa6a-29b6848748a0",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-08-31 22:21:50.387363",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6d9817ca-4d8f-40c4-82fc-e7f4bf485c4a",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6475 is significantly below the required 0.75. This indicates a substantial loss of the original text's core message and nuance. The BERTScore of 0.8735 is also below the required 0.90, confirming a significant loss of key lexical detail. Specific deviations: - The phrase 'increased awareness of the possible differences in expectations and behaviour can help us avoid cases of miscommunication' was simplified to 'We should know that people expect different things. They also act in different ways. This can help us. We can avoid problems when we talk.' This loses the specific concepts of 'increased awareness' and 'miscommunication'. - The term 'detrimental to building good business relationships' was simplified to 'They can stop us from making good business relationships.' While simpler, 'detrimental' carries a stronger negative connotation that is not fully captured. The word 'cultural' before 'stereotypes' was also omitted. - The nuance of 'national cultures could play a part in shaping the way we behave and think' was reduced to 'Culture from a country can change how we act and think.' The idea of 'playing a part' and 'shaping' is less precise than 'can change'. - 'Largely influenced by' was simplified to 'change us a lot', which is less formal and precise. - 'Keep at the back of our minds' was simplified to 'know about these possible differences. We should remember them.' This loses the idiomatic subtlety of the original. - 'Pigeonhole the individuals of an entire nation' was simplified to 'think all people from one country are the same.' While an A2 equivalent, the specific, strong verb 'pigeonhole' is lost, reducing the impact. Suggestion: Rephrase the text to retain more of the original's specific meaning and key terms while still adhering to A2 vocabulary and sentence structures. Focus on preserving the precise nature of the original's arguments. For example, instead of 'problems when we talk', consider 'problems with talking to people' or 'when we do not understand each other'. Ensure that the negative impact of stereotypes is clearly conveyed with stronger A2 phrasing.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8735,
+          "meaningbert": 0.6475
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:22:07.173614",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: People expect different things. They also act in different ways. If we know more about this, it helps us. We can avoid problems when we do not understand each other.\nBut we must remember one important thing. Cultural stereotypes are simple ideas about a group of people. These ideas are often not true. They can be very bad for good business relationships.\nCulture from a country can change how we act and think. This is one part of what changes us. But many other things also change us a lot. We come from a place. This place changes us. We spend time with people. These people change us. Our age changes us. If we are a man or a woman, this changes us. Work culture changes us. Our own life experiences change us.\nSo, we should know about these possible differences. We should remember them. But we should not use these ideas too much. We must not think all people from one country are the same.",
+      "timestamp": "2025-08-31 22:22:07.176417",
+      "metadata": {
+        "text_id": "8a3d38ea-17b3-411f-8ee0-bf7e67281628",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:22:28.435223",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1b2f8c9d-357a-468e-9bf0-78f546dc58e9",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6209 is significantly below the required 0.75. The core message's nuance and impact from the original text have been lost in simplification. The original emphasizes the 'detrimental' nature of stereotypes and the specific act of 'pigeonholing' individuals. Your version dilutes this to 'very bad' and 'not think all people from one country are the same', which loses the strength and precision of the original warning. The concept of 'increased awareness' is also weakened to 'know more about this'.\n\nFAIL: Fidelity Failure. The BERTScore of 0.8742 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original text. Specific terms like 'miscommunication', 'detrimental', 'vital', 'shaping', 'corporate culture', and 'pigeonhole' were replaced with less precise or more generic phrases, reducing the lexical overlap and fidelity to the original content.\n\nSuggestion: Rephrase the text to ensure that while simplifying vocabulary, the precise meaning and the strength of the original message, especially regarding the negative impact of stereotypes and the nuanced application of cultural knowledge, are fully preserved. Focus on finding A2 equivalents that maintain the original's specific intent and impact, rather than just general meaning. For example, find a way to convey 'detrimental' more strongly than 'very bad' if the context demands it, or 'pigeonhole' with a phrase that captures its specific meaning of categorizing unfairly.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8742,
+          "meaningbert": 0.6209
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:22:40.968497",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: People expect different things. They act in different ways. If we are more aware of these differences, it helps us. We can stop problems. These problems happen when we do not understand each other.\nBut we must remember one very important thing. Stereotypes are simple ideas about a group of people. These ideas are often not true. They can hurt good business relationships.\nCulture from a country can make us act and think. This is one part of what changes us. But many other things also change us a lot. The place we come from changes us. The people we are with change us. Our age changes us. If we are a man or a woman, this changes us. Work culture changes us. Our own life experiences change us.\nSo, we should know about these possible differences. We should remember them. But we should not use these ideas to judge people. We must not put all people from one country in the same box.",
+      "timestamp": "2025-08-31 22:22:40.972641",
+      "metadata": {
+        "text_id": "28a11f32-f933-4535-b200-cce0f7e817cc",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:23:00.690474",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1489bcca-87f1-4a5c-b1fe-a3e7a5d5d0a7",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5923 is significantly below the required 0.75. The writer's output loses crucial nuances and the strength of the original message. The original text emphasizes the 'vital' and 'detrimental' nature of stereotypes and the strong negative connotation of 'pigeonhole'. While the writer's output attempts to simplify these, the semantic weight is not fully preserved. For example, 'detrimental to building good business relationships' is simplified to 'hurt good business relationships', which is weaker. Similarly, 'pigeonhole the individuals of an entire nation' is simplified to 'judge people' and 'put all people from one country in the same box', which loses the specific negative implication of rigid, unfair categorization. The original's emphasis on being 'largely influenced' by individual factors is also somewhat diluted by 'many other things also change us a lot'. These combined semantic shifts result in a failure to adequately preserve the core meaning and emphasis of the original text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8737,
+          "meaningbert": 0.5923
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:23:11.920283",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: People expect different things. They act in different ways. If we know about these differences, it helps us. We can stop problems. These problems happen when we do not understand each other.\nBut we must remember one very important thing. Stereotypes are simple ideas about a group of people. These ideas are often not true. They can damage good business relationships.\nCulture from a country can make us act and think. This is one part of what changes us. But many other things also change us very much. The place we come from changes us. The people we are with change us. Our age changes us. If we are a man or a woman, this changes us. Work culture changes us. Our own life experiences change us.\nSo, we should know about these possible differences. We should remember them. But we must not put people from one country into a small box. This is not fair.",
+      "timestamp": "2025-08-31 22:23:11.923090",
+      "metadata": {
+        "text_id": "fb2dd7e7-a1c9-4c62-b87b-89f81b120c51",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:23:33.713766",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "45f3f546-a0ec-4754-956a-ba995109411f",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Preservation Failure. The text fails to adequately preserve the core meaning and lexical fidelity of the original. The MeaningBERT score of 0.6163 is significantly below the required 0.75, indicating a substantial loss of the original message's nuance and emphasis. The BERTScore of 0.8728 is below the required 0.90, showing a significant deviation in key vocabulary and phrasing from the original text. This indicates that while the general topics are covered, the specific intent and lexical detail are not sufficiently maintained for an A2 simplification. \n\nAdditionally, the text fails CEFR compliance. The CEFR classifier rated the output as B1, not A2. This is primarily due to the use of vocabulary that exceeds the A2 level. \n\nSpecific Deviations:\n- Meaning Preservation: The overall simplification, while aiming for A2, has diluted the strength of the original message. For example, 'increased awareness' is reduced to 'know about these differences', and 'detrimental to building good business relationships' is simplified to 'damage good business relationships'. While these are simpler, the cumulative effect reduces the semantic similarity to the original. \n- Lexical Fidelity: Key phrases and specific vocabulary from the original have been replaced with much simpler, but less precise, alternatives. This is reflected in the low BERTScore. For instance, 'avoid cases of miscommunication' became 'stop problems. These problems happen when we do not understand each other.' and 'pigeonhole the individuals of an entire nation' became 'put people from one country into a small box. This is not fair.'\n- Vocabulary: The word 'damage' is classified as B1. An A2 text must strictly adhere to A2 vocabulary. This word directly contributes to the B1 CEFR classification. \n\nCorrective Path:\n- Re-evaluate the simplification strategy to ensure that while simplifying, the core emphasis and specific nuances of the original message are not lost. Focus on maintaining a higher MeaningBERT score by ensuring the simplified phrases carry the same weight as the original. \n- Review the text for any vocabulary that exceeds the A2 level. Replace 'damage' with an A2 alternative such as 'hurt' or 'cause problems for'. \n- Ensure that the lexical choices, even when simplified, maintain a closer resemblance to the original's key terms to improve the BERTScore.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8728,
+          "meaningbert": 0.6163
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:23:45.097787",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: People expect different things. They act in different ways. If we know more about these differences, it helps us. We can stop problems when we talk.\nBut we must remember one very important thing. Stereotypes are simple ideas about a group of people. These ideas are often not true. They can hurt good business relationships.\nCulture from a country can make us act and think. This is one part of what changes us. But many other things also change us very much. The place we come from changes us. The people we are with change us. Our age changes us. If we are a man or a woman, this changes us. Work culture changes us. Our own life experiences change us.\nSo, we should know about these possible differences. We should remember them. But we must not put people from one country into a small box.",
+      "timestamp": "2025-08-31 22:23:45.100611",
+      "metadata": {
+        "text_id": "16cfa810-ac8d-4e19-a31a-8468219f5b96",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:24:07.751873",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ccf9070d-0b53-4f1d-8415-41fc800cf6b1",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The MeaningBERT score of 0.591 is below the required 0.75. This indicates a failure to preserve the core message's depth and nuance. The BERTScore of 0.8764 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original. Deviations: Meaning Preservation Failure: The original text's emphasis on \"increased awareness,\" \"avoid cases of miscommunication,\" \"detrimental to building good business relationships,\" and the nuanced concept of \"keeping knowledge at the back of our minds rather than using it to pigeonhole\" has been significantly diluted. For example, \"increased awareness\" is reduced to \"know more about these differences,\" losing the active, continuous nature of \"awareness.\" \"Avoid cases of miscommunication\" becomes \"stop problems when we talk,\" which is too general. The subtle distinction of \"keeping at the back of our minds\" versus \"pigeonhole\" is simplified to \"remember them\" and \"not put people...into a small box,\" losing some of the original's specific intent. Lexical Fidelity Failure: Key terms and phrases from the original have been replaced with overly simplistic or generic alternatives, leading to a loss of specific information. Examples include: \"increased awareness\" -> \"know more\"; \"expectations and behaviour\" -> \"expect different things. They act in different ways.\" (Loss of the noun forms); \"miscommunication\" -> \"problems when we talk\"; \"detrimental to building good business relationships\" -> \"hurt good business relationships\" (Loss of \"detrimental\" and \"building\"); \"national cultures could play a part in shaping\" -> \"Culture from a country can make us act and think. This is one part of what changes us.\" (Loss of \"shaping\" and \"play a part\"); \"largely influenced by\" -> \"many other things also change us very much\" (Loss of \"influenced\"); \"communities we associate with\" -> \"The people we are with\"; \"corporate culture\" -> \"Work culture\"; \"individual experiences of the world\" -> \"Our own life experiences\"; \"pigeonhole the individuals of an entire nation\" -> \"put people from one country into a small box\" (While a good A2 simplification, it is a complete lexical departure from the original phrase, contributing to the low BERTScore). Corrective Path: 1. Restore the specific meaning of \"awareness\" and \"miscommunication\" using A2 vocabulary. 2. Ensure that the negative impact of stereotypes is conveyed with more precision than just \"hurt.\" 3. Rephrase to retain more of the original's specific influences (e.g., \"influenced by\" rather than just \"changes us\"). 4. While simplifying \"pigeonhole,\" ensure the lexical connection to the original concept is stronger to improve BERTScore.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8764,
+          "meaningbert": 0.591
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:24:22.491299",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: People expect different things. People act in different ways. If we understand these differences more, it helps us. We can avoid problems when we talk.\nBut we must remember something important. Stereotypes are simple ideas about a group of people. These ideas are often not true. They can be bad for making good business relationships.\nCulture from a country can help make us act and think. This is one thing that changes us. But many other things also change us a lot. The place we come from changes us. The groups of people we are with change us. Our age changes us. If we are a man or a woman, this changes us. Work culture changes us. Our own life experiences change us.\nSo, we should know about these possible differences. We should remember them. But we must not use these ideas to say all people from one country are the same.",
+      "timestamp": "2025-08-31 22:24:22.494066",
+      "metadata": {
+        "text_id": "87624624-f33a-4151-9077-32b6ef98c20f",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:24:37.361590",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "abd315c4-e0ee-4b95-b786-cc0500572ced",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The text fails to preserve the core meaning and lexical fidelity of the original text, falling significantly below the required metrics. This is an instant fail. The MeaningBERT score of 0.5886 is far below the required 0.75. The BERTScore of 0.879 is below the required 0.90. The simplification has resulted in a loss of critical nuance and specific vocabulary from the original. For example: The original phrase 'increased awareness of the possible differences in expectations and behaviour can help us avoid cases of miscommunication' is reduced to 'If we understand these differences more, it helps us. We can avoid problems when we talk.' This loses the specific concept of 'miscommunication' and the more formal 'increased awareness'. The original's 'detrimental to building good business relationships' is simplified to 'bad for making good business relationships', which, while conveying a similar idea, loses the specific and stronger term 'detrimental' and the more formal 'building'. The nuanced concept of 'pigeonhole the individuals of an entire nation' is simplified to 'say all people from one country are the same', which is a significant reduction in the specific meaning of 'pigeonhole'. Key terms like 'corporate culture' and 'individual experiences' are also simplified or rephrased in a way that loses their specific lexical presence. The text must retain more of the original's specific meaning and key vocabulary, even when simplifying. Rephrase to ensure the core message about the detrimental nature of stereotypes and the nuance of cultural understanding is fully preserved, not just the basic facts. Ensure that the simplification does not lead to a loss of the original's specific concepts, but rather rephrases them in A2 terms while maintaining fidelity.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.879,
+          "meaningbert": 0.5886
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:24:49.541950",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 12,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: People expect different things. People act in different ways. If we know about these differences more, it helps us. We can stop bad talking. We can stop not understanding each other.\nBut we must remember something important. Stereotypes are simple ideas about a group of people. These ideas are often not true. They can be very bad for making good business friends.\nCulture from a country can make us act and think. This is one thing that changes us. But many other things also change us a lot. The place we come from changes us. The groups of people we are with change us. Our age changes us. If we are a man or a woman, this changes us. Our work culture changes us. Our own experiences in life change us.\nSo, we should know about these possible differences. We should remember them. But we must not use these ideas to put all people from one country into a small box.",
+      "timestamp": "2025-08-31 22:24:49.543996",
+      "metadata": {
+        "text_id": "91820011-6f38-4502-8eee-13081b19d38b",
+        "version": 12
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:25:15.216720",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "75041a07-7e11-4316-acf1-cf04def6c279",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Loss. The text fails to preserve the core message and lexical detail of the original, despite being factually accurate.\n\n*   Meaning Preservation Failure: The MeaningBERT score of 0.5875 is significantly below the required 0.75. The extensive simplification has diluted the original's nuanced message. For example, 'increased awareness of the possible differences in expectations and behaviour can help us avoid cases of miscommunication' is reduced to 'If we know about these differences more, it helps us. We can stop bad talking. We can stop not understanding each other.' This loses the strength and specific benefit of 'increased awareness' and the concept of 'miscommunication'. Similarly, 'detrimental to building good business relationships' is weakened to 'very bad for making good business friends'. The original's emphasis on the complexity of influences beyond national culture and the caution against 'pigeonholing' is also presented with less force.\n*   Fidelity Failure: The BERTScore of 0.8751 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original text. Many specific terms and phrases were replaced with overly simple or generic alternatives, reducing the lexical overlap. Examples include 'increased awareness' replaced by 'know about these differences more', 'avoid cases of miscommunication' by 'stop bad talking. We can stop not understanding each other', 'detrimental' by 'very bad', 'building good business relationships' by 'making good business friends', 'national cultures could play a part in shaping' by 'Culture from a country can make us act and think', 'largely influenced by' by 'many other things also change us a lot', 'corporate culture' by 'work culture', 'individual experiences of the world' by 'own experiences in life', and 'pigeonhole the individuals of an entire nation' by 'put all people from one country into a small box'. While some of these are appropriate A2 simplifications, the cumulative effect results in a significant loss of the original's specific language.\n*   CEFR Compliance: The CEFR classifier rated the text as A2, which is the target level. However, this does not override the critical failures in meaning and fidelity.\n*   Vocabulary Audit: The vocabulary used is generally appropriate for A2, and the definition of 'stereotypes' is well-simplified. However, the oversimplification of vocabulary and sentence structure directly contributed to the loss of meaning and lexical fidelity.\n\nSuggestion: Rephrase the text to retain more of the original's specific meaning and key terms while still adhering to A2 vocabulary and grammar. Focus on conveying the *strength* of the original message. For example, instead of 'stop bad talking', consider 'avoid misunderstandings'. Ensure that the nuance of 'detrimental' and the specific idea of 'pigeonholing' are conveyed with A2-appropriate synonyms that maintain their original impact.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8751,
+          "meaningbert": 0.5875
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:25:24.511121",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 13,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: People expect different things. People act in different ways. If we know more about different expectations and actions, it helps us. We can avoid misunderstandings.\nBut we must remember something important. Stereotypes are simple ideas about a group of people. These ideas are often not true. They can be very harmful for good business relationships.\nCulture from a country can make us act and think. This is one thing that changes us. But many other things also influence us. The place we come from influences us. The groups of people we are with influence us. Our age influences us. If we are a man or a woman, this influences us. Our work culture influences us. Our own experiences in life influence us.\nSo, we should know about these possible differences. We should remember them. But we must not use these ideas to judge all people from one country.",
+      "timestamp": "2025-08-31 22:25:24.512859",
+      "metadata": {
+        "text_id": "49959e92-7bdb-463a-87c0-e5ee8d1bec45",
+        "version": 13
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-08-31 22:25:50.980346",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e2e825e4-4b28-45bb-9198-470610d660a6",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation and Fidelity Failure. The text fails to meet the required standards for meaning preservation and lexical fidelity to the original. This is a critical failure at Priority 2. Furthermore, the text also failed the CEFR Compliance Check at Priority 3. Meaning Preservation Failure: The MeaningBERT score of 0.6335 is significantly below the required 0.75. The original text's nuanced message regarding 'increased awareness of possible differences' and the concept of 'detrimental to building good business relationships' has been diluted. For example, 'Having an increased awareness of the possible differences in expectations and behaviour can help us avoid cases of miscommunication' is reduced to fragmented sentences like 'People expect different things. People act in different ways. If we know more about different expectations and actions, it helps us. We can avoid misunderstandings.' This loses the original's emphasis on 'increased awareness' and the integrated benefit. The specific negative action of 'pigeonhole' is also lost by replacing it with the more general 'judge'. Fidelity Failure: The BERTScore of 0.8826 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original. Terms like 'increased awareness', 'possible differences', 'vital', 'cultural stereotypes', 'detrimental to building', 'play a part in shaping', 'largely influenced', 'corporate culture', 'individual experiences of the world', 'therefore', 'keep at the back of our minds', and 'pigeonhole' have been replaced or omitted, leading to a substantial lexical distance from the source. CEFR Compliance Failure: The CEFR classifier rated the output as B1, not A2. This is primarily due to the repeated use of the B1 vocabulary word 'influence' (e.g., 'many other things also influence us', 'The place we come from influences us') and the use of the B1 word 'judge' ('But we must not use these ideas to judge all people from one country'). Suggestion: To achieve A2, replace B1 vocabulary. For 'influence', consider simpler phrases like 'change how we act' or 'make us think'. For 'judge', use 'think bad things about' or 'make quick decisions about'. Suggestion: Rephrase sentences to preserve the core meaning and nuance of the original, even when simplifying. Avoid excessive fragmentation that breaks the logical flow and dilutes the message. For example, combine related ideas more effectively while maintaining A2 sentence structure. The concept of 'increased awareness' must be explicitly retained in A2 terms.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8826,
+          "meaningbert": 0.6335
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:26:08.289571",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 14,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: It is good to know about different expectations and actions. This helps us avoid misunderstandings.\nBut it is very important to remember this. Stereotypes are simple ideas about a group of people. These ideas are often not true. They can stop good business relationships.\nCulture from a country can make us act and think. But many other things also make us act and think a lot. For example, the place we come from. The groups of people we are with. Our age and if we are a man or a woman. Our work culture. Our own experiences in life.\nSo, we should know about these possible differences. We should remember them. But we must not use these ideas to make quick decisions about all people from one country.",
+      "timestamp": "2025-08-31 22:26:08.292499",
+      "metadata": {
+        "text_id": "1747481d-ad8f-489f-a6cf-d5bc8441784b",
+        "version": 14
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:26:28.898182",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0b978e8e-5bb9-42a9-bb40-c9445d466c59",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6195 is significantly below the required 0.75, indicating a substantial loss of the original message's core meaning and emphasis. Additionally, the BERTScore of 0.8916 is below the required 0.90, showing a significant loss of key words and factual phrasing from the original text. The text fails to convey the full impact and nuance of the original message. The original text emphasizes 'increased awareness' and states it is 'vital' to remember that stereotypes can be 'detrimental' and warns against 'pigeonholing'. Your version uses weaker phrasing such as 'It is good to know', 'very important to remember this', 'stop good business relationships', and 'make quick decisions', which diminishes the strength and urgency of the original message. For example, 'increased awareness' is not fully captured by 'good to know'. The strong warning against 'detrimental' stereotypes is softened to 'stop good business relationships'. The nuanced concept of 'pigeonhole the individuals of an entire nation' is simplified to 'make quick decisions about all people from one country', which loses some of the original's specific meaning. These lexical and semantic shifts contribute to both the low MeaningBERT and BERTScore. Suggestion: Rephrase to restore the emphasis on the importance and potential negative consequences, using stronger A2 vocabulary where appropriate to convey the original's impact without increasing complexity. For example, instead of 'good to know', consider 'It is important to know'. Instead of 'stop good business relationships', consider 'can hurt good business relationships'. Ensure that the core warning against misusing cultural knowledge is conveyed with appropriate gravity.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8916,
+          "meaningbert": 0.6195
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:26:38.430847",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 15,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: It is important to know about different expectations and actions. This helps us avoid misunderstandings.\nBut it is very important to remember this. Stereotypes are simple ideas about a group of people. These ideas are often not true. They can hurt good business relationships.\nCulture from a country can make us act and think. But many other things also make us act and think. For example, the place we come from. The groups of people we are with. Our age and if we are a man or a woman. Our work culture. Our own experiences in life.\nSo, we should know about these possible differences. We should remember them. But we must not use these ideas to think all people from one country are the same.",
+      "timestamp": "2025-08-31 22:26:38.433309",
+      "metadata": {
+        "text_id": "d02467d9-bda9-4ff4-a366-61d29bfa1985",
+        "version": 15
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-08-31 22:27:02.246946",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a1dce791-00d7-4fad-b046-80ecab4d5a5e",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5973 is significantly below the required 0.75. The core message regarding the nuanced dangers of stereotypes and the complexity of cultural influence has been lost or significantly weakened. Additionally, the BERTScore of 0.8932 is below the required 0.90, indicating a significant loss of key words and factual phrasing from the original text. Deviations: - MeaningBERT Failure: The original text emphasizes that stereotypes can be 'detrimental to building good business relationships', a strong negative impact. Your version weakens this to 'can hurt good business relationships'. The concept of being 'largely influenced by' various factors is simplified to 'make us act and think', losing the degree of influence. The specific warning not to 'pigeonhole the individuals of an entire nation' is reduced to 'think all people from one country are the same', which loses the nuance of fixed categorization. - BERTScore Failure: Key lexical items and phrases from the original were not adequately preserved. Examples include 'increased awareness' replaced by 'important to know', 'behaviour' by 'actions', 'miscommunication' by 'misunderstandings', and 'corporate culture' by 'work culture'. The definition of 'stereotypes' while helpful for A2, significantly alters the original phrasing 'cultural stereotypes' and contributes to the lexical deviation. - CEFR Compliance: Although not the primary failure, the CEFR classifier rated the text as B1, not A2, indicating that even with the simplifications, the text's structure or vocabulary is still not consistently at the A2 level. Corrective Path: - Rephrase the text to ensure the original's specific emphasis on the negative impact of stereotypes and the nuanced understanding of cultural influence is retained. - Focus on preserving more of the original's key vocabulary and phrasing where possible, while still simplifying sentence structure. - Review the text for any remaining B1 structures or vocabulary that caused the CEFR classifier to rate it as B1.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8932,
+          "meaningbert": 0.5973
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:27:23.100052",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 16,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Knowing more about what people expect. Knowing more about how people act. This helps us avoid problems when we talk.\nBut it is very important to remember this. Stereotypes are simple ideas about people from a country. These ideas are often not true. They can be very bad for good business.\nCulture from a country can change how we act and think. But many other things also change us a lot. For example, the place we live. The groups of people we are with. Our age. If we are a man or a woman. The culture at our job. Our own experiences in life.\nSo, we should know about these possible differences. We should remember them. But we must not use these ideas to put all people from one country into a small box.",
+      "timestamp": "2025-08-31 22:27:23.104854",
+      "metadata": {
+        "text_id": "63b8cb12-fa19-4fd4-b5ca-5ae36c1dcc1c",
+        "version": 16
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:27:45.114014",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "59aa6690-81fd-474a-838e-3ed13686cf80",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The text fails to preserve the core meaning and lexical fidelity of the original. The MeaningBERT score of 0.6113 is significantly below the required 0.75, indicating a loss of the original's nuanced message. The BERTScore of 0.885 is below the required 0.90, demonstrating a significant loss of key words and factual phrasing from the original text. Specific deviations are listed below. Deviation: Meaning Preservation Failure. The original text emphasizes the 'vital' nature of remembering that stereotypes are 'detrimental' to business relationships. Your version uses 'very important' and 'very bad', which weakens the impact and urgency of the original message. The explanation of 'stereotypes' also shifts focus from their direct negative impact to a definition. Deviation: Lexical Fidelity Failure. Many key terms and phrases from the original have been replaced with overly simplified or less precise language, leading to a low BERTScore. For example: - 'increased awareness' was replaced with 'Knowing more'. - 'cases of miscommunication' was replaced with 'problems when we talk'. - 'vital' was replaced with 'very important'. - 'cultural stereotypes' was replaced with a definition ('Stereotypes are simple ideas about people from a country. These ideas are often not true.') instead of retaining the direct term. - 'detrimental to building good business relationships' was replaced with 'very bad for good business'. - 'largely influenced by' was replaced with 'change us a lot'. - The idiomatic phrase 'keep at the back of our minds' was replaced with 'know about these possible differences. We should remember them.'. - 'pigeonhole the individuals of an entire nation' was replaced with 'put all people from one country into a small box.'. Suggestion: Rephrase to retain more of the original's specific vocabulary and the strength of its message, while still adhering to A2 structures. For instance, 'miscommunication' could be simplified to 'not understanding each other' rather than the more general 'problems when we talk'. Ensure that the negative impact of stereotypes is conveyed with appropriate A2-level strength. Aim to achieve a MeaningBERT score of 0.75 or higher and a BERTScore of 0.90 or higher.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.885,
+          "meaningbert": 0.6113
+        }
+      }
+    }
+  ]
+}

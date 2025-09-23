@@ -1,0 +1,413 @@
+{
+  "session_id": "5b493bfb-a248-4130-803e-bfc1784d1c0a",
+  "created_at": "2025-09-01 17:31:17.589101",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:31:17.599904",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "119-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The speaker said something true.  \nI think there is a danger.  \nThe more we are connected, the more we feel alone.  \nI do not think this is a problem for me.  \nWe grew up without technology for a long time.  \nWe know how to be alone.  \nWe also know it is OK to be alone.  \nBut people under 20 are a different problem.  \nThey are always talking.  \nThey never feel alone.  \nThey may not learn to enjoy their own company.  \nThey also learn to talk by messages.  \nThose messages can be edited.  \nThis stops them from learning real conversation.  \nReal conversation happens now.  \nIt is with the person in front of you.",
+      "timestamp": "2025-09-01 17:31:17.600719",
+      "metadata": {
+        "text_id": "80149d25-4482-473f-a693-be03c6cc5c93",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:31:17.608414",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "747dcd9d-f618-4a31-acc3-24d400cd4713",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on multiple high-priority checks. The MeaningBERT score of 0.743 is below the required 0.75 threshold, and the BERTScore of 0.887 is below the required 0.90. This indicates an unacceptable loss of the original text's core message and lexical detail. The text also fails the CEFR compliance check.\n\n- Meaning and Fidelity Failure: The simplification process was too aggressive. Replacing nuanced phrases like 'isolated' and 'solitude' with the single word 'alone' and removing the concept of 'risk' has damaged the fidelity to the source text, causing the low metric scores.\n\n- CEFR Compliance Failure: The CEFR classifier rated the text as B1, which is an instant failure. The text is too complex for the A2 level.\n\n- Structural Violation: The sentence 'The more we are connected, the more we feel alone' uses a comparative correlative ('the more... the more...'). This is a B1 grammatical structure and is not permitted at the A2 level.\n\n- Structural Violation: The sentence 'Those messages can be edited' uses a passive voice structure. While simple passives can appear at A2, this contributes to the overall complexity. An active sentence is required.\n\nSuggestion: The text must be rewritten. Break the complex comparative sentence into two simple sentences. For example: 'We are more connected with technology. But this makes us feel more alone.' Rephrase the passive sentence into an active one, for example: 'People can edit those messages.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8874,
+          "meaningbert": 0.743
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:31:25.333180",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The speaker says something true.  \nI think there is a danger.  \nWe are more connected with technology.  \nThis makes us feel more alone.  \nI do not think this is a problem for me.  \nMy generation grew up without technology.  \nWe know how to be alone.  \nWe also know that it is OK to be alone.  \nPeople under 20 are a different case.  \nThey are always talking.  \nThey never feel alone.  \nThey may not learn to enjoy their own company.  \nThey also learn to talk by messages.  \nPeople can edit those messages.  \nThis stops them from learning real conversation.  \nReal conversation happens now.  \nIt is with the person in front of you.",
+      "timestamp": "2025-09-01 17:31:25.333498",
+      "metadata": {
+        "text_id": "3d54ce44-de7b-4695-a3d1-6fb05723d8a5",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:31:51.271672",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3551a790-9487-45c9-9e76-e4c07448e5b2",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6618 is significantly below the required 0.75 threshold, indicating a severe loss of the original message's core meaning. This is the primary reason for failure.\n\n- Fidelity Failure: The BERTScore of 0.8773 is also below the 0.90 minimum. The simplification process removed too much of the original phrasing, resulting in a loss of key lexical detail.\n- CEFR Compliance Failure: The text was incorrectly classified as B1. The target is A2. This is an automatic failure.\n- B1 Vocabulary Violation: The word 'generation' is not A2-level vocabulary. This word contributed to the incorrect B1 classification.\n- Structural Fragmentation: The text was broken into too many short, disconnected sentences. This destroyed the logical flow and weakened the argument, causing the low meaning preservation scores. For example, 'Real conversation happens now. It is with the person in front of you' is a fragmented and less meaningful version of the original concept.\n\nSuggestion: Replace the B1 word 'generation' with an A2 phrase like 'people of my age'. Combine some of the fragmented sentences using simple A2 connectors like 'and', 'but', or 'so' to restore the logical connection between ideas. The goal is simplification, not the complete removal of relationships between concepts.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8773,
+          "meaningbert": 0.6618
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:32:01.657048",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The speaker says something true.  \nI think there is a danger.  \nWe are more connected with technology.  \nWe feel more alone.  \nThis is not a problem for people like me.  \nWe grew up without technology.  \nWe know how to be alone.  \nWe know it is OK.  \nPeople under 20 are a different case.  \nThey are always talking and they never feel alone.  \nThey may not learn to enjoy their own company.  \nThey also learn to talk by messages that can be edited.  \nThis stops them from learning real conversation.  \nReal conversation happens now.  \nIt is with the person in front of you.",
+      "timestamp": "2025-09-01 17:32:01.657956",
+      "metadata": {
+        "text_id": "8f03a021-691d-405f-92fa-3ec8da3cd1c9",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:32:28.496920",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3a0b8abf-5abc-48f1-98d5-e5bc7966d697",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for failure is the MeaningBERT score of 0.7075, which is below the required 0.75 threshold. The text fails to maintain the core message of the original.\n\n- Meaning Preservation Failure: The original text establishes a direct cause-and-effect relationship: 'the more connected we are, the more isolated we feel'. Your version splits this into two separate sentences, 'We are more connected with technology. We feel more alone.', which weakens this critical link.\n- Fidelity Failure: The BERTScore of 0.8792 is below the 0.90 minimum. This indicates a significant loss of key vocabulary and phrasing from the original text.\n- CEFR Compliance Failure: The text was incorrectly classified as B1. The target level is A2. This is an automatic failure.\n- B1 Grammatical Structure: The sentence 'They also learn to talk by messages that can be edited' uses a relative clause ('that can be edited'). This is a B1 structure and is too complex for A2.\n- Structural Oversimplification: The text is broken into too many short, disconnected sentences. This makes it choppy and unnatural, even for an A2 level.\n\nSuggestion: Rephrase to restore the cause-and-effect link, for example: 'When we are more connected with technology, we feel more alone.' Simplify the B1 sentence. Suggestion: 'They learn to talk by messages. They can edit these messages.' Combine some of the short sentences using 'and' or 'but' to create better flow.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8792,
+          "meaningbert": 0.7075
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:32:34.829412",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The speaker says something true.  \nI think there is a danger.  \nWhen we are more connected with technology, we feel more alone.  \nThis is not a problem for people like me.  \nWe grew up without technology.  \nWe know how to be alone and we know it is OK.  \nPeople under 20 are a different case.  \nThey are always talking but they never feel alone.  \nThey may not learn to enjoy their own company.  \nThey learn to talk by messages.  \nThey can edit these messages.  \nThis stops them from learning real conversation.  \nReal conversation happens now with the person in front of you.",
+      "timestamp": "2025-09-01 17:32:34.830078",
+      "metadata": {
+        "text_id": "4c7f72b2-ea7c-4db7-997d-d85536c1daf6",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:33:02.858749",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c7cee73d-9c84-4030-b61a-94457bb63020",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The core message has been altered.\n\n- Factual Error: The original text states that young people 'never experience the feeling of solitude'. Your version changes this to 'they never feel alone'. Experiencing solitude (being by oneself) is not the same as the feeling of being alone. This is a critical error in meaning.\n- Meaning Preservation Failure: This factual error is confirmed by the metrics. The MeaningBERT score of 0.6652 is far below the required 0.75. The BERTScore of 0.8857 is below the 0.90 threshold. This indicates a severe deviation from the original text's meaning and key phrasing.\n- CEFR Compliance Failure: The text was classified as B1, which is too complex. The A2 standard was not met. The combination of concepts and sentence structures exceeded the A2 level.\n- Structural Issues: The text is a series of disconnected, choppy sentences. While A2 requires simplicity, this level of fragmentation is more typical of A1 and fails to demonstrate A2-level sentence construction using basic connectors.\n\nSuggestion: Correct the factual error immediately. The sentence must be rewritten to convey the idea of 'not experiencing time by oneself'. Suggestion: Simplify the text's conceptual load to achieve an A2 classification. Suggestion: Combine some of the extremely short sentences using 'and' or 'but' to create a more natural A2 rhythm.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8857,
+          "meaningbert": 0.6652
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:33:13.698496",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The speaker says something true.  \nI think there is a danger.  \nWhen we are more connected with technology, we feel more alone.  \nThis is not a problem for people like me.  \nWe grew up without technology.  \nWe know how to be alone and we know it is OK.  \nYoung people under 20 are a different case.  \nThey are always talking and they never experience solitude.  \nThey may not learn to enjoy their own company.  \nThey learn conversation by messages that can be edited.  \nThis stops them from learning real conversation.  \nReal conversation is with the person in front of them.",
+      "timestamp": "2025-09-01 17:33:13.699698",
+      "metadata": {
+        "text_id": "d1715884-b109-4945-833b-956d720de842",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:33:37.923221",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "12adb321-1663-40ed-a0ae-ab6997214caa",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8929 is below the required 0.90 threshold. This indicates that key lexical details from the original text were lost during simplification.\n\nThis text also fails on CEFR compliance.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is an instant failure.\n- Structural Violation: The sentence 'They learn conversation by messages that can be edited' uses a relative 'that-clause'. This is a B1 grammatical structure. It must be simplified into two separate sentences.\n- Vocabulary Violation: The word 'solitude' is not A2 vocabulary. It is a B2/C1 level word retained from the source text. It must be replaced with a simpler A2 equivalent.\n\nSuggestion: Rephrase the sentence 'They learn conversation by messages that can be edited.' to remove the B1 structure. Example: 'They learn conversation with messages. They can change these messages.'\nSuggestion: Replace the word 'solitude'. Use an A2 phrase like 'the feeling of being by themselves'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8929,
+          "meaningbert": 0.8338
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:33:43.156053",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The speaker says something true.  \nI think there is a danger.  \nWhen we are more connected with technology, we feel more alone.  \nThis is not a problem for people like me.  \nWe grew up without technology.  \nWe know how to be alone and we know it is OK.  \nYoung people under 20 are a different case.  \nThey are always talking.  \nThey never feel the feeling of being by themselves.  \nThey may not learn to enjoy their own company.  \nThey learn conversation with messages.  \nThey can edit these messages.  \nThis stops them from learning real conversation.  \nReal conversation is with the person in front of them.",
+      "timestamp": "2025-09-01 17:33:43.156639",
+      "metadata": {
+        "text_id": "6deddc34-7117-4e92-a996-11a8b26ae08f",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:34:06.700139",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "819ad3c7-8d2f-4dc3-82a8-dcbddd159d6d",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6727 is significantly below the required 0.75 threshold. This indicates a critical loss of the original message's nuance and the logical connections between ideas.\n\n- Fidelity Failure: The BERTScore of 0.8868 is below the 0.90 minimum. Key concepts were lost by breaking complex ideas into too many disconnected simple sentences, which destroyed the original's flow and lexical fidelity.\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. The phrase 'the feeling of being by themselves' uses a gerund ('being') in a structure that is too complex for the A2 level.\n- Vocabulary Violation: The word 'being' is rated B2 and is not permitted at the A2 level.\n\nSuggestion: Restore the meaning by connecting related sentences with A2 connectors like 'so' or 'because'. Rephrase 'They never feel the feeling of being by themselves' to a simpler A2 structure like 'They do not know how it feels to be alone'. Remove the word 'being'. The text must be rewritten to meet the meaning and fidelity score requirements.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8868,
+          "meaningbert": 0.6727
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:34:13.207367",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The speaker says something true.  \nI think there is a danger.  \nWe are more connected with technology, so we may feel more alone.  \nThis is not a problem for people like me.  \nWe grew up without technology.  \nWe know how to be alone and we know it is OK.  \nYoung people under 20 are a different case.  \nThey are always talking.  \nThey do not know how it feels to be alone.  \nSo they may not learn to enjoy their own company.  \nThey learn to talk with messages.  \nThey can edit these messages.  \nThis stops them from learning real conversation.  \nReal conversation is with the person in front of them.",
+      "timestamp": "2025-09-01 17:34:13.207792",
+      "metadata": {
+        "text_id": "53764b0f-2ce7-459c-9cce-a4406e40d051",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:34:46.828731",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "10c72385-cd95-45b7-93bc-f38f240569e2",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary failure is on metric adherence. The MeaningBERT score of 0.6622 is significantly below the required 0.75 threshold. The BERTScore of 0.8825 is also below the required 0.90. This indicates a critical loss of the original text's core message and lexical detail.\n\n- Meaning Loss: The original text presents a nuanced argument with specific logical links, such as 'the more connected we are, the more isolated we feel'. Your version, 'We are more connected with technology, so we may feel more alone', is a much weaker and less precise statement, which contributed to the low MeaningBERT score.\n\n- Fidelity Loss: Key phrases like 'at the expense of learning the art of real conversation' were replaced with 'This stops them from learning real conversation'. This simplification loses important detail and intensity, causing the BERTScore to fall below the minimum requirement.\n\n- CEFR Compliance Failure: The text also fails the CEFR compliance check. The classifier rated the output as B1, not the target A2. This is an automatic failure.\n\n- Structural Defect: The text has been broken into too many short, choppy sentences. While A2 requires simplicity, this level of fragmentation destroys the logical flow and reads like a list of disconnected facts, not a coherent argument. This is the root cause of the metric failures.\n\nSuggestion: You must re-combine some of the sentences to restore the logical connections from the original text. Use simple A2 connectors like 'and', 'but', or 'so'. For example, 'They learn to talk with messages that they can edit, so this stops them from learning real conversation.' This is a more cohesive A2 structure. The text must be rewritten to meet the meaning and fidelity score thresholds.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8825,
+          "meaningbert": 0.6622
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:35:05.192594",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The speaker says something true. He thinks there is a danger. The more we are connected with technology, the more isolated we feel. This is not a problem for my generation. We grew up without technology. We know how to be alone and we know it is OK. Young people under 20 are a different case. They are always talking on their phones. So they rarely feel alone. They never feel solitude, so they may not enjoy their own company. They learn to talk with messages that they can edit. This stops them from learning real conversation. Real conversation is with the person in front of them.",
+      "timestamp": "2025-09-01 17:35:05.193759",
+      "metadata": {
+        "text_id": "ae65713d-c617-4834-a3be-9018c5e9622b",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:35:39.143750",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "17bd96d0-13e8-484b-abc3-a4db6e10b391",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance Failure. The text is classified as B1, which is too complex for the A2 standard. This is an instant failure.\n\nDetected Deviations:\n- Vocabulary Exceeds A2 Level: The text uses B1 words. 'isolated', 'generation', and 'rarely' are not on the A2 wordlist and must be replaced.\n- Sentence Structure Exceeds A2 Level: The sentence 'The more we are connected with technology, the more isolated we feel' uses a comparative structure ('the more... the more...') which is a B1 grammatical form. This structure is too advanced for A2 readers.\n- The sentence 'This stops them from learning real conversation' uses a phrasal construction that is more complex than standard A2.\n\nCorrective Path:\n- Suggestion: Replace 'isolated' with 'very alone'.\n- Suggestion: Replace 'generation' with 'people of my age'.\n- Suggestion: Replace 'rarely' with 'almost never'.\n- Suggestion: Rephrase the complex comparative sentence. Use two simple sentences instead. Example: 'We connect more with technology. This makes us feel more alone.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9239,
+          "meaningbert": 0.8525
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:35:54.562905",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The speaker says something true.  \nHe thinks there is a danger.  \nWe use more technology.  \nThis makes us feel very alone.  \nThis is not a problem for people of my age.  \nWe grew up without technology.  \nWe know how to be alone.  \nWe know it is OK.  \nYoung people under 20 are a different case.  \nThey are always talking on their phones.  \nSo they almost never feel alone.  \nThey never feel solitude.  \nSo they may not enjoy their own company.  \nThey learn to talk with messages that they can edit.  \nThis does not let them learn real conversation.  \nReal conversation is with the person in front of them.",
+      "timestamp": "2025-09-01 17:35:54.563604",
+      "metadata": {
+        "text_id": "d36548b1-4653-40d4-ad58-60fc1422213d",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:36:26.252416",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1b3fb2ed-3861-476e-a311-09f15fb96c5c",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8719 is below the required 0.90 threshold. This indicates an excessive loss of key words and phrasing from the original text, resulting in a version that is lexically too distant from the source.\n\nFurther analysis reveals multiple compliance violations:\n\n- CEFR Classification Error: The text was classified as B1, not the required A2. This is a critical failure.\n\n- B1 Grammatical Structure: The sentence 'They learn to talk with messages that they can edit' uses a defining relative clause ('that they can edit'). This is a B1-level structure and is too complex for A2.\n\n- Advanced Vocabulary: The word 'solitude' was retained from the original text. This is a B2/C1-level word and is completely inappropriate for an A2 audience. It must be replaced with a simpler concept.\n\n- Abstract Word Usage: The phrase 'enjoy their own company' uses 'company' in an abstract B1 sense. The A2 meaning relates to a business or being with other people, not being with oneself.\n\nSuggestion: The text must be rewritten. Replace the word 'solitude' with a simple A2 phrase like 'the feeling of being by yourself'. Split the sentence containing the 'that-clause' into two simple sentences. Example: 'They learn to talk with messages. They can edit these messages.' Rephrase 'enjoy their own company' to 'be happy when they are alone'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8719,
+          "meaningbert": 0.8143
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:36:50.372337",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The speaker says something true.  \nHe thinks there is a danger.  \nWhen we use more technology, we feel more alone.  \nThis is not a problem for people of my age.  \nWe grew up without technology.  \nWe know how to be alone.  \nWe know it is OK.  \nYoung people under 20 are a different case.  \nThey are always talking on their phones.  \nThey almost never feel the feeling of being by yourself.  \nThey may not be happy when they are alone.  \nThey learn to talk with messages.  \nThey can edit these messages.  \nThis does not let them learn real conversation.  \nReal conversation is with the person in front of them.",
+      "timestamp": "2025-09-01 17:36:50.373005",
+      "metadata": {
+        "text_id": "f4149dbc-67b4-4e3e-894e-1d0efc395673",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:37:25.079952",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "10932ef2-c02a-4d37-9a38-d408d48eccfa",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6399 is catastrophically below the required 0.75 threshold. This indicates a severe loss of the original text's core message.\n\n- MeaningBERT Failure: The simplification was too aggressive. The original's concept of 'learning how to enjoy their own company' was reduced to 'may not be happy when they are alone'. This changes the meaning from a failure to learn a skill to a simple emotional state, which is a critical distortion.\n\n- Fidelity Failure: The BERTScore of 0.8774 is below the 0.90 minimum. This is a direct result of removing key lexical items and concepts from the original text.\n\n- CEFR Compliance Failure: The classifier rated the text B1, not the required A2. The sentence 'They almost never feel the feeling of being by yourself' uses the word 'being'. This gerund form is a B2-level structure and is unacceptable for an A2 text.\n\n- Structural Failure: The output is a series of short, disconnected A1-level sentences. This choppy structure fails to convey the logical connections present in the original text and contributes to the low meaning preservation score.\n\nSuggestion: The text must be completely rewritten. Restore the original meaning regarding the skill of enjoying one's own company. Remove the B2-level word 'being' immediately. Replace 'the feeling of being by yourself' with a simple A2 alternative like 'what it is like to be alone'. Use simple A2 connectors like 'and' or 'so' to combine choppy sentences and improve logical flow.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8774,
+          "meaningbert": 0.6399
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:37:33.189029",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The speaker says something true.  \nHe thinks there is a danger.  \nWhen we use more technology, we feel more alone.  \nThis is not a problem for people of my age.  \nWe grew up without technology.  \nWe know how to be alone.  \nWe know it is OK.  \nYoung people under 20 are different.  \nThey are always talking on their phones.  \nThey rarely know what it is like to be alone.  \nThey may not learn to enjoy their own company.  \nThey learn to talk with messages.  \nThey can edit these messages.  \nSo they do not learn real conversation.  \nReal conversation is with the person in front of them.",
+      "timestamp": "2025-09-01 17:37:33.189661",
+      "metadata": {
+        "text_id": "e5d19fff-044f-4c1c-8ec1-0a4b5d7dc885",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:38:00.608266",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4f21f549-818f-469e-af2a-f958ad17bac4",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for failure is the catastrophic loss of the original text's core message and tone. The MeaningBERT score of 0.6546 is significantly below the required 0.75 threshold. This indicates the simplified text does not convey the same meaning as the original.\n\n- Meaning Preservation Failure: The original text conveys a strong, personal warning ('I honestly believe', 'danger', 'at the expense of'). Your version is a list of flat, declarative statements that removes this critical tone. The meaning is not just the facts, but the warning behind them. You have failed to preserve this.\n\n- Fidelity Failure: The BERTScore of 0.8785 is below the minimum 0.90. This confirms that too much of the original's specific phrasing and lexical detail was lost during simplification.\n\n- Vocabulary Violation: The text uses the word 'rarely', which is a B1 level adverb. This is an unacceptable deviation from the A2 standard.\n\n- Structural Deficiency: The text is broken into excessively short, choppy sentences. This over-simplification is the direct cause of the meaning loss. For example, 'They can edit these messages. So they do not learn real conversation' fails to capture the stronger, negative consequence implied by the original phrase 'at the expense of learning the art of real conversation'.\n\nSuggestion: You must rewrite the text. Restore the original's sense of warning. Combine some of the short sentences using A2 connectors like 'and' or 'because' to show how the ideas are related. Remove the B1 word 'rarely' and replace it with an A2 phrase such as 'do not often'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8785,
+          "meaningbert": 0.6546
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,598 @@
+{
+  "session_id": "15d48e5b-4360-443f-910c-d5272249d389",
+  "created_at": "2025-09-01 00:12:39.173292",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:12:39.184784",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "20-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Robotics means making and using robots.  \nA robot is a machine that can do work by itself.  \nAI means that a computer can learn and think.  \n\nJulie Wong is a researcher for Robotics and AI.  \nShe wrote more than 50 papers in good journals.  \nShe often speaks at international conferences.  \nShe won the Simone Fielding award in 2012.  \nShe lives with her family in a smart home she made.",
+      "timestamp": "2025-09-01 00:12:39.185606",
+      "metadata": {
+        "text_id": "4178b196-dcdb-4100-9c3d-1587a24cdaa6",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 00:12:39.195413",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4c8e9f26-74e8-4bc7-8b02-12c0d2b94949",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The output alters key facts from the original text:\n- It changes \"leading researcher\" to \"researcher\", omitting that she is a leader in the field.\n- It replaces \"highly regarded, peer-reviewed journals\" with \"good journals\", removing crucial detail about peer review and renown.\n- It changes \"prestigious Royal Academy Simone Fielding fellowship\" to \"Simone Fielding award\", dropping \"Royal Academy\" and mislabelling the fellowship as an award.\nSuggestion: Restore the exact original terms: 'leading researcher', 'highly regarded, peer-reviewed journals', and 'prestigious Royal Academy Simone Fielding fellowship'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8713,
+          "meaningbert": 0.6593
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:13:00.394567",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Robotics is about how to make and use robots.  \nA robot is a machine that can do work by itself.  \nAI is when a computer can learn and think.  \n\nJulie Wong is a leading researcher in Robotics and AI.  \nShe wrote more than 50 papers in highly regarded, peer-reviewed journals.  \nShe often speaks at international conferences.  \nShe won the prestigious Royal Academy Simone Fielding fellowship in 2012.  \nShe lives with her family in a smart home she designed herself.",
+      "timestamp": "2025-09-01 00:13:00.394899",
+      "metadata": {
+        "text_id": "0abac5a9-3572-4145-9ff7-379d8c0c9e01",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 00:13:22.121357",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e9deeb8c-6890-4fc1-ab51-4f4d46ab9e8e",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8937 is below the required 0.90. The added definitions at the start dilute direct overlap with the original. The phrase \"has been published extensively as author and co-author of over 50 papers\" was simplified to \"wrote more than 50 papers,\" removing the concept of co-authorship and reducing lexical matches. Suggestion: Remove the three definition sentences and restore the exact original phrasing for publications to increase overlap.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8937,
+          "meaningbert": 0.8746
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:13:52.654885",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a leading researcher in Robotics and AI.  \nShe has been published extensively as author and co-author of over 50 papers in highly regarded, peer-reviewed journals.  \nShe often speaks at international conferences.  \nShe won the prestigious Royal Academy Simone Fielding fellowship in 2012.  \nShe lives with her family in a smart home she designed herself.",
+      "timestamp": "2025-09-01 00:13:52.655317",
+      "metadata": {
+        "text_id": "3da17c71-64b0-457b-ab24-838cefa0f3bc",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:14:12.280785",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f9fe3252-a6c0-4ec0-9229-f83572043495",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. Classifier rated B1.\n- The word \"leading\" is B1 level, not in the A2 vocabulary list.\n- The word \"highly\" is B1 level.\n- The compound \"peer-reviewed\" is B2 level.\n- The word \"prestigious\" is C1 level.\n- The word \"academy\" is C1 level.\n- The passive phrase \"has been published extensively\" uses the B2 word \"extensively\" and a passive structure beyond A2.\nSuggestion: Replace or remove these words with A2-level alternatives (use \"good\" instead of \"prestigious\", \"reviewed\" instead of \"peer-reviewed\"). Simplify passive phrases to simple active forms (for example, \"She wrote over 50 papers\").",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9552,
+          "meaningbert": 0.9453
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:14:36.951076",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Robotics is the study of robots.  \nAI means artificial intelligence. It is the study of computer thinking.  \nJulie Wong is a researcher in Robotics and AI.  \nShe wrote over 50 papers in good reviewed journals.  \nShe often speaks at international conferences.  \nShe won a good Simone Fielding fellowship in 2012.  \nShe lives with her family.  \nShe lives in a smart home she designed herself.",
+      "timestamp": "2025-09-01 00:14:36.951480",
+      "metadata": {
+        "text_id": "3c4ce33d-a597-4a1c-9c3c-d50151770fe3",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 00:14:49.963562",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "34c4e5e6-18f2-4713-a5d7-0a248aa49a4b",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The writer's output changes 'the prestigious Royal Academy Simone Fielding fellowship' to 'a good Simone Fielding fellowship', omitting 'Royal Academy' and replacing 'prestigious' with 'good', thus altering the fact.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8822,
+          "meaningbert": 0.8461
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:15:12.815134",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Robotics is the study of robots.  \nAI is computer thinking.  \nJulie Wong is a researcher in Robotics and AI.  \nShe wrote over 50 papers in good reviewed journals.  \nShe often speaks at international conferences.  \nShe won the Royal Academy Simone Fielding fellowship in 2012.  \nShe lives with her family.  \nShe lives in a smart home she designed herself.",
+      "timestamp": "2025-09-01 00:15:12.817437",
+      "metadata": {
+        "text_id": "121835c4-bfa3-44b0-abe6-5e1171b023aa",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 00:15:32.616886",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e3aec27d-e8c1-4af2-96a9-ec9658380682",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8945 is below the required 0.90. The phrases 'leading researcher' and 'highly regarded, peer-reviewed journals' were simplified to 'researcher' and 'good reviewed journals', losing key lexical detail. Suggestion: Restore 'leading researcher' and 'highly regarded, peer-reviewed journals' to preserve lexical fidelity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8945,
+          "meaningbert": 0.9453
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:15:43.952311",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Robotics is the study of robots.  \nAI is computer thinking.  \nJulie Wong is a leading researcher in Robotics and AI.  \nShe wrote over 50 papers in highly regarded, peer-reviewed journals.  \nShe often speaks at international conferences.  \nShe won the Royal Academy Simone Fielding fellowship in 2012.  \nShe lives with her family.  \nShe lives in a smart home she designed herself.",
+      "timestamp": "2025-09-01 00:15:43.954208",
+      "metadata": {
+        "text_id": "1a4e2829-29b9-4266-8b3c-c6c535c53c14",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 00:16:03.781552",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1fe8efe3-7a93-49db-a84c-7b390796a353",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Audit Failure. The text uses words above A2 level that are not allowed: leading (B1), highly (B1), peer (B2), academy (C1). Replace 'leading' with 'top'. Replace 'highly' with 'very'. Replace 'peer-reviewed' with 'reviewed by other experts'. Use the proper name only or a simpler term instead of 'Royal Academy'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9033,
+          "meaningbert": 0.9452
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:16:26.926147",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Robotics is the study of robots.  \nAI is computer thinking.  \nJulie Wong is a top researcher in Robotics and AI.  \nShe wrote over 50 papers in very good journals.  \nOther experts reviewed them.  \nShe often speaks at international conferences.  \nShe won the Simone Fielding fellowship in 2012.  \nShe lives with her family in a smart home she designed herself.",
+      "timestamp": "2025-09-01 00:16:26.926597",
+      "metadata": {
+        "text_id": "124b7bba-11f4-4dd7-9297-239f9d46076e",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 00:16:39.648980",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b05a1e6b-994a-4f3e-96f2-b2eb1dfd0927",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The writer\u2019s output changes the name of the fellowship by omitting its awarding body. - The original says \u201cRoyal Academy Simone Fielding fellowship,\u201d but the output says only \u201cSimone Fielding fellowship.\u201d Suggestion: Restore \u201cRoyal Academy\u201d to match the original text exactly.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8857,
+          "meaningbert": 0.9416
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:16:51.611418",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Robotics is the study of robots.  \nAI is computer thinking.  \nJulie Wong is a top researcher in Robotics and AI.  \nShe wrote over 50 papers in very good journals.  \nOther experts reviewed them.  \nShe often speaks at international conferences.  \nShe won the Royal Academy Simone Fielding fellowship in 2012.  \nShe lives with her family in a smart home she designed herself.",
+      "timestamp": "2025-09-01 00:16:51.612188",
+      "metadata": {
+        "text_id": "a0b59baf-bdb2-4ff3-a942-437d40c061c5",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:17:06.749392",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "aa83f0b6-456f-41eb-957f-c2eff5cf4629",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8938 is below the required 0.90. The added sentences \u201cRobotics is the study of robots\u201d and \u201cAI is computer thinking\u201d introduce new content and shift focus away from Julie Wong\u2019s achievements. Suggestion: Remove those definitions and keep the original phrasing such as \u201cRobotics and AI\u201d to preserve key terms and factual emphasis.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8938,
+          "meaningbert": 0.9372
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:17:29.018948",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a top researcher in Robotics and AI.  \nShe wrote over 50 papers in good journals.  \nShe often speaks at international conferences.  \nShe won the Royal Academy Simone Fielding fellowship in 2012.  \nShe lives with her family in a smart home.  \nShe made the home herself.  \n\nRobotics means work with robots.  \nAI means when computers think.",
+      "timestamp": "2025-09-01 00:17:29.020626",
+      "metadata": {
+        "text_id": "7ef12eec-86b3-4fb1-93ae-5832d677b9e7",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:17:42.799750",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7f647130-445f-4487-9061-54a7adac59f0",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8912 is below the required 0.90. Key terms were replaced or omitted, causing loss of lexical detail. The phrase 'peer-reviewed journals' was replaced with 'good journals', removing the crucial notion of formal review and high regard. The word 'prestigious' was omitted before 'Royal Academy Simone Fielding fellowship', reducing the sense of honor. The verb 'designed herself' became 'made the home herself', weakening the original technical nuance. Suggestion: Restore 'peer-reviewed' and 'highly regarded', reintroduce 'prestigious', and use 'designed' instead of 'made' to maintain fidelity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8912,
+          "meaningbert": 0.8439
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:17:56.982485",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a researcher in Robotics and AI.  \nShe wrote over 50 papers in highly regarded peer-reviewed journals.  \nShe often speaks at international conferences.  \nShe won a prestigious Royal Academy Simone Fielding fellowship in 2012.  \nShe lives with her family in a smart home.  \nShe designed the home herself.  \nRobotics is work with robots.  \nAI is when computers think.",
+      "timestamp": "2025-09-01 00:17:56.984743",
+      "metadata": {
+        "text_id": "7462c968-6eea-4f04-b9ea-701fe6dbe067",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:18:16.408422",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5cd19b94-2373-4c50-8982-6ebdb103ae93",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Non-A2 Vocabulary. The text uses words above A2 level.\n- The phrase \"highly regarded peer-reviewed journals\" includes \"highly\" (B1) and \"peer-reviewed\" (B2).\n- The term \"prestigious\" is C1-level.\n- \"Royal\" is B1 and \"Academy\" is C1.\nSuggestion: Replace these with simple A2 words. For example, write \"very good journals\" instead of \"highly regarded peer-reviewed journals\" and \"important award\" instead of \"prestigious Royal Academy Simone Fielding fellowship\". Remove the added definitions or merge them into existing sentences if needed.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9029,
+          "meaningbert": 0.8617
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:18:28.368418",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a researcher in robotics and AI.  \nRobotics is the work with robots.  \nAI is when computers think.  \nShe wrote over 50 papers in very good journals.  \nShe often speaks at international conferences.  \nShe won an important award in 2012.  \nShe lives with her family in a smart home.  \nShe designed the home herself.",
+      "timestamp": "2025-09-01 00:18:28.371716",
+      "metadata": {
+        "text_id": "cde97b36-84f1-4b96-9121-9d74e78b8f58",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 00:18:45.535220",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0d48f1b3-f83f-4705-bc0c-e21003d4e550",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The writer removed the specific award name \u2018Royal Academy Simone Fielding fellowship\u2019 and replaced it with the vague phrase \u2018an important award in 2012\u2019, losing the exact fact.\nDetected deviations:\n - Missing the full award name: original \u201cRoyal Academy Simone Fielding fellowship\u201d vs output \u201can important award in 2012\u201d.\nSuggestion: Restore the precise award name and type. Rephrase to \u201cShe was awarded the prestigious Royal Academy Simone Fielding fellowship in 2012.\u201d",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8771,
+          "meaningbert": 0.8638
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:19:01.662248",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 12,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a researcher in robotics and AI.  \nRobotics is the work with robots.  \nAI is when computers think.  \nShe wrote over 50 papers in good journals.  \nShe often speaks at international conferences.  \nShe received the Royal Academy Simone Fielding fellowship in 2012.  \nShe lives with her family in a smart home.  \nShe designed the home herself.",
+      "timestamp": "2025-09-01 00:19:01.663630",
+      "metadata": {
+        "text_id": "c22c31e8-95a9-4ed0-a294-e3ff997175c7",
+        "version": 12
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:19:18.434746",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "cd7ac5f9-3f66-4b27-a796-a8be67668840",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.891 is below the required 0.90. This indicates a significant loss of original lexical detail.\nDetected deviations:\n- The adjective leading is dropped and replaced with neutral researcher, losing emphasis on Julie\u2019s prominence.\n- highly regarded and peer-reviewed are replaced with good, removing critical information about journal quality.\n- prestigious before fellowship is omitted, reducing the sense of honor.\n- Definitions of Robotics and AI introduce new material not in the original and distract from Julie\u2019s achievements.\nSuggestion: Restore original key terms: use leading researcher, highly regarded peer-reviewed journals, and prestigious fellowship. Remove added definitions or move them to a separate glossary rather than the main text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.891,
+          "meaningbert": 0.8611
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:19:37.803574",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 13,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Julie Wong is a leading researcher in robotics and AI.  \nShe wrote over 50 papers in highly regarded peer-reviewed journals.  \nShe often speaks at international conferences.  \nShe received the prestigious Royal Academy Simone Fielding fellowship in 2012.  \nShe lives with her family in a smart home.  \nShe designed the home herself.",
+      "timestamp": "2025-09-01 00:19:37.807373",
+      "metadata": {
+        "text_id": "062c982b-915f-40ea-b8f8-ad8df086a790",
+        "version": 13
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:19:56.236249",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d5d3b7f4-b376-4396-909b-79ab40c82367",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Audit Failure. The text uses words above A2 level.\nDetected deviations:\n- 'leading' (B1 level)\n- 'highly' (B1 level)\n- 'peer' (B2 level)\n- 'prestigious' (C1 level)\n- 'Academy' (C1 level)\nSuggestion: Replace 'leading' with 'top', replace 'highly' with 'very', remove or replace 'peer' with 'equal', change 'prestigious' to 'important', and replace 'Academy' with 'school' to meet A2 vocabulary standards.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.923,
+          "meaningbert": 0.9453
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:20:32.083251",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 14,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Robotics is about building robots.  \nAI is about making machines smart.  \nJulie Wong is a top researcher in robotics and AI.  \nShe wrote over 50 papers in very equal-reviewed journals.  \nShe often speaks at international conferences.  \nShe received the important Simone Fielding school fellowship in 2012.  \nShe lives with her family in a smart home.  \nShe designed the home herself.",
+      "timestamp": "2025-09-01 00:20:32.088504",
+      "metadata": {
+        "text_id": "c0474f4b-07e9-479c-b2b8-63b0c8386730",
+        "version": 14
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 00:20:44.660868",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e9140497-1a7b-4dd3-ab24-6783588e596d",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The writer\u2019s output misstates key facts from the original text.\n- The output says \u201cvery equal-reviewed journals\u201d instead of \u201cpeer-reviewed journals.\u201d\n- The output calls it the \u201cSimone Fielding school fellowship\u201d instead of the \u201cRoyal Academy Simone Fielding fellowship.\u201d",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8863,
+          "meaningbert": 0.9431
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:21:05.813382",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 15,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Robotics is about building robots.  \nAI is about smart machines.  \nJulie Wong is a top researcher in robotics and AI.  \nShe wrote over 50 papers in peer-reviewed journals.  \nShe often speaks at international conferences.  \nShe got the Royal Academy Simone Fielding fellowship in 2012.  \nShe lives with her family in a smart home.  \nShe designed the home herself.",
+      "timestamp": "2025-09-01 00:21:05.814477",
+      "metadata": {
+        "text_id": "3468308c-3a99-4a00-8f7b-5031ad2c9742",
+        "version": 15
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:21:21.969964",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ca283c76-f33d-48c0-91ce-db28f428f2f8",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8962 is below the required 0.90. Issues found:\n- The key phrase \"highly regarded\" before \"peer-reviewed journals\" was dropped.\n- The role of \"co-author\" was omitted from the description of her papers.\n- The original term \"leading researcher\" was weakened to \"top researcher,\" losing lexical detail.\nSuggestion: Reinstate \"highly regarded\" in the journal description. Add \"co-author\" back into the papers sentence. Use \"leading researcher\" to match the original phrasing.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8962,
+          "meaningbert": 0.9432
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:21:44.537145",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 16,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Robotics is about building robots.  \nAI is about smart machines.  \nJulie Wong is a leading researcher in robotics and AI.  \nShe wrote over 50 papers as author and co-author.  \nThese papers were in highly regarded journals.  \nShe often speaks at international conferences.  \nShe got the Simone Fielding prize in 2012.  \nShe lives with her family in a smart home.  \nShe designed the home herself.",
+      "timestamp": "2025-09-01 00:21:44.541192",
+      "metadata": {
+        "text_id": "adec8050-9932-43cd-97ff-1df1c1184592",
+        "version": 16
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 00:22:26.409571",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a77f073c-3325-42e1-906d-94abcacc6fdb",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. Writer's output says 'Simone Fielding prize' but original text says 'prestigious Royal Academy Simone Fielding fellowship'.\n- Award name and type changed from 'prestigious Royal Academy Simone Fielding fellowship' to 'Simone Fielding prize'.\n- Omitted 'peer-reviewed' from 'peer-reviewed journals', altering the publication detail.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8891,
+          "meaningbert": 0.8681
+        }
+      }
+    }
+  ]
+}

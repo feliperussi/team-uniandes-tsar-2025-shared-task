@@ -1,0 +1,117 @@
+{
+  "session_id": "0d1552b8-b7ab-4702-b519-d9f7571e1601",
+  "created_at": "2025-09-01 01:28:45.390874",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:28:45.412876",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "08-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Sometimes you dream about something.\nFor example, you dream about a phone call from an old friend.\nOr you dream that someone you know dies.\nThen, this thing happens in real life.\n\nThis is not because the dream told you the future.\nIt probably just happened by chance.\nWe also have many dreams about these things.\nBut usually, they do not happen.\nWe forget about those dreams.",
+      "timestamp": "2025-09-01 01:28:45.412986",
+      "metadata": {
+        "text_id": "32688154-c80c-43b5-bbf8-a1332d4c5092",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 01:28:45.419307",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "efccbf08-957c-4498-b5ec-2c3d77bc628e",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8894 is below the required minimum of 0.90. This indicates an unacceptable loss of key words and phrasing from the original text.\n\n- Primary Deviation: The text deviates too far from the source's lexical structure. While simplification is the objective, it must not come at the cost of fidelity. Key phrases like 'result of coincidence' and 'prophecy' were replaced entirely, causing the score to drop below the threshold.\n\n- Secondary Observation: The MeaningBERT score of 0.7599 is borderline, barely meeting the 0.75 minimum. This confirms that while the general idea is present, the nuance is being lost.\n\n- Structural Compliance: The text does adhere to A2 standards in terms of sentence structure and vocabulary. All sentences are simple and the vocabulary is restricted to A1/A2 levels. However, this does not compensate for the primary fidelity failure.\n\nSuggestion: Revise the text to increase lexical similarity to the original source. The goal is to simplify, not to completely rephrase. Retain key A2-level words from the original where possible to meet the fidelity requirement.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8894,
+          "meaningbert": 0.7599
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:30:09.589763",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: For example, you can dream of a phone call from an old friend.\nOr you can dream of the death of someone close.\nThis is not a message about the future.\nIt is probably just a coincidence.\nAnd we probably forget all the times we dream about such things, but they do not happen.",
+      "timestamp": "2025-09-01 01:30:09.590952",
+      "metadata": {
+        "text_id": "89c8703c-cce8-47a6-895d-2590a14e8dbd",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 01:30:26.562070",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "51c1c445-723b-43ee-a085-f50ca19fd395",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Standard Violation. The text uses the word 'coincidence', which is a B2 level word. This is an unacceptable deviation from the A2 standard. All vocabulary must be strictly within the A2 level or simplified into an A2-level explanation. The presence of a single B2 word constitutes a complete failure to meet the required standard. While the sentence structure is appropriately simple and the simplification of 'prophecy' is correct, the vocabulary error is critical and non-negotiable. Suggestion: Replace 'It is probably just a coincidence' with an A2-compliant phrase. For example: 'It probably just happens by chance.' or 'The two things are probably not connected.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9273,
+          "meaningbert": 0.9078
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:30:38.467236",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: For example, you can dream of a phone call from an old friend.\nOr you can dream of the death of someone close.\nThis is not a message about the future.\nIt probably just happens by chance.\nAnd we probably forget all the times we dream about such things, but they do not happen.",
+      "timestamp": "2025-09-01 01:30:38.467807",
+      "metadata": {
+        "text_id": "cc73354d-99f3-4a03-bf1e-1f6e7c824c23",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 01:30:56.329128",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3225f092-b45e-4875-bd88-cc993acc4c34",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with all A2 standard requirements.\n\n- Factual Integrity: The output is factually identical to the original text. The concept of dreams being coincidence rather than prophecy is perfectly preserved in simple terms.\n- Metrics Compliance: All metrics are well above the required thresholds. The MeaningBERT score of 0.9 and BERTScore of 0.9269 indicate excellent preservation of meaning and lexical content.\n- CEFR Classification: The A2 classification is correct. The text avoids B1 complexity.\n- Qualitative Audit: The vocabulary is strictly limited to the A2 level. The sentence structure is exemplary, breaking down a complex idea into short, simple, and clear sentences connected by basic conjunctions. No deviations were found.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9269,
+          "meaningbert": 0.9
+        }
+      }
+    }
+  ]
+}

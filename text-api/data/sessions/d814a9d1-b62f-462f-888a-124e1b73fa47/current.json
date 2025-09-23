@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "37095f7b-d86c-4f40-b457-cd3f13a27050",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "These accidents do not happen often.  \nTrains can make a bridge collapse.  \nThis happens because the train moves fast.  \nBoats can also make a bridge collapse.  \nThis happens because boats are heavy.  \nEven a slow boat can make a bridge collapse.  \nNew tools can find bad parts of a bridge.  \nSafe work and better designs can help reduce these accidents.",
+    "version": 11,
+    "created_at": "2025-09-01 17:27:12.120999",
+    "updated_at": "2025-09-01 17:27:12.120999",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "10c330da-3ecb-4f94-85db-10463c4ba658",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6438 is significantly below the required 0.75 threshold. The simplification has removed too much of the original text's core message.\n\n- Fidelity Failure: The BERTScore of 0.872 is also below the required 0.90. Key concepts like 'velocity of the impact' and 'very large mass' were oversimplified to 'moves fast' and 'are heavy', losing critical lexical detail.\n- Omission of Key Information: The original text states 'The best way to avoid bridge failures is to plan for them.' Your version completely omits the concept of 'planning', which is a central point.\n- Loss of Nuance: The original text contrasts the different reasons for collapse (speed vs. weight). Your version lists them separately but loses this direct comparison, which was a key part of the original's structure and meaning.\n- Inaccurate Simplification: 'safer working environments' was reduced to 'safe work', which is not an equivalent concept.\n\nSuggestion: Re-write to restore the omitted concept of 'planning'. Rephrase the sentences about trains and boats to better contrast the reasons for the collapse. Use more precise A2 vocabulary to improve fidelity, for example, 'weak parts' instead of 'bad parts'.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.872,
+      "meaningbert": 0.6438
+    },
+    "created_at": "2025-09-01 17:27:34.806315"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "70f3c8f0-26c4-468d-a624-2f90f7160744",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "These accidents are very rare.  \nTrains can make a bridge fall down.  \nThis happens because the train hits fast.  \nBoats can also make a bridge fall down.  \nThis happens because boats are heavy.  \nEven a slow boat can make a bridge fall down.  \nModern tools can find weak parts of a bridge.  \nSafer work and better designs help reduce accidents.  \nAll these actions can stop a bridge from falling down.",
+    "version": 9,
+    "created_at": "2025-09-01 17:26:03.219527",
+    "updated_at": "2025-09-01 17:26:03.219527",
+    "metrics_meaningbert": 0.8013,
+    "metrics_cefr_compliance": "A2"
+  }
+}

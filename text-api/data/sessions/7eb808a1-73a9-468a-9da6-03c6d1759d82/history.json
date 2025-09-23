@@ -1,0 +1,228 @@
+{
+  "session_id": "7eb808a1-73a9-468a-9da6-03c6d1759d82",
+  "created_at": "2025-09-01 10:30:05.937930",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:30:05.944830",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "29-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The sun was bright. Sam closed his eyes a little. He looked at a car far away. The car made a lot of dust. It was going to the Big House.\n\nThe horses moved their tails. They did not care about their owner. This was his first visit in ten months.\n\nSam waited. Mr Carter was his boss. Mr Carter only came here when it was important. Sam was happy about this. He wanted to stay away from his boss. This was good for his job.\n\nMr Carter was hot. He cleaned the sweat from his neck. His shirt was wet in some parts. The wet parts looked like maps. His skin was getting red in the June sun. But his skin was not dark. He was a man with money. Other people did the work for him.",
+      "timestamp": "2025-09-01 10:30:05.945649",
+      "metadata": {
+        "text_id": "04bd2f9b-531c-4d99-8f6e-db581a68f669",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 10:30:05.951453",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "cdd864b4-c1f4-4bad-b31e-cf1918bd5f08",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5839 is catastrophically below the required 0.75 threshold. The text has been over-simplified to the point that the original's core meaning and tone are lost.\n\n- Primary Failure: The MeaningBERT score indicates a severe deviation from the source text's message. The nuance of the character relationships and the atmosphere has been destroyed.\n- Secondary Failure: The BERTScore of 0.8965 is below the minimum requirement of 0.90. This confirms that key descriptive words and phrases were removed, damaging fidelity.\n- Analysis: The original text implies a tense relationship where Sam keeps his job by avoiding his boss ('The more he kept out of his boss's way, the longer he'd have a job.'). Your version ('He wanted to stay away from his boss. This was good for his job.') changes this from a condition for survival into a simple preference, which is a significant meaning shift.\n- Vocabulary Deviation: The word 'dust' is classified as B1, which is outside the A2-level vocabulary.\n\nSuggestion: You must re-write the text to preserve the original meaning with more accuracy. Focus on conveying the *reason* for the characters' actions, not just the actions themselves. For example, rephrase the sentence about Sam's job to show the cause-and-effect relationship more clearly. Use simpler A2 words to explain the same concept. Example: 'Sam knew it was better for his job if he did not see his boss often.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8965,
+          "meaningbert": 0.5839
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:30:26.442826",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The sun was bright. Sam closed his eyes a little. He looked at a car far away. The car made the dirt go up into the air. It was going to the Big House.\n\nThe horses moved their tails. They did not care about their owner. This was his first visit in ten months.\n\nSam waited. Mr Carter was his boss. Mr Carter only came here when it was important. Sam was happy about this. He knew he could keep his job if he stayed away from his boss.\n\nMr Carter was hot. He cleaned the sweat from his neck. His shirt was wet in some parts. The wet parts looked like maps. His skin was getting red in the June sun. But his skin was not dark. He was a man with money. Other people did the work for him.",
+      "timestamp": "2025-09-01 10:30:26.443133",
+      "metadata": {
+        "text_id": "8858ef3c-3b19-452f-9d14-a72052d50224",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 10:30:57.752546",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d77e6739-b846-4dc7-a0ef-9e0800f610a7",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5886 is critically below the required 0.75 threshold. The simplification process has destroyed the core meaning and nuance of the original text.\n\n- Primary Failure: The original text's meaning about Sam's job security ('The more he kept out of his boss's way, the longer he'd have a job') was lost. Your version, 'He knew he could keep his job if he stayed away from his boss,' is a simple fact, not a statement about Sam's careful strategy to avoid being fired. The original's sense of consequence is gone.\n\n- Secondary Failure: The BERTScore of 0.8975 is below the 0.90 minimum. This is because key descriptive phrases like 'indoor tan' and 'damp patches...drew together' were replaced with overly simplistic and disconnected sentences. The description of Mr. Carter as a man whose appearance shows he doesn't do physical work is a key idea that was lost.\n\n- Suggestion: You must preserve the cause-and-effect relationships from the original. Rephrase to show that staying away from the boss is the *reason* Sam keeps his job. Rephrase to connect Mr. Carter's skin color and wealth in a single, descriptive idea, not separate facts.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8975,
+          "meaningbert": 0.5886
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:31:18.149573",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The sun was bright. Sam closed his eyes a little. He looked at a car far away. The car made the dirt go up into the air. It was going to the Big House. The horses moved their tails. They did not care about their owner. This was his first visit in ten months. Sam waited. Mr Carter was his boss. Mr Carter only came here when it was important. Sam was happy about this. He wanted to keep his job. So he stayed away from his boss. Mr Carter was hot. He cleaned the sweat from his neck. His shirt was wet in some parts. The wet parts looked like maps. His skin was getting red in the June sun. But his skin was not dark from work. This showed he was a man with money. Other people did the work for him.",
+      "timestamp": "2025-09-01 10:31:18.152697",
+      "metadata": {
+        "text_id": "53f8655e-9ad1-4881-9e72-e2f8c5e8a69b",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:31:42.646946",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "cec5bba4-bfc4-477f-88b0-4e4b2ea90967",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5866 is critically below the required 0.75 threshold. This indicates a severe loss of the original text's core message and nuance.\n\n- Primary Failure (MeaningBERT): The score of 0.5866 is unacceptable. The original text uses descriptive language to imply meaning, such as Mr. Carter having an \"indoor tan of a man that made money while other people did the work.\" Your version replaces this with a blunt explanation: \"This showed he was a man with money.\" This destroys the subtext and fundamentally alters how the information is conveyed, resulting in a significant meaning shift.\n\n- Secondary Failure (BERTScore): The BERTScore of 0.8985 is below the minimum requirement of 0.90. This reflects a loss of key lexical items from the original text.\n\n- Vocabulary Violation: The word \"dirt\" is classified as B1. This is an unacceptable deviation from the A2 vocabulary standard.\n\n- Structural Simplification Error: The original sentence \"The more he kept out of his boss's way, the longer he'd have a job\" contains a nuanced conditional meaning. Your simplification to \"He wanted to keep his job. So he stayed away from his boss\" loses this specific cause-and-effect relationship.\n\nSuggestion: You must rephrase the text to restore the lost meaning. Do not explain the meaning directly; use simple A2 language to describe the situation as the original did. Replace the B1 word \"dirt\" with an A2 alternative like \"ground\" or rephrase the sentence. The text must be rewritten to achieve a MeaningBERT score of 0.75 or higher.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8985,
+          "meaningbert": 0.5866
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:32:02.312590",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The sun was bright. Sam closed his eyes a little. He looked at a car far away. Dust from the ground went up into the air. The car was going to the Big House. The horses moved their tails. They did not care about their owner. This was his first visit in ten months. Sam waited. Mr Carter was his boss. Mr Carter only came here when it was important. Sam was happy about this. If he stayed away from his boss, he could keep his job. Mr Carter was hot. He cleaned the sweat from his neck. His shirt was wet in some parts. The wet parts looked like maps. His skin was getting red in the June sun. But his skin was not dark like a worker's skin. It was the skin of a man who stays inside. Other people did the work for him.",
+      "timestamp": "2025-09-01 10:32:02.313253",
+      "metadata": {
+        "text_id": "22468ab5-8403-4299-9b61-fd18c51f475e",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:32:25.492905",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6fd7107b-4c91-4e94-9e54-ac0afcaa0395",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.584 is critically below the required 0.75 threshold. The text has been oversimplified to the point of losing the original's core characterization and subtext.\n\n- Primary Failure: The low MeaningBERT score indicates a significant loss of meaning. The original text implies a power dynamic and Sam's cautious attitude. Your version states facts but loses this essential context. The phrase 'The more he kept out of his boss's way, the longer he'd have a job' shows Sam's constant fear. Your version, 'If he stayed away from his boss, he could keep his job,' is a simple conditional that lacks the same emotional weight.\n\n- Nuance Lost: The original's description of Mr. Carter's 'indoor tan of a man that made money while other people did the work' is a powerful piece of characterization. Your version, 'his skin was not dark like a worker's skin,' is a literal but weak translation that loses the implied social commentary.\n\n- Vocabulary Violation: The B1-level word 'dust' was used. This is not A2 vocabulary.\n\n- Structural Issue: The text is excessively choppy. While A2 requires simple sentences, the sequence 'The sun was bright. Sam closed his eyes a little. He looked at a car far away.' is too fragmented and unnatural.\n\nSuggestion: Re-write to restore the implied meaning. Focus on conveying the relationship between the characters using simple A2 language. Combine some sentences using 'and' or 'so' to improve flow. Replace 'dust' with an A2-compliant phrase like 'dirt in the air'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9001,
+          "meaningbert": 0.584
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:32:43.942256",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The sun was bright, so Sam closed his eyes a little. He looked at a car far away. The car made dirt go up into the air as it went to the Big House. The horses moved their tails. They did not care about their owner. This was his first visit in ten months. Sam waited. Mr Carter was his boss. Mr Carter only came here when it was important. This was good for Sam. He knew he must stay away from his boss to keep his job. Mr Carter was hot. He cleaned the sweat from his neck. His shirt was wet in some parts, and the wet parts looked like maps. His skin was getting red in the June sun. But his skin was not dark like a worker's skin. It showed he was a man who made money inside, while other people did the hard work for him.",
+      "timestamp": "2025-09-01 10:32:43.943901",
+      "metadata": {
+        "text_id": "df528cb0-f7b9-4c03-9449-1fde6248965c",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 10:33:09.844611",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0aaa5f69-03ef-4135-8d72-5135fd5e6532",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.573 is critically below the required 0.75 threshold. The original text conveys a strong sense of atmosphere and social observation, which your version has lost. The core meaning is not preserved.\n\n- CEFR Compliance Failure: The text is classified as B1, not the required A2. This is an absolute failure to meet the standard.\n- B1 Structural Violation: The sentence 'It showed he was a man who made money inside, while other people did the hard work for him' is structurally too complex for A2. It uses a relative clause ('who made money') and the B1-level connector 'while'.\n- B1 Vocabulary Violation: The word 'dirt' is classified as B1. It was not replaced with a suitable A2 alternative.\n- Loss of Nuance: The original's description of an 'indoor tan' is a sharp social comment. Your version, 'his skin was not dark like a worker's skin', is a literal and less meaningful simplification, contributing to the low MeaningBERT score.\n\nSuggestion: The final complex sentence must be broken into several simple A2 sentences. Example: 'He was a man who made money. He worked inside. Other people did the hard work.' Replace the B1 word 'dirt' with an A2 word. Rephrase to restore the original's tone of social contrast.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9044,
+          "meaningbert": 0.573
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:33:46.591345",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The sun was bright, so Sam closed his eyes a little. He looked at a car far away. The car made dust go up into the air. It went to the Big House. The horses moved their tails. They did not care about their owner. This was his first visit in ten months. Sam waited. Mr Carter was his boss. Mr Carter only came here when it was important. This was good for Sam. He knew he must stay away from his boss to keep his job. Mr Carter was hot. He cleaned the sweat from his neck. His shirt was wet in some parts. The wet parts looked like maps. His skin was getting red in the June sun. But his skin showed he did not work outside. He was a rich man. He worked inside while other people did the hard work.",
+      "timestamp": "2025-09-01 10:33:46.592886",
+      "metadata": {
+        "text_id": "5845807a-a9b2-41e4-9caa-53477354c71e",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:34:11.858767",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "652f5995-cbca-4bf0-9533-7ba7f9b91180",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5624 is significantly below the required 0.75 threshold. This indicates a severe loss of the original text's core message and characterization. The original's nuance about Sam's job security and the implied judgment of Mr. Carter was lost in the simplification.\n\n- Vocabulary Violation: The B1-level word 'dust' was used. This word is not on the A2 list and must be replaced or explained in simpler terms. Suggestion: Rephrase to 'The car made the dry ground go up into the air'.\n\n- Structural Complexity: The text uses B1-level sentence structures. The sentence 'He knew he must stay away from his boss to keep his job' is a complex clause. The sentence 'his skin showed he did not work outside' is also a complex clause. These must be broken into simple A2 sentences. Suggestion: Rewrite 'He knew he must stay away...' to 'He had a job. He wanted to keep his job. So, he stayed away from his boss.'\n\n- Loss of Detail: The original text states the horses kicked at flies. Your version, 'The horses moved their tails', loses this specific detail, contributing to the low fidelity score.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9005,
+          "meaningbert": 0.5624
+        }
+      }
+    }
+  ]
+}

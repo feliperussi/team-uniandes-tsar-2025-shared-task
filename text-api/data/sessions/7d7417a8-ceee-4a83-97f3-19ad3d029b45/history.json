@@ -1,0 +1,413 @@
+{
+  "session_id": "7d7417a8-ceee-4a83-97f3-19ad3d029b45",
+  "created_at": "2025-09-01 17:22:48.124153",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:22:49.027329",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "93-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The rover checks the air around it from time to time.  \nIn 2014 the rover found a gas called methane.  \nMethane is a simple gas that can be used as fuel.  \nMethane only lasts a few hundred years.  \nThis shows that something on Mars makes more methane.  \nNASA says Mars releases thousands of tons of methane at once.  \nThe amount of methane goes up and down in different seasons.  \nIt is almost like the planet is  blowing the gas.",
+      "timestamp": "2025-09-01 17:22:49.027485",
+      "metadata": {
+        "text_id": "c59f3078-a0e0-491c-bd48-cda47f3841db",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:22:49.053216",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d5a6c682-141b-44ff-b4b1-e93169670f8d",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.89 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text. The score was lowered by replacing 'key ingredient of natural gas' and 'breathing it' with lexically different terms.\n\nVocabulary Violation: The text uses B1-level words. 'used' and 'fuel' are not on the A2 word list. This is a direct violation of the CEFR A2 standard.\n\nStructural Violation: The sentence 'This shows that something on Mars makes more methane' uses a 'that-clause', which is a B1 grammatical structure. A2 texts must use simpler sentence constructions.\n\nSuggestion: Rephrase the sentence 'Methane is a simple gas that can be used as fuel' to use only A2 vocabulary. Example: 'Methane is a simple gas. People can use it for energy.'\n\nSuggestion: Simplify the B1 structure. Change 'This shows that something on Mars makes more methane' to two simple sentences. Example: 'This is important. It means something on Mars makes more methane.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8937,
+          "meaningbert": 0.8426
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:22:54.602001",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The rover checks the air around it from time to time.  \nIn 2014 the rover found a gas called methane.  \nMethane is a simple gas.  \nIt is a part of natural gas.  \nMethane only lasts a few hundred years.  \nThis is important.  \nIt means something on Mars makes more methane.  \nNASA says Mars releases thousands of tons of methane at once.  \nThe amount of methane goes up and down in different seasons.  \nIt is almost as if the planet is breathing it.",
+      "timestamp": "2025-09-01 17:22:54.602142",
+      "metadata": {
+        "text_id": "8623737d-af85-4efa-856e-c2a1392e62af",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:23:22.723655",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "bc5812eb-f0b4-4dbe-a11c-b7d9bc856d1d",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text is classified as B1, not the required A2. This is an immediate failure. The text also fails the fidelity check.\n\n- CEFR Level Violation: The classifier result is B1. This is caused by using vocabulary and structures that are too advanced for the A2 level.\n- Vocabulary Exceeds A2 Level: The word 'means' is B2 level. The word 'breathing' is B1 level. These are unacceptable for an A2 text.\n- Structural Complexity: The phrase 'as if' is a B1-level structure. It must be simplified.\n- Fidelity Failure: The BERTScore of 0.8938 is below the minimum requirement of 0.90. Excessive simplification of terms like 'analyses', 'replenishing the supply', and 'seasonal intervals' has resulted in a loss of lexical fidelity.\n\nSuggestion: Replace 'means' with 'This shows that'. Rephrase 'as if the planet is breathing it' to 'It looks like the planet breathes it'. Remove all B1 and B2 vocabulary. You must adhere strictly to the A2 wordlist.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8938,
+          "meaningbert": 0.8448
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:23:35.370898",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The rover checks the air around it from time to time.  \nIn 2014 the rover found a gas called methane.  \nMethane is a simple gas.  \nIt is part of natural gas.  \nMethane only lasts a few hundred years.  \nThis tells us that something on Mars makes more methane.  \nNASA says Mars releases thousands of tons of methane at once.  \nThe amount of methane goes up and down in different seasons.  \nIt looks like the planet blows it.",
+      "timestamp": "2025-09-01 17:23:35.371267",
+      "metadata": {
+        "text_id": "d81b55e0-c68d-4fad-8a22-567f6b8e613e",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:24:02.140607",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "aa170f31-2df1-4d3d-976d-dda6545c057a",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8925 is below the required 0.90. This indicates a significant loss of key phrasing from the original text. The text also fails the CEFR compliance check, receiving a B1 classification instead of the required A2.\n\n- Fidelity Failure: The BERTScore is too low. The simplification of key concepts like the metaphorical 'breathing it' to the awkward phrase 'blows it' caused a critical loss of lexical fidelity.\n- CEFR Compliance Failure: The text was classified as B1. The sentence 'This tells us that something on Mars makes more methane' uses a 'that-clause', which is a B1 grammatical structure and is unacceptable.\n- Structural Complexity: The phrase 'a gas called methane' uses a past participle as an adjective. This is a complex structure for the A2 level.\n\nSuggestion: Remove the B1 'that-clause'. Rephrase the sentence to 'This means something on Mars makes more methane.' Split the sentence 'In 2014 the rover found a gas called methane' into two simpler sentences. Rephrase 'blows it' to more closely match the original's meaning, such as 'It is like the planet is breathing.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8925,
+          "meaningbert": 0.845
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:24:09.281814",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The rover checks the air around it from time to time.  \nIn 2014 the rover found methane.  \nMethane is a few hundred years old.  \nMethane is a simple gas.  \nIt is part of natural gas.  \nMethane only lasts a few hundred years.  \nThis means something on Mars makes more methane.  \nNASA says Mars releases thousands of tons of methane at once.  \nThe amount of methane goes up and down in different seasons.  \nIt is like the planet is breathing.",
+      "timestamp": "2025-09-01 17:24:09.282143",
+      "metadata": {
+        "text_id": "d5821924-c3da-447f-bb1b-962fb75ce72a",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:24:33.917241",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f67a11ac-d947-44e1-8801-5fa08964e188",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The statement 'Methane is a few hundred years old' is factually incorrect. The original text states that methane *survives* for a few hundred years, which refers to its lifespan in the atmosphere, not its age. This is a critical error in comprehension and representation.\n\n- Fidelity Failure: The BERTScore of 0.8889 is below the required 0.90 threshold. This indicates a significant loss of key phrasing from the original text, such as the concept of the supply being 'replenished'.\n\n- CEFR Compliance Failure: The text was classified as B1, exceeding the A2 target. This is an automatic failure.\n\n- Vocabulary Violation: The text uses words above the A2 level, which contributed to the incorrect B1 classification. The word 'means' is B2. The word 'breathing' is B1. The word 'releases' is also above the A2 level.\n\n- Suggestion: Correct the factual error immediately. The distinction between age and lifespan is not negotiable. Replace all vocabulary that exceeds the A2 level. 'means' must be replaced with a simpler alternative. The sentence 'It is like the planet is breathing' must be rephrased using only A2 vocabulary.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8889,
+          "meaningbert": 0.8448
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:24:42.737984",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The rover checks the air around it from time to time.  \nIn 2014 the rover found methane.  \nMethane lasts a few hundred years.  \nMethane is a simple gas.  \nIt is part of natural gas.  \nThis tells us something on Mars makes more methane.  \nNASA says Mars lets out thousands of tons of methane at once.  \nThe amount of methane goes up and down in different seasons.  \nIt is like the planet takes a breath.",
+      "timestamp": "2025-09-01 17:24:42.738976",
+      "metadata": {
+        "text_id": "dc5fa99d-e8e1-435b-aed5-ba3595f8f0ee",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:25:08.693496",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6c05d9d7-b8ee-4fee-9210-a10ae70af585",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.89 is below the required 0.90 threshold. This indicates an unacceptable loss of key words and factual phrasing from the original text.\n\n- Fidelity Failure: The score is too low because key phrases were replaced with overly simple terms, losing lexical detail. For example, 'replenishing the supply' became 'makes more methane', and 'rises and falls at seasonal intervals' became 'goes up and down in different seasons'. This level of simplification damages fidelity to the source.\n- CEFR Compliance Failure: The text was classified as B1, which is an instant failure. The target is A2.\n- Vocabulary Violation: The B1-level word 'breath' was used. The phrase 'takes a breath' is an idiomatic expression that is too complex for the A2 level and is the direct cause of the B1 classification.\n\nSuggestion: Remove the phrase 'takes a breath'. Replace it with a direct A2 construction like 'It is like the planet breathes'. Suggestion: To meet the fidelity requirement, you must find closer A2 equivalents for the original's specific vocabulary. The simplification was too aggressive.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.89,
+          "meaningbert": 0.8539
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:25:19.102528",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The rover checks the air around it sometimes.  \nIn 2014 it found methane.  \nMethane lasts only a few hundred years.  \nMethane is a simple gas.  \nIt is part of natural gas.  \nThis shows something on Mars replaces the methane.  \nNASA says Mars lets out thousands of tons of methane at once.  \nThe amount of methane rises and falls in different seasons.  \nIt is like the planet breathes.",
+      "timestamp": "2025-09-01 17:25:19.103014",
+      "metadata": {
+        "text_id": "9a6f7f80-3765-41a5-b149-056da575de14",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:25:47.151239",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1554fa67-16c2-40fa-b485-dbfd6d0f37c9",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8937 is below the required 0.90 threshold. This is the primary reason for failure. The text also fails on CEFR compliance.\n\n- Fidelity Failure: The BERTScore is too low. Replacing specific original words like 'analyses' with 'checks', 'periodically' with 'sometimes', and 'replenishing the supply' with 'replaces the methane' resulted in a significant loss of lexical fidelity. The core vocabulary of the original text was not sufficiently preserved.\n\n- CEFR Compliance Failure: The text was classified as B1, which is too complex for the A2 standard. This is a secondary failure.\n\n- Structural Deviation: The sentence 'NASA says Mars lets out thousands of tons of methane at once' is structurally too complex for A2. It combines a proper noun (NASA), a phrasal verb ('lets out'), a large quantity ('thousands of tons'), and an idiomatic phrase ('at once'). This density of information is a B1 characteristic.\n\n- Structural Deviation: The construction 'This shows something on Mars replaces the methane' uses a 'that-clause' structure (even with 'that' omitted), which is a B1 indicator.\n\n- Suggestion: Rephrase the NASA sentence to reduce its complexity. Break it into two separate ideas. Example: 'NASA says Mars lets out a lot of methane. It lets out thousands of tons at one time.'\n\n- Suggestion: Simplify the 'This shows...' sentence using a basic A2 connector. Example: 'So, something on Mars makes new methane.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8937,
+          "meaningbert": 0.8475
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:25:59.478069",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The rover analyses the air around it periodically.  \nIn 2014 it found methane in the air.  \nMethane is a basic organic molecule.  \nIt is also a key ingredient of natural gas.  \nMethane only lasts a few hundred years.  \nSo something on Mars is replenishing the supply.  \nNASA says Mars emits thousands of tons of methane at a time.  \nThe amount of methane rises and falls with the seasons.  \nIt is like the planet breathes.",
+      "timestamp": "2025-09-01 17:25:59.478623",
+      "metadata": {
+        "text_id": "82b7b2bb-3f68-48d0-bc72-6443347cc759",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:26:23.293044",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c2ccb419-c66d-49fa-8d11-5da948cefe70",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The classifier rated the text as B2, which is an instant failure. The text is fundamentally non-compliant with the A2 standard due to a severe over-reliance on vocabulary far above the target level.\n\n- Vocabulary Violation: The text is saturated with B1, B2, and C1 level words. This is the primary reason for the B2 classification.\n- Specific Word Failures: 'analyses' (B2), 'periodically' (B2), 'molecule' (B2), 'basic' (B1), 'organic' (B1), 'replenishing' (C1), 'supply' (B1), 'emits' (B2). These words are unacceptable for an A2 text.\n- Structural Deception: While the sentence structure is simple, it cannot compensate for the advanced vocabulary. The simplicity of the sentences does not make the words themselves understandable to an A2 reader.\n\nSuggestion: Eradicate all vocabulary above the A2 level. Do not proceed until every word has been verified against an A2 wordlist. Replace 'analyses' with 'checks'. Replace 'periodically' with 'sometimes'. Replace 'emits' with 'sends out'. Rephrase the concept of 'replenishing the supply' to 'is making more of it'. The concept of an 'organic molecule' must be simplified to something like 'a small part of things in nature'.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9109,
+          "meaningbert": 0.8858
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:26:34.028794",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The rover checks the air around it sometimes.  \nIn 2014 it found methane in the air.  \nMethane is a tiny natural gas.  \nIt is also part of natural gas.  \nMethane? (Oops)  \n\nMethane only lasts a few hundred years.  \nSo something on Mars is making more of it.  \nNASA says Mars sends out thousands of tons of methane at a time.  \nThe amount of methane goes up and down with the seasons.  \nIt is like the planet breathes.",
+      "timestamp": "2025-09-01 17:26:34.029428",
+      "metadata": {
+        "text_id": "2951d33d-22eb-4b9b-b80d-985e5b3d8cbf",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:26:58.290261",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "03b51e22-d410-42c2-ab99-2b6b11f06ca8",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The output contains content not present in the original text. The line 'Methane? (Oops)' is a complete fabrication and an instant disqualification.\n\n- Fidelity Failure: The BERTScore of 0.8871 is below the required 0.90. This indicates a significant loss of key terminology from the original text, such as 'replenishing the supply' and 'seasonal intervals'.\n\n- CEFR Compliance Failure: The text is classified as B1, not the required A2. This is a direct violation of the core task.\n\n- Vocabulary Violation: The word 'tiny' is B1 level. The word 'making' is B2 level. These words are too advanced for the A2 standard.\n\n- Structural Error: The line 'Methane? (Oops)' is not a valid sentence and is inappropriate for this task.\n\n- Suggestion: Remove all fabricated content immediately. Replace 'tiny' with 'small'. Replace 'making' with an A2-compliant phrase like 'produces'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8871,
+          "meaningbert": 0.8336
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:27:05.410354",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The rover checks the air around it sometimes.  \nIn 2014 it found methane in the air.  \nMethane is a small natural gas.  \nMethane only lasts a few hundred years.  \nSo something on Mars makes more of it.  \nNASA says Mars sends out thousands of tons of methane.  \nThe amount of methane goes up and down in different seasons.  \nIt is like the planet breathes.",
+      "timestamp": "2025-09-01 17:27:05.410879",
+      "metadata": {
+        "text_id": "535e7a39-ab3d-4e50-961d-1c4e810d95f5",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:27:33.849466",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "df54d8d2-2faf-4d86-887f-58908d48d2e3",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8935 is below the required 0.90 threshold. This indicates an unacceptable loss of key phrasing from the original text. The submission also fails on CEFR compliance.\n\n- Fidelity Failure: The BERTScore is too low because key terms were oversimplified, losing lexical connection to the source. Replacing 'analyses' with 'checks', 'replenishing the supply' with 'makes more of it', and 'emits' with 'sends out' caused this score degradation.\n\n- CEFR Compliance Failure: The CEFR classifier rated the output as B1. The target level is A2. This is an automatic failure. The text is too complex for the target level, despite using simple words. The sentence 'The amount of methane goes up and down in different seasons' introduces a conceptual complexity that elevates the text to B1.\n\n- Suggestion: Rephrase to improve lexical fidelity while maintaining simplicity. Break down the B1-level sentence. Correction required: Change 'The amount of methane goes up and down in different seasons' to two separate sentences, such as 'Sometimes there is more methane. Sometimes there is less methane.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8935,
+          "meaningbert": 0.8233
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:27:39.007932",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The rover analyses the air around it.  \nIn 2014 it found methane in the air.  \nMethane is a small natural gas.  \nMethane only lasts a few hundred years.  \nSomething on Mars is replenishing the supply.  \nNASA says Mars emits thousands of tons of methane.  \nSometimes there is more methane.  \nSometimes there is less methane.  \nIt is like the planet breathes.",
+      "timestamp": "2025-09-01 17:27:39.008407",
+      "metadata": {
+        "text_id": "fc18a6fc-64df-4cfc-afbf-06f07fdf1406",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:28:02.501903",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3f29412c-41e5-4a42-9d3d-bd78458251a6",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8862 is below the required 0.90 threshold. This indicates a critical loss of lexical detail from the original text.\n\n- Lexical Loss: Your simplification removed key concepts required for high fidelity. The original specifies the methane level changes at 'seasonal intervals'. Your version, 'Sometimes there is more... Sometimes there is less', loses this specific and important detail, causing the score to drop.\n- Vocabulary Violation (B1/B2): The text uses multiple words that are above the A2 level. This is a direct violation of the CEFR standard.\n    - 'analyses' is B1. Use 'checks'.\n    - 'replenishing' is B2.\n    - 'supply' is B1.\n    - 'emits' is B1.\n- Suggestion: Replace all non-A2 vocabulary immediately. The phrase 'Something on Mars is replenishing the supply' must be rephrased to 'Something on Mars is making more methane'. The word 'emits' must be replaced with 'makes' or 'lets out'. Restore the concept of 'seasonal' changes to meet the fidelity requirement.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8862,
+          "meaningbert": 0.8278
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:28:07.231868",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The rover checks the air around it.  \nIn 2014 it found methane in the air.  \nMethane is a small natural gas.  \nMethane only lasts a few hundred years.  \nSomething on Mars is making more methane.  \nNASA says Mars makes thousands of tons of methane.  \nThe amount of methane goes up and down each season.  \nIt is like the planet breathes.",
+      "timestamp": "2025-09-01 17:28:07.232311",
+      "metadata": {
+        "text_id": "4911faaf-dab9-40d8-9130-afeae65cbf24",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:28:31.769075",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1950b43f-8fc9-43dd-9940-38436641c7e2",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8904 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text. While simplification is required, the lexical fidelity is too low.\n\nFAIL: CEFR Compliance. The text was classified as B1, which is an immediate failure. The target level is A2.\n\nDiagnostic Analysis:\n- Vocabulary Violation: The word 'making' is classified as B2 level. This word is too advanced for an A2 text and is the primary reason for the incorrect B1 classification. A2 vocabulary must be strictly enforced.\n- Fidelity Loss: The replacement of 'analyses' with 'checks' and 'replenishing the supply' with 'making more' contributed to the low BERTScore. The simplification was too aggressive, losing necessary detail.\n\nCorrective Path:\n- Suggestion: Replace the B2 word 'making'. Rephrase the sentence to use A2 vocabulary. Example: 'Something on Mars produces new methane.' or 'There is new methane on Mars.'\n- Suggestion: To improve the fidelity score, use more precise A2 verbs. 'Checks' is acceptable, but the overall loss of precision across the text resulted in a score below the minimum threshold.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8904,
+          "meaningbert": 0.8337
+        }
+      }
+    }
+  ]
+}

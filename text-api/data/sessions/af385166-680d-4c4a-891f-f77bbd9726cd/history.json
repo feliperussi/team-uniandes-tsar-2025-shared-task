@@ -1,0 +1,413 @@
+{
+  "session_id": "af385166-680d-4c4a-891f-f77bbd9726cd",
+  "created_at": "2025-09-01 17:06:36.395395",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:06:37.675915",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "39-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many bridge accidents happen while the bridge is being built.  \nEngineers often make a mistake, such as a miscalculation.  \nThe bridge falls because of its own weight.  \nThis can be very dangerous for the workers.",
+      "timestamp": "2025-09-01 17:06:37.676092",
+      "metadata": {
+        "text_id": "24df01e9-87dc-49b0-9e7d-e23674dc2f71",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:06:38.769604",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ad56236b-fa2c-4c70-9605-fcaa75c531fc",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as B1, which is an automatic failure. The target level is A2.\n\n- The sentence 'Many bridge accidents happen while the bridge is being built' uses the present continuous passive voice ('is being built'). This is a B1 grammatical structure and is too complex for an A2 audience.\n\n- The vocabulary analysis incorrectly flags 'being' as B2, but its use here in a passive construction is the core reason for the B1 classification.\n\nSuggestion: Rephrase the first sentence to remove the passive voice. Use a simple active construction. Example: 'Many bridge accidents happen when people build a bridge.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9189,
+          "meaningbert": 0.8489
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:06:45.453175",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many bridge accidents happen when people build a bridge.  \nEngineers often make a mistake, such as a wrong calculation.  \nThe bridge falls because of its weight.  \nThis is very dangerous for the workers.",
+      "timestamp": "2025-09-01 17:06:45.453468",
+      "metadata": {
+        "text_id": "5148514d-ec2b-4664-8c03-ae5d95e1c478",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 17:07:09.160561",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "58db18a9-2458-4556-aeb2-69d37e35a908",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Exceeds A2 Standard. The text fails the deep qualitative audit because it uses words that are above the A2 level. While the structure is simple and the meaning is preserved, the vocabulary is not compliant. Deviation: The word 'engineers' is a B1-level noun. It was not simplified to an A2 equivalent. Deviation: The word 'calculation' is a C1-level noun. While 'wrong calculation' is a good simplification of 'miscalculation', the core word remains too advanced for the A2 level. Suggestion: Replace 'engineers' with a descriptive phrase such as 'the people who plan the bridge'. Suggestion: Rephrase 'a wrong calculation' to avoid the C1 noun. Use a simple verb phrase like 'they do the math wrong'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.903,
+          "meaningbert": 0.8373
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:07:13.439344",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many bridge accidents happen when people build a bridge.  \nThe people who plan the bridge often make a mistake.  \nThey do the math wrong.  \nThe bridge falls because of its weight.  \nIt is very dangerous for the workers.",
+      "timestamp": "2025-09-01 17:07:13.439553",
+      "metadata": {
+        "text_id": "130e619e-182b-49eb-abcc-c864e3ad8381",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:07:40.678754",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3b371124-0baa-4c29-9185-e25d4ab96462",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8897 is below the required 0.90 threshold. This is a non-negotiable failure.\n\n- The score indicates that your output has lost too much lexical detail from the original text. While simplification is the goal, it must not come at the cost of factual fidelity.\n- The cumulative effect of multiple simplifications caused this failure. The term 'engineers' was replaced with 'the people who plan the bridge', 'miscalculation' with 'do the math wrong', 'collapses' with 'falls', and 'deadly' with 'very dangerous'.\n- Each individual simplification is reasonable for A2, but together they have diluted the text's connection to the source material below the minimum standard.\n\nSuggestion: Revise the text to be slightly more faithful to the original's key terms. The balance between simplicity and fidelity was not met. You must achieve a BERTScore of 0.90 or higher.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8897,
+          "meaningbert": 0.8176
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:07:51.262409",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many bridge accidents happen when the bridge is built.  \nEngineers often make a mistake.  \nThey miscalculate.  \nThe bridge collapses because of its weight.  \nIt can be deadly for the workers.",
+      "timestamp": "2025-09-01 17:07:51.262930",
+      "metadata": {
+        "text_id": "6bc8216b-8cc4-4baa-999b-e052b7f11c92",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:08:13.805074",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "fb07e3a5-edd4-462e-87ea-64230ea9ae03",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8996 is below the required 0.90 threshold. This indicates a loss of key phrasing from the original text. While the meaning is preserved, the lexical fidelity is insufficient. The score was lowered by replacements such as 'occur during the construction' with 'happen when the bridge is built' and 'collapses under its own weight' with 'collapses because of its weight'. These changes, while simplifying, reduce the direct word-for-word correspondence measured by the metric. Suggestion: Revise the text to retain more of the original's key terms. Use 'during construction' and 'under its own weight' to meet the fidelity standard.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8996,
+          "meaningbert": 0.8385
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:08:20.850209",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many bridge accidents happen during construction.  \nEngineers often make a mistake.  \nThey miscalculate.  \nThe bridge collapses under its own weight.  \nIt can be deadly for the workers.",
+      "timestamp": "2025-09-01 17:08:20.850552",
+      "metadata": {
+        "text_id": "48590674-be60-4fe1-8ca7-a807acb17246",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:08:46.889783",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0b8258a2-9487-4b68-bae8-598d09156bdc",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as B1, which is above the required A2 level. This is a critical failure.\n- The word 'construction' is B2 level vocabulary. It must be replaced. Suggestion: Use the phrase 'when a bridge is being built'.\n- The word 'miscalculate' is too complex for A2. Suggestion: Rephrase this to 'They make a mistake with the numbers'.\n- The word 'collapses' is a B1 verb. Suggestion: Replace it with 'falls down'.\nThe text fails because it uses vocabulary that is too advanced for an A2 reader.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9003,
+          "meaningbert": 0.861
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:08:53.675474",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many bridge accidents happen when a bridge is being built.  \nEngineers often make a mistake.  \nThey make a mistake with the numbers.  \nThe bridge falls down under its own weight.  \nIt can be deadly for the people.",
+      "timestamp": "2025-09-01 17:08:53.675889",
+      "metadata": {
+        "text_id": "5c515338-89d1-4148-bfda-3224094198e0",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:09:16.245144",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "cf00c6f8-7605-468d-89a0-f5d23ff0c572",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text specifies the danger is to 'workers'. Your output generalizes this to 'people', which is a loss of critical information. This is an instant failure. This factual error is confirmed by the BERTScore of 0.8968, which is below the required 0.90 threshold, indicating a significant loss of key words from the original text. Suggestion: Restore the factual accuracy. Replace the word 'people' with 'workers' to match the original text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8968,
+          "meaningbert": 0.8475
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:09:27.719829",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many bridge accidents happen when a bridge is built.  \nEngineers often make a mistake.  \nThey make a mistake with numbers.  \nThe bridge falls down under its own weight.  \nIt can be deadly for the workers.",
+      "timestamp": "2025-09-01 17:09:27.720282",
+      "metadata": {
+        "text_id": "726e7dfa-1892-49e6-860a-8fcdaf820032",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:10:00.780676",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "874b3bda-6f3c-413b-95d4-3496373dbd52",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8962 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original text, failing a priority diagnostic test.\n\n- Deviation: The original term 'collapses' was replaced with 'falls down'. This simplification caused a loss of lexical fidelity.\n- Deviation: The phrase 'occur during the construction' was replaced with 'happen when a bridge is built'. This change, while simplifying, contributed to the low fidelity score.\n- Deviation: The specific detail 'workers on it at the time' was reduced to 'the workers', losing contextual information and lowering the score.\n\nSuggestion: Retain more of the original's key vocabulary. Simplification must not come at the cost of lexical fidelity. The text must be simplified while preserving the specific phrasing of the source material more closely to meet the 0.90 BERTScore threshold.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8962,
+          "meaningbert": 0.8575
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:10:14.834224",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many bridge accidents occur during the construction.  \nEngineers often make a miscalculation.  \nThe bridge collapses under its own weight.  \nIt can be deadly for the workers on it at the time.",
+      "timestamp": "2025-09-01 17:10:14.834881",
+      "metadata": {
+        "text_id": "dd0bf874-378a-418a-99ec-269d1e01a588",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:10:43.361449",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "20471240-a40b-44d6-a8b3-50acb9e8634f",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The CEFR classifier rated the text as B1, which is an immediate failure. The text must strictly adhere to the A2 standard.\n\n- Vocabulary Exceeds A2 Level: The text uses words that are too advanced for the A2 level. The B1 classification is a direct result of this.\n- Specific Word Violations: The word 'occur' is B1 level. The word 'construction' is B2 level. The word 'miscalculation' is also too complex for A2.\n- Loss of Meaning: The original text establishes a clear cause-and-effect relationship: 'accidents are often due to an error'. Your version disconnects this by stating 'Engineers often make a miscalculation' as a separate fact. This alters the core message.\n\nSuggestion: Replace vocabulary with A2-compliant alternatives. Replace 'occur' with 'happen'. Replace 'construction' with 'when people are building it'. Replace 'miscalculation' with 'a mistake with the numbers'. Re-establish the causal link using 'because'. Example: 'These accidents happen because engineers make a mistake with the numbers.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9214,
+          "meaningbert": 0.8643
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:10:52.677690",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many bridge accidents happen.  \nThey happen because engineers make a mistake with the numbers.  \nThis is when people are building the bridge.  \nThe bridge falls down because of its weight.  \nIt can be deadly for the workers at that time.",
+      "timestamp": "2025-09-01 17:10:52.678176",
+      "metadata": {
+        "text_id": "8c79bdf0-7576-4020-9fa0-a7da28041be8",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 17:11:14.789843",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "491d312b-63b0-4cd9-9c28-d0a617333311",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8983 is below the required 0.90 threshold. This indicates a failure to retain sufficient key phrasing from the original text.\n\n- The primary cause of the low score is the oversimplification of key terms. While simplification is necessary for A2, it must not sacrifice lexical fidelity.\n- The term 'construction' was replaced with 'building'.\n- The term 'collapses' was replaced with 'falls down'.\n- The phrase 'error made by the engineers, such as a miscalculation' was reduced to 'engineers make a mistake with the numbers'.\n\nSuggestion: Revise the text to retain more of the original vocabulary. The simplification was too aggressive, causing the fidelity metric to fall below the minimum standard. The text is structurally sound for A2, but it fails on this critical quantitative measure.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8983,
+          "meaningbert": 0.8403
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:11:23.150953",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many bridge accidents happen during construction.  \nEngineers often make an error.  \nThe error can be a miscalculation.  \nThe bridge collapses under its own weight.  \nIt can be deadly for the workers then.",
+      "timestamp": "2025-09-01 17:11:23.151571",
+      "metadata": {
+        "text_id": "473c0a00-1bb7-4b25-926b-9090c612c515",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:11:39.989970",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a21b17c1-4585-4499-86b4-bd3fb7338e8d",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as B1, which is an instant failure. The A2 standard was not met.\n\n- Vocabulary Violation: The word 'construction' is B2 level. Its inclusion is a direct violation of the A2 vocabulary requirement. All words must be at or below the target CEFR level.\n\n- Suggestion: Replace 'construction' with a simple A2 phrase. Use 'when a bridge is being built' or 'while people build a bridge'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9045,
+          "meaningbert": 0.8563
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:11:52.137065",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many bridge accidents happen while people build a bridge.  \nEngineers often make an error.  \nThe error can be a miscalculation.  \nThe bridge can collapse under its own weight.  \nThis can be deadly for the workers.",
+      "timestamp": "2025-09-01 17:11:52.138928",
+      "metadata": {
+        "text_id": "dfe65413-2398-4391-9afc-2215e12c1307",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:12:12.206135",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b30e2b87-295d-46c9-ab0c-4384783299a9",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as B1, which is above the required A2 level. This is an instant failure.\n- Vocabulary Violation: The word 'collapse' is a B2-level word. It is too advanced for an A2 audience.\n- Structural Violation: The first sentence, 'Many bridge accidents happen while people build a bridge,' uses the subordinating conjunction 'while'. This creates a complex sentence structure characteristic of B1 level, not A2.\nSuggestion: Replace 'collapse' with an A2 phrase such as 'fall down'.\nSuggestion: Split the first sentence into two simple sentences. For example: 'Many bridge accidents happen. They happen when people build a bridge.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9057,
+          "meaningbert": 0.8474
+        }
+      }
+    }
+  ]
+}

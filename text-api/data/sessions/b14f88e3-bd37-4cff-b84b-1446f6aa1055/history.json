@@ -1,0 +1,117 @@
+{
+  "session_id": "b14f88e3-bd37-4cff-b84b-1446f6aa1055",
+  "created_at": "2025-08-31 23:40:19.987034",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:40:19.995479",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "01-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Asteroids are big rocks in space.\nNow NASA is making a list of smaller ones.\nThese are 140 metres wide or more.\nScientists think there are about 25,000 of them.\nNow NASA knows about 8,000.\n17,000 are still not on the list.\nIn 2013, a 19-metre asteroid exploded over Chelyabinsk, Russia.\nIt hurt 1,200 people.\nSo, these middle-sized asteroids are a serious danger.\nThey can hurt us if they come near Earth.",
+      "timestamp": "2025-08-31 23:40:19.995887",
+      "metadata": {
+        "text_id": "ceb09b74-3a64-49f9-92cd-49075788bae3",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 8/10 - FAIL",
+      "timestamp": "2025-08-31 23:40:20.003427",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "581c8cd8-9d7b-471d-b5d4-a5b1340aafc7",
+        "grade": 8,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. Vocabulary Audit Failure.\n- The word 'making' in the sentence \"Now NASA is making a list of smaller ones.\" is classified as B2-level, which exceeds A2 vocabulary limits.\n- Replace 'making' with the A1-level verb 'make' to comply with A2 standards.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.92,
+          "meaningbert": 0.8334
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:41:04.781204",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Asteroids are big rocks in space.\nNow NASA makes a list of smaller ones.\nThese are 140 metres wide or more.\nScientists think there are about 25,000 of them.\nNow NASA knows about 8,000.\n17,000 are still not on the list.\nIn 2013, a 19-metre asteroid exploded over Chelyabinsk, Russia.\nIt hurt 1,200 people.\nSo, these middle-sized asteroids are a serious danger.\nThey can hurt us if they come near Earth.",
+      "timestamp": "2025-08-31 23:41:04.781856",
+      "metadata": {
+        "text_id": "037b16bf-815e-4f7d-b7e2-09200b289a6d",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-08-31 23:41:36.692930",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f51f7391-bb15-4def-a3da-6cbaed2ea3ec",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: A2 Vocabulary Violation. The word 'Scientists' in sentence 4 is not on an A2 vocabulary list.\nPASS: BERTScore 0.9186 and MeaningBERT 0.8187 exceed required thresholds. CEFR classifier result is A2.\nFAIL: Structural Connector Violation. Sentence 10 uses the connector 'if', which is not allowed under the rule limiting connectors to and, but, so, because.\nSuggestion: Replace 'Scientists' with an A2 term like 'People who study space'.\nSuggestion: Remove 'if' by splitting the sentence or using 'because', for example: 'They can hurt us because they come near Earth.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9186,
+          "meaningbert": 0.8187
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:42:41.107294",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Asteroids are big rocks in space.\nNow NASA makes a list of smaller ones.\nThese are 140 metres wide or more.\nPeople who study space think there are about 25,000.\nNow NASA knows about 8,000.\n17,000 are still not on the list.\nIn 2013, a 19-metre asteroid exploded over Chelyabinsk, Russia.\nIt hurt 1,200 people.\nSo, these middle-sized asteroids are a serious danger.\nThey can hurt us because they come near Earth.",
+      "timestamp": "2025-08-31 23:42:41.108804",
+      "metadata": {
+        "text_id": "affb36cc-2591-4202-bd84-a98494fe0fd0",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-08-31 23:42:59.779094",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "719406e7-cd76-45e2-bf39-f1e075c975f1",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text meets all A2 requirements.\nDetected no deviations:\n- Factual Integrity: All facts match the original.\n- Meaning Preservation: MeaningBERT score 0.8161 (>=0.75).\n- Fidelity: BERTScore 0.9134 (>=0.90).\n- CEFR Classification: Rated A2.\n- Vocabulary: Only A1/A2 words used.\n- Structure: Short, simple sentences with allowed connectors.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9134,
+          "meaningbert": 0.8161
+        }
+      }
+    }
+  ]
+}

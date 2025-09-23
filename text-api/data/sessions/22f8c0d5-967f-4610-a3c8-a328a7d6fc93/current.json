@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "75cf0a10-b83b-41f2-b34d-07319ca3224d",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Born in the USA is a rock album.  \nThe songs are fast and foot\u2011tapping.  \nThe words have emotional weight.  \nThey talk about the dark side of the American dream.  \nThe American dream means anyone can be successful.  \nMany songs talk about ordinary hard\u2011working people.  \nThese people have hard lives.  \nThey feel anger.  \nLife does not give them money or fame.  \nOne song, Glory Days, is about people in a small town.  \nThey think about when they were young.  \nThey felt they could do anything.  \nAnother song, Downbound Train, is about a young man.  \nHe loses his job.  \nHis life becomes very bad.  \nThe artist is writing about real people he knew.  \nHe could have had a different life.  \nHe did not have it because he became a star.  \nThe album shows the unique and extraordinary talent of the Boss.",
+    "version": 11,
+    "created_at": "2025-09-01 17:34:24.850198",
+    "updated_at": "2025-09-01 17:34:24.850199",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "4688d4de-aeb1-4eb5-9368-25ce36236986",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Fidelity Failure. The BERTScore of 0.8751 is below the required 0.90 threshold. This indicates a significant loss of key phrasing from the original text.\n\nCEFR Compliance Failure: The text was classified as B1, not the required A2. This is an automatic failure.\n\nB1 Vocabulary Violation: The final sentence, 'The album shows the unique and extraordinary talent of the Boss,' uses the B1-level words 'extraordinary' and 'talent'. These words are too advanced for the A2 level and must be simplified.\n\nLexical Loss: The low BERTScore is a direct result of oversimplification that lost the specific vocabulary of the original. Phrases like 'life is ruined' became 'life becomes very bad', and 'leave you in no doubt' became 'album shows'. While the meaning is generally correct, the fidelity to the source text's vocabulary is too low.\n\nSuggestion: Rephrase the final sentence completely to use only A1/A2 vocabulary. Example: 'The album shows the Boss is a very special and good musician.' Review the entire text to restore key words from the original where possible without violating A2 standards to improve the fidelity score.",
+    "metrics": {
+      "cefr_compliance": "B1",
+      "bertscore": 0.8751,
+      "meaningbert": 0.8584
+    },
+    "created_at": "2025-09-01 17:34:53.653334"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "ad56b96a-590d-47ab-a10b-bcaad8ebaaab",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Born in the USA is a rock album.  \nIts songs are fast\u2011paced and foot\u2011tapping.  \nThe words talk about the dark side of the American dream.  \nThe American dream says anyone can become successful in the United States.  \nMany songs talk about ordinary hard\u2011working people.  \nThese people feel sadness and anger.  \nLife does not give them money or fame.  \nOne song, Glory Days, is about people in a small town.  \nThey remember the past.  \nAnother song, Downbound Train, is about a man.  \nHe loses his job.  \nThe artist may think of real people he knew.  \nHe may think of a life without a star.  \nThe album shows the great talent of the Boss.",
+    "version": 4,
+    "created_at": "2025-09-01 17:29:58.220837",
+    "updated_at": "2025-09-01 17:29:58.220838",
+    "metrics_meaningbert": 0.8497,
+    "metrics_cefr_compliance": "A2"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "ce32da20-2321-471a-8306-72fe7ac38c38",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Venom is a bad liquid from an animal that can make you sick. Most kinds of spiders have venom. They use it to stop or kill their food. They do not use it to hurt people.\n\nOnly 25 kinds of spiders can really hurt people with their venom. When a spider puts its venom in you, it can hurt a lot. But people do not often die from them. For example, there is a spider in Australia. It is famous because it is very dangerous. Its name is the Sydney funnel-web spider. But no one has died from this spider since 1981. This is because doctors made an anti-venom. An anti-venom is a medicine that stops the venom.\n\nBut you must be careful with hairy spiders like tarantulas. Do not make them angry. When these spiders are scared, they protect themselves. They shoot special hairs from their body. These hairs get stuck in your skin or eyes. They hurt a lot.",
+    "version": 6,
+    "created_at": "2025-09-01 10:45:39.562627",
+    "updated_at": "2025-09-01 10:45:39.562637",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "c5adfa66-0b9e-460e-9cf9-8a37efd3a8c4",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation Failure. The primary reason for failure is the MeaningBERT score of 0.5731, which is critically below the required 0.75 threshold. This indicates a severe deviation from the original text's core message and neutral tone.\n\n- MeaningBERT Failure: The original text is a factual description. Your version introduces a subjective judgment by starting with \"Venom is a bad liquid\". This changes the meaning from a scientific statement to a simplistic opinion, causing the low score.\n\n- Fidelity Failure: The BERTScore of 0.8826 is below the 0.90 minimum. This is a direct result of replacing key factual terms with overly simple words. You lost important vocabulary such as 'prey', 'fatalities', 'ejecting', and 'attacker', which damages the text's fidelity to the source.\n\n- Vocabulary Non-Compliance: The text uses B1-level vocabulary, which is an automatic failure for the A2 standard. The words 'liquid' and 'shoot' are not on the A2 list. This is unacceptable.\n\n- Suggestion: Rewrite the text to be strictly factual, not judgmental. Remove \"bad liquid\". Replace the B1 words 'liquid' and 'shoot' with A2-compliant alternatives like \"special water\" and \"push out\". Re-read the original to ensure key concepts like 'prey' and 'attacker' are not completely lost during simplification.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8826,
+      "meaningbert": 0.5731
+    },
+    "created_at": "2025-09-01 10:46:06.527330"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "767fa14b-7e07-4463-bbe7-976a75c1c770",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Venom is a poison from an animal. Most kinds of spiders have venom. They use it to stop or kill their food. They do not use it to hurt people.\n\nOnly 25 kinds of spiders can really hurt people with their venom. When a spider hurts you, it can hurt a lot. But people do not often die when a spider hurts them. For example, there is a famous spider in Australia. Its name is the Sydney funnel-web spider. No one has died when this spider hurts them now. This is because doctors made a medicine that stops the poison in 1981.\n\nBut you must be careful with hairy spiders like tarantulas. Do not make them angry. When these spiders are scared, they protect themselves. They send out many special hairs. These hairs get into your skin or eyes. They make them red and sore.",
+    "version": 2,
+    "created_at": "2025-09-01 10:42:42.562800",
+    "updated_at": "2025-09-01 10:42:42.562809",
+    "metrics_meaningbert": 0.5794,
+    "metrics_cefr_compliance": "A2"
+  }
+}

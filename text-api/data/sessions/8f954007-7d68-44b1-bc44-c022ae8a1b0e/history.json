@@ -1,0 +1,598 @@
+{
+  "session_id": "8f954007-7d68-44b1-bc44-c022ae8a1b0e",
+  "created_at": "2025-09-01 00:05:26.112875",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:05:26.123279",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "16-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last 200 years, technology got better.  \nPeople got better health care.  \nFewer children died young.  \nThese families had many children.  \nMany children grew up.  \nThey had children too.  \nContraception means ways to stop a woman having a baby.  \nIn the 1960s, people could use contraception.  \nAt first, women had six babies on average.  \nThen they had two babies on average.",
+      "timestamp": "2025-09-01 00:05:26.124156",
+      "metadata": {
+        "text_id": "cad85caa-bc92-4acf-b5a2-d8f90305e069",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:05:26.132395",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8fe8058d-3034-485e-9bfd-7f5c77285aa4",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.863 is below the required 0.90. Key terms like 'fuelling rapid population growth' were removed, and 'global average number of babies per woman' was simplified, losing important lexical detail. Suggestion: Restore 'fuelling rapid population growth' in one sentence. Use 'global average number of babies per woman' instead of 'women had ... babies on average'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.863,
+          "meaningbert": 0.7745
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:05:39.507736",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last 200 years, technology got better.  \nPeople got better health care.  \nFewer children died young.  \nThese changes are fuelling rapid population growth.  \nFamilies had many children.  \nMany children grew up and had children too.  \nContraception is how people stop a woman having a baby.  \nIn the 1960s, people could use contraception.  \nThe global average number of babies per woman was six.  \nThen it fell to two.",
+      "timestamp": "2025-09-01 00:05:39.508593",
+      "metadata": {
+        "text_id": "9d0a1892-8dab-4d62-99e9-61f419c67509",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:05:59.767078",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a03a7357-6daa-4d2e-b992-13e74fe707a3",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8834 is below the required 0.90. This low score shows a significant loss of key lexical content from the original.\n- The phrase \"wider availability of\" before contraception was omitted, reducing the original specificity.\n- A new definition sentence \"Contraception is how people stop a woman having a baby.\" adds content not in the original and shifts focus.\n- The expression \"as low as two\" was simplified to \"it fell to two\", removing the nuance of decline limits.\nSuggestion: Reintroduce the exact phrase \"wider availability of contraception\", restore the wording \"as low as two\", and remove added definitions to improve lexical overlap and fidelity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8834,
+          "meaningbert": 0.8491
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:06:29.888537",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last 200 years, technology got better.  \nPeople got better health care.  \nFewer children died young.  \nSo the number of people grew fast.  \nFamilies had many children.  \nMany children grew up.  \nThey had children too.  \nIn the 1960s, there was a wider availability of contraception.  \nContraception means ways to stop having a baby.  \nThe average number of babies per woman was six.  \nThen it fell to as low as two.",
+      "timestamp": "2025-09-01 00:06:29.889994",
+      "metadata": {
+        "text_id": "8411f5aa-ae72-4812-b833-0b5d54cf03d2",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:06:44.496002",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a731b823-13e6-4a86-92f2-9d5564160eb9",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. BERTScore of 0.8781 is below the required 0.90. The writer\u2019s output drops the phrase \u201cglobal average\u201d and replaces \u201crapid population growth\u201d with the generic \u201cthe number of people grew fast,\u201d losing key terminology. Suggestion: Reinsert \u201cglobal average number of babies per woman\u201d and retain \u201crapid population growth\u201d to preserve lexical fidelity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8781,
+          "meaningbert": 0.8123
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:06:58.196343",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last 200 years, technology got better.  \nPeople got better health care.  \nFewer children died young.  \nSo there was rapid population growth.  \nFamilies had many children.  \nMany children grew up.  \nThey had children too.  \nIn the 1960s, people could use contraception more.  \nContraception is how people stop having a baby.  \nThe global average number of babies per woman was six.  \nThen it fell to as low as two.",
+      "timestamp": "2025-09-01 00:06:58.198831",
+      "metadata": {
+        "text_id": "62364b14-063a-48f7-9fd8-1eccc7d9ac24",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 00:07:15.092100",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "fc36eae6-c241-4ff1-bfcb-0acc6c15399b",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8801 is below the required 0.90, indicating a loss of precise phrasing and key lexical detail. Deviations detected:\n- The phrase \"rapid population growth\" is split into two sentences, diluting the core idea of rapid change.\n- \"Wider availability of contraception\" is rendered as \"people could use contraception more\", losing the nuance of increased access.\n- The global statistic is broken: \"The global average number of babies per woman was six. Then it fell to as low as two.\" This split undermines the original cohesive presentation.\nSuggestion: Merge related facts into unified sentences. Restore precise terms like \"rapid population growth\" and \"wider availability of contraception.\" Use a single sentence for the statistic on babies per woman to maintain cohesion.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8801,
+          "meaningbert": 0.8315
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:07:47.353391",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last 200 years, technology and health care got better.  \nFewer children died young.  \nThis made the population grow fast.  \nFamilies had many children.  \nThe children grew up and had children too.  \nBut in the 1960s, contraception became easier to get.  \nContraception is how people stop having a baby.  \nThe world average babies per woman fell from six to two.",
+      "timestamp": "2025-09-01 00:07:47.354983",
+      "metadata": {
+        "text_id": "39288a9d-7266-4aaf-8847-acbfac2ae800",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 00:08:02.468294",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f4300910-1e2b-48b1-b831-6478b6365da2",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7395 is below the required 0.75. The original phrase \u2018fueling rapid population growth\u2019 conveys a strong causal link, but your version \u2018This made the population grow fast\u2019 loses that precise nuance. FAIL: Fidelity Failure. The BERTScore of 0.8931 is below the required 0.90. Key terms like \u2018wider availability of contraception\u2019 were reduced to \u2018easier to get\u2019, and \u2018global average number of babies per woman\u2019 became \u2018world average babies per woman\u2019, which weakens the original detail. Suggestion: Restore \u2018fueling rapid population growth\u2019, use \u2018wider availability of contraception\u2019, and keep \u2018global average number of babies per woman\u2019 for full fidelity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8931,
+          "meaningbert": 0.7395
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:08:19.780446",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last two hundred years, technology and health care improved.\nFewer children died young.\nThis fueled rapid population growth.\nFamilies had many children.\nThe children grew up and had children too.\nBut in the 1960s, there was a wider availability of contraception.\nContraception is a way to stop having a baby.\nThe global average number of babies per woman was six.\nIt fell to two.",
+      "timestamp": "2025-09-01 00:08:19.782299",
+      "metadata": {
+        "text_id": "334834e0-be84-4f1a-b2d4-bcd3095e1e0d",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:08:41.934337",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "899a97a5-522d-49ee-9a97-d0f627f7bfb2",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6791 is below the required 0.75.\n- The phrase \"as low as\" was dropped, changing the nuance of the decline to an exact drop from six to two.\n- The original detail \"large families produced even more children who survived into adulthood and had their own children\" was simplified to two separate sentences, losing the sense of cumulative effect.\n- Adding a definition of contraception shifts focus away from the demographic narrative and disrupts the flow.\nSuggestion: Reinstate the qualifier \"as low as\" for the drop in birth rate, merge the cause-and-effect clauses into a single describe of population growth, and remove the side definition of contraception to keep the original emphasis and sequence of ideas.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9323,
+          "meaningbert": 0.6791
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:09:06.594864",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last two hundred years, technology and health care improved.  \nFewer children died young.  \nThis made the population grow fast.  \nBig families had many children who lived and then had children too.  \nIn the 1960s, more people could get contraception.  \nThe global average number of babies per woman was six.  \nIt fell to as low as two.",
+      "timestamp": "2025-09-01 00:09:06.595293",
+      "metadata": {
+        "text_id": "73b4d57d-12ba-42a9-923a-cd99feb9f16f",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-09-01 00:09:24.752047",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "144b0ae6-1af4-47a5-b572-5440c2230fe4",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text uses a B1 word and misses needed A2 definitions. Detected issues:\n- The word \u201cglobal\u201d is classified as B1 vocabulary and exceeds A2 level.\n- The key term \u201ccontraception\u201d is listed as a keyword but is not defined in simple A2 language.\n- The connector \u201cthen\u201d is not in the allowed set (and, but, so, because).\nSuggestion: Replace \u201cglobal\u201d with \u201cworld\u201d or \u201cin the world.\u201d Add a simple definition for contraception, e.g. \u201ccontraception means ways to stop a woman from getting pregnant.\u201d Remove or replace \u201cthen\u201d with an allowed connector like \u201cand\u201d or restructure the sentence.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9068,
+          "meaningbert": 0.8344
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:09:41.976013",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last two hundred years, technology and health care improved.  \nFewer children died young.  \nThis made the population grow fast.  \nBig families had many children who lived.  \nThose children had children too.  \nIn the 1960s, more people could get contraception.  \nContraception means ways to stop a woman from getting pregnant.  \nThe average number of babies per woman in the world was six.  \nIt fell to two.",
+      "timestamp": "2025-09-01 00:09:41.976595",
+      "metadata": {
+        "text_id": "9ae3a026-9aed-4868-b575-f7e2d556052a",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:09:56.999998",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "410cbe38-1ca0-4408-9393-22ec86f61cdf",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8899 is below the required 0.90, indicating a significant loss of key lexical items. The phrase \u2018fuelling rapid population growth\u2019 was weakened to \u2018This made the population grow fast,\u2019 and \u2018global average number of babies per woman\u2019 was split into simpler sentences, reducing overlap. Suggestion: Retain original phrasing such as \u2018fuelling rapid population growth\u2019 and \u2018global average number of babies per woman\u2019 to improve fidelity and meet the BERTScore threshold.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8899,
+          "meaningbert": 0.8327
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:10:17.465689",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last two hundred years, technology and health care improved.  \nFewer children died young.  \nThese changes fuelled rapid population growth.  \nLarge families had more children.  \nMost children grew up.  \nThose children had children too.  \nIn the 1960s, more people could use contraception.  \nContraception is a way to stop a woman getting pregnant.  \nThe global average number of babies per woman was six.  \nIt fell to two.",
+      "timestamp": "2025-09-01 00:10:17.467763",
+      "metadata": {
+        "text_id": "1d8f46ba-3181-4930-8f7c-2abcf1d4fb25",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 00:10:36.599074",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9ad3a680-4aa7-40b2-aa21-943560f992ee",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7103 is below the required 0.75. The core message that improvements in technology and health fuelled rapid population growth is weakened by splitting and reordering sentences and by adding a sidetrack definition of contraception. FAIL: Fidelity Failure. The BERTScore of 0.8884 is below the required 0.90. Key phrasing like 'declined from six babies per woman to as low as two' was fractured into 'was six. It fell to two', dropping the nuance 'as low as'. Suggestion: Merge sentences to keep cause and effect together, restore the exact phrase 'declined from six babies per woman to as low as two', and remove the added definition of contraception to preserve focus.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8884,
+          "meaningbert": 0.7103
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:11:11.707314",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last two hundred years, technology and health care improved.  \nBecause of this, fewer children died young and population grew fast.  \nParents had large families and many children lived to be adults.  \nThose adults had children too.  \nIn the 1960s, more people could use contraception.  \nThe average number of babies per woman declined from six.  \nIt fell to as low as two.",
+      "timestamp": "2025-09-01 00:11:11.707942",
+      "metadata": {
+        "text_id": "cc56ae23-cafe-4303-8692-c0de33769e6f",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 00:11:28.255159",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "45874e97-6ced-446f-a43d-f0efcb70b4d2",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. Classifier rated B1.  \n- The sentence \u201cBecause of this, fewer children died young and population grew fast.\u201d begins with the subordinating link \u201cBecause of this,\u201d a structure above A2.  \n- The comparative adjective \u201cfewer\u201d is a B1-level word.  \n- The noun phrase \u201caverage number of babies per woman\u201d is too complex for A2.  \n- The idiomatic expression \u201cas low as two\u201d reflects a B1 phrase.  \n- The time phrase \u201cin the 1960s\u201d introduces advanced decade notation.  \nSuggestion: Start sentences simply without \u201cBecause of this.\u201d Use basic words like \u201cnot many\u201d instead of \u201cfewer.\u201d Replace \u201caverage number of babies per woman\u201d with \u201chow many babies each woman had.\u201d Remove the idiom \u201cas low as.\u201d Use only \u201cand\u201d for links.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9083,
+          "meaningbert": 0.8315
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:11:46.107741",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last two hundred years, technology and health care improved.  \nNot many children died young.  \nThe population grew fast.  \nParents had large families.  \nMany children lived to be adults.  \nThose adults had children too.  \nIn 1960, more people could use contraception.  \nContraception is a way to stop pregnancy.  \nThen each woman had six babies.  \nNow each woman has two babies.",
+      "timestamp": "2025-09-01 00:11:46.108941",
+      "metadata": {
+        "text_id": "ac8b1bf1-75f4-4817-b03d-344003a4f168",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 00:12:04.335572",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f589c203-91da-47c9-a3dc-0d00e946adcf",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5897 is below the required 0.75, showing the writer lost the nuanced core message about declining child mortality rates driving population growth and subsequent fertility changes. FAIL: Fidelity Failure. The BERTScore of 0.8728 is below the required 0.90, indicating key phrases like \"global average\" and the timeline progression from the 1960s are missing or oversimplified. Suggestion: Restore the phrase \"global average number of babies per woman\" and the decline \"from six babies per woman to as low as two\". Reintroduce the link between fewer child deaths and rapid population growth to preserve the original meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8728,
+          "meaningbert": 0.5897
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:12:24.194974",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 12,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Technology and health care improved in the last two hundred years. Because of that, fewer children died when they were young. So the world population grew fast. Families had many children. Many of those children lived to become adults. They had children of their own. In the 1960s, people could use contraception more easily. Contraception is a way to stop a woman from getting pregnant. Then the global average number of babies per woman was six. Today it is as low as two.",
+      "timestamp": "2025-09-01 00:12:24.196198",
+      "metadata": {
+        "text_id": "10234705-31b5-4e5c-9327-c3500690fbcc",
+        "version": 12
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:12:43.024419",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ce533d8a-1327-4e00-aafe-5cdaa6c1239e",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7048 is below the required 0.75.\nDetected deviations:\n- The causal connection \u2018fuelling rapid population growth\u2019 is lost when splitting into separate short sentences.\n- The decline from six to two babies per woman is not clearly framed as a direct result of contraception.\nSuggestion: Merge sentences to restore the cause\u2013effect link (use phrasing like \u201cfuelling rapid population growth\u201d) and explicitly state that the average fell from six to two babies per woman after the 1960s.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9216,
+          "meaningbert": 0.7048
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:13:22.118351",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 13,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Technology and health care got better in the last two hundred years.  \nThis made the world population grow fast.  \nFamilies had many children who survived to adulthood.  \nThese adults had children of their own.  \nIn the 1960s, people could use contraception more easily.  \nContraception is a way to stop a woman getting pregnant.  \nThen the average babies per woman fell from six to two.",
+      "timestamp": "2025-09-01 00:13:22.119291",
+      "metadata": {
+        "text_id": "d7c1aaed-a5cf-4b1c-9481-358874d4b285",
+        "version": 13
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 00:13:41.437241",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4805c627-279c-4e08-b5a1-e93d8cb61fd4",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8896 is below the required 0.90. Key terms and phrasing were lost. The original says \u201cglobal average number of babies per woman\u201d but you wrote \u201caverage babies per woman,\u201d dropping \u201cglobal\u201d and \u201cnumber.\u201d The original uses \u201cfuelling rapid population growth\u201d and \u201cfewer children died young,\u201d which convey urgency and cause; you replaced these with the weaker phrase \u201cmade the world population grow fast.\u201d Suggestion: restore precise phrasing like \u201cglobal average number,\u201d \u201cfuelling rapid growth,\u201d and mention \u201cfewer children died young\u201d to improve fidelity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8896,
+          "meaningbert": 0.7646
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:14:03.827864",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 14,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Technology and health care got better in the last two hundred years.  \nFewer children died young.  \nThis fuelled rapid population growth.  \nThese large families had more children who survived into adulthood.  \nThese adults had children of their own.  \nIn the 1960s, contraception became easier to get.  \nContraception means a way to stop a woman getting pregnant.  \nThen the global average number of babies per woman fell.  \nIt went from six to two.",
+      "timestamp": "2025-09-01 00:14:03.828546",
+      "metadata": {
+        "text_id": "9e64dbe4-42c0-422d-83cd-4bef42c0fb55",
+        "version": 14
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 00:14:21.693797",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "43b438a7-167a-4528-a41f-3cd258191586",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8983 is below the required 0.90.\n- Key phrase change: The original \u2018declined from six babies per woman to as low as two\u2019 is rendered as \u2018went from six to two\u2019, losing important lexical detail.\n- The added sentence \u2018Contraception means a way to stop a woman getting pregnant\u2019 alters the text length and shifts alignment, lowering BERTScore.\nSuggestion: Restore the exact phrasing \u2018declined from six babies per woman to as low as two\u2019 and remove or consolidate the definition sentence to improve fidelity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8983,
+          "meaningbert": 0.8343
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:14:50.418941",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 15,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Technology and health care improved in the last two hundred years.  \nFewer children died young.  \nPopulation grew.  \nLarge families had more children who survived.  \nThese children had their own children.  \nIn the 1960s, contraception, a way to stop pregnancy, became easier.  \nThe average number of babies per woman in the world declined.  \nIt declined from six babies per woman to as low as two.",
+      "timestamp": "2025-09-01 00:14:50.422401",
+      "metadata": {
+        "text_id": "911238ee-e9e3-49e8-b1a6-b88a28bb44e7",
+        "version": 15
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:15:15.890944",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5ed84dc8-e216-45d8-a8b5-c66a9bc4f4c8",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance Deep Audit. The text passes factual integrity and metric checks but fails A2 vocabulary and structure. Detected words outside the A1/A2 lists: improved, grew, survived, declined, became. The relative clause \u201cchildren who survived\u201d is a B1 structure. The term \u201cpregnancy\u201d is at C1 level. Suggestion: Replace improved with got better; grew with got bigger; survived with lived; declined with went down; became with got. Remove the clause who survived by saying children lived to adulthood. Replace pregnancy with having babies. Use only and, but, so, because as connectors.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9003,
+          "meaningbert": 0.7705
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:15:40.264092",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 16,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Technology and health care got better in the last two hundred years.  \nFewer children died young.  \nPopulation got bigger.  \nLarge families had more children.  \nThe children lived and got big.  \nThey had their own children.  \nIn the 1960s, contraception (a way to stop having babies) got easier.  \nThe average number of babies per woman in the world went down.  \nIt went down from six babies per woman to two.",
+      "timestamp": "2025-09-01 00:15:40.270081",
+      "metadata": {
+        "text_id": "14cad7df-5e8f-4fd5-8e03-add1fd496df7",
+        "version": 16
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 00:15:58.525784",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d1402f99-6df0-4f7b-9d96-0dbd2610e23e",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6481 is below the required 0.75 and thus fails to preserve the core message of rapid population growth fueled by health and technology improvements. FAIL: Fidelity Failure. The BERTScore of 0.8846 is below the required 0.90, reflecting the loss of key phrases like \"fuelling rapid population growth\" and \"wider availability of contraception\". Suggestion: Restore the phrase \"fuelling rapid population growth\" to keep the causal link. Suggestion: Use \"improvements in technology and health\" instead of \"got better\". Suggestion: Replace \"got easier\" with \"wider availability of contraception\" to maintain lexical detail and precision.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8846,
+          "meaningbert": 0.6481
+        }
+      }
+    }
+  ]
+}

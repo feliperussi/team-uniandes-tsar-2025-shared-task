@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "ffb514cf-315e-4ac0-90c7-565d714ee227",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "I was on a leave after my baby was born.  \nThis leave gave me time off.  \nAfter the leave I wanted more time with my children.  \nI wanted this before school starts.  \nI talked with my boss.  \nWe agreed to a three\u2011day work week.  \nI work three days a week.  \nMy pay is based on the days I work.  \nSo I get less money now.  \nThe cut in pay is big.  \nMy work has not become less.  \nI still have the same amount of work.  \nI do five days of work in three days.  \nI feel it is not fair.  \nI feel bad about it.",
+    "version": 11,
+    "created_at": "2025-09-01 17:59:53.365050",
+    "updated_at": "2025-09-01 17:59:53.365058",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "446de20a-889a-40d8-8621-06ca0e714f3d",
+    "approval": "FAIL",
+    "grade": 2,
+    "feedback": "FAIL: Meaning Preservation Failure. The submission fails on two critical metrics. The MeaningBERT score of 0.7159 is below the required 0.75, and the BERTScore of 0.8653 is below the required 0.90. This indicates a severe loss of the original text's core message and lexical fidelity.\n\n- Meaning Loss: The text was broken down into excessively simple, disconnected sentences. This fragmentation destroyed the logical flow. For example, the original's causal link 'This of course meant a significant cut in my pay too, as I'm paid on a pro-rata basis' was lost.\n\n- Fidelity Loss: Key phrases from the original text were replaced with overly simplistic terms, causing the low BERTScore. 'Significant cut' became 'cut... is big' and 'pro-rata basis' became 'based on the days I work'. This simplification sacrifices too much specific information.\n\n- Unfaithful Addition: The sentences 'I feel it is not fair. I feel bad about it' are an editorial addition. You have added information and emotion not explicitly present in the source text. Your task is to simplify, not to interpret and add new content.\n\n- Structural Failure: The output is a list of A1-level sentences, not a coherent A2 paragraph. There is a near-total absence of simple A2 connectors like 'but' or 'because' to link ideas.\n\nSuggestion: Re-write the text. Combine the short, choppy sentences using basic A2 connectors like 'so' and 'but' to restore logical flow. Ensure the core concepts from the original text are preserved more accurately. Do not add your own interpretations or feelings to the text.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8653,
+      "meaningbert": 0.7159
+    },
+    "created_at": "2025-09-01 18:00:21.473040"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "40587c49-9123-4cd1-87c5-4d38ff1b2e55",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "I worked a five\u2011day week.  \nParental leave means time off work after a new baby.  \nAfter my parental leave, I wanted more time with my children.  \nI talked with my boss and we agreed to work three days.  \nBut this meant a significant cut in my pay.  \nPro\u2011rata basis means pay is based on hours worked.  \nMy workload hasn't decreased in the slightest.  \nI still do five days of work in three days.  \nSo I get much less pay for the same amount of work.",
+    "version": 4,
+    "created_at": "2025-09-01 17:55:13.699821",
+    "updated_at": "2025-09-01 17:55:13.699821",
+    "metrics_meaningbert": 0.8067,
+    "metrics_cefr_compliance": "A2"
+  }
+}

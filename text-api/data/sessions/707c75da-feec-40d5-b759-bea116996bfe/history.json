@@ -1,0 +1,413 @@
+{
+  "session_id": "707c75da-feec-40d5-b759-bea116996bfe",
+  "created_at": "2025-08-31 20:32:34.208869",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:32:34.214302",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "05-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Asteroids are rocks in space. Some dangerous asteroids come near the Earth. NASA made a map of 1,400 of these asteroids. But NASA says they will not be a problem for the next 100 years. NASA has technology to watch these rocks. They can see if a rock is going to hit the Earth. If there is a problem, NASA has two ways to protect us.",
+      "timestamp": "2025-08-31 20:32:34.214885",
+      "metadata": {
+        "text_id": "1b20ee92-a053-4e9f-a887-afbd59a82880",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:32:34.223146",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "01d416cc-226f-4fc8-b3d4-60413a8a138a",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6427 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text.\n\n- Primary Deviation: The original text provides a specific definition for 'Potentially Hazardous Asteroids' as rocks passing 'within 7.5 million kilometres of Earth's orbit'. Your output simplifies this to 'Some dangerous asteroids come near the Earth'. This simplification is too extreme; it removes the specific data and the key concept of 'orbit', which are central to the original text's meaning.\n- Consequence: While the text is grammatically simple and uses A2 vocabulary, it has sacrificed essential information to achieve this simplicity. The BERTScore of 0.9001 is barely passing, further showing that key lexical items were lost.\n\nSuggestion: You must reintroduce the core definitional concept without using B1 language. Rephrase to restore the lost meaning. Example: 'Some dangerous asteroids are rocks that travel very close to the Earth's path in space.' This is more accurate than 'come near the Earth' and better preserves the original meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9001,
+          "meaningbert": 0.6427
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:32:48.936801",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Asteroids are rocks in space. Some dangerous asteroids travel near the Earth's path in space. They come closer than 7.5 million kilometres. NASA made a map of 1,400 of these asteroids. But NASA says they will not be a problem for the next 100 years. NASA has technology to watch these rocks. They can see if a rock is going to hit the Earth. If there is a problem, NASA has two ways to protect us.",
+      "timestamp": "2025-08-31 20:32:48.942544",
+      "metadata": {
+        "text_id": "4898d0bf-e700-44fc-bd49-5b71279fcca7",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:33:14.888788",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1f086ea4-6130-4038-80a6-2c26a3e6ccd7",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6465 is significantly below the required 0.75 threshold. The text fails to preserve the core concepts of the original text, even though the basic facts are present.\n\n- The term 'Potentially Hazardous Asteroids' is a specific classification. Your replacement, 'Some dangerous asteroids', is a generic description and loses this critical meaning.\n- The original specifies 'Earth's orbit', a precise astronomical term. Your version, 'the Earth's path in space', is a vague simplification that degrades the scientific meaning.\n- The original mentions 'two defence solutions could be launched'. Your version, 'two ways to protect us', is overly simplistic and loses the implication of active, technological intervention.\n\nSuggestion: You must preserve key terminology. Reintroduce the term 'Potentially Hazardous Asteroids' and define it. Restore the phrase 'Earth's orbit'. Change 'two ways to protect us' to something more active, like 'two plans to stop a dangerous rock'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9062,
+          "meaningbert": 0.6465
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:33:28.724200",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Asteroids are rocks in space. Some are called 'Potentially Hazardous Asteroids'. They travel near Earth's orbit. They come closer than 7.5 million kilometres. NASA made a map of 1,400 of these asteroids. But NASA says they are not a problem for the next 100 years. NASA has technology to watch these rocks. They can see if a rock is going to hit Earth. If there is a problem, NASA has two plans to stop it.",
+      "timestamp": "2025-08-31 20:33:28.724573",
+      "metadata": {
+        "text_id": "babf53f1-95f9-4c20-b2c0-fc74cc9f0441",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:33:56.207982",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "44f54d96-b72d-4c7d-84e2-e627f5d5454a",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text is an exemplary model of A2 simplification. It meets all diagnostic criteria without deviation.\n\nFactual Accuracy: All facts, numbers (7.5 million, 1,400, 100 years), and the core message from the original text are correctly and fully preserved.\n\nMeaning Preservation: The MeaningBERT score of 0.825 and BERTScore of 0.9105 are well above the required thresholds, confirming high fidelity to the source material.\n\nCEFR Compliance: The text correctly registers as A2. The vocabulary and sentence structure are perfectly aligned with this level.\n\nVocabulary Control: Complex B1/B2 words such as 'potentially', 'hazardous', 'threat', 'predictions', and 'solutions' were expertly replaced with simple A2 equivalents like 'problem', 'watch', and 'plans'.\n\nStructural Simplicity: The original text's complex sentences were broken down into short, clear, and easy-to-understand sentences. The use of connectors is limited to appropriate A2-level words ('but', 'if').\n\nKeyword Definition: The keyword 'Asteroids' was defined simply and effectively at the beginning of the text (\"Asteroids are rocks in space.\"), which is an excellent practice for A2 readability.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9105,
+          "meaningbert": 0.825
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:34:08.627267",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Asteroids are rocks in space. Some are called 'Potentially Hazardous Asteroids'. They travel near Earth's orbit. They come closer than 7.5 million kilometres. NASA made a map of 1,400 of these asteroids. But NASA says they are not a problem for the next 100 years. NASA has technology to watch these rocks. They can see if a rock is going to hit Earth. If there is a problem, NASA has two plans to stop it.",
+      "timestamp": "2025-08-31 20:34:08.629267",
+      "metadata": {
+        "text_id": "f0807f91-cd95-4821-82c9-7894a8ae49e9",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:34:32.307265",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "97b73dac-748c-403f-8a6a-7383695932a3",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text meets all A2 criteria without deviation.\n- Factual Integrity: All facts, numbers, and the core message from the original text are preserved accurately.\n- Meaning and Fidelity: The MeaningBERT score of 0.825 and BERTScore of 0.9105 are well above the required thresholds, confirming the message was not lost.\n- CEFR Compliance: The text correctly classifies as A2. The vocabulary and sentence structure are perfectly aligned with the A2 standard.\n- Qualitative Audit: The text is an exemplary model of A2 simplification. Complex vocabulary such as 'potentially', 'threat', 'track', and 'solutions' was correctly replaced with simple A2 alternatives like 'problem', 'watch', and 'plans to stop it'. The original complex sentence structure was broken down into short, clear, and independent sentences, which is the required A2 style.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9105,
+          "meaningbert": 0.825
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:34:48.214850",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Asteroids are rocks in space. Some are called 'Potentially Hazardous Asteroids'. They travel near Earth's orbit. They come closer than 7.5 million kilometres. NASA made a map of 1,400 of these asteroids. But NASA says they are not a problem for the next 100 years. NASA has technology to watch these rocks. They can see if a rock is going to hit Earth. If there is a problem, NASA has two plans to stop it.",
+      "timestamp": "2025-08-31 20:34:48.216922",
+      "metadata": {
+        "text_id": "fe059191-a930-47d5-a753-9c82a68654ea",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 7/10 - FAIL",
+      "timestamp": "2025-08-31 20:35:18.149878",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5109af71-f464-49a8-a1bd-0ca26b3ac377",
+        "grade": 7,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance Failure. The text fails the qualitative audit due to a vocabulary violation.\n\n- Vocabulary Violation: The text uses the word 'orbit'. This is a B1-level word and is not compliant with the strict A2 standard. All vocabulary must be A2 or below.\n- Structural Strength: The simplification of complex concepts into short, simple sentences is correct. The use of connectors like 'but' and 'if' is appropriate for the A2 level.\n- Simplification Success: The text correctly simplified multiple B1/B2 words, including 'threat' (to 'problem'), 'track' (to 'watch'), and 'defence solutions' (to 'plans to stop it'). This demonstrates a correct approach.\n- Factual and Meaning Integrity: The text passed all metric checks, successfully preserving the facts and core meaning of the original text.\n\nSuggestion: Replace the B1 word 'orbit'. Use a simple A2 phrase such as 'path around the Earth' to maintain compliance.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9105,
+          "meaningbert": 0.825
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:35:34.546432",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Asteroids are rocks in space. Some are called 'Potentially Hazardous Asteroids'. They travel near Earth's path around the sun. They come closer than 7.5 million kilometres. NASA made a map of 1,400 of these asteroids. But NASA says they are not a problem for the next 100 years. NASA has technology to watch these rocks. They can see if a rock is going to hit Earth. If there is a problem, NASA has two plans to stop it.",
+      "timestamp": "2025-08-31 20:35:34.546728",
+      "metadata": {
+        "text_id": "336e4dc8-d68e-4225-ad55-eae288f9641f",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:35:57.011971",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "73b784ec-703d-4f07-bcc7-c9c4388b2faf",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text is a model example of A2 simplification and adheres to all protocol requirements.\n\n- Factual Integrity: The output is 100% factually accurate compared to the original text.\n- Meaning and Fidelity: The MeaningBERT score of 0.8342 and BERTScore of 0.9079 are both above the required thresholds, indicating excellent preservation of the original message and key terms.\n- CEFR Compliance: The text was correctly classified as A2. The vocabulary and sentence structure are perfectly aligned with this level.\n- Qualitative Audit: The text exclusively uses short, simple sentences and A1/A2 vocabulary. Complex concepts like 'Potentially Hazardous' and 'Earth's orbit' were successfully rephrased into simple A2 terms ('travel near Earth's path around the sun'). No deviations were found.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9079,
+          "meaningbert": 0.8342
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:36:10.673013",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Asteroids are rocks in space. Some are called 'Potentially Hazardous Asteroids'. They travel near Earth's path around the sun. They come closer than 7.5 million kilometres. NASA made a map of 1,400 of these asteroids. But NASA says they are not a problem for the next 100 years. NASA has technology to watch these rocks. They can see if a rock is going to hit Earth. If there is a problem, NASA has two plans to stop it.",
+      "timestamp": "2025-08-31 20:36:10.673488",
+      "metadata": {
+        "text_id": "98b4f295-589e-4557-bf10-26e350fa8234",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:36:34.980996",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "05044d47-d836-4e86-8396-9a5c1e3130fb",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text is a model example of A2 simplification and adheres to all protocol requirements.\n\n- Factual Integrity: The output is 100% factually accurate compared to the original text.\n- Meaning and Fidelity: The MeaningBERT score of 0.8342 and BERTScore of 0.9079 are both above the required thresholds, indicating excellent preservation of the original message and key terms.\n- CEFR Compliance: The text was correctly classified as A2. The vocabulary and sentence structure are perfectly aligned with this level.\n- Qualitative Audit: The text exclusively uses short, simple sentences and A1/A2 vocabulary. Complex concepts like 'Potentially Hazardous' and 'Earth's orbit' were successfully rephrased into simple A2 terms ('travel near Earth's path around the sun'). No deviations were found.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9079,
+          "meaningbert": 0.8342
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:36:50.498394",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Asteroids are rocks in space. Some are called 'Potentially Hazardous Asteroids'. They travel near Earth's path around the sun. They come closer than 7.5 million kilometres. NASA made a map of 1,400 of these asteroids. But NASA says they are not a problem for the next 100 years. NASA has technology to watch these rocks. They can see if a rock is going to hit Earth. If there is a problem, NASA has two plans to stop it.",
+      "timestamp": "2025-08-31 20:36:50.500178",
+      "metadata": {
+        "text_id": "82519519-f7b8-4106-9b53-f7819f9ead54",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:37:15.049811",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "16160f4d-0148-43cb-9047-680674e80be9",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text meets all A2 requirements with precision. Factual Integrity: All facts, numbers, and the core message from the original text are preserved without error. Metric Compliance: The MeaningBERT score of 0.8342 and BERTScore of 0.9079 are above the required thresholds, indicating successful preservation of meaning and key terms. CEFR Classification: The text correctly classified as A2. Vocabulary Control: The vocabulary is strictly limited to the A1 and A2 levels. The B2 word 'potentially' was correctly identified and removed. Structural Simplicity: The text consists entirely of short, simple sentences. The use of basic connectors like 'but' and 'if' is appropriate for the A2 level. No complex clauses were used. The output is an exemplary model of A2 simplification.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9079,
+          "meaningbert": 0.8342
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:37:28.181688",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Asteroids are rocks in space. Some are called 'Potentially Hazardous Asteroids'. They travel near Earth's path around the sun. They come closer than 7.5 million kilometres. NASA made a map of 1,400 of these asteroids. But NASA says they are not a problem for the next 100 years. NASA has technology to watch these rocks. They can see if a rock is going to hit Earth. If there is a problem, NASA has two plans to stop it.",
+      "timestamp": "2025-08-31 20:37:28.182221",
+      "metadata": {
+        "text_id": "c7ae685a-cf37-4011-83e3-6965b7de2932",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:37:55.135231",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5831ff87-27e1-4778-825b-c9f3c5e85292",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: Exemplary Adherence to A2 Standard.\n\n- Factual Integrity: The output is a factually accurate representation of the original text. All numbers and core concepts are preserved.\n- Metrics Compliance: The MeaningBERT score of 0.83 and BERTScore of 0.90 meet the required thresholds, indicating successful preservation of meaning and key terms.\n- CEFR Classification: The text correctly classified as A2.\n- Qualitative Audit: The text demonstrates a masterful command of A2 constraints. Vocabulary is strictly limited to the A1/A2 level. Sentence structures are simple, short, and clear. Complex ideas from the original, such as 'at which point two defence solutions could be launched', are perfectly rephrased into A2-compliant structures like 'If there is a problem, NASA has two plans to stop it.' No deviations were found.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9079,
+          "meaningbert": 0.8342
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:38:09.260291",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Asteroids are rocks in space. Some are called 'Potentially Hazardous Asteroids'. They travel near Earth's path around the sun. They come closer than 7.5 million kilometres. NASA made a map of 1,400 of these asteroids. But NASA says they are not a problem for the next 100 years. NASA has technology to watch these rocks. They can see if a rock is going to hit Earth. If there is a problem, NASA has two plans to stop it.",
+      "timestamp": "2025-08-31 20:38:09.261956",
+      "metadata": {
+        "text_id": "6cf369c1-ab4a-4df7-b9a2-7a7187c35eb2",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:38:33.795390",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d990c81d-5a5e-4bdc-8069-20953cde1ae9",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text meets all A2 requirements with precision. Factual Integrity: All facts, numbers, and the core message from the original text are preserved without error. Metric Compliance: The MeaningBERT score of 0.8342 and BERTScore of 0.9079 are above the required thresholds, indicating successful preservation of meaning and key terms. CEFR Classification: The text correctly classified as A2. Vocabulary Control: The vocabulary is strictly limited to the A1 and A2 levels. The B2 word 'potentially' was correctly identified and removed. Structural Simplicity: The text consists entirely of short, simple sentences. The use of basic connectors like 'but' and 'if' is appropriate for the A2 level. No complex clauses were used. The output is an exemplary model of A2 simplification.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9079,
+          "meaningbert": 0.8342
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:38:51.500315",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Asteroids are rocks in space. Some are called 'Potentially Hazardous Asteroids'. They travel near Earth's path around the sun. They come closer than 7.5 million kilometres. NASA made a map of 1,400 of these asteroids. But NASA says they are not a problem for the next 100 years. NASA has technology to watch these rocks. They can see if a rock is going to hit Earth. If there is a problem, NASA has two plans to stop it.",
+      "timestamp": "2025-08-31 20:38:51.501016",
+      "metadata": {
+        "text_id": "2db085d3-524b-41ec-89bb-dcc5349ced66",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:39:18.302821",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "cc155714-17f1-4726-91ff-c747e191726f",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text meets all A2 requirements with precision. Factual Integrity: All facts, numbers, and the core message from the original text are preserved without error. Metric Compliance: The MeaningBERT score of 0.8342 and BERTScore of 0.9079 are above the required thresholds, indicating successful preservation of meaning and key terms. CEFR Classification: The text correctly classified as A2. Vocabulary Control: The vocabulary is strictly limited to the A1 and A2 levels. The B2 word 'potentially' was correctly identified and removed. Structural Simplicity: The text consists entirely of short, simple sentences. The use of basic connectors like 'but' and 'if' is appropriate for the A2 level. No complex clauses were used. The output is an exemplary model of A2 simplification.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9079,
+          "meaningbert": 0.8342
+        }
+      }
+    }
+  ]
+}

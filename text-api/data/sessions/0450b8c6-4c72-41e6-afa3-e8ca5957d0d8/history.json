@@ -1,0 +1,413 @@
+{
+  "session_id": "0450b8c6-4c72-41e6-afa3-e8ca5957d0d8",
+  "created_at": "2025-09-01 17:08:00.448169",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:08:00.490362",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "41-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: PHA means a space rock that could hit Earth.  \nHAMMER means a NASA plan to stop dangerous space rocks.  \n\nOne idea to stop a PHA is to blow it up.  \nIt may sound like a story from a film.  \nThe film Armageddon showed this idea.  \nBut HAMMER is a real NASA plan.  \nNASA would use big rockets.  \nThe rockets would try to push the rock away.  \nIf the rock is close to Earth, rockets would carry big bombs.  \nThe bombs would blow the rock up instead.",
+      "timestamp": "2025-09-01 17:08:00.490508",
+      "metadata": {
+        "text_id": "fd3f8e0e-5a9d-4cb3-a687-cd2a677ce059",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:08:04.731210",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f09064ea-32e7-45d1-8bc1-9d433b4bbaa4",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8709 is below the required 0.90 threshold. This indicates a critical loss of key factual information from the original text. The text also fails the CEFR compliance check.\n\n- Fidelity Failure (BERTScore): The score is too low because essential details were oversimplified or removed. The term 'nuclear weapon' was replaced with 'big bombs', and the specific detail 'eight-ton rockets' was removed. These are key facts, not optional details.\n\n- CEFR Compliance Failure (Classifier): The text was classified as B1, not A2. The word 'means' is a B2-level vocabulary item. The definitional structure 'X means Y' is too complex for the A2 level.\n\n- Structural Error: The sentence 'PHA means a space rock that could hit Earth' uses a relative 'that-clause' which, combined with the B2 vocabulary, increases complexity beyond the A2 standard.\n\nSuggestion: Restore the term 'nuclear bombs'. It is a critical fact. Rephrase the definitions to eliminate the word 'means'. Use simple, separate sentences. Example: 'A PHA is a space rock. It could hit Earth.' and 'HAMMER is a plan from NASA. It is a plan to stop dangerous space rocks.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8709,
+          "meaningbert": 0.8493
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:08:18.827453",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A PHA is a space rock.  \nIt could hit Earth.  \nHAMMER is a plan from NASA.  \nIt is a plan to stop dangerous space rocks.  \nOne idea is to blow a PHA up.  \nThe idea is in the film Armageddon.  \nNASA would use eight ton rockets.  \nThe rockets would try to push the rock away.  \nIf a rock is close to Earth, rockets would carry nuclear bombs.  \nThe bombs would blow the rock up.",
+      "timestamp": "2025-09-01 17:08:18.827842",
+      "metadata": {
+        "text_id": "3572a309-a7e1-469b-8d9b-4ff887901177",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:08:46.887316",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3cdcfeae-4401-47c0-a3bf-f202a1bc0644",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8645 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n- The text oversimplifies critical concepts, which caused the score drop. For example, the full name 'Hypervelocity Asteroid Mitigation Mission for Emergency Response' is lost, and 'genuine NASA proposal' is reduced to just 'a plan'.\n- The phrase 'approaching asteroid' is simplified to 'a rock', losing the important context of its movement towards Earth.\n- The action 'bumping it off course' is simplified to 'push the rock away', which is less precise and loses lexical fidelity.\nSuggestion: Reintroduce more specific vocabulary from the original to improve fidelity. The goal is simplification, not the elimination of all detail. Rephrase to more closely match the original's specific actions, such as changing the rock's direction.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8645,
+          "meaningbert": 0.8324
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:08:59.830848",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A PHA is a space rock that could hit Earth.  \nHAMMER is a NASA plan.  \nHAMMER stands for Hypervelocity Asteroid Mitigation Mission for Emergency Response.  \nThe plan can try to bump an approaching asteroid off course.  \nEight\u2011ton rockets would be sent to the asteroid.  \nThe rockets would try to change the asteroid\u2019s direction.  \nIf the asteroid is close to Earth, rockets would carry nuclear bombs.  \nThe bombs would try to blow the asteroid up.",
+      "timestamp": "2025-09-01 17:08:59.831218",
+      "metadata": {
+        "text_id": "71559906-f8b3-4cba-8f28-ab220ca811c5",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:09:27.712985",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5a425290-5a3d-4e78-ae4a-575432b23d25",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8859 is below the required 0.90 threshold. This indicates an unacceptable loss of key words and phrasing from the original text.\n\n- Lexical Fidelity Lost: The simplification process has removed too much of the original's specific vocabulary. For example, 'fired at an approaching asteroid' was reduced to 'sent to the asteroid', losing the specific action. The conditional 'if the asteroid was too close to Earth for this plan to work' was oversimplified to 'if the asteroid is close to Earth', losing important context.\n\n- Vocabulary Violation: The word 'nuclear' is classified as B1 level. Its use in an A2 text is a direct violation of the CEFR standard. All vocabulary must be strictly A2 or below.\n\nSuggestion: Restore key lexical items from the original text to meet the BERTScore requirement. Replace the B1 word 'nuclear' with an A2-level description, for example, 'very powerful bombs'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8859,
+          "meaningbert": 0.8621
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:09:51.070304",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: PHA is a space rock that could hit Earth.  \nHAMMER is a NASA plan.  \nHAMMER stands for Hypervelocity Asteroid Mitigation Mission.  \nIt is for Emergency Response.  \nThe plan can try to bump an approaching asteroid.  \nIt would move the asteroid off its path.  \nEight\u2011ton rockets would be fired at the asteroid.  \nThe rockets would try to change the asteroid\u2019s direction.  \nIf the asteroid was too close to Earth, the plan would not work.  \nThe rockets would then carry big bombs.  \nThe bombs would try to blow the asteroid up.",
+      "timestamp": "2025-09-01 17:09:51.070650",
+      "metadata": {
+        "text_id": "cd540e1f-6aee-431f-b5b0-00de676aa7c4",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:10:21.716948",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b8bedf0e-b1d9-4966-b825-880bc0b371d7",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8749 is below the required 0.90 threshold. This indicates a significant loss of key factual phrasing from the original text. The text also contains a factual simplification that is unacceptable.\n\n- Factual Simplification: The original text specifies 'nuclear weapon' and 'nuclear bombs'. Your output replaces this with 'big bombs'. This is a critical loss of information. The specific type of weapon is a key fact, not a detail to be simplified away.\n- Unreplaced B-Level Vocabulary: The B2 word 'Mission' and the B1 word 'Emergency' are present in your output. You isolated them when explaining the acronym 'HAMMER', but they were not replaced with A2-level alternatives as required.\n\nSuggestion: Restore the term 'nuclear bombs'. This term is essential to the meaning of the original text. Rephrase the explanation of HAMMER to avoid using the words 'Mission' and 'Emergency'. For example: 'HAMMER is a plan for a serious problem.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8749,
+          "meaningbert": 0.865
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:10:36.495173",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: PHA is a space rock that could hit Earth.  \nHAMMER is a plan for a big problem.  \nHAMMER stands for Hypervelocity Asteroid.  \nThe plan can try to bump a coming asteroid.  \nIt would move the asteroid off its path.  \nEight\u2011ton rockets would be fired at the asteroid.  \nThe rockets would try to change the asteroid\u2019s direction.  \nIf the asteroid was too close, the plan would fail.  \nThe rockets would then carry nuclear bombs.  \nThe nuclear bombs would try to blow the asteroid up.",
+      "timestamp": "2025-09-01 17:10:36.495889",
+      "metadata": {
+        "text_id": "a62ea4bd-ad67-4557-b54d-a020194082dd",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:10:58.070964",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c6be0b3b-d2d4-4cae-9732-7777e71080c1",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The output contains a critical error of fact. The sentence 'HAMMER stands for Hypervelocity Asteroid' is incorrect. The original text clearly states HAMMER is an acronym for 'Hypervelocity Asteroid Mitigation Mission for Emergency Response'. This is an immediate and non-negotiable failure.\n\nAdditional Violations:\n\n- Fidelity Failure: The BERTScore of 0.8663 is below the required 0.90 threshold. This indicates a significant loss of key information. The text omits that HAMMER is a 'genuine NASA proposal' and fails to convey the full name of the mission, which contributed to this low score.\n\n- Vocabulary Violation: The word 'nuclear' is classified as B1 level. Its use is a direct violation of the A2 standard. An A2-level description was required.\n\nSuggestion: Correct the factual error regarding the HAMMER acronym. Re-integrate key omitted details, such as the fact that this is a NASA plan, to meet the fidelity score. Replace the B1 word 'nuclear' with a simple A2-level explanation, such as 'a very powerful type of bomb'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8663,
+          "meaningbert": 0.8089
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:11:06.734026",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: PHA is a space rock that could hit Earth.  \nHAMMER is a NASA plan.  \nIt stands for Hypervelocity Asteroid Mitigation Mission for Emergency Response.  \nThe plan can try to bump a coming asteroid.  \nIt would move the asteroid off its path.  \nEight\u2011ton rockets would be fired at the asteroid.  \nThe rockets would try to change the asteroid\u2019s direction.  \nIf the asteroid is too close, the plan would not work.  \nThen the rockets would carry a very powerful type of bomb.  \nThe bomb would try to blow the asteroid up.",
+      "timestamp": "2025-09-01 17:11:06.734324",
+      "metadata": {
+        "text_id": "f742c42b-15d4-4723-bfa4-61898ef28756",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:11:39.060789",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2db18118-1b85-46cf-98dd-5e7bf40d3453",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8785 is below the required 0.90 threshold. This indicates a significant loss of key words and factual phrasing from the original text.\n\n- Primary Deviation: The specific term 'nuclear bombs' was replaced with the vague phrase 'a very powerful type of bomb'. This loses critical lexical detail.\n- Secondary Deviation: The text was classified as B1, not the required A2. This is a compliance failure.\n- Grammatical Error (B1): The sentence 'Eight\u2011ton rockets would be fired at the asteroid' uses the passive voice ('would be fired'). This is a B1 grammatical structure. A2 requires simple, active sentences.\n- Vocabulary Error (B1): The words 'powerful' and 'bomb' are B1-level vocabulary. They are not suitable for an A2 text.\n\nSuggestion: Rephrase the passive sentence to use an active voice. Example: 'The plan would fire eight-ton rockets at the asteroid.'\nSuggestion: Restore the specific term 'nuclear bombs'. This term is central to the original text's meaning and its replacement caused the fidelity score to drop.\nSuggestion: Remove the unapproved B1 vocabulary. The term 'nuclear bomb' is specific enough and does not need the adjective 'powerful'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8785,
+          "meaningbert": 0.8505
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:11:50.177734",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: PHA is a space rock that could hit Earth.  \nHAMMER is a NASA plan.  \nHAMMER stands for Hypervelocity Asteroid Mitigation Mission for Emergency Response.  \nThe plan can try to bump a coming asteroid.  \nIt would move the asteroid off its path.  \nThe plan would fire eight\u2011ton rockets at the asteroid.  \nThe rockets would try to change the asteroid\u2019s direction.  \nIf the asteroid is too close, the plan would not work.  \nThen the rockets would carry nuclear bombs.  \nThe bombs would try to blow the asteroid up.",
+      "timestamp": "2025-09-01 17:11:50.178331",
+      "metadata": {
+        "text_id": "ed02a643-e49d-4d42-9ab2-3e7c403d7df3",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:12:16.453116",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "18f544d2-b532-438f-bd40-624caf29c263",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8788 is below the required 0.90. This indicates that key phrasing from the original text was lost during simplification. The text also fails a qualitative vocabulary audit.\n\n*   Lexical Fidelity: The score is low because phrases like 'on course to hit Earth' and 'genuine NASA proposal' were replaced with overly simple versions like 'could hit Earth' and 'a NASA plan'. This simplification sacrifices too much of the original's specific language.\n\n*   Vocabulary Violation (B1/B2 Words): The text uses words above the A2 level. The full name 'Hypervelocity Asteroid Mitigation Mission for Emergency Response' contains 'Mission' (B2) and 'Emergency' (B1). This is a direct violation. The word 'nuclear' (B1) is also used. These words are not on the A2 list and must be removed.\n\n*   Suggestion: Do not include the full name of the mission. Define HAMMER simply as a NASA plan. Replace the word 'nuclear' with an A2-level description, such as 'special' or 'very powerful'. Rephrase sentences to more closely follow the original's key terms without using complex grammar to improve the BERTScore.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8788,
+          "meaningbert": 0.8572
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:12:29.426763",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: PHA is a space rock on course to hit Earth.  \nHAMMER is a real NASA plan.  \nThe plan tries to bump the asteroid off its path.  \nIt would move the asteroid away from Earth.  \nThe plan would fire eight\u2011ton rockets at the asteroid.  \nThe rockets would try to change the asteroid\u2019s direction.  \nIf the asteroid is too close, the plan would not work.  \nThen the rockets would carry special bombs.  \nThe bombs would try to blow the asteroid up.",
+      "timestamp": "2025-09-01 17:12:29.427241",
+      "metadata": {
+        "text_id": "529179e4-36b5-45d3-98a5-9271840abcb9",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:13:00.016360",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1b7dd948-b585-406f-9f06-5bc06d2f6b93",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text specifies 'nuclear bombs,' but the output uses the vague term 'special bombs.' This is a critical loss of factual information and an instant failure.\n\nFAIL: Fidelity Failure. The BERTScore of 0.8659 is below the required 0.90. This metric confirms that key factual vocabulary from the original text was lost. The replacement of 'nuclear' with 'special' is the primary cause of this low score.\n\nThe core concept of using a 'nuclear weapon' is central to the original text. Replacing it with 'special bombs' fundamentally alters the meaning and removes the most important detail.\n\nWhile the sentence structure and most vocabulary choices are A2-compliant, the failure to preserve a critical fact is a non-negotiable error.\n\nSuggestion: Restore the term 'nuclear bombs'. The word 'nuclear' is essential for factual accuracy. It cannot be replaced. If a B1 word is critical to the meaning, it must be kept and defined for the A2 reader.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8659,
+          "meaningbert": 0.8465
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:13:13.281131",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: PHA is a space rock that could hit Earth.  \nHAMMER is a NASA plan.  \nIt protects Earth from a PHA.  \nThe plan tries to bump the asteroid off its path.  \nIt would move the asteroid away from Earth.  \nThe plan would fire eight\u2011ton rockets at the asteroid.  \nThe rockets would try to change the asteroid\u2019s direction.  \nIf the asteroid is too close, the plan would not work.  \nThen the rockets would carry nuclear bombs.  \nThe nuclear bombs would try to blow the asteroid up.",
+      "timestamp": "2025-09-01 17:13:13.282281",
+      "metadata": {
+        "text_id": "4029cafb-7025-45d0-9fdc-804f982e9746",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:13:40.738353",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c88e974c-ee3b-422d-9213-aad359306edc",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8657 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text. Lexical Loss: Key concepts like 'genuine proposal' and the contextual word 'instead' were removed. This oversimplification damages the fidelity to the source text, causing the low BERTScore. Vocabulary Violation: The B1-level word 'nuclear' was used. All vocabulary must be strictly A2. This word must be replaced with a simple A2 definition, such as 'a very powerful type of bomb'. Structural Deficiency: The text is a list of ten short, disconnected sentences. This structure is too simplistic and repetitive. It reads like a list of facts, not a coherent paragraph. Suggestion: Rephrase to restore lost key words. Replace the B1 word 'nuclear' immediately. Combine some of the short sentences using A2 connectors like 'and' or 'but' to create a more natural text flow.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8657,
+          "meaningbert": 0.8473
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:13:56.751968",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: PHA is a space rock that could hit Earth. HAMMER is a NASA plan that tries to protect Earth. It is a real plan, not just a story. The plan would fire eight\u2011ton rockets at the asteroid. The rockets would try to move the asteroid off its path. If the asteroid is too close, the rockets would carry a bomb. The very big bomb would try to blow the asteroid up instead.",
+      "timestamp": "2025-09-01 17:13:56.752513",
+      "metadata": {
+        "text_id": "d3ca6670-530a-4bf0-9774-64be0af564c7",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:14:24.218424",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "37c11827-2e60-4b04-aeb6-8c7380c0f6b6",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8986 is below the required 0.90 threshold. This indicates a failure to maintain sufficient lexical similarity to the source text. The primary cause is the oversimplification of 'nuclear weapon' and 'nuclear bombs' to 'a bomb' and 'The very big bomb'. While an attempt at simplification, this lost critical information and lowered the fidelity score below the minimum standard.\n\nSecondary Deviations:\n- Vocabulary Compliance Failure: The word 'bomb' is classified as B1, which is not compliant with the A2 standard. All vocabulary must be strictly A2 or below.\n\nCorrective Actions:\n- Suggestion: Rephrase to restore the lost meaning of 'nuclear'. Use A2-compliant descriptors like 'a special, very powerful weapon'.\n- Suggestion: Remove the B1-level word 'bomb' and replace it with an A2-compliant alternative.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8986,
+          "meaningbert": 0.8112
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:14:36.380093",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: PHA is a space rock that could hit Earth.  \nHAMMER is a NASA plan to protect Earth.  \nIt is a real plan, not a story.  \nThe plan would fire eight\u2011ton rockets at the asteroid.  \nThe rockets would try to move the asteroid off its path.  \nIf the asteroid is close, rockets would carry a big thing.  \nThe big thing would try to blow the asteroid up instead.",
+      "timestamp": "2025-09-01 17:14:36.380679",
+      "metadata": {
+        "text_id": "234c2232-2485-41f4-bd15-cabb160ec547",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:14:54.873383",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "198f0ada-78c7-48dc-96b4-a3e9ab439de2",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The text fails on the most critical check. The original text specifies the use of 'nuclear bombs', a key fact. Your output replaces this with 'a big thing', which is factually incorrect and meaningless. This error is also reflected in the metrics. The MeaningBERT score of 0.69 is well below the required 0.75, indicating a severe loss of the original message. The BERTScore of 0.87 is also below the 0.90 threshold, showing a failure to retain key terms.\n* The primary error is replacing a specific, important concept with a vague, inaccurate placeholder.\n* Suggestion: Restore the core fact. Rephrase the last two sentences. Use the A2-level word 'bomb'. A correct simplification would be: 'If the asteroid is close, the rockets would carry special bombs. These bombs would blow the asteroid up.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8697,
+          "meaningbert": 0.6911
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "d6f28b62-eef5-4e68-9ae7-928abe317906",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Lewis wants more marine protected areas. These are special places in the sea. Nature is safe there. Now, 3 out of 100 sea areas are protected. Lewis wants 10 out of 100 areas to be protected. Lewis wants to fix the damage people do. People catch too many fish. This is overfishing. They make the sea dirty. They throw rubbish in the sea. These things hurt the sea. More protected areas can help fix this damage.\n\nLewis went on many trips. He saw this damage to nature with his own eyes. He swam over coral reefs. The water got hotter. This made the reefs white. This is called bleaching. He saw places under the Red Sea. The water was not deep. They were like deserts. There was no life there. Plastic rubbish covered these places.\n\nPugh thinks nature can get better. It needs space. But we must hurry. We must look after our seas now. If not, we will soon have a problem. We will not be able to fix it.",
+    "version": 11,
+    "created_at": "2025-09-01 17:18:14.888871",
+    "updated_at": "2025-09-01 17:18:14.888872",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "bdbbc4f1-2e10-48b3-8223-732349b50a40",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation and Fidelity Failure. The text failed to meet the required metrics for preserving the original meaning and lexical fidelity. The MeaningBERT score of 0.5651 is significantly below the required 0.75, indicating a substantial loss of the core message. The BERTScore of 0.8786 is also below the required 0.90, showing a significant deviation in key words and factual phrasing from the original. \n\nSpecific Deviations:\n- MeaningBERT Score: 0.5651 (Required: 0.75+). The original text conveys a strong sense of urgency and the severity of 'environmental destruction' and an 'unsolvable problem'. While the output mentions 'must hurry' and 'problem we will not be able to fix it', the overall semantic weight and the critical tone of the original are diminished. The concept of 'reversing the damage' is also softened.\n- BERTScore: 0.8786 (Required: 0.90+). Key phrases and lexical choices from the original were not retained, leading to a loss of fidelity. For example, 'environmental destruction' was simplified to 'damage to nature', 'bleached by the increase in water temperature' was broken down into 'water got hotter. This made the reefs white. This is called bleaching', and 'devoid of life and strewn with plastic' became 'no life there. Plastic rubbish covered these places'. While the A2 simplification is evident, it came at the cost of lexical precision and directness.\n\nSuggestion: Rephrase the text to more accurately reflect the urgency and severity of the environmental issues presented in the original. Ensure that the core message of 'reversing damage' and the 'unsolvable problem' is conveyed with greater impact, even within A2 constraints. Retain more specific vocabulary where possible, or define it more directly, to improve lexical fidelity without exceeding the A2 level.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8786,
+      "meaningbert": 0.5651
+    },
+    "created_at": "2025-09-01 17:18:37.852395"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "5e3db259-fc19-4ec2-80c0-28780f9501cb",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Lewis wants more marine protected areas. These are special places in the sea where nature is safe. Now, 3 out of 100 sea areas are protected. Lewis wants 10 out of 100 areas to be protected. He wants to stop the damage people do. People catch too many fish. This is called overfishing. People also make the sea dirty. They throw waste in the sea.\n\nLewis went on many trips. He saw the damage to the natural world by himself. He swam over coral reefs. The water got hotter. This made the reefs white. This is called bleaching. He saw places under the Red Sea. They were like deserts. There was no life. There was a lot of plastic waste.\n\nPugh thinks the natural world can get better. It needs space to do this. But time is going fast. If we do not look after our seas now, we will soon have a problem. We cannot fix this problem.",
+    "version": 7,
+    "created_at": "2025-09-01 17:15:36.029706",
+    "updated_at": "2025-09-01 17:15:36.029706",
+    "metrics_meaningbert": 0.5897,
+    "metrics_cefr_compliance": "A2"
+  }
+}

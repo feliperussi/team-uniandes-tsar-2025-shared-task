@@ -1,0 +1,413 @@
+{
+  "session_id": "68f97b22-fc46-4594-a775-dc17d0dbf34b",
+  "created_at": "2025-09-01 17:28:07.230142",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:28:09.347452",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "105-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: English is a language spoken in many people\u2019s lives.  \nChinese is a language spoken mainly in China.  \nNative speakers are people who grow up speaking a language.  \nIt is their first language.  \n\nIn total, more people study English than all other languages.  \nEnglish is used in the most countries.  \nChinese has the most native speakers.  \n\nThere is little relationship between native speakers and learners.  \nBut there is a stronger connection between learners and countries with speakers.",
+      "timestamp": "2025-09-01 17:28:09.347613",
+      "metadata": {
+        "text_id": "75cb9460-83ab-4e00-ba17-5f59d61a251a",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:28:10.257866",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "070195db-0a80-4b41-a2df-9c71c7b76eeb",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The output introduces information not present in the original text. The sentence 'Chinese is a language spoken mainly in China.' is an external fact added by the writer and constitutes a direct violation of factual integrity.\n\nFAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6422 is catastrophically below the required 0.75 threshold. The original text's core message is about the correlation between learners, native speakers, and countries. By breaking the text into a list of simple, disconnected facts and definitions, this core comparative meaning has been lost.\n\nFAIL: Fidelity Failure. The BERTScore of 0.8738 is below the 0.90 minimum. This indicates a significant loss of key lexical items. The original's comparative language, such as 'by far the greatest number' and 'stronger link', was not adequately preserved with A2-level equivalents, leading to a loss of fidelity.\n\nFAIL: Vocabulary Compliance. The text uses multiple words above the A2 level. The words 'spoken', 'mainly', 'native', 'used', and 'connection' are all classified as B1. Strict A2 compliance requires the removal and replacement of all B1 vocabulary.\n\nSuggestion: Remove all information not explicitly stated in the original text. The text must be rewritten to restore the comparative relationship between the data points. Replace all B1-level words with strict A2 alternatives. Do not integrate definitions into the main body of the text; they must be separate.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8738,
+          "meaningbert": 0.6422
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:28:19.610431",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: English is a language that many people study.  \nChinese is a language that many people use.  \nMore people study English than all other languages together.  \nEnglish is a language in many countries.  \nChinese has the most first speakers.  \nThere is little relationship between first speakers and people who study.  \nBut there is a stronger relationship between people who study and countries.",
+      "timestamp": "2025-09-01 17:28:19.610768",
+      "metadata": {
+        "text_id": "b218147f-4409-483e-90c1-228c7f0a38dc",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:28:51.654529",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "23256110-b6cd-457b-9f1e-7820fcc58dfb",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5772 is catastrophically below the required 0.75 threshold. This indicates a severe failure to preserve the core message of the original text. The simplification process has destroyed the meaning.\n\n- Fidelity Failure: The BERTScore of 0.8783 is also below the minimum requirement of 0.90. Key lexical details from the original text were lost.\n- Factual Inaccuracy: The original text states English is spoken in the 'highest number of countries'. Your version, 'in many countries', is a factual downgrade that loses the superlative and critical point of the sentence.\n- Meaning Loss: The final sentence, 'But there is a stronger relationship between people who study and countries,' is nonsensical. It loses the entire concept of 'how many countries have speakers'.\n- Structural Fragmentation: The output is a list of disconnected, choppy sentences. The logical connections and comparisons present in the original paragraph have been completely removed.\n\nSuggestion: You must preserve the original facts. Rephrase 'in many countries' to 'in the most countries'.\nSuggestion: The final sentence must be rewritten to restore its meaning. A correct A2 version would be: 'But there is a stronger connection when more people study a language and more countries speak it.'\nSuggestion: Do not break every idea into a separate sentence. The goal is simplification, not complete fragmentation of the text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8783,
+          "meaningbert": 0.5772
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:28:57.989474",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: More people study English than all other languages together. English is spoken in the most countries. Chinese has the most native speakers. There is little relationship between native speakers and learners. But there is a stronger relationship between learners and countries. More learners show that the language is spoken in more countries.",
+      "timestamp": "2025-09-01 17:28:57.990776",
+      "metadata": {
+        "text_id": "3dc171bf-d944-4e56-8d75-44f957408c7e",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:29:18.878449",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c241f61b-db41-45d0-a580-ba5930d15488",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7184 is below the required 0.75 threshold. The final sentence, 'More learners show that the language is spoken in more countries,' incorrectly changes the original's concept of a 'strong link' or correlation into a direct causal statement, which alters the core meaning.\n\n- Vocabulary Violation: The text uses the B1 words 'spoken' and 'native'. These were identified as candidates for replacement and must be simplified to A2-level vocabulary.\n- Structural Violation: The sentence 'More learners show that the language is spoken in more countries' uses a 'that-clause'. This is a B1 grammatical structure and is too complex for the A2 standard.\n\nSuggestion: Rephrase the final sentence to reflect a correlation. Replace 'spoken' with 'people speak'. Replace 'native speakers' with a simple A2 explanation like 'people who speak it from birth'. Break the sentence with the 'that-clause' into two simple sentences.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9244,
+          "meaningbert": 0.7184
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:29:26.838893",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: More people study English than all other languages together.  \nPeople speak English in the most countries.  \nChinese has the most people who speak it from birth.  \nThere is little relationship between people who speak a language from birth.  \nThere is little relationship between those people and learners.  \nBut there is a stronger relationship between learners and countries.  \nMany learners often match many countries where people speak the language.",
+      "timestamp": "2025-09-01 17:29:26.839269",
+      "metadata": {
+        "text_id": "e23163fd-7ec2-4f6e-b3be-61ab9d804130",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:29:49.608423",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a6f947e9-75cb-4422-8dfa-ea7351399b83",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The output fundamentally misrepresents the original text's meaning. The sentence 'There is little relationship between people who speak a language from birth' is a nonsensical statement that does not exist in the original. The original text describes a relationship *between* native speakers *and* learners; your version breaks this concept, resulting in a factual error.\n\n- Meaning Preservation Failure: The MeaningBERT score of 0.5921 is catastrophically below the required 0.75 threshold. This confirms that the core message about the relationships between speaker types, learners, and countries has been completely lost.\n- Fidelity Failure: The BERTScore of 0.8852 is below the minimum 0.90. This indicates a significant deviation from the original phrasing, contributing to the loss of meaning.\n- Incorrect Word Usage: The final sentence, 'Many learners often match many countries where people speak the language,' uses the word 'match' incorrectly and creates a confusing statement. It fails to clearly express the original idea of a 'stronger link'.\n\nSuggestion: The text must be rewritten to preserve the original facts. The concept of correlation must be simplified without being broken. Rephrase to state: 'There is not a strong connection between the number of native speakers and the number of learners. But there is a strong connection between the number of learners and the number of countries where a language is spoken.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8852,
+          "meaningbert": 0.5921
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:29:52.803942",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: More people study English than all other languages together.  \nEnglish is spoken in the most countries.  \nChinese has the most native speakers.  \nThere is little relationship between native speakers and learners.  \nBut there is a strong relationship between learners and the many countries where the language is spoken.",
+      "timestamp": "2025-09-01 17:29:52.804358",
+      "metadata": {
+        "text_id": "9ad786b0-629a-43b6-b8de-788e14234455",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:30:11.485807",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "97030785-cd13-4a55-a0d5-d1df3111b675",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6811 is below the required 0.75. The original text uses nuanced phrases like 'seems to be little correlation' and 'a stronger link'. Your version uses 'little relationship' and 'strong relationship', which are too absolute and lose the comparative meaning of the original.\n\n- Vocabulary exceeds A2 level. The words 'spoken' and 'native' are B1 level and must be replaced. An A2 text cannot contain B1 vocabulary.\n\n- Structural complexity exceeds A2. The final sentence uses a 'where' clause ('where the language is spoken'), which is a B1 structure.\n\nSuggestion: Rephrase to restore the original comparative meaning. Replace all B1 vocabulary. Break the final sentence into two simpler sentences to remove the B1 clause.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9004,
+          "meaningbert": 0.6811
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:30:21.782703",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: More people study English than all other languages together.  \nEnglish is used in the most countries.  \nChinese has the most people who use it at home.  \nIt seems there is not much link between home users and students.  \nBut there seems to be a stronger link between students and countries.  \nThe language is used in those countries.",
+      "timestamp": "2025-09-01 17:30:21.783109",
+      "metadata": {
+        "text_id": "f56dc553-4bdc-410a-9d95-160149d65d9a",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:30:50.732692",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3283643e-338e-49cd-b162-758ed82ab7bb",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.4906 is catastrophically below the 0.75 minimum. This indicates a complete failure to preserve the original text's core message about the relationship between different speaker groups.\n\n- Primary Failure: The original text describes a 'correlation' or 'link' between three groups: native speakers, learners, and countries. Your version breaks this complex idea into simple, disconnected sentences, losing the central point about how these groups relate to each other.\n- Fidelity Failure: The BERTScore of 0.8889 is below the 0.90 threshold. This is caused by oversimplifying key phrases like 'how many countries have speakers' into just 'countries', which loses critical information.\n- Vocabulary Violation: The phrase 'is used' is a B1-level passive voice structure. This is too complex for the A2 standard.\n- Vague Phrasing: The final sentence, 'The language is used in those countries,' is weak and does not clearly connect back to the previous point.\n\nSuggestion: You must rewrite to restore the central message of 'connection'. Replace the passive 'is used' with an active A2-level verb like 'speak'. Combine the final sentences to show the relationship clearly. Example: 'But there is a stronger connection between students and the number of countries where people speak the language.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8889,
+          "meaningbert": 0.4906
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:30:59.470585",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: English is a language spoken worldwide.  \nMore people study English than all other languages together.  \nPeople speak English in many countries.  \nChinese is a language spoken in China.  \nChinese has the most native speakers.  \nNative speakers are people who use the language at home.  \nNative speakers are not the same as learners.  \nBut more learners mean more countries where people speak the language.",
+      "timestamp": "2025-09-01 17:30:59.471540",
+      "metadata": {
+        "text_id": "61ede349-6df2-4a7c-aee5-8e6cd152e6ce",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:31:22.793783",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e274298d-7f16-4fae-b41e-b5b53969ab39",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The statement 'Chinese is a language spoken in China' is a factual error. Chinese is spoken by communities worldwide and is an official language in countries other than China. This oversimplification creates a false statement.\n\n- Meaning Preservation Failure: The MeaningBERT score of 0.604 is critically below the required 0.75. The original text's core concept of 'little correlation between how many native speakers there are... and the number of learners' was destroyed and replaced with the simplistic 'Native speakers are not the same as learners'. This is a complete failure to convey the source message.\n\n- Fidelity Failure: The BERTScore of 0.8695 is below the 0.90 threshold. This confirms a significant deviation from the original text's phrasing and key terms.\n\n- Vocabulary Non-Compliance: The text uses B1 vocabulary. The words 'spoken' and 'worldwide' are not on the A2 list and are unacceptable.\n\n- Structural Error: Definitions like 'Native speakers are people who use the language at home' must not be inserted into the main body of the text. This alters the flow and content of the original message.\n\nSuggestion: Rewrite the text from the beginning. First, correct the factual error regarding where Chinese is spoken. Second, focus on accurately representing the original's concepts, especially the idea of 'correlation'. Third, eliminate all B1 vocabulary. Use only A1 and A2 words.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8695,
+          "meaningbert": 0.604
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:31:30.165068",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: More people study English than all other languages together.  \nEnglish is used in many countries.  \nChinese is used in many countries too.  \nChinese has the most first\u2011language speakers.  \nThere is not much link between first\u2011language speakers and learners.  \nThere is a stronger link between learners and countries that use the language.",
+      "timestamp": "2025-09-01 17:31:30.165518",
+      "metadata": {
+        "text_id": "4474ee2d-19a5-467c-846a-27cab449c69f",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:31:49.815682",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "84437a65-b81a-4488-b2ee-d44a15ae339c",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The output contains information not present in the original text. The sentence \"Chinese is used in many countries too\" is a fabrication and an immediate violation of the protocol.\n\n- Meaning Preservation Failure: The MeaningBERT score of 0.672 is significantly below the required 0.75. This is a direct result of adding incorrect information and weakening the original statement that English is spoken in the \"highest number of countries\" to just \"many countries\". The core message has been distorted.\n- Fidelity Failure: The BERTScore of 0.8887 is below the 0.90 threshold. This indicates a failure to retain key lexical items from the source text.\n- Vocabulary Violation: The word \"used\" is classified as B1. This exceeds the A2 vocabulary limit. A simpler A2 alternative like \"spoken\" is required.\n\nSuggestion: Remove the fabricated sentence about Chinese. Restore the precise meaning of \"highest number of countries\" to maintain factual integrity. Replace the B1-level word \"used\" with an A2-compliant alternative.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8887,
+          "meaningbert": 0.672
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:32:02.625713",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: More people study English than all other languages together.  \nEnglish is spoken in the highest number of countries.  \nChinese has the most native speakers.  \nThere is little link between native speakers and students.  \nThere is a stronger link between students and countries.",
+      "timestamp": "2025-09-01 17:32:02.626420",
+      "metadata": {
+        "text_id": "b7ee8716-a33a-478e-9df6-cf853260b89c",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:32:20.272908",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "68932a32-3b9f-4745-aeb2-43750f705b84",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Standard Violation. The text fails the qualitative audit due to the inclusion of B1-level vocabulary, which is an immediate violation of the A2 standard.\n- Vocabulary Violation: The word 'spoken' is classified as B1. This exceeds the A2 standard.\n- Vocabulary Violation: The term 'native speakers' uses the B1 word 'native'. This concept is too advanced for A2 and must be simplified or rephrased.\nSuggestion: Replace 'English is spoken' with 'People speak English'.\nSuggestion: Replace 'native speakers' with an A2-compliant phrase, such as 'people who speak the language from birth'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9011,
+          "meaningbert": 0.7698
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:32:26.786033",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: More people study English than all other languages together.  \nPeople use English in the most countries.  \nChinese has the most people who use the language from birth.  \nThere is little link between people from birth and learners.  \nThere is a stronger link between learners and countries.",
+      "timestamp": "2025-09-01 17:32:26.786433",
+      "metadata": {
+        "text_id": "f7d44579-fe01-45a2-8b91-a0ae47671c53",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:32:46.523868",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8108f8a9-8fb0-4c10-8ee8-b5bb66599ebd",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5987 is catastrophically below the required 0.75 threshold. The text has been oversimplified to the point of factual corruption and incoherence.\n\n- Fidelity Failure: The BERTScore of 0.8897 is also below the 0.90 minimum, indicating a significant loss of key concepts from the original text.\n\n- Factual Corruption via Oversimplification: The sentence 'There is little link between people from birth and learners' is meaningless. The original text establishes a relationship between the *number* of native speakers and the *number* of learners. Your version removes the concept of 'number', destroying the original fact.\n\n- Factual Corruption via Oversimplification: The sentence 'There is a stronger link between learners and countries' is also meaningless. The original text links the *number* of learners to the *number* of countries. Your simplification makes the statement nonsensical.\n\nSuggestion: You must re-write the final two sentences. The core meaning is about comparing quantities. Re-introduce the concept of 'how many' or 'the number of' to restore the original meaning. For example: 'The number of learners is not related to the number of native speakers. But the number of learners is related to the number of countries where the language is spoken.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8897,
+          "meaningbert": 0.5987
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:32:57.883607",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: More people study English than all other languages together.  \nPeople use English in the most countries.  \nChinese has the most native speakers.  \nThe number of learners is not linked to native speakers.  \nThe number of learners is linked to the number of countries.  \nEnglish is a language.  \nPeople speak English worldwide.  \nChinese is a language.  \nPeople speak Chinese in China.  \nNative speakers are people who learn a language from birth.",
+      "timestamp": "2025-09-01 17:32:57.886627",
+      "metadata": {
+        "text_id": "6a63853b-0e26-4bba-8223-1754306e777f",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:33:20.324830",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d4fe5328-5c10-43e3-987b-db5f94ada162",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6236 is catastrophically below the required 0.75 threshold. The original text's core message about the *relationship* and *correlation* between speaker types and language spread has been lost. Your output is a list of disconnected facts, not a summary of the original's argument.\n\n- Fidelity Failure: The BERTScore of 0.8723 is below the 0.90 minimum. Key concepts like 'little correlation' and 'stronger link' were replaced with simplistic absolutes ('not linked', 'is linked'), losing critical lexical detail and nuance.\n- Vocabulary Violation: The B1 word 'worldwide' was used. This word is not on the A2 list and was not defined. This is an immediate failure of the vocabulary audit.\n- Structural Degradation: The original text's single complex sentence explaining a relationship was broken into multiple, disjointed statements. This destroyed the logical flow and the comparative meaning.\n- Redundant Content: Sentences such as 'English is a language' and 'Chinese is a language' are useless filler. They add no value and are not derived from the source text.\n\nSuggestion: You must restore the core meaning of comparison. Rephrase to connect the ideas. Example: 'The number of people who learn a language is not connected to the number of native speakers. But it is connected to the number of countries where people speak it.' Remove the word 'worldwide'. Remove the filler sentences.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8723,
+          "meaningbert": 0.6236
+        }
+      }
+    }
+  ]
+}

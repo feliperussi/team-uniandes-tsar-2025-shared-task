@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "1718a074-7c03-4890-b1a6-a8f53d750d23",
+    "cefr_level": "B1",
+    "text_id": "text_001",
+    "text_translated": "The first project is called DART. DART stands for the Double Asteroid Redirection Test. There are plans to test DART on the moon of an asteroid called Didymos. This moon is called 'Didymoon'. It is 150 metres wide and travels in an **orbit** around its 800-metre mother asteroid. An **orbit** is the path an object takes. The plan is to see if the impact of DART can push the moon from its path. This change should be big enough for telescopes on Earth to notice.",
+    "version": 6,
+    "created_at": "2025-09-01 10:51:07.831442",
+    "updated_at": "2025-09-01 10:51:07.831448",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "e4ea6f38-56ac-4974-986b-e11a84cf4d8e",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation. The MeaningBERT score of 0.7498 is just below the required 0.75 threshold. This slight drop in meaning is likely due to the change from the original's 'hopefully the impact... will knock it out' to the output's 'The plan is to see if the impact... can push the moon'. This alters the original's tone of hopeful certainty to a more neutral, experimental one. Additionally, the text fails the CEFR compliance check. The classifier rated the output as 'B2', which is too complex for the target 'B1' level. This B2 classification is likely caused by the combination of the full technical name 'Double Asteroid Redirection Test' and the sentence structure 'This change should be big enough for telescopes on Earth to notice.' To fix this, first, rephrase the sentence about the impact to better capture the original's hopeful tone, for example: 'Scientists hope the impact of DART will push the moon from its path.' Second, to achieve a B1 level, consider simplifying the sentence structure further. For instance, 'Telescopes on Earth should be able to notice this change.' The text did pass the factual integrity check and correctly defined the keyword 'orbit'.",
+    "metrics": {
+      "cefr_compliance": "B2",
+      "bertscore": 0.9346,
+      "meaningbert": 0.7498
+    },
+    "created_at": "2025-09-01 10:51:36.743696"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "848d0e08-e838-4a78-b6aa-eede50cefac6",
+    "cefr_level": "B1",
+    "text_id": "60-b1",
+    "text_translated": "The first project is called DART, which means the Double Asteroid Redirection Test. There are plans to test DART on the moon of an asteroid called Didymos. This moon, which is called 'Didymoon', is 150 metres wide and it follows an **orbit**, which is the path it takes as it travels around its 800-metre mother asteroid. The hope is that the impact of DART will push the moon off its path enough for telescopes on Earth to see the change.",
+    "version": 1,
+    "created_at": "2025-09-01 10:48:03.736340",
+    "updated_at": "2025-09-01 10:48:03.736341",
+    "metrics_meaningbert": 0.8119,
+    "metrics_cefr_compliance": "B2"
+  }
+}

@@ -1,0 +1,413 @@
+{
+  "session_id": "a2a110fb-20c6-43f6-8d2b-aad74f385505",
+  "created_at": "2025-09-01 17:29:31.615716",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:29:31.622963",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "113-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A funnel-web spider is a very poisonous spider from Australia.  \nAnti-venom is a medicine.  \nIt stops spider poison from hurting people.  \nMost spiders have venom.  \nThe venom helps them stun or kill their food.  \nOnly about 25 spider types can really hurt people.  \nSpider bites can hurt, but they rarely kill.  \nSince 1981 doctors have anti-venom for it.  \nNo people have died from its bite since then.  \nDo not rub hairy spiders like tarantulas the wrong way.  \nWhen they feel scared, they throw tiny hairs.  \nThese hairs can get into skin or eyes.  \nThe hairs can irritate skin or eyes.",
+      "timestamp": "2025-09-01 17:29:31.624055",
+      "metadata": {
+        "text_id": "928469ff-c4a2-4437-b147-ec74d1eda34b",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:29:31.634283",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7d828d66-812b-415f-9f76-10e4a9c20439",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7009 is below the 0.75 minimum threshold. The BERTScore of 0.8703 is also below the 0.90 minimum. The text fails on fundamental content preservation metrics.\n\n- MeaningBERT Failure: The score is too low because the logical structure of the original text was discarded. The original text moves from a general statement about venom to specific examples. Your output begins with a specific example, defines a term, then presents the general statement, destroying the logical flow and thus altering the core message.\n\n- BERTScore Failure: The score is too low due to excessive simplification of key vocabulary. Replacing 'fatalities' with 'died', 'prey' with 'food', and 'ejecting a cloud of urticating hairs' with 'throw tiny hairs' resulted in a significant loss of lexical fidelity from the source text.\n\n- Vocabulary Non-Compliance: The text uses multiple B1-level words, which is a direct violation of the A2 standard. The words 'poisonous', 'poison', 'bite', 'rarely', and 'tiny' are not A2-compliant.\n\n- Suggestion: Rewrite the text to match the original's logical order. Start with the general fact about most spiders, then introduce the specific examples. Replace all B1 vocabulary. Replace 'poisonous' with 'can make you very sick'. Replace 'rarely' with 'not often'. Replace 'tiny' with 'very small'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8703,
+          "meaningbert": 0.7009
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:29:40.042253",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Most spiders have venom.  \nThe venom helps them stun or stop their food.  \nOnly about 25 spider types can really hurt people.  \nSpider bites can hurt, but they do not often make you die.  \nA funnel-web spider lives in Australia.  \nIts bite can make you very sick.  \nSince 1981 doctors made anti-venom for it.  \nNo person has died from its bite since then.  \nDo not rub hairy spiders like tarantulas the wrong way.  \nWhen they feel scared, they throw very small hairs.  \nThese hairs can get into skin or eyes.  \nThe hairs can make skin or eyes hurt.",
+      "timestamp": "2025-09-01 17:29:40.042577",
+      "metadata": {
+        "text_id": "a8ca4c6a-2aba-48c5-bac3-b7467a359ebc",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:30:05.179366",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d034dd52-712c-4d04-bf7d-81d9d360d8fe",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary failure is a catastrophic loss of meaning and fidelity, confirmed by metrics. The MeaningBERT score of 0.5616 is far below the required 0.75 threshold. The BERTScore of 0.8768 is also below the required 0.90. This indicates the simplification process destroyed the core message and lexical integrity of the original text.\n\n- Meaning Loss: The original text explains the *purpose* of venom (to kill prey) and contrasts this with its effect on humans. Your version presents these as disconnected facts, losing the central explanatory point. The phrase 'stop their food' is a poor substitute for 'stunning or killing their prey'.\n\n- Fidelity Loss: Key lexical items like 'prey', 'deadly', 'fatalities', and 'defend' were removed. Their replacements were too simple and failed to carry the original meaning, causing the low BERTScore.\n\n- CEFR Vocabulary Violation: The text uses the word 'bite', which is classified as B1 level. This word was not included in the keywords for definition. Unapproved B1 vocabulary is an automatic failure for an A2 text.\n\n- Structural Deficiency: The text is a series of short, disconnected sentences. While A2 requires simplicity, the complete lack of connectors like 'and' or 'because' makes the text choppy and contributes to the loss of logical flow between ideas.\n\nSuggestion: Restore the core meaning by explicitly stating venom is for food, not for people. Replace the B1 word 'bite' with an A2 phrase like 'when a spider puts its teeth in you'. Connect related sentences with simple A2 conjunctions to improve readability and logical flow.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8768,
+          "meaningbert": 0.5616
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:30:11.484340",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Most spiders have venom.  \nThey use it to stun or kill their prey.  \nOnly about 25 spider types can really hurt a person.  \nWhen a spider puts its teeth in you, it can hurt.  \nIt rarely kills.  \nThe Sydney funnel\u2011web spider lives in Australia.  \nSince 1981 doctors made anti\u2011venom for it.  \nNo person has died after it puts its teeth in you since then.  \nDo not rub hairy spiders like tarantulas the wrong way.  \nWhen they feel scared, they throw tiny hairs.  \nThese hairs can get into skin or eyes.  \nThe hairs can make skin or eyes hurt.",
+      "timestamp": "2025-09-01 17:30:11.484615",
+      "metadata": {
+        "text_id": "5c6a4fbd-1d18-40fa-9bbf-4b3fbcd8c50b",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:30:35.655087",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "92f28394-05a1-404a-b2ae-4eed035c5623",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6452 is significantly below the required 0.75. This indicates a critical loss of the original message's nuance. The BERTScore of 0.8751 also fails to meet the 0.90 minimum, showing a failure to retain key lexical items.\n\n- Primary Failure (Meaning): The simplification was too aggressive. The original text's concept of spiders 'defending themselves' was completely lost. Your version, 'they throw tiny hairs', describes an action but not its purpose, which was central to the original sentence.\n\n- Secondary Failure (CEFR Compliance): The text was classified as B1, not the target A2. This is a direct result of using unapproved B1 vocabulary. The words 'rarely' and 'tiny' are not on the A2 list and must be removed.\n\n- Lexical Failure: The word 'rarely' in the sentence 'It rarely kills' is B1. The word 'tiny' in 'they throw tiny hairs' is B1. These are unacceptable deviations.\n\n- Corrective Actions: Replace 'rarely' with an A2 phrase like 'does not often'. Replace 'tiny' with the A2 word 'small'. Rephrase to restore lost meaning. Change 'When they feel scared, they throw tiny hairs' to 'When they feel scared, they throw small hairs to be safe'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8751,
+          "meaningbert": 0.6452
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:30:40.443258",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Most spiders have venom.  \nThey use it to stun or kill their prey.  \nOnly about 25 spider types can really hurt a person.  \nWhen a spider bites you, it can hurt.  \nIt does not often kill.  \n\nThe Sydney funnel\u2011web spider lives in Australia.  \nSince 1981 doctors made anti\u2011venom for it.  \nNo person has died after it bites you since then.  \n\nDo not rub hairy spiders like tarantulas the wrong way.  \nWhen they feel scared, they throw small hairs to be safe.  \nThese hairs can get into skin or eyes.  \nThe hairs can make skin or eyes hurt.",
+      "timestamp": "2025-09-01 17:30:40.443725",
+      "metadata": {
+        "text_id": "a9b4ccfe-faf0-435f-a89f-9a4bc9ba956e",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:31:04.784658",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7112d37f-eb4f-4f86-888d-0ac466188587",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5845 is critically below the required 0.75 threshold. This indicates a severe loss of the original text's core message. The text also fails the fidelity check with a BERTScore of 0.874, below the 0.90 minimum.\n\n- The primary failure is the loss of meaning. The original text explains that tarantulas 'defend themselves by ejecting a cloud of urticating hairs'. Your version, 'they throw small hairs to be safe', loses the critical concept of 'defense'.\n- The meaning of the hairs' effect is also lost. The original states the hairs 'embed themselves in the skin or eyes'. Your version, 'These hairs can get into skin or eyes', is too vague and fails to convey the severity of the action.\n- The low BERTScore is a direct result of replacing specific, important words like 'defend', 'ejecting', and 'embed' with overly simple A1 verbs. This simplification sacrifices too much factual detail.\n\nSuggestion: Rewrite the section about tarantulas. You must restore the concept of 'defense'. You must also describe more accurately what the hairs do. For example: 'When they feel scared, they use small hairs to defend themselves. These hairs can get stuck in the skin or eyes and hurt you.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.874,
+          "meaningbert": 0.5845
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:31:10.579921",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Most spiders have venom.  \nThey use it to stun or kill their prey.  \nOnly about 25 spider types can really hurt a person.  \nA spider bite can hurt.  \nIt does not often kill.  \n\nThe funnel\u2011web spider is a spider with strong venom.  \nThe Sydney funnel\u2011web spider lives in Australia.  \nAnti\u2011venom is medicine that stops venom.  \nSince 1981 doctors made anti\u2011venom for it.  \nNo person has died after it bites you since then.  \n\nDo not rub hairy spiders like tarantulas the wrong way.  \nWhen they feel scared, they use small hairs to defend themselves.\"  \nWhen they feel scared, they use small hairs to defend themselves.  \nThese hairs can get stuck in skin or eyes.  \nThey hurt.",
+      "timestamp": "2025-09-01 17:31:10.580208",
+      "metadata": {
+        "text_id": "9ee21470-b4a3-4063-8f3e-c6e6aacfa66d",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:31:34.671150",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6def0911-2d80-4e02-a880-27e08a814a20",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The submission fails on multiple high-priority checks. The primary failure is the inability to preserve the original text's meaning and fidelity. The MeaningBERT score of 0.6074 is significantly below the required 0.75 threshold. This indicates a severe loss of the core message. The BERTScore of 0.8617 is also below the required 0.90, showing a failure to retain key lexical details from the source.\n\n- Meaning Preservation Failure (MeaningBERT 0.60): The original text explains concepts with cause and effect. Your version breaks these into disconnected statements, losing the logical connections. For example, the original links venom's purpose to prey, contrasting it with its effect on humans. Your version lists these as separate, unrelated facts.\n- Fidelity Failure (BERTScore 0.86): Key terms were replaced with overly simple words, losing precision. 'Fatalities' became 'died', and 'ejecting a cloud of urticating hairs' became 'use small hairs'. This simplification is too extreme and damages the factual detail.\n- CEFR Compliance Failure: The text is classified as B1, not the required A2. This is a direct result of using unapproved B1 vocabulary. The words 'bite' and 'defend' are B1 level and were not simplified.\n- Quality Control Failure: The sentence 'When they feel scared, they use small hairs to defend themselves.' is duplicated. This is a basic proofreading error.\n\nSuggestion: Replace the B1 word 'bite' with an A2 phrase like 'when it puts its teeth in you'. Replace the B1 word 'defend' with an A2 phrase like 'to keep themselves safe'. Remove the duplicated sentence. Re-write the text to connect ideas using simple A2 connectors like 'but' and 'so' to improve meaning preservation.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8617,
+          "meaningbert": 0.6074
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:31:52.914664",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A funnel\u2011web spider is a spider with strong venom.  \nAnti\u2011venom is medicine that stops venom.  \nMost spiders have venom.  \nThey use it to stun or kill their prey.  \nOnly about 25 spider types can really hurt a person.  \nWhen it puts its teeth in you, it can hurt.  \nBut it rarely kills.  \nThe Sydney funnel\u2011web spider lives in Australia.  \nIt has strong venom.  \nSince 1981 doctors made anti\u2011venom medicine for it.  \nNo one has died after it puts its teeth in you.  \nSince then, anti\u2011venom helps.  \nDo not rub hairy spiders like tarantulas the wrong way.  \nWhen they feel scared, they throw small hairs to keep themselves safe.  \nThese hairs can get stuck in skin or eyes and hurt.",
+      "timestamp": "2025-09-01 17:31:52.915197",
+      "metadata": {
+        "text_id": "bded6ad3-d8ed-4511-967c-e51257ca5972",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:32:16.154148",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "492082b2-08d5-4da2-b403-46024879e261",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6582 is significantly below the required 0.75 threshold. This indicates a severe loss of the original text's core message. The BERTScore of 0.8574 also fails to meet the 0.90 minimum, confirming that key lexical details were omitted or poorly rephrased. The text fails on this primary metric before any other analysis.\n\nFurther analysis reveals multiple additional failures:\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is due to unacceptable complexity in vocabulary and sentence structure.\n\n- Vocabulary Violation (C1): The word 'prey' is a C1-level term. It was copied directly from the original text without simplification. This is a critical error.\n\n- Vocabulary Violation (B1): The word 'rarely' is a B1-level adverb. It must be replaced with an A2-level phrase like 'does not often'.\n\n- Structural Violation (B1): The sentence 'Anti\u2011venom is medicine that stops venom' uses a defining relative clause ('that stops...'). This is a B1 grammatical structure. A2 requires simpler, conjoined sentences.\n\n- Idiomatic Language Violation: The phrase 'rub... the wrong way' is an idiom far too advanced for the A2 level. It must be replaced with a literal description like 'do not touch' or 'do not bother'.\n\nSuggestion: The text must be completely rewritten. Restore the original meaning about venom's purpose being for prey, not humans. Remove the words 'prey' and 'rarely'. Split the sentence 'Anti\u2011venom is medicine that stops venom' into two simple sentences. Replace the idiom 'rub the wrong way' with a simple A2-level warning.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8574,
+          "meaningbert": 0.6582
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:32:20.688888",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A funnel\u2011web spider is a spider with strong venom.  \nMost spiders also have venom.  \nThey use venom to stun or kill the animals they eat.  \nOnly about 25 spider types can hurt people.  \nWhen a spider bites, it can cause pain.  \nThe bite does not often kill.  \nThe Sydney funnel\u2011web spider lives in Australia.  \nAnti\u2011venom is a medicine.  \nIt stops the venom.  \nAnti\u2011venom was made in 1981.  \nNo one has died from a bite since then.  \nDo not touch hairy spiders such as tarantulas.  \nWhen they feel scared, they throw tiny hairs.  \nThe hairs can get into skin or eyes.  \nThe hairs can cause irritation.",
+      "timestamp": "2025-09-01 17:32:20.689431",
+      "metadata": {
+        "text_id": "e2fbdee6-6f80-4831-87d6-66352d71a546",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:32:40.225042",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f7d4eb66-8932-4cd7-b6ef-5b072440826c",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.60 is critically below the required 0.75 threshold. This is the primary reason for failure.\n\n- Meaning Preservation Failure: The text was broken into too many short, disconnected sentences. This destroyed the logical flow of the original text. For example, the original states the Sydney funnel-web spider has caused no deaths *since* anti-venom was developed. Your version separates these facts into four sentences, weakening this crucial cause-and-effect relationship.\n\n- Fidelity Failure: The BERTScore of 0.86 is below the 0.90 minimum. Key lexical details were lost. For example, 'ejecting a cloud of urticating hairs' was oversimplified to 'throw tiny hairs', losing the specific meaning of the original phrase.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is an automatic failure.\n\n- Vocabulary Violation: The B1 classification was caused by using vocabulary above the A2 level. The word 'bite' is B1 and was used twice. The word 'tiny' is also B1. These words are not permitted.\n\n- Suggestion: Re-write the text to combine sentences using A2 connectors like 'so' and 'because' to restore logical meaning. Replace all B1 vocabulary. For 'bite', use an A2-level description like 'when a spider puts venom in you'. For 'tiny', use 'very small'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8608,
+          "meaningbert": 0.6037
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:32:52.850752",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A funnel\u2011web spider is a spider with strong venom.  \nMost spiders also have venom.  \nThey use venom to stun or kill the animals they eat.  \nOnly about 25 spider types can hurt a person.  \nWhen a spider puts venom in you, it can cause pain.  \nThe pain does not often kill.  \nThe Sydney funnel\u2011web spider lives in Australia.  \nAnti\u2011venom is a medicine that stops venom.  \nAnti\u2011venom was made in 1981.  \nBecause anti\u2011venom exists, no one has died from spider venom since then.  \nDo not touch hairy spiders such as tarantulas.  \nWhen scared, they send a cloud of very small hairs.  \nThe hairs can get into skin or eyes and make them hurt.",
+      "timestamp": "2025-09-01 17:32:52.851371",
+      "metadata": {
+        "text_id": "7c381d43-5ce2-4097-89fe-0c9cabbac439",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:33:20.399314",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9643a369-5cf9-4121-8f33-d1ebd2bcbff2",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5583 is catastrophically below the 0.75 minimum threshold. The text has failed at a primary diagnostic step. The core message of the original text was not preserved.\n\n- Primary Failure (Meaning): The original text establishes a critical contrast: venom is for prey, NOT for attacking humans. Your version completely omits this contrast, fundamentally altering the message.\n\n- Secondary Failure (Fidelity): The BERTScore of 0.8629 is below the required 0.90. This confirms that key lexical details and phrasing from the original text were lost during simplification.\n\n- Tertiary Failure (CEFR Compliance): The classifier rated the text as B1, which is an automatic failure. The text is too complex for the A2 standard due to specific grammatical structures.\n\n- Structural Deviations from A2 Standard:\n  - The sentence 'They use venom to stun or kill the animals they eat' contains a relative clause ('they eat'). This is a B1 structure.\n  - The sentence 'Anti\u2011venom is a medicine that stops venom' contains a relative clause ('that stops venom'). This is a B1 structure.\n  - The sentence 'Because anti\u2011venom exists, no one has died...' begins with a subordinate clause. This is a B1 structure.\n\n- Corrective Path:\n  - Restore the core meaning. The text must state that spiders use venom for prey and not for humans.\n  - Eliminate all B1 structures. Split sentences with relative clauses into two simple sentences. Example: 'Anti-venom is a medicine. It stops venom.'\n  - Do not start sentences with 'Because'. Rephrase to place the 'because' clause after the main clause. Example: 'No one has died since 1981 because doctors have anti-venom.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8629,
+          "meaningbert": 0.5583
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:33:26.674732",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A funnel\u2011web spider is a spider with strong venom.  \nMost spiders also have venom.  \nSpiders use venom to stun prey.  \nSpiders use venom to kill prey.  \nOnly about 25 spider types can hurt people.  \nA spider bite can cause pain.  \nThe pain rarely kills.  \nThe Sydney funnel\u2011web spider lives in Australia.  \nAnti\u2011venom is a medicine.  \nIt stops venom.  \nAnti\u2011venom was made in 1981.  \nNo one has died since 1981.  \nDo not touch hairy spiders such as tarantulas.  \nScared spiders send a cloud of tiny hairs.  \nThe hairs can get into the skin.  \nThe hairs can get into the eyes.  \nThe hairs make the skin hurt.",
+      "timestamp": "2025-09-01 17:33:26.675614",
+      "metadata": {
+        "text_id": "9424f6f5-d6fb-4ccd-b791-b5128b830b39",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:33:57.631072",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "00d83b9e-41fc-49d1-811d-d4c81cc05af5",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for failure is the MeaningBERT score of 0.5618, which is critically below the required 0.75 threshold. This indicates a severe loss of the original message's core meaning. The text also fails the fidelity check with a BERTScore of 0.8525, below the 0.90 minimum.\n\n- Meaning Loss: The original text explains the purpose of venom (for prey, not humans). Your version presents a disconnected list of facts, destroying this logical connection. This fragmentation is the direct cause of the low MeaningBERT score.\n- CEFR Compliance Failure: The classifier rated the text B1, not the required A2. This is an automatic failure.\n- Vocabulary Violation: The text uses unapproved vocabulary above the A2 level. The word 'prey' is C1. The words 'bite', 'rarely', and 'tiny' are B1. This is a direct violation of the A2 standard.\n- Structural Failure: The text has been oversimplified into a fragmented list. A2 level requires simple sentences, but not to the point that all logical flow is eliminated. Basic connectors like 'and' or 'but' are expected and necessary.\n\nSuggestion: Re-write the text to connect ideas. Combine sentences using A2 connectors like 'and', 'but', and 'so'. Replace all vocabulary rated B1 or higher. 'Prey' must be replaced with an A2 phrase like 'the small animals that spiders eat'. 'Rarely' must be replaced with 'not often'. 'Tiny' must be replaced with 'very small'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8525,
+          "meaningbert": 0.5618
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:34:09.807904",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A funnel\u2011web spider is a spider with strong venom.  \nMost spiders also have venom.  \nSpiders use venom to stun the small animals that spiders eat.  \nSpiders also use venom to kill the small animals that spiders eat.  \nOnly about 25 spider types can hurt people.  \nWhen a spider hurts you, it can cause pain.  \nThis pain does not often kill.  \nThe Sydney funnel\u2011web spider lives in Australia.  \nAnti\u2011venom is a medicine that stops  venom.  \nAnti\u2011venom was made in 1981.  \nNo one has died from this spider since 1981.  \nDo not touch hairy spiders such as tarantulas.  \nScared spiders send a cloud of very small hairs.  \nThe hairs can get into the skin.  \nThe hairs can get into the eyes.  \nThe hairs make the skin hurt.",
+      "timestamp": "2025-09-01 17:34:09.810800",
+      "metadata": {
+        "text_id": "3afeef25-8f20-47c4-ad79-772c7fcb68a5",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:34:46.810488",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4abb0dbf-9c65-47ef-b395-703a7c3e1713",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5474 is catastrophically below the required 0.75 threshold. This indicates a complete failure to preserve the core message of the original text.\n\n- The primary failure is the destruction of logical flow. The original text explains concepts in relation to each other. Your output is a list of disconnected facts. Key transitional ideas like 'In fact', 'although', and 'However' were deleted, which erased the original argument.\n- The BERTScore of 0.85 is also below the 0.90 minimum, indicating a severe loss of factual phrasing. Key terms were replaced with overly simple words, losing precision. For example, 'prey' was replaced with 'the small animals that spiders eat', and 'fatalities' became 'no one has died'.\n- A critical part of the original meaning, that venom is for prey 'rather than attacking humans', was completely omitted. This is a major factual alteration.\n- The sentence structure is flawed. Splitting the single concept of 'stunning or killing' into two separate, repetitive sentences is incorrect and unnatural.\n\nSuggestion: Rewrite the text from the beginning. Focus on keeping the original logic. Use simple A2 connectors like 'and', 'but', and 'because' to link ideas instead of just listing them. Restore the key concept that venom is for prey, not for humans. Combine the 'stun' and 'kill' ideas into a single sentence.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.85,
+          "meaningbert": 0.5474
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:34:59.098144",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Spider venom is used to stun or kill prey, not people.  \nMost spiders have venom.  \nThey use it to catch the small animals they eat.  \nOnly about 25 spider species can hurt people.  \nWhen they bite, they cause pain but rarely kill.  \nThe Sydney funnel\u2011web spider lives in Australia.  \nA funnel\u2011web spider is a spider with strong venom.  \nAnti\u2011venom is a medicine that stops the venom.  \nIt was made in 1981 and no one has died since.  \nDo not touch hairy spiders such as tarantulas.  \nWhen they feel danger, they send a cloud of tiny hairs.  \nThe hairs can get into skin or eyes and hurt.",
+      "timestamp": "2025-09-01 17:34:59.099437",
+      "metadata": {
+        "text_id": "6c397c18-6ba5-4907-8f9c-f4dad49ea913",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:35:28.097146",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "da1ac683-4c42-45e9-8bd2-8d753313bdcc",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5882 is catastrophically below the required 0.75 threshold. The original text provides a cohesive explanation of venom's purpose, but your output is a disconnected list of facts that fails to convey this central message. This is an instant and total failure.\n\n- Fidelity Failure: The BERTScore of 0.8783 is below the 0.90 minimum. This indicates a significant loss of key vocabulary and phrasing from the original text.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is a direct result of unacceptable vocabulary choices.\n\n- Vocabulary Violation: The text contains multiple words that are not on the A2 list. This is a severe error. The words 'used' (B1), 'prey' (C1), 'species' (B1), 'bite' (B1), 'rarely' (B1), and 'tiny' (B1) were all found in the output. This is non-negotiable.\n\n- Corrective Action: You must remove all vocabulary above the A2 level. Replace 'prey' with 'the small animals they eat'. Replace 'species' with 'kinds of spiders'. Replace 'rarely' with 'do not often'. Rewrite the text to restore the original's core message about the purpose of venom.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8783,
+          "meaningbert": 0.5882
+        }
+      }
+    }
+  ]
+}

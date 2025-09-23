@@ -1,0 +1,228 @@
+{
+  "session_id": "3258639f-0335-45e1-a6a2-61303ee3d2c1",
+  "created_at": "2025-09-01 10:37:03.788405",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:37:03.805411",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "80-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some dogs live in groups.\nThey have learned something important.\nPeople often give food to small, cute dogs.\nSo, the group sends the small dogs to ask for food.\nThey get food for all the dogs.\n\nSome dogs can even use the city's trains.\nThey travel from one part of their area to another.\nScientists are not sure how the dogs know this.\nHow do they know when to leave the train?\n\nThere is one idea.\nThe dogs can smell very well.\nThey remember the smells of their favourite places.\nThere is another idea.\nThey hear the names of the stations on the train.\nMaybe they remember the names.\n\nNow, people on the trains see these dogs often.\nIt is normal for them.\nSo, people don't really notice the dogs when they travel.",
+      "timestamp": "2025-09-01 10:37:03.805568",
+      "metadata": {
+        "text_id": "171e57bf-15b6-41a0-a648-69ffb94d6327",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 10:37:03.809779",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "bc7e47c2-cd32-49fa-8916-14fe3a80346a",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5857 is catastrophically below the required 0.75 threshold. This indicates a severe loss of the original text's core message. The text also fails the fidelity check, with a BERTScore of 0.8999 falling below the 0.90 minimum.\n\nDetected Deviations:\n- Meaning Loss: The original text states dogs 'have learnt that humans are more likely to give food'. Your version, 'They have learned something important. People often give food', disconnects the learning from the action and weakens the core concept of the dogs' strategy.\n- Fidelity Loss: The BERTScore is too low. The replacement of specific terms like 'metro system' with 'trains' and 'passengers' with 'people' contributed to this failure.\n- Vocabulary Violation: The B1-level word 'cute' is present in the text. All vocabulary must be strictly A2 or below. This is a non-negotiable rule.\n\nSuggestion: Rephrase to restore the original meaning. The dogs' learning process must be the central point. Replace the B1 word 'cute' with an A2-compliant alternative. The text must be rewritten to meet the 0.75 MeaningBERT and 0.90 BERTScore minimums.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8999,
+          "meaningbert": 0.5857
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:37:24.647836",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some dogs live in groups.\nThey have learned that people give food to small dogs.\nSo, the group sends the small dogs to ask for food.\nThey get food for all the dogs.\n\nSome dogs can even use the city's trains.\nThey travel from one part of their area to another.\nScientists are not sure how the dogs know this.\nHow do they know when to leave the train?\n\nThere is one idea.\nThe dogs can smell very well.\nThey remember the smells of their favourite places.\nThere is another idea.\nThey hear the names of the stations on the train.\nMaybe they remember the names.\n\nNow, people on the trains see these dogs often.\nIt is normal for them.\nSo, people don't really notice the dogs when they travel.",
+      "timestamp": "2025-09-01 10:37:24.651130",
+      "metadata": {
+        "text_id": "cf204dc1-10f5-49ef-b823-6319c211cb74",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:37:50.919178",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5b74b75b-e00a-47e5-945f-f5544c873a5e",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.602 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message and logical connections of the original text.\n\n- Primary Deviation: The text was over-simplified into a series of short, disconnected sentences. This destroyed the cause-and-effect relationships present in the original. For example, the original states passengers are 'so used to the sight... that they travel largely unnoticed'. Your version, 'people on the trains see these dogs often. It is normal for them. So, people don't really notice...', weakens this direct causal link, which is a major loss of meaning.\n\n- Secondary Deviation: Nuance was lost. The original specifies humans are 'more likely to give food to smaller, cuter dogs'. Your version, 'people give food to small dogs', removes the comparative and descriptive elements, altering the original statement.\n\n- Structural Flaw: While the sentences are simple, their choppiness prevents the text from flowing logically. The constant use of new lines for each short sentence is stylistically poor and contributes to the disjointed feel.\n\nSuggestion: Recombine some sentences to restore logical flow. Use simple A2 connectors like 'and' or 'because'. Example: Instead of 'There is one idea. The dogs can smell very well.', write 'One idea is that the dogs can smell very well and remember the smells of their favourite places.' This is still A2 level but preserves the connection between ideas.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.904,
+          "meaningbert": 0.602
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:38:16.282741",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some dogs live in groups. They have learned that people give more food to small, cute dogs, so the group sends these dogs to ask for food for the whole pack.\n\nSome dogs can even use the city's trains to travel to different parts of their area. Scientists are not sure how the dogs know when to leave the train.\n\nOne idea is that the dogs can smell very well and remember the smells of their favourite places. Another idea is that they hear the station names and remember them.\n\nNow, people on the trains are used to seeing the dogs, so they don't really notice them.",
+      "timestamp": "2025-09-01 10:38:16.284490",
+      "metadata": {
+        "text_id": "7eeb437a-458c-4c6e-a1b7-cd45f998a84a",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:38:43.769218",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "edb3d9ce-fec9-4039-9002-f3e970c097ec",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6421 is significantly below the required 0.75 threshold. This is an instant failure. The simplification, while aiming for A2, has removed too much of the original text's specific meaning.\n\nPrimary Deviation: The replacement of specific terms like 'metro system' with 'trains' and 'territory' with 'area' has diluted the core message, leading to the low MeaningBERT score.\n\nGrammatical Deviation: The text uses the structure 'are used to seeing'. This is a B1 grammatical form and is too complex for the A2 level. It must be simplified.\n\nVocabulary Deviation: The word 'cute' is classified as B1. It was not replaced with a simpler A2 alternative.\n\nSuggestion: Rephrase to restore the specific context of the original text to improve meaning preservation. Replace the B1 structure 'are used to seeing' with a simpler A2 alternative like 'it is normal for people to see the dogs'. Replace 'cute' with a phrase like 'small and nice-looking'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9243,
+          "meaningbert": 0.6421
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:39:00.264872",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some dogs live in groups. They have learned that people give more food to small and nice-looking dogs. So the group sends these dogs to ask for food for the whole pack.\n\nSome dogs can even use the city's metro system. They travel to different parts of their territory. Scientists are not sure how the dogs know when to leave the train.\n\nOne idea is that the dogs can smell very well. They remember the smells of their favourite places. Another idea is that they hear the station names and remember them.\n\nNow, it is normal for people on the metro to see the dogs. So the local people do not really notice them.",
+      "timestamp": "2025-09-01 10:39:00.265359",
+      "metadata": {
+        "text_id": "fc0c76ad-59da-4b98-bf86-d58d4024550c",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:39:27.901835",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6e2d04d0-4653-4566-8a2c-460905ba972f",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6572 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text.\n\n- Meaning Deviation: The original text states humans are 'more likely to give food', which is about probability. Your text changes this to 'give more food', which is about quantity. This is a factual alteration.\n- Meaning Deviation: The original uses the word 'beg', which has a strong connotation. Your replacement 'ask' is too weak and loses the intended meaning.\n- Vocabulary Compliance Failure: The B2-level word 'territory' was used. This is a direct violation of the A2 standard. An A2-level word such as 'area' is required.\n\nSuggestion: Rephrase the text to restore the original meaning regarding the probability of receiving food. Replace the word 'territory' with an A2-compliant alternative like 'area'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9224,
+          "meaningbert": 0.6572
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:39:42.303025",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some dogs live in groups. They have learned that people often give food to small and nice-looking dogs. So the group sends these dogs to ask for food for the whole pack.\n\nSome dogs can even use the city's metro system. They travel to different parts of their area. Scientists are not sure how the dogs know when to leave the train.\n\nOne idea is that the dogs can smell very well. They remember the smells of their favourite places. Another idea is that they hear the station names and remember them.\n\nNow, it is normal for people on the metro to see the dogs. So the local people do not really notice them.",
+      "timestamp": "2025-09-01 10:39:42.303607",
+      "metadata": {
+        "text_id": "cbba46fb-c14b-4085-a577-35fb735e1a7e",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:40:10.790013",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "852438e5-bee4-47d0-b843-9dc948c8603b",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6463 is significantly below the required 0.75 threshold. The text fails because multiple simplifications have cumulatively diluted the core meaning of the original text, even though the basic facts are present.\n\n- Meaning Dilution: The original text states humans are 'more likely' to give food to some dogs, which is a comparison. Your text uses 'often', which describes frequency. This changes the meaning.\n- Lexical Weakening: The original uses 'beg for food', which implies desperation. Your replacement, 'ask for food', is too weak and loses this critical nuance.\n- Connotation Loss: The word 'territory' implies an area the dogs control. Your replacement, 'area', is too general and loses this meaning.\n- Intensity Reduction: 'Excellent sense of smell' was reduced to 'can smell very well'. This is a loss of intensity.\n\nSuggestion: Re-evaluate every word choice. Ensure that simplifications do not remove important nuances. Restore the comparative meaning of 'more likely'. Find an A2-level phrase that captures the desperation of 'beg', for example, 'ask for food many times'. Retain the concept of 'territory' by rephrasing, for example, 'the area where they live and control'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9201,
+          "meaningbert": 0.6463
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:40:31.432207",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some dogs live in groups. They have learned that people give food more to small and nice-looking dogs. So the group sends these dogs to ask for food many times for the whole pack.\n\nSome dogs can even use the city's metro system. They travel to different parts of the area they control. Scientists are not sure how the dogs know when to leave the train.\n\nOne idea is that the dogs have a great sense of smell. They remember the smells of their favourite places. Another idea is that they hear the station names and remember them.\n\nNow, it is normal for people on the metro to see the dogs. So the local people do not really notice them.",
+      "timestamp": "2025-09-01 10:40:31.433418",
+      "metadata": {
+        "text_id": "1a05cdb5-7e21-4c25-ac44-f498d5bf4362",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:40:57.694285",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b3375d07-fb12-465b-b646-638a28300c26",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6386 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text.\n\n*   Deviation: The original states humans are 'more likely' to give food. Your version, 'people give food more', changes the meaning from probability to quantity or frequency. This is a critical semantic shift.\n*   Deviation: The original uses the word 'beg'. Your version, 'ask for food many times', weakens the meaning and adds information ('many times') that was not in the source text. This is an embellishment that corrupts the original message.\n*   Deviation: While the vocabulary is correctly at the A2 level and the BERTScore is acceptable, the changes made have damaged the factual meaning of the first paragraph.\n\nSuggestion: Rephrase the first paragraph to restore the original meaning. Change 'give food more' back to a concept like 'it is easier to get food'. Remove the invented detail 'many times'. The goal is simplification without altering the core facts or reasons.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9199,
+          "meaningbert": 0.6386
+        }
+      }
+    }
+  ]
+}

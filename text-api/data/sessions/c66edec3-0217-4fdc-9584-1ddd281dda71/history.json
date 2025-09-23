@@ -1,0 +1,302 @@
+{
+  "session_id": "c66edec3-0217-4fdc-9584-1ddd281dda71",
+  "created_at": "2025-09-01 17:21:57.569486",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:21:57.577955",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "88-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: When Pi is sixteen, people elect a new government.  \nHis parents do not support the government.  \nThey are worried about the future.  \nThey decide to close the zoo.  \nThey decide to move to Canada.  \nThey sell some animals to zoos in North America.  \nThe family travel by ship to Canada.  \nThey take the animals with them.  \nA terrible storm hits the ship.  \nThe ship sinks.  \nPi's family and the sailors all drown.  \nPi is in a lifeboat.  \nHe is with a hyena and a zebra.  \nHe is also with an orangutan and a tiger.  \nA hyena is a wild animal that looks like a dog.  \nA tiger is a big cat with orange fur and black stripes.",
+      "timestamp": "2025-09-01 17:21:57.578910",
+      "metadata": {
+        "text_id": "ff91d4f6-e4e2-436f-9610-be41226f8ba6",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:21:57.588888",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9f85f29b-ca8f-456a-a891-987bd62b401d",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8928 is below the required 0.90 threshold. This indicates an unacceptable loss of key words and phrasing from the original text. The text also contains a severe vocabulary violation.\n\n- Fidelity Violation: The BERTScore is too low. The removal of descriptive words such as 'enormous' and the adverb 'tragically' has reduced the lexical fidelity to the source text below the minimum standard.\n\n- Vocabulary Violation: The word 'drown' is a C1-level verb. Its inclusion in a text intended for an A2 audience is a critical error. A2 vocabulary must be strictly enforced.\n\n- Suggestion: Replace the C1 word 'drown' immediately. Use an A2-compliant phrase such as 'die in the water'. To improve the fidelity score, consider reintroducing simple A2-level adjectives, for example, changing 'a tiger' to 'a very big tiger' to capture the meaning of 'enormous'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8928,
+          "meaningbert": 0.8218
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:22:06.669951",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: When Pi is sixteen, people elect a new government.  \nHis parents do not support the government.  \nThey are worried about the future.  \nThey decide to close the zoo.  \nThey decide to move to Canada.  \nThey sell some animals to zoos in North America.  \nThe family travel by ship to Canada.  \nThey take the animals with them.  \nA terrible storm hits the ship.  \nThe ship sinks.  \nIt is very bad that Pi's family die in the water.  \nIt is very bad that the sailors die in the water.  \nPi is in a lifeboat.  \nHe is with a hyena and a zebra.  \nHe is also with an orangutan and a very big tiger.  \nA hyena is a wild animal that looks like a dog.  \nA tiger is a very big wild animal with orange fur.  \nIt has black stripes.",
+      "timestamp": "2025-09-01 17:22:06.670162",
+      "metadata": {
+        "text_id": "c1108020-a8c0-4bf0-bdcd-e228bfd3cf29",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:22:38.748064",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4e1d2ac9-383b-46cb-bd48-e273852c9f5b",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The text fails on two critical metrics. The MeaningBERT score of 0.7178 is below the required 0.75, indicating a failure to preserve the core message. The BERTScore of 0.8825 is below the required 0.90, indicating a significant loss of key factual words.\n\n-   Lexical Fidelity Loss: The simplification was too aggressive, resulting in a loss of meaning. The original text uses the specific verb 'drown'. Your replacement, 'die in the water', is factually correct but loses the specific cause of death, which is a critical detail. The word 'drown' is an acceptable A2-level verb.\n\n-   Meaning Dilution: The word 'tragically' was replaced with the repetitive and weak phrase 'It is very bad that...'. This simplification significantly dilutes the emotional weight and meaning of the original sentence.\n\n-   Over-simplification of Structure: The original text was broken into too many short, disconnected sentences. While A2 requires simple structures, this level of fragmentation makes the text choppy and contributes to the low metric scores by breaking the logical connections between ideas.\n\n-   Suggestion: Restore the A2-level verb 'drown' to improve fidelity. Rephrase to better capture the meaning of 'tragically'; for example, 'Sadly, Pi's family and the sailors drown.' Combine some of the shortest sentences using simple A2 connectors like 'and' or 'so' to improve readability and restore logical flow. For example: 'His parents do not support the government, so they are worried about the future.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8825,
+          "meaningbert": 0.7178
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:22:49.028672",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: When Pi is sixteen, a new government is elected.  \nHis parents do not support the government.  \nThey worry about the future.  \nThey close the zoo and decide to move to Canada.  \nThey sell some animals to zoos in North America.  \nThe family travels by ship to Canada.  \nThey take the animals with them.  \nA terrible storm hits the ship and the ship sinks.  \nSadly, Pi's family and the sailors drown.  \nPi is in a lifeboat with a hyena and a zebra.  \nHe is also with an orangutan and a huge tiger.  \nA hyena is a wild animal that looks like a dog.  \nA tiger is a very big wild animal.  \nIt has orange fur and black stripes.",
+      "timestamp": "2025-09-01 17:22:49.029060",
+      "metadata": {
+        "text_id": "ff852da4-b469-478d-a04a-9b228bd3134d",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:23:09.225534",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "98613077-0fc5-4c23-9b80-8ed2ebcdd463",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Standard Violation. The text fails due to the inclusion of words that are above the A2 CEFR level. Adherence to the vocabulary standard is not optional.\n\n- Critical Error: The word 'drown' is C1 level, as correctly identified in the vocabulary analysis. Its inclusion in the final text is an immediate failure. An A2 text cannot contain C1 vocabulary.\n\n- Secondary Error: The word 'sailors' is B1 level. This word must be simplified for an A2 audience.\n\n- Structural Compliance: The simplification of complex sentences into short, simple sentences was executed correctly. However, structural compliance does not compensate for vocabulary violations.\n\nSuggestion: Replace 'drown' with an A2-level phrase such as 'die in the water'. Replace 'sailors' with 'the people who work on the ship'. Re-submit only when all vocabulary is confirmed to be A2 level or below.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9046,
+          "meaningbert": 0.7878
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:23:15.588028",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: When Pi is sixteen, people choose a new government.  \nHis parents do not support the government.  \nThey worry about the future.  \nThey close the zoo and decide to move to Canada.  \nThey sell some animals to zoos in North America.  \nThe family travels by ship to Canada.  \nThey take the animals with them.  \nA terrible storm hits the ship and the ship sinks.  \nPi's family and the people who work on the ship die in the water.  \nPi is in a lifeboat with a hyena and a zebra.  \nHe is also with an orangutan and a huge tiger.  \nA hyena is a wild animal that looks like a dog.  \nA tiger is a very big wild animal.  \nIt has orange fur and black stripes.",
+      "timestamp": "2025-09-01 17:23:15.588376",
+      "metadata": {
+        "text_id": "30d3dea1-ef8f-4787-945b-a2a9b89f6783",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:23:45.373195",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "16c7209a-6ca4-4c8c-a404-f7deb19bd093",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7449 is below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text.\n\n- Primary Deviation: The simplification has removed the emotional and contextual weight of the original text. The original states that the family 'tragically... all drown'. Your version, 'die in the water', is factually similar but loses the specific meaning of drowning and the tragic tone. This loss of nuance is the primary reason for the low meaning score.\n- Secondary Deviation: The phrase 'people choose a new government' is a weak simplification of 'a new government is elected'. While understandable, it loses the formal, political context of the original statement.\n- Analysis: The text successfully passes the BERTScore metric (0.9001) and is correctly classified as A2. The sentence structure is appropriately simple and the vocabulary is well-controlled. However, the failure to meet the meaning preservation standard is a critical error.\n- Suggestion: Rephrase to restore the lost meaning. The concept of 'drown' is important. A phrase like 'they were in the water and could not breathe' is a more accurate A2-level explanation. The text must not only be simple but also faithful to the original's core concepts.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9001,
+          "meaningbert": 0.7449
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:23:58.570634",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: When Pi is sixteen, people elected a new government.  \nHis parents did not support the government.  \nThey worried about the future.  \nThey closed the zoo and decided to move to Canada.  \nThey sold some animals to zoos in North America.  \nThe family travelled by ship to Canada.  \nThey took the animals with them.  \nA terrible storm hit the ship and the ship sank.  \nPi\u2019s family and the ship\u2019s crew were in the water and could not breathe.  \nPi was in a lifeboat with a hyena and a zebra.  \nHe was also with an orangutan and a huge tiger.  \nA hyena is a wild animal that looks like a dog.  \nA tiger is a very big wild animal with orange fur and black stripes.",
+      "timestamp": "2025-09-01 17:23:58.571049",
+      "metadata": {
+        "text_id": "62f9b2ac-503a-4205-a21a-36ba72c50a33",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:24:21.999246",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f71973a0-f701-4eab-abda-578ab6074056",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Standard Violation. The text passed all metric checks but failed the qualitative audit. The output contains multiple words that are above the A2 CEFR level, making it non-compliant.\n\n- B1 Vocabulary Violation: The word 'elected' is B1 level. The original passive structure 'is elected' was simplified, but the chosen replacement verb is too complex for A2.\n- B1 Vocabulary Violation: The word 'crew' is B1 level. It was used to replace 'sailors' (also B1). This is not a simplification and fails to meet the A2 standard.\n- B1 Vocabulary Violation: The word 'breathe' is B1 level. While used in an attempt to simplify the concept of 'drown', the word itself is too advanced.\n\nSuggestion: Replace 'elected' with an A2 phrase like 'chose'. Suggestion: Replace 'crew' with an A2 phrase like 'the people who worked on the ship'. Suggestion: Rephrase the sentence 'were in the water and could not breathe' to 'died in the water' to eliminate the B1 verb.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9027,
+          "meaningbert": 0.7586
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:24:29.215136",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: When Pi is sixteen, people chose a new government.  \nHis parents did not support the government.  \nThey worried about the future.  \nThey closed the zoo.  \nThey decided to move to Canada.  \nThey sold some animals to zoos in North America.  \nThe family travelled by ship to Canada.  \nThey took the animals with them.  \nA terrible storm hit the ship.  \nThe ship sank.  \nPi\u2019s family and the people on the ship died in the water.  \nPi was in a lifeboat with a hyena and a zebra.  \nHe was also with a big ape and a huge tiger.  \nA hyena is a wild animal that looks like a dog.  \nA tiger is a very big wild animal.  \nIt has orange fur and black stripes.",
+      "timestamp": "2025-09-01 17:24:29.215536",
+      "metadata": {
+        "text_id": "93f74d4a-b35d-4301-ba58-33e188d280af",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:24:54.752355",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0ac64e22-87b8-4ee8-b3ae-997a4610e807",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6932 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text.\n\n- Primary Failure: The low MeaningBERT score is the primary reason for this failure. The original text establishes a direct cause-and-effect relationship: 'Worried about the future, Pi's parents decide to close the zoo...'. Your version breaks this into separate, disconnected statements: 'They worried about the future. They closed the zoo.' This fragmentation destroys the logical connection and degrades the core meaning.\n\n- Secondary Failure: The BERTScore of 0.8884 is below the required 0.90. This is caused by replacing specific key terms like 'drown' and 'orang-utan' with simpler but less precise phrases like 'died in the water' and 'big ape', resulting in a loss of lexical fidelity.\n\n- Contaminating Data: You added definitions for 'hyena' and 'tiger' to the output text. This is a critical error. The task is to simplify the original text, not to add new, external information. This added text has no parallel in the source, which severely penalizes the fidelity and meaning scores.\n\nSuggestion: Restore the causal link between the parents' worry and their decision. Do not add definitions or any other information that was not present in the original text. The output must be a simplification of the source, not an expansion of it.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8884,
+          "meaningbert": 0.6932
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:25:06.816178",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: When Pi is sixteen, a new government is elected.  \nHis parents do not support the government.  \nBecause they are worried about the future, they close the zoo.  \nThey decide to move to Canada.  \nThey sell some animals to North American zoos.  \nThe family travels by ship to Canada.  \nThey take the animals with them.  \nA terrible storm hit the ship.  \nThe ship sank.  \nPi\u2019s family and the sailors drowned.  \nPi was in a lifeboat with hyena, zebra and an orang-utan.  \nA tiger was also in the lifeboat.",
+      "timestamp": "2025-09-01 17:25:06.817294",
+      "metadata": {
+        "text_id": "bfa50c60-f9f8-4a76-9580-eb9f0964ae6c",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:25:29.411706",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "349cf425-240e-45d7-ba08-b4280df26c8c",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The primary failure is the omission of a critical descriptive fact from the original text. Secondary failures include grammatical errors.\n\n- Factual Error: The original text specifies Pi is in a lifeboat with an \"enormous tiger\". Your output states only \"A tiger\". The adjective \"enormous\" is a critical plot detail, and its removal constitutes a factual error.\n- Grammatical Error: The sentence \"Pi was in a lifeboat with hyena, zebra and an orang-utan\" is incorrect. It is missing the indefinite article \"a\" before the noun \"hyena\". This violates basic A2 grammar rules.\n\nSuggestion: Restore the factually critical adjective \"enormous\" when describing the tiger. Correct the grammatical error by inserting the required article, rewriting the sentence to \"Pi was in a lifeboat with a hyena, a zebra, and an orang-utan.\"",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9104,
+          "meaningbert": 0.8628
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:25:35.057944",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: When Pi is sixteen, a new government is elected.  \nHis parents do not support the government.  \nBecause they are worried about the future, they close the zoo.  \nThey decide to move to Canada.  \nThey sell some animals to North American zoos.  \nThe family travels by ship to Canada.  \nThey take the animals with them.  \nA terrible storm hit the ship.  \nThe ship sank.  \nPi\u2019s family and the sailors drowned.  \nPi was in a lifeboat with a hyena, a zebra, and an orang-utan.  \nAn enormous tiger was also in the lifeboat.",
+      "timestamp": "2025-09-01 17:25:35.059262",
+      "metadata": {
+        "text_id": "ef9de211-eaf2-451e-bf25-4f1509b8178e",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 17:25:59.482306",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6c9ae222-cb8c-4340-b1fd-90dae04f7585",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: Exemplary Adherence to A2 Standard.\n\nThe output is a model of successful simplification to the CEFR A2 level. It passes all diagnostic checks without deviation.\n\n- Factual Integrity: The output is a 100% factually accurate representation of the original text.\n- Meaning and Fidelity Metrics: The MeaningBERT score of 0.871 and BERTScore of 0.9114 are well above the required thresholds, confirming that the core message and key lexical items were preserved successfully.\n- CEFR Compliance: The A2 classification is correct and verified by qualitative analysis.\n- Qualitative Audit: The text demonstrates a masterful control of A2 constraints. Complex sentences from the original were systematically and correctly broken down into simple, short sentences. Vocabulary is strictly limited to the A2 level, with more complex words like 'emigrate' and 'tragically' correctly removed. The structural simplification is flawless.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9114,
+          "meaningbert": 0.871
+        }
+      }
+    }
+  ]
+}

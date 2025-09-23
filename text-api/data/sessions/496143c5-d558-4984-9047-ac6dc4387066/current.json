@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "94ea344d-2123-4fdc-b792-acd092f6aeef",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "A species is a type of animal. Breeding programmes are special plans to help animals have babies.\n\nZoos have a very important job today. They help international breeding programmes. These plans help endangered species. Endangered means a type of animal that is in danger.\n\nIn the wild, these animals have problems. It is hard for them to find a partner. Poachers can kill them. Poachers are people who kill animals illegally. The animals can also lose their habitat. A habitat is an animal's natural home. And other animals can kill them.\n\nA good zoo gives these animals a safe place. They can live and have babies in the zoo.\n\nThere is another problem for wild animals. Sometimes there are not many animals of one type. This is a big danger. When animals in a group are a little different from each other, the group is stronger. This is called genetic diversity. If animals are too similar, the group is weak.\n\nBreeding programmes are a safeguard. A safeguard is something that protects. Animals from zoos can go back to the wild. They can have babies with the wild animals. This increases the genetic diversity. This makes the group of animals stronger. This helps the species to stay alive.",
+    "version": 6,
+    "created_at": "2025-09-01 10:41:55.100957",
+    "updated_at": "2025-09-01 10:41:55.100971",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "f70a636f-b62d-4930-a635-bfdc0a45252b",
+    "approval": "FAIL",
+    "grade": 2,
+    "feedback": "FAIL: Meaning Preservation Failure. The primary reason for failure is the MeaningBERT score of 0.645, which is significantly below the required 0.75 threshold. This indicates the core message was lost. The BERTScore of 0.8718 also fails to meet the 0.90 minimum, confirming a loss of key factual phrasing.\n\n- Diagnostic Analysis: The oversimplification of the text diluted the original's central point about the specific 'function' of zoos in conservation. Your version is a general explanation, not a focused summary of the original argument.\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is an automatic failure.\n- Structural Errors: The text uses multiple grammatical structures that are above the A2 level. This includes relative clauses ('people who kill animals', 'something that protects') and subordinate clauses ('When animals in a group...'). These are B1 structures.\n- Vocabulary Errors: The introduction of multiple B1/B2 concepts like 'species', 'habitat', and 'genetic diversity', even with definitions, increases the cognitive load beyond the A2 standard.\n\n- Corrective Actions:\n1. Rewrite to focus on the 'job' or 'function' of zoos as the main idea.\n2. Eliminate all relative and subordinate clauses. Split them into separate, simple sentences. Suggestion: 'Poachers are people who kill animals illegally.' must become 'Poachers are bad people. They kill animals illegally.'\n3. Simplify the explanation of genetic diversity using only simple sentences connected with 'and' or 'but'.",
+    "metrics": {
+      "cefr_compliance": "B1",
+      "bertscore": 0.8718,
+      "meaningbert": 0.645
+    },
+    "created_at": "2025-09-01 10:42:27.216998"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "b31d3b16-0167-4e69-9efd-bd4e7961cb99",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "A species is a type of animal. Some species are in danger.\nBreeding programmes are special plans. Countries work together on them. The plans help animals have babies.\n\nZoos have a very important job today. They help with international breeding programmes. This is for species that are in danger.\n\nIn nature, these animals have problems. It is hard for them to find a partner and have babies. People might catch and kill them. They can lose their homes. And other animals can kill them.\n\nA good zoo gives these animals a safe place. They can live and have babies in the zoo.\n\nThere is another problem. Sometimes there are not many animals of one species. It is not good if all the animals are from the same family. This is not healthy for the species.\n\nBreeding programmes protect the future of these animals. Animals from zoos can go back to live in nature. They bring new animals to a group. Then, the animals in the group are not all the same. This helps the species to be strong and healthy.",
+    "version": 3,
+    "created_at": "2025-09-01 10:39:20.823538",
+    "updated_at": "2025-09-01 10:39:20.823547",
+    "metrics_meaningbert": 0.5694,
+    "metrics_cefr_compliance": "A2"
+  }
+}

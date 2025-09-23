@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "6c397c18-6ba5-4907-8f9c-f4dad49ea913",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Spider venom is used to stun or kill prey, not people.  \nMost spiders have venom.  \nThey use it to catch the small animals they eat.  \nOnly about 25 spider species can hurt people.  \nWhen they bite, they cause pain but rarely kill.  \nThe Sydney funnel\u2011web spider lives in Australia.  \nA funnel\u2011web spider is a spider with strong venom.  \nAnti\u2011venom is a medicine that stops the venom.  \nIt was made in 1981 and no one has died since.  \nDo not touch hairy spiders such as tarantulas.  \nWhen they feel danger, they send a cloud of tiny hairs.  \nThe hairs can get into skin or eyes and hurt.",
+    "version": 11,
+    "created_at": "2025-09-01 17:34:59.097926",
+    "updated_at": "2025-09-01 17:34:59.097931",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "da1ac683-4c42-45e9-8bd2-8d753313bdcc",
+    "approval": "FAIL",
+    "grade": 1,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5882 is catastrophically below the required 0.75 threshold. The original text provides a cohesive explanation of venom's purpose, but your output is a disconnected list of facts that fails to convey this central message. This is an instant and total failure.\n\n- Fidelity Failure: The BERTScore of 0.8783 is below the 0.90 minimum. This indicates a significant loss of key vocabulary and phrasing from the original text.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is a direct result of unacceptable vocabulary choices.\n\n- Vocabulary Violation: The text contains multiple words that are not on the A2 list. This is a severe error. The words 'used' (B1), 'prey' (C1), 'species' (B1), 'bite' (B1), 'rarely' (B1), and 'tiny' (B1) were all found in the output. This is non-negotiable.\n\n- Corrective Action: You must remove all vocabulary above the A2 level. Replace 'prey' with 'the small animals they eat'. Replace 'species' with 'kinds of spiders'. Replace 'rarely' with 'do not often'. Rewrite the text to restore the original's core message about the purpose of venom.",
+    "metrics": {
+      "cefr_compliance": "B1",
+      "bertscore": 0.8783,
+      "meaningbert": 0.5882
+    },
+    "created_at": "2025-09-01 17:35:28.096344"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "928469ff-c4a2-4437-b147-ec74d1eda34b",
+    "cefr_level": "A2",
+    "text_id": "113-a2",
+    "text_translated": "A funnel-web spider is a very poisonous spider from Australia.  \nAnti-venom is a medicine.  \nIt stops spider poison from hurting people.  \nMost spiders have venom.  \nThe venom helps them stun or kill their food.  \nOnly about 25 spider types can really hurt people.  \nSpider bites can hurt, but they rarely kill.  \nSince 1981 doctors have anti-venom for it.  \nNo people have died from its bite since then.  \nDo not rub hairy spiders like tarantulas the wrong way.  \nWhen they feel scared, they throw tiny hairs.  \nThese hairs can get into skin or eyes.  \nThe hairs can irritate skin or eyes.",
+    "version": 1,
+    "created_at": "2025-09-01 17:29:31.622223",
+    "updated_at": "2025-09-01 17:29:31.622231",
+    "metrics_meaningbert": 0.7009,
+    "metrics_cefr_compliance": "A2"
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "session_id": "9241a073-cb6e-4c57-842c-1a65b6948758",
+  "created_at": "2025-09-01 10:36:34.807823",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:36:34.833728",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "78-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Building bridges is a very big job. It costs a lot of money. Bridges are very important. They carry cars, trucks, and trains. They go over water, mountains, or other roads.\n\nCivil engineering is the job of planning and building big things, like roads and bridges. Bridges are a very important part of this job. So, people watch them very carefully. This is very true when a bridge falls down.",
+      "timestamp": "2025-09-01 10:36:34.833845",
+      "metadata": {
+        "text_id": "1ed1c583-8fe6-488e-981b-2afcb36e39f5",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:36:34.841441",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3d8eac5c-71fc-47a3-9107-0602f5222ff1",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6397 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\n- MeaningBERT Failure: The original text frames bridges within the context of 'transportation projects'. Your output completely omits this central concept. The original also describes bridges as 'crucial links', a key function that your text reduces to the generic phrase 'very important', losing essential meaning.\n\n- Fidelity Failure: The BERTScore of 0.8988 is below the minimum requirement of 0.90. This is a direct result of replacing too many key terms. Words like 'transportation projects', 'crucial links', and 'intense scrutiny' were removed, not simplified, which damaged the text's fidelity to the source.\n\n- Vocabulary Error: The definition provided for 'civil engineering' uses the B1-level word 'planning'. A definition must only use words from the target level (A2) or below.\n\nSuggestion: You must restore the core concepts of 'transportation' and 'links'. Re-introduce these ideas using simple A2 language. The simplification of 'intense scrutiny' to 'people watch them' is too weak; rephrase to convey the idea of checking for problems. Correct the definition of 'civil engineering' to remove the B1 word 'planning'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8988,
+          "meaningbert": 0.6397
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:36:52.672759",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Building bridges is one of the biggest transportation jobs. These jobs cost a lot of money. Bridges are very important links. They carry cars, trucks, and trains. They go over water, mountains, or other roads.\n\nCivil engineering is the job of making and building big things, like roads and bridges. Bridges are a very important part of this job. So, people check them very carefully for problems. This is very important because sometimes a bridge falls down.",
+      "timestamp": "2025-09-01 10:36:52.673455",
+      "metadata": {
+        "text_id": "6df2ab4e-1c90-4b03-a1b2-994d08e3cf65",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:37:15.473212",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b8c727c3-04c5-441c-800d-bad970443e5c",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7103 is below the minimum requirement of 0.75. The text fails to maintain the core causal relationships of the original text.\n\n- The original text establishes a direct causal link: bridges receive 'intense scrutiny' specifically because of the risk of 'collapse'. Your version weakens this connection into two separate statements: 'people check them very carefully' and 'This is very important because sometimes a bridge falls down'. The critical meaning that the risk of collapse is the reason for the scrutiny is lost.\n\n- The term 'intense scrutiny' implies a formal, rigorous process. While 'check them very carefully' is a valid A2 simplification, it contributes to the overall loss of meaning by downplaying the severity and formality of the original concept.\n\nSuggestion: Rephrase to restore the cause-and-effect relationship. Combine the final two sentences. For example: 'Because bridges can sometimes fall down, people must check them very carefully.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9019,
+          "meaningbert": 0.7103
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:37:27.059342",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Building bridges is one of the biggest transportation jobs. These jobs cost a lot of money. Bridges are very important links. They carry cars, trucks, and trains. They go over water, mountains, or other roads.\n\nCivil engineering is the job of making and building big things, like roads and bridges. Bridges are a very important part of this job. Because bridges can sometimes fall down, people check them very carefully.",
+      "timestamp": "2025-09-01 10:37:27.061388",
+      "metadata": {
+        "text_id": "9121472a-2860-4177-97b8-687d6b2350fb",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:37:50.922625",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d8f69184-59b6-4f4b-beff-71bf713fa800",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6763 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\n- The original text states bridges are 'crucial links' and 'one of the most important aspects' of civil engineering. Your version weakens this to 'very important links' and 'a very important part', losing the original's emphasis and intensity.\n- The original links 'intense scrutiny' directly to the consequence of collapse. Your version, 'Because bridges can sometimes fall down, people check them very carefully,' simplifies this relationship and loses the concept of constant, intense examination.\n- Vocabulary Violation: The B2 word 'making' was used in the definition for 'civil engineering'. This is an unacceptable deviation from the A2 vocabulary list.\n\nSuggestion: Restore the original meaning. Rephrase to show that bridges are the MOST important part of this work. Rephrase to convey the idea of 'intense' or 'very, very careful' checks. Replace the word 'making' with an A2-level alternative like 'building'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.904,
+          "meaningbert": 0.6763
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:38:09.441343",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Building bridges is one of the biggest transportation jobs. These jobs cost a lot of money. Bridges are very important links. They carry cars, trucks, and trains. They go over water, mountains, or other roads.\nCivil engineering is the job of building big things, like roads and bridges. Bridges are one of the most important parts of this job. Bridges can sometimes fall down. So, people check them very, very carefully.",
+      "timestamp": "2025-09-01 10:38:09.442992",
+      "metadata": {
+        "text_id": "87c5ff04-27c6-455b-9a93-2b4e364696dc",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:38:32.150554",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "37b83244-21ce-44dc-8f53-ef3f29217403",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.678 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text.\n\n- The primary failure is the weak translation of the concept 'subject to intense scrutiny, especially when they collapse'. Your version, 'Bridges can sometimes fall down. So, people check them very, very carefully,' simplifies the meaning too much. It loses the original's emphasis on the constant, high-stakes nature of the monitoring that is a direct consequence of the risk of collapse.\n- The term 'crucial links' was simplified to 'very important links'. This loses the stronger meaning of necessity implied by 'crucial'.\n\nSuggestion: You must rephrase to restore the lost meaning. The connection between the danger of collapse and the need for careful checks must be stronger. Rephrase to state: 'It is a very big problem when bridges fall down. Because of this, people must check them very carefully.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9089,
+          "meaningbert": 0.678
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:38:50.323032",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Building bridges is one of the biggest transportation jobs. These jobs cost a lot of money. Bridges are very important links. They carry cars, trucks, and trains. They go over water, mountains, or other roads.\nCivil engineering is the job of building big things, like roads and bridges. Bridges are one of the most important parts of this job. It is a very big problem when bridges fall down. Because of this, people must check them very carefully.",
+      "timestamp": "2025-09-01 10:38:50.323821",
+      "metadata": {
+        "text_id": "5988e2f6-656b-49dc-8453-cec7cccbe7b4",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:39:12.195466",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "54054513-1903-4d59-9f37-33c99ed67d93",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.68 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text. The original text uses the phrase 'subject to intense scrutiny, especially when they collapse'. This implies a formal, high-stakes investigation after a failure. Your version, 'people must check them very carefully', is a weak and general statement that loses this critical meaning of professional examination and consequence. The word 'scrutiny' carries a weight of investigation that 'check' does not capture. Similarly, 'crucial links' is stronger than your 'very important links'. Suggestion: Rephrase to restore the lost meaning. To better capture 'intense scrutiny', use a phrase like 'experts must check every part of the bridge for problems'. You must connect the consequence to the action more directly, for example: 'When a bridge falls down, it is a very big problem. For this reason, experts must check them with great care.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9079,
+          "meaningbert": 0.6862
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:39:29.441912",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Building bridges is one of the biggest transportation jobs. These jobs cost a lot of money. Bridges are very important links. They carry cars, trucks, and trains. They go over water, mountains, or other roads.\nCivil engineering is the job of building big things, like roads and bridges. Bridges are one of the most important parts of this job. It is a very big problem when a bridge falls down. For this reason, experts must check every part of the bridge for problems.",
+      "timestamp": "2025-09-01 10:39:29.443478",
+      "metadata": {
+        "text_id": "3f876bef-de0e-45d1-af8d-377c976108ac",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:39:54.274485",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f2f0bca2-4df9-4128-8010-b7d9f028dbd8",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6807 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text.\n\n- Primary Deviation: The original text's concept of bridges being 'subject to intense scrutiny' was lost. Your replacement, 'experts must check every part of the bridge for problems,' changes the meaning from a constant state of being watched carefully to a specific action. This is a critical loss of meaning.\n- Vocabulary Violation: You introduced the B1-level word 'experts'. This word was not in the original text and is above the A2 level. All vocabulary must adhere to the A2 standard.\n- Structural Violation: The connector 'For this reason' is a B1 structure. A2-level connectors are limited to simple words like 'and', 'but', 'so', and 'because'.\n\nSuggestion: Restore the lost meaning. Rephrase the final sentences to convey the idea that people watch bridges very carefully. Remove the word 'experts'. Replace 'For this reason' with 'So'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9048,
+          "meaningbert": 0.6807
+        }
+      }
+    }
+  ]
+}

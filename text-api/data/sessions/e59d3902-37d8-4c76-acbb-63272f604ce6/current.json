@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "f9196bad-52e0-429a-9b54-f7af3d9abfa5",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "We recommend a new way to manage people at Girox Foods. This way should focus more on the workers. We should let workers choose their work hours. We should also let them work from different places.\nManagers should give staff new tasks to help them grow. Managers should also say when work is good. They should do this often.\nThe company should pay for professional training. The company will pay for courses for workers. These courses help them communicate better with others. They also help them understand people from other cultures. This will create a good environment at work. Then, workers will do their best work.",
+    "version": 11,
+    "created_at": "2025-08-31 20:41:43.633240",
+    "updated_at": "2025-08-31 20:41:43.633251",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "10ba2c31-ed74-40ae-97ba-512f07413b8e",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6341 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\n- Primary Deviation (Meaning): The original text recommends specific management concepts like 'positive reinforcement and recognition'. Your output simplifies this to 'say when work is good'. This translation is too simplistic and loses the professional meaning of a structured system for acknowledging employee contributions.\n\n- Secondary Deviation (Fidelity): The BERTScore of 0.8951 is below the minimum requirement of 0.90. This failure is a direct result of oversimplification. Key professional terms such as 'people-oriented management style' and 'professional development' were replaced with phrases that lack the necessary lexical detail, damaging the fidelity to the source text.\n\n- Suggestion: The text must be rewritten to preserve the original concepts more accurately within A2 constraints. The idea of 'positive reinforcement' must be conveyed more strongly than just 'say when work is good'. Rephrase to 'Managers should regularly tell staff that they have done a good job and thank them'. The concept of 'investment' must also be restored. Rephrase 'The company should pay for professional training' to 'The company should spend money to help workers learn new skills for their job'.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8951,
+      "meaningbert": 0.6341
+    },
+    "created_at": "2025-08-31 20:42:10.955987"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "d7b0c7e6-1de3-483d-8df1-8b4543ff141e",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "We recommend a new way to manage people at Girox Foods. This way should focus more on the workers. We should let workers choose their work hours. We should also let them work from different places.\nManagers should give staff new tasks to help them grow. Managers should also tell workers they did a good job. They should recognize their good work often.\nThe company should pay for professional development. This means paying for courses for workers. These courses help them communicate better with others. They also help them understand people from other cultures. This will create a good environment at work. Then, workers will do their best work.",
+    "version": 10,
+    "created_at": "2025-08-31 20:40:52.439085",
+    "updated_at": "2025-08-31 20:40:52.439097",
+    "metrics_meaningbert": 0.6525,
+    "metrics_cefr_compliance": "A2"
+  }
+}

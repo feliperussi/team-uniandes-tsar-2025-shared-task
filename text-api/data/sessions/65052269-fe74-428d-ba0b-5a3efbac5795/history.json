@@ -1,0 +1,80 @@
+{
+  "session_id": "65052269-fe74-428d-ba0b-5a3efbac5795",
+  "created_at": "2025-08-31 23:33:31.945060",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:33:31.957206",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "04-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We often see small animals in cities and towns.\nWe see birds, squirrels, mice, and insects.\nIn the last few years, the news shows many stories.\nThese stories are about wild animals in cities.\nMore and more big animals come into cities.\nIn Vancouver, bears came into parks.\nIn Mumbai, leopards walked on the streets.\nIn Berlin, wild pigs came into gardens.\nWhat happens when big animals come into cities?\nDo people welcome them, or are people afraid of them?\nDo people think they are a danger?\nOr do people think they are a problem?",
+      "timestamp": "2025-08-31 23:33:31.958646",
+      "metadata": {
+        "text_id": "be3576ac-d629-47d1-95c7-627262de1893",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:33:31.966969",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "13528c79-dcf6-49b7-a357-0be393087155",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6991 is below the required 0.75. The rewritten text loses key semantics from the original.\n- The original says \u201cthe world\u2019s press has been full of reports,\u201d but the version says \u201cthe news shows many stories,\u201d removing the idea of global press coverage.\n- The repeated emphasis on \u201cbigger and bigger numbers\u201d is watered down to \u201cmore and more big animals,\u201d losing the sense of acceleration.\n- The original asks if animals are a \u201cdanger or a pest,\u201d but the version omits \u201cpest,\u201d weakening the question.\n\nSuggestion: Restore the phrase \u201cworld\u2019s press,\u201d rephrase to \u201cbigger and bigger numbers,\u201d and include \u201cpest\u201d to preserve the full meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9287,
+          "meaningbert": 0.6991
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:34:20.012398",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We often see small animals in cities and towns.\nWe see birds, squirrels, mice, and insects.\nIn recent years, the world's press has many reports.\nThe reports are about wild animals in cities.\nWild animals come into cities in bigger and bigger numbers.\nIn Vancouver, bears came into parks.\nIn Mumbai, leopards walked on the streets.\nIn Berlin, wild pigs came into gardens.\nWhat happens when bigger animals come into our cities?\nDo people welcome them, or are people afraid of them?\nDo people think they are a danger or a pest?",
+      "timestamp": "2025-08-31 23:34:20.012651",
+      "metadata": {
+        "text_id": "630a66f4-6a03-4222-bc15-7d4983a27071",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-08-31 23:34:37.280415",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3397a919-d06b-482a-9ae1-9147d70a6ca2",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text includes the B1-level word press, which is above A2 level.\n- Detected B1 vocabulary: press.\nSuggestion: Replace press with a simple A2 term such as news media or newspapers.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9425,
+          "meaningbert": 0.8415
+        }
+      }
+    }
+  ]
+}

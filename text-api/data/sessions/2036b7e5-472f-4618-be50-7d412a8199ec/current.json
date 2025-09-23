@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "65fe66e8-97c9-4017-aced-ee0c0d2dc778",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Two men looked north across the land.  \nThe land stretched as far as the eye could see.  \nYou could only just see the fences.  \nThe teenage boy felt bored.  \nHe did not want to follow rules.  \nHe could not run away on foot.  \nSam saw the biggest horse kicking the ground with its big feet.  \nThe boy wondered if he could ride the horse.  \nA good rider could get into a lot of trouble here.  \nSomeone who knew nothing about horses could get even more trouble.  \nThe boy wanted to leave his father.",
+    "version": 11,
+    "created_at": "2025-09-01 17:23:58.573184",
+    "updated_at": "2025-09-01 17:23:58.573184",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "78a5a623-201b-46f4-82db-4b4fcfaed8dc",
+    "approval": "FAIL",
+    "grade": 1,
+    "feedback": "FAIL: Factual Inaccuracy. The original text states that Sam wondered if the boy could ride ('Could the boy ride? he wondered.'). Your output incorrectly assigns this thought to the boy: 'The boy wondered if he could ride the horse'. This is a critical error in perspective and fact, resulting in an instant failure.\n\n- Meaning Preservation Failure: The MeaningBERT score of 0.7059 is significantly below the required 0.75. This is a direct result of the factual error, which fundamentally changes the meaning of a key sentence.\n\n- Fidelity Failure: The BERTScore of 0.8875 is below the required 0.90. This indicates an unacceptable loss of key words and phrasing from the original text.\n\n- Vocabulary Violation: The B1 word 'rider' was used in the sentence 'A good rider could get into a lot of trouble here'. This word is not on the A2 list and must be simplified.\n\n- Suggestion: Correct the factual error regarding who is thinking. The text must be an accurate representation of the source. Rephrase the sentence containing the B1 word 'rider' using A2 vocabulary, for example: 'Someone who can ride a horse well...'. Re-evaluate the entire text to ensure no other perspectives or facts have been altered.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8875,
+      "meaningbert": 0.7059
+    },
+    "created_at": "2025-09-01 17:24:25.551878"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "f77f2012-d89b-4b38-ada8-5c93709699ba",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Two men looked north on the land.  \nThe land stretched as far as the eye could see.  \nThe fences were hard to see.  \nA teenage boy felt bored and angry.  \nHe could not run away on foot.  \nSam saw the biggest horse.  \nThe horse kicked the ground with big hooves.  \nSam wondered, \u201cCan the boy ride?\u201d  \nA good rider could get into trouble out here.  \nThe land was far from anyone.  \nThe boy knew nothing about horses.  \nHe might get more trouble.  \nHe wanted to leave his father.",
+    "version": 7,
+    "created_at": "2025-09-01 17:21:21.076216",
+    "updated_at": "2025-09-01 17:21:21.076216",
+    "metrics_meaningbert": 0.7305,
+    "metrics_cefr_compliance": "A2"
+  }
+}

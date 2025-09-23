@@ -1,0 +1,413 @@
+{
+  "session_id": "335b18ae-3bfe-4b52-bd38-68a208f92a95",
+  "created_at": "2025-09-01 17:55:37.471716",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:55:40.227268",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "15-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We looked at some facts. We think Girox Foods should change. It should lead its workers in a better way. This way is more about people.\n\nWe should give workers flexible hours. So, they can choose when to work. We should also let them work from different places. They can choose where to work.\n\nManagers need to give workers new tasks. These tasks should be hard. Managers must also say \"good job\" more. They must praise workers for their work.\n\nWe should spend more money on worker training. This training is for their jobs. It is important for talking to people. It is also for talking to people from other countries. This will help make a good place to work. Workers can then do their best work.",
+      "timestamp": "2025-09-01 17:55:40.227408",
+      "metadata": {
+        "text_id": "daed949d-15a4-4f1f-bcfb-056533200786",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:55:44.258080",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7b684b01-5382-41d6-b493-d3036af80a35",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Check Failure. The text failed to preserve the core meaning and lexical fidelity of the original text, as evidenced by critical metric failures. The MeaningBERT score of 0.5896 is significantly below the required 0.75, indicating a substantial loss of the original message's nuance. The BERTScore of 0.8817 is below the required 0.90, demonstrating a significant deviation from the original's key terminology and phrasing. Specific deviations include: The original's formal 'recommend that Girox Foods adopt a more people-oriented management style' was overly simplified to 'We think Girox Foods should change. It should lead its workers in a better way. This way is more about people.', losing the specific concept of a 'management style' and the formal 'recommendation'. Key terms like 'management style', 'explore ways of offering', 'consider how we can enable', 'positive reinforcement and recognition', 'increased investment', 'professional development', 'social and and intercultural communication', and 'contribute to creating a positive environment' were broken down into simpler, less precise phrases, leading to a loss of lexical detail and contributing to the low BERTScore. For example, 'professional development' became 'worker training. This training is for their jobs.', and 'social and intercultural communication' became 'talking to people. It is also for talking to people from other countries.'. While simplification is necessary for A2, the current approach sacrifices too much of the original's specific meaning and lexical content. Suggestion: Rephrase to retain more of the original's specific concepts, even if simplified. For instance, 'management style' could be 'how managers lead people'. Ensure that the core ideas of 'recommendation', 'exploration of ways', and 'specific types of communication' are more clearly conveyed, even with A2 vocabulary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8817,
+          "meaningbert": 0.5896
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:56:00.915133",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We looked at some facts. We advise Girox Foods. They should lead their workers in a new way. This way is more about people.\n\nThey should find ways to give workers flexible hours. Workers can choose when to work. They should also think about how workers can work from different places. Workers can choose where to work.\n\nManagers need to give workers new tasks. These tasks should be hard. Managers must also say \"good job\" more. They must praise workers for their work.\n\nGirox Foods should spend more money on training for workers' jobs. This is professional development. This training is for talking with people. It is also for talking with people from other countries. This will help make a good place to work. Workers can then do their best work.",
+      "timestamp": "2025-09-01 17:56:00.915358",
+      "metadata": {
+        "text_id": "c02c8557-f361-43fe-89a5-cf5d1c069886",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:56:38.252857",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d5ed96d5-cb12-4342-9208-2df5182662db",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6167 is significantly below the required 0.75. The original text conveys a formal recommendation based on findings, suggesting exploration and consideration of strategic changes. Your version simplifies this to a series of direct, almost prescriptive actions, losing the nuance of a strategic recommendation and the underlying rationale. The tone and implied formality of the original are entirely lost.\n\nFAIL: Fidelity Failure. The BERTScore of 0.8818 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original text. Phrases like 'On the basis of these findings', 'adopt a more people-oriented management style', 'explore ways of offering', 'consider how we can enable', 'a variety of ways to challenge our staff and provide more positive reinforcement and recognition', and 'could also contribute to creating a positive environment' were replaced with overly simplified or different lexical choices, reducing the lexical overlap and precision.\n\nDeviation 1: MeaningBERT Score. The core message regarding the strategic nature of the recommendations and the exploratory language ('explore ways', 'consider how') was diluted. The original's 'recommend that Girox Foods adopt a more people-oriented management style' is a strategic directive, whereas 'We advise Girox Foods. They should lead their workers in a new way. This way is more about people' is a much weaker, less formal statement.\n\nDeviation 2: BERTScore. Significant lexical divergence from the original text. For example, 'On the basis of these findings' was replaced with 'We looked at some facts', and 'positive reinforcement and recognition' was simplified to 'say 'good job' more. They must praise workers for their work'. While simplified, these changes reduce the lexical fidelity.\n\nDeviation 3: Vocabulary. The word 'flexible' (B2) was used in the output ('flexible hours'). This word is above the A2 CEFR level and requires simplification or an A2-level definition.\n\nDeviation 4: Vocabulary. The word 'advise' (B1) was used in the output ('We advise Girox Foods'). While 'recommend' (B1) was in the original, 'advise' is still a B1 word and should be simplified for an A2 audience, for example, to 'We think Girox Foods should...' or 'We tell Girox Foods to...'.\n\nSuggestion: Re-evaluate the entire text to ensure that while simplifying, the core strategic intent and the specific nuances of the original message are preserved. Focus on maintaining the original's tone of recommendation and exploration. Replace B1/B2 vocabulary with simpler A2 alternatives or provide clear A2 definitions within the sentence structure. Ensure that key phrases are simplified without losing their essential meaning or lexical connection to the original.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8818,
+          "meaningbert": 0.6167
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:57:02.096801",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We looked at facts. We think Girox Foods should change how they lead people. They should lead in a way that helps workers more.\n\nThey should look for ways to let workers choose their work times. Workers can choose when to work. They should also think about how workers can work from different places. Workers can choose where to work.\n\nManagers need to think of many ways to give workers new tasks. These tasks should be interesting. Managers must also say \"good job\" more. They must show they see the workers' good work.\n\nGirox Foods should spend more money on training for workers' jobs. This training helps workers learn new skills. It is for talking with people. It is also for talking with people from other countries. This can help make a good place to work. Workers can then do their best work.",
+      "timestamp": "2025-09-01 17:57:02.097121",
+      "metadata": {
+        "text_id": "c2757e58-765a-4719-b408-0fac26596fbf",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:57:29.309873",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "88e9eba2-7e12-4f04-a376-cd40cd88f4bc",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5849 is significantly below the required 0.75. This indicates a substantial loss of the original text's core message and nuance. The BERTScore of 0.8767 is also below the required 0.90, indicating a significant loss of key words and factual phrasing. The text oversimplifies critical concepts, leading to a diluted message. Specific deviations are listed below. Deviation: The phrase 'adopt a more people-oriented management style' was reduced to 'change how they lead people. They should lead in a way that helps workers more.' This loses the specific focus on 'people-oriented' and the strategic implication of 'management style'. Deviation: The concept of 'challenge our staff' was simplified to 'give workers new tasks. These tasks should be interesting.' This removes the developmental aspect of 'challenge' and replaces it with a generic 'new tasks'. Deviation: 'Positive reinforcement and recognition' was oversimplified to 'say 'good job' more. They must show they see the workers' good work.' This reduces a broad management strategy to basic verbal praise, losing the depth of 'reinforcement' and 'recognition'. Deviation: The use of repetitive phrasing like 'Workers can choose when to work. Workers can choose where to work.' while simple, dilutes the conciseness of the original and does not fully capture the 'enable employees' aspect. Suggestion: Rephrase to retain the specific meaning of 'people-oriented management style', 'challenge', and 'positive reinforcement and recognition' using A2 vocabulary. Ensure that simplifications do not remove the core intent of the original message. Avoid excessive repetition.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8767,
+          "meaningbert": 0.5849
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:57:46.312282",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We looked at facts. We think Girox Foods should lead people by thinking about them more.\nThey should let workers choose their work times. They should also let workers choose where they work.\nManagers need to give workers many tasks. These tasks should help workers learn and grow. Managers must also tell workers when they do well. They must show they value workers' good work.\nGirox Foods should spend more money on training for workers' jobs. This training helps workers learn new skills. It is for talking with people. It is also for talking with people from other countries. This can help make a good place to work. Workers can then do their best work.",
+      "timestamp": "2025-09-01 17:57:46.312636",
+      "metadata": {
+        "text_id": "497e0d1d-9c7c-4669-a95d-f80091768909",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:58:05.599522",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "06a7b9b2-b9d7-47a9-b7f4-7b1fd4c1f8c5",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation and Fidelity Failure. The text fails to adequately preserve the core meaning and lexical fidelity of the original. The MeaningBERT score of 0.5962 is significantly below the required 0.75, indicating a substantial loss of the original message. The BERTScore of 0.8804 is also below the required 0.90, showing a failure to retain key words and factual phrasing. Specific deviations are listed below. \n\n- Meaning Preservation Failure: The opening phrase 'On the basis of these findings, we recommend that...' is entirely omitted. This fundamentally alters the purpose and tone of the text from a formal recommendation based on evidence to a simple statement of opinion, losing a critical aspect of the original meaning. \n- Lexical Fidelity Loss: The phrase 'people-oriented management style' is simplified to 'lead people by thinking about them more'. While simpler, it loses the specific management terminology. \n- Lexical Fidelity Loss: 'Flexible working hours' is simplified to 'choose their work times'. This is a less precise term. \n- Lexical Fidelity Loss: 'Challenge our staff' is rephrased as 'give workers many tasks. These tasks should help workers learn and grow'. This interpretation is acceptable for A2 but loses the direct lexical connection. \n- Lexical Fidelity Loss: 'Positive reinforcement and recognition' is broken down into 'tell workers when they do well. They must show they value workers' good work'. This is a functional simplification but loses the specific terminology. \n- Lexical Fidelity Loss: 'Professional development' is simplified to 'training for workers' jobs'. This is a significant reduction in the scope and formality of the original term. \n- Lexical Fidelity Loss: 'Social and intercultural communication' is simplified to 'talking with people. It is also for talking with people from other countries'. This is an overly simplistic breakdown that loses the specific concept of 'communication' as a skill and 'intercultural' as a specific domain. \n\nSuggestion: Reintroduce the concept of a recommendation based on findings. Ensure that key terms, even when simplified, retain more of their original professional context and specific meaning. For example, 'flexible working hours' could be 'times to work that they can choose'. 'Professional development' could be 'training to get better at their jobs'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8804,
+          "meaningbert": 0.5962
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:58:21.149238",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We looked at facts. We think Girox Foods should make some changes.\nGirox Foods should manage people better. They should think about their workers more.\nThey should offer workers times to work that they can choose. They should also let workers choose where they work.\nManagers need to give workers tasks that make them grow. Managers must tell workers when they do well. They must show they like workers' good work.\nGirox Foods should spend more money on training to get better at their jobs. This training helps workers talk well with people. It also helps them talk well with people from other countries.\nThis can help make a good place to work. Workers can then do their best work.",
+      "timestamp": "2025-09-01 17:58:21.149638",
+      "metadata": {
+        "text_id": "2d6f5377-3a8b-403e-8e83-c8909aac648a",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:58:38.116908",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "535b5ba2-040d-4254-8a11-ad555acf0089",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5934 is significantly below the required 0.75. This indicates a substantial loss of the original text's core message and nuance. While the factual points are present, the overall semantic fidelity is compromised. The original text presents a formal recommendation based on findings for a 'people-oriented management style'. Your version softens this to 'We looked at facts. We think Girox Foods should make some changes. Girox Foods should manage people better. They should think about their workers more.' This phrasing loses the directness and specific nature of the 'recommendation' and the precise concept of a 'people-oriented management style' as a strategic approach. The semantic weight of the original's opening statement is not adequately preserved. Suggestion: Rephrase the opening to convey a stronger sense of recommendation based on evidence. Ensure the concept of 'people-oriented management style' is communicated with greater semantic precision, perhaps by stating that the management should focus on the needs and well-being of the people as a core principle, rather than just 'managing people better'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8819,
+          "meaningbert": 0.5934
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:58:49.148441",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We looked at the facts. We advise Girox Foods to change how they manage people. They should manage people in a way that helps workers. This means they must think about their workers' needs.\nThey should offer workers times to work that they can choose. They should also let workers choose where they work.\nManagers need to give workers tasks that make them grow. Managers must tell workers when they do well. They must show they like workers' good work.\nGirox Foods should spend more money on training to get better at their jobs. This training helps workers talk well with people. It also helps them talk well with people from other countries.\nThis can help make a good place to work. Workers can then do their best work.",
+      "timestamp": "2025-09-01 17:58:49.149370",
+      "metadata": {
+        "text_id": "8b68881a-3af6-4623-ba75-50bd7014cb84",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:59:18.955910",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "58c7d242-28d9-4c93-8d8a-ffa3fc2c664a",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5963 is significantly below the required 0.75. This indicates a substantial loss of the original text's core message and nuance. The BERTScore of 0.8823 is also below the required 0.90, indicating a significant loss of key lexical items and factual phrasing from the original. Specific deviations: - The core concept of a 'people-oriented management style' was inadequately preserved. The simplification to 'manage people in a way that helps workers. This means they must think about their workers' needs' dilutes the specific management philosophy, directly contributing to the low MeaningBERT score. - Key terms such as 'flexible working hours', 'positive reinforcement and recognition', and 'professional development' were replaced with overly descriptive and less precise phrasing. For example, 'flexible working hours' was rendered as 'times to work that they can choose'. This lexical substitution directly caused the BERTScore to fall below the acceptable threshold. - The original text's emphasis on 'explore ways' and 'consider a variety of ways' was entirely omitted. This removes the nuance of strategic consideration and proactive investigation present in the source material. Corrective Action: The text must be revised to preserve the specific meaning of key concepts and terms. Do not dilute the core message through excessive rephrasing. Ensure that the simplified vocabulary still conveys the precise intent of the original. Restore the specific lexical content where possible without exceeding A2 complexity. The strategic and exploratory tone of the original recommendations must be reinstated.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8823,
+          "meaningbert": 0.5963
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:59:39.035385",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We looked at the facts. We tell Girox Foods to manage people in a new way. They must manage people with workers in mind.\nThey should look for ways to let workers choose their work times. They should also think about how workers can choose where they work.\nManagers must think about many ways to give workers hard tasks. They must also tell workers when they do well. They must show they see workers' good work.\nGirox Foods should spend more money on training for workers' jobs. This training helps workers talk well with people. It also helps them talk well with people from other countries.\nThis can help make a good place to work. Workers can then do their best work.",
+      "timestamp": "2025-09-01 17:59:39.035860",
+      "metadata": {
+        "text_id": "a7266ac8-c99a-416e-b337-355efe5c4201",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:59:59.799602",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "391bc672-4f98-4d8f-8728-7c0e756546fd",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The text fails to preserve the core meaning and lexical fidelity of the original. The MeaningBERT score of 0.5669 is significantly below the required 0.75, indicating a substantial loss of the original message's nuance. The BERTScore of 0.8887 is also below the required 0.90, showing a failure to retain key lexical items and phrasing. The CEFR classifier result of A2 is irrelevant as the text failed at a higher priority. \n\n*   The original's 'people-oriented management style' is reduced to 'manage people with workers in mind', which loses the strategic and holistic nature of 'adopting a style'. The nuance of 'oriented' is lost. \n*   'challenge our staff' is simplified to 'give workers hard tasks', which alters the positive connotation of professional growth to a more literal and potentially negative interpretation of difficulty. \n*   'positive reinforcement and recognition' is fragmented into 'tell workers when they do well. They must show they see workers' good work', losing the integrated concept of continuous support and acknowledgement. \n*   'professional development' is oversimplified to 'training for workers' jobs', which narrows the scope of growth opportunities. \n*   The overall tone shifts from a professional recommendation to a series of overly simplistic and blunt statements, fundamentally altering the communicative intent and register of the original. \n\nSuggestion: Rephrase to more accurately convey the concept of 'people-oriented management style' by focusing on 'managing in a way that helps workers'. Ensure 'challenge our staff' implies growth and learning, not just difficulty. Combine the ideas of 'telling workers when they do well' and 'showing they see good work' into a more cohesive phrase like 'praise their good work'. Use 'training to help workers learn and grow' to better reflect 'professional development'. Maintain a more advisory and less instructional tone.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8887,
+          "meaningbert": 0.5669
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 18:00:21.461329",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We looked at the facts. We think Girox Foods should manage people in a way that helps workers.\nThey should find ways for workers to choose their work times. They should also think about where workers can choose to work.\nManagers should help workers learn new things. They should praise workers for their good work.\nGirox Foods should spend more money on training to help workers learn and grow. This training helps workers talk well with people. It also helps them talk well with people from other countries.\nThis can make a good place to work. Workers can then do their best work.",
+      "timestamp": "2025-09-01 18:00:21.461943",
+      "metadata": {
+        "text_id": "35cd7e52-1373-4e2c-806c-7c5954118cc9",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 18:00:35.375493",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "783acb03-11ae-42d0-8ac7-ed53b4b79aa4",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5988 is significantly below the required 0.75. The core message of the original text has been altered. The original text states 'Managers need to consider a variety of ways to challenge our staff'. Your version simplifies this to 'Managers should help workers learn new things'. This completely changes the meaning from actively pushing staff to grow and develop through challenges, to merely assisting them in learning. This is a fundamental shift in the proposed management strategy. Suggestion: Rephrase to retain the concept of 'challenge' in an A2-appropriate manner, such as 'Managers should give workers hard tasks to help them get better' or 'Managers should give workers new problems to solve'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8919,
+          "meaningbert": 0.5988
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 18:00:40.917294",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We looked at the facts. We think Girox Foods should manage people in a way that helps workers.\nThey should find ways for workers to choose their work times. They should also think about where workers can choose to work.\nManagers should give workers hard tasks to help them get better. They should praise workers for their good work.\nGirox Foods should spend more money on training to help workers learn and grow. This training helps workers talk well with people. It also helps them talk well with people from other countries.\nThis can make a good place to work. Workers can then do their best work.",
+      "timestamp": "2025-09-01 18:00:40.917806",
+      "metadata": {
+        "text_id": "bff37517-bcf5-489f-b6ab-67ddaee796a6",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 18:00:59.024657",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b178a73f-625d-4485-a151-a14b945b8392",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation and Fidelity Failure. The MeaningBERT score of 0.5982 is significantly below the required 0.75, indicating a substantial loss of the original message's core meaning and nuance. Additionally, the BERTScore of 0.8911 is below the required 0.90, demonstrating a failure to retain key lexical items and factual phrasing from the original text. The output is an oversimplification that loses the formal, recommendatory tone and specific concepts of the original. Specific deviations include: The opening 'On the basis of these findings, we recommend that Girox Foods adopt a more people-oriented management style' was reduced to 'We looked at the facts. We think Girox Foods should manage people in a way that helps workers.' This loses the formal recommendation, the concept of 'findings,' and the specific 'people-oriented management style.' The phrase 'explore ways of offering more flexible working hours' was simplified to 'find ways for workers to choose their work times,' losing the active 'explore' and the specific term 'flexible working hours.' 'Enable employees to work from their chosen locations' was reduced to 'think about where workers can choose to work,' losing 'enable' and 'locations.' 'Consider a variety of ways to challenge our staff and provide more positive reinforcement and recognition' was simplified to 'give workers hard tasks to help them get better. They should praise workers for their good work,' losing the nuance of 'variety of ways,' 'positive reinforcement,' and 'recognition.' 'Increased investment in professional development, especially in the area of social and intercultural communication' was simplified to 'spend more money on training to help workers learn and grow. This training helps workers talk well with people. It also helps them talk well with people from other countries,' losing the specific terms 'increased investment,' 'professional development,' and the precise phrasing of 'social and intercultural communication.' Suggestion: Rephrase to retain the formal recommendation, the specific management style, and the key terms and concepts from the original text while simplifying sentence structure. Do not sacrifice core meaning or specific terminology for simplicity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8911,
+          "meaningbert": 0.5982
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 18:01:13.831109",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We looked at the facts. We recommend Girox Foods should manage people in a 'people-first' way.\nThey should look for ways to give workers flexible work hours. They should also help workers choose where they work.\nManagers should think of different ways to give workers new tasks. These tasks should make workers think. Managers should also praise workers. They should tell workers when they do good work.\nGirox Foods should put more money into training. This is 'professional development'. This training helps workers talk well with people. It helps them talk well with people from other countries.\nThis can make a good place to work. Workers can then do their best work.",
+      "timestamp": "2025-09-01 18:01:13.834365",
+      "metadata": {
+        "text_id": "b16f3853-2d6e-4979-8998-9789d1930b0d",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 18:01:35.624153",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f9ae686e-5bcf-4c19-be24-e2b3ae9c522a",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The text failed to meet the required thresholds for both meaning preservation and lexical fidelity. The MeaningBERT score of 0.6165 is significantly below the required 0.75. While the individual points from the original text are present, the overall semantic coherence and professional tone are lost in the overly simplistic and fragmented rephrasing. For example, the original's cohesive idea of 'could also contribute to creating a positive environment for employees to produce their best work' is broken into two separate, less connected sentences: 'This can make a good place to work. Workers can then do their best work.' This fragmentation reduces the overall semantic density and connection. The BERTScore of 0.8935 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original. Many specific and professional terms were replaced with overly simple or generic phrases. For instance, 'adopt a more people-oriented management style' was simplified to 'manage people in a 'people-first' way', 'explore ways of offering' to 'look for ways to give', 'challenge our staff' to 'give workers new tasks. These tasks should make workers think', and 'social and intercultural communication' to 'talk well with people from other countries'. While these are A2 simplifications, they deviate too much from the original's lexical content to meet the fidelity requirement. Suggestion: Rephrase the text to maintain a higher degree of semantic and lexical fidelity while still adhering to A2 complexity. Ensure that key concepts are not fragmented or overly generalized. For example, try to keep more of the original's specific vocabulary where possible, or find A2 synonyms that are closer in meaning and register.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8935,
+          "meaningbert": 0.6165
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 18:01:51.063831",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We looked at the facts. We recommend Girox Foods should have a management style that helps people.\nThey should find ways to give workers hours that can change. They should also help workers work from places they choose.\nManagers should think of ways to challenge staff. They should also praise staff for their good work.\nGirox Foods should put more money into training. This training is 'professional development'. It helps workers talk well with people from different countries and cultures. This training can help make a good place to work so workers can do their best work.",
+      "timestamp": "2025-09-01 18:01:51.067225",
+      "metadata": {
+        "text_id": "bd9e7227-3573-468b-b38a-e2333016f4bb",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 18:02:04.503781",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d57c5bf0-72d1-4ca3-b5a1-cd417739f80a",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6986 is below the required 0.75. The core message regarding 'positive reinforcement and recognition' was significantly diluted. The original text suggests a structured approach to encouraging and acknowledging employee work, but your version simplifies this to merely 'praise staff for their good work'. This simplification loses the specific nuances of 'reinforcement' (encouraging specific behaviors) and 'recognition' (formal acknowledgment), which are distinct from general 'praise'. Suggestion: Rephrase to more accurately convey the concepts of both 'positive reinforcement' and 'recognition' using A2-level vocabulary, perhaps by breaking them down into simpler actions.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9037,
+          "meaningbert": 0.6986
+        }
+      }
+    }
+  ]
+}

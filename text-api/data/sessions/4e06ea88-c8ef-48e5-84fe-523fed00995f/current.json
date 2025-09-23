@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "dca3b4a2-bf30-4ef7-83c1-e28ec81b1f32",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Katniss Everdeen is a sixteen\u2011year\u2011old girl.  \nHer father died in an accident at his work.  \nSo she must get food for her family.  \nDistrict 12 is where she lives.  \nShe hunts in the woods with her friend Gale.  \nShe learns to use a tool that shoots arrows.  \nShe becomes very good with the tool.  \nHer younger sister Prim is chosen as a tribute.  \nA tribute is a person chosen to fight.  \nKatniss says she will go instead.  \nThe other tribute is a boy named Peeta.  \nHer feelings for him are not simple.",
+    "version": 11,
+    "created_at": "2025-09-01 17:21:33.104532",
+    "updated_at": "2025-09-01 17:21:33.104533",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "9a470896-27c0-4c32-9761-3b377f59c8de",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation Failure. The primary failure is on metric performance. The MeaningBERT score of 0.6983 is significantly below the required 0.75 threshold. The BERTScore of 0.8885 is also below the required 0.90. This indicates a critical loss of meaning and lexical fidelity from the original text.\n\n- MeaningBERT Failure: The score is low because your simplifications, while grammatically correct, are too generic. The original text's concept of a 'mining accident' is more specific and meaningful than 'accident at his work'. The phrase 'a tool that shoots arrows' is a vague and clumsy replacement for 'bow and arrow', which damages the clarity of the original message.\n\n- BERTScore Failure: This score is low because key lexical items were removed and replaced with overly simple terms. The loss of words like 'mining', 'skilful', and 'bow and arrow' directly caused this metric to fail.\n\n- Structural Issues: The text is broken into too many short, disconnected sentences. This choppy structure further contributes to the loss of meaning and flow, even though it technically uses A2 grammar.\n\n- Keyword Handling: The definition for 'tribute' is acceptable. However, 'District 12' is used without a clear definition of what a 'District' is.\n\nSuggestion: Restore key factual details like 'mining' to preserve meaning. Rephrase the description of the weapon; 'a bow and arrow' is understandable at A2 and preferable to the generic 'tool'. Combine some of the short sentences to create a more natural flow, for example: 'She lives in District 12 and hunts in the woods with her friend Gale.'",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8885,
+      "meaningbert": 0.6983
+    },
+    "created_at": "2025-09-01 17:22:00.334487"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "ec7de1a8-cfeb-4635-bafb-5c6a2d98d50b",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Katniss Everdeen is a sixteen\u2011year\u2011old girl.  \nHer father died in a mining accident.  \nShe must get food for her family.  \nShe hunts in the woods near District 12 with Gale.  \nDistrict 12 is a poor area where she lives.  \nShe becomes good with a bow and arrow.  \nHer younger sister Prim is chosen as a tribute.  \nA tribute is a person chosen to fight.  \nKatniss volunteers to go instead.  \nThe other tribute from District 12 is a boy named Peeta.  \nKatniss finds her relationship with him hard.",
+    "version": 2,
+    "created_at": "2025-09-01 17:15:29.107911",
+    "updated_at": "2025-09-01 17:15:29.107912",
+    "metrics_meaningbert": 0.7663,
+    "metrics_cefr_compliance": "A2"
+  }
+}

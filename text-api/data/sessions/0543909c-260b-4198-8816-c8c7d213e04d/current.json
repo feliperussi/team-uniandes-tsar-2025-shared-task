@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "002b399e-f6e3-4cc1-aac1-6a8f1d5b62c8",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Sometimes, bridges fall down. We do not know why. It is something we do not understand. People who build bridges must look at the bridge carefully. Then they find out the reason.\nSometimes, the material for the bridge is weak. Or a main part of the bridge has a problem.\nOther times, people build the bridge for only some weight. It cannot hold more.",
+    "version": 11,
+    "created_at": "2025-09-01 17:59:09.911353",
+    "updated_at": "2025-09-01 17:59:09.911357",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "416bf219-4a64-49ec-9bec-7d9281fb7740",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning and Fidelity Failure. The MeaningBERT score of 0.5664 is significantly below the required 0.75, indicating a failure to preserve the core message. The BERTScore of 0.8972 is also below the required 0.90, showing a significant loss of key words and factual phrasing from the original. Meaning and lexical fidelity are paramount for A2 comprehension.\n\n*   Meaning Preservation Failure: The original text clearly states that 'engineers only realise why after they conduct a complete investigation'. Your version, 'We do not know why. It is something we do not understand. People who build bridges must look at the bridge carefully. Then they find out the reason', significantly dilutes the specific role of engineers and the investigative process. The initial statement 'We do not know why. It is something we do not understand' implies a general, unresolved mystery, rather than a problem that is eventually solved by experts.\n*   Lexical Fidelity Failure: The text replaces several key terms with less precise or overly simplified alternatives, leading to a BERTScore below the required threshold. For instance, 'bridge collapses are mysteries' is rendered as 'bridges fall down. We do not know why. It is something we do not understand', losing the specific lexical items 'collapses' and 'mysteries'. 'Engineers' is replaced by 'People who build bridges'. 'Conduct a complete investigation' is simplified to 'look at the bridge carefully. Then they find out the reason'. 'Inferior-quality material' becomes 'material for the bridge is weak'. These substitutions reduce the lexical richness and precision of the A2 target.\n*   Suggestion: Rephrase to explicitly state that engineers investigate the reasons for bridge collapses. Use A2-appropriate vocabulary that maintains closer lexical fidelity to the original text's specific terms, such as 'collapse' or 'break' for 'fall down', and 'investigate' or 'study' for 'conduct a complete investigation', ensuring the core meaning of expert analysis is retained.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8972,
+      "meaningbert": 0.5664
+    },
+    "created_at": "2025-09-01 17:59:36.251264"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "20207502-dfba-42a9-a0dd-f7e5fa2266d7",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Some bridges fall down. We do not know why. This is a mystery. Engineers must study the bridge completely. After this, they find the reason.\nSometimes, the material for the bridge is bad. Or a main part of the bridge has a problem.\nOther times, people build the bridge for only some weight. It cannot hold more.",
+    "version": 6,
+    "created_at": "2025-09-01 17:56:29.204844",
+    "updated_at": "2025-09-01 17:56:29.204845",
+    "metrics_meaningbert": 0.8019,
+    "metrics_cefr_compliance": "A2"
+  }
+}

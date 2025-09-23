@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "55857fd6-a2dd-4b40-8b70-04d9a5ba89da",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Do things get worse each day?  \nIs progress impossible?  \n\nSteven Pinker wrote a book called Enlightenment Now.  \nEnlightenment means using reason and science.  \n\nPinker looks at the whole picture of human progress.  \nHe finds good news.  \n\nWe live longer now.  \nWe are healthier now.  \nWe are freer now.  \nWe are happier now.  \n\nPinker says there is a big problem.  \nSome writers and leaders attack Enlightenment values.  \nThey do this by making people afraid.  \nThey also make people distrust each other.  \nThey also make people think only their own group matters.  \n\nBecause of this? Actually we need \"Because of this, there is danger.\"  \nBecause of this, there is danger.  \nThe danger can hurt democracy.  \nThe danger can hurt work between countries.  \nThe danger can hurt how we choose our leaders.",
+    "version": 11,
+    "created_at": "2025-09-01 17:34:13.203847",
+    "updated_at": "2025-09-01 17:34:13.203861",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "acd1c9c6-9ee1-4398-8794-7fb0ccb3177c",
+    "approval": "FAIL",
+    "grade": 2,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6869 is catastrophically below the required 0.75 threshold. The text fails to preserve the core message of the original. The original's central argument is that Enlightenment values are 'under attack'. Your version separates the definition of Enlightenment from the problem, weakening the connection and losing the core meaning.\n\n- Fidelity Failure: The BERTScore of 0.8483 is below the 0.90 minimum. This indicates a severe loss of key phrasing. The original's specific concepts of 'tribalism' and 'fatalism' were oversimplified into generic phrases like 'making people afraid', losing critical lexical detail.\n\n- CEFR Compliance Failure: The text was classified as B1, not A2. This is an automatic failure. The reasons are clear:\n  - The sentence 'The danger can hurt how we choose our leaders' uses a subordinate clause starting with 'how'. This is a B1 grammatical structure.\n  - The word 'democracy' is a B1 vocabulary item.\n  - The word 'means' in 'Enlightenment means...' is a B2 vocabulary item.\n  - The word 'matters' in '...their own group matters' is a B1 vocabulary item.\n\n- Corrective Actions Required:\n  - Suggestion: Restore the core meaning. Combine sentences to show the values are under attack. Example: 'Pinker says the values of reason and science are under attack.'\n  - Suggestion: Remove all B1 and B2 vocabulary. Replace 'democracy' with its A2 explanation. Do not use both. Replace 'means' with 'is the idea of'. Rephrase the sentence containing 'matters'.\n  - Suggestion: Eliminate B1 grammar. Rephrase 'how we choose our leaders' into a simple sentence. Example: 'This is dangerous for the way we choose leaders.'",
+    "metrics": {
+      "cefr_compliance": "B1",
+      "bertscore": 0.8483,
+      "meaningbert": 0.6869
+    },
+    "created_at": "2025-09-01 17:34:46.822993"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "483d523f-d0e0-4a66-af32-d0251e156c18",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Do things get worse each day?  \nIs progress impossible?  \nEnlightenment is when people use reason and science.  \nSteven Pinker wrote a book called Enlightenment Now.  \nHe looks at the whole picture of human progress.  \nHe finds good news.  \nWe live longer now.  \nWe are healthier now.  \nWe are freer now.  \nWe are happier now.  \nPinker says the main problem is that Enlightenment values are under attack.  \nCommentators and demagogues use tribalism, fatalism and distrust.  \nThis can cause irreparable damage to important systems.  \nIn some countries, people can choose their leaders.  \nCountries also work together.  \nThis danger can hurt those things.",
+    "version": 6,
+    "created_at": "2025-09-01 17:31:12.843401",
+    "updated_at": "2025-09-01 17:31:12.843402",
+    "metrics_meaningbert": 0.8974,
+    "metrics_cefr_compliance": "B2"
+  }
+}

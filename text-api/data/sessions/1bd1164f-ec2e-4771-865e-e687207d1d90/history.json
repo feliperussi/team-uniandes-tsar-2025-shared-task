@@ -1,0 +1,413 @@
+{
+  "session_id": "1bd1164f-ec2e-4771-865e-e687207d1d90",
+  "created_at": "2025-09-01 17:28:33.220965",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:28:33.227651",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "108-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Marine protected areas are parts of the ocean that are kept safe.  \nLewis likes to see more marine protected areas.  \nHe wants them to rise from 3% to 10%.  \nHe wants this to undo the harm caused by people.  \nPeople catch too many fish.  \nPeople make water dirty.  \nPeople throw trash into the sea.  \nDuring his trips, Lewis saw this damage himself.  \nHe swam over coral reefs that turned white.  \nThe water got hotter.  \nHe saw empty areas under the shallow Red Sea water.  \nThese places had no life and were full of plastic.  \nPugh thinks nature can get better if it has room.  \nBut time is running.  \nIf we do not care for seas, a big problem will happen.  \nIt could happen soon.",
+      "timestamp": "2025-09-01 17:28:33.229909",
+      "metadata": {
+        "text_id": "b0fa3776-0c1e-42c1-bf44-11678b8be55f",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:28:33.242425",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e0909a22-843d-418a-abd6-2c0b08b67ed9",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.608 is critically below the 0.75 minimum. The BERTScore of 0.8677 is also below the 0.90 threshold. This indicates a severe loss of the original text's core message and lexical fidelity. The concept of an 'unsolvable problem' was reduced to a 'big problem', which fails to convey the original's urgency.\n\nAdditional Violations:\n\nCEFR Compliance Failure: The text was classified as B1, not A2. This is an automatic failure.\n\nGrammatical Complexity Exceeds A2: The sentences '...parts of the ocean that are kept safe' and '...coral reefs that turned white' use relative clauses with 'that'. This is a B1 grammatical structure and is unacceptable for the A2 level.\n\nVocabulary Exceeds A2: The text uses multiple words above the A2 level. 'Marine' (C1), 'protected' (B1), and 'shallow' (B2) are not A2 vocabulary. The keyword 'marine protected areas' was used but not defined in simple A2 terms as required.\n\nSuggestion: Restore the original meaning of an 'unsolvable' problem. Remove all relative clauses by splitting sentences. Replace all non-A2 vocabulary. Example for the first sentence: 'Some parts of the ocean are special. People keep them safe. These are called marine protected areas.' Replace 'shallow' with 'not deep'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8677,
+          "meaningbert": 0.608
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:28:44.310426",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some parts of the ocean are special.  \nPeople keep2 them safe.  \nThese are called marine protected areas.  \nLewis wants more marine protected areas.  \nHe wants them to rise from 3% to 10%.  \nHe wants this to undo the harm caused by people.  \nPeople catch too many fish.  \nPeople make water dirty.  \nPeople throw trash into the sea.  \nDuring his trips, Lewis saw this harm himself.  \nHe swam over coral reefs.  \nThe reefs turned white.  \nThe water got hotter.  \nHe saw empty places.  \nThey were under the not deep Red Sea water.  \nThese places had no life.  \nThey were full of plastic.  \nPugh thinks nature can get better if it has room.  \nBut time is running.  \nIf we do not care for seas, a problem will come.  \nIt will be a problem we cannot solve.",
+      "timestamp": "2025-09-01 17:28:44.310788",
+      "metadata": {
+        "text_id": "15830b02-dbc3-438e-8f5c-404fb3b1bb0a",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:29:16.637346",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "faf265f7-1aa2-49fa-b7ca-5c4a6387549f",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6046 is catastrophically below the required 0.75 threshold. The text fails to preserve the core message of the original.\n\n- Fidelity Failure: The BERTScore of 0.8497 is below the minimum 0.90. This indicates a significant loss of key phrasing and factual connection.\n- Meaning Loss Example: The original text establishes a direct cause and effect: 'coral reefs bleached by the increase in water temperature'. Your output, 'The reefs turned white. The water got hotter,' breaks this critical link. It presents two separate facts but loses the essential meaning that one caused the other.\n- CEFR Compliance Failure: The text is classified as B1, not the required A2. The sentence 'It will be a problem we cannot solve' uses a defining relative clause, which is a B1 grammatical structure.\n- Vocabulary Violation: The C1-level word 'marine' is used. This is an unacceptable deviation from the A2 vocabulary standard. The term 'marine protected areas' was a keyword for definition, not for direct use.\n\nSuggestion: Restore the cause-and-effect relationships lost during simplification. Rephrase 'The reefs turned white. The water got hotter' to 'The reefs turned white because the water got hotter.' Eliminate the B1 relative clause in the final sentence; split it into two A2 sentences. Replace the C1 word 'marine' with a simple A2 description like 'ocean' or 'sea'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8497,
+          "meaningbert": 0.6046
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:29:24.075700",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some parts of the ocean are special.  \nPeople keep them safe.  \nThese are called safe sea areas.  \nLewis wants more safe sea areas.  \nHe wants them to rise.  \nFrom 3% to 10%.  \nHe wants this to undo harm.  \nPeople cause the harm.  \nPeople catch too many fish.  \nPeople make water dirty.  \nPeople throw trash into sea.  \nLewis saw this harm.  \nHe saw this on trips.  \nHe swam over coral reefs.  \nThe reefs turned white because the water got hotter.  \nHe saw empty places.  \nThey were under the shallow Red Sea water.  \nThese places had no life.  \nThey were full of plastic.  \nPugh thinks nature can get better if it has room.  \nBut time is running.  \nIf we do not care for seas, a problem will come.  \nWe cannot solve it.",
+      "timestamp": "2025-09-01 17:29:24.076070",
+      "metadata": {
+        "text_id": "f88b5167-f21e-4be6-b107-adec63e78e46",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:29:50.287345",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0c17ffe4-fafd-4ae3-8a7c-f2c86bf096f8",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5659 is catastrophically below the required 0.75 threshold. This indicates a complete failure to preserve the original message. The text was over-simplified to the point of becoming meaningless.\n\n- Fidelity Failure: The BERTScore of 0.8393 is below the 0.90 minimum. Key concepts from the original text were lost in the simplification process.\n- CEFR Compliance Failure: The classifier rated the text as B1, not the required A2. This is an automatic failure.\n- Vocabulary Violation: The B2-level word 'shallow' was used. This is unacceptable for an A2 text. All vocabulary must be strictly A2 or below.\n- Structural Failure: The text is composed of disconnected, overly simplistic sentences and fragments, such as 'From 3% to 10%.' This choppy structure destroys the logical flow and contributes to the severe loss of meaning.\n\nSuggestion: The text must be completely rewritten. Combine the fragmented sentences using A2 connectors like 'and' or 'because' to restore logical connections. Replace the B2 word 'shallow' with an A2 phrase like 'not deep'. The primary goal is to preserve the meaning of the original text, not just simplify individual words.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8393,
+          "meaningbert": 0.5659
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:29:54.634245",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Marine protected areas are special parts of the ocean.  \nThey are kept safe.  \n\nLewis wants more marine protected areas.  \nHe wants them to rise from 3\u202f% to 10\u202f% of the ocean.  \nHe hopes this will undo the harm caused by people.  \n\nPeople catch too many fish.  \nPeople make the water dirty.  \nPeople throw trash into the sea.  \n\nLewis saw this harm on his trips.  \nHe swam over coral reefs.  \nThe reefs turned white because the water got hotter.  \n\nHe also saw empty places under the not deep Red Sea water.  \nThose places had no life and were full of plastic.  \n\nPugh thinks nature can get better if it has room.  \nBut time is running.  \n\nIf we do not care for the seas, a problem will come that we cannot solve.",
+      "timestamp": "2025-09-01 17:29:54.634505",
+      "metadata": {
+        "text_id": "fda62cca-60bc-49e7-b6ed-d7d582070a58",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:30:21.781984",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2569617b-30fc-4a28-b94a-4624e3fd91d1",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary failure is a catastrophic loss of meaning and fidelity, confirmed by metrics. The MeaningBERT score of 0.5972 is far below the required 0.75. The BERTScore of 0.8585 is below the 0.90 threshold. This indicates the simplification process has destroyed the core message and lexical integrity of the original text.\n\n- MeaningBERT Failure: The original text conveys a strong sense of 'environmental destruction' and urgency ('the clock is ticking'). Your version weakens this to 'harm' and 'time is running', which does not carry the same weight. The core message is lost.\n\n- BERTScore Failure: Key lexical items from the original, such as 'environmental destruction' and 'unsolvable problem on our hands', were completely removed. This resulted in a score below the required 0.90.\n\n- CEFR Compliance Failure: The classifier rated the text as B1, which is an instant fail. The text is too complex for the A2 standard.\n\n- B1 Grammar Violation: The sentence 'a problem will come that we cannot solve' uses a defining relative clause ('that we cannot solve'). This is a B1 grammatical structure and is unacceptable for an A2 text.\n\n- C1 Vocabulary Violation: The word 'marine' is C1 level. Its use is a direct violation of the A2 vocabulary standard, even as part of a keyword.\n\n- Suggestion: The final sentence must be split. Correct form: 'A problem will come. We cannot solve it.' The concept of 'marine protected areas' must be explained without using the C1 word 'marine'. Use 'special safe parts of the ocean' instead. The text must be rewritten to restore the original's sense of urgency and destruction using only A2 vocabulary.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8585,
+          "meaningbert": 0.5972
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:30:39.399754",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Special safe parts of the ocean are areas.  \nLewis wants more areas.  \nHe wants them to rise from three to ten.  \nHe hopes this will stop the harm by people.  \n\nPeople catch too many fish.  \nPeople make water dirty.  \nPeople throw trash into the sea.  \n\nLewis saw this harm on his trips.  \nHe swam in the sea.  \nThe water turned white.  \n\nHe also saw empty places under the shallow Red Sea water.  \nThose places had no life and were full of plastic.  \n\nPugh thinks nature can get better if it has room.  \nBut time is running.  \n\nIf we do not care for the sea, a problem will come.  \nWe cannot solve it.",
+      "timestamp": "2025-09-01 17:30:39.400264",
+      "metadata": {
+        "text_id": "31e44b06-981a-4c14-b507-29dd06b125fa",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:31:07.602237",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "927d9b45-d9fc-4377-892e-9bc9cd020617",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for failure is the catastrophic loss of meaning and fidelity. The MeaningBERT score of 0.5641 is well below the required 0.75, and the BERTScore of 0.851 is below the 0.90 threshold. This indicates the core message was not preserved.\n\n*   Meaning Loss: The original text explains that coral reefs were 'bleached by the increase in water temperature'. Your version, 'He swam in the sea. The water turned white,' completely removes this critical cause-and-effect relationship. This is a severe loss of meaning.\n*   CEFR Compliance Failure: The text was classified as B1, which is an automatic failure. The target is A2. The unnatural sentence structure, such as 'Special safe parts of the ocean are areas,' likely contributed to this incorrect classification.\n*   Vocabulary Violation: The B2-level word 'shallow' was used. All vocabulary must be A2 or below.\n*   Structural Failure: The text is a series of disconnected, overly short sentences. This fragmentation destroys the logical flow of the original paragraph. Sentences must be simple, but they must also connect logically.\n*   Keyword Definition Failure: The definition 'Special safe parts of the ocean are areas' is grammatically awkward and does not clearly explain the concept in A2 terms.\n\nSuggestion: Rewrite the text completely. Focus on creating simple, complete sentences that maintain the logical connections from the original text. Do not break every single idea into a separate sentence. Replace the word 'shallow'. Provide a clear, simple definition for the keyword.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.851,
+          "meaningbert": 0.5641
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:31:11.789454",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Marine protected areas are safe parts of the ocean.  \nLewis wants more marine protected areas.  \nHe wants them to rise from three to ten percent.  \nHe hopes this will stop the harm caused by people.  \n\nPeople catch too many fish.  \nPeople make the water dirty.  \nPeople throw trash into the sea.  \n\nLewis saw this harm on his trips.  \nHe swam over coral reefs that turned white because the water got hotter.  \nHe also saw empty places near the surface of the Red Sea.  \nThose places had no life and were full of plastic.  \n\nPugh thinks nature can get better if it has room.  \nBut time is running out.  \n\nIf we do not care for the sea, a problem will appear.  \nWe cannot solve it.",
+      "timestamp": "2025-09-01 17:31:11.789805",
+      "metadata": {
+        "text_id": "a2649c8a-1fc9-4e8e-9ef2-6ce4ecb2a9ef",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:31:36.207021",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3710c135-600d-478c-b6e9-f952e82a618a",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6097 is critically below the required 0.75 threshold. This indicates a severe failure to preserve the core message and urgency of the original text. The text also fails on multiple subsequent checks.\n\n- MeaningBERT Failure: The score of 0.6097 is unacceptable. The original text's concept of 'reversing the damage' was weakened to 'stop the harm', which is a significant loss of meaning. The urgent warning of an 'unsolvable problem on our hands' was reduced to a simple, less impactful statement: 'a problem will appear. We cannot solve it.'\n\n- Fidelity Failure: The BERTScore of 0.8633 is below the 0.90 minimum. This is a result of oversimplifying key lexical items like 'environmental destruction' and 'the clock is ticking', which caused a loss of factual phrasing.\n\n- CEFR Compliance Failure: The classifier rated the text as B1, not the required A2. This is an automatic failure.\n\n- Vocabulary Violation: The text uses B1-level vocabulary. 'Percent' and 'surface' are not A2 words. The C1 word 'marine' was used without simplification.\n\n- Structural Violation: The sentence 'He swam over coral reefs that turned white because the water got hotter' uses a relative clause ('that turned white') and a subordinate clause ('because the water got hotter') together. This is a B1-level structure and is too complex for A2.\n\nSuggestion: Rephrase to restore the original's meaning of urgency and action. Break all complex sentences into simple, single-idea sentences. Replace every word not on the A2 list. For example, 'percent' must be written out or explained. The complex sentence must be split: 'He swam over coral reefs. They turned white. This happened because the water got hotter.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8633,
+          "meaningbert": 0.6097
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:31:51.794532",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Protected areas in the sea are safe places.  \nLewis wants more protected areas.  \nHe wants them to rise.  \nFrom three out of one hundred to ten out of one hundred.  \nHe wants to make the harm go away.  \nPeople catch too many fish.  \nPeople make the water dirty.  \nPeople throw trash into the sea.  \nLewis saw this harm on his trips.  \nHe swam over coral reefs.  \nThe reefs turned white.  \nThis happened because the water got hotter.  \nHe also saw empty places in the Red Sea.  \nThose places had no life.  \nThey were full of plastic.  \nPugh thinks nature can get better if it has room.  \nBut time is short.  \nIf we do not care for the sea.  \nA big problem will appear.  \nWe cannot solve that problem.",
+      "timestamp": "2025-09-01 17:31:51.798605",
+      "metadata": {
+        "text_id": "f4e87390-87e8-403a-948a-0ff257448c67",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:32:17.191492",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "32ddc086-39ea-487c-8812-6b11de7e85a9",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5438 is catastrophically below the required 0.75 threshold. This indicates a severe loss of the original text's core message. The BERTScore of 0.8437 also fails to meet the minimum 0.90, confirming a significant loss of key phrasing.\n\n- Primary Failure (Meaning): The text has been oversimplified into a series of short, disconnected statements. This fragmentation destroys the logical connections present in the original text, resulting in the unacceptable meaning preservation scores. For example, breaking the conditional warning into three separate, choppy sentences ('If we do not care for the sea. A big problem will appear. We cannot solve that problem.') loses the cause-and-effect relationship.\n\n- Secondary Failure (CEFR Compliance): The classifier rated the text as B1, not the required A2. This is a direct violation of the CEFR target. The sentence fragment 'If we do not care for the sea.' is a grammatical error. It is an incomplete conditional clause, a structure that, even when written correctly, is borderline B1. Leaving it as a fragment is an immediate failure.\n\n- Structural Failure: The text is not a coherent paragraph; it is a list of simple sentences. This is not acceptable A2 writing. The goal is simplification, not deconstruction.\n\nSuggestion: Reconstruct the text. Combine fragmented sentences to restore logical flow. Ensure every sentence is a complete grammatical unit. The conditional statement must be a single sentence. Correction: 'If we do not care for the sea, a big problem that we cannot solve will appear.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8437,
+          "meaningbert": 0.5438
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:32:25.826894",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Marine protected areas are safe places in the sea. Lewis wants more marine protected areas. He wants them to rise from three out of one hundred. He wants them to rise to ten out of one hundred. He wants to stop the harm. People catch too many fish. People make the water dirty. People throw trash into the sea. Lewis saw this harm on his trips. He swam over coral reefs. The reefs turned white because the water got hotter. He also saw empty places in the Red Sea. Those places had no life and were full of plastic. Pugh thinks nature can get better if it has room. But time is short. If we do not care for the sea, a problem will appear. We cannot solve it.",
+      "timestamp": "2025-09-01 17:32:25.828173",
+      "metadata": {
+        "text_id": "f7020869-3215-4429-87d1-dd64aefa2cbb",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:32:55.002853",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4a765bd9-de56-4ad3-921a-8e71c06e9a93",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5769 is catastrophically below the required 0.75 threshold. The original text's core message of urgency and severe consequence has been diluted to the point of misrepresentation.\n\nMeaning Loss: The original phrase 'reverse the damage' implies a difficult, active process. Your replacement, 'stop the harm', is weak and fails to capture this meaning. Similarly, 'an unsolvable problem' is a dire warning, which is lost in your flat statement 'a problem will appear. We cannot solve it.'\n\nFidelity Failure: The BERTScore of 0.891 is below the 0.90 minimum. This confirms a loss of important lexical detail from the source text.\n\nCEFR Compliance Failure: The text was classified as B1, not the required A2. The C1-level word 'marine' is the direct cause. Defining a complex word does not negate its impact on the readability score. The text is not A2 compliant if it contains C1 vocabulary.\n\nStructural Weakness: The repetition in 'He wants them to rise from three out of one hundred. He wants them to rise to ten out of one hundred.' is poor style and not an effective simplification.\n\nSuggestion: Restore the original meaning's intensity. The concept of 'reversing damage' must be communicated more strongly. The final warning about an 'unsolvable problem' must be a single, impactful idea. Do not use C1 vocabulary. Introduce the concept using A2 words first, for example: 'There are special safe places in the sea. These are called marine protected areas.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.891,
+          "meaningbert": 0.5769
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:33:11.022630",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: There are special safe places in the sea.  \nThey are called protected sea areas.  \nLewis wants more protected sea areas.  \nThey are now three out of one hundred.  \nHe wants them to be ten out of one hundred.  \nHe wants to fix the damage.  \nPeople catch too many fish.  \nPeople make the water dirty.  \nPeople throw trash into the sea.  \nLewis saw this damage on his trips.  \nHe swam over coral reefs.  \nThe reefs turned white because water got hotter.  \nHe also saw empty places in the Red Sea.  \nThose places had no life.  \nThey were full of plastic.  \nPugh thinks nature can recover if it has space.  \nBut time is short.  \nIf we do not protect the sea, we may face a problem.  \nWe cannot solve it.",
+      "timestamp": "2025-09-01 17:33:11.026139",
+      "metadata": {
+        "text_id": "16c0d376-ab57-4d91-87f6-4b6e09cf7ce6",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:33:34.285494",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "59a2c887-e341-4137-b44c-ebf67cd642aa",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5874 is significantly below the required 0.75 threshold. The simplification has removed the urgency and severity of the original message. Additionally, the BERTScore of 0.8492 is below the 0.90 minimum, indicating a critical loss of key phrasing.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is a direct result of using B1-level vocabulary and grammar.\n- Vocabulary Violation: The words 'damage' and 'recover' are B1 level. They were explicitly identified as candidates for replacement and were used without simplification. This is a severe error.\n- Structural Violation: The sentence 'If we do not protect the sea, we may face a problem' is a first conditional structure, which is a B1 grammatical form. The use of 'may' also increases complexity.\n\nSuggestion: Replace all B1 vocabulary immediately. 'Damage' must be rephrased using A2 terms like 'bad things that happen' or 'harm'. 'Recover' must be rephrased as 'get better' or 'become healthy again'. The final conditional sentence must be broken into two simple statements. Example: 'We must protect the sea. If not, there will be a big problem that we cannot solve.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8492,
+          "meaningbert": 0.5874
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:33:41.982079",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Marine protected areas are special safe places in the sea.  \nLewis wants more of them.  \nNow they are three out of one hundred.  \nHe wants them to be ten out of one hundred.  \nHe wants to stop the bad things that happen to the sea.  \nPeople catch too many fish.  \nPeople make the water dirty.  \nPeople throw trash into the sea.  \nLewis saw this on his trips.  \nHe swam over coral reefs.  \nThe reefs turned white because the water got hotter.  \nHe also saw empty places in the Red Sea.  \nThose places had no life.  \nThey were full of plastic.  \nPugh thinks nature can get better. It needs space.  \nTime is short.  \nWe must protect the sea.  \nNot protecting the sea will cause a big problem.  \nWe cannot solve it.",
+      "timestamp": "2025-09-01 17:33:41.984666",
+      "metadata": {
+        "text_id": "ac81b6ca-038e-425d-a628-ea50c3630df3",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:34:09.111565",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "50549fe1-c526-412c-84f2-145c48e66cde",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on multiple high-priority checks. The primary failure is the inability to preserve the original text's core message. The MeaningBERT score of 0.58 is drastically below the required 0.75 threshold. This indicates a severe loss of meaning. The simplification was too aggressive, reducing the original's urgent call to action into a flat list of facts. Additionally, the BERTScore of 0.84 is below the required 0.90, showing a failure to retain key lexical items.\n\n- Meaning Loss: The original phrase 'in an attempt to reverse the damage' conveys a strong sense of purpose and correction. Your version, 'He wants to stop the bad things', is vague and loses this critical meaning.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is an instant failure. The cause is the use of sentence structures that are too complex for the A2 level.\n\n- B1 Sentence Structure: The sentence 'He wants to stop the bad things that happen to the sea' uses a relative 'that-clause', which is a B1 structure.\n\n- B1 Sentence Structure: The sentence 'Not protecting the sea will cause a big problem' uses a gerund phrase as the subject, another B1-level construction.\n\n- Vocabulary Violation: The C1 word 'marine' was used from the key term 'marine protected areas' but was not defined in simple A2 terms as required. The first sentence describes the term but does not define the word 'marine' itself.\n\nSuggestion: The text must be rewritten. Restore the core concepts of 'reversing damage' and the 'unsolvable' nature of the future problem using only A2 vocabulary and structures. Eliminate all B1 structures immediately. Break the complex sentences into separate, simple A2 sentences. For example, rewrite 'Not protecting the sea will cause a big problem' to 'We must protect the sea. If we do not, there will be a big problem.' Define the keyword 'marine' as instructed.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8404,
+          "meaningbert": 0.5838
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:34:17.304087",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Marine means about the sea.  \nMarine protected areas are special safe places in the sea.  \nThey protect the sea.  \nNow they cover three out of one hundred of the sea.  \nLewis wants them to cover ten out of one hundred.  \nHe wants this to fix the damage to the sea.  \nPeople catch too many fish.  \nPeople make the water dirty.  \nPeople throw trash into the sea.  \nLewis saw this on his trips.  \nHe swam over coral reefs.  \nThe reefs turned white because the water got hotter.  \nHe also saw empty places in the Red Sea.  \nThose places had no life.  \nThey were full of plastic.  \nPugh thinks nature can get better.  \nIt needs space.  \nTime is short.  \nWe must protect the sea.  \nIf we do not protect the sea, a big5 problem will happen.  \nThe problem may become unsolvable.",
+      "timestamp": "2025-09-01 17:34:17.304828",
+      "metadata": {
+        "text_id": "7e7e8fd1-bd7b-406f-ac4a-dfd70ee6de4f",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:34:46.831664",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e66798b2-a330-4f5f-8270-d65021c8f035",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5766 is catastrophically below the required 0.75 threshold. This indicates a severe failure to preserve the core message and logical connections of the original text. The output is a disjointed list of facts, not a coherent argument.\n\n- Fidelity Failure: The BERTScore of 0.8403 is below the 0.90 minimum. Key concepts like 'human activity' and 'environmental destruction' were lost in the oversimplification, failing to maintain lexical fidelity.\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is an automatic failure.\n- Vocabulary Violation: The text uses non-A2 vocabulary. 'damage' is a B1 word. 'means' is a B2 word. 'unsolvable' is advanced vocabulary. These are unacceptable deviations.\n- Defective Definition: The definition 'Marine means about the sea' uses the B2 word 'means'. All definitions must use A1/A2 vocabulary exclusively.\n- Structural Degradation: The text is excessively fragmented into short, choppy sentences. This degrades readability and obscures the causal links present in the original text, such as the idea that increasing protected areas is the solution to the damage.\n- Typographical Error: The text contains a typo ('big5 problem'), which is unacceptable.\n\nSuggestion: Rewrite the text from scratch. Focus on maintaining the logical flow of the original. Replace all B1+ vocabulary. The word 'damage' must be rephrased using A2 terms like 'bad things' or 'problems'. The concept 'unsolvable' must be rephrased as 'a problem we cannot fix'. Combine overly short sentences using simple A2 connectors like 'and' or 'because' to restore the relationship between ideas.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8403,
+          "meaningbert": 0.5766
+        }
+      }
+    }
+  ]
+}

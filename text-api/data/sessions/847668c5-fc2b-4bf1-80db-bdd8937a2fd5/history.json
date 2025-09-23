@@ -1,0 +1,228 @@
+{
+  "session_id": "847668c5-fc2b-4bf1-80db-bdd8937a2fd5",
+  "created_at": "2025-09-01 01:07:53.108362",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:07:53.115676",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "02-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes a lot. Earthquakes can break many things, like bridges. But bridges do not fall down often. This is true for new bridges. Engineers are people who build bridges. They know how to build safe bridges in places with earthquakes. They build them on ground that is very strong. This ground does not move a lot.",
+      "timestamp": "2025-09-01 01:07:53.116208",
+      "metadata": {
+        "text_id": "df872780-ed69-47f9-9649-17cf2e391add",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 01:07:53.123863",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a87cd207-3dfc-4be5-ba93-f55b99779d81",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.66 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text. The original text states that engineers 'have learned to design' bridges, which implies a process of acquiring knowledge. Your version, 'They know how to build safe bridges', describes a state of being, not a process of learning. This is a critical loss of meaning.\n\n- Fidelity Failure: The BERTScore of 0.8991 is below the 0.90 minimum. This is caused by replacing specific terminology like 'resistant to movement' with the overly simplistic 'does not move a lot', which loses lexical precision.\n- Over-simplification: The text is broken down into too many short, disconnected sentences. For example, 'They build them on ground that is very strong. This ground does not move a lot.' This structure, while simple, makes the text choppy and further dilutes the original's more integrated concept.\n\nSuggestion: Restore the original meaning. The text must convey that engineers have learned a skill over time. Rephrase to connect the ideas more directly, for example: 'Engineers learned how to build bridges on strong ground that does not move a lot in an earthquake.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8991,
+          "meaningbert": 0.66
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:08:15.028830",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes a lot. Earthquakes can break many things, like bridges. But bridges do not fall down often. This is true for new bridges. Engineers are people who build bridges. They learned how to build safe bridges in places with earthquakes. They build them on strong ground that does not move a lot.",
+      "timestamp": "2025-09-01 01:08:15.029382",
+      "metadata": {
+        "text_id": "41691f4d-8738-4f3c-b98d-e0c15aaff33f",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 01:08:40.723180",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6b193d2d-f687-48f7-a13f-4fc48a00504c",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6507 is significantly below the required 0.75 threshold. This indicates a severe deviation from the original text's core message.\n\n- Fidelity Failure: The BERTScore of 0.8979 is also below the 0.90 minimum. This is caused by introducing new information rather than simplifying the original content.\n- Content Addition Error: The text introduces new, unrequested definitions. The sentences \"An earthquake is when the ground shakes a lot\" and \"Engineers are people who build bridges\" are not present in the original text. Your task is to simplify existing information, not add new information.\n- Consequence of Error: Adding these definitions diluted the original message, which was about a specific engineering solution for bridges. This is the direct cause of the failing MeaningBERT score.\n\nSuggestion: Do not add sentences that define terms unless explicitly instructed for a specific keyword. Focus exclusively on rephrasing the original sentences into simpler A2 structures. The goal is simplification, not explanation. Rewrite the text by only simplifying the provided source material. Remove the added definitions. ",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8979,
+          "meaningbert": 0.6507
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:08:57.329126",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes can break many things, like bridges. But bridges do not fall down often. This is true for new bridges. Engineers learned how to build safe bridges in places with earthquakes. They build them on strong ground that does not move a lot.",
+      "timestamp": "2025-09-01 01:08:57.329616",
+      "metadata": {
+        "text_id": "00ac5e67-8b1e-46c3-ad74-3d050deeec9a",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 01:09:22.784181",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8d6cc994-6737-4aba-8b1c-9e0f50135887",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6185 is critically below the required 0.75 threshold. The simplification process has destroyed the core meaning of the original text.\n\n- The phrase 'damage all structures' was reduced to 'break many things'. This is a factual alteration. 'All' and 'many' are not synonyms. The meaning was lost.\n- The original text states engineers 'design' bridges on 'resistant' ground. Your text says they 'build' them on 'strong' ground. The concepts of planning ('design') and opposition to force ('resistant') have been completely removed, which is an unacceptable loss of meaning.\n\nSuggestion: You must re-introduce the lost concepts using A2 vocabulary. Change 'break many things' to 'break all buildings'. Rephrase the final sentence to restore the meaning of 'design' and 'resistant'. Example: 'Engineers plan where to build bridges. They choose ground that does not move easily in an earthquake.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9189,
+          "meaningbert": 0.6185
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:09:44.067547",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes can break all buildings, like bridges. But bridges do not fall down often. This is true for new bridges. Engineers plan where to build bridges. They choose ground that does not move easily in an earthquake.",
+      "timestamp": "2025-09-01 01:09:44.067974",
+      "metadata": {
+        "text_id": "33e66951-1759-4443-808b-33eef6af202f",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 01:10:06.512004",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "22ca9d29-4f04-4ad5-a1af-188fed2e5a75",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6476 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text.\n\n- Meaning Deviation: The original text states engineers 'design bridges... on areas that are much more resistant to movement.' Your version, 'They choose ground that does not move easily,' oversimplifies this concept, losing the nuance of active design and resistance. The core meaning has been altered.\n- Vocabulary Violation: The word 'earthquake' is B1 level. It was used twice without simplification. All vocabulary must be strictly A2 or below. An A2-compliant text would use a phrase like 'when the ground shakes'.\n- Factual Inaccuracy: The original text uses the word 'structures'. Your replacement, 'buildings', is factually incorrect. A bridge is a structure, not a building. This alters the factual basis of the statement.\n\nSuggestion: Restore the original meaning by focusing on the action of building on strong ground. Replace the B1 word 'earthquake' with an A2 descriptive phrase. Correct the factual error by finding a suitable A2 replacement for 'structures' or rephrasing the sentence entirely.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.919,
+          "meaningbert": 0.6476
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:10:21.045687",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: When the ground shakes, it can damage many things. It can also damage bridges. But bridges do not fall down often. This is true for new bridges. Engineers now build bridges in a special way. They build them on ground that is very strong. This ground does not move easily when everything shakes.",
+      "timestamp": "2025-09-01 01:10:21.046122",
+      "metadata": {
+        "text_id": "3fd290aa-df46-444a-8d07-32aa3664aa8b",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 01:10:40.736301",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "37c7c4f7-d792-4ab1-b3e0-b2c2663219eb",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5902 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text.\n\n- Primary Failure (MeaningBERT): The score of 0.5902 is unacceptable. The original text's focus on 'earthquakes' as a specific natural event and engineers' 'design' as a deliberate action was lost. Your version, 'When the ground shakes', is too general and weakens the central concept.\n- Secondary Failure (BERTScore): The BERTScore of 0.8994 is below the 0.90 minimum. This reflects a loss of key lexical items from the original, such as 'structures', 'collapse', and 'design'.\n- Vocabulary Violation: The B1 word 'damage' was used twice. This word is not on the A2 list and must be replaced. The word 'break' or 'hurt' would be an acceptable A2 substitute.\n\nSuggestion: You must rephrase the text to restore the specific meaning. Use the word 'earthquake' or define it simply. Replace the B1 word 'damage'. Reintroduce the concept that engineers 'plan' or 'design' bridges in a special way.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8994,
+          "meaningbert": 0.5902
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:10:54.590188",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes are when the ground shakes very hard. They can break many things, like buildings and bridges. But bridges do not fall down often. This is true for new bridges. Engineers now plan how to build bridges in a special way. They build them on ground that is very strong. This ground does not move easily during an earthquake.",
+      "timestamp": "2025-09-01 01:10:54.592362",
+      "metadata": {
+        "text_id": "c354548a-761a-4005-ab9b-3b4f0496d537",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 01:11:14.449803",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "03be613c-df1f-4ce3-8d3a-2a3cb46b8c38",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6168 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message. The original text specifies that engineers design bridges on areas 'resistant to movement'. Your version simplifies this to 'ground that is very strong'. While related, 'strong' does not accurately capture the specific engineering concept of resistance to seismic movement. The nuance is lost, causing the metric failure. Suggestion: Restore the core concept. Rephrase to explain that the ground is chosen because it does not move much. For example: 'They build bridges on ground that does not move a lot during an earthquake.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9074,
+          "meaningbert": 0.6168
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "session_id": "46c3f344-d884-48b5-8e69-6af54b564318",
+  "created_at": "2025-09-01 17:15:29.104141",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:15:31.749472",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "65-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Suzanne Collins always felt news shows about fights sad.  \nShe was a child.  \nHer dad was an airplane driver.  \nHe worked for the US Air Force.  \nHe fought in Vietnam.  \nHer mother tried to keep her safe.  \nShe did not tell her about the fight.  \nBut she still saw news shows about the fight.  \nShe knew her dad was there.  \nIt was a very scary event for her.",
+      "timestamp": "2025-09-01 17:15:31.749584",
+      "metadata": {
+        "text_id": "6460bf87-c0f3-46ec-a670-f2746d0b7cc3",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:15:32.660560",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8d7d6195-494a-4b0f-8b62-43de7ca3f592",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8935 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text, caused by excessive simplification.\n\n- Fidelity Loss: The primary failure is the BERTScore. The text was broken into too many short, disconnected sentences, which destroyed the lexical structure of the original. The connection between ideas is lost.\n\n- Unnatural Vocabulary: The replacement of 'pilot' with 'airplane driver' is incorrect. 'Airplane driver' is not a standard English term. This substitution is a critical error in vocabulary choice.\n\n- Structural Degradation: The original text's sentences were fragmented into a simple list. For example, 'Her dad was an airplane driver. He worked for the US Air Force.' is a poor and disconnected substitute for the original's single clause. A2 level allows for simple compound sentences using 'and'.\n\n- B1 Vocabulary Retained: The B1 word 'Force' was used in 'US Air Force'. This violates the A2 vocabulary constraint.\n\nSuggestion: Recombine the fragmented sentences into more natural A2 structures. Use the connector 'and'. Restore the correct term 'pilot'. Rephrase 'US Air Force' to avoid the B1 word 'force', for example, 'the part of the US army with airplanes'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8935,
+          "meaningbert": 0.8479
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:15:48.027390",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Suzanne Collins always felt sad when she saw news about wars.  \nShe was a child.  \nHer dad was a pilot in the US army.  \nHe fought in Vietnam.  \nHer mother tried to keep her safe.  \nShe did not tell her about the war.  \nBut she still saw news about the war.  \nShe knew her dad was there.  \nIt was a very scary experience for her.",
+      "timestamp": "2025-09-01 17:15:48.027596",
+      "metadata": {
+        "text_id": "50ab4fe9-4874-4bed-af45-d298bdbfcac8",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:16:11.432867",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "48fc4b49-ad31-4382-8efa-3f1c07fcdbaa",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text states her father was in the 'US Air Force'. Your output incorrectly changes this to 'US army'. These are different military branches. Factual precision is non-negotiable. This is an instant failure.\n\n- The core task is to simplify language, not to alter facts. Changing a specific entity like the 'Air Force' to a general one like 'army' is a critical error.\n- While the sentence structure is appropriately simple for A2 and the vocabulary is compliant, the factual error makes the entire text unacceptable.\n\nSuggestion: Correct 'US army' back to 'US Air Force'. Always verify specific names and entities against the original text before simplifying.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9037,
+          "meaningbert": 0.9444
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:16:19.062435",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Suzanne Collins always felt sad when she saw news about wars.  \nShe was a child.  \nHer dad was a pilot in the US Air Force.  \nHe fought in Vietnam.  \nHer mother tried to keep her safe.  \nShe did not tell her about the war.  \nBut she still saw news about the war.  \nShe knew her dad was there.  \nIt was a very scary experience for her.",
+      "timestamp": "2025-09-01 17:16:19.063381",
+      "metadata": {
+        "text_id": "e293a564-2dd3-4147-acf8-80d3f6ae28e3",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 17:16:41.711856",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "fd4680ac-b770-4da4-bb80-14604225a744",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with the A2 standard.\n\n- Factual Integrity: The output is factually identical to the original text.\n- Metric Compliance: All metrics are well within the required range. MeaningBERT score of 0.9453 and BERTScore of 0.9058 confirm excellent preservation of meaning and key terms. The CEFR classifier correctly rated the text as A2.\n- Structural Simplification: The writer correctly deconstructed complex sentences into short, simple declarative statements. The use of connectors is limited to appropriate A2-level words ('when', 'but').\n- Vocabulary Control: Vocabulary simplification is exemplary. 'Upsetting' was correctly replaced with 'sad', and 'frightening' with 'scary'. The B1 word 'force' is present but is part of the proper noun 'US Air Force' and is therefore non-negotiable for factual accuracy. This is a correct and necessary exception. The output is a model of A2 simplification.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9058,
+          "meaningbert": 0.9453
+        }
+      }
+    }
+  ]
+}

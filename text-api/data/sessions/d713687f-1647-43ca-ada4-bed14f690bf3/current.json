@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "e9d4f2f7-d74f-403a-b628-2b3a74556d1a",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "In the 1700s and 1800s two ideas about dreams were popular.  \nOne idea says dream pictures show the part of your mind that is awake.  \nFreud was a doctor who studied the mind.  \nHe said we can learn about hidden feelings and the problems they cause.  \nDreams can help us see these hidden feelings.  \nThe other idea says dreams are brain activity that is not planned.  \nThe brain puts memories and events from the day in order.  \nWhen we wake up we try to make sense of the images.  \nWe also try to understand the feelings.  \nWe put them into a story.",
+    "version": 11,
+    "created_at": "2025-09-01 17:16:27.548871",
+    "updated_at": "2025-09-01 17:16:27.548871",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "c5f654b0-666c-4736-8f28-08c9ade530ec",
+    "approval": "FAIL",
+    "grade": 1,
+    "feedback": "FAIL: Factual Inaccuracy. The original text states one idea is that dreams represent things 'hidden from our conscious mind'. Your text states 'dream pictures show the part of your mind that is awake'. This is the opposite of the original meaning and a complete failure of comprehension.\n\n- Fidelity Failure: The BERTScore of 0.8947 is below the required 0.90. This metric correctly identified that your text lost key lexical details from the original, such as 'conscious mind' and 'random activity'.\n\n- CEFR Compliance Failure: The text was classified as B1, exceeding the A2 target. The sentence 'Freud was a doctor who studied the mind' uses a relative clause ('who studied'), which is a B1-level grammatical structure.\n\n- Vocabulary Violation: The word 'hidden' is classified as B1 and was used without simplification. The word 'doctor' is also listed as B1. Unapproved B1 vocabulary is forbidden.\n\n- Suggestion: Rewrite the text to correct the severe factual error regarding the first theory of dreams. The concept is about the hidden, unconscious mind, not the awake mind. Remove the B1 vocabulary. Break the sentence about Freud into two simple A2 sentences to eliminate the B1 relative clause. Example: 'Freud was a doctor. He studied the mind.'",
+    "metrics": {
+      "cefr_compliance": "B1",
+      "bertscore": 0.8947,
+      "meaningbert": 0.878
+    },
+    "created_at": "2025-09-01 17:16:46.964967"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "80346b5b-7bc7-4855-b4a3-05a6aa612ea4",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "In the 1700s and 1800s two ideas about dreams were popular.  \nOne idea says dream pictures show things we do not know about.  \nThese things are not seen by part of your mind you know.  \nFreud was a doctor who studied the mind.  \nHe said we can learn about feelings we do not know about.  \nDreams can help us see our problems.  \nThe other idea says dreams are activity with no reason.  \nThe brain puts memories and events from the day in order.  \nWhen we wake up we try to make sense of the images.  \nWe also try to understand the feelings.  \nWe put them into a story.",
+    "version": 10,
+    "created_at": "2025-09-01 17:15:49.092993",
+    "updated_at": "2025-09-01 17:15:49.092994",
+    "metrics_meaningbert": 0.8668,
+    "metrics_cefr_compliance": "A2"
+  }
+}

@@ -1,0 +1,598 @@
+{
+  "session_id": "60a13582-4f7c-4427-8c77-e643cd347d5a",
+  "created_at": "2025-08-31 23:50:43.001860",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:50:43.010105",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "02-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes a lot.  \nEarthquakes break many things. They break bridges too.  \nLuckily, bridges do not fall down very often.  \nNew bridges are strong.  \nEngineers know how to build bridges in places with earthquakes.  \nThey build bridges on land that does not move much.",
+      "timestamp": "2025-08-31 23:50:43.011343",
+      "metadata": {
+        "text_id": "95972c69-fe76-41fc-837f-f0ff04c1369e",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:50:43.021946",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "00e094d7-e21d-4d29-bfb7-498556872146",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation and Fidelity Failure. The MeaningBERT score of 0.6767 is below the required 0.75 and the BERTScore of 0.8774 is below the required 0.90.\n- The MeaningBERT score of 0.6767 indicates that the paraphrase loses the core message about engineers designing bridges in earthquake zones on areas more resistant to movement.\n- The BERTScore of 0.8774 shows key terms like \"damage all structures\", \"modern bridges\", and \"earthquake zones\" were simplified to weaker phrases like \"break many things\", \"new bridges\", and \"places with earthquakes\".\nSuggestion: Restore the phrase \"damage all structures\" to preserve the original emphasis.\nSuggestion: Reintroduce \"modern bridges\" to specify the infrequency of collapse in new designs.\nSuggestion: Use \"engineers design bridges in earthquake zones on areas more resistant to movement\" to maintain technical accuracy.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8774,
+          "meaningbert": 0.6767
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:50:58.415050",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes are when the ground shakes.  \nEarthquakes damage all structures, including bridges.  \nLuckily, modern bridges do not collapse often.  \nEarthquake zones are places where earthquakes happen often.  \nEngineers design bridges in earthquake zones on areas more resistant to movement.",
+      "timestamp": "2025-08-31 23:50:58.416378",
+      "metadata": {
+        "text_id": "a6cdac3b-9950-495b-bd86-ed757b1dcf24",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:51:16.704372",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "915b01c9-fc96-4da8-9d24-a7326ff4cc06",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. Classifier rated B1. The text uses B1\u2010level vocabulary and structures that exceed A2. Evidence: the verb damage in \u201cEarthquakes damage all structures\u2026\u201d is a B1 keyword. The noun structure is not on the A2 list. The definition clause \u201cEarthquakes are when the ground shakes.\u201d is more abstract than A2. Suggestion: replace damage with break or harm, replace structures with buildings, use \u2018and\u2019 instead of \u2018including\u2019, split into very short sentences, and avoid any word not on an A2 list.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9037,
+          "meaningbert": 0.9041
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:51:40.211556",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes are big shakes of the ground.  \nEarthquakes break all buildings and bridges.  \nLuckily, modern bridges do not fall down often.  \nSome places have earthquakes often.  \nPeople who make bridges build them on hard ground in these places.",
+      "timestamp": "2025-08-31 23:51:40.213621",
+      "metadata": {
+        "text_id": "30e1aa14-bfce-4850-acf4-0697ee772b68",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 23:51:59.402379",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "59e58e72-6ef3-4a65-9bd0-6ebc6bbee863",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6332 is below the required 0.75, showing loss of the core message that engineers have learned to design bridges on areas resistant to movement. FAIL: Fidelity Failure. The BERTScore of 0.8717 is below the required 0.90 because key terms like \"structures\" were changed to \"buildings\", \"engineers\" became \"people who make bridges\", and \"earthquake zones\" was omitted. Suggestion: Restore the concept of \"engineers\" designing for seismic zones, keep \"structures including bridges\", and mention that collapse is relatively infrequent.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8717,
+          "meaningbert": 0.6332
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:52:25.856204",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes are big shakes of the ground.  \nEarthquakes damage all structures, such as bridges.  \nLuckily, modern bridges do not fall down often.  \nEngineers design bridges for earthquake zones.  \nThey build them on ground that does not move much.",
+      "timestamp": "2025-08-31 23:52:25.856528",
+      "metadata": {
+        "text_id": "c92f5b01-0ccc-4188-9304-5e4251457ae8",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 23:52:42.722658",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b1fdc5aa-8c01-491c-9496-297bcbd0efff",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8947 is below the required 0.90. Key phrases were oversimplified and lost detail: the original 'this kind of collapse is relatively infrequent' became 'do not fall down often', and 'have learned to design' was reduced to 'design'. Suggestion: restore the phrase 'this kind of collapse is relatively infrequent' and use 'have learned to design' to preserve the original lexical content.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8947,
+          "meaningbert": 0.8528
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:53:06.202022",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes are big shakes of the ground.  \nEarthquakes damage all structures, such as bridges.  \nLuckily, this kind of collapse is relatively infrequent.  \nThis is true for modern bridges.  \nEngineers have learned to design bridges for earthquake zones.  \nThey build them on ground that does not move much.",
+      "timestamp": "2025-08-31 23:53:06.205007",
+      "metadata": {
+        "text_id": "1dddd5ae-8d5b-4af0-8839-bef380595e84",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:53:24.676616",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8631e4a8-6a80-431a-83fa-cfdb61b91c96",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The classifier rated the text as B1. Evidence: the use of the B2-level adjective \u2018relatively\u2019 in \u201crelatively infrequent,\u201d the noun \u2018collapse\u2019 (B2), and the term \u2018zones\u2019 in \u201cearthquake zones\u201d all exceed A2. Suggestion: Replace \u2018relatively\u2019 with \u2018quite,\u2019 change \u2018collapse\u2019 to \u2018falling,\u2019 use \u2018places\u2019 instead of \u2018zones,\u2019 and simplify sentence structures to meet A2 requirements.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9093,
+          "meaningbert": 0.873
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:53:45.182479",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes are big shakes of the ground.  \nEarthquakes break buildings and bridges.  \nLuckily, modern bridges do not fall down very often.  \nEngineers now design bridges in places that have earthquakes.  \nThey put them on ground that does not move much.",
+      "timestamp": "2025-08-31 23:53:45.185372",
+      "metadata": {
+        "text_id": "dea040e7-a944-4bf8-90e6-f861753ef815",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:54:04.743563",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "79b281b5-d4e2-494b-a405-d7c49bfe320e",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8865 is below the required 0.90.\n1. Key terms like 'structures', 'including', 'collapse', 'zones', 'resistant', and 'movement' were omitted or replaced with simpler words.\n2. The phrase 'learned to design' was changed to 'now design', losing the sense of acquired skill.\n3. The concept of 'earthquake zones' was generalized to 'places that have earthquakes', reducing precision.\n4. The word 'resistant' was replaced with 'does not move much', altering the nuance of resistance to movement.\nSuggestion: Replace 'break buildings and bridges' with 'damage all structures, including bridges'.\nSuggestion: Use 'learned to design bridges in earthquake zones' instead of 'now design bridges in places that have earthquakes'.\nSuggestion: Keep the words 'resistant' and 'movement' to preserve the technical nuance.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8865,
+          "meaningbert": 0.8036
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:54:18.510295",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes are big shakes of the ground.  \nEarthquakes damage all structures, including bridges.  \nLuckily, modern bridges do not collapse often.  \nEngineers learned to design bridges in earthquake zones.  \nThey put them on ground that is resistant to movement.",
+      "timestamp": "2025-08-31 23:54:18.512322",
+      "metadata": {
+        "text_id": "2b0f1ea0-e4cd-4110-aa07-460811d9082d",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:54:45.635792",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "24352af4-0f79-4d5d-aca3-f8bca1912970",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. Classifier result is B1 but must be A2. The text uses B1-level vocabulary. The word 'earthquakes' appears, which is classified as B1. The verb 'damage' appears, which is classified as B1. Suggestion: Replace 'earthquakes' with 'big shakes'. Replace 'damage' with 'break'. Replace 'engineers' with 'builders'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9095,
+          "meaningbert": 0.8735
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:55:02.524744",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: We call big shakes of the ground earthquakes.  \nBig shakes break all structures.  \nThey can break bridges too.  \nBut big shakes do not break modern bridges often.  \nBuilders learn to design bridges for big shakes.  \nThey put bridges on ground that does not move much.",
+      "timestamp": "2025-08-31 23:55:02.525352",
+      "metadata": {
+        "text_id": "b8dc7f20-34ad-4d08-96a5-e04156c6880d",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 23:55:18.310017",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6268db0e-841a-47e3-8b34-34d92f9188c8",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5705 is below the required 0.75, indicating a loss of the core message.\n- The term \"earthquake zones\" is dropped in the rewrite, removing the focus on specific high-risk areas.\n- The phrase \"areas that are much more resistant to movement\" is oversimplified to \"ground that does not move much,\" losing the nuance of engineered resistance.\n- The subject \"engineers\" is changed to \"builders,\" which reduces technical accuracy.\nSuggestion: Reintroduce the phrase \"earthquake zones,\" restore \"areas that are much more resistant to movement,\" and use \"engineers\" to preserve the original meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8613,
+          "meaningbert": 0.5705
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:55:41.885292",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes are big shakes of the ground.  \nEarthquakes can break things.  \nThey can break bridges too.  \nBut it does not happen often with modern bridges.  \nEngineers learn to design bridges in earthquake zones.  \nThey put bridges on areas that are much more resistant to movement.",
+      "timestamp": "2025-08-31 23:55:41.885834",
+      "metadata": {
+        "text_id": "1779fc03-edc4-4109-be67-1fe24b94c6ba",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 23:55:55.749575",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b266a309-c051-4dcb-b432-c2f302a19944",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8995 is below the required 0.90.\n- The phrase \u201cEngineers learn to design bridges in earthquake zones\u201d loses the perfect tense \u201chave learned\u201d from the original, removing evidence of accumulated knowledge.\n- The generic \u201cit does not happen often\u201d replaces \u201cthis kind of collapse is relatively infrequent,\u201d dropping the explicit reference to collapse frequency.\nSuggestion: Restore \u201chave learned to design bridges,\u201d reintroduce \u201cthis kind of collapse is relatively infrequent, especially with modern bridges,\u201d and keep key terms like \u201ccollapse\u201d and \u201chave learned\u201d to maintain lexical fidelity.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8995,
+          "meaningbert": 0.838
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:56:25.936192",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes are big shakes of the ground.\nEarthquakes can break many things.\nThey can make a bridge collapse.\nThis kind of collapse does not happen often, especially with modern bridges.\nEngineers already know how to design bridges in earthquake zones.\nThey put bridges on ground that does not move much.",
+      "timestamp": "2025-08-31 23:56:25.939319",
+      "metadata": {
+        "text_id": "b306d465-b247-4813-8dab-a8f323f78b39",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 23:56:47.995709",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "dcf49da6-09ff-405a-8cba-99b8049a7858",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The classifier rated the text as B1.\n1. The word \"earthquake\" is classified at B1 level, not A2.\n2. The word \"collapse\" is at B2 level and too advanced.\n3. The phrase \"earthquake zones\" is a complex B1 noun phrase.\nSuggestion: Use only A2 vocabulary and simple structures. Replace \"earthquake\" with \"ground shake\" or \"earth shake\". Replace \"collapse\" with \"fall down\". Replace \"earthquake zones\" with \"places where the ground moves\". Simplify all sentences to short, subject-verb-object form with only A2 connectors (and, but, so, because).",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9179,
+          "meaningbert": 0.7923
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:57:20.833750",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A ground shake is a big shake of the ground.  \nA ground shake can break many things.  \nIt can make a bridge fall down.  \nThis does not happen often, especially with modern bridges.  \nEngineers know this.  \nSo they put bridges on ground that does not move much.",
+      "timestamp": "2025-08-31 23:57:20.834203",
+      "metadata": {
+        "text_id": "b2f5a678-e150-4292-a899-7492ebf96493",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:57:44.198455",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8e2d47b9-a057-445a-8644-3baff44e3675",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5723 is below the required 0.75. The writer\u2019s output alters \u201cearthquakes damage all structures, including bridges\u201d to \u201cground shake is a big shake of the ground,\u201d losing the full scope and severity of the original claim. FAIL: Fidelity Failure. The BERTScore of 0.8638 is below the required 0.90. Key technical details such as \u201cengineers have learned to design bridges in earthquake zones\u201d and \u201careas that are much more resistant to movement\u201d were simplified to \u201cengineers put bridges on ground that does not move much,\u201d dropping essential phrasing and nuance. Suggestion: Replace \u201cground shake\u201d with \u201cearthquakes.\u201d Restore \u201cdamage all structures, including bridges.\u201d Rephrase to retain the sequence and technical detail: \u201cEngineers have learned to design bridges in earthquake zones on areas that are much more resistant to movement.\u201d",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8638,
+          "meaningbert": 0.5723
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:58:11.318483",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 12,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes are strong shakes of the ground.  \nEarthquakes damage all structures, including bridges.  \nThis does not happen often, especially with modern bridges.  \nEngineers have learned to design bridges in earthquake zones.  \nThey design them on areas that are much more resistant to movement.",
+      "timestamp": "2025-08-31 23:58:11.320220",
+      "metadata": {
+        "text_id": "6c4c71e2-a80c-403b-9d02-e91f4fd32c8b",
+        "version": 12
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:58:34.315908",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3d844de8-695e-40dc-a61c-0b157c44b2f1",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. Classifier rated B1. The text uses B1 grammatical structures that exceed A2 level.\n- Sentence \"Engineers have learned to design bridges in earthquake zones.\" uses the present perfect tense \"have learned,\" which is a B1 structure. A2 only allows simple past or present simple.\n- Sentence \"They design them on areas that are much more resistant to movement.\" uses a relative clause with \"that,\" a B1-level complex structure. A2 requires simple sentences with basic connectors.\nSuggestion: Change \"have learned\" to \"learned\" or \"learn\". Remove the \"that\" clause and split into two simple sentences using and or when instead.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9233,
+          "meaningbert": 0.9448
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:58:57.596193",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 13,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes are strong shakes of the ground.  \nEarthquakes break all structures, including bridges.  \nThis does not happen often, especially with modern bridges.  \nEngineers learn to design bridges in places with many earthquakes.  \nThey build bridges in places with strong ground.  \nThe ground does not move much there.",
+      "timestamp": "2025-08-31 23:58:57.596828",
+      "metadata": {
+        "text_id": "139f84a5-7c40-4b81-8fb8-321475955b3c",
+        "version": 13
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-08-31 23:59:18.253808",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2b41c186-a552-44a0-b24c-4040f898d97e",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8869 is below the required 0.90.\nDetected deviations:\n- Key term 'earthquake zones' was replaced with 'places with many earthquakes', losing the precise technical term.\n- The phrase 'resistant to movement' was transformed into 'strong ground' and 'ground does not move much', which omits the engineering nuance about designing for resistance.\nSuggestion: Reintroduce the phrase 'earthquake zones' and restore 'resistant to movement' in your description to preserve the original terminology and detail.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8869,
+          "meaningbert": 0.7553
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:59:30.304095",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 14,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes are strong shakes of the ground.  \nEarthquakes damage all structures, including bridges.  \nBut this kind of collapse does not happen often.  \nThis is true especially for modern bridges.  \nEngineers design bridges in earthquake zones.  \nThey build them on ground that is resistant to movement.",
+      "timestamp": "2025-08-31 23:59:30.304800",
+      "metadata": {
+        "text_id": "fc41fbd0-8f47-4efd-ac67-c1a488e7f319",
+        "version": 14
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 23:59:49.638018",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b17dc28d-13ee-4c7d-b034-87d1f636bde8",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. Classifier rated B1. The text contains multiple words above A2 level:\n- The word \"collapse\" is B2 level.\n- The noun \"structures\" is not on the A2 list.\n- The adjective \"resistant\" is not on the A2 list.\n- The noun \"zones\" is not on the A2 list.\nSuggestion: Replace \"collapse\" with \"fall\"; use \"buildings\" instead of \"structures\"; change \"resistant\" to \"hard to move\"; replace \"zones\" with \"areas\".",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9051,
+          "meaningbert": 0.8843
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:00:15.528588",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 15,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes are strong shakes of the ground.  \nEarthquakes can break buildings, including bridges.  \nBut bridges do not fall often.  \nThis is true especially for modern bridges.  \nEngineers design bridges in earthquake areas.  \nThey build them on ground that is hard to move.",
+      "timestamp": "2025-09-01 00:00:15.531411",
+      "metadata": {
+        "text_id": "f141e0f4-7702-4c01-b988-233bb7c7e60c",
+        "version": 15
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 00:00:32.688730",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "99eb3089-62d8-4d18-aefe-c1916dded422",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8893 is below the required 0.90. The writer replaced key terms such as damage all structures with break buildings and areas that are much more resistant to movement with ground that is hard to move, which reduces lexical fidelity. Suggestion: Use damage instead of break and resistant to movement instead of hard to move to restore the original phrasing and raise the BERTScore.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8893,
+          "meaningbert": 0.8456
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 00:00:47.029419",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 16,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes are strong shakes of the ground.  \nEarthquakes damage all structures, including bridges.  \nBut bridges do not fall often.  \nThis is especially true for modern bridges.  \nEngineers design bridges in earthquake areas.  \nThey build them on ground that is resistant to movement.",
+      "timestamp": "2025-09-01 00:00:47.030132",
+      "metadata": {
+        "text_id": "073cdaef-c849-48f7-b330-1f3d4842ea46",
+        "version": 16
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 00:01:05.013332",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7cbd14b1-de5b-47ab-a33e-5fdcec9ddca0",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8989 is below the required 0.90. Key terms and precise phrasing were altered or dropped. The phrase \"have learned to design\" was shortened to \"design\", and \"earthquake zones\" was weakened to \"earthquake areas\". Suggestion: Restore the original wording \u2018\u2018have learned to design bridges in earthquake zones\u2019\u2019 and use the exact term \"earthquake zones\" to recover lost lexical detail and improve the BERTScore.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8989,
+          "meaningbert": 0.8652
+        }
+      }
+    }
+  ]
+}

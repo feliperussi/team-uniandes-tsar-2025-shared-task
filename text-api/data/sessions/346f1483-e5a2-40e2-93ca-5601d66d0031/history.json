@@ -1,0 +1,228 @@
+{
+  "session_id": "346f1483-e5a2-40e2-93ca-5601d66d0031",
+  "created_at": "2025-09-01 10:40:46.451396",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:40:46.471861",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "100-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some news makes us think the world is a very violent place. But there is some good news too.\n\nFrom 1945 to 1990, there were 30 big wars. These wars killed more than 100,000 people each. Today, there are still wars inside some countries. But countries now live together more peacefully.\n\nHowever, there is more terrorism in the last few years. And wars kill many normal people. They kill more normal people than soldiers.\n\nBut the numbers for normal people are not all bad. People are more likely to die from crime than from war. But the number of murders in the world went down. In the year 2000, 8 people in 100,000 were killed. In 2015, about 5 people in 100,000 were killed.",
+      "timestamp": "2025-09-01 10:40:46.471991",
+      "metadata": {
+        "text_id": "2e61127d-5d49-47bd-999a-debe21aadccb",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:40:46.480126",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "57dd3c4c-762c-4833-88e1-2efd595f700e",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Standard Violation. The text fails to adhere to the strict A2 vocabulary requirements. The structural simplification is adequate, but the lexical choices are unacceptable.\n\n- B1 Vocabulary Violation: The word 'violent' is B1 level. It was used in the sentence 'Some news makes us think the world is a very violent place.' This word is not on the A2 list and must be simplified.\n- B2 Vocabulary Violation: The word 'terrorism' is B2 level. It was used in the sentence 'However, there is more terrorism in the last few years.' This is a complex concept and its vocabulary is far outside the A2 standard. It should have been simplified or defined as a keyword.\n- Keyword Definition Failure: The 'Keywords for Definition' list was empty. A complex but central term like 'terrorism' must be identified and defined in simple A2 terms if it is to be used. This was not done.\n\nSuggestion: Replace 'violent' with a simple A2 description, such as 'a bad place with a lot of fighting'. Replace the B2 word 'terrorism' with an A2-level explanation, such as 'attacks on normal people to make them afraid'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9211,
+          "meaningbert": 0.7554
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:41:00.006926",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some news makes us think the world is a bad place with a lot of fighting. But there is some good news too.\n\nFrom 1945 to 1990, there were 30 big wars. These wars killed more than 100,000 people each. Today, there are still wars inside some countries. But countries now live together more peacefully.\n\nHowever, there are more attacks on normal people now. These attacks are to make people afraid. And wars kill many normal people. They kill more normal people than soldiers.\n\nBut the numbers for normal people are not all bad. People are more likely to die from crime than from war. But the number of murders in the world went down. In the year 2000, 8 people in 100,000 were killed. In 2015, about 5 people in 100,000 were killed.",
+      "timestamp": "2025-09-01 10:41:00.008132",
+      "metadata": {
+        "text_id": "cdb49c94-efe4-4da8-bdd7-3c0fa87acbf3",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:41:23.489125",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2671996e-82cc-4bd2-944e-6fd98ba4762f",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7307 is below the required 0.75 threshold. This indicates a failure to preserve the core message. The original text emphasizes a specific statistical relationship which your text has weakened significantly.\n\nDetected Deviations:\n- Data Omission: The original text states that deaths are 'nine times more likely' from violent crime than political conflict. Your version simplifies this to just 'more likely'. This removes the core statistical strength of the statement and is the primary reason for the low MeaningBERT score.\n- Vocabulary Violation: The word 'fighting' is classified as B1 level. All vocabulary must strictly adhere to the A2 standard. This word is too advanced.\n\nCorrective Path:\n- Suggestion: Restore the lost meaning from the 'nine times' comparison. Rephrase to show a large difference, for example: 'It is much more common for people to die from crime than from war.'\n- Suggestion: Replace the B1 word 'fighting'. Use a simpler A2 phrase like 'many problems' or 'a lot of war'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9114,
+          "meaningbert": 0.7307
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:41:43.419249",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some news makes us think the world is a bad place with a lot of war. But there is some good news too.\nFrom 1945 to 1990, there were 30 big wars. These wars killed more than 100,000 people each. Today, there are still wars inside some countries. But countries now live together more peacefully.\nHowever, there are more attacks on normal people now. These attacks are to make people afraid. And wars kill many normal people. They kill more normal people than soldiers.\nBut the numbers for normal people are not all bad. Many more people die from crime than from war. But the number of murders in the world went down. In the year 2000, 8 people in 100,000 were killed. In 2015, about 5 people in 100,000 were killed.",
+      "timestamp": "2025-09-01 10:41:43.420437",
+      "metadata": {
+        "text_id": "fd229291-0c1e-4a1b-aaa5-efa95aa8ffa0",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:42:08.195637",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f110e84d-e87e-42d6-bdf2-ccf557d63522",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7035 is below the minimum required threshold of 0.75. This indicates a failure to preserve the core message of the original text.\n\n- Primary Deviation: The original text states that deaths are 'nine times more likely to be a result of violent crime than political conflict'. Your simplification to 'Many more people die from crime than from war' loses the specific and impactful 'nine times' ratio. This is a critical loss of meaning.\n- Secondary Deviation: Your text changes 'political conflict' to 'war'. While related, these terms are not synonymous. This is an inaccurate simplification that contributes to the meaning loss.\n\nSuggestion: The core meaning of the statistic must be restored. Rephrase the sentence to communicate the 9-to-1 ratio using A2 structures. Example: 'More people die from crime than from war. For every person killed in a war, about nine people are killed by crime.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9143,
+          "meaningbert": 0.7035
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:42:33.810407",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some news makes us think the world is a bad place with a lot of war. But there is some good news too.\nFrom 1945 to 1990, there were 30 big wars. These wars killed more than 100,000 people each. Today, there are still wars inside some countries. But countries now live together more peacefully.\nHowever, there are more attacks on normal people now. These attacks are to make people afraid. And wars kill many normal people. They kill more normal people than soldiers.\nBut the numbers for normal people are not all bad. More people die from crime than from political problems. For every one person killed by political problems, nine people are killed by crime. But the number of murders in the world went down. In the year 2000, 8 people in 100,000 were killed. In 2015, about 5 people in 100,000 were killed.",
+      "timestamp": "2025-09-01 10:42:33.812557",
+      "metadata": {
+        "text_id": "ef023101-27ef-41cf-839c-5cab60fffffe",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:42:59.237303",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "bbbf6a7e-4d8e-42e5-b0bf-4b3d23a63e42",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance Failure. The text fails the deep qualitative audit due to vocabulary that exceeds the A2 level.\n\n- Vocabulary Violation: The word 'political' is B1 level. It appears twice in the phrase 'political problems'. All vocabulary must be strictly within the A2 standard. This concept is too abstract for the target reader.\n\n- Structural Complexity: The sentence 'For every one person killed by political problems, nine people are killed by crime' uses a comparative structure ('For every...') that is too complex for the A2 level. A2 requires short, simple, declarative sentences.\n\nSuggestion: Replace 'political problems'. Use a simpler A2 phrase like 'problems with the government' or 'fighting between leaders'.\n\nSuggestion: Simplify the complex sentence. Rephrase into two simple sentences. Example: 'Crime kills many more people. For each person killed by political problems, nine people are killed by crime.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.912,
+          "meaningbert": 0.7811
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:43:25.497077",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some news makes us think the world is a bad place with a lot of war. But there is some good news too.\nFrom 1945 to 1990, there were 30 big wars. These wars killed more than 100,000 people each. Today, there are still wars inside some countries. But countries now live together more peacefully.\nHowever, there are more attacks on normal people now. These attacks are to make people afraid. And wars kill many normal people. They kill more normal people than soldiers.\nBut the numbers for normal people are not all bad. More people die from crime than from fighting between leaders. The number of deaths from crime is nine times bigger. But the number of murders in the world went down. In the year 2000, 8 people in 100,000 were killed. In 2015, about 5 people in 100,000 were killed.",
+      "timestamp": "2025-09-01 10:43:25.499081",
+      "metadata": {
+        "text_id": "de56a87b-b4f3-4f24-8981-a7ff67de6c41",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 10:43:47.899248",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e7f5928d-20b1-43e8-8e47-f59c2da7e08a",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text states the murder rate fell to \"about 5.3 in 2015\". Your text changes this number to \"about 5\". This is a direct alteration of a fact and is an immediate failure.\n\nAdditional Deviations:\n\n- B1 Vocabulary Violation: The word \"fighting\" is not on the A2 word list. The phrase \"fighting between leaders\" must be rephrased using only A2 vocabulary.\n\n- B1 Structural Violation: The connector \"However\" is a B1-level word. It must be replaced with an A2-level connector, such as \"But\".\n\nSuggestion: Correct the numerical data to match the source text exactly. Replace the word \"fighting\" with a simpler A2 concept like \"problems\" or \"disagreements\". Replace \"However\" with \"But\" to maintain A2 structural compliance.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9132,
+          "meaningbert": 0.8006
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:43:59.009554",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some news makes us think the world is a bad place with a lot of war. But there is some good news too.\nFrom 1945 to 1990, there were 30 big wars. These wars killed more than 100,000 people each. Today, there are still wars inside some countries. But countries now live together more peacefully.\nBut there are more attacks on normal people now. These attacks are to make people afraid. And wars kill many normal people. They kill more normal people than soldiers.\nBut the numbers for normal people are not all bad. More people die from crime than from political problems. The number of deaths from crime is nine times bigger. But the number of murders in the world went down. In the year 2000, 8 people in 100,000 were killed. In 2015, about 5.3 people in 100,000 were killed.",
+      "timestamp": "2025-09-01 10:43:59.010123",
+      "metadata": {
+        "text_id": "578891ee-f48e-4b75-a060-1ef01692d464",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 10:44:22.262858",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "625a49b0-eeff-4244-b520-5776347c2f00",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Violation. The text fails the deep qualitative audit due to the inclusion of vocabulary above the A2 level. Deviation: Use of B1 vocabulary. The word 'political' is not on the A2 word list. It appears in the sentence: 'More people die from crime than from political problems.' Suggestion: Replace 'political problems'. Use a simpler A2 phrase. Examples: 'problems with the government' or 'problems between groups of people'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9159,
+          "meaningbert": 0.8071
+        }
+      }
+    }
+  ]
+}

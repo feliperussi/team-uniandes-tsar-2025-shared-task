@@ -1,0 +1,413 @@
+{
+  "session_id": "48587872-f1ec-4cc3-a476-7474903c407f",
+  "created_at": "2025-09-01 17:37:37.281684",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:37:37.291426",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "63-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: assistantfinalIn the past, many bridges were built from wood, so they were very easy to catch fire. This was especially true for old train bridges, because the small spark (a tiny flash of fire) made by the steel wheels and steel tracks could sometimes cause the bridge to catch fire and burn down to the ground.",
+      "timestamp": "2025-09-01 17:37:37.292451",
+      "metadata": {
+        "text_id": "93ed13bf-0aaa-437b-bb8c-d37f858dd15d",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:37:37.303010",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c450aa16-d769-43c8-9928-218181827633",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The MeaningBERT score of 0.5973 is significantly below the required 0.75 threshold. This indicates a shift in the core message. The original text's phrase 'much more susceptible to fire' implies a vulnerability and a comparison to other bridge types. The simplified phrase 'very easy to catch fire' is a more absolute statement that loses this nuance, which likely caused the drop in the meaning score. Additionally, the text failed the CEFR compliance check, receiving an 'A2' classification instead of the target 'B1'. This is due to the over-simplification of vocabulary and sentence structure. To improve, focus on retaining the original's comparative nuance. A better B1-level sentence might be: 'In the past, bridges made of wood had a higher risk of catching fire compared to other bridges.' This preserves the meaning more accurately while using appropriate B1 language.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9505,
+          "meaningbert": 0.5973
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:37:46.361195",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past, bridges built of wood had a higher risk of catching fire than bridges made of other materials. This was especially true for old train bridges, because the tiny flash produced by the steel wheels and tracks could sometimes cause the bridge to catch fire and burn down to the ground.",
+      "timestamp": "2025-09-01 17:37:46.361548",
+      "metadata": {
+        "text_id": "96aa199d-6ba3-4330-b422-74cfcfae88bd",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:38:10.590002",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "37779409-fdaa-4d36-9ac8-4818e1702360",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The MeaningBERT score of 0.6569 is significantly below the required 0.75 threshold. This indicates a shift in the core message. The primary cause is the replacement of the original's 'much more susceptible to fire' with 'had a higher risk of catching fire'. 'Susceptible' describes an inherent quality or weakness of the wood, while 'risk' describes a statistical probability. This subtle change altered the sentence's core meaning, leading to the low score. Additionally, the text failed the CEFR compliance check, being classified as B2 instead of the target B1. This is likely due to the use of complex sentence structures, such as 'bridges built of wood' and long sentences connected by 'because'. Suggestion: To fix the meaning issue, rephrase to keep the concept of susceptibility, for example: '...wood bridges could catch fire much more easily'. To fix the B2 complexity, split the second sentence: 'This was a big problem for old train bridges. A tiny flash from the steel wheels could cause the whole bridge to burn down.'",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9467,
+          "meaningbert": 0.6569
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:38:14.595516",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past, wood bridges could catch fire much more easily than bridges made of other materials. This was a big problem for old train bridges. A tiny flash from the steel wheels and tracks could cause the whole bridge to burn down to the ground.",
+      "timestamp": "2025-09-01 17:38:14.595937",
+      "metadata": {
+        "text_id": "e65a3470-3c1a-492b-ba9c-8b8fa909a3e3",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:38:32.666770",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "82d571bf-2151-4360-beae-db42f074f937",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The MeaningBERT score of 0.6293 is significantly below the required 0.75 threshold. This indicates a shift in the core message. The original text states, 'This was particularly true of old-fashioned train bridges,' which emphasizes a specific example of vulnerability. The output changes this to, 'This was a big problem for old train bridges,' which shifts the focus to the consequence rather than the example itself. This change in meaning, while subtle, is what caused the low score. Suggestion: To better preserve the original meaning, rephrase the sentence to something like, 'This was especially true for old train bridges.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9282,
+          "meaningbert": 0.6293
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:38:35.999633",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: {\"id\":\"e65a3470-3c1a-492b-ba9c-8b8fa909a3e3\",\"cefr_level\":\"B1\",\"text_id\":\"text_001\",\"text_translated\":\"In the past tense, wood bridges could catch fire much more easily than bridges made of other materials. This was especially true for old-fashioned train bridges. A tiny flash from the steel wheels and tracks could cause the whole bridge to burn to the ground.\",\"version\":3,\"created_at\":\"2025-09-01T17:38:14.595286\",\"updated_at\":\"2025-09-01T17:38:14.595294\",\"metrics_meaningbert\":null,\"metrics_cefr_compliance\":null}",
+      "timestamp": "2025-09-01 17:38:35.999908",
+      "metadata": {
+        "text_id": "2ad49883-c68c-41da-a99f-2916d25e23ea",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:38:59.704053",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "73c46113-14c4-4bd6-8ea2-bc5b70c8a6a0",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The MeaningBERT score of 0.5558 is significantly below the required 0.75 threshold, indicating a severe loss of the original message. This failure is caused by the first sentence, where 'Historically' was incorrectly replaced with 'In the past tense'. This changes the meaning from a historical context to a grammatical one, which is nonsensical. The text also fails the Fidelity check with a BERTScore of 0.8318, below the 0.90 minimum. Furthermore, it fails the CEFR Compliance check, being misclassified as C1 instead of B1, likely because the unusual phrasing confused the classifier. To fix this, replace 'In the past tense' with a correct and simple phrase such as 'In the past'.",
+        "metrics": {
+          "cefr_compliance": "C1",
+          "bertscore": 0.8318,
+          "meaningbert": 0.5558
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:39:08.882562",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past, more bridges were made of wood and could catch fire easily. This was especially true for old train bridges, where a flash from the steel wheels and tracks could cause the whole bridge to catch fire and burn to the ground.",
+      "timestamp": "2025-09-01 17:39:08.884275",
+      "metadata": {
+        "text_id": "7b9220ad-6344-428d-93e2-3a372e9400df",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:39:25.675543",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5cbce8c9-7245-45a8-b1ef-f3c39890fb6c",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The MeaningBERT score of 0.6563 is below the required 0.75 threshold, indicating a significant loss of the original message's nuance. The primary cause for this low score is likely the simplification of 'the spark created by the steel wheels' to 'a flash from the steel wheels'. The original text explains the specific cause of the fire (a spark resulting from friction), whereas the simplified version describes a more generic visual effect (a flash). This change alters the precise causal relationship, which the metric correctly identified as a deviation in meaning. To correct this, a more faithful simplification would be 'a spark from the steel wheels and tracks could cause...'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9623,
+          "meaningbert": 0.6563
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:39:30.184628",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: {\"id\":\"7b9220ad-6344-428d-93e2-3a372e9400df\",\"cefr_level\":\"B1\",\"text_id\":\"text_001\",\"text_translated\":\"In the past, more bridges were made of wood and could catch fire easily. This was especially true for old train bridges, where a spark from the steel wheels and tracks could cause the whole bridge to catch fire and burn to the ground.\",\"version\":5,\"created_at\":\"2025-09-01T17:39:08.881308\",\"updated_at\":\"2025-09-01T17:39:08.881319\",\"metrics_meaningbert\":null,\"metrics_cefr_compliance\":null}",
+      "timestamp": "2025-09-01 17:39:30.186180",
+      "metadata": {
+        "text_id": "1aa64682-202f-4986-af76-d10e531c32fe",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:39:52.707554",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5aa3eae5-6b9f-46ec-96f3-a4743c798958",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The MeaningBERT score of 0.58 is well below the required 0.75 threshold, indicating a significant shift in the core message. The change from 'susceptible to fire' (a state of vulnerability) to 'could catch fire easily' (a direct capability) likely caused this drop. The text also failed the Fidelity check with a BERTScore of 0.84, below the 0.90 minimum, due to the replacement of key phrases. Finally, the text failed CEFR compliance, being classified as C1 instead of the target B1. This is because the C1-level keyword 'spark' was retained from the original text. To achieve a B1 level, this word should have been replaced or defined. Suggestion: Rephrase to 'a tiny, hot piece from the wheels hitting the tracks'.",
+        "metrics": {
+          "cefr_compliance": "C1",
+          "bertscore": 0.8462,
+          "meaningbert": 0.5832
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:39:55.325481",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past, many bridges were built from wood and could be set on fire easily. This was especially true for old train bridges, where a small hot piece from the steel wheels hitting the steel tracks could sometimes cause the whole bridge to catch fire and burn to the ground.",
+      "timestamp": "2025-09-01 17:39:55.327158",
+      "metadata": {
+        "text_id": "9ab23fb0-3aa7-4e05-8e8c-13c439628cf1",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:40:17.927177",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "29f1733f-6ab1-48b0-a810-44e3425bcc18",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The MeaningBERT score of 0.6461 is significantly below the required 0.75 threshold. This indicates a substantial shift in the core message as interpreted by the model. The simplification of the abstract concept 'susceptible to fire' to the more direct 'could be set on fire easily', and 'spark' to 'a small hot piece', while factually correct, likely caused this drop in the semantic similarity score. Additionally, the output fails the CEFR Compliance check. The text was classified as 'A2' instead of the target 'B1'. This is because the simplification was too aggressive, relying almost exclusively on A1 and A2 vocabulary and simple sentence structures. To achieve a B1 level, consider rephrasing to retain slightly more complex vocabulary and structure, for instance: 'This was a particular problem for old train bridges, because sparks from the steel wheels could easily set the wooden structure on fire.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.947,
+          "meaningbert": 0.6461
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:40:24.613038",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Historically, many bridges were built from wood and were therefore more prone to catching fire. This was especially true of old train bridges, where sparks produced by the steel wheels on the steel tracks could sometimes set the wooden bridge on fire, causing it to burn to the ground.",
+      "timestamp": "2025-09-01 17:40:24.613447",
+      "metadata": {
+        "text_id": "40172707-1d3c-45a0-b7cd-e3fc27558f98",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:40:43.565904",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d203704b-09d8-4235-a084-820c1e3cab80",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2', which is too complex for the B1 target. The primary issue is the grammatical structure of the second sentence: 'This was especially true of old train bridges, where sparks produced by the steel wheels on the steel tracks could sometimes set the wooden bridge on fire, causing it to burn to the ground.' The final clause, 'causing it to burn to the ground,' uses a present participle which is a B2-level structure. Suggestion: Split this into two simpler sentences, such as 'Sparks... could set the wooden bridge on fire. This would cause it to burn to the ground.' Additionally, vocabulary like 'historically' and the phrase 'prone to' contribute to the B2 classification. Consider replacing them with 'In the past' and 'more likely to'.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9669,
+          "meaningbert": 0.8671
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:40:50.761900",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past, many bridges were built from wood, so they were more likely to catch fire. This was especially true of old train bridges, where sparks produced by the steel wheels on the steel tracks could sometimes set the wooden bridge on fire. This would cause it to burn to the ground.",
+      "timestamp": "2025-09-01 17:40:50.763450",
+      "metadata": {
+        "text_id": "e7a807be-b69a-4ae6-a80d-fd24c4f1656e",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:41:14.258153",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "36ec3088-a7f7-4226-b3db-2292a6dda7b5",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The MeaningBERT score of 0.6516 is below the required 0.75 threshold, indicating a significant deviation from the original text's core message. This failure is likely due to a subtle but important change in meaning in the final sentence. The original text presents 'catch fire and burn to the ground' as a single potential event. By splitting this into two sentences ('...could sometimes set the wooden bridge on fire. This would cause it to burn to the ground.'), the output changes the causal relationship. It implies the fire starting is a possibility, but the burning down is a definite result of that fire, which alters the original's nuance. To correct this, the final idea should be expressed as a single potential outcome, for example: '...sparks... could sometimes cause the wooden bridge to catch fire and burn completely.' Despite this failure, the text is factually accurate and the vocabulary simplification (e.g., 'susceptible' to 'likely') is well-executed.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9534,
+          "meaningbert": 0.6516
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:41:16.802973",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past, many bridges were built from wood, so they were more likely to catch fire. This was especially true of old train bridges, where sparks produced by the steel wheels on the steel tracks could sometimes cause the wooden bridge to catch fire and burn to the ground.",
+      "timestamp": "2025-09-01 17:41:16.805619",
+      "metadata": {
+        "text_id": "cf8bb26c-e793-4ae6-80b9-3c19e367e369",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:41:41.572112",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "52da52e2-b16f-4911-8aac-e8060a8370ab",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The MeaningBERT score of 0.6576 is below the required 0.75 threshold. This failure is likely because the simplification introduced a cause-and-effect relationship ('so') that was not explicitly stated in the original text. The original text connects two facts with 'and' ('made of wood and were much more susceptible'), whereas the output implies that being made of wood was the direct cause ('built from wood, so they were more likely'). This alters the logical structure of the sentence. Additionally, the text failed the CEFR compliance check, being classified as B2 instead of the target B1. This is due to the second sentence being too long and structurally complex for a B1 level. Suggestion: To correct the meaning, revert the connector from 'so' to 'and'. To meet the B1 requirement, split the long second sentence into two shorter, more direct sentences.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9591,
+          "meaningbert": 0.6576
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:41:43.774196",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the past, many bridges were built from wood, and they were more likely to catch fire. This was especially true of old train bridges, where sparks produced by the steel wheels on the steel tracks could sometimes cause the wooden bridge to catch fire. The bridge could then burn to the ground.",
+      "timestamp": "2025-09-01 17:41:43.775025",
+      "metadata": {
+        "text_id": "bada2858-ca24-4916-9e08-b7fb6a61e5e5",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:42:05.931896",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "af3d05f4-4d01-4a55-bd7e-8a3878646203",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The MeaningBERT score of 0.6572 is below the required 0.75 threshold, indicating a loss of the original message's nuance. This is likely because the original phrase 'much more susceptible to fire' was simplified to 'more likely to catch fire', which changes the sense of inherent vulnerability. Additionally, splitting the single event 'catch fire and burn to the ground' into two separate sentences alters the causal structure and emphasis of the original text. To improve, consider rephrasing to keep the final two actions linked, for example: '...could sometimes cause the bridge to catch fire and burn down completely.' While the text is factually correct and meets the B1 CEFR level, this subtle shift in meaning caused the failure.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9563,
+          "meaningbert": 0.6572
+        }
+      }
+    }
+  ]
+}

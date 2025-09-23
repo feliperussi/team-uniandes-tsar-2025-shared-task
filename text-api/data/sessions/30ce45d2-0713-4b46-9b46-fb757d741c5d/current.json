@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "49301753-d3bb-4f7a-9d00-1de4a4e8efd0",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Zoos have important new jobs.\nThey help animals have babies. This is called a breeding programme.\nMany countries work together on these programmes.\nThey are for endangered species. A species is a type of animal.\nEndangered means there are very few of them.\n\nIn nature, some endangered species are very few.\nThey cannot find a partner easily.\nThey cannot have babies easily.\nBad people also kill them. These people are poachers.\nAnimals lose their natural home. This home is where they live.\nOther animals eat them. These animals are predators.\n\nA good zoo helps these endangered species.\nThey can live there.\nThey can have babies there.\nIt is a safe place for them.\n\nAlso, the number of wild animals goes down.\nSo, animals in one group become too much like each other.\nThis is a danger for the animal group.\nTheir families become too similar.\n\nBreeding programmes help with this danger.\nThey are a safeguard. A safeguard is a plan to keep something safe.\nAnimals from zoos can go back to nature.\nThey help the wild animals to be more different.\nThis makes their families stronger and healthier.",
+    "version": 11,
+    "created_at": "2025-09-01 17:14:18.388630",
+    "updated_at": "2025-09-01 17:14:18.388630",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "bf6835c1-d09c-4980-8105-c275e324b7b1",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning and Fidelity Failure. The text failed to preserve the core meaning and lexical fidelity of the original. The MeaningBERT score of 0.5853 is significantly below the required 0.75, indicating a substantial loss of the original message. The BERTScore of 0.8632 is also below the required 0.90, showing a significant deviation in key vocabulary and phrasing. \n\nDeviations:\n- Meaning Preservation Failure: The original text emphasizes 'One of the most important modern functions of zoos is supporting international breeding programmes'. Your version breaks this into multiple simple sentences ('Zoos have important new jobs. They help animals have babies. Many countries work together on these programmes.'), losing the direct connection and the emphasis on 'modern functions' and 'supporting' as a unified concept. The nuanced meaning of 'genetic diversity' was also diluted to 'be more different' and 'families stronger and healthier', which is an interpretation rather than a direct preservation of the original's specific meaning.\n- Lexical Fidelity Failure: Key terms and phrases from the original were replaced or omitted, leading to the low BERTScore.\n  - 'modern functions' was replaced with 'new jobs'.\n  - 'supporting international breeding programmes' was broken down and the concept of 'supporting' was lost.\n  - 'particularly for endangered species' lost the emphasis of 'particularly'.\n  - 'rarest species' was simplified to 'endangered species are very few', losing the specific nuance of 'rarest'.\n  - 'difficulty in finding mates and breeding' was broken into 'cannot find a partner easily. They cannot have babies easily.', losing the original phrasing.\n  - 'threatened by poachers, loss of their habitat and predators' was fragmented into separate sentences, losing the concise 'threatened by' structure.\n  - 'secure environment' was simplified to 'safe place'.\n  - 'populations becoming too genetically similar' lost the specific term 'populations' and 'genetically'.\n  - 'increase genetic diversity' was simplified to 'be more different' and 'makes their families stronger and healthier', losing the precise scientific term 'genetic diversity'.\n\nSuggestion: Rephrase the text to maintain a closer lexical and semantic link to the original. Ensure that the core concepts, such as 'modern functions' and 'genetic diversity', are conveyed with greater precision, even if simplified. Do not break down complex but essential phrases into overly fragmented sentences if it dilutes the original meaning. Focus on preserving the specific information and relationships between ideas presented in the original text.",
+    "metrics": {
+      "cefr_compliance": "B1",
+      "bertscore": 0.8632,
+      "meaningbert": 0.5853
+    },
+    "created_at": "2025-09-01 17:14:43.637753"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "f51cc61a-c316-4f72-8912-007cf7fd08db",
+    "cefr_level": "A2",
+    "text_id": "85-a2",
+    "text_translated": "A `species` is a group of animals or plants that are the same kind.\n\nZoos do important work now. They help animals have babies. This is for many countries. It is especially for `species` in danger.\n\nIn nature, some `species` are very rare. They cannot find a partner easily. They cannot have babies easily. Also, bad people hunt them. They lose their homes. Other animals hunt them.\n\nA good zoo helps these `species`. They can live there. They can have babies there. It is a safe place.\n\nAlso, fewer wild `species` live in nature. So, the animals become too much alike. This is a problem for their family.\n\nHaving babies in zoos helps. Animals from zoos can go back to nature. This makes the animal families more different. This is good for them.",
+    "version": 1,
+    "created_at": "2025-09-01 17:05:59.192668",
+    "updated_at": "2025-09-01 17:05:59.192672",
+    "metrics_meaningbert": 0.5955,
+    "metrics_cefr_compliance": "A2"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "63baf663-17fb-458b-b66a-cbbd9ca48b0a",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Many companies work in different countries.  \nThey often use English to talk.  \nThe global business community often uses English.  \nPeople do business across international borders.  \nBusiness etiquette is the rules for work.  \nThese rules can be different in each country.  \nIf you do not know a country's rules, you may think badly.  \nYou may think badly about people.  \nYou may also have problems when people talk.  \nKnowing a country's rules can help avoid these problems.  \nWe will look at three simple areas of business etiquette.",
+    "version": 11,
+    "created_at": "2025-09-01 17:59:28.643881",
+    "updated_at": "2025-09-01 17:59:28.643884",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "2f096085-ab46-4dcb-82a6-70cd1d36162b",
+    "approval": "FAIL",
+    "grade": 1,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5905 is catastrophically below the required 0.75 threshold. This indicates a severe loss of the original text's core message.\n\n- Primary Failure (MeaningBERT): The original text explains that a lack of cultural understanding leads to specific negative consequences: 'unfair judgements, misunderstandings and breakdowns in communication'. Your version reduces this to the vague and simplistic phrases 'you may think badly' and 'have problems when people talk'. This completely fails to capture the severity and nature of the consequences, which is the central point of the original paragraph.\n\n- Secondary Failure (BERTScore): The BERTScore of 0.8487 is below the 0.90 minimum. This is a direct result of replacing specific, meaningful phrases from the original with overly simple words, losing lexical fidelity.\n\n- Structural Failure: The output is a list of disconnected, choppy, and repetitive sentences. For example, 'They often use English to talk' is immediately followed by the redundant 'The global business community often uses English'. This disjointed structure prevents the text from conveying the logical relationship between ideas (cause and effect) present in the original.\n\n- Vocabulary Failure: The B1-level word 'global' was used. This is a direct violation of the A2 vocabulary standard.\n\nSuggestion: You must rewrite the text to restore the original meaning. Combine sentences to show cause and effect. Replace 'think badly' with a phrase that captures the concepts of 'unfair judgements' and 'misunderstandings'. Remove the B1 word 'global'. Eliminate all redundant sentences.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8487,
+      "meaningbert": 0.5905
+    },
+    "created_at": "2025-09-01 17:59:55.703606"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "77b908ed-0d8c-4503-ab7f-a6d1ccdce876",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Today many companies work in different countries.  \nMost companies use English to talk.  \nInternational borders are places where countries meet.  \nBusiness etiquette is the rules for work.  \nPeople from different cultures have different cultural norms.  \nPeople also have different nuances in communication.  \nIf you do not know10 the rules, people may think you bad.  \nNot knowing the rules can cause problems with understanding.  \nIt can also cause problems when people talk to each other.  \nThese facts can help you work better.  \nWe will look at three simple areas of business etiquette.",
+    "version": 7,
+    "created_at": "2025-09-01 17:57:02.105376",
+    "updated_at": "2025-09-01 17:57:02.105376",
+    "metrics_meaningbert": 0.7363,
+    "metrics_cefr_compliance": "A2"
+  }
+}

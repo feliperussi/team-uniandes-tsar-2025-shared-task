@@ -1,0 +1,413 @@
+{
+  "session_id": "d814a9d1-b62f-462f-888a-124e1b73fa47",
+  "created_at": "2025-09-01 17:21:44.608636",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:21:45.520027",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "86-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: These accidents are very uncommon.  \nBoats can make a bridge fall down.  \nTrains can also make a bridge fall down.  \nTrains hit the bridge fast.  \nThat fast hit can make the bridge fall down.  \nBoats are very heavy.  \nTheir heavy weight can make the bridge fall down.  \nThis can happen even if the boat goes slowly.  \nThe best way to avoid bridge failures is to plan.  \nNew tools can find weak parts in bridges.  \nSafer work places can also help.  \nBetter designs can make these bad accidents less likely.",
+      "timestamp": "2025-09-01 17:21:45.520173",
+      "metadata": {
+        "text_id": "6a74636e-d7c1-43d4-92aa-8fa48c81a8fc",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:21:45.555728",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a92ab73b-0feb-4c73-a8e1-9716451160cd",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The submission fails on two critical metrics. The MeaningBERT score of 0.7061 is below the required 0.75 threshold. This indicates a failure to preserve the core message. The original text's central point is the *contrast* between why trains (velocity) and boats (mass) cause collapses. Your version presents these as separate, disconnected facts, losing the comparative meaning. Additionally, the BERTScore of 0.8756 is below the 0.90 threshold, indicating a significant loss of factual phrasing. Key terms like 'velocity', 'mass', and 'modern technologies' were oversimplified into 'fast hit', 'heavy weight', and 'new tools', which strips the text of necessary A2-level detail. The simplification is too extreme and has damaged the fidelity of the information. Suggestion: Restore the core contrast. Use a sentence like 'Trains cause problems because of their speed, but boats cause problems because of their weight.' This preserves the meaning while remaining simple. Re-evaluate vocabulary to retain more of the original's specific detail without exceeding the A2 level.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8756,
+          "meaningbert": 0.7061
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:21:53.592122",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: These accidents are very rare.  \nBoats can make a bridge fall down.  \nTrains can make a bridge fall down.  \nTrains cause problems because of their speed.  \nBoats cause problems because of their weight.  \nEven a slow boat can cause a collapse.  \nThe best way to avoid bridge failures is to plan.  \nNew tools can find weak parts in bridges.  \nSafer workplaces can also help.  \nBetter designs can make these accidents less likely.",
+      "timestamp": "2025-09-01 17:21:53.593028",
+      "metadata": {
+        "text_id": "e46109d0-5ff9-4012-afc5-4db7d83c08ef",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:22:17.392096",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "343ed6b3-080a-4323-a05e-3794327d519a",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8777 is below the required 0.90. This indicates a significant loss of key phrasing from the original text, which is an immediate failure of the diagnostic protocol.\n\n- Fidelity Loss: Key terms were oversimplified, causing the score drop. For example, 'velocity of the impact' became 'speed' and 'modern technologies' became 'new tools'. While the meaning is similar, the lexical fidelity is too low.\n- CEFR Compliance Failure: The text is classified as B1, not the required A2. This is a critical error.\n- Vocabulary Violation (B2): The word 'collapse' is B2 level. It must be replaced with an A2 alternative like 'fall down'.\n- Vocabulary Violation (B1): The word 'rare' is B1 level. It must be replaced with an A2 alternative like 'do not happen often'.\n- Suggestion: Replace all words above the A2 level immediately. The word 'collapse' must be replaced with 'fall down'. The word 'rare' must be replaced with a simpler phrase like 'do not happen very often'. Re-evaluate phrasing to increase fidelity to the original text without increasing complexity.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8777,
+          "meaningbert": 0.8638
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:22:22.173783",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: These accidents do not happen very often.  \nBoats can make a bridge fall down.  \nTrains can make a bridge fall down.  \nTrains cause problems because of the speed of the hit.  \nBoats cause problems because of their weight.  \nEven a slow boat can cause a bridge to fall down.  \nThe best way to avoid bridge problems is to plan.  \nModern tools can find weak parts in bridges.  \nSafer workplaces can also help.  \nBetter designs can make these accidents less likely.",
+      "timestamp": "2025-09-01 17:22:22.173984",
+      "metadata": {
+        "text_id": "b02b38d7-3ea0-4b20-94f1-9bad79eb89af",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:22:49.030080",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3dffb43f-8980-4800-8fc0-f03d0cf7b915",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for this failure is the MeaningBERT score of 0.6976, which is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\n- MeaningBERT Failure: The original text contrasts the different reasons for collapse (train velocity vs. boat mass). Your version presents these as separate, disconnected facts, losing the essential comparative meaning.\n\n- Fidelity Failure: The BERTScore of 0.877 is below the 0.90 minimum. This is a direct result of excessive simplification. Key terms like 'collapse', 'velocity', 'mass', and 'structural weakness' were replaced with overly basic phrases like 'fall down', 'speed', 'weight', and 'weak parts', which destroyed the lexical fidelity to the source material.\n\n- Structural Fragmentation: The original text links the three solutions together. By breaking them into three separate, simple sentences, you have fragmented the message and lost the idea that they are a combined approach to safety.\n\nSuggestion: Rephrase to restore the contrast between why trains and boats cause problems. Re-integrate some of the short sentences using simple connectors like 'and' to better reflect the relationships between ideas in the original text. Avoid replacing every specific term with its most basic synonym; the goal is simplification, not the complete erosion of meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.877,
+          "meaningbert": 0.6976
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:22:54.601227",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: These accidents are very rare.  \nTrains can cause a bridge collapse because of impact velocity.  \nBoats can cause a bridge collapse because of their large mass.  \nEven a slow boat can cause collapse.  \nThe best way to avoid bridge collapse is to plan.  \nModern tools can detect structural weakness.  \nSafer workplaces also help.  \nBetter designs also help.  \nPlanning, tools, safer workplaces and better designs together reduce accidents.",
+      "timestamp": "2025-09-01 17:22:54.601467",
+      "metadata": {
+        "text_id": "6d249da1-6d7b-40dc-aa82-11bd23b00bf1",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:23:16.914377",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "bdec9c29-e187-421d-a4db-ed259b650b8a",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8802 is below the required 0.90 threshold. This indicates an unacceptable loss of lexical detail from the original text. This failure is directly caused by the subsequent CEFR compliance failure.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is a critical error.\n- Vocabulary Violation: The text is saturated with vocabulary above the A2 level. Words like 'collapse', 'impact', 'velocity', 'mass', 'detect', 'structural', and 'weakness' are not A2-compliant. They must be replaced.\n- Inadequate Simplification: You identified the difficult words but failed to replace them with simple A2 alternatives.\n\nSuggestion: You must aggressively simplify all non-A2 vocabulary. Do not use words from the B1, B2, or C1 lists. Rephrase complex concepts using only A2 words. For example, 'impact velocity' must become 'how fast the train hits the bridge'. 'Detect structural weakness' must become 'find parts that are not strong'. 'Collapse' must become 'fall down'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8802,
+          "meaningbert": 0.8527
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:23:37.156844",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: These accidents are not common.  \nTrains can make a bridge fall down.  \nThis is because of how fast the train hits the bridge.  \nBoats can make a bridge fall down because they are heavy.  \nEven a slow boat can make a bridge fall down.  \nThe best way to avoid a bridge falling down is to plan.  \nModern tools can find parts that are not strong.  \nSafer workplaces also help.  \nBetter designs also help.  \nPlanning, tools, safer workplaces and better designs together reduce accidents.",
+      "timestamp": "2025-09-01 17:23:37.157238",
+      "metadata": {
+        "text_id": "1d7195da-1895-4268-8231-67b98a2ebd3e",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:24:03.080105",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2fd80d2f-0036-492c-95cb-2be06277d4f2",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6184 is significantly below the required 0.75 threshold. The BERTScore of 0.8719 is also below the required 0.90. This indicates a severe loss of the original text's core message and specific details due to oversimplification.\n\nThe phrase 'extremely rare' was reduced to 'not common', which fails to communicate the very low frequency of these events.\nThe specific concepts of 'velocity of the impact' and 'very large mass' were replaced with the generic terms 'how fast' and 'heavy'. This loses the precise scientific meaning of the original.\n'Structural weakness' was simplified to 'parts that are not strong', which is a vague and inadequate replacement for the technical term.\nThe final three sentences are choppy and repetitive ('Safer workplaces also help. Better designs also help.'). This structure is too simplistic and damages the flow of information.\n\nSuggestion: Restore the lost meaning. Rephrase to explain the concepts without losing them entirely. For example, explain 'velocity' as 'the high speed of the train's crash'. Combine the final sentences to read: 'Using modern tools to find weak parts, making workplaces safer, and creating better designs can help reduce these accidents.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8719,
+          "meaningbert": 0.6184
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:24:10.975815",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: These accidents are extremely rare.  \nTrains can make a bridge collapse.  \nThis happens because of the very high speed of the train\u2019s impact.  \nBoats can make a bridge collapse.  \nThey have a very large mass.  \nEven a slow boat can cause a collapse.  \nThe best way to avoid a bridge collapse is to plan.  \nModern tools can find weak parts of a bridge.  \nSafer workplaces help.  \nBetter designs help.  \nUsing modern tools to find weak parts helps.  \nMaking workplaces safer and creating better designs also helps.  \nThese actions can reduce accidents.",
+      "timestamp": "2025-09-01 17:24:10.976255",
+      "metadata": {
+        "text_id": "473350ed-73eb-47fe-aa2c-8f57747ca1fb",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:24:39.856037",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b736bbc9-1e9f-4ef1-8b50-0ccc936c0772",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8738 is below the required 0.90 threshold. This indicates a significant loss of key phrasing from the original text.\n\n- Primary Failure (BERTScore): The score is too low because specific phrases from the original were oversimplified, losing lexical detail. For example, 'detect structural weakness' became 'find weak parts', and 'safer working environments' became 'safer workplaces'. This is not a faithful A2 simplification.\n- Secondary Failure (CEFR Compliance): The text was classified as B1, not A2. This is an automatic failure.\n- Vocabulary Violation: The B1 classification is a direct result of using unapproved vocabulary. The words 'rare' (B1), 'impact' (B1), 'collapse' (B2), and 'mass' (B2) are all above the A2 level. The gerund 'making' is also a B2 structure.\n- Structural Flaw: The text is unnecessarily repetitive. The sentences 'Using modern tools to find weak parts helps' and 'Making workplaces safer and creating better designs also helps' repeat information already stated.\n\nSuggestion: Remove all B1/B2 vocabulary immediately. Replace 'collapse' with 'fall down'. Replace 'rare' with 'does not happen often'. Replace 'impact' with 'hit'. Replace 'mass' with 'how big and heavy they are'. Remove the final redundant sentences and combine the ideas into a single, simple concluding sentence.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8738,
+          "meaningbert": 0.8517
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:24:47.888711",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: These accidents do not happen often.  \nTrains can make a bridge fall down.  \nThis happens because the train hits the bridge fast.  \nBoats can make a bridge fall down.  \nBoats are very big and heavy.  \nEven a slow boat can make a bridge fall down.  \nThe best way to avoid a bridge fall down is to plan.  \nModern tools can find weak parts of a bridge.  \nSafer work places help.  \nBetter designs help.  \nAll these actions can reduce accidents.",
+      "timestamp": "2025-09-01 17:24:47.889374",
+      "metadata": {
+        "text_id": "21af3b18-c17b-47fd-973a-cd2187acfe36",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:25:19.095319",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8e20e467-f2fd-46ba-8ee4-130af5a7fc65",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6281 is significantly below the required 0.75 threshold. This is the primary reason for failure.\n\n- Fidelity Failure: The BERTScore of 0.8714 is also below the 0.90 minimum. This indicates that your simplification has removed too much of the original text's specific vocabulary and phrasing.\n- Loss of Core Message: The original text contrasts the two different reasons for bridge collapse (train speed vs. boat weight). Your version lists these as separate facts, which loses the essential meaning of the comparison.\n- Structural Oversimplification: Breaking every concept into a separate, short sentence has damaged the text. The original states that technologies, safe environments, and better designs *all* help together. Your version, 'Safer work places help. Better designs help.', presents these as disconnected facts, losing the idea of a combined solution.\n\nSuggestion: Rephrase to restore the core contrast between why trains and boats are dangerous. Suggestion: Combine the final sentences using 'and' to show that the solutions work together. Suggestion: The simplification was too aggressive and must be revised to better reflect the source text's meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8714,
+          "meaningbert": 0.6281
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:25:31.307160",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: These accidents do not happen often.  \nTrains can make a bridge fall down.  \nThis happens because the train hits fast.  \nBoats can make a bridge fall? Wait we need \"bridge fall down\".  \nBoats can make a bridge fall down.  \nThis happens because boats are heavy.  \nEven a slow boat can make a bridge fall down.  \nModern tools can find weak parts of a bridge.  \nSafer work and better designs help together.  \nAll these actions can avoid a bridge fall down and reduce accidents.",
+      "timestamp": "2025-09-01 17:25:31.309093",
+      "metadata": {
+        "text_id": "51c9ab8a-ec70-4f86-8249-d453360b9177",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:25:56.010423",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "90d67f29-50b1-4aae-8f76-5aa111acc82c",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The output contains an unedited writer's note: \"Boats can make a bridge fall? Wait we need \"bridge fall down\".\" This introduces text that is not part of the simplified message and is an instant disqualification.\n\nFAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5816 is critically below the required 0.75 threshold. This indicates a severe failure to preserve the core message of the original text.\n\nFAIL: Fidelity Failure. The BERTScore of 0.8585 is below the required 0.90. This shows a significant loss of key words and phrasing from the original source.\n\n- Deviation: The text includes a writer's internal thought process. This is unacceptable.\n- Deviation: The simplification is too extreme, resulting in catastrophic metric scores for meaning and fidelity. The concept of accidents being \"extremely rare\" is reduced to \"do not happen often,\" which loses the original emphasis.\n- Deviation: The phrase \"avoid a bridge fall down\" is grammatically incorrect.\n\nSuggestion: Remove all notes and non-content text from the final output. The text must be clean. Suggestion: Re-write the text to be less simplistic. While using A2 vocabulary, you must retain the core concepts to meet the meaning and fidelity score requirements. Suggestion: Correct the grammatical structure. Use a phrase like \"stop a bridge from falling down\".",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8585,
+          "meaningbert": 0.5816
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:26:03.219658",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: These accidents are very rare.  \nTrains can make a bridge fall down.  \nThis happens because the train hits fast.  \nBoats can also make a bridge fall down.  \nThis happens because boats are heavy.  \nEven a slow boat can make a bridge fall down.  \nModern tools can find weak parts of a bridge.  \nSafer work and better designs help reduce accidents.  \nAll these actions can stop a bridge from falling down.",
+      "timestamp": "2025-09-01 17:26:03.220045",
+      "metadata": {
+        "text_id": "70f3c8f0-26c4-468d-a624-2f90f7160744",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:26:29.074475",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "68adf48a-5a85-43a2-8447-fca8c49dd1da",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8704 is below the required 0.90 threshold. This indicates an excessive loss of key words and phrasing from the original text.\n\n- Fidelity Loss: The score is low because key concepts were oversimplified, losing lexical connection to the source. For example, 'modern technologies that can detect structural weakness' became 'Modern tools can find weak parts'. While simpler, the fidelity to the original phrasing is too low.\n- Vocabulary Violation: The B1 word 'rare' was used in the output ('These accidents are very rare.'). An A2 text must not contain unapproved B1 vocabulary. This is a clear violation of the CEFR A2 standard.\n\nSuggestion: Replace the B1 word 'rare' with an A2 phrase like 'do not happen often'. Rephrase sentences to retain more key terms from the original text while maintaining A2 structure. For instance, 'Safer work and better designs help reduce accidents' could be 'Making work safer and using better designs can help reduce these accidents' to improve lexical fidelity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8704,
+          "meaningbert": 0.8013
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:26:37.886939",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: These accidents do not happen often.  \nTrains can make a bridge collapse.  \nThis happens because the train hits fast.  \nBoats can also make a bridge collapse.  \nThis happens because boats are heavy.  \nEven a slow boat can make a2 bridge collapse.  \nModern tools can detect structural weakness of a bridge.  \nMaking work safer and using better designs can help reduce these accidents.  \nAll these actions can stop a bridge from collapsing.",
+      "timestamp": "2025-09-01 17:26:37.889220",
+      "metadata": {
+        "text_id": "4f6a41b4-c095-417d-8d6a-bcf618331776",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:27:05.404372",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d53e8671-c926-4dc5-a0f1-6b4256d4f88d",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6497 is significantly below the required 0.75 threshold. The original text states that modern methods can 'help to reduce' accidents, but your output claims they can 'stop a bridge from collapsing'. This is a factual overstatement and a critical change in meaning. The text also fails the fidelity check, with a BERTScore of 0.8725, below the required 0.90.\n\n- CEFR Compliance Failure: The text was classified as B1, not A2. This is a direct violation of the core requirement.\n- Vocabulary Violation: The text uses multiple words above the A2 level. 'detect' (B1), 'structural' (C1), and 'weakness' (B1) are unacceptable. These words must be replaced with simple A2 descriptions.\n- Structural Violation: The sentence 'Making work safer and using better designs can help reduce these accidents' uses gerunds ('Making', 'using') as the subject. This is a B1-level grammatical structure.\n- Typographical Error: The text contains a typo: 'a2 bridge'.\n\nSuggestion: Rephrase the final sentence to accurately reflect the meaning of 'reduce', not 'stop'. Replace all B1 and C1 vocabulary. The phrase 'detect structural weakness' must be simplified to A2 terms, such as 'find problems with the bridge'. Break the complex sentence into two or more simple sentences. Correct the typo.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8725,
+          "meaningbert": 0.6497
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:27:12.121145",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: These accidents do not happen often.  \nTrains can make a bridge collapse.  \nThis happens because the train moves fast.  \nBoats can also make a bridge collapse.  \nThis happens because boats are heavy.  \nEven a slow boat can make a bridge collapse.  \nNew tools can find bad parts of a bridge.  \nSafe work and better designs can help reduce these accidents.",
+      "timestamp": "2025-09-01 17:27:12.122121",
+      "metadata": {
+        "text_id": "37095f7b-d86c-4f40-b457-cd3f13a27050",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:27:34.806613",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "10c330da-3ecb-4f94-85db-10463c4ba658",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6438 is significantly below the required 0.75 threshold. The simplification has removed too much of the original text's core message.\n\n- Fidelity Failure: The BERTScore of 0.872 is also below the required 0.90. Key concepts like 'velocity of the impact' and 'very large mass' were oversimplified to 'moves fast' and 'are heavy', losing critical lexical detail.\n- Omission of Key Information: The original text states 'The best way to avoid bridge failures is to plan for them.' Your version completely omits the concept of 'planning', which is a central point.\n- Loss of Nuance: The original text contrasts the different reasons for collapse (speed vs. weight). Your version lists them separately but loses this direct comparison, which was a key part of the original's structure and meaning.\n- Inaccurate Simplification: 'safer working environments' was reduced to 'safe work', which is not an equivalent concept.\n\nSuggestion: Re-write to restore the omitted concept of 'planning'. Rephrase the sentences about trains and boats to better contrast the reasons for the collapse. Use more precise A2 vocabulary to improve fidelity, for example, 'weak parts' instead of 'bad parts'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.872,
+          "meaningbert": 0.6438
+        }
+      }
+    }
+  ]
+}

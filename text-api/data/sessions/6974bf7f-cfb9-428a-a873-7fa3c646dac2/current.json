@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "5212fbe2-bfb1-46bf-91ec-aeb6f3fa90ae",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "When the ground shakes, it damages all buildings. It also damages bridges. But bridges do not fall down very often. This is not common with new bridges. Engineers build these bridges on strong ground. This ground does not move a lot.",
+    "version": 11,
+    "created_at": "2025-08-31 20:38:56.453879",
+    "updated_at": "2025-08-31 20:38:56.453899",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "0d41d91e-2435-41c6-9bb9-0e5df4b230ed",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6102 is significantly below the required 0.75 threshold. This indicates a severe loss of the original text's core message. The BERTScore of 0.8994 is also below the minimum 0.90, showing a loss of key phrasing.\n\n- The primary failure is the loss of nuance. The original states 'Engineers have learned to design bridges'. Your version, 'Engineers build these bridges', removes the critical concept of acquired knowledge and intentional design, which is a key part of the original meaning.\n- The simplification of 'structures, including bridges' to 'buildings. It also damages bridges' is too severe. It breaks the direct relationship that a bridge is a type of structure, weakening the logical connection.\n\nSuggestion: Rephrase to restore the lost concepts. The text must convey that engineers use special knowledge. The text must also convey that bridges are one example of a larger group of things that can be damaged.\nSuggestion: A better phrasing would be: 'Engineers now know how to build safer bridges. They build them on strong ground that does not move a lot.'",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8994,
+      "meaningbert": 0.6102
+    },
+    "created_at": "2025-08-31 20:39:20.620576"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "2b1224ce-8d59-4d99-a837-1202d8cc1b74",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Earthquakes can break bridges. But bridges do not fall down very often. This is not common with new bridges. Engineers now build bridges in a special way. They build them on ground that is much stronger. This ground moves less during an earthquake.",
+    "version": 6,
+    "created_at": "2025-08-31 20:35:32.899670",
+    "updated_at": "2025-08-31 20:35:32.899674",
+    "metrics_meaningbert": 0.6143,
+    "metrics_cefr_compliance": "A2"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "c06b2ed8-f33a-42b0-a8bc-e2c089630b82",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "The Hunger Games happen every year. The Capitol is the main city. It controls the districts. The districts are small parts of the country. The Hunger Games punish the districts because they tried to fight the Capitol. Every year, the Capitol chooses one boy and one girl from each district. They are between 12 and 18 years old. The Capitol picks them by a game of chance. These chosen young people are called tributes. The tributes fight each other. Only one tribute can live in the end. Everyone in the country must watch the Hunger Games on television.",
+    "version": 2,
+    "created_at": "2025-08-31 23:11:15.478047",
+    "updated_at": "2025-08-31 23:11:15.478048",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "e37d7ed6-b7c8-4be1-bbff-b96f86245f8d",
+    "approval": "FAIL",
+    "grade": 4,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score is 0.6364, which is well below the required threshold of approximately 0.75. This indicates a significant loss of the original core message. Specifically, the original text emphasizes the Hunger Games as a punishment by the Capitol for rebellion, but the writer's output softens this to 'punish the districts because they tried to fight the Capitol,' which slightly changes the political weight and intent. Also, the phrase 'the Capitol is the main city' inaccurately simplifies 'Capitol' from the original text, which is a proper noun referencing the seat of power, not just a 'main city.' Furthermore, the complex concept of a deadly battle is simplified to 'fight each other' without conveying 'only one person can survive' as a brutal survival event with the same explicitness. Although the BERTScore of 0.9151 passes, the meaning loss due to oversimplifications and inaccurate representations causes failure. Although the CEFR classifier rated the text as A2, the vocabulary includes multiple B1-level words such as 'punish,' 'district,' and a missing proper explanation for 'Capitol' causes ambiguity. Also, some sentences such as 'The Capitol is the main city' are awkward and not fully accurate. Suggestion: Maintain the political punishment context explicitly, clarify 'Capitol' as the place of power, and restore the gravity of 'only one person can survive' with simple but precise phrases. Avoid introducing inaccuracies like calling the Capitol merely a city and preserve the original message's intensity.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.9151,
+      "meaningbert": 0.6364
+    },
+    "created_at": "2025-08-31 23:11:32.088221"
+  },
+  "attempt_number": 2,
+  "best_attempt": {
+    "id": "c06b2ed8-f33a-42b0-a8bc-e2c089630b82",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "The Hunger Games happen every year. The Capitol is the main city. It controls the districts. The districts are small parts of the country. The Hunger Games punish the districts because they tried to fight the Capitol. Every year, the Capitol chooses one boy and one girl from each district. They are between 12 and 18 years old. The Capitol picks them by a game of chance. These chosen young people are called tributes. The tributes fight each other. Only one tribute can live in the end. Everyone in the country must watch the Hunger Games on television.",
+    "version": 2,
+    "created_at": "2025-08-31 23:11:15.478047",
+    "updated_at": "2025-08-31 23:11:15.478048",
+    "metrics_meaningbert": 0.6364,
+    "metrics_cefr_compliance": "A2"
+  }
+}

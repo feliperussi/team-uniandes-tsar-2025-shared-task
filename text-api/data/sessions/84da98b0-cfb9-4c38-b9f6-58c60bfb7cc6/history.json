@@ -1,0 +1,413 @@
+{
+  "session_id": "84da98b0-cfb9-4c38-b9f6-58c60bfb7cc6",
+  "created_at": "2025-09-01 17:53:14.285290",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:53:18.115494",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "02-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Big ground shakes hurt all buildings.  \nThey also hurt bridges.  \nLuckily, bridges do not fall down often.  \nThis is because new bridges are less likely to fall.  \nEngineers make bridges in shake areas.  \nThey build them on strong ground.  \nThe ground does not move much.",
+      "timestamp": "2025-09-01 17:53:18.115600",
+      "metadata": {
+        "text_id": "643a65f7-e917-4c92-9881-e00cc5785d36",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:53:19.008363",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a3cfa254-1cd1-4bc3-b20c-ad718e601e32",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6826 is critically below the required 0.75 threshold. This indicates a severe loss of the original text's core message.\n\n- Primary Deviation (Meaning): The original text states engineers design bridges to be 'resistant to movement'. Your version, 'They build them on strong ground,' is a different and factually simpler concept. The core idea of active design and resistance has been completely lost.\n\n- Secondary Deviation (Fidelity): The BERTScore of 0.8671 is below the required 0.90. This is a direct result of removing essential vocabulary. Key terms like 'structures', 'collapse', 'design', and 'resistant' were replaced with overly simplistic words, causing a significant loss of lexical fidelity.\n\n- Vocabulary Deviation: The word 'damage' was replaced with 'hurt'. This substitution weakens the meaning and does not accurately convey the physical impact on a structure.\n\nSuggestion: The text must be rewritten to restore the original meaning. You must reintroduce the concept of engineers designing things to be strong against movement. The simplification was too aggressive and destroyed the central point of the source text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8671,
+          "meaningbert": 0.6826
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:53:22.832769",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes shake and damage all buildings.  \nThey also damage bridges.  \nLuckily, bridges do not fall often.  \nThis is because new bridges are less likely to fall.  \nEngineers design bridges for shake areas.  \nThey make them stay strong when the ground moves.",
+      "timestamp": "2025-09-01 17:53:22.832937",
+      "metadata": {
+        "text_id": "3f2913d6-97b1-47a8-86ac-7cdf965f32ed",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:53:42.104699",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "551c5523-ab3c-41d7-977f-fefd25c89cda",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8814 is below the required 0.90. This is an instant failure as it indicates a significant loss of key words and phrasing from the original text.\n\n- Fidelity Loss: The low BERTScore is a direct result of oversimplification. The original text's 'structures' was reduced to 'buildings', losing the broader meaning. 'Collapse' was reduced to 'fall', and 'resistant to movement' became 'stay strong', which loses lexical precision.\n\n- Vocabulary Violation: The word 'damage' is B1 level. It was used twice in the output. This is a clear violation of the A2 standard. All vocabulary must be strictly A2 or below.\n\n- Suggestion: Replace the B1 word 'damage' with an A2 alternative like 'break' or 'hurt'. To improve the BERTScore, rephrase to better reflect the original's specific terms while maintaining A2 simplicity. For example, change 'buildings' to 'buildings and other things' to better capture the meaning of 'structures'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8814,
+          "meaningbert": 0.7877
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:53:53.328992",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes shake and break all buildings and other things.  \nThey also shake and break bridges.  \nLuckily, bridges do not fall often.  \nThis is because new bridges are less likely to fall.  \nEngineers design bridges for earthquake areas.  \nThey put them on ground that does not move much.",
+      "timestamp": "2025-09-01 17:53:53.329308",
+      "metadata": {
+        "text_id": "5c648c4b-f3b6-4e60-bcc4-9b35660cbc7d",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:54:19.619317",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "732e5d4d-adcd-4a9d-be6f-e76a9dc2ca01",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.88 is below the required 0.90. This indicates a significant loss of key words from the original text. The term 'structures' was replaced with 'buildings and other things', and 'resistant to movement' was replaced with 'does not move much'. This oversimplification caused the fidelity score to drop below the minimum threshold.\n\n- Vocabulary Violation: The B1 keyword 'earthquake' was used but not defined. All B1-level terms central to the text must be identified and explained in simple A2 terms.\n- Lexical Loss: The replacement of 'structures' and 'resistant to movement' with overly simple phrases resulted in a text that does not accurately reflect the original's vocabulary, leading to the metric failure.\n\nSuggestion: Retain more of the original key vocabulary while simplifying the structure. The word 'structures' could be simplified to 'big things like buildings and bridges'. The word 'earthquake' must be defined. For example: 'An earthquake is when the ground shakes very hard'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8848,
+          "meaningbert": 0.8058
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:54:27.671517",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes very hard.  \nEarthquakes shake big things like buildings and bridges.  \nThey can damage these big things.  \nLuckily, bridges do not fall often.  \nThis is because new bridges are less likely to fall.  \nEngineers design bridges for earthquake areas.  \nThey put them on ground that is resistant to movement.",
+      "timestamp": "2025-09-01 17:54:27.671890",
+      "metadata": {
+        "text_id": "3f14d73f-5116-46b7-8ce5-f3aba5842544",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:54:53.298650",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "44f4e1be-208e-4be7-bc88-6150f6b7a9fb",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8759 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text. The text also fails on subsequent checks.\n\n- CEFR Compliance Failure: The classifier rated the text as B1, not the required A2. This is an instant failure.\n- Vocabulary Violation: The B1 words 'earthquake' and 'damage' were used. These are not on the A2 word list and must be replaced.\n- Structural Violation: The sentence 'They put them on ground that is resistant to movement' uses a 'that-clause'. This is a B1 grammatical structure and is too complex for the A2 level.\n- Vocabulary Violation: The word 'resistant' is not A2 vocabulary. It must be simplified.\n\nSuggestion: Remove all B1 vocabulary. Replace 'damage' with an A2 word like 'break'. Rephrase the final sentence to eliminate the 'that-clause'. Example: 'They build bridges on ground that does not move a lot.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8759,
+          "meaningbert": 0.8477
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:55:03.639047",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A strong shake is when the ground moves a lot.  \nA strong shake can make big things move.  \nBig things like buildings and bridges can break.  \nLuckily, bridges do not fall often.  \nThis is because new bridges are less likely to fall.  \nBuilders design bridges for shake areas.  \nThey build bridges on ground.  \nThe ground does not move much.",
+      "timestamp": "2025-09-01 17:55:03.639300",
+      "metadata": {
+        "text_id": "954d3b8a-a2ab-4acd-8e93-494ae859b8a6",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:55:28.320000",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3c27ef45-5e55-47c3-ab8e-c87983d1a73b",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6255 is critically below the 0.75 standard. This indicates the core message of the original text was not preserved. The simplification process was too aggressive.\n\n- Fidelity Failure: The BERTScore of 0.8574 is also below the required 0.90 threshold. This is a direct result of removing essential vocabulary.\n- Meaning Loss: The original text explains that engineers build on ground that is 'resistant to movement'. Your version, 'The ground does not move much', is a gross oversimplification that loses the specific engineering concept.\n- Concept Deletion: The original's idea that 'Engineers have learned' was completely removed. This is a key part of the message, showing progress and learning in the field.\n- Lexical Loss: Key terms like 'engineers', 'structures', 'collapse', and 'resistant' were deleted, causing the low fidelity score.\n\nSuggestion: The text must be rewritten. You must preserve the core concepts of the original. Restore the idea that engineers have learned something. Rephrase to explain that the ground they choose is special because it is strong against movement. Simplification must not lead to the destruction of meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8574,
+          "meaningbert": 0.6255
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:55:37.470685",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes shake the ground.  \nEarthquakes can damage structures.  \nBig structures like bridges can collapse.  \nLuckily, bridges do not collapse often.  \nThis is because new bridges are less likely to collapse.  \nEngineers learned how to design bridges.  \nThey design bridges in shake areas.  \nThey build bridges on ground that resists movement.",
+      "timestamp": "2025-09-01 17:55:37.470979",
+      "metadata": {
+        "text_id": "2887dd2c-9240-4181-b836-3a7714341060",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:56:02.865554",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d1a2545d-ed71-449e-acbe-1288a80cbf29",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8806 is below the required 0.90. This indicates a significant loss of key phrasing from the original text.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is an automatic failure.\n- Vocabulary Violation: The word 'damage' is B1 level. The word 'collapse' is B2 level. These words are too advanced for an A2 text and must be replaced.\n- Lexical Simplification Error: The phrase 'shake areas' is an oversimplification of 'earthquake zones' and contributes to the low fidelity score.\n\nSuggestion: Replace 'damage' with 'break'. Replace 'collapse' with 'fall down'. Rephrase 'shake areas' to be closer to the original meaning while remaining simple, such as 'places with earthquakes'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8806,
+          "meaningbert": 0.8367
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:56:18.655195",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes shake the ground.  \nEarthquakes can break structures.  \nBig structures like bridges can fall down.  \nLuckily, bridges do not fall down often.  \nNew bridges are less likely to fall down.  \nEngineers learned how to design bridges.  \nThey design bridges in places with earthquakes.  \nThey build bridges on ground that resists movement.",
+      "timestamp": "2025-09-01 17:56:18.655621",
+      "metadata": {
+        "text_id": "aaf45f40-e360-41df-b29a-48066bc9fdd8",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:56:43.560950",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "57845a6b-b609-427d-82fc-db821764eaa6",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8769 is below the required 0.90. This indicates a significant loss of key phrasing from the original text. The text also fails the CEFR compliance check.\n\n- Fidelity Failure: Key terms from the original text such as 'earthquake zones' and 'more resistant' were replaced with phrases that are too simple, like 'places with earthquakes' and 'ground that resists movement'. This loss of specific vocabulary caused the low BERTScore.\n\n- CEFR Compliance Failure: The text was classified as B1, which is too complex for the A2 standard. The sentence 'They build bridges on ground that resists movement' uses a relative clause ('that resists...'). This is a B1 grammatical structure.\n\n- Suggestion: Simplify the B1 structure. Replace the complex sentence with two simple sentences. Example: 'They build bridges on special ground. This ground does not move easily.' This removes the B1 grammar and maintains the A2 level.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8769,
+          "meaningbert": 0.8081
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:56:46.893568",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes shake the ground.  \nEarthquakes can break structures.  \nBig structures like bridges can fall down.  \nLuckily, bridges do not fall down often.  \nNew bridges are less likely to fall down.  \nEngineers learned how to design bridges.  \nThey design bridges in earthquake zones.  \nThey build bridges on special ground.  \nThis ground is more resistant.",
+      "timestamp": "2025-09-01 17:56:46.894038",
+      "metadata": {
+        "text_id": "b7547e80-9e23-4877-a3b2-5829ef024332",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:57:10.853354",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "49fd47ca-9e86-4523-b7f7-54ba8bea9b6f",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8749 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\n- Lexical Deviation: The original text's phrase 'damage all structures' was replaced with 'can break structures'. This simplification loses lexical precision and contributes to the low fidelity score.\n- Lexical Deviation: The original text's phrase 'resistant to movement' was reduced to 'more resistant'. This omits the critical concept of 'movement', altering the specific technical meaning.\n- Vocabulary Violation: The B1-level word 'earthquake' was used repeatedly without being defined in the keywords section. All vocabulary above the target CEFR level must be defined in simple A2 terms.\n\nSuggestion: Re-integrate key vocabulary from the original text to meet the fidelity requirement. Use 'damage' instead of 'break'. Restore the full phrase 'resistant to movement'. Define the word 'earthquake' as a keyword.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8749,
+          "meaningbert": 0.8048
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:57:18.796412",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is a shaking of the ground.  \nEarthquakes damage all structures, including bridges.  \nLuckily, bridges do not collapse often.  \nModern bridges also collapse rarely.  \nEngineers design bridges in earthquake zones.  \nThey build bridges on ground that is resistant to movement.",
+      "timestamp": "2025-09-01 17:57:18.796919",
+      "metadata": {
+        "text_id": "81deb60e-9cc5-487b-ba85-8080306afaae",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:57:44.967217",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c45cec4b-7fb9-4ffa-bfed-a3a506227247",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The CEFR classifier rated the text as B1, which is an instant failure. The text must be A2.\n- Vocabulary Violation: The text is saturated with words above the A2 level. 'Earthquake' (B1), 'damage' (B1), 'collapse' (B2), and 'rarely' (B1) were used repeatedly. These words are too complex for the target level.\n- Fidelity Failure: The BERTScore of 0.8958 is below the required 0.90 threshold. This indicates a failure to maintain lexical fidelity with the original text.\n- Suggestion: Remove all B1 and B2 vocabulary. Replace 'earthquake' with 'a big shaking of the ground'. Replace 'damage' with 'break' or 'hurt'. Replace 'collapse' with 'fall down'. Replace 'rarely' with 'not often'. The text must be rewritten using only A1 and A2 words to meet the standard.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8958,
+          "meaningbert": 0.8686
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:57:53.461169",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A big shake of the ground can break all structures, including bridges.  \nLuckily, bridges do not fall down often.  \nModern bridges also do not fall down often.  \nEngineers design bridges in zones with a big shake of the ground.  \nThey build them on ground that is strong against movement.",
+      "timestamp": "2025-09-01 17:57:53.461760",
+      "metadata": {
+        "text_id": "182e8010-cdcd-4726-9aca-86714a04c600",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:58:21.148000",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5751cbe2-a63e-4efc-b469-846bce0d965c",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8843 is below the required 0.90. This indicates a significant loss of key words from the original text. The replacement of 'earthquakes' with 'a big shake of the ground' and 'resistant' with 'strong against' lowered the lexical similarity score below the acceptable threshold.\n\nFAIL: CEFR Compliance. The text was incorrectly classified as B1, which is too complex for the A2 standard. The sentence 'They build them on ground that is strong against movement' uses a relative clause ('that is strong'). This is a B1 grammatical structure.\n\nSuggestion: Restore key A2 vocabulary like 'earthquake'. The phrase 'a big shake of the ground' is too simplistic and damages fidelity.\n\nSuggestion: Split the final complex sentence into two simple A2 sentences. Example: 'They build them on strong ground. This ground does not move easily.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8843,
+          "meaningbert": 0.7607
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:58:30.114865",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes can damage all structures, including bridges.  \nLuckily, bridges do not collapse often.  \nModern bridges also do not collapse often.  \nEngineers design bridges in earthquake zones.  \nThey build them on strong ground.  \nThis ground does not move easily.",
+      "timestamp": "2025-09-01 17:58:30.115474",
+      "metadata": {
+        "text_id": "542bd15d-b90a-463d-a6b6-05daaafc3461",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:58:57.970335",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2e82841e-e1d8-4e31-8fcf-462e7b1e62ff",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8906 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text. The qualitative audit confirms this failure is due to both excessive rephrasing and vocabulary violations.\n\n- Vocabulary Violation: The B2 word 'collapse' was used. This is not A2 vocabulary. The phrase 'fall down' is the required A2 equivalent.\n- Vocabulary Violation: The B1 word 'damage' was used. This is not A2 vocabulary. The word 'break' is the required A2 equivalent.\n- Vocabulary Violation: The B1 word 'earthquake' was used. This is not A2 vocabulary. The phrase 'when the ground shakes' is the required A2 equivalent.\n- Fidelity Loss: The phrase 'areas that are much more resistant to movement' was simplified to 'strong ground'. While the meaning is similar, the rephrasing is too aggressive and contributes to the low fidelity score.\n\nSuggestion: Replace all words above the A2 level. The word 'collapse' must be replaced with 'fall down'. The word 'damage' must be replaced with 'break'. Rephrase to improve lexical similarity to the original text without sacrificing A2 simplicity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8906,
+          "meaningbert": 0.803
+        }
+      }
+    }
+  ]
+}

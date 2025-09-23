@@ -1,0 +1,80 @@
+{
+  "session_id": "dc637875-7015-418e-aa40-dffcbc8297fe",
+  "created_at": "2025-08-31 22:16:01.566190",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:16:01.614764",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "04-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: You can often see small animals in cities. Like birds, squirrels, mice, and insects.\nBut now, more wild animals come into cities. The news has many stories about this.\nPeople see bears in Vancouver parks. Leopards walk on Mumbai streets. Wild pigs are in Berlin gardens.\nWhat happens when big animals come to our cities? Is this good? Or are they dangerous?",
+      "timestamp": "2025-08-31 22:16:01.615348",
+      "metadata": {
+        "text_id": "a6c3aef1-f0ba-42a2-986a-16f4ed3992bf",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:16:02.503092",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e9e94155-2ea1-4506-aa5d-b91dec9cb954",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6767 is below the required 0.75. The core message of the final question in the original text, 'Are they welcome or are they considered a danger or a pest?', has been significantly altered. Your version, 'Is this good? Or are they dangerous?', completely omits the concepts of 'welcome' (acceptance) and 'pest' (nuisance), reducing the complexity of the original inquiry. This loss of nuance is a critical deviation from the original meaning. The BERTScore of 0.9341 is acceptable, indicating lexical fidelity, but the overall meaning has been compromised. Suggestion: Rephrase the final question to include the concepts of acceptance and nuisance, using simple A2 vocabulary. For example, 'Do people want them, or are they a problem or a danger?'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9341,
+          "meaningbert": 0.6767
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:16:06.105797",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: You can often see small animals in cities. Like birds, squirrels, mice, and insects.\nBut now, more wild animals come into cities. The news has many stories about this.\nPeople see bears in Vancouver parks. Leopards walk on Mumbai streets. Wild pigs are in Berlin gardens.\nWhat happens when big animals come to our cities? Do people want them? Or are they a problem or a danger?",
+      "timestamp": "2025-08-31 22:16:06.107166",
+      "metadata": {
+        "text_id": "1a0adfbb-3c41-404c-a282-396fc984c5aa",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 22:16:22.602273",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "bcc92dfb-5eaa-408c-acb3-bb4b04cbf125",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: All diagnostic checks passed. The text maintains factual integrity and meaning, as evidenced by the MeaningBERT score of 0.8379 and BERTScore of 0.9376, both well within the required thresholds. The CEFR classifier correctly identified the text as A2. The qualitative audit confirms excellent adherence to A2 standards. Vocabulary has been simplified appropriately (e.g., 'pest' to 'problem', 'world's press' to 'news'). Sentence structures are consistently short and simple, with complex sentences from the original text effectively broken down into multiple, easy-to-understand A2-level sentences. Connectors used ('and', 'but', 'or') are all A2 appropriate. This is a model A2 simplification.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9376,
+          "meaningbert": 0.8379
+        }
+      }
+    }
+  ]
+}

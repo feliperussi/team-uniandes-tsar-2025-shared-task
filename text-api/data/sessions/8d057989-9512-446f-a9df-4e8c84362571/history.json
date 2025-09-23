@@ -1,0 +1,191 @@
+{
+  "session_id": "8d057989-9512-446f-a9df-4e8c84362571",
+  "created_at": "2025-08-31 22:18:17.601610",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-08-31 22:18:17.622724",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "16-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last two centuries, technology and health improved, which meant that fewer children died when they were young. This led to a fast increase in the number of people in the world. These large families then had even more children who lived to be adults and had their own children. However, in the 1960s, `contraception`, which is a way to stop women from getting pregnant, became easier for people to get. Because of this, the average number of babies per woman around the world has gone down from six to just two.",
+      "timestamp": "2025-08-31 22:18:17.622891",
+      "metadata": {
+        "text_id": "84eda3f5-0cfa-4c8a-8769-65d1412dcbda",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 22:18:18.722449",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e572f3d7-850b-4fe1-bf4d-3ef3efc3593f",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The MeaningBERT score of 0.6557 is below the required 0.75 threshold. This indicates a significant divergence in the semantic content between the original and simplified text. The primary reason for this is the inclusion of the definition for 'contraception' ('which is a way to stop women from getting pregnant') directly within the sentence flow. While providing definitions for complex terms is a good practice for B1 simplification, MeaningBERT measures the semantic similarity to the original text. Adding new explanatory content, even if helpful, introduces semantic information not explicitly present in the original, thus lowering the score. To improve, consider if such definitions can be placed in parentheses, as a footnote, or if the sentence can be rephrased to integrate the explanation more subtly without adding entirely new semantic units that diverge from the original's core message as perceived by the metric.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9358,
+          "meaningbert": 0.6557
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-08-31 22:18:26.163277",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last two centuries, technology and health improved, which meant that fewer children died when they were young. This led to a fast increase in the number of people in the world. These large families then had even more children who lived to be adults and had their own children. However, in the 1960s, `contraception` (a way to stop women from getting pregnant) became easier for people to get. Because of this, the average number of babies per woman around the world has gone down from six to just two.",
+      "timestamp": "2025-08-31 22:18:26.163596",
+      "metadata": {
+        "text_id": "58d4d0ee-6d7c-4589-9fc7-82e77b596e46",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 22:18:42.671686",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "dc962110-c9d1-4cbc-97e9-01930263ac2a",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The MeaningBERT score of 0.69 is below the required 0.75 threshold. This indicates a significant loss or alteration of the core message. Specifically, the original text's active and continuous phrasing 'fuelling rapid population growth' was simplified to 'This led to a fast increase in the number of people in the world'. While factually similar, the output loses the dynamic sense of the population growth being actively driven or 'fueled' by the preceding factors. The original implies a more sustained and impactful process, which is diminished in the simplified version. To improve, consider retaining a more active verb or phrase that conveys the ongoing and driving nature of the population growth, such as 'causing a rapid increase' or 'leading to a continuous rise'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9372,
+          "meaningbert": 0.6923
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-08-31 22:18:49.747686",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last two centuries, technology and health improved, which meant that fewer children died when they were young, causing a fast increase in the number of people in the world. These large families then had even more children who lived to be adults and had their own children. However, in the 1960s, `contraception` (a way to stop women from getting pregnant) became easier for people to get. Because of this, the average number of babies per woman around the world has gone down from six to just two.",
+      "timestamp": "2025-08-31 22:18:49.749128",
+      "metadata": {
+        "text_id": "af1a3e4d-f51f-4a25-bb25-c96863054eaf",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-08-31 22:19:05.768724",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c2aa638b-a625-40f6-824e-c0fac5d14046",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The MeaningBERT score of 0.6752 is below the required 0.75 threshold, indicating a significant loss or alteration of the original text's core message. While the factual information is largely present, the nuanced meaning and emphasis of the original have been diluted. For example, the original phrase 'fuelling rapid population growth' conveys a strong, continuous causal link and uses specific demographic terminology. The simplified version 'causing a fast increase in the number of people in the world' is less precise and active. Similarly, 'produced even more children who survived into adulthood' emphasizes the demographic outcome and the overcoming of early death, which is central to the population growth mechanism. The simplified 'then had even more children who lived to be adults' is more passive and loses some of this emphasis. These subtle shifts in active voice, specific terminology, and causal strength cumulatively diminish the original's core message about the drivers and mechanisms of population change. To improve, ensure that the simplified language retains the full weight and specific implications of the original's causal relationships and demographic processes.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9387,
+          "meaningbert": 0.6752
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-08-31 22:19:18.019277",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last two centuries, improvements in technology and health meant fewer children died young, which caused the world's population to grow quickly. These large families produced even more children who survived into adulthood and had their own children. But with the wider availability of `contraception` (a way to stop women from getting pregnant) in the 1960s, the global average number of babies per woman has declined from six to as low as two.",
+      "timestamp": "2025-08-31 22:19:18.019691",
+      "metadata": {
+        "text_id": "273df9ba-130a-4516-ae4d-46ab45e0f758",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 22:19:36.648916",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "66429a62-ab67-4564-9c95-5a6290030783",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2' by the CEFR classifier, which is above the required B1 level. While the definition of 'contraception' is a good B1 strategy, the overall sentence structure and density of information remain too complex for a B1 reader. For example, the first sentence, 'In the last two centuries, improvements in technology and health meant fewer children died young, which caused the world's population to grow quickly,' combines multiple clauses and causal relationships that could be split into simpler sentences. Similarly, the third sentence, 'But with the wider availability of contraception (a way to stop women from getting pregnant) in the 1960s, the global average number of babies per woman has declined from six to as low as two,' features a long introductory phrase and a complex subject ('global average number of babies per woman'). To achieve a B1 level, the text needs more significant structural simplification. Suggestions include splitting longer sentences into two or more shorter, more direct sentences, and simplifying complex noun phrases like 'wider availability' or 'global average number' where possible. Consider replacing verbs like 'declined' with simpler alternatives like 'gone down' to further reduce complexity.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9726,
+          "meaningbert": 0.8394
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-08-31 22:19:37.723101",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last two centuries, technology and health improved. This meant fewer children died young. This caused the world's population to grow quickly. These large families produced even more children. These children survived into adulthood and had their own children. But in the 1960s, it became easier to get `contraception` (a way to stop women from getting pregnant). Because of this, the average number of babies per woman in the world has gone down. It went from six babies to as low as two.",
+      "timestamp": "2025-08-31 22:19:37.725142",
+      "metadata": {
+        "text_id": "5f19097e-6279-496a-81ca-c4e207173068",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-08-31 22:19:52.449123",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1d3c4604-f517-4f94-b1d1-3aa4a8b77a31",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "The text successfully simplifies the original content while maintaining full factual integrity and meaning. All metrics passed, with MeaningBERT at 0.8323 and BERTScore at 0.9517, both well above the required thresholds. The CEFR classifier correctly identified the output as B1, demonstrating effective simplification to the target level. The writer effectively broke down complex sentences from the original into shorter, more manageable sentences, improving readability for a B1 audience. For example, the original's complex sentence 'In the last two centuries, improvements in technology and health meant fewer children died young, fuelling rapid population growth' was skillfully transformed into three simpler sentences: 'In the last two centuries, technology and health improved. This meant fewer children died young. This caused the world's population to grow quickly.' The keyword 'contraception' was accurately and clearly defined in context, which is excellent for B1 comprehension. The use of B1 connectors like 'This meant', 'This caused', and 'Because of this' helps maintain a logical flow. The vocabulary choices are appropriate for the B1 level, with no unnecessary simplifications or overly complex terms. This is a strong example of effective text simplification.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9517,
+          "meaningbert": 0.8323
+        }
+      }
+    }
+  ]
+}

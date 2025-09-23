@@ -1,0 +1,598 @@
+{
+  "session_id": "3711ad31-0d50-409c-abba-c3dad3eb227d",
+  "created_at": "2025-08-31 22:33:23.791484",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:33:23.851845",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "12-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A civilisation is when many people live together. They have rules and make things like art.\n\nFrom 100,000 to 50,000 years before now, people found signs of first civilisation. For example, they made cave paintings. No one knows the link between this and language. People's brains did not grow fast. But people became smarter. Did language make their brains grow? Or did their smart brains start to make language?",
+      "timestamp": "2025-08-31 22:33:23.852213",
+      "metadata": {
+        "text_id": "6ef3bb0e-1b39-42f2-bbc7-ed0656583113",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:33:25.355578",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ff07afe2-e7f8-4996-8d72-6588a8128d61",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6407 is significantly below the required 0.75. This indicates a failure to preserve the core message and nuance of the original text. \n\nDetected Deviations:\n- The original text states that 'humans did become more complex and more intelligent'. Your version simplifies this to 'people became smarter', completely omitting the crucial concept of 'complexity'. This is a significant loss of meaning regarding human development.\n- Your output begins with an added definition of 'A civilisation is when many people live together. They have rules and make things like art.' This information is not present in the original text and alters the original's narrative flow, which immediately focuses on the historical timeframe and the evidence of civilisation, not its definition. This addition contributes to the meaning deviation.\n\nCorrective Path:\n- Restore the concept of 'complexity' when describing human development. Do not omit key ideas.\n- Remove the introductory definition of 'civilisation'. The task is to simplify the original text, not to add new explanatory content.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9161,
+          "meaningbert": 0.6407
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:33:31.779142",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: From 100,000 to 50,000 years before now, people found signs of first civilisation. For example, they made cave paintings. No one knows the link between this and language. People's brains did not grow fast. But people became more complex. They also became smarter. Did language make their brains grow? Or did their smart brains start to make language?",
+      "timestamp": "2025-08-31 22:33:31.779404",
+      "metadata": {
+        "text_id": "4ce7c5b3-6c3e-44a1-a9db-4102665b41cd",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:33:48.516089",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ab6f0e84-a20b-4021-b1b7-382aff5fc00f",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The classifier rated the text as B1, not A2. This is a critical failure. The primary reason for this misclassification is the inclusion of vocabulary above the A2 level. The word 'complex' is identified as a B1 word and is used in the sentence 'But people became more complex.' This must be replaced with a simpler A2 equivalent, such as 'not simple' or 'hard to understand'. Additionally, the word 'cave' in 'cave paintings' is also a B1 word. For A2 readability, this phrase should be rephrased using A2 vocabulary, for example, 'pictures in caves' or 'drawings in caves'. An A2 text must strictly adhere to A2 vocabulary and avoid any B1 or higher-level words. Suggestion: Replace 'complex' with 'not simple'. Rephrase 'cave paintings' to 'pictures in caves'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9396,
+          "meaningbert": 0.8307
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:33:53.379234",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: From 100,000 to 50,000 years before now, people found signs of first civilisation. For example, they made pictures in caves. No one knows the link between this and language. People's brains did not grow fast. But people became not simple. They also became smarter. Did language make their brains grow? Or did their smart brains start to make language?",
+      "timestamp": "2025-08-31 22:33:53.379556",
+      "metadata": {
+        "text_id": "a21a916b-c017-4732-8af2-873556691dd8",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:34:19.173906",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8cad6239-4793-4ab4-8c6c-03a0b6c2b4c3",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7339 is below the required 0.75. The original text emphasizes that brains did not 'suddenly' get bigger, implying an abrupt change, yet humans became more complex. Your version states 'did not grow fast', which changes the nuance from an abrupt change to a lack of speed over time, subtly altering the core message of the paradox. The use of 'But' instead of 'yet' also weakens the contrast intended in the original.\n\nFAIL: CEFR Compliance. The classifier rated the text as B1, not A2. This is due to several linguistic deviations:\n- Vocabulary: The word 'civilisation' is a B1-level word. It was listed as a keyword for definition but was used directly without simplification or an A2-level explanation. For A2, this concept must be rephrased using simpler terms, such as 'people living together in big groups' or 'early ways of life'.\n- Sentence Structure: The first sentence, 'From 100,000 to 50,000 years before now, people found signs of first civilisation,' is too long and complex for a consistent A2 level. The initial temporal phrase is extended, and the concept of 'signs of first civilisation' adds to the cognitive load. A2 sentences should be shorter and more direct.\n\nSuggestion: Rephrase the sentence about brain growth to accurately reflect the 'suddenly' aspect. Simplify or define 'civilisation' using only A1/A2 vocabulary. Split the first sentence into two or more shorter, simpler sentences.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9291,
+          "meaningbert": 0.7339
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:34:27.833098",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Between 100,000 and 50,000 years ago, people started to live in groups. We can see this in cave paintings. No one knows the link between this and language. Brains did not get bigger quickly. Yet people became more complex. They became smarter. Did language make their brains grow? Or did their smart brains start to make language?",
+      "timestamp": "2025-08-31 22:34:27.833657",
+      "metadata": {
+        "text_id": "f994287c-ae23-45c1-a9e3-9cd21a545ee1",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:34:44.284180",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "39bd6d4b-740b-43be-b549-cdf55da61106",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6622 is significantly below the required 0.75. The core concept of 'early human civilisation' from the original text was lost, replaced by the less precise 'people started to live in groups'. This fundamentally alters the original message's depth and scope. The original implies a more advanced societal structure, not merely cohabitation. \n\nAdditional deviations:\n*   Vocabulary Violation: The word 'complex' is a B1-level term and was used in 'people became more complex'. This is not A2 compliant.\n*   Vocabulary Violation: The word 'cave' is a B1-level term and was used in 'cave paintings'. This is not A2 compliant.\n*   Keyword Handling Failure: The keyword 'civilisation' was not simplified or defined in A2 terms; instead, it was replaced with a less accurate and simpler concept, 'people started to live in groups', which does not convey the full meaning of 'civilisation'.\n\nSuggestion: Rephrase 'early human civilisation' using only A2 vocabulary to accurately convey the idea of organized society and culture, not just group living. Replace 'complex' with an A2 synonym like 'difficult' or rephrase the sentence entirely. Replace 'cave' with an A2 alternative or rephrase 'cave paintings' to 'pictures in rocks' if 'cave' cannot be simplified.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9441,
+          "meaningbert": 0.6622
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:34:56.191626",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Between 100,000 and 50,000 years ago, people started to live in organised groups. This was early human society. We can see this in pictures in rocks. No one knows the link between this and language. Brains did not get bigger quickly. But people changed a lot. They became smarter. Did language make their brains grow? Or did their smart brains start to make language?",
+      "timestamp": "2025-08-31 22:34:56.192204",
+      "metadata": {
+        "text_id": "666691f1-954a-454c-9efe-61fe5d9cad17",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:35:11.188963",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "96c08dd1-2fb1-490a-84a6-5d503e2553cd",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6204 is significantly below the required 0.75. The core message of the original text has been diluted. Specifically, the concept of 'humans becoming more complex' is lost, replaced by the less precise 'people changed a lot'. While 'smarter' covers 'intelligent', 'complex' implies a broader development in their societies and thinking, which is not conveyed. Additionally, the original's emphasis on 'evidence of early human civilisation' through 'cave paintings' is rephrased as 'people started to live in organised groups. This was early human society. We can see this in pictures in rocks.' This rephrasing subtly shifts the focus from the *evidence* of civilisation to a description of their living situation, then linking pictures as evidence for that. This contributes to the overall loss of the original's nuanced meaning regarding the development of human complexity and civilisation.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9352,
+          "meaningbert": 0.6204
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:35:23.495978",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Between 100,000 and 50,000 years ago, we see early human civilisation. A 'civilisation' is when people live together in an organised way. We see proof of this in cave paintings. No one knows the link between this and language. Brains did not get bigger quickly. But humans became more developed. They also became smarter. Did language make their brains grow? Or did their smart brains start to make language?",
+      "timestamp": "2025-08-31 22:35:23.497941",
+      "metadata": {
+        "text_id": "bac7e5d3-ff76-441e-8988-0ba130a27b95",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 22:35:36.685919",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "49c48c07-ebbb-4770-9dd1-fb3447564a2f",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Deviation. The text contains words that exceed the A2 CEFR level, despite the classifier rating it as A2. This is a critical failure in adhering to the strict A2 vocabulary standard. Specific deviations are as follows: The word 'organised' is a B1 level word. It appears in the sentence 'A 'civilisation' is when people live together in an organised way.' This must be replaced with simpler A2 vocabulary. The word 'proof' is a B1 level word. It appears in the sentence 'We see proof of this in cave paintings.' This must be replaced with simpler A2 vocabulary. The word 'cave' is a B1 level word. It appears in the sentence 'We see proof of this in cave paintings.' This must be replaced with simpler A2 vocabulary. The MeaningBERT score of 0.8391 and BERTScore of 0.9381 indicate good preservation of meaning and fidelity, but these do not override the vocabulary requirement. Suggestion: Replace 'organised' with 'in a good way' or 'in a planned way'. Replace 'proof' with 'signs' or 'we can see this'. Replace 'cave' with 'rock' or 'underground place'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9381,
+          "meaningbert": 0.8391
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:35:40.064652",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Between 100,000 and 50,000 years ago, we see early human civilisation. A 'civilisation' is when people live together in a good way. We see signs of this in rock paintings. No one knows the link between this and language. Brains did not get bigger quickly. But humans became more developed. They also became smarter. Did language make their brains grow? Or did their smart brains start to make language?",
+      "timestamp": "2025-08-31 22:35:40.065085",
+      "metadata": {
+        "text_id": "929711a2-b9ce-43d1-b375-14d2ffa681fc",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 22:35:57.237292",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c345f0df-2c1d-43fa-a13b-c2572fbbd75f",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as B1, not A2, failing Priority 3. The target CEFR level is A2. While vocabulary is appropriate, the sentence structure deviates from the A2 standard. The MeaningBERT score of 0.8022 and BERTScore of 0.9365 indicate good meaning preservation and fidelity, but the CEFR classification is paramount. The text must be strictly A2. The classifier result of B1 is a direct failure. The specific deviation is detailed below. Suggestion: Simplify the sentence structure to meet strict A2 requirements. The definition of 'civilisation' needs to be rephrased using simpler A2 sentence patterns. For example, 'A civilisation is a group of people. They live together in a good way.' or 'People live together in a good way. This is called a civilisation.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9365,
+          "meaningbert": 0.8022
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:36:04.469593",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Between 100,000 and 50,000 years ago, we see early human civilisation. People live together in a good way. This is called a civilisation. We see signs of this in rock paintings. No one knows the link between this and language. Brains did not get bigger quickly. But humans changed. They became smarter. Did language make their brains grow? Or did their smart brains start to make language?",
+      "timestamp": "2025-08-31 22:36:04.472603",
+      "metadata": {
+        "text_id": "de1e2d6c-50a7-4367-ad8c-30d76c2e6fde",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 22:36:24.823914",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3adf2058-bb44-46af-bdd8-ca9f1c3f6384",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7129 is below the required 0.75. The original text states 'humans did become more complex and more intelligent'. Your version simplifies 'more intelligent' to 'smarter', which is acceptable for A2. However, 'more complex' is reduced to 'changed'. The word 'changed' is too general and does not convey the specific nature of the development or the nuance of 'complex', resulting in a significant loss of the original meaning. Additionally, the sentences 'People live together in a good way. This is called a civilisation.' are an expansion of the text, not a simplification of existing content. While this defines a keyword, the task is to simplify the provided text, not to add new explanatory material. This deviates from the fidelity to the original text's structure and content. The BERTScore of 0.9358 is acceptable, indicating good lexical preservation. The CEFR classifier correctly identified the output as A2, and the vocabulary and sentence structures are appropriate for A2, with good use of simple connectors and short sentences. Suggestion: Rephrase 'But humans changed' to convey the idea of becoming 'more complex' without using B1 vocabulary. For example, 'But humans learned new, harder things' or 'But humans' lives became more difficult and clever'. Remove the added definition of 'civilisation' and focus solely on simplifying the original sentences.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9358,
+          "meaningbert": 0.7129
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:36:35.494286",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Between 100,000 and 50,000 years ago, we see early human civilisation. We see signs of this in rock paintings. No one knows the link between this and language. Brains did not get bigger quickly. But humans learned new, harder things. They became smarter. Did language make their brains grow? Or did their smart brains start to make language?",
+      "timestamp": "2025-08-31 22:36:35.494734",
+      "metadata": {
+        "text_id": "7228afb9-9061-4c54-8d9a-469ca61b24fb",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 22:36:51.940550",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "fc0012c6-697d-4ad1-b3c0-a9a12b1d9eaa",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The CEFR classifier rated the writer's output as B1, not the required A2. This indicates the text is still too complex for an A2 learner. The primary deviation is the use of vocabulary above the A2 level. The word 'civilisation' is a B1-level word. As a designated keyword, it should have been replaced with simpler A2 terms or defined using only A2 vocabulary. Its direct inclusion elevates the text's complexity beyond the A2 standard. Suggestion: Replace 'civilisation' with a phrase such as 'when people started living in big groups and building towns' or 'when people started to build cities and have rules'. Ensure all keywords are either A2 vocabulary or are explained using only A2 words.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.943,
+          "meaningbert": 0.7977
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:36:59.914027",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Between 100,000 and 50,000 years ago, people started to live in groups. We see signs of this in rock paintings. No one knows the link between this and language. Brains did not get bigger quickly. But humans learned new, harder things. They became smarter. Did language make their brains grow? Or did their smart brains start to make language?",
+      "timestamp": "2025-08-31 22:36:59.916714",
+      "metadata": {
+        "text_id": "cc80ce1a-f044-4ed0-a2cf-08a0a24cca97",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:37:14.037812",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f851a81c-5f77-4aa1-8dab-0cb82ff7b93e",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6466 is below the required 0.75. The core message has been significantly altered. The original text introduces the concept of 'early human civilisation', which implies a structured and developed society. Your version reduces this to 'people started to live in groups', which is a much simpler and less profound idea, failing to convey the essence of 'civilisation'. Furthermore, the phrase 'humans did become more complex' is simplified to 'humans learned new, harder things', which does not fully capture the nuanced concept of increasing complexity in human development. These simplifications dilute the original meaning substantially. Suggestion: Rephrase to better capture the concept of 'civilisation' and 'complexity' without introducing B1 vocabulary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9356,
+          "meaningbert": 0.6466
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:37:22.860585",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Between 100,000 and 50,000 years ago, people started to live in an organised way. We see this in cave paintings. No one knows the link between this and language. Brains did not get bigger quickly. But humans became more developed. They also became smarter. Did language make their brains grow? Or did their smart brains start to make language?",
+      "timestamp": "2025-08-31 22:37:22.861737",
+      "metadata": {
+        "text_id": "aaaed187-c3c2-47b2-9b13-271e87e68957",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:37:42.143181",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3e131a71-512b-4616-b9e4-e126366aeb18",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6584 is significantly below the required 0.75. This indicates a failure to adequately preserve the core message and nuance of the original text. The simplification of 'early human civilisation' to 'people started to live in an organised way' diminishes the profound sense of societal and cultural development implied by 'civilisation'. While 'organised way' is a component, it does not fully capture the magnitude of human advancement that the original text uses to set up its central question about language and brain development. The original implies a significant, almost paradoxical, leap in human capability (civilisation, complexity, intelligence) without a sudden increase in brain size, which is diluted in the simplified version. Additionally, the text contains vocabulary that exceeds the A2 CEFR level. The word 'organised' is B1. The word 'cave' is B1. These words must be replaced with simpler A2 equivalents or rephrased entirely. Suggestion: Rephrase the concept of 'civilisation' to convey a stronger sense of advanced human society and culture, not just basic organisation. Replace 'organised' and 'cave' with A2 vocabulary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9411,
+          "meaningbert": 0.6584
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:37:50.556872",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 12,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Between 100,000 and 50,000 years ago, people started to live in a new, clever way. They made art on walls. No one knows the link between this and language. Brains did not get bigger quickly. But humans became more developed. They also became smarter. Did language make their brains grow? Or did their smart brains start to make language?",
+      "timestamp": "2025-08-31 22:37:50.557601",
+      "metadata": {
+        "text_id": "7da89a76-dd05-4695-8ed6-ef448646a461",
+        "version": 12
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:38:05.243486",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a098a90c-2f7d-4ac6-bffb-d80760155b72",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6004 is significantly below the required 0.75. The core message regarding the specific concept of 'early human civilisation' and the nuanced relationship between brain complexity and language production has been lost or diminished. The original text refers to 'early human civilisation', which was simplified to 'people started to live in a new, clever way'. This simplification loses the specific societal and cultural implications of 'civilisation'. Furthermore, the original's 'more complex brains start producing language' was simplified to 'smart brains start to make language'. While simpler, 'smart' does not fully capture 'complex', and 'make' is less precise than 'producing' in this context, leading to a loss of the original's nuanced meaning about cognitive development. Suggestion: Rephrase the description of 'civilisation' to better convey its meaning at an A2 level without losing the core concept. Ensure that the relationship between brain development and language production retains its original nuance, even with simpler vocabulary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9351,
+          "meaningbert": 0.6004
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:38:16.830395",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 13,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Between 100,000 and 50,000 years ago, people started to live in a new way. This was like a simple society. We see this in their cave paintings. No one knows the link between this and language. Brains did not get bigger quickly. But humans became more developed. They also became smarter. Did language make their brains grow? Or did their more developed brains start to make language?",
+      "timestamp": "2025-08-31 22:38:16.831489",
+      "metadata": {
+        "text_id": "8b4c4a57-54c2-4a4d-9cc3-ebf8ffcd7849",
+        "version": 13
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 22:38:34.246176",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "37bf450a-9317-4983-bd61-c722240c170b",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7066 is below the required 0.75. The original text refers to 'early human civilisation', which implies a significant, structured advancement in human society. Your simplification, 'people started to live in a new way. This was like a simple society.', loses the specific meaning and impact of 'civilisation' as a distinct stage of human development. Additionally, the original's 'more complex' suggests intricate systems and thought processes, which is not fully conveyed by the more general term 'more developed'. The core message of a profound evolutionary leap in human societal and cognitive complexity is significantly weakened. Suggestion: Rephrase the description of 'civilisation' to better capture its meaning as an advanced form of living for that period, and find a more precise A2 equivalent for 'complex' that conveys intricacy rather than just growth.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9389,
+          "meaningbert": 0.7066
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:38:49.387496",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 14,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Between 100,000 and 50,000 years ago, people started to live in an organised way. This was the start of human society with rules and culture. We see this in their cave paintings. No one knows the link between this and language. Brains did not get bigger quickly. But humans started to think in more advanced ways. They also became smarter. Did language make their brains grow? Or did their more advanced brains start to make language?",
+      "timestamp": "2025-08-31 22:38:49.389464",
+      "metadata": {
+        "text_id": "24489438-c040-41c3-a4ff-b2663c621852",
+        "version": 14
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:39:04.656236",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0295ca40-bef6-4dda-a587-8c31f2f99fa3",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6711 is below the required 0.75. The core message regarding the nuanced relationship between brain development, human complexity, and language origin is not fully preserved. The simplification has diluted the original's meaning. The BERTScore of 0.9354 is acceptable, but the meaning loss is critical. The CEFR classifier result of A2 is irrelevant due to the higher priority failure. The following specific deviations were identified: The original text uses 'brains to develop' and 'more complex brains', which implies an evolutionary or developmental process. Your version uses 'brains grow' and 'more advanced brains', which simplifies the concept of development and complexity. 'Grow' is less precise than 'develop' in this context. The original text uses 'humans did become more complex and more intelligent'. Your version uses 'humans started to think in more advanced ways. They also became smarter'. While related, 'complex and intelligent' carries a deeper meaning about cognitive evolution than 'advanced ways' and 'smarter'. The original text uses 'start producing language'. Your version uses 'start to make language'. 'Producing' is a more accurate and nuanced verb for language generation than 'make'. Suggestion: Rephrase to retain the specific concepts of 'brain development', 'human complexity', and 'producing language' while maintaining A2 simplicity. For example, instead of 'brains grow', consider 'brains changed and got better'. Instead of 'make language', consider 'use language'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9354,
+          "meaningbert": 0.6711
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:39:17.911326",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 15,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Between 100,000 and 50,000 years ago, people started to live in an organised way. This was the start of human society with rules and culture. We see this in their cave paintings. No one knows the link between this and language. Brains did not get bigger quickly. But humans became more clever. Their thinking also became more complex. Did using language make their brains change and get better? Or did their more complex brains start to use language?",
+      "timestamp": "2025-08-31 22:39:17.912473",
+      "metadata": {
+        "text_id": "e25c70e2-6364-4ad4-ba23-4ccf5373d99b",
+        "version": 15
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 7/10 - FAIL",
+      "timestamp": "2025-08-31 22:39:32.126638",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "20242ac4-e653-4acb-b794-351469f26822",
+        "grade": 7,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Deviation. The text contains vocabulary that exceeds the A2 CEFR standard. Specifically, the word 'complex' is classified as B1, and it appears twice in your output. While the CEFR classifier rated the overall text as A2, the qualitative audit identifies this specific lexical choice as a deviation. For A2, vocabulary must be strictly limited to A2 and A1 words. The use of 'complex' elevates the lexical difficulty beyond the target level. Suggestion: Replace 'complex' with simpler A2 alternatives such as 'not simple', 'difficult', or 'with many parts' to ensure strict adherence to the A2 vocabulary requirements.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9389,
+          "meaningbert": 0.8085
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:39:40.172757",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 16,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Between 100,000 and 50,000 years ago, people started to live in an organised way. This was the start of human society with rules and culture. We see this in their cave paintings. No one knows the link between this and language. Brains did not get bigger quickly. But humans became more clever. Their thinking also became not simple. Did using language make their brains change and get better? Or did their more not simple brains start to use language?",
+      "timestamp": "2025-08-31 22:39:40.176559",
+      "metadata": {
+        "text_id": "e31da80d-9b61-49aa-8d4d-e5a2bcea3c42",
+        "version": 16
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 22:39:59.777399",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ec3aceb5-7fcc-46ec-acf0-f2014f177378",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6751 is too low, falling below the required 0.75. The core message and nuance of the original text have been significantly altered. The fidelity of the content, as measured by MeaningBERT, is unacceptable. Specific deviations include: The original text states 'we start to see the evidence of early human civilisation'. Your version rephrases this as 'people started to live in an organised way. This was the start of human society with rules and culture.' This shifts the focus from observing 'evidence' to directly stating 'they started to live', which changes the original's emphasis on archaeological discovery. The phrase 'humans did become more complex and more intelligent' from the original is simplified to 'humans became more clever. Their thinking also became not simple.' While 'not simple' is an A2 simplification for 'complex', the combination loses the directness and full scope of 'complex and more intelligent'. The original's 'caused their brains to develop' is rephrased as 'make their brains change and get better'. 'Develop' is a more precise term than 'change and get better' in this context, and the simplification dilutes the scientific nuance. Similarly, 'start producing language' is simplified to 'start to use language'. 'Producing' implies creation or generation, which is a stronger concept than simply 'using' language in the context of brain development. Suggestion: Rephrase the introduction to maintain the concept of 'evidence' of civilisation, rather than defining civilisation directly. For example, 'we started to see signs of early human society'. Suggestion: Ensure that simplifications of terms like 'complex' and 'intelligent' fully capture the original meaning. Consider 'more advanced' or 'smarter' if appropriate for A2, but ensure the full scope is retained. Suggestion: Use A2 vocabulary that maintains the precision of terms like 'develop' and 'producing' as much as possible, even if simplified. For 'develop', consider 'grow' or 'become stronger'. For 'producing', consider 'making' or 'creating'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9307,
+          "meaningbert": 0.6751
+        }
+      }
+    }
+  ]
+}

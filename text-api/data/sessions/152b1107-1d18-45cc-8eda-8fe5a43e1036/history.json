@@ -1,0 +1,413 @@
+{
+  "session_id": "152b1107-1d18-45cc-8eda-8fe5a43e1036",
+  "created_at": "2025-08-31 20:39:45.173792",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:39:45.184672",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "18-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Bruce Springsteen is different from many other famous singers.\nHe is almost 70 years old.\nBut he still makes new music.\nHis music is very popular.\nMany people go to his shows in big stadiums.\nHe is still one of the best.\nThis is not a surprise to me.\nHe tells very important stories about people.\nFor example, listen to his song 'Born in the USA'.\nThe stories in that song are still important today.",
+      "timestamp": "2025-08-31 20:39:45.185825",
+      "metadata": {
+        "text_id": "44b313dc-5f89-4300-bc9a-7179e5cc66c3",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:39:45.194791",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "374fbb4e-f522-440a-ab6f-29796bf0af2b",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6383 is significantly below the required 0.75 threshold. This indicates the core message was not preserved.\n\n- The primary failure is the loss of the logical connection from the original text. The original states Springsteen is successful BECAUSE he tells important stories. Your version lists these as separate, disconnected facts, which fundamentally changes the meaning.\n- The BERTScore of 0.8898 is also below the 0.90 minimum. This is due to replacing key phrases like 'top of his game' and 'fundamental stories' with overly simple alternatives that lose precision.\n- The text is broken into too many short sentences. This choppy structure destroys the logical flow of the original argument.\n\nSuggestion: Combine sentences to restore the cause-and-effect relationship. Use 'because' to link his success to the stories he tells. For example: 'He is still one of the best because he tells very important stories about people.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8898,
+          "meaningbert": 0.6383
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:40:05.418298",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Bruce Springsteen is different from many other famous singers.\nHe is almost 70 years old, but he still makes popular new music.\nMany people go to his shows in big stadiums.\nThis is not a surprise to me.\nHe is still one of the best because he tells very important stories about people.\nFor example, the stories in his song 'Born in the USA' are still important today.",
+      "timestamp": "2025-08-31 20:40:05.419736",
+      "metadata": {
+        "text_id": "fbd481fb-6110-45fc-b3f1-ae2623157fda",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:40:30.437456",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6f39130b-85f8-4829-81ac-7446cab8b66d",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6881 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text. A secondary failure is the BERTScore of 0.8929, which is below the minimum fidelity requirement of 0.90.\n\n- Meaning Loss: The original text states Springsteen tells 'our most fundamental stories about ourselves'. Your version, 'tells very important stories about people', loses the personal and introspective meaning. The shift from 'us' to 'people' is a substantial change in the core message.\n- Fidelity Loss: The BERTScore failure is due to replacing key phrases. 'Best-selling album artists' became 'famous singers' and 'remains at the top of his game' became 'still one of the best'. These simplifications lose too much lexical detail from the source.\n\nSuggestion: The simplification was too aggressive and sacrificed meaning. You must rephrase to restore the lost concepts. Change 'tells very important stories about people' to 'tells stories that are important for us' to recapture the original's personal connection. The primary goal is to simplify language, not to erase the central idea.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8929,
+          "meaningbert": 0.6881
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:40:46.201645",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Bruce Springsteen is different from many other artists who sell a lot of music.\nHe is almost 70 years old, but he still makes popular new music.\nMany people go to his shows in big stadiums.\nThis is not a surprise to me.\nHe is still a top musician because he tells stories that are important for us.\nFor example, the stories in his song 'Born in the USA' are still important today.",
+      "timestamp": "2025-08-31 20:40:46.203320",
+      "metadata": {
+        "text_id": "6331adbb-9c03-4e8e-b81c-6ed59035daeb",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-08-31 20:41:19.255683",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "afe950cc-dc06-4604-9cb3-4729c58b6ddb",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8953 is below the required 0.90 threshold. This indicates a loss of key phrasing and lexical detail from the original text.\n\nPrimary Deviation: The phrase 'remains at the top of his game' was simplified to 'still a top musician'. While the meaning is similar, the fidelity to the source is too low, causing the metric failure.\n\nSecondary Deviation: The original text refers to the 'album' Born in the USA. Your output incorrectly identifies it as a 'song'. This must be corrected for factual precision.\n\nPositive Observation: The text correctly uses A2-level vocabulary and sentence structures, and the CEFR classification of A2 is appropriate.\n\nSuggestion: Revise the text to improve lexical overlap with the original without adding complexity. Correct the reference from 'song' to 'album' to ensure factual accuracy.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8953,
+          "meaningbert": 0.7684
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:41:30.595104",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Bruce Springsteen is different from many other artists who sell a lot of music.\nHe is almost 70 years old, but he still makes popular new music.\nMany people go to his shows in big stadiums.\nThis is not a surprise to me.\nHe is still at the top because he tells stories that are important for us.\nFor example, the stories in his album 'Born in the USA' are still important today.",
+      "timestamp": "2025-08-31 20:41:30.595622",
+      "metadata": {
+        "text_id": "bfc666f6-f960-49f8-8397-e7238cdcecda",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 20:41:57.540146",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "13bb74dd-f1f6-4bb6-a6ab-1787016fc7df",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8972 is below the required 0.90. This indicates a loss of key words and phrasing from the original text.\n\n- The phrase 'chart-topping, stadium-filling' was replaced with 'popular' and a separate sentence about stadiums. This simplification loses the direct lexical connection.\n- The original's 'remains at the top of his game' was reduced to 'He is still at the top', losing the idiomatic meaning.\n- The concept of 'our most fundamental stories about ourselves' was simplified to 'stories that are important for us', losing the key words 'fundamental' and 'ourselves'.\n- The word 'relevant' was replaced with 'important', which is a similar but less precise term.\n\nSuggestion: To meet the fidelity requirement, you must retain more of the original's specific vocabulary. Rephrase to include concepts like 'number one music' or 'stories about people's lives' to more closely match the source text without using B1 vocabulary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8972,
+          "meaningbert": 0.793
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:42:18.845019",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Bruce Springsteen is different from many other artists who sell a lot of music.\nHe is almost 70 years old, but he still makes number one music.\nHis shows fill big stadiums.\nHe is still one of the best musicians.\nThis is not a surprise to me.\nHe tells very important stories about our lives.\nFor example, the stories in his album 'Born in the USA' are still true for us today.",
+      "timestamp": "2025-08-31 20:42:18.847219",
+      "metadata": {
+        "text_id": "38003aa7-9634-4036-b83d-2ec4e0666f12",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:42:41.664455",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ae3ba8b0-f447-440c-bef1-522472052f24",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with the A2 standard.\n\n- Factual Integrity: The output is factually identical to the original text. The simplification of 'late 60s' to 'almost 70 years old' is accurate and appropriate.\n- Meaning and Fidelity: The metrics are excellent. MeaningBERT at 0.8065 and BERTScore at 0.9001 confirm that the core message and key lexical items have been preserved.\n- CEFR Compliance: The classifier result is correctly A2.\n- Qualitative Audit: The text is a model of A2 simplification. Vocabulary is strictly limited to A1 and A2 levels. Complex sentence structures from the original have been broken down into short, simple, and clear sentences. The use of the relative clause 'who sell a lot of music' is an appropriate A2-level structure. No deviations were found.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9001,
+          "meaningbert": 0.8065
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:42:48.788965",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Bruce Springsteen is different from many other artists who sell a lot of music.\nHe is almost 70 years old, but he still makes number one music.\nHis shows fill big stadiums.\nHe is still one of the best musicians.\nThis is not a surprise to me.\nHe tells very important stories about our lives.\nFor example, the stories in his album 'Born in the USA' are still true for us today.",
+      "timestamp": "2025-08-31 20:42:48.790808",
+      "metadata": {
+        "text_id": "eb29e207-2adf-40a1-ace9-dc1de5e1a38e",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:43:11.559157",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ce4836ab-565c-4f86-835b-3ad5f5fdb819",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with the A2 standard.\n\n- Factual Integrity: The output is factually identical to the original text. The simplification of 'late 60s' to 'almost 70 years old' is accurate and appropriate.\n- Meaning and Fidelity: The metrics are excellent. MeaningBERT at 0.8065 and BERTScore at 0.9001 confirm that the core message and key lexical items have been preserved.\n- CEFR Compliance: The classifier result is correctly A2.\n- Qualitative Audit: The text is a model of A2 simplification. Vocabulary is strictly limited to A1 and A2 levels. Complex sentence structures from the original have been broken down into short, simple, and clear sentences. The use of the relative clause 'who sell a lot of music' is an appropriate A2-level structure. No deviations were found.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9001,
+          "meaningbert": 0.8065
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:43:21.404376",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Bruce Springsteen is different from many other artists who sell a lot of music.\nHe is almost 70 years old, but he still makes number one music.\nHis shows fill big stadiums.\nHe is still one of the best musicians.\nThis is not a surprise to me.\nHe tells very important stories about our lives.\nFor example, the stories in his album 'Born in the USA' are still true for us today.",
+      "timestamp": "2025-08-31 20:43:21.404984",
+      "metadata": {
+        "text_id": "55cecd38-be40-4795-b341-a643cabf87c8",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:43:46.272412",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "93a57c01-6032-4ccc-8ffb-0504523a1c54",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with the A2 standard.\n\n- Factual Integrity: The output is factually identical to the original text. The simplification of 'late 60s' to 'almost 70 years old' is accurate and appropriate.\n- Meaning and Fidelity: The metrics are excellent. MeaningBERT at 0.8065 and BERTScore at 0.9001 confirm that the core message and key lexical items have been preserved.\n- CEFR Compliance: The classifier result is correctly A2.\n- Qualitative Audit: The text is a model of A2 simplification. Vocabulary is strictly limited to A1 and A2 levels. Complex sentence structures from the original have been broken down into short, simple, and clear sentences. The use of the relative clause 'who sell a lot of music' is an appropriate A2-level structure. No deviations were found.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9001,
+          "meaningbert": 0.8065
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:43:54.660325",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Bruce Springsteen is different from many other artists who sell a lot of music.\nHe is almost 70 years old, but he still makes number one music.\nHis shows fill big stadiums.\nHe is still one of the best musicians.\nThis is not a surprise to me.\nHe tells very important stories about our lives.\nFor example, the stories in his album 'Born in the USA' are still true for us today.",
+      "timestamp": "2025-08-31 20:43:54.660975",
+      "metadata": {
+        "text_id": "ab2260cc-d5bc-41f2-8ed1-a8cd622c0f7d",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:44:16.320747",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9d2fb3b2-8dcf-4f42-819b-8f1a034e4afb",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: Full Compliance. The text meets all A2 standard requirements.\n- Factual Integrity: The output is factually identical to the original text.\n- Meaning Preservation: The MeaningBERT score of 0.8065 and BERTScore of 0.9001 confirm that the core message and key terms have been successfully retained.\n- CEFR Compliance: The A2 classification is correct. The vocabulary is strictly limited to A1 and A2 levels, with words like 'almost', 'surprise', and 'album' being appropriate for the target level.\n- Structural Simplicity: The text is correctly broken down into short, simple sentences. The use of the connector 'but' and a simple relative clause ('who sell a lot of music') is consistent with A2 grammar.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9001,
+          "meaningbert": 0.8065
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:44:30.634632",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Bruce Springsteen is different from many other artists who sell a lot of music.\nHe is almost 70 years old, but he still makes number one music.\nHis shows fill big stadiums.\nHe is still one of the best musicians.\nThis is not a surprise to me.\nHe tells very important stories about our lives.\nFor example, the stories in his album 'Born in the USA' are still true for us today.",
+      "timestamp": "2025-08-31 20:44:30.637078",
+      "metadata": {
+        "text_id": "b403748f-cf7a-4cf2-822d-686bfb44032b",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:44:54.010167",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ed0f3115-b046-4487-9ba5-4cbcf33be044",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with the A2 standard.\n\n- Factual Integrity: The output is factually identical to the original text. The simplification of 'late 60s' to 'almost 70 years old' is accurate and appropriate.\n- Meaning and Fidelity: The metrics are excellent. MeaningBERT at 0.8065 and BERTScore at 0.9001 confirm that the core message and key lexical items have been preserved.\n- CEFR Compliance: The classifier result is correctly A2.\n- Qualitative Audit: The text is a model of A2 simplification. Vocabulary is strictly limited to A1 and A2 levels. Complex sentence structures from the original have been broken down into short, simple, and clear sentences. The use of the relative clause 'who sell a lot of music' is an appropriate A2-level structure. No deviations were found.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9001,
+          "meaningbert": 0.8065
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:45:02.804214",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Bruce Springsteen is different from many other artists who sell a lot of music.\nHe is almost 70 years old, but he still makes number one music.\nHis shows fill big stadiums.\nHe is still one of the best musicians.\nThis is not a surprise to me.\nHe tells very important stories about our lives.\nFor example, the stories in his album 'Born in the USA' are still true for us today.",
+      "timestamp": "2025-08-31 20:45:02.806107",
+      "metadata": {
+        "text_id": "7adf033a-7c9d-439e-b45a-eeaf01a869a9",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:45:30.219032",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "55443661-0a65-4632-bb78-c647739159f1",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with the A2 standard.\n\n- Factual Integrity: The output is factually identical to the original text. The simplification of 'late 60s' to 'almost 70 years old' is accurate and appropriate.\n- Meaning and Fidelity: The metrics are excellent. MeaningBERT at 0.8065 and BERTScore at 0.9001 confirm that the core message and key lexical items have been preserved.\n- CEFR Compliance: The classifier result is correctly A2.\n- Qualitative Audit: The text is a model of A2 simplification. Vocabulary is strictly limited to A1 and A2 levels. Complex sentence structures from the original have been broken down into short, simple, and clear sentences. The use of the relative clause 'who sell a lot of music' is an appropriate A2-level structure. No deviations were found.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9001,
+          "meaningbert": 0.8065
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:45:41.546160",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Bruce Springsteen is different from many other artists who sell a lot of music.\nHe is almost 70 years old, but he still makes number one music.\nHis shows fill big stadiums.\nHe is still one of the best musicians.\nThis is not a surprise to me.\nHe tells very important stories about our lives.\nFor example, the stories in his album 'Born in the USA' are still true for us today.",
+      "timestamp": "2025-08-31 20:45:41.547026",
+      "metadata": {
+        "text_id": "bd3c2a1c-365c-4388-947d-7cef36049598",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 20:46:05.675838",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4f5f21ff-19c1-4708-b021-89c6a516250a",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with all A2 standards.\n\n- Factual Integrity: The output is factually identical to the original text. The age reference 'almost 70 years old' is an accurate simplification of 'in his late 60s'.\n- Metric Compliance: The MeaningBERT score of 0.8065 and BERTScore of 0.9001 meet the required thresholds, confirming excellent preservation of meaning and key terms.\n- CEFR Classification: The text correctly classified as A2.\n- Qualitative Audit: The vocabulary is strictly limited to A1 and A2 levels. Sentence structures are simple, short, and use appropriate A2-level connectors. The breakdown of the original complex sentence into multiple simple sentences is exemplary. No deviations were found.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9001,
+          "meaningbert": 0.8065
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "01a624a8-e348-44d8-a4b3-46ff532d732d",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "A 'psychologist' is a person who studies the mind. Carol Dweck is a psychologist. She works at Stanford University. She did a test with ten-year-old children. She gave them problems. The problems were a little bit too hard for them.\n\nA 'mindset' is a way of thinking. A 'challenge' is a hard thing to do.\nOne group of children liked the challenge. They knew they could learn and get better. They knew their abilities could grow. She said these children had a 'growth mindset'. This means they believe they can always learn and get better. They think about what they can do in the future.\n\nBut another group of children felt people judged their intelligence. They felt they did not do well. She said these children had a 'fixed mindset'. This means they believe they cannot get better. They could not imagine learning more.\n\nSome children said they might cheat later. 'Self-esteem' is how you feel about yourself. Other children looked for someone. This person did worse than them. They wanted to boost their self-esteem.",
+    "version": 11,
+    "created_at": "2025-09-01 17:15:40.403683",
+    "updated_at": "2025-09-01 17:15:40.403683",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "73196abd-a7d0-4f06-9fe8-f3ac09230016",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7149 is below the required 0.75. While the factual information is present, the original text's nuance regarding the children's active reactions to the difficult problems and the deeper implication of those reactions for their mindset is diluted. For example, 'reacted positively' is simplified to 'liked the challenge', which loses some of the active, emotional response. The core message about the unveiling of mindsets through these specific reactions is not fully preserved. \n\nAdditional Deviations:\n- CEFR Compliance Failure: The classifier rated the text as B1, not A2. This indicates the language used is too complex for the target level.\n- Vocabulary Audit Failure: Several B1/B2 words are present without being adequately replaced by A2 equivalents. Simply defining a complex word does not make the text A2 compliant if the word itself is still used. Examples include 'intelligence' (B1) and 'cheat' (B1), which are used directly without definition or replacement. 'Psychologist' (B2), 'mindset' (B1), 'challenge' (B1), and 'self-esteem' (B2) are defined but still present, which is not sufficient for A2 compliance. The goal is to use A2 vocabulary, not just explain B1/B2 terms.\n- Structural Complexity: The sentence 'This means they believe they can always learn and get better' uses a 'that-clause' structure, which is typically B1. Similarly, 'They think about what they can do in the future' contains a noun clause ('what they can do'), also a B1 structure. The phrase 'could not imagine learning more' uses 'imagine + -ing', which is a B1 grammatical structure. These structures elevate the text beyond A2 simplicity.",
+    "metrics": {
+      "cefr_compliance": "B1",
+      "bertscore": 0.9,
+      "meaningbert": 0.7149
+    },
+    "created_at": "2025-09-01 17:16:11.433550"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "ccecf24a-5a4c-4996-83b5-d83a2b5f4ade",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Carol Dweck is a psychologist. She works at Stanford University. She did a test when she started her job. She gave problems to ten-year-old children. The problems were a little bit too hard for them.\n\nOne group of children was happy. They said they liked to try hard things. They knew they could learn and get better. She said these children had a 'growth mindset'. This means they believed they could always learn. They thought about what they can do in the future.\n\nBut another group of children felt people judged them. They felt people judged if they were smart. They felt they did not do well. She said these children had a 'fixed mindset'. This means they believed they could not get better. They could not imagine learning more.\n\nSome children said they might copy answers later. Other children looked for someone. This person did worse than them. They wanted to feel good about themselves.",
+    "version": 9,
+    "created_at": "2025-09-01 17:14:24.220603",
+    "updated_at": "2025-09-01 17:14:24.220604",
+    "metrics_meaningbert": 0.8014,
+    "metrics_cefr_compliance": "A2"
+  }
+}

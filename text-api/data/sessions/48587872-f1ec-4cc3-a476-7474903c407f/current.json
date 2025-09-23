@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "bada2858-ca24-4916-9e08-b7fb6a61e5e5",
+    "cefr_level": "B1",
+    "text_id": "text_001",
+    "text_translated": "In the past, many bridges were built from wood, and they were more likely to catch fire. This was especially true of old train bridges, where sparks produced by the steel wheels on the steel tracks could sometimes cause the wooden bridge to catch fire. The bridge could then burn to the ground.",
+    "version": 11,
+    "created_at": "2025-09-01 17:41:43.773931",
+    "updated_at": "2025-09-01 17:41:43.773935",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "af3d05f4-4d01-4a55-bd7e-8a3878646203",
+    "approval": "FAIL",
+    "grade": 4,
+    "feedback": "FAIL: Meaning Preservation. The MeaningBERT score of 0.6572 is below the required 0.75 threshold, indicating a loss of the original message's nuance. This is likely because the original phrase 'much more susceptible to fire' was simplified to 'more likely to catch fire', which changes the sense of inherent vulnerability. Additionally, splitting the single event 'catch fire and burn to the ground' into two separate sentences alters the causal structure and emphasis of the original text. To improve, consider rephrasing to keep the final two actions linked, for example: '...could sometimes cause the bridge to catch fire and burn down completely.' While the text is factually correct and meets the B1 CEFR level, this subtle shift in meaning caused the failure.",
+    "metrics": {
+      "cefr_compliance": "B1",
+      "bertscore": 0.9563,
+      "meaningbert": 0.6572
+    },
+    "created_at": "2025-09-01 17:42:05.931363"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "bada2858-ca24-4916-9e08-b7fb6a61e5e5",
+    "cefr_level": "B1",
+    "text_id": "text_001",
+    "text_translated": "In the past, many bridges were built from wood, and they were more likely to catch fire. This was especially true of old train bridges, where sparks produced by the steel wheels on the steel tracks could sometimes cause the wooden bridge to catch fire. The bridge could then burn to the ground.",
+    "version": 11,
+    "created_at": "2025-09-01 17:41:43.773931",
+    "updated_at": "2025-09-01 17:41:43.773935",
+    "metrics_meaningbert": 0.6572,
+    "metrics_cefr_compliance": "B1"
+  }
+}

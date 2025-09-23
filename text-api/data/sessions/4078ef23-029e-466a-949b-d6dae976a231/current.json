@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "1604beb9-87c2-41e4-8962-160f6bcd2548",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "NEOs are rocks in space.\nAsteroids are also rocks in space.\nNASA wants to find more middle-sized NEOs.\nNASA can find them only if it gets money.\nNASA wants to build a machine called NEOCam.\nIt is a space telescope.\nIt is 0.5 metres wide.\nIt will be in space.\nIt will use infrared light.\nThis light helps it find asteroids.\nIf NASA gets the money, it can probably find them in ten years.\nAfter NASA finds the asteroids, it will make a list of them.\nThen, a team will have an important job.\nThis team is the planet safety team.\nThis team keeps the planet safe.\nThey will need to find a way to stop the dangerous asteroids.\nThese asteroids are called PHAs.\nThe team must stop PHAs from hitting the planet.",
+    "version": 11,
+    "created_at": "2025-09-01 17:03:34.197428",
+    "updated_at": "2025-09-01 17:03:34.197429",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "ad97ad15-1a21-4b78-9d48-e45d6f1a989f",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning and Fidelity Failure. The text failed to preserve the core meaning and lexical fidelity of the original. The MeaningBERT score of 0.5821 is significantly below the required 0.75, indicating a substantial loss of the original message's nuance and emphasis. The BERTScore of 0.8897 is also below the required 0.90, showing a significant deviation from the original's key phrasing and lexical content. The CEFR classifier did rate the text as A2, but this is secondary to the critical failures in meaning and fidelity. Deviations: Meaning Preservation: The original text conveys a sense of challenge and dependency, for example, 'Whether NASA can find the remaining middle-sized NEOs depends on getting the money' and 'would still need to work out how to defend the planet'. The simplified version, by fragmenting these ideas into many short, declarative sentences, loses this crucial nuance of an ongoing problem and the specific difficulty of the task. For instance, the conditional and causal link in 'Whether NASA can find... depends on getting the money' is broken into separate statements like 'NASA wants to find more middle-sized NEOs. NASA can find them only if it gets money.', which dilutes the original's meaning and the relationship between the ideas. Lexical Fidelity: Key phrases from the original were significantly altered or lost, contributing to the low BERTScore. For example, 'planetary defence team' was changed to 'planet safety team', and the more detailed 'work out how to defend the planet against being hit by the truly worrying asteroids' was rephrased as 'find a way to stop the dangerous asteroids. The team must stop PHAs from hitting the planet.' While the individual words might be A2, the specific phrasing and the overall lexical density of the original are not maintained. The phrase 'achieve its goal' was simplified to 'find them', losing some of the original's specific intent. Sentence Structure: The extreme fragmentation into very short sentences, such as 'It is a space telescope. It is 0.5 metres wide. It will be in space.', while aiming for A2 simplicity, contributes to the loss of coherence and the original's more integrated flow. This fragmentation directly impacts the MeaningBERT and BERTScore by breaking down the original's integrated ideas and specific phrasing. Suggestion: Reconstruct sentences to maintain the original's logical flow and causal relationships without increasing complexity beyond A2. Combine related short sentences using simple A2 connectors like 'and', 'but', 'so', 'because' to better preserve the original's meaning and lexical structure. Ensure that key concepts like 'depends on' and 'defend against' are conveyed with A2-appropriate phrasing that retains their original strength, rather than being diluted by excessive fragmentation.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8897,
+      "meaningbert": 0.5821
+    },
+    "created_at": "2025-09-01 17:04:03.773535"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "efb409ef-41ae-46cc-9fb4-a4b81d510e31",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "NEOs are rocks in space.\nNASA wants to find middle-sized NEOs.\nBut NASA can only find them if it gets money.\nNASA wants to build a special telescope.\nIts name is NEOCam.\nThis telescope will be in space.\nIt is 0.5 metres wide.\nIt will use infrared light.\nIt will use this light to find asteroids.\nIf NASA gets the money, it can probably reach its goal in ten years.\nAfter NASA finds the NEOs, it will write them down.\nThen, the team that protects the planet will start.\nThis team still needs to know how to defend the planet.\nThey need to stop very dangerous asteroids from hitting the planet.\nThese very dangerous asteroids are called PHAs.",
+    "version": 6,
+    "created_at": "2025-09-01 17:00:35.455120",
+    "updated_at": "2025-09-01 17:00:35.455121",
+    "metrics_meaningbert": 0.7475,
+    "metrics_cefr_compliance": "A2"
+  }
+}

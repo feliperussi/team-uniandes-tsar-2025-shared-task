@@ -1,0 +1,413 @@
+{
+  "session_id": "3f39297d-f232-4a9f-88a8-f124cf967f0d",
+  "created_at": "2025-09-01 17:29:16.638650",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:29:16.662691",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "112-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Gros Michel is a banana that was very popular.  \nCavendish is a banana that came after Gros Michel.  \n\nIn the 1950s, banana growers in the middle of America saw their best banana die.  \nNow the same thing is happening to Cavendish.  \n\nThe Gros Michel banana had fruit that was easy to move, thick skin and sweet taste.  \nThe plant ruled banana farms in the middle of America.  \n\nUnited Fruit was the biggest grower and seller in South America\u2019s farms then.  \nThe company made many bananas in a good way.  \n\nIt copied shoots from plant stems instead of planting seeds.  \nIt grew the bananas close together in fields.",
+      "timestamp": "2025-09-01 17:29:16.662876",
+      "metadata": {
+        "text_id": "ccf225c1-1e11-4823-9fb1-3c3d6b16c16f",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:29:16.674546",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "cdf0d4fa-d241-42f0-95c2-aaa958507449",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The submission fails on two critical metrics, making it an instant and severe failure.\n\n- MeaningBERT score is 0.60. This is catastrophically below the required 0.75 and indicates a severe failure to preserve the original text's core message. The primary error is the simplification of 'mass-produced its bananas in the most efficient way possible' to 'made many bananas in a good way'. The word 'efficient' is critical; it describes a specific method of production focused on speed and cost. Your replacement 'good' is vague and loses this essential meaning.\n\n- BERTScore is 0.88. This is below the required 0.90, indicating a loss of key vocabulary and fidelity to the source. Important concepts conveyed by words like 'lucrative', 'dominated', and 'efficient' were not adequately translated into A2-level equivalents, damaging the text's informational value.\n\nSuggestion: You must rephrase to restore the lost meaning. The concept of 'efficiency' must be present. Change 'made many bananas in a good way' to 'The company made many bananas in a fast and cheap way'. This is A2-level and correctly conveys the original meaning. Do not sacrifice core concepts for simplicity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8823,
+          "meaningbert": 0.6016
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:29:22.008633",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Gros Michel is a type of banana.  \nIt was the most profitable banana.  \n\nCavendish is a type of banana that came after Gros Michel.  \n\nIn the 1950s, growers in Central America saw their best banana die.  \nNow the same thing is happening to Cavendish.  \n\nThe Gros Michel banana had fruit that was easy to move.  \nIt had thick skin and sweet taste.  \n\nThe plant ruled banana farms in Central America.  \n\nUnited Fruit was the biggest grower and seller in South America then.  \nThe company made many bananas in a fast and cheap way.  \n\nIt copied shoots from plant stems instead of planting seeds.  \nIt grew the bananas close together in fields.",
+      "timestamp": "2025-09-01 17:29:22.008932",
+      "metadata": {
+        "text_id": "820fdece-adb9-4407-bccc-3cdccd46c82d",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:29:48.608347",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c20252d9-1898-4d6d-aaca-20e9a64ffaec",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary failure is a catastrophic loss of meaning and fidelity, confirmed by metrics. The MeaningBERT score of 0.6518 is far below the required 0.75. The BERTScore of 0.8809 is below the required 0.90. This indicates the text has been over-simplified to the point of losing the original message and key vocabulary.\n\n- Vocabulary Violation: The C1 word 'profitable' from the original text was used directly in the output. The task is to simplify complex vocabulary, not to reuse it. This is a critical error.\n- Structural Degradation: The output is a list of disconnected, A1-level sentences. It is not a coherent A2 paragraph. The original text explains that the Gros Michel banana was dominant *because* of its qualities. Your version lists these as separate, unrelated facts, destroying the cause-and-effect relationship.\n- Meaning Loss: The phrase 'ruled banana farms' is a poor and inaccurate simplification of 'dominated the plantations'. It changes the meaning from 'most common' to 'in control'. The phrase 'fast and cheap way' is an inadequate replacement for 'most efficient way possible', losing the specific concept of efficiency.\n\nSuggestion: Re-write the text to connect ideas using simple A2 connectors like 'and', 'so', and 'because'. Remove the C1 word 'profitable' and replace it with an A2 phrase like 'made a lot of money'. Combine the short, choppy sentences into more complex, yet still A2-compliant, structures to restore the original meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8809,
+          "meaningbert": 0.6518
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:29:58.217935",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Gros Michel is a banana. It was grown a lot in Central America. It made a lot of money for growers. It had thick skin and sweet taste. It was easy to move. United Fruit was the biggest grower in South America. It also sold many bananas. The company copied shoots from plant stems instead of planting seeds. It grew the bananas close together. So it could produce many bananas quickly and cheaply. In the 1950s the Gros Michel plants began to die. So the growers lost their main banana. Cavendish is another banana type. The Cavendish banana replaced the Gros Michel. Now the Cavendish is also being threatened.",
+      "timestamp": "2025-09-01 17:29:58.218419",
+      "metadata": {
+        "text_id": "89a1c402-6e18-4485-a9b3-a7384d1f7aa9",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:30:24.626877",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d071d19e-8a6a-498d-971e-bdb32df3a527",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6142 is critically below the required 0.75 threshold. The text also fails the fidelity check with a BERTScore of 0.8904, which is below the 0.90 minimum.\n\n- Meaning Preservation Failure: The original text establishes a crisis narrative from the first sentence ('facing the death of their most lucrative product'). Your version buries this critical information at the end, presenting it as a simple historical fact. This reordering fundamentally changes the message and is the primary reason for the low MeaningBERT score.\n\n- Fidelity Failure: The low BERTScore is a direct result of excessive simplification. Key B1/B2 concepts like 'lucrative', 'dominated', 'mass-produced', and 'efficient' were replaced with phrases that do not carry the same weight, such as 'made a lot of money' and 'quickly and cheaply'. This loses lexical precision.\n\n- CEFR Vocabulary Violation: The text uses the B1 word 'Central' in 'Central America'. This is not A2 vocabulary.\n\n- CEFR Structural Violation: The sentence 'Now the Cavendish is also being threatened' uses a present continuous passive structure ('is being threatened'). This is a B2-level grammatical structure and is unacceptable for an A2 text.\n\nSuggestion: Rewrite the text. Start with the problem, as the original does, to preserve the core message. Replace 'Central America' with an A2-compliant phrase like 'in countries in the middle of America'. Rephrase 'is also being threatened' into a simple active sentence, such as 'Now, the Cavendish banana is also in danger.' or 'Now, there is a problem with the Cavendish banana too.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8904,
+          "meaningbert": 0.6142
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:30:30.225559",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1950s growers faced the death of their best banana. Their best banana was the Gros Michel. Gros Michel is a banana with thick skin and sweet taste. It was easy to move and sold for a lot of money. United Fruit was a big grower. It grew bananas in countries in the middle of America. The company copied shoots from plant stems instead of planting seeds. It grew the bananas close together. This let them produce many bananas fast and cheap. The Gros Michel plants began to die in the 1950s. Growers lost their main banana. The Cavendish banana replaced the Gros Michel. Now the Cavendish banana also has a problem.",
+      "timestamp": "2025-09-01 17:30:30.225974",
+      "metadata": {
+        "text_id": "44f7a653-16e0-4f96-9518-d5ecfe3c4451",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:30:51.756269",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "08ffaad6-9a11-49a0-b8fa-4962d2edece2",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text states United Fruit was the main grower in 'South America'. Your text changes this to 'middle of America'. This is an immediate failure.\n\nFAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6463 is significantly below the 0.75 threshold. The original text's core message about a problem 'happening again' was lost when you wrote 'Now the Cavendish banana also has a problem.' This is a weak replacement for the original's emphasis on a repeating crisis.\n\nFAIL: Fidelity Failure. The BERTScore of 0.8962 is below the required 0.90. Key concepts like 'lucrative product' and 'dominated the plantations' were oversimplified to 'sold for a lot of money' and 'big grower', losing essential lexical detail and meaning.\n\nSuggestion: Correct the geographical fact about United Fruit to match the source text exactly. Rephrase the ending to restore the concept of a repeating problem. The simplification of 'efficient' to 'fast and cheap' is acceptable, but the loss of the 'repeating crisis' concept is a critical error in meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8962,
+          "meaningbert": 0.6463
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:30:56.515720",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1950s growers lost their best banana.  \nThe best banana was the Gros Michel.  \nGros Michel is a banana with thick skin and sweet taste.  \nIt was easy to move and made a lot of money.  \nUnited Fruit was the main grower in South America.  \nThe company copied shoots from plant stems.  \nIt did not plant seeds.  \nIt grew the bananas close together.  \nThis let them produce many bananas fast and cheap.  \nThe Gros Michel plants began to die in the 1950s.  \nGrowers lost their main banana.  \nThe Cavendish banana replaced the Gros Michel.  \nNow the same problem is happening again with the Cavendish.",
+      "timestamp": "2025-09-01 17:30:56.516262",
+      "metadata": {
+        "text_id": "e5b64b61-b48f-4160-91ef-8489d08ee2c4",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:31:20.867781",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5ef7b121-4ff8-42a0-8016-5a7bbd5d4790",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for failure is the MeaningBERT score of 0.6351, which is substantially below the required 0.75 threshold. This indicates a severe loss of the original text's core message. The original describes a specific business crisis; your version reduces this to a list of simple, disconnected facts, losing the essential context of a lucrative product being threatened.\n\n- Fidelity Failure: The BERTScore of 0.8711 is below the minimum requirement of 0.90. This is a direct result of oversimplification. Key factual details and vocabulary were removed. For example, the specific location 'Central American' was omitted, and precise terms like 'lucrative', 'cloned', and 'efficient' were replaced with phrases ('made a lot of money', 'copied', 'fast and cheap') that do not carry the same weight or meaning.\n\n- Factual Dilution: While no direct factual inaccuracies were found, the omission of 'Central American' is a significant loss of key information. The context is critical to the story.\n\n- Structural Simplification: The text successfully uses A2 sentence structures and vocabulary, which is why the CEFR classifier rated it A2. However, this was achieved by sacrificing the meaning and fidelity of the source text, which is a critical failure.\n\nSuggestion: You must preserve the core concepts. Re-introduce the location 'Central America'. To better preserve meaning, combine some of the simple sentences. Instead of 'Growers lost their main banana', which is vague, state the problem more clearly: 'The Gros Michel banana plants were dying, and the growers had a big problem.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8711,
+          "meaningbert": 0.6351
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:31:27.219272",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1950s growers in Central America lost their best banana.  \nThe best banana was the Gros Michel.  \nGros Michel is a banana with thick skin and sweet taste.  \nIt was easy to move and it made a lot of money.  \nUnited Fruit was the main grower in South America.  \nThe company copied shoots from plant stems instead of planting seeds.  \nIt grew the bananas close together.  \nThis let them produce many bananas fast and cheap.  \nIn the 1950s the Gros Michel plants began to die.  \nThe growers had a big problem because their main banana was dying.  \nThe Cavendish banana replaced the Gros Michel.  \nNow the same problem is happening again with the Cavendish.",
+      "timestamp": "2025-09-01 17:31:27.219707",
+      "metadata": {
+        "text_id": "5d66bf44-98a0-45a4-bf06-225f527c5c0f",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:31:55.811241",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3c30ac55-a594-450c-ab82-5e566f81a516",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for failure is the MeaningBERT score of 0.6471, which is significantly below the required 0.75. This indicates the core message was not preserved.\n- The original text emphasizes an economic crisis for growers with phrases like 'most lucrative product' and 'dominated the plantations'. Your version simplifies this to 'best banana' and 'made a lot of money', which loses the critical meaning of economic dominance and the scale of the problem.\n- The BERTScore of 0.8794 is also below the 0.90 minimum. This fidelity failure is due to the removal of key terms from the original, such as 'lucrative', 'dominated', 'mass-produced', and 'efficient'.\n- Vocabulary Violation: The word 'Central' is B1 level and is not permitted in an A2 text.\n- Suggestion: Rephrase to restore the original meaning. The concept of the banana being the 'most important for making money' must be clear. The method of production must be explicitly linked to being 'fast and cheap'. Replace 'Central America' with an A2-compliant phrase.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8794,
+          "meaningbert": 0.6471
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:32:07.587384",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1950s growers in the area of America lost the banana that gave them the most money.  \nThe banana was called Gros Michel.  \nGros Michel is a banana with thick skin and sweet taste.  \nIt was easy to move and it gave a lot of money.  \nThe banana covered most of the farms.  \nUnited Fruit was the main grower in South America.  \nThe company copied shoots from plant stems instead of planting seeds.  \nIt grew the bananas close together.  \nThis let them produce many bananas fast and cheap.  \nIn the 1950s the Gros Michel plants began to die.  \nThe growers had a big problem because their main banana was dying.  \nCavendish is a banana that later replaced Gros Michel.  \nNow the same problem is happening again with Cavendish.",
+      "timestamp": "2025-09-01 17:32:07.588487",
+      "metadata": {
+        "text_id": "0d0b3fb9-766b-41df-9143-d7763de74b92",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:32:31.895051",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1ae35568-c4d8-46d3-93c3-5ff9f731fb1f",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on two critical metrics. The MeaningBERT score of 0.6362 is significantly below the required 0.75, and the BERTScore of 0.8725 is below the required 0.90. This indicates a severe loss of the original text's core message and lexical detail.\n- Deviation: Meaning Loss. The original text states growers were 'facing the death' of their product, which implies an ongoing crisis. Your version states they 'lost the banana', which is a completed event and changes the meaning.\n- Deviation: Fidelity Loss. Key phrases like 'commercial banana growers' and 'lucrative product' were oversimplified into vague terms like 'growers in the area of America' and 'gave them the most money', causing the BERTScore to drop. The simplification lost too much specific information.\n- Deviation: B1 Vocabulary. The word 'covered' in 'The banana covered most of the farms' is a B1-level usage. This is not A2 vocabulary.\n- Suggestion: Rephrase to restore the original meaning. Use 'started to die' instead of 'lost'.\n- Suggestion: Replace B1 vocabulary. Change 'covered most of the farms' to 'grew on most of the farms'.\n- Suggestion: Retain more specific details during simplification to meet the fidelity score requirement.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8725,
+          "meaningbert": 0.6362
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:32:36.947145",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1950s banana growers who sold bananas in Central America faced a problem.  \nTheir most important banana, the Gros Michel, started to die.  \nThe Gros Michel had thick skin and a sweet taste.  \nIt was easy to move and made a lot of money.  \nIt grew on most of the farms.  \nUnited Fruit was the main grower in South  America.  \nThe company copied shoots from plant stems instead of planting seeds.  \nIt grew the bananas close together.  \nThis let them produce many bananas fast and cheap.  \nLater the Cavendish banana took the place of the Gros Michel.  \nNow the same problem is happening again with the Cavendish.",
+      "timestamp": "2025-09-01 17:32:36.947789",
+      "metadata": {
+        "text_id": "61a3cffb-2a1c-430c-abd1-5b84ec93ab52",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:33:03.767344",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "250b7fd3-f2f5-40b3-85c9-110abd564d3c",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6618 is substantially below the required 0.75 threshold. This indicates a critical loss of the original text's core message. The text also fails the fidelity check with a BERTScore of 0.883, below the 0.90 minimum.\n\n- Primary Failure (Meaning): The original text describes a business crisis about a 'lucrative product' and 'efficient' mass-production. Your version reduces this to 'made a lot of money' and 'fast and cheap', which loses the specific business context and the severity of the problem.\n- Secondary Failure (CEFR Compliance): The text is classified as B1, not the required A2. The first sentence, '...banana growers who sold bananas in Central America faced a problem,' uses a relative clause ('who sold...'). This is a B1 grammatical structure and is unacceptable for an A2 text.\n- Tertiary Failure (Vocabulary): The word 'Central' is B1-level vocabulary. It was not replaced or simplified.\n\nSuggestion: Restore the core concepts of 'lucrative' (a product that makes a very large profit) and 'efficient' (producing a lot without waste). Split the first sentence into two simple sentences to eliminate the B1 relative clause. Replace the word 'Central'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.883,
+          "meaningbert": 0.6618
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:33:21.891944",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1950s banana growers in America had a big problem.  \nTheir most money making banana was the Gros Michel.  \nThe Gros Michel had thick skin and sweet taste.  \nIt was easy to move and made a lot of money.  \nIt grew on most farms.  \nUnited Fruit was the main grower in South America.  \nThe company copied shoots from plant stems instead of planting seeds.  \nIt grew the bananas close together.  \nThis let them grow many bananas with little waste.  \nThey used little waste.  \nThe loss of the Gros Michel was a big money problem.  \nLater the Cavendish banana replaced the Gros Michel.  \nNow the same problem is happening again with the Cavendish.",
+      "timestamp": "2025-09-01 17:33:21.893720",
+      "metadata": {
+        "text_id": "393d36e1-c001-474e-84ae-b58baddb1b96",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:33:49.304016",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "68fad322-ad41-4d99-a3c1-948a6e7474b3",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text specifies 'Central American' growers. Your output states 'banana growers in America'. This is a critical factual error and an instant failure.\n\nFurther analysis reveals catastrophic failures at every subsequent level of the protocol:\n\n- Meaning Preservation Failure: The MeaningBERT score of 0.5835 is drastically below the required 0.75. Your text fails to convey the original's core message about a looming threat to a product.\n\n- Fidelity Failure: The BERTScore of 0.8747 is below the 0.90 threshold. This is a direct result of replacing specific terms like 'Central American commercial banana growers' with inaccurate, overly simple phrases.\n\n- CEFR Compliance Failure: The text is classified as B1, not the required A2. This is caused by your introduction of vocabulary outside the A2 level.\n\n- Vocabulary Audit Failure: You introduced B1 words ('waste', 'loss', 'used') and a B2 word ('making') that were not in the original text. This is unacceptable. The phrase 'money making' is a B2 structure.\n\n- Content Addition Error: You added the sentences 'This let them grow many bananas with little waste' and 'The loss of the Gros Michel was a big money problem'. This is an interpretation, not a simplification. It introduces concepts and vocabulary not present in the source text.\n\nSuggestion: Correct the geographical location to 'Central America'. Remove all B1 and B2 vocabulary. Do not add information or interpret the text; simplify only what is present. Rephrase 'money making' to 'made the most money'. Delete the sentences about 'waste' and 'loss'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8747,
+          "meaningbert": 0.5835
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:33:57.633330",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1950s banana growers in Central America had a big problem.  \nTheir most money banana was the Gros Michel.  \nThe Gros Michel had thick skin and sweet taste.  \nIt was easy to move.  \nIt grew on many farms.  \nUnited Fruit was the main company in South America.  \nThe company copied shoots from plant stems instead of planting seeds.  \nIt grew the bananas close together.  \nNow the same problem is happening again with the Cavendish.",
+      "timestamp": "2025-09-01 17:33:57.634111",
+      "metadata": {
+        "text_id": "90103e2e-1ac0-46d5-bbb3-03449d649805",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:34:24.849098",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "881f085b-b8e6-4388-be1f-9dcf8d70bc0a",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on multiple primary metrics. The MeaningBERT score of 0.6719 is significantly below the required 0.75 threshold, indicating a severe loss of the original message's core meaning. The BERTScore of 0.8807 is also below the 0.90 minimum, confirming that key factual words were removed.\n\n- Meaning Loss: The original text's core concept of the banana plants 'facing death' was reduced to 'had a big problem', which is too vague and loses the critical context of a fatal disease.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. The use of the B1-level word 'Central' is an immediate violation of the A2 vocabulary standard.\n\n- Vocabulary Error: The phrase 'money banana' is an unidiomatic and confusing simplification for 'lucrative'. It does not meet the standard for clear A2 language.\n\nSuggestion: Restore the concept of the plants 'dying'. Replace the B1 word 'Central'. Rephrase 'money banana' to a clearer A2 construction like 'the banana that made them the most money'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8807,
+          "meaningbert": 0.6719
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:34:35.211164",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the 1950s banana growers in the south had a big problem.  \nTheir bananas that made them the most money were the Gros Michel.  \nThe Gros Michel had thick skin and sweet taste.  \nIt was easy to move.  \nIt grew on many farms.  \nUnited Fruit was the main company in South America.  \nThe company copied shoots from plant stems instead of planting seeds.  \nIt grew the bananas close together.  \nThe Gros Michel plants were dying from a disease.  \nNow the same thing is happening with the Cavendish.",
+      "timestamp": "2025-09-01 17:34:35.212009",
+      "metadata": {
+        "text_id": "a3d330e5-dd1a-47b0-8a6e-e2d8c23e7d26",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:35:15.334686",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a62ae14a-0e64-4026-b79c-628a37b6b9cf",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The writer's output contains information not present in or directly contradicting the original text. The original text specifies 'Central American commercial banana growers'. Your version states 'banana growers in the south', which is an unapproved and inaccurate simplification. Additionally, your text adds 'The Gros Michel plants were dying from a disease.' The original text does not state the cause of death was a disease; this is an unauthorized addition of information.\n\n- Meaning Preservation Failure: The MeaningBERT score of 0.6165 is catastrophically below the required 0.75 threshold. This indicates a severe loss of the original text's core message, caused by the factual inaccuracies and oversimplification.\n\n- Fidelity Failure: The BERTScore of 0.8776 is below the minimum 0.90. Key lexical details like 'Central American' were lost, causing this failure.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. The sentence 'Their bananas that made them the most money were the Gros Michel' uses a relative clause ('that made them...'), which is a B1-level grammatical structure. This sentence must be simplified.\n\n- Suggestion: Restore the precise location 'Central America'. Remove the sentence stating the cause was 'a disease'. Rephrase the complex sentence into two simple A2 sentences. Example: 'The Gros Michel bananas made them the most money.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8776,
+          "meaningbert": 0.6165
+        }
+      }
+    }
+  ]
+}

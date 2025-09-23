@@ -1,0 +1,80 @@
+{
+  "session_id": "6e8cbc09-ef36-47f8-b562-39adb61e324e",
+  "created_at": "2025-09-01 10:44:25.556874",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:44:25.564571",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "24-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Chloe has two pet rats named Zena and Roxy, and she knows they are not typical pets. She has often tried to explain to people that rats are not dirty and that they make fantastic pets if you look after them correctly. However, she understands why people react badly, because she did not like rats either until her friend Martin showed her his own pets and she saw how friendly and intelligent they were. Last year, when one of Martin's rats had babies, Chloe decided she wanted to have two of them.",
+      "timestamp": "2025-09-01 10:44:25.565108",
+      "metadata": {
+        "text_id": "54a6c174-184f-4f70-8645-9d82a47f0f7a",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-09-01 10:44:25.575355",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "82b7150a-c3e9-46c7-b368-e5917ee2acfc",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'A2', which is below the required 'B1' target. While the submission passes the Factual Integrity and Meaning Preservation checks with excellent scores (MeaningBERT 0.90, BERTScore 0.97), the simplification was too aggressive. The resulting text lacks the lexical complexity expected at the B1 level. This is evidenced by the replacement of words like 'affectionate' with the A1-level 'friendly' and simplifying 'lost count of the times' to 'often'. To meet the B1 requirement, the text needs to incorporate a slightly more advanced vocabulary without sacrificing the clear sentence structure. Suggestion: Reintroduce one or two B1-level words to elevate the text to the target level while ensuring it remains comprehensible.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9745,
+          "meaningbert": 0.904
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:44:38.724415",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Chloe has two pet rats named Zena and Roxy, and she knows they are not typical pets. She has lost count of the times she has tried to explain to people that rats are not dirty and that they make fantastic pets if you look after them correctly. However, she understands why people react badly, because she did not like rats either until her friend Martin showed her his own pets and she saw how affectionate and intelligent they were. Last year, when one of Martin's rats had babies, Chloe decided she wanted to have two of them.",
+      "timestamp": "2025-09-01 10:44:38.725476",
+      "metadata": {
+        "text_id": "99387e81-5059-4b8b-a5df-ff03d93a333b",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 10:44:57.858319",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1a25ed38-b42d-45a3-88c2-82053427a9f5",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "This is an excellent simplification that successfully passes all diagnostic checks. Factual integrity is perfectly maintained. The MeaningBERT (0.86) and BERTScore (0.98) are both very high, indicating superb preservation of the original message and phrasing. The text correctly achieved the target B1 classification. The structural adjustments are particularly effective for the B1 level; for example, replacing 'But' with the more formal connector 'However' and adding 'because' to clarify the causal relationship ('...react badly, because she did not like rats either...') improves the logical flow for the reader. The vocabulary was handled appropriately, retaining A2-level words that are suitable for a B1 audience. The final output is clear, accurate, and well-structured.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9819,
+          "meaningbert": 0.8628
+        }
+      }
+    }
+  ]
+}

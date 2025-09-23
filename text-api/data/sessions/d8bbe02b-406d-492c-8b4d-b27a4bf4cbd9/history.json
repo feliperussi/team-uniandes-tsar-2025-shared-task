@@ -1,0 +1,117 @@
+{
+  "session_id": "d8bbe02b-406d-492c-8b4d-b27a4bf4cbd9",
+  "created_at": "2025-09-01 17:32:39.227761",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:32:39.240250",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "22-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: One of the most interesting examples of wild animals in a city is the wild dogs of Moscow, which are dogs that live without owners. In Moscow about 35,000 the dogs roam the streets. Some were born in the wild, while others were pets that were left by their owners. Scientists, people who study nature by observing and experimenting, examined the dogs in 2010 and discovered that they have changed to live well in the city. They have learned that crossing streets together with people is safer, and some dogs even seem to understand traffic lights.",
+      "timestamp": "2025-09-01 17:32:39.241189",
+      "metadata": {
+        "text_id": "ecd4e99e-1006-4c60-a8b5-ea8939f024ec",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:32:39.249784",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6252c0ca-5abd-4cd5-aafa-6b3ce0205bfc",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The MeaningBERT score of 0.7411 is below the required 0.75 threshold. This indicates a slight but critical loss of the original message. The loss of meaning likely occurred when simplifying the phrase \"adapted remarkably successfully\" to \"changed to live well,\" which does not fully capture the high degree of success mentioned in the original text.\n\nAdditionally, the output failed the CEFR compliance check, receiving an \"A2\" classification instead of the required \"B1\". This is because the sentence structures are too simple and the vocabulary is almost entirely from the A1/A2 levels. The text also contains a grammatical error: \"about 35,000 the dogs roam the streets.\"\n\nTo improve:\n1. Revise the sentence about adaptation to better reflect the original's emphasis on success. For example: \"scientists... discovered that they have adapted very successfully to life in the city.\"\n2. Increase the complexity slightly to meet B1 standards by using a B1-level connector or combining ideas.\n3. Correct the grammatical error to \"about 35,000 dogs roam the streets.\"\nThe definition of the keywords \"scientists\" and \"wild dogs\" was handled correctly.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9486,
+          "meaningbert": 0.7411
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:32:41.901013",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: One of the most interesting examples of wild animals living in a city is the wild dogs of Moscow, which are dogs that live without owners. In Moscow about 35,000 dogs roam the streets; some were born in the wild, while others were pets that were abandoned by their owners. Scientists, people who study nature by observing and experimenting, examined the dogs in 2010 and discovered that they have adapted very successfully to life in the city, learning that crossing streets together with people is safer, and some dogs even seem to understand traffic lights.",
+      "timestamp": "2025-09-01 17:32:41.901175",
+      "metadata": {
+        "text_id": "4ab649cd-07d1-493c-8909-b50140a1661f",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:33:05.046099",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8ba341d3-f8ca-4d14-b95e-b9ae3d1b2ede",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The output was classified as 'B2', which is too complex for the B1 target, despite passing the factual and meaning preservation checks. The primary reason for the B2 classification is the final sentence: 'Scientists, people who study nature by observing and experimenting, examined the dogs in 2010 and discovered that they have adapted very successfully to life in the city, learning that crossing streets together with people is safer, and some dogs even seem to understand traffic lights.' This single sentence is overly long and combines multiple ideas using complex grammatical structures, such as an embedded appositive definition and a participial phrase, which are characteristic of a B2 level. Suggestion: Break this sentence into several shorter, simpler sentences to convey the information more clearly for a B1 audience. For example: 'In 2010, scientists studied the dogs. They discovered the dogs have adapted successfully to city life. The dogs learned it is safer to cross streets with people, and some even seem to understand traffic lights.' Additionally, the use of a semicolon in the second sentence is also a B2-level convention; using a period to create two separate sentences would be more suitable.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9554,
+          "meaningbert": 0.8218
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:33:12.850438",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: One of the most interesting examples of wild animals living in a city is the wild dogs (dogs that live without owners) of Moscow. In Moscow about 35,000 dogs live on the streets. Some were born in the wild and some were pets that were abandoned by their owners. In 2010 scientists (people who study nature by observing and experimenting) studied the dogs. They discovered that the dogs have adapted successfully to city life. The dogs learned that it is safer to cross streets with people. Some dogs even seem to understand traffic lights.",
+      "timestamp": "2025-09-01 17:33:12.850640",
+      "metadata": {
+        "text_id": "70878ace-60c6-405d-86c8-6f3aef24af77",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-09-01 17:33:35.407527",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a4ddc4ed-da3c-4851-8273-b6dd0304ddee",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text successfully passes all priority checks. Factual integrity is maintained, and the key metrics for meaning (MeaningBERT: 0.77) and fidelity (BERTScore: 0.96) are well above the required thresholds. The text correctly achieves the target B1 CEFR level. The handling of keywords was excellent; the parenthetical definitions for 'wild dogs' and 'scientists' are clear, concise, and perfectly integrated for a B1 reader. For further improvement, consider two points. First, the original sentence 'Some dogs live alone and others live in packs' was omitted. While not a factual error, including this detail would provide a more complete picture. Second, the word 'abandoned' could be simplified to a more common B1 phrase like 'left behind by their owners' to increase accessibility.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9601,
+          "meaningbert": 0.7692
+        }
+      }
+    }
+  ]
+}

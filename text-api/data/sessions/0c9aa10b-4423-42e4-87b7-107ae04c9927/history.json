@@ -1,0 +1,80 @@
+{
+  "session_id": "0c9aa10b-4423-42e4-87b7-107ae04c9927",
+  "created_at": "2025-09-01 10:31:35.390620",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:31:35.408397",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "47-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: There is a new idea called 'buy nothing'.\nThis idea is now on social media.\nSome people on social media are influencers.\nThey usually share pictures of clothes and make-up.\nThey tell people to buy these things.\n\nBut now, some YouTube stars say something different.\nThey tell people not to buy anything.\nThey say to do this for a long time, like one year.\n\nTwo friends in Canada tried this for a year.\nThey only bought food.\nFor the first three months, they stopped buying some things.\nThey did not buy electronics, clothes, or things for the house.\n\nNext, they stopped paying for services.\nFor example, they did not get haircuts.\nThey did not eat in restaurants.\nThey did not buy gas for their cars.\nIn one year, they saved $55,000.",
+      "timestamp": "2025-09-01 10:31:35.408534",
+      "metadata": {
+        "text_id": "61ff84a4-0c49-4bfc-ba2f-30f905d73974",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 10:31:35.421958",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f28465e0-d26d-4d52-87ac-cfd593f5652f",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Standard Violation. The text fails due to the use of a word that is above the A2 CEFR level.\n\n- B2 Vocabulary Detected: The word 'electronics' is classified as B2 level. A2 texts must strictly adhere to A1 and A2 vocabulary. The original text's 'electrical goods' was replaced with an equally complex term.\n\n- Structural Compliance: The text successfully uses short, simple sentences appropriate for the A2 level. The breakdown of complex ideas into individual sentences is correct.\n\n- Metrics: The text passes the quantitative checks. MeaningBERT (0.85) and BERTScore (0.91) are above the required thresholds, and the CEFR classifier correctly identified the text as A2. However, the qualitative audit reveals the vocabulary failure.\n\nSuggestion: Replace 'electronics' with a simpler A2 description. Use a phrase like 'things that use electricity' or provide simple examples such as 'TVs and phones'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9137,
+          "meaningbert": 0.8501
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:31:49.456597",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: There is a new idea called 'buy nothing'.\nThis idea is now on social media.\nSome people on social media are influencers.\nThey usually share pictures of clothes and make-up.\nThey tell people to buy these things.\n\nBut now, some YouTube stars say something different.\nThey tell people not to buy anything.\nThey say to do this for a long time, like one year.\n\nTwo friends in Canada tried this for a year.\nThey only bought food.\nFor the first three months, they stopped buying some things.\nThey did not buy things that use electricity, clothes, or things for the house.\n\nNext, they stopped paying for services.\nFor example, they did not get haircuts.\nThey did not eat in restaurants.\nThey did not buy gas for their cars.\nIn one year, they saved $55,000.",
+      "timestamp": "2025-09-01 10:31:49.457111",
+      "metadata": {
+        "text_id": "2c7ab661-4162-4fdf-8c57-4b082184988e",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 10:32:09.093014",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ccf25deb-ae48-4132-8f09-3a9f4cd20f3a",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with the A2 standard.\n\n- Factual Accuracy: All facts, numbers, and the core message from the original text are present and correct.\n- Metric Compliance: The MeaningBERT score of 0.85 and BERTScore of 0.91 are well above the required thresholds, confirming high fidelity to the original meaning.\n- CEFR Classification: The text correctly classifies as A2, demonstrating perfect alignment with the target level.\n- Vocabulary Control: The vocabulary is strictly limited to A1 and A2 levels. There are no words above the required CEFR level.\n- Sentence Structure: The use of short, simple, declarative sentences is exemplary for A2 readability. Complex ideas from the original text have been successfully broken down into individual, easy-to-understand statements. The use of connectors is appropriate for the level.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9116,
+          "meaningbert": 0.8517
+        }
+      }
+    }
+  ]
+}

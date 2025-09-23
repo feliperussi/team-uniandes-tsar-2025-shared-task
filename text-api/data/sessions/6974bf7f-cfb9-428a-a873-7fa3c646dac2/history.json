@@ -1,0 +1,413 @@
+{
+  "session_id": "6974bf7f-cfb9-428a-a873-7fa3c646dac2",
+  "created_at": "2025-08-31 20:32:40.744606",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:32:40.755373",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "02-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes a lot. Earthquakes can break things, like bridges. But bridges do not fall down very often. This is not common with new bridges. Engineers now know how to build better bridges. They build them in places where the ground is strong. The ground does not move a lot in these places.",
+      "timestamp": "2025-08-31 20:32:40.756342",
+      "metadata": {
+        "text_id": "095425ad-13f5-48db-88f2-5f469d057bf7",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:32:40.765235",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "908d650b-84ff-4bae-91a5-cef76e716eac",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5771 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\n- The original text explains a specific engineering solution: designing bridges for earthquake zones on ground that is 'resistant to movement'.\n- Your version oversimplifies this concept. You state that engineers 'know how to build better bridges' and then, as a separate point, that 'They build them in places where the ground is strong'.\n- This separation breaks the logical link. The original's key idea is that building on strong ground *is* the method for making better bridges in these zones. Your version presents these as two disconnected facts, which fundamentally alters the meaning.\n- The phrase 'resistant to movement' is a key concept that has been lost. 'The ground does not move a lot' is a weak replacement that does not capture the engineering principle of resistance.\n\nSuggestion: Rephrase to restore the original meaning. Connect the actions of the engineers directly to the solution. State that engineers build bridges in special ways for places with earthquakes. Example: 'Engineers learned how to build bridges for places with earthquakes. They build them on ground that is strong and does not move easily.' This restores the cause-and-effect relationship.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9012,
+          "meaningbert": 0.5771
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:32:55.248888",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes a lot. Earthquakes can break things, like bridges. But bridges do not fall down very often. This is not common with new bridges. Engineers learned how to build better bridges for places with earthquakes. They build them on ground that is strong and does not move easily.",
+      "timestamp": "2025-08-31 20:32:55.249086",
+      "metadata": {
+        "text_id": "d9c2af86-56b9-44ae-9c1e-db3d6d15478e",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 20:33:23.205263",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3cd5fad2-97db-4781-aa3d-caf39742d3a9",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6054 is critically below the required 0.75 threshold. This indicates a severe deviation from the original text's core message.\n\n- Primary Failure (Meaning): The original text's subject is engineering solutions for bridges during earthquakes. Your output begins with a general definition of an earthquake, which dilutes this primary focus and shifts the meaning.\n\n- Vocabulary Violation: The B1-level word 'earthquake' is used multiple times. A2 compliance requires strict adherence to A2 vocabulary. This word is not permissible.\n\n- Structural Complexity: The sentence 'They build them on ground that is strong and does not move easily' uses a relative 'that-clause'. This is a B1 grammatical structure. A2 requires simpler, separate sentences.\n\nSuggestion: Rewrite the text to focus only on the information about bridges and engineers. Remove the B1 word 'earthquake' and describe the concept using A2 words like 'when the ground shakes'. Split the final complex sentence into two simple sentences.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.906,
+          "meaningbert": 0.6054
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:33:35.893837",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: When the ground shakes, it can damage bridges. But bridges do not fall down very often. This is not common with new bridges. Engineers learned how to build better bridges. They build them on strong ground. This ground does not move easily.",
+      "timestamp": "2025-08-31 20:33:35.895848",
+      "metadata": {
+        "text_id": "f75bddab-f29c-4665-9248-e4ef2ca343e1",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 20:34:04.320082",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ac794d86-edc4-4dc7-b7ce-b69e13e894fe",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5879 is significantly below the required 0.75 threshold. The simplification process has resulted in a critical loss of the original text's core message.\n\n- Meaning Dilution: The original text states a specific learning outcome: 'Engineers have learned to design bridges... on areas that are much more resistant to movement.' Your version, 'Engineers learned how to build better bridges,' is too general and loses this crucial detail about location and design adaptation.\n\n- Vocabulary Violation: The B1-level word 'damage' was used in the output. For A2 compliance, all vocabulary must be at or below the A2 level. This word must be replaced.\n\n- Concept Simplification: Replacing 'Earthquakes' with 'When the ground shakes' contributed to the overall loss of specific meaning, as measured by the low MeaningBERT score.\n\nSuggestion: Rephrase the sentence about engineers to specify that they learned to build bridges on stronger ground that does not move. Replace the word 'damage' with an A1/A2 alternative like 'break'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9002,
+          "meaningbert": 0.5879
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:34:17.552773",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes can break bridges. But bridges do not fall down very often. This is not common with new bridges. Engineers learned to build bridges on stronger ground. This ground does not move easily.",
+      "timestamp": "2025-08-31 20:34:17.553608",
+      "metadata": {
+        "text_id": "3af305ca-f63a-40ab-b742-f1c9c72b5d03",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 20:34:43.540356",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ca5a4c46-aecb-4afa-8320-874deb66c3df",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure.\n\nThe primary reason for failure is the MeaningBERT score of 0.6175, which is significantly below the required minimum of 0.75. This indicates a critical loss of the original text's core message.\n\n- Deviation: The original text states engineers 'design bridges... on areas that are much more resistant to movement.' Your version, 'Engineers learned to build bridges on stronger ground,' loses the key concept of a deliberate design choice and the selection of specific areas. The meaning is not fully preserved.\n- Deviation: The text was incorrectly classified as B1 by the CEFR compliance tool. An A2 text must be unambiguously A2. The text failed to meet the required classification, which is an absolute failure regardless of the reason.\n\nSuggestion: Rephrase to restore the lost meaning. The concept of 'design' and 'selection' must be present. Change 'Engineers learned to build bridges on stronger ground' to 'Engineers now choose special places for bridges. These places have strong ground that does not move.' This phrasing is more faithful to the original meaning while remaining at the A2 level.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9082,
+          "meaningbert": 0.6175
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:34:52.675123",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes can break bridges. But bridges do not fall down very often. This is not common with new bridges. Engineers now choose special places for bridges. These places have strong ground that does not move.",
+      "timestamp": "2025-08-31 20:34:52.677624",
+      "metadata": {
+        "text_id": "710b7e56-929f-4381-81bf-c494cdad88ca",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:35:18.148752",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e676643f-1d18-4212-a8fe-08576e8ff778",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5794 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the original message.\n\n- Core Meaning Lost: The original text states that engineers 'design bridges... on areas that are much more resistant to movement'. Your output changes this to 'choose special places... that does not move'. This replaces the key concept of an active engineering design solution with a simple location choice, which is a fundamental change in meaning.\n\n- Factual Nuance Lost: The original phrase 'more resistant to movement' was oversimplified to 'does not move'. This is a factual exaggeration. Ground in an earthquake zone is not perfectly still; it is engineered to be more stable. This loss of nuance contributed to the low meaning score.\n\nSuggestion: The text must be rewritten to restore the original meaning. Reintroduce the concept of 'designing' or 'building in a special way'. Correct the oversimplification to reflect 'resistance' to movement, not a complete lack of it. Example: 'Engineers learn how to build bridges on ground that is stronger and moves less.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9076,
+          "meaningbert": 0.5794
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:35:32.899852",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes can break bridges. But bridges do not fall down very often. This is not common with new bridges. Engineers now build bridges in a special way. They build them on ground that is much stronger. This ground moves less during an earthquake.",
+      "timestamp": "2025-08-31 20:35:32.900152",
+      "metadata": {
+        "text_id": "2b1224ce-8d59-4d99-a837-1202d8cc1b74",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:35:58.757380",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6cc144d3-aaca-4283-ab5c-eef4969ad883",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6143 is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message. The primary error is a deviation in meaning. The original text states engineers build on areas 'resistant to movement'. Your text simplifies this to 'stronger' ground. These are not the same concept. 'Stronger' does not accurately capture the idea of stability during shaking. This simplification damaged the core technical meaning. A secondary error is a vocabulary violation. The B1 keyword 'earthquake' was used multiple times but was not defined as required. All keywords identified for definition must be explained in simple A2 terms. Suggestion: Restore the original meaning. Rephrase 'stronger ground' to 'ground that moves less' or 'ground that is more stable'. Define the keyword 'earthquake' before its first use.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9196,
+          "meaningbert": 0.6143
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:36:13.425214",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An earthquake is when the ground shakes. Earthquakes can break bridges. But bridges do not fall down very often. This is not common with new bridges. Engineers now build bridges in a special way. They build them on ground that moves less during an earthquake.",
+      "timestamp": "2025-08-31 20:36:13.426319",
+      "metadata": {
+        "text_id": "cf399637-38ee-46d1-a04f-fa0cb62b8970",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 20:36:37.973802",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "492522a4-f970-4ee2-bbcd-788abc5c6728",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5968 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text. The primary error was adding new information. The sentence 'An earthquake is when the ground shakes' was not present in the original text. While intended to be helpful, this addition diluted the central topic, which is about bridge engineering, not a general definition of earthquakes. The original text's focus is on the solution engineers have found. Your output dedicates a significant portion to defining the problem, which changes the emphasis and damages the meaning score. Suggestion: Do not add information that is not in the source text. Your task is to simplify the provided content, not to expand upon it. Remove the first sentence entirely to restore the focus and improve meaning preservation.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9049,
+          "meaningbert": 0.5968
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:36:51.364469",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Earthquakes can break bridges. But bridges do not fall down very often. This is not common with new bridges. Engineers now build bridges in a special way. They build them on ground that moves less during an earthquake.",
+      "timestamp": "2025-08-31 20:36:51.365025",
+      "metadata": {
+        "text_id": "e683aa03-3ac8-4c10-bec6-35c8a263668e",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 20:37:19.557987",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "949ff7cc-aa18-4be3-b6b0-0c7895e902b5",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6323 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text.\n\n- Primary Meaning Deviation: The original text states that earthquakes 'damage all structures'. Your version weakens this to 'can break bridges'. This changes a definitive statement into a possibility, altering the core meaning.\n- Secondary Meaning Deviation: The original specifies that engineers build on ground that is 'resistant to movement'. Your version, 'ground that moves less', describes an outcome, not the inherent quality of the ground. This is a loss of specific meaning.\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. The B1-level word 'earthquake' is used twice. This is an unacceptable vocabulary violation for an A2 text.\n- Vocabulary Violation: The word 'special' is imprecise. A2 writing requires clear, simple language.\n\nSuggestion: Rephrase to restore the original meaning's strength. Replace 'can break' with a more direct phrase. Replace the B1 word 'earthquake' with an A2-level description, such as 'when the ground shakes'. Remove the word 'special' and describe the method more directly.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.92,
+          "meaningbert": 0.6323
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:37:36.505918",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: When the ground shakes, it damages all buildings. It also damages bridges. But bridges do not fall down very often. This is not common with new bridges. Engineers now build bridges on stronger ground. This ground does not move easily.",
+      "timestamp": "2025-08-31 20:37:36.506431",
+      "metadata": {
+        "text_id": "a940413e-54e6-457b-af8f-babacdae799c",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:38:02.665773",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c0713098-5f55-4eca-b05a-f3c21b718dd9",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6112 is significantly below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text.\n- The original text states that engineers have learned to 'design' bridges on areas 'resistant to movement'. This implies an active engineering solution to make the structure itself safer.\n- Your version states engineers 'build bridges on stronger ground'. This changes the meaning from a specific design process to a simple location choice, which is a factual oversimplification and a loss of the core concept.\n- The key idea of 'resistance' to movement is not adequately conveyed by 'stronger ground'.\nSuggestion: Restore the original meaning. Rephrase to include the active role of the engineer. Use a sentence like: 'Engineers now know how to design bridges that are safer from shaking.' or 'Engineers make bridges in a special way so they do not move easily.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.902,
+          "meaningbert": 0.6112
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:38:20.655362",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: When the ground shakes, it damages all buildings. It also damages bridges. But bridges do not fall down very often. This is not common with new bridges. Engineers now design bridges in a special way. These bridges do not move easily.",
+      "timestamp": "2025-08-31 20:38:20.655941",
+      "metadata": {
+        "text_id": "d2ea9dc0-825c-47b7-a7e6-48a960f6957a",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:38:47.391149",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "799fd872-177e-4d42-991d-894b2e183e5b",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6025 is substantially below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text.\n\n- Primary Deviation: The simplification has altered a key fact. The original text states that engineers build bridges 'on areas that are much more resistant to movement'. Your version, 'Engineers now design bridges in a special way. These bridges do not move easily,' changes the meaning from building on stable ground to designing a stable bridge. This is a significant factual distortion.\n- Linguistic Compliance: While the vocabulary and sentence structure successfully meet the A2 standard, this is irrelevant due to the failure to maintain the original meaning.\n\nSuggestion: The text must be rewritten to accurately reflect the original's focus on the location of the bridges. Rephrase to restore the concept of building on stable ground. Example: 'Engineers build these bridges on strong ground. This ground does not move a lot during an earthquake.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9034,
+          "meaningbert": 0.6025
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 20:38:56.454754",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: When the ground shakes, it damages all buildings. It also damages bridges. But bridges do not fall down very often. This is not common with new bridges. Engineers build these bridges on strong ground. This ground does not move a lot.",
+      "timestamp": "2025-08-31 20:38:56.457225",
+      "metadata": {
+        "text_id": "5212fbe2-bfb1-46bf-91ec-aeb6f3fa90ae",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 20:39:20.620873",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0d41d91e-2435-41c6-9bb9-0e5df4b230ed",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6102 is significantly below the required 0.75 threshold. This indicates a severe loss of the original text's core message. The BERTScore of 0.8994 is also below the minimum 0.90, showing a loss of key phrasing.\n\n- The primary failure is the loss of nuance. The original states 'Engineers have learned to design bridges'. Your version, 'Engineers build these bridges', removes the critical concept of acquired knowledge and intentional design, which is a key part of the original meaning.\n- The simplification of 'structures, including bridges' to 'buildings. It also damages bridges' is too severe. It breaks the direct relationship that a bridge is a type of structure, weakening the logical connection.\n\nSuggestion: Rephrase to restore the lost concepts. The text must convey that engineers use special knowledge. The text must also convey that bridges are one example of a larger group of things that can be damaged.\nSuggestion: A better phrasing would be: 'Engineers now know how to build safer bridges. They build them on strong ground that does not move a lot.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8994,
+          "meaningbert": 0.6102
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "5bb4547a-c81f-4954-af71-c932b6272655",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Julie Wong works with robots and AI.  \nShe is a top researcher.  \nShe has written more than 50 papers.  \nThe papers are in well\u2011known scientific journals that check each article.  \nShe often talks at international conferences.  \nIn 2012 she won the Royal Academy Simone Fielding fellowship.  \nThe fellowship is a very important award.  \nJulie lives with her family in a smart home she designed herself.",
+    "version": 11,
+    "created_at": "2025-09-01 18:03:58.571380",
+    "updated_at": "2025-09-01 18:03:58.571393",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "0ab98408-ba7f-4a55-92ca-8939f85951cc",
+    "approval": "FAIL",
+    "grade": 4,
+    "feedback": "FAIL: Fidelity Failure. The BERTScore of 0.8947 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text.\n\n- Lexical Deviation: Key terms like 'leading researcher' and 'peer-reviewed' were replaced with overly simple phrases. This caused the fidelity score to drop below the minimum threshold.\n- Vocabulary Exceeds A2: The text includes the B1 word 'scientific'. The proper noun 'Royal Academy' contains B1 ('royal') and C1 ('academy') level words, increasing complexity.\n- Structural Complexity Exceeds A2: The sentence 'Julie lives with her family in a smart home she designed herself' uses a reduced relative clause, a B1 grammatical structure. The use of the present perfect tense ('has written') is also a B1 indicator.\n\nSuggestion: Rephrase to restore lexical fidelity. Replace 'scientific' with 'science'. Split the sentence containing the reduced relative clause into two simple sentences. Change 'has written' to the simple past 'wrote'.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8947,
+      "meaningbert": 0.9452
+    },
+    "created_at": "2025-09-01 18:04:23.188329"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "65f59ce9-044f-4fe6-af69-b5804366cb11",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Julie Wong works with robots and AI.  \nShe is a top researcher.  \nShe wrote more than 50 papers.  \nThe papers are in important journals.  \nShe often talks at international conferences.  \nIn 2012 she won a special science award.  \nJulie lives with her family.  \nShe lives in a smart home.  \nShe designed the home herself.",
+    "version": 8,
+    "created_at": "2025-09-01 18:02:39.208357",
+    "updated_at": "2025-09-01 18:02:39.208372",
+    "metrics_meaningbert": 0.9453,
+    "metrics_cefr_compliance": "A2"
+  }
+}

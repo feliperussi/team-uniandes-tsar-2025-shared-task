@@ -1,0 +1,117 @@
+{
+  "session_id": "1ffc1568-01ae-4416-a01a-825704845367",
+  "created_at": "2025-09-01 10:48:36.157865",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:48:36.163457",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "66-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In a global survey carried out by PricewaterhouseCoopers (PwC), more than 40,000 people gave their answers about work. The survey included millennials, who are people born between 1983 and 1993, and also people from other age groups. The questions were about subjects such as work culture, communication, working styles, how people are paid, career development, and the balance between work and personal life. In a separate global survey by Deloitte, more than 10,000 millennials took part in a study about their opinions on the threats and opportunities in the complicated world of work.",
+      "timestamp": "2025-09-01 10:48:36.163723",
+      "metadata": {
+        "text_id": "4bf483f9-607b-449b-9dde-24082916bc64",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:48:36.172620",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "03a26839-c299-4ba5-8274-642279471112",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2', which is above the target 'B1' level. While the text is factually accurate and preserves the original meaning well, the sentence structures are too complex for the target audience. For example, the sentence 'The survey included millennials, who are people born between 1983 and 1993, and also people from other age groups' uses a non-defining relative clause that increases complexity. Similarly, the final sentence is long and contains multiple prepositional phrases. Suggestion: Break down these longer sentences into shorter, simpler ones. For instance, the second sentence could be rewritten as: 'The survey included millennials. Millennials are people born between 1983 and 1993. It also included people from other age groups.' This would make the text more accessible and help it meet the B1 classification.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9525,
+          "meaningbert": 0.861
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:48:53.011048",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In a global survey carried out by PricewaterhouseCoopers (PwC), more than 40,000 people gave their answers about work. The survey included **millennials**. Millennials are people born between 1983 and 1993. It also included people from other age groups. The questions were about subjects such as work culture, communication, working styles, how people are paid, career development, and the balance between work and personal life. In a separate global survey by Deloitte, more than 10,000 millennials took part in a study. This study was about their opinions on the threats and opportunities in the complicated world of work.",
+      "timestamp": "2025-09-01 10:48:53.011231",
+      "metadata": {
+        "text_id": "b07dd838-a2ec-4f4c-a9ba-11bf38e4e642",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-09-01 10:49:22.507593",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c7fde74e-d637-4932-bcd9-17bbcf79d206",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2' instead of the target 'B1'. While the simplification successfully maintained factual integrity and meaning, with excellent MeaningBERT (0.85) and BERTScore (0.94) metrics, the sentence structure in two places remains too complex for the B1 level. The sentence 'The questions were about subjects such as work culture, communication, working styles, how people are paid, career development, and the balance between work and personal life' contains a long and complex list. Suggestion: Break this into two shorter sentences. Additionally, the sentence 'This study was about their opinions on the threats and opportunities in the complicated world of work' uses a high density of abstract B1-level nouns. Suggestion: Rephrase this to 'The study asked for their opinions about the good and bad things in the complicated world of work.' The strategy of defining the keyword 'millennial' was executed perfectly.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9451,
+          "meaningbert": 0.8588
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:49:33.031483",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In a global survey carried out by PricewaterhouseCoopers (PwC), more than 40,000 people gave their answers about work. The survey included **millennials**. Millennials are people born between 1983 and 1993. It also included people from other age groups. The questions were about subjects such as work culture, communication, and working styles. They also asked about how people are paid, career development, and the balance between work and personal life. In a separate global survey by Deloitte, more than 10,000 millennials took part in a study. The study asked for their opinions about the good and bad things in the complicated world of work.",
+      "timestamp": "2025-09-01 10:49:33.032676",
+      "metadata": {
+        "text_id": "e6a3a253-bdd3-475f-a8ca-77ceb524ebb8",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 10:49:55.869872",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6ccf0ce5-7eb7-4897-97d8-695d18feff56",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "This is an exemplary B1 simplification that passes all checks. Factual Integrity: All numbers, names, and key facts from the original text are perfectly preserved. Meaning and Fidelity: The MeaningBERT score of 0.7524 and BERTScore of 0.9341 are both above the required thresholds, confirming that the core message and key details were successfully retained. CEFR Compliance: The output correctly achieved the target B1 classification. Qualitative Analysis: The simplification strategy is excellent. The writer effectively broke down long, complex sentences into shorter, more manageable ones, which greatly improves readability. The handling of the keyword 'millennial' is a model of good practice; it was correctly identified and defined clearly in a separate sentence. Vocabulary choices, such as changing 'threats and opportunities' to 'the good and bad things' and 'work-life balance' to 'the balance between work and personal life', are perfectly suited for the B1 level. No improvements are necessary.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9341,
+          "meaningbert": 0.7524
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "session_id": "4b5009c7-d981-41e8-a5a8-0686af88211a",
+  "created_at": "2025-09-01 17:41:35.837290",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:41:35.861774",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "120-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Don't always follow positive feedback with negative feedback. When positive and negative feedback always appear to go hand in hand, the positive feedback can become less valued and be ignored. Ensure that there are moments when positive feedback is given for its own sake, and resist the urge to offer criticism.",
+      "timestamp": "2025-09-01 17:41:35.861889",
+      "metadata": {
+        "text_id": "9ff8ef2d-0f54-4322-a199-4a4a287c10b8",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:41:35.867521",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "147bbc33-e760-4daa-a6ef-5764eded4a7c",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The output was classified as A2, which is below the required B1 target. The simplification was too aggressive for an original text that was already quite clear. While successfully replacing words like 'devalued' with 'less valued' and 'temptation' with 'urge', the overall effect, combined with the removal of 'constructive' from 'constructive criticism', pushed the text into the A2 level. To correct this, consider reintroducing a small amount of B1-level complexity. For example, keeping the phrase 'constructive criticism' is appropriate for a B1 audience, as it is a common and useful collocation. The text passed all factual and meaning preservation checks, but failed to meet the specific complexity requirement.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9862,
+          "meaningbert": 0.9452
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:41:39.841334",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Don't always follow positive feedback with negative feedback, because when positive and negative feedback always appear to go hand in hand, the positive feedback, which should be valued on its own, can become devalued and be ignored. Ensure that there are moments when positive feedback is given for its own sake, and resist the temptation to offer constructive criticism.",
+      "timestamp": "2025-09-01 17:41:39.841536",
+      "metadata": {
+        "text_id": "440b7953-fc9f-4c46-ad2c-ef8dfd1295b3",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:42:03.165032",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "112d871c-7b76-4747-b08a-4a06952e7509",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The output was classified as B2, which is too complex for the target B1 level. The primary reason for this failure is the combination of the first two original sentences into one overly long and structurally complex sentence. The clause '...the positive feedback, which should be valued on its own, can become devalued...' uses an embedded non-defining relative clause, a feature more typical of B2 and higher levels. Additionally, the B2-level vocabulary word 'resist' was not simplified. Suggestion: Split the first long sentence into two simpler sentences. Replace 'resist' with a B1 alternative such as 'avoid' or 'try not to'.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9804,
+          "meaningbert": 0.9452
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:42:09.878340",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Don't always follow positive feedback with negative feedback. When positive and negative feedback always appear to go hand in hand, the positive feedback can become devalued and ignored. Make sure there are moments when positive feedback is given just because it is positive. Try not to offer constructive criticism.",
+      "timestamp": "2025-09-01 17:42:09.878748",
+      "metadata": {
+        "text_id": "526f0d57-cdd7-4bf8-b343-c3a2e74ce5e4",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-09-01 17:42:28.011054",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "928fca55-c28a-408f-93b7-194dce836763",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "This is a high-quality simplification that successfully passes all checks. Factual integrity is maintained, and the high MeaningBERT (0.95) and BERTScore (0.97) confirm that the core message and key details were preserved. The output correctly achieves the target B1 level. The vocabulary strategy was excellent, particularly in replacing more complex phrases like 'ensure there are times' with the more accessible 'make sure there are moments', and simplifying the idiomatic 'resist the temptation' to the direct 'Try not to'. No major improvements are needed.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9746,
+          "meaningbert": 0.9453
+        }
+      }
+    }
+  ]
+}

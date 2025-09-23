@@ -1,0 +1,80 @@
+{
+  "session_id": "df7b6f19-87ce-47a9-ab81-c2374d2cf831",
+  "created_at": "2025-09-01 17:53:42.100594",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:53:42.137602",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "09-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some bridge collapses are still a mystery, and engineers only realise the reason after they conduct a full check. It can happen because low\u2011quality material was used in the building, or because a problem in an important part of the bridge, or because the bridge was designed to hold only a limited amount of weight.",
+      "timestamp": "2025-09-01 17:53:42.137720",
+      "metadata": {
+        "text_id": "35e99dce-6f3a-494d-8f71-6cdb28027e11",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-09-01 17:53:48.330514",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a6a16523-f263-4b73-a37c-d075e924829e",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2' instead of the target 'B1'. This is because the second sentence is structurally too complex for the B1 level. The sentence 'It can happen because low\u2011quality material was used in the building, or because a problem in an important part of the bridge, or because the bridge was designed to hold only a limited amount of weight' uses a list of three parallel 'because' clauses, which is a B2-level structure. To fix this, break the long sentence into two or three shorter, simpler sentences. For example: 'This can happen for a few reasons. Sometimes, low-quality material was used. Other times, there was a problem with an important part of the bridge.' The vocabulary simplification was done well, but the sentence structure must be simplified to meet the B1 requirement.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9455,
+          "meaningbert": 0.8721
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:53:56.025299",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some bridge collapses are still a mystery, and engineers only realise the reason after they conduct a full check. It can happen for a few reasons. Sometimes low\u2011quality material was used in the building. Other times there was a problem with an important part of the bridge. It can also be because the bridge was designed to hold only a limited amount of weight.",
+      "timestamp": "2025-09-01 17:53:56.025591",
+      "metadata": {
+        "text_id": "e0364020-689d-4d3a-a310-24a10f89a354",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 17:54:20.432218",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "df5d99ce-5e1e-4f68-bb0c-cc5ec5d97d5e",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "This is an exemplary simplification that passes all diagnostic checks with high marks. Factual integrity is perfectly maintained. The MeaningBERT (0.86) and BERTScore (0.94) are well above the required thresholds, confirming that the core message and key details were successfully preserved. The output correctly achieved the target B1 CEFR level. The simplification strategy is excellent; the writer effectively broke down a complex sentence into three shorter, clearer sentences, which significantly improves readability. Vocabulary choices are superb, such as replacing 'inferior-quality' with 'low-quality' and 'defect' with 'problem', demonstrating a strong command of B1-level simplification.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9416,
+          "meaningbert": 0.8586
+        }
+      }
+    }
+  ]
+}

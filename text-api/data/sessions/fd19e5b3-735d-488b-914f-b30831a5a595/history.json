@@ -1,0 +1,63 @@
+{
+  "session_id": "fd19e5b3-735d-488b-914f-b30831a5a595",
+  "created_at": "2025-08-31 23:11:12.722909",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:11:12.785750",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "05-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An asteroid is a big rock in space. NASA is a space agency from the USA. An orbit is the path that planets or rocks follow around the Sun or Earth. An impact is when something hits another thing hard. Defence means ways to stop danger.\n\nSome asteroids are near Earth's orbit. They come closer than 7.5 million kilometres. NASA has made a map of 1,400 of these asteroids. NASA does not think any will hit Earth in the next 100 years.\n\nNASA uses technology to watch these asteroids. They can see where the asteroids are going. NASA can say if an asteroid might hit Earth. If needed, NASA can use two ways to stop the asteroid from hitting us.",
+      "timestamp": "2025-08-31 23:11:12.785904",
+      "metadata": {
+        "text_id": "95668ee9-1a6d-4876-9009-7d054ccc1a53",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 23:11:12.822064",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f967931a-7cf6-4d8e-ac7a-8af719f8f9b3",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6513 is well below the 0.75 threshold, indicating a significant loss of the core message. The original text focuses on 'Potentially Hazardous Asteroids' as rocks passing within 7.5 million kilometres of Earth's orbit and emphasizes that none pose a threat within the next 100 years. However, the writer's output dilutes this by generalizing the asteroids as 'big rocks in space' and does not clearly preserve the specific notion of 'Potentially Hazardous Asteroids' or the precise distance threshold. Also, the essential concept that NASA 'has created a map of 1,400 PHAs' and that 'none are expected to be a threat' is simplified but loses the nuance and certainty from the original. The BERTScore of 0.8805 is below the 0.90 standard, showing key factual terminology such as 'Potentially Hazardous Asteroids' was omitted or replaced by vague terms, reducing fidelity. Vocabulary audit reveals the use of B1 words like 'agency', 'impact', and 'defence', which violate strict A2 word limitations. Critically, the keyword 'defence' is defined in the output, but its usage remains at B1 complexity and the word 'impact' also remains B1 without simpler substitution. Sentence structure is sometimes over-simplified to the point of losing critical detail, but also includes unnecessary definitions at the beginning that are not part of the original text, further distorting focus. Suggestion: Restore the specific term 'Potentially Hazardous Asteroids' and the precise 7.5 million kilometres detail exactly as in the original. Maintain the certainty about the lack of threat in the next 100 years without diluting it. Remove explicit definitions that disrupt the flow and avoid B1 vocabulary such as 'agency', 'defence', and 'impact'; replace with simpler A2 alternatives like 'space group', 'ways to stop', and 'hit'. Reduce redundant explanatory sentences and focus on concise, informative A2-level description.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8805,
+          "meaningbert": 0.6513
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:11:20.691307",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Potentially Hazardous Asteroids are rocks that come near Earth\u2019s orbit. They pass closer than 7.5 million kilometres to Earth\u2019s path around the Sun. NASA is a space group from the USA. NASA has made a map with 1,400 of these asteroids. NASA does not think any of these rocks will hit Earth in the next 100 years. NASA uses technology to watch these asteroids. It can see where they go and say if they might hit us. If needed, NASA can send two ways to stop the rocks from hitting Earth.",
+      "timestamp": "2025-08-31 23:11:20.691609",
+      "metadata": {
+        "text_id": "36602134-91f0-4910-9042-00b05aadcd85",
+        "version": 2
+      }
+    }
+  ]
+}

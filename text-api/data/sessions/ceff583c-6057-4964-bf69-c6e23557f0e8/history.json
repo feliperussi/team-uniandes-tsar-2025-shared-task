@@ -1,0 +1,598 @@
+{
+  "session_id": "ceff583c-6057-4964-bf69-c6e23557f0e8",
+  "created_at": "2025-08-31 21:13:04.036131",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:13:04.054771",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "18-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many famous singers sell a lot of albums. But Springsteen is different from them. He is almost 70 years old. He still makes new music.\n\nHis new music is very popular. Many people go to see him in big stadiums. He is still one of the best. I am not surprised by this.\n\nHis songs tell important stories about our lives. You can listen to his album *Born in the USA*. The stories in his songs are still important today.",
+      "timestamp": "2025-08-31 21:13:04.055510",
+      "metadata": {
+        "text_id": "99700825-358f-4c23-9210-97af8b7264fb",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 21:13:04.063343",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a37c435b-db2e-47eb-98f6-6db5f295a065",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8899 is below the required 0.90. This is a critical failure to preserve the specific wording and key details of the original text.\n\n- Primary Deviation (BERTScore): The score indicates a loss of lexical fidelity. The original text's specific, descriptive phrases like 'chart-topping' and 'top of his game' were replaced with overly generic A2 terms like 'very popular' and 'one of the best'. This simplification sacrifices too much of the original's precision.\n\n- Secondary Deviation (Vocabulary): A vocabulary violation was detected. The word 'stadiums' is B1 level and is not permitted. All vocabulary must strictly adhere to the A2 list.\n\nSuggestion: Restore the meaning of the original's key phrases using A2 vocabulary. Instead of 'very popular', use a phrase that explains 'chart-topping', such as 'His new songs are number one'. Replace the B1 word 'stadiums' with an A2-compliant description, such as 'He plays music in very big places for many people'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8899,
+          "meaningbert": 0.8262
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:13:20.878057",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many famous singers sell a lot of albums. But Springsteen is different from them. He is almost 70 years old. He still makes new music.\nHis new songs are number one. He plays music in very big places. Many people go to see him. He is still one of the best. I am not surprised by this.\nHis songs tell important stories about our lives. You can listen to his album *Born in the USA*. The stories in his songs are still important today.",
+      "timestamp": "2025-08-31 21:13:20.878396",
+      "metadata": {
+        "text_id": "23235d41-5ce3-48ac-ac2a-7e415503fcb2",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 7/10 - FAIL",
+      "timestamp": "2025-08-31 21:13:51.231495",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7dbf488e-acb3-4880-a80b-71c34104dac9",
+        "grade": 7,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8899 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text. While the simplification to A2 level is structurally sound, it was lexically oversimplified.\n- The phrase 'chart-topping, stadium-filling' was replaced with 'number one' and 'plays in very big places'. This loses the specific vocabulary of the original.\n- The phrase 'remains at the top of his game' was replaced with 'still one of the best', which loses the idiomatic link.\n- The phrase 'most fundamental stories about ourselves' was replaced with 'important stories about our lives', losing the key words 'fundamental' and 'ourselves'.\nSuggestion: Re-evaluate the simplification strategy. Retain more of the original's key terms where possible, or find closer A2-level synonyms. The goal is to simplify grammar and structure without completely replacing the core vocabulary of the source text.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8899,
+          "meaningbert": 0.7533
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:14:09.995115",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many famous singers sell a lot of albums. But Springsteen is different from them. He is almost 70 years old. He still makes new, chart-topping music. He plays stadium-filling shows. He is still at the top of his game. I am not surprised by this. He tells our most fundamental stories about ourselves. You can listen to his album *Born in the USA*. The stories in his songs are still important today.",
+      "timestamp": "2025-08-31 21:14:09.995450",
+      "metadata": {
+        "text_id": "70dbfb50-f7d7-4ed9-a010-226adaef1938",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-08-31 21:14:37.928524",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f510f7a3-d3b6-4d10-afbc-5a3c52345b33",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as B1, which is an automatic failure. The objective is A2. The text contains vocabulary and idiomatic phrases that are significantly above the target level.\n\n- B1 Classification: The CEFR classifier rated the text as B1. This is a non-negotiable failure. The language used is too complex for an A2 reader.\n\n- Advanced Vocabulary: The B2-level word 'fundamental' was copied directly from the source text. This word is not on the A2 list and must be replaced.\n\n- Idiomatic Language: The phrase 'at the top of his game' is a B2/C1 level idiom. This is completely inappropriate for an A2 text and demonstrates a failure to simplify complex concepts.\n\n- Complex Structures: The compound adjectives 'chart-topping' and 'stadium-filling' are B1-level structures. A2 texts require simpler phrasing.\n\n- Suggestion: Remove the word 'fundamental'. Replace it with 'important' or 'basic'.\n\n- Suggestion: Remove the idiom 'at the top of his game'. Rephrase it with a simple sentence, such as 'He is still a very good singer.'\n\n- Suggestion: Deconstruct the compound adjectives. Instead of 'chart-topping music', write 'His new music goes to the top of the charts.' Instead of 'stadium-filling shows', write 'He plays in big stadiums and they are always full.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9207,
+          "meaningbert": 0.8579
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:14:50.825532",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many famous singers sell a lot of albums. But Springsteen is different from them. He is almost 70 years old. He still makes new music. His new music goes to the top of the charts. He plays shows in big stadiums. The stadiums are always full. He is still very successful. I am not surprised by this. He tells our most important stories about ourselves. You can listen to his album *Born in the USA*. The stories in his songs are still important today.",
+      "timestamp": "2025-08-31 21:14:50.827239",
+      "metadata": {
+        "text_id": "51db12a1-1477-41b5-8909-0346e44ffb2d",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 21:15:16.231603",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "de91805d-ca34-4aa7-ac8b-39d927436b77",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8987 is below the required 0.90 threshold. This indicates a loss of key phrasing from the original text.\n- The text fails because key descriptive phrases were oversimplified, causing a drop in lexical fidelity. For example, 'best-selling album artists' was reduced to 'famous singers', and 'remains at the top of his game' became 'still very successful'.\n- While the simplification is good for A2 readability, it narrowly misses the required fidelity score. The structural breakdown into short, simple sentences is correct for the A2 level.\n- Suggestion: To meet the fidelity requirement, reintroduce slightly more specific phrasing without adding complexity. Change 'famous singers' to 'singers who sell many albums'. This change would likely raise the BERTScore above the 0.90 minimum while remaining within A2 constraints.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8987,
+          "meaningbert": 0.8502
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:15:32.318906",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many singers sell a lot of albums. But Springsteen is different from them. He is almost 70 years old. He still makes new music. His new music goes to the top of the charts. He plays shows in big stadiums. The stadiums are always full. He is still at the top. I am not surprised by this. He tells our most important stories about ourselves. You can listen to his album *Born in the USA*. The stories in his songs are still important today.",
+      "timestamp": "2025-08-31 21:15:32.320129",
+      "metadata": {
+        "text_id": "53d69047-b2f5-4286-837c-a6b0c9650926",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-08-31 21:15:58.631217",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1cc9019d-bdaf-4670-8d70-a254db4ac544",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8996 is below the required 0.90 threshold. This indicates a failure to retain sufficient key phrasing from the original text.\n\n- The primary cause of the low score is the oversimplification of specific concepts. The original phrase 'remains at the top of his game' has a specific meaning of high performance, which was reduced to the more generic 'He is still at the top'. This loses lexical detail.\n- Similarly, 'best-selling album artists' was reduced to 'Many singers sell a lot of albums', which loses the superlative 'best-selling' concept.\n- While the text correctly achieves an A2 classification and preserves the general meaning (MeaningBERT score is 0.86), it fails the strict fidelity requirement.\n\nSuggestion: To pass, you must retain more of the original's key terms. Rephrase 'He is still at the top' to something like 'He is still one of the best singers'. This better reflects the meaning of 'top of his game' and will improve the fidelity score.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8996,
+          "meaningbert": 0.8626
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:16:15.729122",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some singers sell more albums than anyone else. But Springsteen is different from them. He is almost 70 years old. He still makes new music. His new music goes to the top of the charts. He plays shows in big stadiums. The stadiums are always full. He is still one of the best singers. I am not surprised by this. He tells our most important stories about ourselves. You can listen to his album *Born in the USA*. The stories in his songs are still important today.",
+      "timestamp": "2025-08-31 21:16:15.732773",
+      "metadata": {
+        "text_id": "a98793cf-950c-40c1-b921-b5690d3c789f",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 21:16:46.206914",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c4aa7a3e-d858-427c-8156-cd2d8c73ebc7",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8971 is below the mandatory 0.90 threshold. This indicates an unacceptable loss of key words and phrasing from the original text. While the simplification is stylistically appropriate for A2, it has sacrificed too much lexical fidelity. The text fails at Priority 2 of the diagnostic protocol. \n\nDetected Deviations:\n- BERTScore Failure: The score of 0.8971 is a hard failure. This was caused by replacing original phrases with simpler, but lexically distant, alternatives.\n- Example 1: The original idiom 'remains at the top of his game' was replaced with 'still one of the best singers'. This changes the meaning from performing at peak ability to being ranked among others.\n- Example 2: The original phrase 'as relevant today as they ever were' was simplified to 'still important today'. This loses the comparative aspect and the nuance of the word 'relevant'.\n\nSuggestion: Revise the text to retain more of the original's key vocabulary while maintaining A2 structure. The goal is simplification, not complete replacement. For instance, 'relevant' could be explained as 'important for people now'. The phrase 'at the top of his game' could be simplified to 'he is still at the top' to preserve the core words.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8971,
+          "meaningbert": 0.842
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:16:58.402592",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some singers sell more albums than anyone else. But Springsteen is different from them. He is almost 70 years old. He still makes new music. His new music goes to the top of the charts. He plays shows in big stadiums. The stadiums are always full. He is still at the top. I am not surprised by this. He tells our most important stories about ourselves. You can listen to his album *Born in the USA*. The stories are as important for people now as they were in the past.",
+      "timestamp": "2025-08-31 21:16:58.403685",
+      "metadata": {
+        "text_id": "b889e5ce-dc02-4616-8ea2-c8b03f231cbb",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:17:30.559729",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "bfeafbe4-8d61-4d98-84fa-4e7a5b028886",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with the A2 standard.\n\nAll metrics are within acceptable ranges. MeaningBERT at 0.86 and BERTScore at 0.90 confirm that the core message and key details were preserved. The qualitative audit confirms strict adherence to A2 constraints.\n\n- Vocabulary Control: The vocabulary is strictly limited to the A1/A2 levels. Simplifications like 'fundamental' to 'important' and 'relevant' to 'important' are appropriate for the target level.\n- Sentence Structure: The original text's complex sentence structure was correctly broken down into multiple short, simple sentences. This is exemplary A2 simplification.\n- Clarity: The use of simple sentence patterns ensures high readability for an A2 audience. The text is unambiguous and direct.\n\nNo deviations from the A2 standard were detected.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9045,
+          "meaningbert": 0.8615
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:17:40.512945",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some singers sell more albums than anyone else. But Springsteen is different from them. He is almost 70 years old. He still makes new music. His new music goes to the top of the charts. He plays shows in big stadiums. The stadiums are always full. He is still at the top. I am not surprised by this. He tells our most important stories about ourselves. You can listen to his album *Born in the USA*. The stories are as important for people now as they were in the past.",
+      "timestamp": "2025-08-31 21:17:40.515699",
+      "metadata": {
+        "text_id": "23c7a10d-7f39-4203-981b-690faa3a59cf",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:18:07.091098",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5829bb4e-5c02-43a7-ad9d-3f2ca486b394",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text is an exemplary model of A2 simplification. It meets all protocol requirements without deviation.\n\n- Factual Integrity: The text is 100% factually accurate. The simplification of 'late 60s' to 'almost 70 years old' is a correct and appropriate A2-level adaptation.\n- Meaning and Fidelity: The MeaningBERT score of 0.86 and BERTScore of 0.90 confirm that the core message and key lexical items have been preserved with high fidelity.\n- CEFR Compliance: The A2 classification is correct. The text avoids all B1-level grammatical structures and vocabulary.\n- Qualitative Audit: The vocabulary is strictly limited to the A1-A2 levels. The breakdown of the original text's long, complex sentence into multiple short, simple sentences is a perfect execution of A2 structural requirements. The use of simple connectors is appropriate. No errors were found.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9045,
+          "meaningbert": 0.8615
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:18:16.647795",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some singers sell more albums than anyone else. But Springsteen is different from them. He is almost 70 years old. He still makes new music. His new music goes to the top of the charts. He plays shows in big stadiums. The stadiums are always full. He is still at the top. I am not surprised by this. He tells our most important stories about ourselves. You can listen to his album *Born in the USA*. The stories are as important for people now as they were in the past.",
+      "timestamp": "2025-08-31 21:18:16.651742",
+      "metadata": {
+        "text_id": "8d58d660-f49e-47f7-b4fa-57333398418b",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:18:44.385402",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "af26781f-5f6c-47f0-97eb-b657970bbbac",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text is an exemplary model of A2 simplification. It meets all protocol requirements without deviation.\n\n- Factual Integrity: The text is 100% factually accurate. The simplification of 'late 60s' to 'almost 70 years old' is a correct and appropriate A2-level adaptation.\n- Meaning and Fidelity: The MeaningBERT score of 0.86 and BERTScore of 0.90 confirm that the core message and key lexical items have been preserved with high fidelity.\n- CEFR Compliance: The A2 classification is correct. The text avoids all B1-level grammatical structures and vocabulary.\n- Qualitative Audit: The vocabulary is strictly limited to the A1-A2 levels. The breakdown of the original text's long, complex sentence into multiple short, simple sentences is a perfect execution of A2 structural requirements. The use of simple connectors is appropriate. No errors were found.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9045,
+          "meaningbert": 0.8615
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:18:56.070791",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some singers sell more albums than anyone else. But Springsteen is different from them. He is almost 70 years old. He still makes new music. His new music goes to the top of the charts. He plays shows in big stadiums. The stadiums are always full. He is still at the top. I am not surprised by this. He tells our most important stories about ourselves. You can listen to his album *Born in the USA*. The stories are as important for people now as they were in the past.",
+      "timestamp": "2025-08-31 21:18:56.072252",
+      "metadata": {
+        "text_id": "0836de94-22b8-4cc1-a00a-a228d3e77f3c",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:19:24.307110",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "62725289-e392-4e72-83fb-771dc34b4b36",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with the A2 standard.\n\nAll metrics are within acceptable ranges. MeaningBERT at 0.86 and BERTScore at 0.90 confirm that the core message and key details were preserved. The qualitative audit confirms strict adherence to A2 constraints.\n\n- Vocabulary Control: The vocabulary is strictly limited to the A1/A2 levels. Simplifications like 'fundamental' to 'important' and 'relevant' to 'important' are appropriate for the target level.\n- Sentence Structure: The original text's complex sentence structure was correctly broken down into multiple short, simple sentences. This is exemplary A2 simplification.\n- Clarity: The use of simple sentence patterns ensures high readability for an A2 audience. The text is unambiguous and direct.\n\nNo deviations from the A2 standard were detected.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9045,
+          "meaningbert": 0.8615
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:19:36.566675",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some singers sell more albums than anyone else. But Springsteen is different from them. He is almost 70 years old. He still makes new music. His new music goes to the top of the charts. He plays shows in big stadiums. The stadiums are always full. He is still at the top. I am not surprised by this. He tells our most important stories about ourselves. You can listen to his album *Born in the USA*. The stories are as important for people now as they were in the past.",
+      "timestamp": "2025-08-31 21:19:36.570503",
+      "metadata": {
+        "text_id": "cb8a49b7-352b-44a5-938e-c616423873c7",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:20:01.197237",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "589e0ab3-7690-4437-8ce1-a91a16865ef2",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: Exemplary Adherence to A2 Standard. The output successfully passes all diagnostic checks.\n\n- Factual Integrity: All facts, names, and concepts from the original text are preserved without error.\n- Meaning and Fidelity Metrics: The MeaningBERT score of 0.8615 and BERTScore of 0.9045 are both above the required thresholds, confirming the core message and key terms were maintained.\n- CEFR Compliance: The text correctly classified as A2.\n- Qualitative Audit: The text demonstrates a masterful simplification to the A2 level. Complex B2-level vocabulary ('fundamental', 'relevant') was correctly replaced with the A1 word 'important'. Compound adjectives ('chart-topping', 'stadium-filling') were correctly deconstructed into a series of short, simple sentences. The structure is a model of A2 clarity. No deviations were found.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9045,
+          "meaningbert": 0.8615
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:20:12.947461",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 12,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some singers sell more albums than anyone else. But Springsteen is different from them. He is almost 70 years old. He still makes new music. His new music goes to the top of the charts. He plays shows in big stadiums. The stadiums are always full. He is still at the top. I am not surprised by this. He tells our most important stories about ourselves. You can listen to his album *Born in the USA*. The stories are as important for people now as they were in the past.",
+      "timestamp": "2025-08-31 21:20:12.950604",
+      "metadata": {
+        "text_id": "082fb025-1587-4e0c-a8e5-a14f1e6274c0",
+        "version": 12
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:20:52.159438",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5022370b-6b40-4791-abf8-e4c056d1f677",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text is an exemplary model of A2 simplification. It meets all protocol requirements without deviation.\n\n- Factual Integrity: The text is 100% factually accurate. The simplification of 'late 60s' to 'almost 70 years old' is a correct and appropriate A2-level adaptation.\n- Meaning and Fidelity: The MeaningBERT score of 0.86 and BERTScore of 0.90 confirm that the core message and key lexical items have been preserved with high fidelity.\n- CEFR Compliance: The A2 classification is correct. The text avoids all B1-level grammatical structures and vocabulary.\n- Qualitative Audit: The vocabulary is strictly limited to the A1-A2 levels. The breakdown of the original text's long, complex sentence into multiple short, simple sentences is a perfect execution of A2 structural requirements. The use of simple connectors is appropriate. No errors were found.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9045,
+          "meaningbert": 0.8615
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:21:03.197691",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 13,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some singers sell more albums than anyone else. But Springsteen is different from them. He is almost 70 years old. He still makes new music. His new music goes to the top of the charts. He plays shows in big stadiums. The stadiums are always full. He is still at the top. I am not surprised by this. He tells our most important stories about ourselves. You can listen to his album *Born in the USA*. The stories are as important for people now as they were in the past.",
+      "timestamp": "2025-08-31 21:21:03.202405",
+      "metadata": {
+        "text_id": "1dd1c2cf-7bfd-48c5-a6e1-ea05b0fd0ee3",
+        "version": 13
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:21:30.750046",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b1a70bf4-6697-4229-bbc8-b45f6b823a88",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: Exemplary Adherence to A2 Standard. The output successfully passes all diagnostic checks.\n\n- Factual Integrity: All facts, names, and concepts from the original text are preserved without error.\n- Meaning and Fidelity Metrics: The MeaningBERT score of 0.8615 and BERTScore of 0.9045 are both above the required thresholds, confirming the core message and key terms were maintained.\n- CEFR Compliance: The text correctly classified as A2.\n- Qualitative Audit: The text demonstrates a masterful simplification to the A2 level. Complex B2-level vocabulary ('fundamental', 'relevant') was correctly replaced with the A1 word 'important'. Compound adjectives ('chart-topping', 'stadium-filling') were correctly deconstructed into a series of short, simple sentences. The structure is a model of A2 clarity. No deviations were found.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9045,
+          "meaningbert": 0.8615
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:21:43.136313",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 14,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some singers sell more albums than anyone else. But Springsteen is different from them. He is almost 70 years old. He still makes new music. His new music goes to the top of the charts. He plays shows in big stadiums. The stadiums are always full. He is still at the top. I am not surprised by this. He tells our most important stories about ourselves. You can listen to his album *Born in the USA*. The stories are as important for people now as they were in the past.",
+      "timestamp": "2025-08-31 21:21:43.139829",
+      "metadata": {
+        "text_id": "977d26bf-4d82-49f5-987f-fc13793d534e",
+        "version": 14
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:22:12.724864",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "bbe0de13-c934-49e0-9e4e-85af77cf83d8",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with the A2 standard.\n\nAll metrics are within acceptable ranges. MeaningBERT at 0.86 and BERTScore at 0.90 confirm that the core message and key details were preserved. The qualitative audit confirms strict adherence to A2 constraints.\n\n- Vocabulary Control: The vocabulary is strictly limited to the A1/A2 levels. Simplifications like 'fundamental' to 'important' and 'relevant' to 'important' are appropriate for the target level.\n- Sentence Structure: The original text's complex sentence structure was correctly broken down into multiple short, simple sentences. This is exemplary A2 simplification.\n- Clarity: The use of simple sentence patterns ensures high readability for an A2 audience. The text is unambiguous and direct.\n\nNo deviations from the A2 standard were detected.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9045,
+          "meaningbert": 0.8615
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:22:25.183179",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 15,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some singers sell more albums than anyone else. But Springsteen is different from them. He is almost 70 years old. He still makes new music. His new music goes to the top of the charts. He plays shows in big stadiums. The stadiums are always full. He is still at the top. I am not surprised by this. He tells our most important stories about ourselves. You can listen to his album *Born in the USA*. The stories are as important for people now as they were in the past.",
+      "timestamp": "2025-08-31 21:22:25.191738",
+      "metadata": {
+        "text_id": "6f38861e-993c-42a0-85c7-e81c5ce3dbb8",
+        "version": 15
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:22:54.407477",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "590cb05a-a6f3-4203-a6ee-56f485eb27bd",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text is an exemplary model of A2 simplification. It meets all protocol requirements without deviation.\n\n- Factual Integrity: The text is 100% factually accurate. The simplification of 'late 60s' to 'almost 70 years old' is a correct and appropriate A2-level adaptation.\n- Meaning and Fidelity: The MeaningBERT score of 0.86 and BERTScore of 0.90 confirm that the core message and key lexical items have been preserved with high fidelity.\n- CEFR Compliance: The A2 classification is correct. The text avoids all B1-level grammatical structures and vocabulary.\n- Qualitative Audit: The vocabulary is strictly limited to the A1-A2 levels. The breakdown of the original text's long, complex sentence into multiple short, simple sentences is a perfect execution of A2 structural requirements. The use of simple connectors is appropriate. No errors were found.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9045,
+          "meaningbert": 0.8615
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 21:23:03.444092",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 16,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some singers sell more albums than anyone else. But Springsteen is different from them. He is almost 70 years old. He still makes new music. His new music goes to the top of the charts. He plays shows in big stadiums. The stadiums are always full. He is still at the top. I am not surprised by this. He tells our most important stories about ourselves. You can listen to his album *Born in the USA*. The stories are as important for people now as they were in the past.",
+      "timestamp": "2025-08-31 21:23:03.445244",
+      "metadata": {
+        "text_id": "185318b4-074b-401b-abe8-ab6e269a08db",
+        "version": 16
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 21:23:31.689918",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "19080ab6-d246-47ed-951a-e04c3092fddb",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: Exemplary Adherence to A2 Standard. The output successfully passes all diagnostic checks.\n\n- Factual Integrity: All facts, names, and concepts from the original text are preserved without error.\n- Meaning and Fidelity Metrics: The MeaningBERT score of 0.8615 and BERTScore of 0.9045 are both above the required thresholds, confirming the core message and key terms were maintained.\n- CEFR Compliance: The text correctly classified as A2.\n- Qualitative Audit: The text demonstrates a masterful simplification to the A2 level. Complex B2-level vocabulary ('fundamental', 'relevant') was correctly replaced with the A1 word 'important'. Compound adjectives ('chart-topping', 'stadium-filling') were correctly deconstructed into a series of short, simple sentences. The structure is a model of A2 clarity. No deviations were found.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9045,
+          "meaningbert": 0.8615
+        }
+      }
+    }
+  ]
+}

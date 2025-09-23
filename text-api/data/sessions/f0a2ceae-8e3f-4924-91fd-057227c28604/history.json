@@ -1,0 +1,80 @@
+{
+  "session_id": "f0a2ceae-8e3f-4924-91fd-057227c28604",
+  "created_at": "2025-09-01 10:30:03.515928",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:30:03.545599",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "36-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Most people have dreams every night.\nAfter they are ten years old, they have four to six dreams.\nThat is about 2,000 dreams every year.\nSo, when a person is 80 years old, they have had many dreams.\nMaybe 140,000 dreams in their life.\n\nWe forget most of our dreams.\nWe forget 95 to 99 percent of them.\nBut we still remember a few thousand dreams.\n\nSometimes, we have a dream.\nThen, something similar happens in real life.\nThis is probably just by chance.\nThis happens more when the dream is about normal things.\nThese are things that happen every day.",
+      "timestamp": "2025-09-01 10:30:03.545714",
+      "metadata": {
+        "text_id": "787e3a95-1f6b-45cc-a20f-d3a2f4f80802",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:30:04.383489",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ce930c6b-84e9-4005-8b00-d54c62def474",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Exceeds A2 Level. The text fails the qualitative audit due to the inclusion of a word outside the A2 vocabulary list.\n\n- B1 Vocabulary Violation: The word 'percent' is classified as B1 level. It was used in the sentence: 'We forget 95 to 99 percent of them.' This is an unacceptable deviation from the A2 standard.\n- Structural Compliance: The use of short, simple sentences is correct for the A2 level.\n- Metrics: The text passed all quantitative checks (MeaningBERT: 0.8348, BERTScore: 0.9087, CEFR Classifier: A2), but this does not override the qualitative failure.\n\nSuggestion: Rephrase the sentence to avoid the B1 word. Use a construction like 'out of every 100' to explain the concept in A2 terms. For example: 'We forget 95 to 99 of every 100 dreams.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9087,
+          "meaningbert": 0.8348
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:30:17.245156",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Most people have dreams every night.\nAfter they are ten years old, they have four to six dreams.\nThat is about 2,000 dreams every year.\nSo, when a person is 80 years old, they have had many dreams.\nMaybe 140,000 dreams in their life.\nWe forget most of our dreams.\nWe forget 95 to 99 of every 100 dreams.\nBut we still remember a few thousand dreams.\nSometimes, we have a dream.\nThen, something similar happens in real life.\nThis is probably just by chance.\nThis happens more when the dream is about normal things.\nThese are things that happen every day.",
+      "timestamp": "2025-09-01 10:30:17.245358",
+      "metadata": {
+        "text_id": "ece0cba1-f2c1-45ba-8d42-2dcd783fa3fa",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 10:30:38.385767",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0505c60d-2576-4f17-9b06-509a6eba5084",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text is an exemplary model of A2 simplification. It meets all diagnostic criteria without deviation.\n\n- Factual Integrity: All data points from the original text, including the number of dreams, ages, and percentages, are preserved with 100% accuracy.\n\n- Meaning and Fidelity: The MeaningBERT score of 0.8353 and BERTScore of 0.9096 confirm that the core message and key lexical items have been successfully retained.\n\n- CEFR Compliance: The A2 classification is correct. The text avoids the B1 complexity of the original while providing more substance than a simple A1 text.\n\n- Qualitative Audit: The vocabulary is strictly confined to the A2 level. The simplification of 'coincidence' to 'by chance' and the breakdown of the final complex sentence into five simple, sequential sentences is a perfect execution of A2 structural requirements. No violations were detected.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9096,
+          "meaningbert": 0.8353
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "ae900f91-123d-444e-ae7b-8dbb5e136e34",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Sam looked at the sun. He saw dust far away. A car made the dust. The car went to the Big House. Horses moved their tails. Flies were on them. The horses did not care. Their owner was coming. His name was Mr Carter. He did not visit for ten months. Sam waited. Mr Carter did not often come here. Sam liked this. Sam wanted to stay away from his boss. Then Sam could keep his job. Mr Carter wiped his neck. He wiped sweat. His shirt was wet. His skin was red from the sun. It was June. He had light skin. He stayed inside a lot. He made money. Other people did the work.",
+    "version": 11,
+    "created_at": "2025-09-01 17:07:18.879828",
+    "updated_at": "2025-09-01 17:07:18.879829",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "57e8f46b-92dd-4a4b-9443-465829cb7b86",
+    "approval": "FAIL",
+    "grade": 1,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5793 is significantly below the required 0.75, indicating a substantial loss of the original text's core message and nuance. Additionally, the BERTScore of 0.8918 is below the required 0.90, demonstrating a failure to retain key lexical items and factual phrasing. MeaningBERT Deviation: The original text conveys Sam's cautious nature and Mr. Carter's specific character traits. The simplified version reduces these to basic actions, losing the underlying meaning. For example, 'Sam squinted against the sun' becomes 'Sam looked at the sun', losing the nuance of discomfort or effort. 'Mr Carter didn't come out here unless he had to' is simplified to 'Mr Carter did not often come here', losing the specific reason for his infrequent visits. The description of Mr. Carter's 'indoor tan of a man that made money while other people did the work' is reduced to 'He had light skin. He stayed inside a lot. He made money. Other people did the work.', which loses the specific, descriptive phrase 'indoor tan' and the implied lifestyle. BERTScore Deviation: Key descriptive phrases and vocabulary from the original text were replaced with overly simplistic or less precise alternatives, leading to a loss of lexical fidelity. 'squinted against the sun' was replaced by 'looked at the sun'. 'dust trail raked up' was replaced by 'dust'. 'kicked and flicked their tails' was replaced by 'moved their tails'. 'not caring about their owner's first visit' was simplified to 'The horses did not care. Their owner was coming.' 'didn't come out here unless he had to' was replaced by 'did not often come here'. 'just fine by Sam' was replaced by 'Sam liked this'. 'The more he kept out of his boss's way, the longer he'd have a job' was broken into 'Sam wanted to stay away from his boss. Then Sam could keep his job.' 'damp patches on his shirt drew together like shapes in an atlas' was drastically simplified to 'His shirt was wet', losing significant descriptive detail. 'turning ruddy' was replaced by 'red'. 'indoor tan' was replaced by 'light skin' and 'stayed inside a lot'. Suggestion: Re-evaluate the simplification process to ensure that core meanings, specific character traits, and key descriptive phrases are preserved, even when simplifying vocabulary and sentence structure. Focus on retaining the essence of the original text's descriptions and implications.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8918,
+      "meaningbert": 0.5793
+    },
+    "created_at": "2025-09-01 17:07:51.253817"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "f4a111a8-b01f-4513-8cef-3f66239e66cb",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Sam closed his eyes a little because of the sun.\nHe saw a car far away.\nThe car made a dust trail. The dust went up.\nThe car went to the Big House.\nThe horses kicked. They hit flies with their tails.\nThey did not care about their owner's visit.\nTheir owner was coming. He did not visit for ten months.\nSam waited.\nMr. Carter was Sam's boss. He did not come here often.\nHe came only if he needed to.\nSam liked this.\nSam stayed away from his boss. This way, he could keep his job.\nMr. Carter wiped sweat from his neck.\nHis shirt was wet.\nThe wet areas looked like shapes on a map.\nHis skin became red. The sun in June made it red.\nHis skin was not dark from the sun. It showed he stayed inside.\nHe got money. Other people did the work for him.",
+    "version": 2,
+    "created_at": "2025-09-01 16:57:38.605845",
+    "updated_at": "2025-09-01 16:57:38.605852",
+    "metrics_meaningbert": 0.6398,
+    "metrics_cefr_compliance": "A2"
+  }
+}

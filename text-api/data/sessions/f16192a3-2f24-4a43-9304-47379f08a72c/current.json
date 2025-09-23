@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "0f83be96-7c53-47b7-8393-c1e0d13a94ff",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "\"The Scallion\" is a newspaper. It comes out every week. It is free. You can find it in buildings for teachers. About 10,000 students read it.\n\nOnly students write and make the newspaper. A study shows that students and staff like the newspaper a lot. They read it for fun. They also learn a lot about culture from it. It gives students good work experience too.\n\nBut there are some problems. It costs a lot of money to print the newspaper. Also, some students cannot get the paper easily. You have to go to the university to get one. It is also a problem for the environment. Many copies become trash on the university grounds.",
+    "version": 6,
+    "created_at": "2025-09-01 10:45:56.798535",
+    "updated_at": "2025-09-01 10:45:56.798539",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "67d5571d-4875-4e29-97e9-8fec28284d97",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5881 is significantly below the required threshold of 0.75. This indicates a failure to preserve the core message and nuance of the original text.\n\n- The primary failure is the dilution of meaning. The original text uses strong, specific concepts like 'highly valued' and 'significant cost'. Your output reduces these to 'like the newspaper a lot' and 'costs a lot of money'. This simplification loses the intensity and formal weight of the original message, causing the low MeaningBERT score.\n- The term 'cultural enrichment' is reduced to 'learn a lot about culture'. This is a loss of a key concept.\n- The term 'litter on campus' is more specific than 'trash on the university grounds'. This contributes to a loss of lexical precision.\n\nSuggestion: You must preserve the strength of the original concepts. Rephrase to better capture the intensity. For 'highly valued', use a phrase like 'students and staff think the newspaper is very important'. For 'significant cost', use 'printing the newspaper is a big cost'.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.9034,
+      "meaningbert": 0.5881
+    },
+    "created_at": "2025-09-01 10:46:16.066238"
+  },
+  "attempt_number": 6,
+  "best_attempt": {
+    "id": "98f3489e-db12-47cb-bfa6-ec5957624c3e",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "\"The Scallion\" is a newspaper. It comes out every week. It is free. You can find it in faculty buildings. About 10,000 students read it.\n\nOnly students write and make the newspaper. A study shows that students and staff really like the newspaper. They read it for fun. They also learn a lot about culture from it. It gives students good work experience too.\n\nBut there are some problems. It costs a lot of money to make the newspaper. Also, some students cannot get the paper easily. You have to go to the university to get one. It is also a problem for the environment. Many copies become litter on campus.",
+    "version": 4,
+    "created_at": "2025-09-01 10:44:39.918495",
+    "updated_at": "2025-09-01 10:44:39.918502",
+    "metrics_meaningbert": 0.6019,
+    "metrics_cefr_compliance": "A2"
+  }
+}

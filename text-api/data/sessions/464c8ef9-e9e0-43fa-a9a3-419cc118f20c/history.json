@@ -1,0 +1,413 @@
+{
+  "session_id": "464c8ef9-e9e0-43fa-a9a3-419cc118f20c",
+  "created_at": "2025-09-01 16:59:35.019509",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 16:59:35.049875",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "51-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Meagan McGrath is from Canada.\nShe is an adventurer.\nShe likes hard things to do.\nShe went up the tallest mountain on every big land area.\nShe rode a bike across Canada.\nShe ran a very long race in the Sahara Desert.\nThe Sahara Desert is a very hot, dry place.\nIt was 45 degrees Celsius there.\n\nBut maybe her most special journey was to the South Pole.\nShe went there on skis.\nThe South Pole is at the very bottom of the world.\n\nOn the first day, she fell.\nShe fell into a glacier.\nA glacier is a very big river of ice.\nSomeone had to save her.\n\nMany people would stop then.\nBut Meagan chose to go on.\nShe got to the South Pole 40 days later.\nShe pulled a sledge.\nHer tent and all her food were on the sledge.\nThe weather was very cold.\nThere were bad ice storms.",
+      "timestamp": "2025-09-01 16:59:35.050028",
+      "metadata": {
+        "text_id": "ded5a61e-52ef-4825-98b8-0125ce8c3402",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 16:59:35.078460",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "20c4888e-6338-4e0e-911a-dcc035fe1c30",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The MeaningBERT score of 0.6162 is significantly below the required 0.75. This indicates a failure to preserve the core message of the original text. The BERTScore of 0.8985 is also below the required 0.90, demonstrating an unacceptable loss of key lexical detail. The CEFR classifier did rate the text as A2, but this is overridden by the higher-priority failures in meaning and fidelity. Meaning Preservation: The original text emphasizes Meagan's continuous pursuit of escalating challenges and the 'remarkable' nature of her journeys. Your version reduces this to 'She likes hard things to do' and 'maybe her most special journey', which fails to convey the original's core meaning and the spirit of the adventurer's drive. The crucial introductory concept of 'Not content with one amazing trip, some of today's adventurers go from challenge to challenge' is entirely absent. Lexical Fidelity: The BERTScore indicates a loss of specific vocabulary and phrasing. For instance, 'highest mountain on each continent' was rendered as 'tallest mountain on every big land area', and 'long-distance race' as 'very long race'. These lexical substitutions, while attempting simplification, cumulatively reduce the textual overlap below the required threshold. Vocabulary Deviation: The term 'South Pole' is classified as C1. Its use is unacceptable for an A2 text, even with an accompanying definition. Vocabulary Deviation: The word 'adventurer' is a B1-level term. Vocabulary Deviation: The word 'sledge' is a B1-level term. Vocabulary Deviation: The unit 'Celsius' is a B1-level term. Suggestion: Reconstruct the opening to explicitly convey the idea of continuous, escalating challenges. Eliminate all B1/C1 vocabulary. Replace 'South Pole' with its A2 definition throughout the text. Find A2 equivalents for 'adventurer', 'sledge', and 'Celsius'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8985,
+          "meaningbert": 0.6162
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 16:59:47.392263",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Meagan McGrath is from Canada.\nShe likes to do many hard things.\nShe does one hard thing, then she does another.\nShe went up the highest mountain on every continent.\nShe rode a bike across Canada.\nShe ran a long race in the Sahara Desert.\nThe Sahara Desert is a very hot, dry place.\nIt was 45 degrees hot there.\n\nBut her trip to the very bottom of the world was special.\nShe went there on skis.\nThe very bottom of the world has a lot of ice.\n\nOn the first day, she fell.\nShe fell into a glacier.\nA glacier is a very big river of ice.\nSomeone had to save her.\n\nMany people would stop then.\nBut Meagan chose to go on.\nShe got to the very bottom of the world 40 days later.\nShe pulled a thing on the ice.\nHer tent and all her food were on this thing.\nThe weather was very cold.\nThere were bad ice storms.",
+      "timestamp": "2025-09-01 16:59:47.392452",
+      "metadata": {
+        "text_id": "a05299ce-a20a-4600-be5f-18f51806b5ba",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:00:09.062327",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "630ee705-f5a7-405f-91cd-bbe264c4acb3",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The text fails to preserve the core meaning and lexical fidelity of the original, as evidenced by the low metric scores. The MeaningBERT score of 0.577 is significantly below the required 0.75, indicating a substantial loss of the original message's nuance and emphasis. The BERTScore of 0.8889 is also below the required 0.90, demonstrating a failure to retain key words and factual phrasing. Specific deviations include: 1. MeaningBERT Failure: The original text emphasizes 'adventurers' who go 'from challenge to challenge' and highlights a 'most remarkable journey'. Your version simplifies this to 'She likes to do many hard things. She does one hard thing, then she does another.' and 'her trip to the very bottom of the world was special.' This simplification loses the core concept of an 'adventurer' and the 'remarkable' nature of the journey, reducing the impact of Meagan's achievements. 2. BERTScore Failure: Key lexical items were replaced or omitted. For example, 'sledge' was replaced with 'thing on the ice', 'South Pole' with 'very bottom of the world', 'rescued' with 'save her', and 'given up' with 'stop'. These changes, while simplifying, remove important specific vocabulary and reduce the fidelity to the original text. 3. Over-simplification of concepts: The original implies a sense of overcoming adversity ('Many of us would have given up at that point, but Meagan decided to carry on'). While present, the simplified 'Many people would stop then. But Meagan chose to go on.' loses some of the original's emotional weight and specific phrasing. Suggestion: Reintroduce key vocabulary such as 'adventurer', 'challenge', 'remarkable', 'sledge', and 'South Pole'. Ensure that the emotional and thematic emphasis of overcoming adversity is maintained. Review the text to ensure that the core message about Meagan's extraordinary achievements and resilience is fully conveyed, not just a list of simplified actions.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8889,
+          "meaningbert": 0.577
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:00:21.636402",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Meagan McGrath is from Canada.\nShe is an adventurer.\nShe likes many challenges.\nShe does one challenge, then another.\nShe climbed the highest mountain on every continent.\nShe rode a bike across Canada.\nShe ran a long race in the Sahara Desert.\nThe Sahara Desert is a very hot place.\nIt was 45 degrees hot there.\n\nBut her trip to the South Pole was her most remarkable journey.\nShe went there on skis.\nThe South Pole has a lot of ice.\n\nOn the first day, she fell.\nShe fell into a glacier.\nA glacier is a very big river of ice.\nSomeone had to rescue her.\n\nMany people would give up then.\nBut Meagan decided to carry on.\nShe reached the South Pole 40 days later.\nShe pulled a sledge on the ice.\nHer tent and all her food were on this sledge.\nThe weather was very cold.\nThere were bad ice storms.",
+      "timestamp": "2025-09-01 17:00:21.636725",
+      "metadata": {
+        "text_id": "dcad274f-30fc-42d2-9c4d-ea6fb0af2585",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:00:35.451153",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "34d4049e-aca3-45f3-bbf2-afb5c854532e",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.663 is below the required 0.75. The core message regarding Meagan McGrath's exceptional drive and continuous pursuit of challenges is not adequately preserved. The original text emphasizes her insatiable desire for adventure with the phrase 'Not content with one amazing trip, some of today's adventurers go from challenge to challenge.' Your version simplifies this to 'She likes many challenges. She does one challenge, then another,' which loses the nuance of her extraordinary motivation and the continuous, escalating nature of her feats. The spirit of her being an adventurer who is 'not content' is lost. Suggestion: Rephrase the opening to convey the idea of her constantly seeking new and difficult adventures, not just doing one after another.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9052,
+          "meaningbert": 0.663
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:00:49.824832",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Meagan McGrath is from Canada.\nShe is an adventurer.\nOne trip is not enough for her.\nShe always wants new challenges.\nShe climbed the highest mountain on every continent.\nShe rode a bike across Canada.\nShe ran a long race in the Sahara Desert.\nThe Sahara Desert is a very hot place.\nIt was 45 degrees hot there.\n\nBut her trip to the South Pole was very special.\nShe went there on skis.\nThe South Pole has a lot of ice.\n\nOn the first day, she fell.\nShe fell into a glacier.\nA glacier is a very big river of ice.\nSomeone had to help her.\n\nMany people would give up then.\nBut Meagan decided to carry on.\nShe reached the South Pole 40 days later.\nShe pulled a sledge on the ice.\nHer tent and all her food were on this sledge.\nThe weather was very cold.\nThere were bad ice storms.",
+      "timestamp": "2025-09-01 17:00:49.827168",
+      "metadata": {
+        "text_id": "d643b1fc-a8f7-44ee-a94b-fc27df89d7ea",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:01:04.232946",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8d49d326-2721-4599-b999-02f44794528f",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6472 is significantly below the required 0.75. While the facts are present, the core message and emphasis of the original text have been diluted. The original text highlights Meagan's insatiable drive for 'challenge to challenge' and describes her South Pole trip as 'perhaps her most remarkable journey'. Your version simplifies this to 'One trip is not enough for her. She always wants new challenges.' and 'But her trip to the South Pole was very special.' This simplification loses the nuance of her extreme adventurous spirit and the exceptional nature of the South Pole journey as presented in the original. The emotional and motivational depth is not fully conveyed. Suggestion: Rephrase to better capture the intensity of her adventurous spirit and the unique significance of the South Pole journey. For example, instead of 'very special', consider 'her best trip' or 'her most difficult trip' to convey the 'remarkable' aspect.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9034,
+          "meaningbert": 0.6472
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:01:14.693218",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Meagan McGrath is from Canada.\nShe is an adventurer.\nShe loves new challenges.\nShe always wants to do more.\nShe climbed the highest mountain on every continent.\nShe rode a bike across Canada.\nShe ran a long race in the Sahara Desert.\nThe Sahara Desert is a very hot place.\nIt was 45 degrees hot there.\n\nBut her trip to the South Pole was her most difficult trip.\nShe went there on skis.\nThe South Pole has a lot of ice.\n\nOn the first day, she fell.\nShe fell into a glacier.\nA glacier is a very big river of ice.\nSomeone had to help her.\n\nMany people would give up then.\nBut Meagan decided to carry on.\nShe reached the South Pole 40 days later.\nShe pulled a sledge on the ice.\nHer tent and all her food were on this sledge.\nThe weather was very cold.\nThere were bad ice storms.",
+      "timestamp": "2025-09-01 17:01:14.693656",
+      "metadata": {
+        "text_id": "012cbf87-10d2-4c85-822f-5e65f0baa886",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:01:30.616601",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e59b858d-db60-4d96-9f12-27d6009e6cca",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6713 is significantly below the required 0.75. This indicates a failure to preserve the core message and nuance of the original text.\n\nDetected Deviations:\n*   Meaning Loss: The original text emphasizes Meagan's extraordinary and relentless adventurous spirit with phrases like 'Not content with one amazing trip, some of today's adventurers go from challenge to challenge.' Your version simplifies this to 'She loves new challenges. She always wants to do more.' This loses the intensity and continuous nature of her pursuit of extreme challenges.\n*   Meaning Loss: The original describes her South Pole trip as 'perhaps her most remarkable journey.' Your version changes this to 'her most difficult trip.' While the trip was difficult, 'remarkable' conveys a sense of being extraordinary, noteworthy, or inspiring, which is a significant nuance lost in the simplification to merely 'difficult.'\n*   Meaning Loss: The original uses 'Many of us would have given up at that point,' which creates a direct connection and highlights the exceptional nature of her perseverance. Your version, 'Many people would give up then,' is more generic and diminishes this specific emphasis.\n\nCorrective Path:\n*   Rephrase the opening to better capture the continuous and extreme nature of Meagan's adventurous spirit, perhaps by stating she 'always looks for new and big challenges' or 'never stops doing hard trips.'\n*   Restore the meaning of 'remarkable' for her South Pole journey. Consider phrases like 'her most special trip' or 'her most amazing trip' if 'remarkable' is too complex.\n*   Rephrase the sentence about giving up to emphasize the extraordinary nature of her decision to continue, perhaps by saying 'Most people would stop, but Meagan did not.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9016,
+          "meaningbert": 0.6713
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:01:39.572378",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Meagan McGrath is from Canada.\nShe is an adventurer.\nShe always wants to do new and big challenges.\nShe climbed the highest mountain on every continent.\nShe rode a bike across Canada.\nShe ran a long race in the Sahara Desert.\nThe Sahara Desert is a very hot place.\nIt was 45 degrees hot there.\n\nBut her trip to the South Pole was her most amazing trip.\nShe went there on skis.\nThe South Pole has a lot of ice.\n\nOn the first day, she fell.\nShe fell into a glacier.\nA glacier is a very big river of ice.\nSomeone had to help her.\n\nMost people would stop then.\nBut Meagan did not stop.\nShe reached the South Pole 40 days later.\nShe pulled a sledge on the ice.\nHer tent and all her food were on this sledge.\nThe weather was very cold.\nThere were bad ice storms.",
+      "timestamp": "2025-09-01 17:01:39.572822",
+      "metadata": {
+        "text_id": "7c2d92de-58f2-4027-89c8-c40f773577c0",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:02:04.026077",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1f39f9f3-1b14-4212-be5e-fd9c53e03020",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning and Fidelity Failure. The text failed to preserve the core meaning and lexical fidelity of the original. The MeaningBERT score of 0.6439 is significantly below the required 0.75. The original text emphasizes Meagan's character as an adventurer who is 'not content with one amazing trip' and constantly goes 'from challenge to challenge'. Your version simplifies this to 'She always wants to do new and big challenges', which loses the specific nuance of her continuous, insatiable pursuit of challenges. The BERTScore of 0.8996 is also below the required 0.90. This indicates a loss of key lexical details. For example, the specific phrasing 'Not content with one amazing trip, some of today's adventurers go from challenge to challenge' was not adequately rephrased to maintain its full lexical and semantic weight. While the CEFR classifier correctly identified the text as A2, this does not compensate for the loss of meaning and fidelity. Suggestion: Rephrase the opening to more accurately reflect Meagan's continuous and unsatisfied drive for new challenges. Ensure that key phrases, even when simplified, retain their core lexical information.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8996,
+          "meaningbert": 0.6439
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:02:14.117663",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Meagan McGrath is from Canada.\nShe is an adventurer.\nShe likes to do many hard things.\nShe does not stop after one trip.\nShe always wants a new challenge.\nShe climbed the highest mountain on every continent.\nShe rode a bike across Canada.\nShe ran a long race in the Sahara Desert.\nThe Sahara Desert is a very hot place.\nIt was 45 degrees hot there.\n\nBut her trip to the South Pole was her most amazing trip.\nShe went there on skis.\nThe South Pole has a lot of ice.\n\nOn the first day, she fell.\nShe fell into a glacier.\nA glacier is a very big river of ice.\nSomeone had to help her.\n\nMost people would stop then.\nBut Meagan did not stop.\nShe reached the South Pole 40 days later.\nShe pulled a sledge on the ice.\nHer tent and all her food were on this sledge.\nThe weather was very cold.\nThere were bad ice storms.",
+      "timestamp": "2025-09-01 17:02:14.121440",
+      "metadata": {
+        "text_id": "56005ba5-5810-47fd-ac3e-80a694608af1",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:02:33.966823",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9a29ced3-6a78-47c0-b51c-370a372d4dd7",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6313 is significantly below the required 0.75. The text fails to fully capture the original's emphasis on Meagan's continuous drive for extreme challenges and the truly remarkable nature of her journeys. The original conveys a strong sense of overcoming significant obstacles, which is diluted in the simplified version. For example, 'Not content with one amazing trip, some of today's adventurers go from challenge to challenge' is reduced to 'She does not stop after one trip. She always wants a new challenge,' losing the nuance and impact. The BERTScore of 0.8983 is also below the required 0.90, indicating a loss of lexical fidelity. Key phrases like 'long-distance race' were simplified to 'long race,' and 'had to be rescued' became 'Someone had to help her,' losing specific detail. The active participle 'having pulled a sledge' was also lost in the simplification. Suggestion: Rephrase the introduction to convey the intensity of Meagan's continuous challenges more effectively, even with A2 vocabulary. Suggestion: Ensure that the 'remarkable' quality of her journeys is preserved by focusing on the difficulty and her perseverance. Suggestion: Retain more specific vocabulary from the original where appropriate, or find A2 equivalents that maintain closer lexical fidelity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8983,
+          "meaningbert": 0.6313
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:02:49.656899",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Meagan McGrath is from Canada.\nShe is an adventurer.\nShe likes very hard trips.\nShe always wants a new challenge.\nShe climbed the highest mountain on every continent.\nShe rode a bike across Canada.\nShe ran a very long race in the Sahara Desert.\nThe Sahara Desert is a very hot place.\nIt was 45 degrees hot there.\n\nBut her trip to the South Pole was very special.\nShe went there on skis.\nThe South Pole has a lot of ice.\n\nOn the first day, she fell.\nShe fell into a glacier.\nA glacier is a very big river of ice.\nSomeone had to rescue her.\n\nMost people would stop then.\nBut Meagan did not stop.\nShe decided to go on.\nShe pulled a sledge.\nHer tent and all her food were on this sledge.\nShe pulled it through very cold weather.\nThere were bad ice storms.\nShe reached the South Pole 40 days later.",
+      "timestamp": "2025-09-01 17:02:49.658812",
+      "metadata": {
+        "text_id": "3829f463-921f-4a4c-ad49-46c3e13fa04a",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:03:08.861276",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4d7cf67e-1bbb-4f4a-9052-177b67814e3a",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6561 is significantly below the required 0.75. This indicates a failure to preserve the core message and the spirit of the original text. While the BERTScore of 0.9009 meets the minimum, the deeper meaning is lost. The text lists Meagan's achievements but fails to convey the original's emphasis on her extraordinary drive and the comparative 'most remarkable' nature of her South Pole journey. For example, the original's 'Not content with one amazing trip, some of today's adventurers go from challenge to challenge' is reduced to 'She always wants a new challenge', which loses the nuance of continuous, escalating ambition. Similarly, 'perhaps her most remarkable journey' is simplified to 'very special', which diminishes the superlative and comparative emphasis of the original. Suggestion: Rephrase to capture the essence of Meagan's relentless pursuit of challenges and the exceptional, comparative nature of her South Pole trip. Ensure the language conveys the 'why' behind her actions, not just the 'what'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9009,
+          "meaningbert": 0.6561
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:03:31.556954",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Meagan McGrath is from Canada.\nShe is an adventurer.\nShe does many hard trips.\nShe finishes one trip, then she wants to do another hard trip.\nShe climbed the highest mountain on every continent.\nShe rode a bike across Canada.\nShe ran a very long race in the Sahara Desert.\nThe Sahara Desert is a very hot place.\nIt was 45 degrees hot there.\n\nBut her trip to the South Pole was her most special trip.\nShe went there on skis.\nThe South Pole has a lot of ice.\n\nOn the first day, she fell.\nShe fell into a glacier.\nA glacier is a very big river of ice.\nSomeone had to rescue her.\n\nMost people would stop then.\nBut Meagan did not stop.\nShe decided to go on.\nShe pulled a sledge.\nHer tent and all her food were on this sledge.\nShe pulled it through very cold weather.\nThere were bad ice storms.\nShe reached the South Pole 40 days later.",
+      "timestamp": "2025-09-01 17:03:31.557470",
+      "metadata": {
+        "text_id": "9b01a609-0860-4344-a573-7497c28f675c",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:03:51.831603",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e27117a5-5632-48f7-984d-901730b5f86c",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure and Fidelity Failure. The MeaningBERT score of 0.61 is too low; the required threshold is 0.75. The core message regarding Meagan's exceptional drive and the 'remarkable' nature of her journey is significantly diluted. For instance, the original 'Not content with one amazing trip, some of today's adventurers go from challenge to challenge' is simplified to 'She finishes one trip, then she wants to do another hard trip', which loses the nuance of 'content' and 'challenge'. The phrase 'perhaps her most remarkable journey' is reduced to 'her most special trip', diminishing the impact of 'remarkable'. The BERTScore of 0.8993 is also below the required 0.90, indicating a loss of key lexical detail. Terms like 'long-distance race' were simplified to 'very long race', and 'freezing conditions' became 'very cold weather', which, while simpler, sacrifices precision and lexical fidelity. Suggestion: Rephrase sentences to more accurately capture the original meaning and specific vocabulary while maintaining A2 simplicity. Ensure that the exceptional nature of her achievements and the specific conditions are conveyed more effectively with appropriate A2 vocabulary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8993,
+          "meaningbert": 0.6123
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:04:03.776507",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Meagan McGrath is from Canada.\nShe is an adventurer.\nShe does not stop after one trip.\nShe always wants a new challenge.\nShe climbed the highest mountain on every continent.\nShe rode a bike across Canada.\nShe ran a long-distance race in the Sahara Desert.\nThe Sahara Desert is a very hot place.\nIt was 45 degrees hot there.\n\nBut her trip to the South Pole was her most amazing trip.\nShe went there on skis.\nThe South Pole has a lot of ice.\n\nOn the first day, she fell.\nShe fell into a glacier.\nA glacier is a very big river of ice.\nSomeone had to rescue her.\n\nMost people would stop then.\nBut Meagan did not stop.\nShe decided to go on.\nShe pulled a sledge.\nHer tent and all her food were on this sledge.\nShe pulled it through freezing cold.\nThere were bad ice storms.\nShe reached the South Pole 40 days later.",
+      "timestamp": "2025-09-01 17:04:03.777278",
+      "metadata": {
+        "text_id": "916ad7e5-7f9c-499e-8e31-fc15aeda65ef",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:04:34.873829",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "037bdfd9-0b3f-47e8-9220-3f66e11d96ae",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6505 is below the required 0.75. While all facts are present, the extreme fragmentation into 25 short sentences from an original 6 sentences dilutes the narrative's impact and the emphasis on Meagan's extraordinary resilience and the 'remarkable' nature of her achievements. The original text conveys a sense of awe and the exceptional nature of her feats, which is lost in the simplified, factual listing. For example, the original's 'Not content with one amazing trip, some of today's adventurers go from challenge to challenge' loses its narrative force when broken into 'She does not stop after one trip. She always wants a new challenge.' Additionally, the text contains several vocabulary items above the A2 level. The word 'adventurer' is B1. The word 'challenge' is B1. The word 'pole' (in 'South Pole') is C1. The word 'rescue' is B1. The word 'sledge' is above A2 level. The word 'freezing' is B1. Suggestion: Rephrase to maintain the narrative's impact and the sense of Meagan's exceptional character, even with simple A2 vocabulary. Combine some short sentences to create a slightly more flowing text without increasing grammatical complexity. Replace all B1/C1 vocabulary with A2 equivalents or simpler descriptive phrases. For example, replace 'adventurer' with 'person who likes hard trips', 'challenge' with 'hard thing to do', 'rescue' with 'help her', 'sledge' with 'a thing she pulled', and 'freezing' with 'very, very cold'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9048,
+          "meaningbert": 0.6505
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:04:49.210411",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Meagan McGrath is from Canada.\nShe likes hard trips.\nShe always wants to do a new hard thing, not just one.\nShe climbed the highest mountain on every continent.\nShe rode a bike across Canada.\nShe ran a long-distance race in the Sahara Desert.\nThis desert is a very hot place.\nIt was 45 degrees hot there.\n\nBut her trip to the South Pole was her most amazing trip.\nShe went there on skis.\nThe South Pole has a lot of ice.\n\nOn the first day, she fell into a glacier.\nA glacier is a very big river of ice.\nSomeone had to help her.\n\nMost people would stop then.\nBut Meagan did not stop.\nShe decided to go on.\n\nShe pulled a thing behind her.\nIt had her tent and all her food.\nShe pulled it through very, very cold.\nThere were bad ice storms.\nShe reached the South Pole 40 days later.",
+      "timestamp": "2025-09-01 17:04:49.213101",
+      "metadata": {
+        "text_id": "7ad250e3-59b0-48a4-812c-d838dcc105bb",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:05:14.614294",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "fcf168df-57ec-41a6-b060-eb6867b509aa",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation and Fidelity Failure. The MeaningBERT score of 0.6308 is significantly below the required 0.75, indicating a loss of the core message. The BERTScore of 0.8984 is also below the required 0.90, showing a significant loss of key words and factual phrasing from the original text. The CEFR classifier correctly identified the output as A2, but this does not compensate for the fundamental failures in meaning and fidelity. The original text emphasizes the continuous, challenging nature of Meagan McGrath's adventures, stating 'Not content with one amazing trip, some of today's adventurers go from challenge to challenge.' Your version simplifies this to 'She likes hard trips. She always wants to do a new hard thing, not just one,' which dilutes the meaning of dedicated adventuring and the concept of 'challenge.' Lexical fidelity is also compromised. Key terms like 'adventurers,' 'challenge,' 'remarkable,' 'rescued,' 'sledge,' and 'freezing conditions' were either omitted or replaced with less precise A2 equivalents. For example, 'sledge' was replaced with 'a thing,' and 'rescued' with 'someone had to help her.' While simplification is necessary for A2, the chosen replacements led to a significant loss of specific detail and the overall impact of the narrative. Suggestion: Rephrase the opening to better convey the idea of continuous, difficult adventures. For example, 'Meagan likes to do many hard trips, not just one. She always wants a new challenge.' Reintroduce specific vocabulary where possible by defining it simply, such as 'sledge' as 'a special thing she pulled on the ice' or 'rescued' as 'someone saved her life.' Ensure that the essence of the original's descriptive language is maintained through careful A2-level rephrasing.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8984,
+          "meaningbert": 0.6308
+        }
+      }
+    }
+  ]
+}

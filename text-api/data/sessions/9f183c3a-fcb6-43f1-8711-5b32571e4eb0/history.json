@@ -1,0 +1,154 @@
+{
+  "session_id": "9f183c3a-fcb6-43f1-8711-5b32571e4eb0",
+  "created_at": "2025-09-01 17:00:41.971881",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:00:41.991030",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "57-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Os G\u00eameos are twin brothers. They are from S\u00e3o Paulo.\nThey paint many things. They paint tags. They also paint very big pictures.\nThese pictures are of people. They have many colours. They paint on buildings.\nTheir pictures are often very big. So they need cranes. Cranes help them paint.\nIn 2007, they painted a castle. It was in Scotland. They painted all of it.",
+      "timestamp": "2025-09-01 17:00:41.991171",
+      "metadata": {
+        "text_id": "9b36fa9c-2577-4bda-8a22-3063d389f5a3",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:00:41.997561",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "fbc548c1-0d7d-4069-8007-42cd4d60c433",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Deviation. The text contains a word that is not compliant with the A2 CEFR vocabulary standard. The word 'tags' (referring to graffiti) is generally considered to be B1 or higher. An A2 learner would likely not understand this specific term without context or definition. The task requires strict adherence to A2 vocabulary. While the MeaningBERT score (0.7817), BERTScore (0.93), and CEFR classifier result (A2) are acceptable, a single non-A2 word constitutes a failure in a rigorous audit. All other aspects, including factual integrity and sentence structure, are compliant. Suggestion: Replace 'tags' with a simpler A2 phrase, such as 'small drawings' or 'names written quickly', or provide a simple A2 definition.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.93,
+          "meaningbert": 0.7817
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:00:45.648672",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Os G\u00eameos are twin brothers. They are from S\u00e3o Paulo.\nThey paint many things. They paint small drawings. They also paint very big pictures.\nThese pictures are of people. They have many colours. They paint on buildings.\nTheir pictures are often very big. So they need cranes. Cranes help them paint.\nIn 2007, they painted a castle. It was in Scotland. They painted all of it.",
+      "timestamp": "2025-09-01 17:00:45.648862",
+      "metadata": {
+        "text_id": "7f5f3242-f0ef-432e-a142-4bb902dc3ae0",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:00:59.601427",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e827d425-78f1-435c-833c-268aba4603fe",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7414 is below the required threshold of 0.75. While close, the strict adherence to the standard means this is a failure.\n\nSpecific deviations:\n- The MeaningBERT score of 0.7414 indicates a slight loss of the original text's core message or nuance. The original text specified 'identical twin brothers' and 'paint everything from tags to huge, colourful pictures'. Your version omits 'identical' and simplifies 'everything from tags' to 'small drawings', which, while an A2 simplification, slightly reduces the fidelity of the original's specific examples and comprehensive scope.\n\nSuggestion: Ensure all key descriptive adjectives and specific examples, even when simplified, retain their original intent. Consider rephrasing to more closely reflect the range of their work, for example, 'They paint many kinds of art, from small street drawings to very big pictures.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9249,
+          "meaningbert": 0.7414
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:01:10.252157",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Os G\u00eameos are identical twin brothers. They are from S\u00e3o Paulo.\nThey paint many kinds of art. They paint small street drawings. They also paint very big pictures of people. These pictures have many colours. They paint on buildings.\nTheir pictures are often very big. So they need cranes. Cranes help them paint.\nIn 2007, they painted a castle. It was in Scotland. They painted all of it.",
+      "timestamp": "2025-09-01 17:01:10.252480",
+      "metadata": {
+        "text_id": "bc1da0af-0745-4b29-988e-544d092c89d3",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-09-01 17:01:22.615813",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d0d3213c-7c97-41b4-b70c-ec571f4581d1",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Deviation. The text contains a word above the A2 CEFR level. The word 'identical' is classified as B2, but it is used in the sentence 'Os G\u00eameos are identical twin brothers.' This word is too complex for an A2 audience. Suggestion: Replace 'identical' with simpler A2 vocabulary, such as 'same' or 'very similar'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9279,
+          "meaningbert": 0.7645
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:01:27.901905",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Os G\u00eameos are twin brothers. They look the same. They are from S\u00e3o Paulo.\nThey paint many kinds of art. They paint small street drawings. They also paint very big pictures of people. These pictures have many colours. They paint on buildings.\nTheir pictures are often very big. So they need cranes. Cranes help them paint.\nIn 2007, they painted a castle. It was in Scotland. They painted all of it.",
+      "timestamp": "2025-09-01 17:01:27.902167",
+      "metadata": {
+        "text_id": "487b8687-ef6a-45e8-b2ed-5b9489246fe0",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-09-01 17:01:39.571669",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4023db88-4181-4ff8-8e6d-1e2233bd2480",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "PASS: All diagnostic checks passed. The text accurately reflects the original content while adhering strictly to A2 linguistic standards. Factual integrity is maintained. MeaningBERT score of 0.8139 and BERTScore of 0.9257 both meet the required thresholds, indicating excellent preservation of meaning and lexical fidelity. The CEFR classifier correctly identified the text as A2. The vocabulary used is appropriate for A2, with no unapproved B1/B2 words detected. Sentence structures are consistently short and simple, utilizing A2-level connectors such as 'so' and 'also'. This is a well-executed A2 simplification.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9257,
+          "meaningbert": 0.8139
+        }
+      }
+    }
+  ]
+}

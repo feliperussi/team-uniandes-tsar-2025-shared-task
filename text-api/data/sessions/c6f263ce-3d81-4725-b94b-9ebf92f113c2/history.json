@@ -1,0 +1,228 @@
+{
+  "session_id": "c6f263ce-3d81-4725-b94b-9ebf92f113c2",
+  "created_at": "2025-09-01 10:37:41.261332",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:37:41.266016",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "84-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The sharing economy is a new idea. People can share things they own with other people. They can make money from this.\n\nBusinesses know they can make money from the sharing economy. They want to use things that people do not use all the time. A new business idea is very popular. Companies make a website or an app. This website connects customers with people who can sell a product or a service.\n\nFor example, Airbnb helps people make money. They can use their empty rooms and houses. Other people can pay to stay in them.\n\nUber is another example. It tells people to use their own cars like taxis. They can make extra money when they have free time.",
+      "timestamp": "2025-09-01 10:37:41.266267",
+      "metadata": {
+        "text_id": "0e005a1c-fca1-4039-a5b7-35cdb623b004",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:37:41.273983",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f5b79553-bb69-4928-b9a7-ef5aa301fa90",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.892 is below the required 0.90 threshold. This indicates that while the general meaning was preserved, too much specific vocabulary and phrasing from the original text was lost during the simplification process.\n\n- Lexical Loss: The simplification of key terms was too aggressive, causing the fidelity score to drop. The phrase 'lucrative accommodation' was reduced to 'pay to stay in them', completely removing the concept of 'accommodation'. The term 'underutilised resources' became 'things that people do not use all the time', which is overly general and loses precision.\n- Meaning Preservation (Marginal Pass): The MeaningBERT score of 0.7633 is barely above the 0.75 minimum. This confirms that the core message is at risk due to the excessive simplification.\n\nSuggestion: Restore key A2-level concepts to improve fidelity. Rephrase the sentence about Airbnb to include the word 'accommodation' or a simple equivalent like 'a place to stay'. The goal is to simplify, not to eliminate core nouns. Revise to: 'Other people can pay for this accommodation.' This maintains A2 compliance while improving the BERTScore.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.892,
+          "meaningbert": 0.7633
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:38:00.741022",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The sharing economy is a new idea. People can share things they own with other people. They can make money from this.\n\nBusinesses know they can make money from the sharing economy. They want to use things that people own but do not always use. A new business idea is very popular. Companies make a website or an app. This website connects customers with people who can sell a product or a service.\n\nFor example, Airbnb helps people make money. They can use their empty rooms and houses. Other people can pay for this accommodation.\n\nUber is another example. It tells people to use their own cars like taxis. They can make extra money when they have free time.",
+      "timestamp": "2025-09-01 10:38:00.742278",
+      "metadata": {
+        "text_id": "361f7ad0-a1e0-4300-961a-a51a01e32fc7",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:38:24.227356",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "101e5fd3-c447-4ae0-9fb7-9fda1aa74921",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The primary failure is the B1 classification from the CEFR tool, which is an immediate disqualification. The text is too complex for the A2 standard. This is corroborated by a secondary failure in lexical fidelity.\n\n- CEFR Classification Failure: The text was classified as B1. The target is A2. This is a critical error.\n- B1 Vocabulary Violation: The text uses the word 'accommodation'. This is a B1-level word and is not permitted. It must be replaced with a simpler A2 phrase like 'a place to stay'.\n- B1 Vocabulary Violation: The text uses the word 'economy'. While part of a keyword, the keyword 'sharing economy' was not defined in simple A2 terms as required. The text fails to explain the concept simply.\n- Fidelity Failure: The BERTScore of 0.893 is below the required 0.90 threshold. This indicates an unacceptable loss of key phrasing from the original text during simplification.\n\nSuggestion: Replace 'accommodation' with 'a place to stay'. Rephrase the opening to define 'sharing economy' using only A2 vocabulary. Do not use words outside the A2 list.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.893,
+          "meaningbert": 0.76
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:38:38.060520",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The sharing economy is a way to make money. People share things they own but do not always use. Other people pay to use these things.\n\nBusinesses know they can make money from this. A new business idea is very popular. Companies make a website or an app. This website helps customers find people who can sell a product or a service.\n\nFor example, Airbnb helps people make money. They can use their empty rooms and houses. Other people can pay for a place to stay.\n\nUber is another example. It tells people to use their own cars like taxis. They can make extra money when they have free time.",
+      "timestamp": "2025-09-01 10:38:38.061838",
+      "metadata": {
+        "text_id": "b9fae464-884a-4544-872e-b6e715cbb9a1",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 10:38:57.502637",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "49cb3f46-bc62-44c4-84a7-2a09b5e9cf99",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7086 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text. The BERTScore of 0.8922 is also below the 0.90 minimum, confirming a loss of key lexical detail.\n\n- The original text states businesses are making use of 'underutilised resources'. Your version separates the concepts of 'people share things' and 'businesses make money', losing the direct causal link that businesses profit from the sharing itself.\n- The concept of a company acting as a 'middleman' is completely lost. Your text says a website 'helps customers find people', which is too generic and fails to capture the specific business model.\n- The original text emphasizes that this is 'lucrative' accommodation. Your version, 'pay for a place to stay', removes the important concept of profitability, which was a key point.\n\nSuggestion: The text must be rewritten to restore the core concepts. State clearly that businesses create platforms for people to share their own unused things for money. The role of the company as a connector or 'middleman' must be explicitly included. The idea that this is a profitable activity for the owners must be restored.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8922,
+          "meaningbert": 0.7086
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:39:14.783255",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The sharing economy is a way to make money. People share things they own but do not always use. Other people pay to use these things.\n\nBusinesses know they can make money from this. A new business idea is very popular. Companies make a website or an app. This platform connects people who have something with people who want to use it.\n\nFor example, Airbnb is a company like this. It connects people with empty rooms to people who need a place to stay. The owners can make a lot of money from their empty rooms and houses.\n\nUber is another example. It tells people to use their own cars like taxis. They can make extra money when they have free time.",
+      "timestamp": "2025-09-01 10:39:14.784072",
+      "metadata": {
+        "text_id": "b93b4f92-c624-4ab8-a9f6-9c71e91ce56e",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 10:39:37.815596",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "49402caf-2411-4501-af7b-812578e6a271",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for failure is the MeaningBERT score of 0.678, which is significantly below the required 0.75 threshold. This indicates a critical loss of the original text's core message.\n\n- MeaningBERT Failure: The original text emphasizes the business perspective, using terms like 'profitability' and 'business model'. Your output oversimplifies this to 'make money', losing the specific concept of how companies are strategically using the sharing economy. The core idea is not just that people make money, but that businesses have created a new model to profit from it.\n\n- Fidelity Failure: The BERTScore of 0.8858 is below the minimum of 0.90. This is a direct result of removing key vocabulary. Words like 'profitability', 'underutilised resources', and 'lucrative accommodation' were deleted instead of being simplified. This damages the text's fidelity to the source.\n\n- Vocabulary Violation: The B1 term 'economy' was used in the phrase 'sharing economy'. While this was a designated keyword, no definition was provided in the output, making it an unsimplified B1 term.\n\nSuggestion: You must restore the lost meaning. Re-introduce the idea that this is a 'business model'. Explain that companies create platforms to act as a 'middleman'. The text must convey that businesses see this as a profitable opportunity, not just that individuals can earn money.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8858,
+          "meaningbert": 0.678
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:39:53.248993",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The sharing economy is a business idea. People can make money from things they own but do not always use. Businesses know this is a good way to make money.\n\nA new business model is now very popular. Companies create an online platform. This is a website or an app. The platform acts as a middleman. It connects people who have something with people who want to use it.\n\nFor example, Airbnb is a company like this. It connects people with empty rooms to people who need a place to stay. The owners can make a lot of money from their unused rooms.\n\nUber is another example. It encourages people to use their own cars like taxis. They can make extra money when they have free time.",
+      "timestamp": "2025-09-01 10:39:53.249491",
+      "metadata": {
+        "text_id": "1b90ccb8-c3c7-4056-8509-565132a92fd0",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:40:23.544189",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1339c416-3660-4c3f-a14a-4bfeebd3e620",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8922 is below the required 0.90 threshold. This indicates a loss of key factual phrasing from the original text.\n\n- Primary Deviation: The BERTScore is too low. The simplification of phrases like 'puts customers in contact with those who can provide a particular product or service' to 'connects people who have something with people who want to use it' loses important lexical detail and specificity.\n- Vocabulary Violation: The word 'encourages' is a B1 level verb. It is too complex for the A2 standard and must be replaced.\n- Vocabulary Violation: The word 'middleman' is B1/B2 level. Using this word is a deviation from the A2 lexicon.\n\nSuggestion: Rephrase to restore lexical fidelity. Instead of 'people who have something', use a phrase like 'people who offer a room or a service'. Replace 'encourages' with a simpler A2 verb like 'helps'. Replace 'middleman' with a descriptive phrase like 'The platform works between the owners and the users'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8922,
+          "meaningbert": 0.821
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 10:40:39.088597",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The sharing economy is a business idea. People can make money from things they own but do not always use. Businesses know this is a good way to make money.\n\nA new business model is now very popular. Companies create an online platform. This is a website or an app. The platform works between two groups of people. It connects people who offer a product or a service with people who want to use them.\n\nFor example, Airbnb is a company like this. It connects people with empty rooms to people who need a place to stay. The owners can make a lot of money from their unused rooms.\n\nUber is another example. It helps people to use their own cars like taxis. They can make extra money when they have free time.",
+      "timestamp": "2025-09-01 10:40:39.089046",
+      "metadata": {
+        "text_id": "38da157c-b9d9-4a80-98aa-fd846aaca06f",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:41:09.432195",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "71bc542e-d2f7-4d16-afe4-cdd056311467",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8872 is below the required 0.90 threshold. This indicates a significant loss of key words and factual phrasing from the original text, even though the general meaning was preserved.\n\n- The text oversimplifies key concepts, losing important lexical detail required for an accurate A2 summary.\n- The phrase 'lucrative accommodation' was reduced to 'a place to stay'. This loses the critical concepts of profitability and the type of service.\n- The term 'underutilised resources' was reduced to 'things they own but do not always use'. This is too general and loses the specific business concept.\n- The concept of a company acting as a 'middleman' was lost when rephrased as 'works between two groups of people'.\n- The phrase 'caught on to the profitability' was simplified to 'know this is a good way to make money', losing the specific meaning of 'profitability'.\n\nSuggestion: Re-write the text to restore the lost concepts using simple A2 vocabulary. Do not remove essential details. For example, instead of 'a place to stay', specify 'a room or house to stay in'. Retain the idea that this is a way to make 'a lot of money', not just 'extra money'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8872,
+          "meaningbert": 0.7642
+        }
+      }
+    }
+  ]
+}

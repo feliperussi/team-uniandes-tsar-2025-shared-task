@@ -1,0 +1,228 @@
+{
+  "session_id": "f8608703-f0a2-45c1-902c-92f978b76290",
+  "created_at": "2025-09-01 01:07:54.625718",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:07:54.634529",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "07-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: \"Life of Pi\" is a book. It tells a very interesting story. The story is about a boy from India. His name is Pi. His boat sinks in the Pacific Ocean. He is on a small boat with a dangerous tiger. He cannot leave.\n\nA writer from Canada wrote the book. His name is Yann Martel. This was his third book. It came out in 2001.\n\nAfter that, the book sold more than seven million copies. People all over the world bought it. The book also won many prizes. You can read it in 41 languages.\n\nMartel's father had an important job for his country. So, when Martel was a child, he lived in many places. He lived in Costa Rica, Canada, France and Mexico.",
+      "timestamp": "2025-09-01 01:07:54.635443",
+      "metadata": {
+        "text_id": "a2170113-fa75-4601-83ce-5612283ab049",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 01:07:54.644376",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b38d6e43-1a23-4102-a8c1-43936667e0df",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6557 is significantly below the required 0.75 threshold. This is an instant failure.\n\n- Primary Deviation: The simplification process has removed the core emotional meaning of the original text. While factually correct, the text is semantically weak.\n- Evidence: The original text describes an 'extraordinary' story about a boy who is 'trapped' with a 'ferocious' tiger. Your version reduces this to a 'very interesting' story about a boy on a boat with a 'dangerous' tiger. This substitution loses the intensity, desperation, and uniqueness central to the original message.\n- Structural Analysis: The sentence structure and vocabulary are appropriate for the A2 level, and the text correctly passed the CEFR classifier as A2. The BERTScore of 0.9057 is also acceptable, indicating key factual terms were retained.\n- Conclusion: The text fails because it does not adequately preserve the meaning and tone of the source material, as confirmed by the low MeaningBERT score.\n- Suggestion: Restore the core meaning. The goal is simplification, not sanitization. Rephrase to convey the original's sense of danger and wonder. Use phrases like 'a special and surprising story' instead of 'a very interesting story'. Add a sentence to better explain the concept of being 'trapped', for example: 'He was stuck on the boat and could not get away.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9057,
+          "meaningbert": 0.6557
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:08:12.638357",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: \"Life of Pi\" is a book. It tells a special and surprising story. The story is about a boy from India. His name is Pi. His boat sinks in the Pacific Ocean. He is on a small boat with a dangerous tiger. He is stuck on the boat and cannot get away.\n\nA writer from Canada wrote the book. His name is Yann Martel. This was his third book. It came out in 2001.\n\nAfter that, the book sold more than seven million copies. People all over the world bought it. The book also won many prizes. You can read it in 41 languages.\n\nMartel's father had an important job for his country. So, when Martel was a child, he lived in many places. He lived in Costa Rica, Canada, France and Mexico.",
+      "timestamp": "2025-09-01 01:08:12.638543",
+      "metadata": {
+        "text_id": "4307ebd1-a661-48ea-9245-06f2ded0fa9a",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 01:08:37.548744",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4363025a-c1d7-4745-a2d7-0625ebcc3555",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6747 is significantly below the required threshold of 0.75. This indicates a failure to preserve the core message of the original text.\n\n*   The original text describes the story as 'extraordinary'. Your replacement, 'special and surprising', does not carry the same weight. 'Extraordinary' means very unusual and difficult to believe, which is central to the book's theme. Your version loses this critical element of wonder and disbelief.\n*   The original uses 'ferocious tiger'. Your replacement, 'dangerous tiger', is a simplification that loses meaning. 'Ferocious' describes a specific kind of wild, violent danger. 'Dangerous' is too general.\n*   The original states the book has been 'translated into 41 languages'. Your version, 'You can read it in 41 languages', changes the focus from a factual statement about the book's success to a direct instruction to the reader, altering the original's impersonal tone.\n\nSuggestion: The text must be re-written to restore the lost meaning. Focus on conveying the 'unbelievable' nature of the story using simple A2 vocabulary. For example, instead of 'special and surprising', use a phrase like 'a story that is very hard to believe'. Restore the factual, impersonal tone.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.904,
+          "meaningbert": 0.6747
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:08:57.326071",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: \"Life of Pi\" is a book. It tells a story that is very hard to believe. The story is about a boy from India. His name is Pi. His boat sinks in the Pacific Ocean. He is on a small boat with a very wild and angry tiger. He is stuck on the boat and cannot get away.\n\nA writer from Canada wrote the book. His name is Yann Martel. This was his third book. It came out in 2001.\n\nAfter that, the book sold more than seven million copies. People all over the world bought it. The book also won many prizes. The book is now in 41 languages.\n\nMartel's father had an important job for his country. So, when Martel was a child, he lived in many places. He lived in Costa Rica, Canada, France and Mexico.",
+      "timestamp": "2025-09-01 01:08:57.326548",
+      "metadata": {
+        "text_id": "e31040d8-9d69-450d-87fc-ba9efeed3dc9",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 01:09:23.366076",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e6eddc08-0d46-47d9-a4cb-d7e906e36338",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for failure is the MeaningBERT score of 0.69, which is significantly below the required threshold of 0.75. This indicates a critical loss of the original text's core meaning, even though the facts are technically correct.\n\n- Meaning Deviation 1: The original text describes the story as 'extraordinary'. Your version, 'a story that is very hard to believe', changes the meaning from 'amazing and special' to 'unbelievable and possibly untrue'. This is a significant semantic shift.\n\n- Meaning Deviation 2: The original text states Martel is the 'son of a diplomat'. Your simplification, 'father had an important job for his country', is too vague. It loses the specific meaning of a government official working in foreign countries, which is central to explaining why the family moved so much.\n\n- Structural Issue: The text is overly fragmented. While short sentences are required for A2, the constant use of one-clause sentences makes the text choppy and unnatural. For example: 'The story is about a boy from India. His name is Pi. His boat sinks...'\n\nSuggestion: Restore the original meaning. Replace 'hard to believe' with a simple positive adjective like 'amazing'. Rephrase the description of the father's job to be more specific, such as 'His father worked for the government in other countries'. Combine some of the very short, related sentences using simple connectors like 'and'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9034,
+          "meaningbert": 0.69
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:09:43.076251",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: \"Life of Pi\" is a book. It tells an amazing story. The story is about a boy from India named Pi. His boat sinks in the Pacific Ocean. He is stuck on a small boat with a very wild tiger.\n\nA writer from Canada named Yann Martel wrote the book. It was his third book and it came out in 2001.\n\nThe book sold more than seven million copies. It also won many prizes and is now in 41 languages.\n\nMartel's father worked for the government in other countries. So, when Martel was a child, he lived in many places. He lived in Costa Rica, Canada, France and Mexico.",
+      "timestamp": "2025-09-01 01:09:43.077823",
+      "metadata": {
+        "text_id": "09545dae-3ea3-4d87-95b5-a07c8a568937",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 01:10:02.999835",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "460bf8c9-1e2f-48e9-a4ee-a4e63209d74c",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7384 is below the required 0.75 threshold. This indicates a failure to preserve the core message of the original text. The original text uses the word \"extraordinary\" to describe the story. Your replacement, \"amazing,\" is a valid A2 word, but it does not fully capture the original's meaning of being highly unusual and remarkable. This subtle shift in meaning is the primary cause of the metric failure. While the text demonstrates good A2 simplification in other areas, this core metric failure is absolute. Suggestion: Rephrase to better capture the meaning of \"extraordinary.\" A phrase like \"a very strange story\" or \"a very special story\" would align more closely with the original's semantic intent.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9214,
+          "meaningbert": 0.7384
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:10:13.693986",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: \"Life of Pi\" is a book. It tells a very special story. The story is about a boy from India named Pi. His boat sinks in the Pacific Ocean. He is stuck on a small boat with a very wild tiger.\n\nA writer from Canada named Yann Martel wrote the book. It was his third book and it came out in 2001.\n\nThe book sold more than seven million copies. It also won many prizes and is now in 41 languages.\n\nMartel's father worked for the government in other countries. So, when Martel was a child, he lived in many places. He lived in Costa Rica, Canada, France and Mexico.",
+      "timestamp": "2025-09-01 01:10:13.696344",
+      "metadata": {
+        "text_id": "8580a585-e68f-4812-a529-4bdba464170b",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 01:10:36.944835",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "08fd4afd-c0a4-4e6b-b42b-125da9e2cc75",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. While the classifier returned 'A2', a manual audit reveals B1-level sentence complexity.\n\n- Structural Violation: The sentence 'So, when Martel was a child, he lived in many places' uses a subordinate time clause ('when Martel was a child'). This is a B1 grammatical structure and is not permitted at the A2 level. A2 texts must use simple and compound sentences connected only by 'and', 'but', 'so', or 'because'.\n\n- Metric Warning: The MeaningBERT score of 0.7437 is below the strict 0.75 threshold. This indicates a minor but detectable loss of the original text's nuance. The simplification was slightly too aggressive.\n\n- Suggestion: Deconstruct the complex sentence into two simple sentences. Remove the 'when' clause. Example: 'Martel's father had this job. So, Martel lived in many places as a child.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9207,
+          "meaningbert": 0.7437
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 01:10:55.559788",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: \"Life of Pi\" is a book. It tells a very special story. The story is about a boy from India named Pi. His boat sinks in the Pacific Ocean. He is stuck on a small boat with a very wild tiger.\n\nA writer from Canada named Yann Martel wrote the book. It was his third book and it came out in 2001.\n\nThe book sold more than seven million copies. It also won many prizes and is now in 41 languages.\n\nMartel's father worked for the government in other countries. So, Martel lived in many places as a child. He lived in Costa Rica, Canada, France and Mexico.",
+      "timestamp": "2025-09-01 01:10:55.560582",
+      "metadata": {
+        "text_id": "9bdb25fc-8b5e-4d29-8f63-9316d1072d68",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 01:11:19.000462",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5a5307f5-f45b-4db6-9e7e-115f9e77a4f6",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text successfully passes all stages of the diagnostic protocol.\n\nFactual Integrity: The output is factually identical to the original text. All names, numbers, and core concepts are correctly preserved.\n\nMetric Compliance: MeaningBERT (0.76) and BERTScore (0.92) are well above the required thresholds, confirming that the core meaning and key lexical items have been preserved with high fidelity.\n\nCEFR Compliance: The A2 classification is correct. The text avoids complex B1 structures and vocabulary entirely.\n\nQualitative Analysis: The vocabulary is strictly limited to A1 and A2 levels. The simplification of 'diplomat' to 'worked for the government' and 'ferocious' to 'very wild' are model examples of A2 writing. Sentence structures are short, clear, and use only basic A2 connectors ('and', 'so'). The text is an exemplary model of A2 simplification. No deviations were found.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9212,
+          "meaningbert": 0.7606
+        }
+      }
+    }
+  ]
+}

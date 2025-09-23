@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "c20fae6c-6bfe-48d5-a6ed-ae8e6ba131b2",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Sam squinted against the hot sun.  \nHe saw dust behind a car.  \nThe car went to the big house.  \nThe horses kicked.  \nThe horses flicked their tails at flies.  \nThe horses did not care.  \nTheir owner had not visited for ten months.  \nSam waited.  \nMr. Carter only came out when he had to.  \nSam stayed away from his boss.  \nThis was needed for his job.  \nMr. Carter wiped sweat from the back of his neck.  \nWet spots on his shirt looked like shapes in an atlas.  \nHis skin turned ruddy in the June sun.  \nHe also had a light colour on his skin.  \nHe made money.  \nOther people did the hard work.",
+    "version": 11,
+    "created_at": "2025-09-01 17:14:24.215875",
+    "updated_at": "2025-09-01 17:14:24.215878",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "f93c49b6-0895-46ae-bbfa-baf211e10168",
+    "approval": "FAIL",
+    "grade": 2,
+    "feedback": "FAIL: Meaning Preservation Failure. The text fails on two critical metrics. The MeaningBERT score of 0.6269 is substantially below the required 0.75 threshold. The BERTScore of 0.8746 is also below the 0.90 minimum. This indicates a severe loss of the original text's core message and lexical fidelity due to excessive simplification.\n\n- Meaning Loss: The text was broken down into so many short, disconnected sentences that the relationships between ideas were destroyed. The original's cause-and-effect statement, 'The more he kept out of his boss's way, the longer he'd have a job,' is not captured by the two separate, weak sentences: 'Sam stayed away from his boss. This was needed for his job.'\n\n- Nuance Loss: The description of Mr. Carter's 'indoor tan of a man that made money while other people did the work' implies a specific lifestyle. Your version, 'He also had a light colour on his skin. He made money. Other people did the hard work,' states facts but loses the crucial implication that connects them.\n\n- Structural Failure: While the goal is simple sentences, your output is a list of disjointed statements, not a coherent paragraph. This is not acceptable A2 writing; it is a failure of communication.\n\nSuggestion: Re-write the text. Use simple A2 connectors like 'and', 'so', and 'because' to link related ideas. Do not break every single clause into a new sentence. Focus on preserving the original meaning, not just listing the facts. The goal is simplification, not deconstruction.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8746,
+      "meaningbert": 0.6269
+    },
+    "created_at": "2025-09-01 17:14:49.135337"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "c20fae6c-6bfe-48d5-a6ed-ae8e6ba131b2",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Sam squinted against the hot sun.  \nHe saw dust behind a car.  \nThe car went to the big house.  \nThe horses kicked.  \nThe horses flicked their tails at flies.  \nThe horses did not care.  \nTheir owner had not visited for ten months.  \nSam waited.  \nMr. Carter only came out when he had to.  \nSam stayed away from his boss.  \nThis was needed for his job.  \nMr. Carter wiped sweat from the back of his neck.  \nWet spots on his shirt looked like shapes in an atlas.  \nHis skin turned ruddy in the June sun.  \nHe also had a light colour on his skin.  \nHe made money.  \nOther people did the hard work.",
+    "version": 11,
+    "created_at": "2025-09-01 17:14:24.215875",
+    "updated_at": "2025-09-01 17:14:24.215878",
+    "metrics_meaningbert": 0.6269,
+    "metrics_cefr_compliance": "A2"
+  }
+}

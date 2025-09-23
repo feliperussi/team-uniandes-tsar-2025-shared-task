@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "a3d330e5-dd1a-47b0-8a6e-e2d8c23e7d26",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "In the 1950s banana growers in the south had a big problem.  \nTheir bananas that made them the most money were the Gros Michel.  \nThe Gros Michel had thick skin and sweet taste.  \nIt was easy to move.  \nIt grew on many farms.  \nUnited Fruit was the main company in South America.  \nThe company copied shoots from plant stems instead of planting seeds.  \nIt grew the bananas close together.  \nThe Gros Michel plants were dying from a disease.  \nNow the same thing is happening with the Cavendish.",
+    "version": 11,
+    "created_at": "2025-09-01 17:34:35.210974",
+    "updated_at": "2025-09-01 17:34:35.210976",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "a62ae14a-0e64-4026-b79c-628a37b6b9cf",
+    "approval": "FAIL",
+    "grade": 1,
+    "feedback": "FAIL: Factual Inaccuracy. The writer's output contains information not present in or directly contradicting the original text. The original text specifies 'Central American commercial banana growers'. Your version states 'banana growers in the south', which is an unapproved and inaccurate simplification. Additionally, your text adds 'The Gros Michel plants were dying from a disease.' The original text does not state the cause of death was a disease; this is an unauthorized addition of information.\n\n- Meaning Preservation Failure: The MeaningBERT score of 0.6165 is catastrophically below the required 0.75 threshold. This indicates a severe loss of the original text's core message, caused by the factual inaccuracies and oversimplification.\n\n- Fidelity Failure: The BERTScore of 0.8776 is below the minimum 0.90. Key lexical details like 'Central American' were lost, causing this failure.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. The sentence 'Their bananas that made them the most money were the Gros Michel' uses a relative clause ('that made them...'), which is a B1-level grammatical structure. This sentence must be simplified.\n\n- Suggestion: Restore the precise location 'Central America'. Remove the sentence stating the cause was 'a disease'. Rephrase the complex sentence into two simple A2 sentences. Example: 'The Gros Michel bananas made them the most money.'",
+    "metrics": {
+      "cefr_compliance": "B1",
+      "bertscore": 0.8776,
+      "meaningbert": 0.6165
+    },
+    "created_at": "2025-09-01 17:35:15.334087"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "820fdece-adb9-4407-bccc-3cdccd46c82d",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Gros Michel is a type of banana.  \nIt was the most profitable banana.  \n\nCavendish is a type of banana that came after Gros Michel.  \n\nIn the 1950s, growers in Central America saw their best banana die.  \nNow the same thing is happening to Cavendish.  \n\nThe Gros Michel banana had fruit that was easy to move.  \nIt had thick skin and sweet taste.  \n\nThe plant ruled banana farms in Central America.  \n\nUnited Fruit was the biggest grower and seller in South America then.  \nThe company made many bananas in a fast and cheap way.  \n\nIt copied shoots from plant stems instead of planting seeds.  \nIt grew the bananas close together in fields.",
+    "version": 2,
+    "created_at": "2025-09-01 17:29:22.008192",
+    "updated_at": "2025-09-01 17:29:22.008198",
+    "metrics_meaningbert": 0.6518,
+    "metrics_cefr_compliance": "A2"
+  }
+}

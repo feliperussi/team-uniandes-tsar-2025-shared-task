@@ -1,0 +1,413 @@
+{
+  "session_id": "96285504-1c05-4ff9-a341-4fa6dc697730",
+  "created_at": "2025-09-01 17:06:40.962670",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:06:40.965053",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "23-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The book Wonder is RJ Palacio's first book.  \nShe wrote about it on her website.  \nShe says the idea came after she saw a girl.  \nThe girl had a different face on the street.  \nWonder is a very popular book in the USA.  \nIt won many awards.  \nMany schools use it to talk about bullying.  \nThey also talk about friends.  \nThey also talk about what it is like to be different.  \nPeople are making a movie.  \nMany people wait eagerly.  \nI also wait to see what RJ Palacio writes next.",
+      "timestamp": "2025-09-01 17:06:40.965198",
+      "metadata": {
+        "text_id": "eeb13e77-85ac-4623-9c93-edb198a9da4e",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:06:40.967029",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8ff0d144-7ff6-4d0a-b89e-521412173f6c",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8909 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\n- Lexical Fidelity Loss: Your simplification of key terms was too aggressive, causing the BERTScore to drop. 'Facial deformities' became 'a different face' and 'bestseller' became 'a very popular book'. While factually similar, the lexical connection to the source is too weak.\n- Vocabulary Violation: The word 'eagerly' is not A2 level vocabulary. It was copied directly from the source text instead of being simplified. The word 'making' is rated B2 and is unacceptable.\n- Structural Weakness: The text is excessively fragmented. The repetitive use of 'also' in consecutive sentences ('They also talk...', 'I also wait...') is poor A2 construction.\n\nSuggestion: Restore lexical fidelity by using more precise A2 words. Replace 'eagerly' with an A2 phrase like 'are very excited to see'. Replace 'making' with 'is coming soon'. Combine the fragmented sentences about 'bullying' and 'friends' using 'and'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8909,
+          "meaningbert": 0.8655
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:06:53.103210",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The book Wonder is RJ Palacio's first book.  \nShe wrote about it on her website.  \nShe says the idea came after she saw a girl.  \nThe girl had a different face on the street.  \nMany people read the book in the USA.  \nIt won many awards.  \nMany schools use it to talk about bullying, friends and being different.  \nA movie is coming soon.  \nMany people wait to see it.  \nI wait to see what RJ Palacio writes next.",
+      "timestamp": "2025-09-01 17:06:53.103447",
+      "metadata": {
+        "text_id": "032dc727-8de6-41c3-8051-6372d78c5471",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:07:31.765375",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "cd61d289-7e19-4b42-b9be-da49bb731f8a",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8926 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text.\n\n- Lexical Fidelity Loss: The phrase 'facial deformities' was replaced with 'a different face', and 'bestseller' was simplified to 'many people read'. These changes reduce lexical fidelity below the acceptable limit.\n- Meaning Shift: There is a factual shift in the final sentences. The original text states 'many, including me, are waiting eagerly to see what RJ Palacio writes next.' Your version, 'Many people wait to see it. I wait to see what RJ Palacio writes next,' incorrectly implies that many people are waiting for the movie, but only 'I' am waiting for the next book.\n- Structural Complexity: The final sentence, 'I wait to see what RJ Palacio writes next,' uses a 'what-clause'. This is a B1 grammatical structure and is too complex for the A2 standard.\n\nSuggestion: Restore the meaning about who is waiting for the next book. Rewrite the final sentence to remove the B1 structure. Example: 'Many people want to know what RJ Palacio will write next. I also want to know.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8926,
+          "meaningbert": 0.8642
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:07:46.402844",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The book Wonder is RJ Palacio's first book.  \nShe wrote about it on her website.  \nShe says the idea came after she saw a girl.  \nThe girl had facial deformities on the street.  \nWonder is a bestseller in the United States.  \nMany people read the book.  \nIt won many awards.  \nMany schools use it to talk about bullying, friends and being different.  \nA movie is coming soon.  \nMany people want to know what RJ Palacio will write next.  \nI also want to know.",
+      "timestamp": "2025-09-01 17:07:46.403103",
+      "metadata": {
+        "text_id": "ab0d90a5-fa01-4fd0-918e-4109a3e850df",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:08:16.147159",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "56248beb-b021-42ab-b5ff-ec6fa8cd92ff",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8994 is below the required 0.90. This indicates that key words and phrasing from the original text were lost during simplification, failing a priority check.\n\n- Critical Vocabulary Error: The phrase 'facial deformities' is C1 level and completely unacceptable for an A2 text. This must be rephrased using simple A2 words. Suggestion: Rephrase to 'The girl's face was very different.'\n- Unsimplified B1 Vocabulary: The word 'bestseller' is B1 level. It was used without explanation. Suggestion: Explain the term. Example: 'Wonder is a bestseller. This means many people buy it.'\n- Unsimplified B2 Vocabulary: The word 'being' is B2 level. It was used in the phrase 'being different'. Suggestion: Rephrase to 'what it is like to be different.'\n- Lexical Loss: The simplification from 'friendship' to 'friends' and 'film version' to 'movie' contributed to the low BERTScore. While 'movie' is simpler, the loss of fidelity caused the metric failure.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8994,
+          "meaningbert": 0.8631
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:08:26.063328",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The book Wonder is RJ Palacio's first book.  \nShe wrote about it on her website.  \nShe says the idea came after she saw a girl.  \nThe girl's face was very different.  \nWonder is a bestseller.  \nThis means many people buy it.  \nMany people read the book.  \nIt won many awards.  \nMany schools use it to talk about bullying and friendship.  \nThey also talk about what it is like to be different.  \nA film version is coming soon.  \nMany people want to know what RJ5 Palacio will write next.  \nI also want to know.",
+      "timestamp": "2025-09-01 17:08:26.063692",
+      "metadata": {
+        "text_id": "f2a0d2e5-31d2-46d5-9d1b-6f84fb957977",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:08:59.836185",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8f7735c4-510f-49c7-a854-d4aff6809df8",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The primary reason for failure is a critical error in factual integrity. The name 'RJ Palacio' is incorrectly written as 'RJ5 Palacio'. This is an automatic and non-negotiable failure.\n\nSecondary Failures:\n- Fidelity Failure: The BERTScore of 0.8815 is below the required 0.90. This indicates a significant loss of key information. Details such as the author being a 'New Yorker' and the book being a bestseller 'in the United States' were omitted, which is unacceptable.\n- Vocabulary Violation: The B1 words 'friendship' and 'version' were used without simplification. A2 text must not contain unsimplified B1 vocabulary. While 'bestseller' was correctly explained, the others were not.\n\nSuggestion: Proofread for factual errors before submission. Correct the name to 'RJ Palacio'. Re-integrate key details from the original text to meet the fidelity standard. Replace 'friendship' with a phrase like 'how to be a good friend'. Replace 'a film version' with 'a film of the book'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8815,
+          "meaningbert": 0.8617
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:09:16.242143",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The book Wonder is RJ Palacio's first book.  \nShe is a writer from New York.  \nShe wrote about it on her website.  \nShe says the idea came after she saw a girl.  \nThe girl had a very different face.  \nThe book is a bestseller in the United States.  \nThis means many people buy it.  \nMany people read the book.  \nIt won many awards.  \nMany schools use it to talk about bullying.  \nThey also use it to talk about being a good friend.  \nThey also talk about what it is like to be different.  \nA film of the book is coming soon.  \nMany people want to know what RJ Palacio will write next.  \nI also want to know.",
+      "timestamp": "2025-09-01 17:09:16.242537",
+      "metadata": {
+        "text_id": "ae7423e0-e48a-4f79-b79f-30292262ab21",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:09:47.401713",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d2b4d1e4-fc25-47c6-ad8c-f70fcc681601",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8803 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text due to oversimplification.\n\n- Lexical Loss: Key concepts were simplified to the point of losing fidelity. Replacing 'facial deformities' with 'a very different face' and 'waiting eagerly' with 'want to know' contributed to the low score.\n\n- Vocabulary Violation: The text uses the B1 word 'bestseller'. An A2 text must not use B1 vocabulary. The word should have been replaced entirely, not just explained.\n\n- Vocabulary Violation: The text uses the B2 word 'means' in the sentence 'This means many people buy it.' This is an unacceptable complexity for the A2 level.\n\n- Structural Violation: The text uses the B2 gerund 'being' in the phrase 'being a good friend'. This grammatical structure is too advanced for A2.\n\nSuggestion: Rephrase to improve fidelity and adhere to A2 vocabulary. Replace 'The book is a bestseller' with 'The book sold many copies'. Remove the word 'means'. Rephrase 'being a good friend' to 'how to be a good friend'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8803,
+          "meaningbert": 0.8526
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:10:00.784887",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The book Wonder is RJ Palacio's first book.  \nShe is a writer from New York.  \nShe wrote about it on her website.  \nShe says the idea came after she saw a girl with a different face.  \nThe book sold many copies in the United States.  \nMany people read the book.  \nIt won many awards.  \nMany schools use it to talk about bullying.  \nThey also use it to talk about how to be a good friend.  \nThey also talk about what it is like to be different.  \nA film of the book is coming soon.  \nMany people want to see what she writes next.  \nI also want to see it.",
+      "timestamp": "2025-09-01 17:10:00.785314",
+      "metadata": {
+        "text_id": "744b5561-964e-4eb0-89e6-f2fb9db74065",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:10:29.666604",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d5d2f06f-51a4-4e98-8bef-061ddbc6b776",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8881 is below the required 0.90 threshold. This is a critical failure in preserving the lexical content of the original text.\n\n- The primary reason for the low score is the systematic replacement of specific original words with overly simple equivalents. Key terms like 'novel', 'facial deformities', and 'bestseller' were replaced with 'book', 'different face', and 'sold many copies'. This cumulative loss of specific vocabulary resulted in the fidelity score dropping below the minimum standard.\n- The sentence structure is excessively fragmented. Breaking down the single original sentence 'Many schools are using it as a starting point for discussions about bullying, friendship and what it's like to be different' into three separate 'They also talk about...' sentences further reduces fidelity to the source text's structure.\n\nSuggestion: Revise the text to improve fidelity. Combine some of the short, repetitive sentences. For example, write 'Schools use it to talk about bullying, friendship, and being different.' This is a valid A2 structure that is closer to the original. While simplification is necessary for A2, it must not come at the cost of lexical fidelity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8881,
+          "meaningbert": 0.8478
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:10:43.357601",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The novel Wonder is RJ Palacio's first novel.  \nShe is a writer from New York.  \nShe wrote on her website.  \nShe said idea came after she saw a girl with facial deformities.  \nThe novel became a bestseller in the United States.  \nIt won several awards.  \nMany schools use it to talk about bullying, friendship, and being different.  \nA film of the book is coming soon.  \nMany people want to see what she writes next.  \nI also want to see it.",
+      "timestamp": "2025-09-01 17:10:43.358054",
+      "metadata": {
+        "text_id": "e85eeb1d-bca4-430b-a16a-e8eb94a00e7e",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:11:06.735337",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d78fd8f0-897f-4510-8308-2526eacc11e4",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Exceeds A2 Level. The text passed all metric checks but failed the qualitative audit due to the inclusion of words and structures above the A2 CEFR level. Adherence to the A2 vocabulary list is not optional.\n\n- B1 Vocabulary Violation: The word 'bestseller' is B1 level. It was copied directly from the source text without simplification. An A2 text cannot contain this word.\n- B1 Vocabulary Violation: The word 'friendship' is B1 level. This is a direct failure to simplify a core concept to the required A2 level.\n- B2 Structural Violation: The phrase 'being different' uses a gerund ('being') which is a B2 structure. This construction is too complex for an A2 reader.\n- Grammatical Error: The sentence 'She said idea came...' is grammatically incorrect. It is missing the article 'the' before 'idea'.\n\nSuggestion: Replace 'bestseller' with 'a very popular book' or 'a book that sold many copies'. Replace 'friendship' with 'how to be a good friend'. Rephrase 'being different' to 'what it is like to be different'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9038,
+          "meaningbert": 0.9412
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:11:19.327387",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: The book is RJ Palacio's first novel.  \nShe is a writer from New York.  \nShe wrote on her website.  \nShe said the idea came after she saw a girl with a face problem.  \nThe book sold many copies in the United States.  \nIt won several awards.  \nMany schools use it to talk about bullying.  \nThey also talk about how to be a good friend.  \nThey also talk about what it is like to be different.  \nA film of the book is coming soon.  \nMany people want to see what she writes next.  \nI also want to see it.",
+      "timestamp": "2025-09-01 17:11:19.328473",
+      "metadata": {
+        "text_id": "b7a74282-a427-4d85-b8f8-c9314360c876",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:11:39.064308",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "78bc320b-51dc-4a8d-9b21-75bd2cf12bd0",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The output omits the most critical fact from the original text: the name of the book, 'Wonder'. This is an immediate and non-negotiable failure.\n\n- Factual Deviation: The first sentence must identify the book. The original states 'Wonder is...'. Your output 'The book is...' is factually incomplete.\n- Fidelity Failure: The BERTScore of 0.8917 is below the required 0.90 threshold. This metric confirms that critical lexical information, specifically the book's title, was lost during simplification.\n- Meaning Dilution: The phrase 'facial deformities' was simplified to 'face problem'. This simplification is too vague and loses the specific meaning and impact of the original concept.\n\nSuggestion: The title of the subject must always be retained. Re-insert the name 'Wonder' into the first sentence. The phrase 'face problem' must be revised to better capture the original meaning, for example: 'a girl whose face was very different'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8917,
+          "meaningbert": 0.8609
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:11:52.134483",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Wonder is RJ Palacio's first novel.  \nShe is a writer from New York.  \nShe wrote on her website.  \nShe said idea came after she saw a girl with different face.  \nThe book sold many copies in the United States.  \nIt won several awards.  \nMany schools use it to talk about bullying.  \nThey also use it to talk about being a good friend.  \nThey also use it to talk about being different.  \nA film of the book is coming soon.  \nMany, many people want to see what she writes next.  \nI also want to see it.",
+      "timestamp": "2025-09-01 17:11:52.135079",
+      "metadata": {
+        "text_id": "a0b56b0f-7045-4e5a-81a5-457821254283",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:12:17.577631",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0b8b57ae-c960-407c-ad3a-ae3dec3cbcc7",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8871 is below the required 0.90. This indicates an unacceptable loss of specific words and factual phrasing from the original text. While the simplification effort is noted, it has sacrificed too much lexical detail.\n\n- Deviation: The original phrase 'seeing a girl with facial deformities on the street one day' was reduced to 'saw a girl with different face'. This simplification removed the key contextual detail 'on the street one day'.\n- Deviation: The original concept 'a starting point for discussions' was simplified to 'use it to talk about'. This loses the specific meaning of the book initiating the conversation.\n- Deviation: The original phrase 'waiting eagerly' was reduced to 'want to see'. This simplification loses the emotional intensity conveyed by 'eagerly'.\n- Deviation: The structure is excessively fragmented. The repetition of 'They also use it to talk about...' in three consecutive sentences is stylistically poor and demonstrates an inability to use basic A2 connectors like 'and'.\n\nSuggestion: Restore the lost factual details using simple language. Combine the list of topics using 'and' to create a more natural sentence structure. Example: 'Schools use it to talk about bullying, friendship, and being different.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8871,
+          "meaningbert": 0.8689
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:12:29.423199",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Wonder is RJ Palacio's first novel.  \nShe lives in New York.  \nShe said idea came after she saw a girl with facial deformities.  \nShe saw her on the street one day.  \nThe book sold many copies in the United States.  \nIt won several awards.  \nSchools use it as a starting point.  \nThey talk about bullying, friendship and being different.  \nA film of the book is coming soon.  \nMany people wait eagerly to see what she writes next.  \nI also wait eagerly.",
+      "timestamp": "2025-09-01 17:12:29.423926",
+      "metadata": {
+        "text_id": "b1f2f180-f5e8-4a29-8209-1b1a2c5ebcf1",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:12:57.141482",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "41202f80-0ded-4dc5-9b06-3c3910840472",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Qualitative Audit Failure. The text passed all automated checks but fails on manual inspection due to vocabulary and sentence structures that exceed the A2 standard.\n\n- Vocabulary Violation: The phrase \"facial deformities\" is unsimplified and is significantly above the A2 level. This is a critical failure. It requires specialized vocabulary that an A2 reader would not possess.\n- Vocabulary Violation: The adverb \"eagerly\" is B1 level. It must be replaced with a simpler A2 construction.\n- Structural Violation: The sentence \"Many people wait eagerly to see what she writes next\" uses a 'what-clause' as an object of the verb 'see'. This is a B1 grammatical structure.\n- Grammatical Error: The sentence \"She said idea came...\" is missing the required article 'the' before 'idea'.\n\nSuggestion: Rephrase \"a girl with facial deformities\" to \"a girl whose face looked very different\". Replace \"wait eagerly to see what she writes next\" with a simpler construction like \"are very excited for her next book\". Correct the grammatical error by adding 'the'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9016,
+          "meaningbert": 0.8668
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:13:13.284609",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Wonder is RJ Palacio's first novel.  \nShe lives in New York.  \nShe said the idea came after she saw a girl.  \nThe girl\u2019s face looked very different.  \nShe saw her on the street one day.  \nThe book sold many copies in the United States.  \nIt won several awards.  \nSchools use it as a starting point.  \nThey talk about bullying, friends and being different.  \nA film of the book is coming soon.  \nMany people are very happy for her next book.  \nI am also very happy.",
+      "timestamp": "2025-09-01 17:13:13.285155",
+      "metadata": {
+        "text_id": "aad5d1d4-f9bf-46b2-87a4-8c8eb8a98578",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:13:46.669393",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "32d98a98-a683-45c5-8e5b-e21b9de0daf7",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8832 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\n- Meaning Error: The original text states people are 'waiting eagerly'. Your version, 'Many people are very happy for her next book', is a factual and semantic error. Eager anticipation is not the same as happiness. This inaccuracy is the primary cause of the low fidelity score.\n- Lexical Loss: Key terms were oversimplified, contributing to the score drop. 'New Yorker' was replaced with 'She lives in New York'. While factually correct, it loses the specific noun and lexical precision.\n- Structural Weakness: The text is a list of disconnected simple sentences. This is below A2 standard, which expects the use of basic connectors. The complete absence of connectors like 'and' or 'but' makes the text choppy and unnatural.\n\nSuggestion: Restore the original meaning of 'waiting eagerly'. Combine some of the short sentences using 'and' to create better-structured A2-level text. Re-evaluate simplifications to ensure they do not cause a critical loss of fidelity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8832,
+          "meaningbert": 0.8597
+        }
+      }
+    }
+  ]
+}

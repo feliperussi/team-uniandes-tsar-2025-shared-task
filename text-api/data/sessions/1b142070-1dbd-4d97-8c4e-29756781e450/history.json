@@ -1,0 +1,413 @@
+{
+  "session_id": "1b142070-1dbd-4d97-8c4e-29756781e450",
+  "created_at": "2025-09-01 17:22:48.125590",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:22:49.028055",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "92-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck is an expert who studies thinking.  \nShe says the brain can change.  \nPlasticity means the brain can change.  \nShe also talks about a growth mindset.  \nA growth mindset means believing you can get better by trying.  \nWe can learn new skills.  \nWe may not be good at them at first.  \nMany people praise only the final result.  \nThey say things like \u201cYou have a good eye for details\u201d.  \nOr \u201cYou are good at organising events\u201d.  \nResearch shows that praising effort helps more.  \nWhen we praise how someone works, we help them grow.  \nWe should praise trying, testing, and solving problems.  \nThis helps new skills develop and existing talents improve.",
+      "timestamp": "2025-09-01 17:22:49.028166",
+      "metadata": {
+        "text_id": "4826da8f-a12c-459a-8bc2-7592682cb9b6",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:22:49.053763",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d7f75d5e-3991-42e6-a676-20fdeff198ec",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8701 is below the required 0.90 threshold. This indicates a significant loss of key phrasing from the original text. The text also fails the CEFR compliance check.\n\nDiagnostic Analysis:\n- Fidelity Failure (BERTScore): The score is too low because specific phrases like 'psychologist and proponent' and 'continued honing of talents' were replaced with overly simple terms like 'expert' and 'talents improve', losing required lexical detail.\n- CEFR Compliance Failure (Classifier): The text was classified as B1, not A2. This is an automatic failure. The analysis below details the reasons.\n- Unapproved B1/B2 Vocabulary: The text uses words above the A2 level. 'growth' (B1), 'effort' (B1), 'means' (B2), and 'testing' (B2) are not permitted.\n- B1 Sentence Structure: The text uses grammatical structures that are too complex for A2. The sentence 'Carol Dweck is an expert who studies thinking' uses a relative clause ('who studies...'), which is a B1 structure. The sentence 'A growth mindset means believing you can get better by trying' uses a gerund phrase after 'means', which is also a B1 structure.\n\nCorrective Path:\n- Suggestion: Replace all B1/B2 vocabulary. 'Effort' must be replaced with 'hard work'. 'Testing' must be replaced with 'trying new ways'. 'Means' must be rephrased to 'is when...'.\n- Suggestion: Simplify all complex sentences. 'Carol Dweck is an expert who studies thinking' must be split into two A2 sentences: 'Carol Dweck is an expert. She studies thinking.'\n- Suggestion: Rephrase 'A growth mindset means believing...' to 'A growth mindset is when you believe...'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8701,
+          "meaningbert": 0.8526
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:22:56.312088",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck is a psychologist.  \nShe studies how we think.  \nShe says the brain can change.  \nPlasticity is when the brain can change.  \nShe also talks about a growth mindset.  \nA growth mindset is when you believe you can get better.  \nYou can get better by trying.  \nWe can learn new skills.  \nWe may not be good at them at first.  \nMany people praise only the final result.  \nThey say things like \u201cYou have a good eye for details\u201d.  \nOr \u201cYou are good at planning events\u201d.  \nResearch shows that praising hard work helps more.  \nWhen we praise how someone works, we help them grow.  \nWe should praise trying, trying new ways, and helping with problems.  \nThis helps new skills develop and existing talents improve.",
+      "timestamp": "2025-09-01 17:22:56.312234",
+      "metadata": {
+        "text_id": "6fbf701d-11b2-4482-8dc7-3bdc6ffc42e3",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:23:30.702014",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7d4705c8-5d72-49b7-8776-5955e40ca1c1",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8597 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text. The simplification has removed too much lexical detail, failing the primary objective of fidelity.\n\nFurther analysis reveals additional failures:\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is an instant failure. The B1 classification is caused by vocabulary and sentence structure that are too advanced for the A2 level.\n\n- Vocabulary Exceeds A2 Level: The text uses words from higher CEFR levels. The word 'psychologist' is B2. The word 'planning' is B1. These words are not on a standard A2 list and must be replaced or simplified.\n\n- Sentence Structure Exceeds A2 Level: The sentence 'When we praise how someone works, we help them grow' is a B1 structure. It begins with a subordinate clause ('When we praise...') and contains an embedded clause ('how someone works'). This is too complex for an A2 reader.\n\n- Definition Structure: The definitions 'Plasticity is when...' and 'A growth mindset is when...' use a structure that is borderline B1. A2 requires more direct phrasing.\n\nSuggestion: The text must be rewritten. Replace 'psychologist' with 'a person who studies how people think'. Replace 'planning events' with 'making plans for events'. The complex sentence 'When we praise how someone works, we help them grow' must be split into two simple sentences. Example: 'We can praise how a person works. This helps them grow.' Rephrase definitions to use 'This means...' instead of 'is when...'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8597,
+          "meaningbert": 0.8673
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:23:37.161546",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck is a person who studies how people think.  \nShe says the brain can change.  \nPlasticity means the brain can change.  \nShe also talks about a growth mindset.  \nA growth mindset means you think you can improve.  \nYou improve by trying.  \nWe can learn new skills.  \nWe may not be good at them at first.  \nMany people only praise the final result.  \nThey say, \u201cYou have a good eye for details.\u201d  \nOr, \u201cYou are good at making plans for events.\u201d  \nResearch shows that praising hard work helps more.  \nWe can praise how a person works.  \nThis helps them grow.  \nWe should praise trying.  \nWe should praise trying new ways.  \nWe should praise solving problems.  \nThis helps new skills grow and existing skills improve.",
+      "timestamp": "2025-09-01 17:23:37.161893",
+      "metadata": {
+        "text_id": "49f02543-ecf8-445f-bae5-2e1ea69299de",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:24:09.278976",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "bc519706-b9c7-42b9-a849-33ce50a26f7f",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.68 is catastrophically below the required 0.75 threshold. The original text's core message is a contrast between two types of praise. Your version weakens this into a disconnected list of statements, losing the central argument. This is an instant failure.\n\n- Fidelity Failure: The BERTScore of 0.85 is below the 0.90 minimum. Key lexical items from the original, such as 'proponent', 'innate talents', and 'problem-solving strategies', were completely removed, causing a significant loss of fidelity.\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is due to specific linguistic violations.\n- Vocabulary Violation: The word 'means' is B2 level. It was used twice for definitions. This is unacceptable for an A2 text. The keyword 'growth mindset' contains the B1 word 'growth'.\n- Structural Violation: The sentence 'Carol Dweck is a person who studies how people think' uses a relative clause ('who studies...'), which is a B1-level grammatical structure.\n\nSuggestion: Restore the core meaning of contrast between praising results and praising process. Rephrase definitions to eliminate the B2 word 'means'; use an A2 structure like 'Plasticity is when...'. Break the sentence containing the relative clause into two simple A2 sentences. Example: 'Carol Dweck is a person. She studies how people think.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8529,
+          "meaningbert": 0.6848
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:24:22.000245",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck is a person.  \nShe studies how people think.  \nShe is a supporter of the growth mindset.  \nGrowth mindset is a way of thinking.  \nIt says you can get better.  \nPlasticity is when the brain can change.  \nMany people praise the final result.  \nThey say, \u201cYou have a good eye for details.\u201d  \nOr they say, \u201cYou are good at planning events.\u201d  \nThese praises focus on their own talents.  \nResearch shows that praising effort works better.  \nIt is better to praise how a person works.  \nPraise the effort and trying new ways.  \nPraise the ways to solve problems.  \nThis helps new skills grow and old skills improve.",
+      "timestamp": "2025-09-01 17:24:22.000592",
+      "metadata": {
+        "text_id": "a6ca8b7e-2c25-4cf7-a4c3-e1722e6ce445",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:24:47.896888",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9e3bc65f-328a-454c-9925-6a61aeb131ea",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8587 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text. The extreme simplification into choppy, disconnected sentences has damaged the lexical connection to the source material.\n\nSecondary Failures:\n- CEFR Compliance Failure: The text is classified as B1, not the required A2. This is an automatic failure. The B1 classification is a direct result of using vocabulary and sentence structures that are too advanced.\n- B1 Vocabulary Violation: The text uses multiple words that are not on the A2 word list. The words 'supporter', 'growth', 'planning', and 'effort' are B1 level and are unacceptable.\n- B1 Structural Violation: The text uses sentence structures that are too complex for A2. The sentences 'She studies how people think' and 'It is better to praise how a person works' use embedded 'how' clauses, which is a B1-level grammatical structure.\n\nCorrective Actions:\n- Replace all B1 vocabulary immediately. 'Effort' must be changed to an A2 concept like 'hard work'. 'Supporter' must be rephrased to 'a person who agrees with an idea'.\n- Eliminate B1 sentence structures. Rephrase 'She studies how people think' to 'She learns about the way people think'.\n- Rewrite the text to use only A2 vocabulary and simple or compound sentences connected by 'and', 'but', or 'so'. The current text is an inconsistent mix of A1 sentence length and B1 vocabulary, which is incorrect.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8587,
+          "meaningbert": 0.8416
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:25:00.995503",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck studies people\u2019s thinking.  \nShe says a way of thinking that you can get better.  \nShe also says plastic\u202fis when the brain can change.  \n\nMany people praise the final result.  \nThey say, \u201cYou have a good eye for details.\u201d  \nThey also say, \u201cYou are good at making events.\u201d  \n\nThese praises focus on talent.  \n\nResearch shows that praising hard work works better.  \nIt is better to praise the way a person works.  \nPraise hard work and trying new ways.  \nPraise ways to solve problems.  \n\nThis helps new skills get better and old skills get better.",
+      "timestamp": "2025-09-01 17:25:00.995962",
+      "metadata": {
+        "text_id": "92a041b2-0827-41de-a524-e6e1433953b7",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:25:29.415264",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f8c43163-a58a-43a3-8863-4d7250dbe099",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8573 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text. The simplification was too aggressive, losing lexical detail required for full fidelity.\n\nAdditional Violations:\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is an instant failure.\n\n- B1 Grammatical Structures: The sentence \"Research shows that praising hard work works better\" uses a 'that-clause'. This is a B1 structure and is not permitted at the A2 level.\n\n- B1 Vocabulary: The B1 word 'talent' was used directly in the output (\"These praises focus on talent\"). All vocabulary must conform to the A2 level.\n\n- B2 Vocabulary: The B2 word 'making' was used in the phrase \"making events\". This is unacceptable.\n\n- Awkward A2 Syntax: The sentence \"She says a way of thinking that you can get better\" is grammatically incorrect and confusing. A2 requires simple, clear sentences.\n\nCorrective Actions:\n\n- Suggestion: Remove all 'that-clauses'. Split the sentence. Example: \"Research shows something important. It is better to praise hard work.\"\n\n- Suggestion: Replace the word 'talent'. Use an A2 alternative like 'a special skill'.\n\n- Suggestion: Replace 'making events'. Use an A2 phrase like 'planning events'.\n\n- Suggestion: Rewrite complex sentences to be direct. Example: \"She talks about a way of thinking. This way of thinking means you can get better.\"",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8573,
+          "meaningbert": 0.8293
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:25:38.219860",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck studies how people think.  \nShe talks about a growth mindset.  \nA growth mindset means you can get better.  \nShe also talks about brain plasticity.  \nBrain plasticity means the brain can change.  \nMany people praise the final result.  \nThey say, \u201cYou have a good eye for details.\u201d  \nThey also say, \u201cYou are good at planning events.\u201d  \nThese praises focus on a special skill.  \nResearch says something important.  \nIt says praising hard work works better.  \nIt says we should praise the way a person works.  \nPraise hard work and trying new ways.  \nPraise ways to solve problems.  \nThis helps new skills get better.  \nIt also helps old skills get better.",
+      "timestamp": "2025-09-01 17:25:38.220747",
+      "metadata": {
+        "text_id": "95890912-d4f0-42f5-8a57-9fa6ecfca99a",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:26:11.601937",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2c5e794e-732e-4882-b259-880079763134",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary failure is a significant deviation from the original text's core message, confirmed by metrics. The MeaningBERT score of 0.7051 is below the required 0.75 threshold. The BERTScore of 0.8532 is below the required 0.90. This indicates a loss of both nuance and key factual vocabulary.\n\n- Meaning Loss: The original text specifies praising 'effort, experimentation and problem-solving strategies'. Your version simplifies this to 'hard work' and 'trying new ways', losing the specific concepts of 'experimentation' and 'problem-solving'. This is an unacceptable loss of meaning.\n\n- Fidelity Loss: Key terms from the original like 'psychologist', 'proponent', and 'innate talents' were completely removed, not simplified. This damages the fidelity to the source text.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is a direct violation of the core task.\n\n- Vocabulary Violation: The text uses the B2 word 'means' and the B1 word 'planning'. These are above the A2 level and are unacceptable. The word 'growth' is also B1, and while part of a key term, its definition used the forbidden B2 word 'means'.\n\n- Structural Violation: The B1 classification was triggered by grammatical structures too complex for A2. The sentence 'It says praising hard work works better' uses a gerund ('praising') as the subject of a clause. The phrase 'the way a person works' is also a B1-level structure.\n\n- Suggestion: Restore the specific concepts of 'experimentation' and 'problem-solving'. Replace the word 'means' with an A2-level phrase like 'This is when...'. Replace 'planning' with 'organising'. Break down complex sentences. Instead of 'It says praising hard work works better', write 'It is better to praise hard work'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8532,
+          "meaningbert": 0.7051
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:26:18.200881",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck is a psychologist.  \nShe studies a growth mindset.  \nA growth mindset is when you can get better.  \n\nShe also studies brain plasticity.  \nBrain plasticity is when the brain can change.  \n\nMany people praise the final result.  \nThey say, \u201cYou have a good eye for details.\u201d  \nThey also say, \u201cYou are good at arranging events.\u201d  \n\nResearch says that praising hard work works better.  \nResearch says we should also praise trying new ways.  \nResearch says we should also praise solving problems.  \n\nPraising hard work, trying new ways and solving problems helps new skills grow.  \nIt also helps old skills grow.",
+      "timestamp": "2025-09-01 17:26:18.201526",
+      "metadata": {
+        "text_id": "00cb1bf9-d8e4-44b7-bb53-301c3f91246f",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:26:49.434020",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6849b621-f6ed-4a0f-9310-03f3e664af65",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails at the second priority check. The MeaningBERT score of 0.7091 is below the required 0.75 threshold, and the BERTScore of 0.8546 is below the required 0.90. The simplification was too aggressive, resulting in a loss of the core message and lexical fidelity. The original text's central idea is a contrast between two types of praise; your version loses this contrast and merely lists facts.\n\nFurther violations detected:\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is an automatic failure.\n\n- Vocabulary Violation: The word 'psychologist' is B2 level. The word 'growth' is B1 level. These are unacceptable for an A2 text. They must be replaced or defined in A2 terms within the text.\n\n- Structural Violation: The sentence \"Research says that praising hard work works better\" uses a 'that-clause', a B1 grammatical structure. This is too complex for A2.\n\n- Structural Violation: The sentence \"Praising hard work, trying new ways and solving problems helps new skills grow\" uses a list of gerunds as a complex subject. This is a B1 structure and must be simplified.\n\nSuggestion: Rephrase the entire text to restore the core contrast between praising results and praising effort. Remove the word 'psychologist' and replace it with an A2 description like \"a person who studies how people think.\" Break down all complex sentences. Remove the 'that-clause'. Rewrite the final sentence into several simple A2 sentences.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8546,
+          "meaningbert": 0.7091
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:27:05.402378",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: A person who studies how people think is Carol Dweck.  \nShe studies how the brain can change.  \nBrain plasticity means the brain can change.  \nShe also talks about a growth mindset.  \nA growth mindset means you can get better by trying.  \nMany people praise the final result.  \nThey say \u201cYou have a good eye for details.\u201d  \nThey also say \u201cYou are good at arranging events.\u201d  \nResearch says praising hard work works better.  \nResearch says praising trying new ways works better.  \nResearch says praising solving problems works better.  \nPraising hard work helps new skills grow.  \nPraising trying new ways helps new skills grow.  \nPraising solving problems helps new skills grow.  \nIt also helps old skills grow.",
+      "timestamp": "2025-09-01 17:27:05.403024",
+      "metadata": {
+        "text_id": "c3cae4b3-6267-48f3-8078-704b0a19bfbe",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:27:33.851314",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f2acf002-ad3f-42a9-8c50-553ac998eef5",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6523 is substantially below the required 0.75 threshold. The BERTScore of 0.854 is also below the 0.90 minimum. The text's core message, which contrasts two approaches to praise, was lost due to excessive simplification and robotic repetition. The output is a list of disconnected facts, not a coherent A2 summary.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is an instant failure.\n- Structural Violation: The first sentence, 'A person who studies how people think is Carol Dweck,' uses a defining relative clause ('who studies...'). This is a B1 grammatical structure and is not permitted at the A2 level.\n- Vocabulary Violation: The B2 word 'means' is used twice. This is unacceptable. The B1 word 'growth' is used in the key phrase 'growth mindset'. While the phrase was defined, the word itself is above A2 level.\n- Stylistic Failure: The extreme repetition of phrases like 'Research says...' and 'Praising... helps new skills grow' is unnatural and degrades readability. It fragments the central idea that praising the process (effort, experimentation, problem-solving) is what helps skills develop.\n\nSuggestion: Remove the B1 relative clause. Rephrase the first sentence into two simple A2 sentences. Example: 'Carol Dweck is a person. She studies how people think.' Replace the B2 word 'means' with an A2 structure. Example: 'Brain plasticity is the idea that the brain can change.' Combine the repetitive sentences to convey the core concept. Example: 'Research says it is better to praise hard work, trying new things, and how a person solves problems.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.854,
+          "meaningbert": 0.6523
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:27:40.689213",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck is a psychologist.  \nShe studies how people think.  \nShe talks about brain plasticity.  \nBrain plasticity is the idea that the brain can change.  \nShe also talks about a growth mindset.  \nA growth mindset is the idea that you can get better by trying.  \nMany people praise only the final result.  \nThey say \u201cYou have a good eye for details.\u201d  \nThey also say \u201cYou are good at arranging events.\u201d  \nResearch shows that praising effort and trying ways helps skills grow.  \nResearch also shows that praising how problems helps skills grow.",
+      "timestamp": "2025-09-01 17:27:40.689611",
+      "metadata": {
+        "text_id": "b6849af3-0641-4f76-9211-a94ca1e3549a",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:28:07.230946",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0e7de475-9b5d-48aa-b5ad-2fda1150e005",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8605 is below the required 0.90 threshold. This indicates a critical loss of key concepts from the original text. The text also fails the CEFR compliance check, registering as B1, not A2.\n\nDiagnostic Analysis:\n- Fidelity Failure (BERTScore): The score is too low because key phrases were oversimplified, losing essential meaning. For example, 'problem-solving strategies' was reduced to the grammatically incorrect 'how problems', which does not carry the same meaning.\n- CEFR Compliance Failure (B1 Classification): The text was classified as B1. This is a direct result of using grammatical structures and vocabulary that are too advanced for the A2 level.\n- B1+ Vocabulary Violation: The text uses multiple words above the A2 level. 'psychologist' is a B2 word. 'growth' and 'effort' are B1 words. These are unacceptable deviations.\n- B1 Grammatical Structure Violation: The text repeatedly uses 'that-clauses' and 'how-clauses', which are B1 structures. Examples include: 'the idea that the brain can change', 'shows that praising effort', and 'studies how people think'. These complex sentences are the primary reason for the B1 classification.\n- Awkward Phrasing: The final sentence, 'Research also shows that praising how problems helps skills grow,' is grammatically incorrect and unclear.\n\nCorrective Path:\n- Suggestion: Eliminate all B1 and B2 vocabulary. Replace 'psychologist' with 'a person who studies how people think'. Replace 'effort' with 'trying hard'.\n- Suggestion: Remove all 'that-clauses' and 'how-clauses'. Rewrite these sentences as two separate, simple sentences. For example, instead of 'Brain plasticity is the idea that the brain can change,' write 'She talks about brain plasticity. This means the brain can change.'\n- Suggestion: Rephrase the final sentences to accurately reflect 'problem-solving strategies' using only A2 words. For example: 'It is good to praise people when they try to find answers to problems.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8605,
+          "meaningbert": 0.7539
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:28:16.436302",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck is a person who studies how people think.  \nShe talks about brain plasticity.  \nThe brain can change.  \nShe also talks about a growth mindset.  \nYou can get better by trying.  \nMany people only praise the final result.  \nThey say \u201cYou have a good eye for details.\u201d  \nThey also say \u201cYou are good at arranging events.\u201d  \nResearch shows that praising trying helps skills grow.  \nIt also shows that praising people helps skills grow.  \nIt shows this when they find answers to problems.",
+      "timestamp": "2025-09-01 17:28:16.441782",
+      "metadata": {
+        "text_id": "11dbba94-53b6-4c1a-b356-7b7048df897a",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:28:44.311845",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c2d6c583-2cd7-446e-ab4c-344f9a5a7a36",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.726 is below the required 0.75 threshold. This is the primary reason for failure. The text also fails on multiple subsequent checks.\n\n- Meaning Preservation Failure: The original text emphasizes praising the process: effort, experimentation, and problem-solving strategies. Your output simplifies this to praising the act of trying and the result of finding answers. This loses the core message about praising the method, not just the effort or outcome.\n\n- Fidelity Failure: The BERTScore of 0.862 is below the 0.90 minimum. This indicates a significant loss of key vocabulary and phrasing from the original text, specifically the concepts of 'effort, experimentation and problem-solving strategies'.\n\n- CEFR Compliance Failure: The text was classified as B1, not A2. The sentence 'Carol Dweck is a person who studies how people think' uses a relative clause ('who studies...'), which is a B1 grammatical structure. A2 level requires simpler, separate sentences.\n\n- Structural Complexity: The sentence 'It shows this when they find answers to problems' uses a subordinating 'when' clause, which is too complex for the A2 standard.\n\nSuggestion: Rewrite the text to restore the original meaning about praising the process. Split complex sentences. Remove the relative clause by rewriting the first sentence into two. For example: 'Carol Dweck is a psychologist. She studies how people think.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.862,
+          "meaningbert": 0.726
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:28:57.984962",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Carol Dweck is a psychologist.  \nShe studies how people think.  \nShe talks about brain plasticity.  \nPlasticity means the brain can change.  \nShe also talks about a growth mindset.  \nA growth mindset means you can get better by trying.  \nMany people only praise the final  result.  \nThey say \u201cYou have a good eye for details.\u201d  \nThey also say \u201cYou are good at arranging events.\u201d  \nResearch shows that praising effort helps skills grow.  \nResearch also shows that praising experimentation helps skills grow.  \nResearch also shows that praising solving problems helps skills grow.",
+      "timestamp": "2025-09-01 17:28:57.985792",
+      "metadata": {
+        "text_id": "dec32c92-1091-4db6-bc03-e54664402a11",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:29:24.074212",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "aa1d214e-f410-4efe-b6b9-d67adc14c385",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8587 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text, compromising its fidelity.\n\n- Fidelity Failure: The low BERTScore is a direct result of oversimplification. Key concepts like 'problem-solving strategies' and 'continued honing of talents' were completely removed, not simplified. This is an unacceptable loss of information.\n- Vocabulary Violation (B2): The word 'psychologist' is B2 level. It was used without simplification. It must be replaced with an A2 description, such as 'a person who studies how people think'.\n- Vocabulary Violation (B1): The word 'effort' is B1 level. It was used without simplification or definition. It must be replaced with an A2 phrase like 'trying hard'.\n- Vocabulary Violation (B2): The word 'means' is B2 level. It was used twice for definitions. This structure is too advanced. Rephrase definitions directly. Example: 'Plasticity is when the brain can change.'\n- Structural Flaw: The repetition in the final three sentences ('Research also shows that...') is unnatural and poor writing. These points must be combined into a single, clear sentence using 'and'.\n\nSuggestion: Restore the core concepts that were deleted to meet the BERTScore requirement. Replace all vocabulary above the A2 level. Combine the repetitive final sentences into one.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8587,
+          "meaningbert": 0.7567
+        }
+      }
+    }
+  ]
+}

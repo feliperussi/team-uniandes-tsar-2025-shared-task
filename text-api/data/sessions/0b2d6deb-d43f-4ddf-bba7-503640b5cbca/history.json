@@ -1,0 +1,413 @@
+{
+  "session_id": "0b2d6deb-d43f-4ddf-bba7-503640b5cbca",
+  "created_at": "2025-09-01 17:54:27.670872",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:54:30.215625",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "13-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many big supermarkets were blamed for bad actions in ten years.  \nThey threw away lots of food.  \nThey paid suppliers too little.  \nThey used too much plastic in wrappers.  \nThis hurts our environment.  \nBut supermarkets are now paying attention.  \nBecause shoppers are angry about huge plastic trash.  \nSome big UK supermarkets signed a promise.  \nThey will change wrappers.  \nThey will cut plastic trash.",
+      "timestamp": "2025-09-01 17:54:30.215801",
+      "metadata": {
+        "text_id": "39a8303d-2734-4864-8905-3018f089a9a4",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:54:32.700138",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b84ea46e-ba9f-44a7-8853-cc30c039753d",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.873 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text. The simplification was too aggressive, sacrificing lexical precision for simplicity.\n\n- Lexical Loss: Key concepts from the original text such as 'unethical acts', 'consumer backlash', and 'pact' were replaced with overly simplistic terms like 'bad actions', 'shoppers are angry', and 'promise'. This loss of detail is the direct cause of the low BERTScore.\n\n- B1 Vocabulary: The word 'used' is classified as B1 level. This violates the A2 vocabulary constraint.\n\n- Grammatical Error: The sentence 'Because shoppers are angry about huge plastic trash.' is a sentence fragment. A dependent clause starting with 'Because' cannot stand alone as a complete sentence.\n\n- Suggestion: To increase fidelity, re-integrate more precise A2-level vocabulary. Combine the sentence fragment with the preceding sentence to correct the grammatical error. Replace the B1 word 'used'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.873,
+          "meaningbert": 0.805
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:54:41.049010",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many big supermarkets were blamed for wrong acts in ten years.  \nThey threw away lots of food.  \nThey gave suppliers little money.  \nThey had too much plastic in wrappers.  \nThis hurts our environment.  \nBut supermarkets are now paying attention.  \nCustomers are angry about huge plastic trash.  \nSome big UK supermarkets signed a promise.  \nThey will change wrappers.  \nThey will cut plastic trash.",
+      "timestamp": "2025-09-01 17:54:41.049898",
+      "metadata": {
+        "text_id": "573ca5d9-3748-4b1f-8727-b280e8376d3c",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:55:03.638330",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6336cced-3a46-4681-a78f-bd90412bfbaa",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8717 is below the required 0.90. This indicates a significant loss of key phrasing from the original text.\n\n- Fidelity Failure: The BERTScore is too low. Key terms like 'unethical acts' and 'consumer backlash' were replaced with overly simple phrases like 'wrong acts' and 'customers are angry'. This reduces lexical fidelity below the acceptable threshold.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. The first sentence, 'Many big supermarkets were blamed for wrong acts...', uses the passive voice ('were blamed'). The passive voice is a B1 grammatical structure and is not permitted at the A2 level.\n\n- Suggestion: Rephrase the first sentence to use an active voice. Example: 'People blamed many big supermarkets for wrong acts...'. This eliminates the B1 grammatical structure. You must maintain higher fidelity to the original's key terms while using only A2 structures.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8717,
+          "meaningbert": 0.7997
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:55:10.358461",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: People blamed many big supermarkets for unethical acts.  \nThey wasted lots of food.  \nThey paid suppliers little money.  \nThey used too much plastic in wrappers.  \nThis hurts our environment.  \nNow supermarkets pay more attention.  \nCustomers showed consumer backlash about plastic waste.  \nSome big UK supermarkets signed a promise.  \nThey will change wrappers.  \nThey will cut plastic waste.",
+      "timestamp": "2025-09-01 17:55:10.358795",
+      "metadata": {
+        "text_id": "7e8a74f2-baf7-44dd-8402-000a21334a5c",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:55:40.233029",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6d04ac86-589e-4ea2-aab5-c28c885a80de",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8663 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text. The text also fails the CEFR compliance check, registering as B1 instead of the required A2.\n\n- CEFR Compliance Failure: The text was classified as B1. This is a direct result of using vocabulary above the A2 level.\n- Vocabulary Violation: The phrase 'consumer backlash' is unacceptable. 'Consumer' is a B1 word and 'backlash' is C1. This is a severe error.\n- Vocabulary Violation: The word 'waste' is used multiple times. This is a B1 word.\n- Vocabulary Violation: The phrase 'unethical acts' is too complex for the A2 level.\n\nSuggestion: Remove all B1 and C1 vocabulary immediately. Replace 'consumer backlash' with a simple A2 phrase like 'customers were very angry'. Replace 'waste' with 'things they throw away'. Replace 'unethical acts' with 'doing bad things'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8663,
+          "meaningbert": 0.8658
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:55:53.232578",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: People said many big supermarkets did bad things.  \nThey threw away lots of food.  \nThey paid suppliers little money.  \nThey had too much plastic in wrappers.  \nThis hurts our environment.  \nNow supermarkets pay more attention.  \nPeople were very angry about plastic.  \nSome big UK supermarkets signed a promise.  \nThey will change wrappers.  \nThey will cut things they throw away.",
+      "timestamp": "2025-09-01 17:55:53.232887",
+      "metadata": {
+        "text_id": "1b58f15a-25e0-4a26-9d52-58eef39e2d67",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:56:18.658128",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8696d028-b7cb-4b4e-af99-0207dd2f6c82",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8559 is below the required 0.90 threshold. This indicates a significant loss of key factual phrasing from the original text. The text sacrifices too much specific information for the sake of simplicity.\n\nDetected Deviations:\n- The phrase 'cut plastic wastage' was replaced with 'cut things they throw away'. This is a critical loss of specificity. The promise was about plastic, not general waste.\n- The original text specifies 'UK supermarkets'. This detail was omitted, reducing factual fidelity.\n- The concept of a 'pact promising to transform packaging' was oversimplified to 'signed a promise. They will change wrappers.' This loses the nuance of a formal agreement ('pact') and a significant change ('transform').\n\nSuggestion: Restore the lost details using simple A2 language. The final sentence must specify 'plastic'. Re-insert the detail about 'UK' supermarkets. The text must be a faithful summary, not a vague interpretation.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8559,
+          "meaningbert": 0.8168
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:56:24.614381",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many big supermarkets did bad things.  \nThey threw away lots of food.  \nThey paid suppliers little money.  \nThey used too much plastic in packaging.  \nThis hurts our environment.  \nNow supermarkets pay more attention.  \nPeople were angry about plastic waste.  \nSome big UK supermarkets signed a pact.  \nThe pact promises to change packaging.  \nThey will cut plastic waste.",
+      "timestamp": "2025-09-01 17:56:24.614680",
+      "metadata": {
+        "text_id": "0dc38848-8f57-48d1-9974-f87bf7bc3fc1",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:56:51.757277",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6c441af5-68f7-4706-9830-ae385e566204",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8681 is below the required 0.90 threshold. This indicates a significant loss of key words and factual phrasing from the original text.\n\n- Fidelity Loss: The score is low because key concepts were oversimplified. 'Unethical acts' became 'bad things'. 'Consumer backlash' became 'people were angry'. This simplification removes too much specific meaning from the original text.\n- Vocabulary Violation: The text uses the B1-level words 'used' and 'waste'. These are not compliant with the A2 standard and must be replaced.\n- Structural Simplification: The text is broken into too many short, disconnected sentences. This makes it read like an A1-level list, not an A2-level paragraph. The relationship between ideas is lost.\n\nSuggestion: Rephrase to restore the meaning of key concepts without using complex words. Replace all B1 vocabulary. Combine some sentences using A2 connectors like 'so' and 'because' to show the connection between ideas. For example: 'People were angry about the plastic, so the supermarkets promised to change.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8681,
+          "meaningbert": 0.8414
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:57:02.099958",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many big supermarkets have done unfair actions. They threw away a lot of food and paid suppliers little money. They also put too much plastic in their packaging, which hurts the environment. Customers were angry about the plastic, so the supermarkets started to pay more attention. Some big UK supermarkets made a promise. The promise says they will B\n\n(Note: The assistant's answer seems incomplete and contains errors. It does not meet the required format or content.)",
+      "timestamp": "2025-09-01 17:57:02.100342",
+      "metadata": {
+        "text_id": "9a2be153-a104-413e-ba73-28a5cb3d9c39",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:57:29.133452",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1b9a4619-6f97-4729-904c-61f8c6ee8976",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The output is incomplete and nonsensical. The final sentence 'The promise says they will B' does not exist in the original text and fails to convey the core message about transforming packaging and cutting waste. This is a catastrophic failure of factual integrity.\n\n- Meaning Preservation Failure: The MeaningBERT score of 0.68 is critically below the required 0.75 threshold. The incomplete final sentence completely destroys the meaning of the original text's conclusion.\n\n- Fidelity Failure: The BERTScore of 0.87 is below the 0.90 minimum. Key concepts from the original text are missing.\n\n- CEFR Compliance Failure: The text is classified as B1, not the required A2. This is due to specific linguistic violations.\n\n- B1 Vocabulary Violation: The word 'unfair' is B1 level. It must be replaced with A2 vocabulary, such as 'wrong' or 'not right'.\n\n- B1 Grammar Violation: The sentence '...which hurts the environment' uses a non-defining relative clause ('which'). This is a B1 structure. It must be simplified into two separate A2 sentences.\n\nSuggestion: Rewrite the entire text. Complete the final thought using simple A2 language. Replace the word 'unfair'. Break the sentence containing 'which' into two simple sentences.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8771,
+          "meaningbert": 0.6826
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:57:39.913150",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many big supermarkets do wrong things.  \nThey waste a lot of food.  \nThey pay suppliers little money.  \nThey put too much plastic in their packaging.  \nThe plastic hurts the environment.  \nCustomers are angry about the plastic.  \nSo the supermarkets pay more attention.  \nSome big UK supermarkets made a promise.  \nThe promise says they will change packaging.  \nThey will cut plastic waste.  \nThey will try to use less plastic.",
+      "timestamp": "2025-09-01 17:57:39.913590",
+      "metadata": {
+        "text_id": "8ea099fa-21d1-4cef-96c9-ee6ff7bec082",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:58:05.602030",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e244b586-c517-44bc-b5d7-2388fe1b3df3",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8628 is below the required 0.90 threshold. This indicates a significant loss of key words and concepts from the original text.\n\nFidelity Loss: The simplification is too aggressive. Key phrases like 'consumer backlash' and 'signed up to a pact' were replaced with 'Customers are angry' and 'made a promise'. This loses the specific meaning and formal tone of the original, causing the low BERTScore.\n\nVocabulary Deviation: The B1-level word 'waste' is used twice. An A2 text must strictly adhere to A2 vocabulary. The verb 'waste' should be 'throw away'. The noun 'waste' should be 'rubbish' or a similar A2 term.\n\nStructural Oversimplification: The text consists of a series of short, disconnected sentences. While A2 requires simplicity, this level of simplification makes the text sound unnatural and contributes to the loss of meaning.\n\nSuggestion: Restore more of the original phrasing in a simplified form. For 'signed up to a pact', use 'have agreed to a plan'. For 'waste', use 'throw away' and 'rubbish'. Combine some sentences using 'and' or 'but' to create a more natural flow without exceeding A2 complexity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8628,
+          "meaningbert": 0.834
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:58:11.851453",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many big supermarkets do wrong things.  \nThey throw away a lot of food.  \nThey pay suppliers little money.  \nThey use too much plastic in packaging.  \nThe plastic hurts the environment.  \nCustomers are angry and protest.  \nSupermarkets pay more attention now.  \nSome big UK supermarkets have agreed to a plan.  \nThe plan says they will change packaging.  \nThey will cut plastic rubbish.  \nThey will try to use less plastic.",
+      "timestamp": "2025-09-01 17:58:11.851939",
+      "metadata": {
+        "text_id": "335bc8c7-4e2a-44f3-acc5-ce1e6953d04a",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:58:40.173349",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b7d48b99-a519-4212-8017-088e2e5e07a9",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8641 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original text. The simplification was too aggressive, sacrificing lexical fidelity for simplicity.\n\n- Lexical Deviation: The B1-level word 'protest' is used. This is a violation of the A2 vocabulary standard.\n- Fidelity Loss: Key concepts were oversimplified, causing the low BERTScore. 'Consumer backlash' became 'Customers are angry and protest', and 'signed up to a pact' became 'agreed to a plan'. This loses too much of the original phrasing.\n- Structural Issue: The text is a series of disconnected, extremely short sentences. While simple sentences are required for A2, this level of choppiness is unnatural and contributes to the loss of meaning.\n\nSuggestion: Remove the word 'protest' and replace it with an A2 alternative like 'complain'. Rephrase sentences to be closer to the original's vocabulary while remaining simple. For example, instead of 'Customers are angry and protest', write 'Customers are very unhappy about the plastic waste.' This improves fidelity while staying within A2 limits.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8641,
+          "meaningbert": 0.8264
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:58:49.140237",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many big supermarkets do bad things.  \nThey waste a lot of food.  \nThey pay suppliers little money.  \nThey use too much plastic in packaging.  \nThe plastic hurts the environment.  \nCustomers are very sad about the plastic waste.  \nSupermarkets now pay more attention.  \nSome big UK supermarkets have signed a deal.  \nThe deal says they will change packaging.  \nThey will try to cut plastic rubbish.  \nThey will try to use less plastic.",
+      "timestamp": "2025-09-01 17:58:49.140701",
+      "metadata": {
+        "text_id": "5fd32c59-2b30-49d0-9e73-8342469b0fe6",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:59:18.957255",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5e59bb62-3baf-4a7f-a3b7-d985c795b739",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8684 is significantly below the required 0.90 threshold. This indicates a critical loss of key information from the original text.\n\n- Fidelity Failure: The text has been over-simplified. Key original concepts like 'unethical acts', 'consumer backlash', and 'pact' have been replaced with phrases like 'bad things', 'customers are very sad', and 'deal'. This simplification is too extreme and loses the specific meaning of the source material.\n- Meaning Preservation Failure: The MeaningBERT score of 0.743 is below the 0.75 minimum. The phrase 'customers are very sad' does not accurately convey the meaning of 'consumer backlash', which implies anger and protest, not just sadness.\n- Vocabulary Violation: The B1-level word 'waste' is used in 'They waste a lot of food' and 'plastic waste'. This word is not compliant with the A2 standard. It must be replaced.\n\nSuggestion: Rephrase to restore the original meaning with A2 vocabulary. Change 'bad things' to 'do things that are not right'. Change 'customers are very sad' to 'customers are angry and complain'. Replace the verb 'waste' with 'throw away'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8684,
+          "meaningbert": 0.743
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:59:28.632464",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many big supermarkets do things that are not right.  \nThey throw away a lot of food.  \nThey pay suppliers little money.  \nThey use too much plastic in packaging.  \nThe plastic hurts the environment.  \nCustomers are angry and complain about the plastic rubbish.  \nSupermarkets now pay more attention.  \nSome big UK supermarkets have signed a deal.  \nThe deal says they will change packaging.  \nThey will try to cut plastic rubbish.  \nThey will try to use less plastic.",
+      "timestamp": "2025-09-01 17:59:28.633045",
+      "metadata": {
+        "text_id": "c04b7ab9-c326-4a48-afed-3db9688fbf48",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:59:55.707254",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "dbf2c8f6-6fd9-4540-96c3-7a3382ae11eb",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8681 is below the required 0.90. This indicates a significant loss of key words and phrasing from the original text, even though the core facts are maintained.\n\n- The phrase 'come under fire with accusations of various unethical acts' was oversimplified to 'do things that are not right', losing the core concepts of 'accusations' and 'unethical'.\n- The specific term 'underpaid' was replaced with 'pay suppliers little money', which does not accurately convey the meaning of paying less than what is fair or required.\n- The concept of 'growing consumer backlash' was reduced to 'Customers are angry and complain', losing the idea of a strong, collective reaction.\n- Key terms like 'pact' and 'wastage' were replaced with simpler but less precise words like 'deal' and 'rubbish', contributing to the low fidelity score.\n\nSuggestion: Rephrase to restore original meaning while maintaining A2 simplicity. For example, change 'pay little money' to 'do not pay suppliers enough money'.\nSuggestion: While the CEFR classifier correctly identified the text as A2, the extreme simplification damaged its fidelity to the source. You must balance simplicity with accuracy.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8681,
+          "meaningbert": 0.7629
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 18:00:02.283837",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many big supermarkets get accusations of doing wrong things.  \nThey waste a lot of food.  \nThey do not pay suppliers enough money.  \nThey use too much plastic in packaging.  \nThe plastic hurts the environment.  \nMore and more customers are angry about the plastic waste.  \nSupermarkets now pay more attention.  \nSome big UK supermarkets have signed a pact.  \nThe pact says they will change packaging.  \nThey will try to cut plastic waste.",
+      "timestamp": "2025-09-01 18:00:02.284462",
+      "metadata": {
+        "text_id": "8aefd5fc-2ca2-4351-98bf-568fc5457806",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 18:00:30.583166",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c540f48e-92f8-433c-bd72-c5c300b7224f",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8762 is below the required 0.90 threshold. This indicates a significant loss of key words and factual phrasing from the original text. The text also fails the CEFR compliance check.\n\n- Fidelity Failure (BERTScore): The score is too low because specific B1/B2 concepts were replaced with overly generic A2 phrases, losing important lexical detail. For example, 'unethical acts' was replaced with 'wrong things' and 'consumer backlash' became 'customers are angry'. This simplification is too aggressive and loses fidelity to the source text.\n\n- CEFR Compliance Failure: The classifier rated the text as B1, which is an instant failure. The analysis shows this is due to the use of unapproved B1 vocabulary. The word 'waste' is a B1 word and was used twice. The words 'accusations' and 'pact' are also above the A2 level.\n\n- Suggestion: Replace the B1 word 'waste' with an A2 equivalent like 'rubbish' or 'things people throw away'.\n\n- Suggestion: Replace 'accusations' with a simple A2 phrase like 'people say they did'.\n\n- Suggestion: Replace 'pact' with 'agreement' or 'promise'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8762,
+          "meaningbert": 0.8369
+        }
+      }
+    }
+  ]
+}

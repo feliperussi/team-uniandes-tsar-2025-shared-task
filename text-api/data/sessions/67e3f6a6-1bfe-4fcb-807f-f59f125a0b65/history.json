@@ -1,0 +1,117 @@
+{
+  "session_id": "67e3f6a6-1bfe-4fcb-807f-f59f125a0b65",
+  "created_at": "2025-08-31 23:40:52.961148",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:40:52.976850",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "05-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: An asteroid is a rock in space.\nSome asteroids can come near Earth.\nThey can pass as close as 7.5 million kilometres from Earth.\nWe call these asteroids \"maybe dangerous\".\nNASA made a map of 1,400 of these asteroids.\nNASA says none will be a danger in the next 100 years.\nWith today's technology, NASA can track these objects.\nThey can say if one could hit Earth.\nIf that happens, they can use two ways to protect Earth.",
+      "timestamp": "2025-08-31 23:40:52.977700",
+      "metadata": {
+        "text_id": "99ee9aab-a288-4ab7-bf93-63b8bad7cfad",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 23:40:52.990168",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1351f36a-911e-4649-993b-336423ce0948",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6905 is below the required threshold of 0.75, indicating loss of core message.\n- The original term \"Potentially Hazardous Asteroids\" was replaced with \"maybe dangerous\", omitting the precise technical name.\n- The phrase \"two defence solutions\" became \"two ways to protect Earth\", losing the nuance of planned defence methods.\n- The text drops the concept of \"making predictions about possible impact\" before launching solutions, reducing fidelity.\nSuggestion: Use the exact term \"Potentially Hazardous Asteroids\" instead of paraphrasing.\nSuggestion: Retain \"defence solutions\" rather than generic \"ways to protect Earth\".\nSuggestion: Include \"make predictions about possible impact\" to fully preserve the original meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9051,
+          "meaningbert": 0.6905
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:42:12.543316",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Asteroids are rocks in space. Some asteroids come near Earth. We call them Potentially Hazardous Asteroids (PHAs). They can pass within 7.5 million kilometres of Earth\u2019s orbit. NASA made a map of 1,400 PHAs. NASA says none are a threat in the next 100 years. With today\u2019s technology, NASA can track these objects. NASA can make predictions about possible impact. After that, they can launch two defence solutions.",
+      "timestamp": "2025-08-31 23:42:12.544109",
+      "metadata": {
+        "text_id": "2411c72d-228b-4644-91e2-c6cf59397196",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 23:42:32.812284",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ce940f23-e120-4b1e-8dbd-317192575aae",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. Classifier rated B2. The text uses vocabulary and structures above A2 level. Evidence: the word \"within\" is B1-level; \"defence\" and \"impact\" are B1-level; \"potentially\" in \"Potentially Hazardous Asteroids\" is B2-level; the long prepositional phrase \"within 7.5 million kilometres of Earth\u2019s orbit\" is too complex; use of parentheses and a multiword noun phrase create B2 complexity. Suggestion: replace B1/B2 words with A2 alternatives, split long phrases into simple sentences, remove or simplify parentheses, and use only basic conjunctions (and, but, so, because).",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9372,
+          "meaningbert": 0.86
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 23:43:27.872133",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Asteroids are rocks in space. Some asteroids come near Earth. They can pass very close. The distance can be 7.5 million kilometres. This is near Earth's path around the Sun. NASA made a map of 1,400 of these asteroids. NASA says they are not dangerous in the next 100 years. With today's technology, NASA can track these space rocks. NASA can say if one might hit Earth. If that happens, they can use two ways to keep Earth safe.",
+      "timestamp": "2025-08-31 23:43:27.873926",
+      "metadata": {
+        "text_id": "207bc97d-56f7-4244-86c5-b26e74a8c797",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-08-31 23:43:45.506525",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7b46727b-d677-4654-a044-823fdc52c073",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The writer\u2019s output replaces the specific term \u201cPotentially Hazardous Asteroids\u201d with the generic \u201cAsteroids,\u201d which changes the scope. Not all asteroids pass within 7.5 million kilometres of Earth\u2019s orbit, so this is a core factual error.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9074,
+          "meaningbert": 0.6673
+        }
+      }
+    }
+  ]
+}

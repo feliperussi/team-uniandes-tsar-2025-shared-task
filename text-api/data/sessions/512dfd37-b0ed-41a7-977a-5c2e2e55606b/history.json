@@ -1,0 +1,80 @@
+{
+  "session_id": "512dfd37-b0ed-41a7-977a-5c2e2e55606b",
+  "created_at": "2025-09-01 17:14:34.525682",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:14:34.569502",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "57-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Os G\u00eameos are same twin brothers from S\u00e3o Paulo.  \nThey paint tags.  \nThey also paint big bright pictures of people on building sides.  \nTheir work is big.  \nThey need cranes to lift their paint.  \nIn 2007 they painted the whole castle in Scotland.",
+      "timestamp": "2025-09-01 17:14:34.569683",
+      "metadata": {
+        "text_id": "1b35f2da-b807-44e1-aad5-dbe66d2ad15a",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:14:35.458572",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9cbc78aa-2fdc-4c68-bf00-9401ac49207f",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The statement 'They need cranes to lift their paint' is a factual error. The original text states cranes are needed 'to help them work', which implies the cranes lift the artists to the work area. Your version misrepresents this core fact. This is an instant failure of the primary protocol.\n\n- Factual Error: The purpose of the cranes is incorrect. The original text implies the cranes lift the artists. Your text states they lift the paint. This is a complete misinterpretation of the source material.\n\n- Awkward Phrasing: The phrase 'same twin brothers' is grammatically incorrect and unnatural. While 'identical' is a B1 word, the replacement must be a correct A2 structure, such as 'They are twin brothers and they look the same'.\n\n- Structural Simplification Error: The text is excessively fragmented. Separating 'Their work is big' from 'They need cranes...' destroys the cause-and-effect relationship ('so big that...') present in the original text. The meaning is weakened.\n\n- Grammatical Error: The final sentence is missing an article. It should be 'they painted a whole castle' to be grammatically correct.\n\nSuggestion: Correct the factual error about the cranes immediately. Rephrase 'same twin brothers' to be grammatically correct. Connect the ideas about the size of the work and the need for cranes using a simple connector like 'so' or 'because'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9174,
+          "meaningbert": 0.9193
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:14:39.044525",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Os G\u00eameos are twin brothers and they look the same.  \nThey are from S\u00e3o Paulo.  \nThey paint tags.  \nThey also paint big bright pictures of people on building sides.  \nTheir work is big, so they need cranes to lift them.  \nIn 2007 they painted a whole castle in Scotland.",
+      "timestamp": "2025-09-01 17:14:39.044683",
+      "metadata": {
+        "text_id": "e1a6731f-9121-4c1d-bd24-229d968001ab",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 17:14:56.407222",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b08a1f08-a43b-41e9-8aaa-bbeaab8754b2",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text fully complies with all A2 requirements.\n\n- Factual Integrity: All facts from the original text are present and correct.\n- Meaning Preservation: The MeaningBERT score of 0.91 and BERTScore of 0.92 are well above the required thresholds, confirming high fidelity to the source material.\n- CEFR Compliance: The text correctly registers as A2, meeting the target level precisely.\n- Vocabulary Audit: The vocabulary is strictly limited to A1 and A2 levels. The simplification of 'identical' to 'look the same' and 'huge, colourful' to 'big bright' is an exemplary execution of A2 standards.\n- Structural Analysis: The text uses short, simple sentences. The original complex sentence structure ('...so big that they need...') was correctly simplified into a basic cause-and-effect sentence using 'so', which is ideal for the A2 level. The text is a model of A2 simplification.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9152,
+          "meaningbert": 0.9149
+        }
+      }
+    }
+  ]
+}

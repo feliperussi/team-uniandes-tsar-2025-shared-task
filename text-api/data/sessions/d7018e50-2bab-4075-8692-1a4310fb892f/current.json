@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "4f4859cf-9ca4-4cc6-b1ff-5a1bd4e64383",
+    "cefr_level": "B1",
+    "text_id": "text_001",
+    "text_translated": "Some asteroids could be a threat. They are rocks that travel in space and can pass very close to Earth. NASA has made a map of many of these asteroids. NASA does not expect any of them to be a threat in the next hundred years. With its technology NASA can track these asteroids and predict if they might hit Earth. It also has two ways to stop an asteroid that could hit our planet.",
+    "version": 11,
+    "created_at": "2025-09-01 17:58:40.972552",
+    "updated_at": "2025-09-01 17:58:40.972556",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "bd40bc88-fa6f-4236-b6d2-be6b4395242a",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation. The MeaningBERT score of 0.7151 is below the required 0.75 threshold. This failure is caused by the removal of critical data from the original text, specifically the number of asteroids ('1,400') and the proximity definition ('7.5 million kilometres'). Replacing these facts with general terms like 'many' and 'very close' significantly weakens the core message. The submission also fails on a second high-priority check: CEFR Compliance. The output was classified as 'A2' instead of the target 'B1'. This is a result of oversimplification; the text consists of short, disconnected sentences that lack the complexity and flow required for B1. To correct this, you must reintroduce the key numbers to restore the original meaning. Additionally, combine some of the short sentences using B1-level connectors to achieve the target CEFR level. For example: 'Although NASA has mapped 1,400 of these asteroids, it does not expect any to be a threat in the next hundred years.'",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.9086,
+      "meaningbert": 0.7151
+    },
+    "created_at": "2025-09-01 17:59:13.514652"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "13e9c7e4-2308-4696-a9b2-9313d5e75638",
+    "cefr_level": "B1",
+    "text_id": "05-b1",
+    "text_translated": "Potentially Hazardous Asteroids are rocks that come close enough to pass within 7.5\u202fmillion kilometres of Earth\u2019s orbit. NASA has made a map of 1,400 of these asteroids, and none of them are expected to be a threat in the next hundred years. Because the necessary technology is already available, NASA can track these objects and predict a possible impact. At that point, two defence solutions could be launched.",
+    "version": 1,
+    "created_at": "2025-09-01 17:53:18.113151",
+    "updated_at": "2025-09-01 17:53:18.113151",
+    "metrics_meaningbert": 0.9449,
+    "metrics_cefr_compliance": "B2"
+  }
+}

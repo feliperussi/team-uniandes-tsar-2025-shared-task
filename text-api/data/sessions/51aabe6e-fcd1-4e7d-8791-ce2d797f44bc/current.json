@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "850104a1-0e60-4d32-b809-f8b67f4d7113",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "The Hunger Games is a game every year. The Capitol is the main city. A long time ago, the areas fought the Capitol. The Capitol uses the games to punish the areas for this. Every year, each area gives one boy and one girl. They are between 12 and 18 years old. Their names are chosen by chance. They must fight in a big fight. Only one person can live. The chosen teenagers are called 'tributes'. A 'tribute' is a person chosen for the games. The Capitol makes everyone in the country watch the games on TV.",
+    "version": 16,
+    "created_at": "2025-08-31 21:12:48.275208",
+    "updated_at": "2025-08-31 21:12:48.275218",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "5f93af94-826d-47b1-bc96-e6209ce9b3e7",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6153 is significantly below the required 0.75 threshold. This indicates a critical failure to preserve the core message of the original text.\n\n- Primary Failure: The original text states the games are used to 'remind the districts that they are being punished'. Your version only states the Capitol uses the games to 'punish the areas'. The crucial concept of the games as a constant, annual 'reminder' has been completely lost. This is a severe deviation in meaning.\n\n- Structural Failure: The original text uses a subordinate clause ('which the Capitol uses...') to create a strong, direct link between the event and its purpose. Your text breaks this into four separate, simple sentences. This disjointed structure weakens the cause-and-effect relationship and contributed to the low meaning preservation score.\n\n- Vocabulary Violation: The B1-level word 'punish' was used. This is not A2 vocabulary. An A2-compliant text must not use B1 words.\n\nSuggestion: Restore the lost meaning of 'reminder'. Rephrase to explain that the Capitol wants the areas to remember they were wrong. Replace the B1 word 'punish' with an A2-level explanation, such as 'to show the areas that the Capitol is in control'.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.92,
+      "meaningbert": 0.6153
+    },
+    "created_at": "2025-08-31 21:13:18.499583"
+  },
+  "attempt_number": 16,
+  "best_attempt": {
+    "id": "b402a8fe-d8d0-47d7-8cda-20c38b6feb65",
+    "cefr_level": "A2",
+    "text_id": "03-a2",
+    "text_translated": "The Hunger Games is a game every year. The Capitol is the main city. It uses the games to punish other parts of the country. These parts are called districts. The districts fought the Capitol in the past.\n\nEvery year, each district chooses one boy and one girl. They are between 12 and 18 years old. They are chosen by chance, like in a lottery. They must fight in a big battle. Only one person can live. The chosen teenagers have a special name. They are called 'tributes'. Everyone in the country must watch the games on TV.",
+    "version": 1,
+    "created_at": "2025-08-31 21:02:15.821475",
+    "updated_at": "2025-08-31 21:02:15.821485",
+    "metrics_meaningbert": 0.6584,
+    "metrics_cefr_compliance": "A2"
+  }
+}

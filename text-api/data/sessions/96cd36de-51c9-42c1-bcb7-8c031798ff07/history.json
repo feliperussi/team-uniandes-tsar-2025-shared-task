@@ -1,0 +1,413 @@
+{
+  "session_id": "96cd36de-51c9-42c1-bcb7-8c031798ff07",
+  "created_at": "2025-09-01 17:25:19.100887",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:25:20.266824",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "100-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some news says the world is more violent.  \nBut there is hope.  \nBetween 1945 and 1990, there were 30 wars.  \nEach war killed more than 100,000 people.  \nToday there are still internal wars.  \nBut most countries live more peacefully now.  \nTerror attacks have gone up in recent years.  \nSince World War Two, wars have killed many more civilians than soldiers.  \nFor civilians, the numbers are not all bad.  \nDeaths are nine times more likely from very bad crime.  \nThey are less likely from political fighting.  \nThe worldwide killing rate fell a little.  \nIt was 8 per 100,000 people in 2000.  \nIt fell to about 5.3 in 2015.",
+      "timestamp": "2025-09-01 17:25:20.267003",
+      "metadata": {
+        "text_id": "b3cdea52-82a5-4db0-8175-82e2d37d45a6",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:25:22.143965",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7bdb4a00-07d1-4a41-8a85-879b2077c9d5",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Non-Compliance. The text passed all automated metric checks but fails the qualitative audit due to the use of multiple words above the A2 CEFR level. Adherence to the A2 vocabulary is not optional.\n\n- The word 'violent' is B1. It appears in the sentence: 'Some news says the world is more violent.'\n- The word 'internal' is B2. It appears in the sentence: 'Today there are still internal wars.' This is a direct failure to simplify the original 'civil wars'.\n- The word 'political' is B1. It appears in the sentence: 'They are less likely from political fighting.'\n- The word 'fighting' is B1. It appears in the sentence: 'They are less likely from political fighting.'\n- The word 'worldwide' is B1. It appears in the sentence: 'The worldwide killing rate fell a little.'\n- The word 'killing' is B1. It appears in the sentence: 'The worldwide killing rate fell a little.'\n\nSuggestion: Replace all B1 and B2 words with A2-level descriptions. Do not use words from the 'Vocabulary Candidates for Replacement' list that are not A1 or A2. Replace 'internal wars' with 'wars inside a country'. Replace 'political fighting' with 'fighting about the government'. Replace 'worldwide killing rate' with 'the number of people killed around the world'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9039,
+          "meaningbert": 0.874
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:25:38.221975",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some news says the world is more unsafe.  \nBut there is hope.  \nBetween 1945 and 1990, there were 30 wars.  \nEach war killed more than 100,000 people.  \nToday there are still wars inside a country.  \nBut most countries live more peacefully now.  \nTerror attacks have gone up in recent years.  \nSince World War Two, wars have killed more people.  \nMore people who are not soldiers were killed than soldiers.  \nFor people who are not soldiers, the numbers are not all bad.  \nDeaths are nine times more likely from very bad crime.  \nThey are less likely from fighting about the government.  \nThe number of people killed around the world fell a little.  \nIt was 8 per 100,000 people in 2000.  \nIt fell to about 5.3 in 2015.",
+      "timestamp": "2025-09-01 17:25:38.222209",
+      "metadata": {
+        "text_id": "795edcc9-9dfa-49ae-bda0-daaaa5077131",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:26:11.604537",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c433aca9-e1f9-46c1-a499-07607694e8df",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8929 is below the required 0.90 threshold. This indicates a significant loss of key phrasing and factual precision from the original text.\n\n- Primary Deviation (Fidelity and Factual Integrity): The original text states 'wars have killed many more civilians than soldiers'. Your output splits this into two sentences: 'Since World War Two, wars have killed more people. More people who are not soldiers were killed than soldiers.' The first sentence, 'wars have killed more people', is factually ambiguous and misrepresents the original's direct comparison. This inaccurate simplification is the primary cause of the low fidelity score.\n\n- Vocabulary Violation: The word 'fighting' is classified as B1 level. Its use in 'fighting about the government' violates the strict A2 vocabulary requirement.\n\n- Suggestion: Combine the two sentences about civilian deaths into one clear, comparative statement. Example: 'Since World War Two, wars have killed more people who are not soldiers than soldiers.' Replace the B1 word 'fighting' with a simpler A2 concept like 'problems with the government'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8929,
+          "meaningbert": 0.8437
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:26:23.295338",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some news says the world is more unsafe.  \nBut there is hope.  \nBetween 1945 and 1990 there were 30 wars.  \nEach war killed more than 100,000 people.  \nToday there are still wars inside a country.  \nBut most countries live more peacefully now.  \nTerror attacks have gone up in recent years.  \nSince World War Two, wars have killed more civilians than soldiers.  \nDeaths are nine times more likely from bad crime.  \nThey are less likely from government problems.  \nThe number of people killed around the world fell a little.  \nIt was 8 per 100,000 people in 2000.  \nIt fell to about 5.3 in 2015.",
+      "timestamp": "2025-09-01 17:26:23.295651",
+      "metadata": {
+        "text_id": "0e457f63-f1f2-4581-80d2-8eabf19182a6",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:26:51.516957",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6790c0f2-1e39-4982-a794-08bd687877a2",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8941 is below the required 0.90 threshold. This indicates a significant loss of key words and factual phrasing from the original text. While the text is factually correct and uses A2 structures, the simplification was too aggressive, damaging lexical fidelity.\n\n- Deviation: The term 'violent crime' was replaced with 'bad crime'. This is an oversimplification that loses the specific meaning of violence.\n- Deviation: The term 'political conflict' was replaced with 'government problems'. This is vague and does not accurately capture the meaning of conflict.\n- Deviation: The phrase 'global murder rate' was replaced with 'The number of people killed around the world'. This loses the specific and important concept of a 'rate'.\n- Deviation: The concept of 'terrorism has shot up' was simplified to 'Terror attacks have gone up'. This is acceptable but contributed to the overall fidelity score drop.\n\nSuggestion: You must preserve more of the original's specific vocabulary. Rephrase to define complex terms simply, do not replace them with vague generalities. For 'violent crime', use a phrase like 'crime that hurts people'. For 'political conflict', use 'fights about politics'. Retain the word 'rate' and explain it if necessary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8941,
+          "meaningbert": 0.807
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:27:00.349773",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some news says the world is more unsafe.  \nBut there is hope.  \nBetween 1945 and 1990 there were 30 wars.  \nEach war killed more than 100,000 people.  \nToday there are still wars inside a country.  \nBut most countries live more peacefully now.  \nTerrorism has shot up in recent years.  \nSince World War Two, wars have killed more civilians than soldiers.  \nDeaths are nine times more likely from crime that hurts people.  \nThey are less likely from fights about politics.  \nThe global murder rate fell a little.  \nThe rate shows how many people die per 100,000.  \nIt was 8 9? Actually: It was 8 per 100,000 people in 2000.  \nIt fell to about 5.3 in 2015.",
+      "timestamp": "2025-09-01 17:27:00.350521",
+      "metadata": {
+        "text_id": "48f17c36-0e74-4b27-b5ab-23d8eee8f341",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:27:24.122561",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0ef9556a-611b-464c-bdc3-7e5946d13718",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The primary reason for failure is a corruption of factual data. The sentence 'It was 8 9? Actually: It was 8 per 100,000 people in 2000.' contains extraneous characters and numbers ('9? Actually:') that make the information incorrect and confusing. This is an absolute failure of the first diagnostic protocol.\n\nAdditional Failures:\n- Fidelity Failure: The BERTScore of 0.89 is below the required 0.90. This indicates a loss of key phrasing from the original text. The simplification was too aggressive, losing important lexical detail.\n- CEFR Vocabulary Violation: The text uses multiple words above the A2 level. 'Terrorism' (B2), 'global' (B1), and 'murder' (B1) are not compliant. These words must be replaced with A2-level vocabulary or broken down into simple definitions.\n\nCorrective Actions:\n- Suggestion: Remove the erroneous characters from the sentence about the murder rate. State the fact clearly and correctly.\n- Suggestion: Rephrase sentences to improve fidelity. For example, 'Some news says the world is more unsafe' loses the meaning of 'increasingly violent'. Rephrase to 'Some news says the world is becoming more violent'.\n- Suggestion: Replace all non-A2 words. 'Terrorism' must be explained in simple terms. 'Global murder rate' must be rephrased to 'the number of murders around the world'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8906,
+          "meaningbert": 0.8439
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:27:29.830871",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some news says the world is becoming more violent.  \nBut there is hope.  \nBetween 1945 and 1990 there were 30 wars.  \nEach war killed more than 100,000 people.  \nToday there are still wars inside a country.  \nBut most countries get along more now.  \nAttacks by groups have shot up in recent years.  \nSince World War Two, wars have killed more civilians than soldiers.  \nDeaths are nine times more likely from crimes that hurt people than from fights about rules.  \nThe number of killings around the world fell a little.  \nIt shows how many people die per 100,000.  \nIt was 8 per 100,000 people in 2000.  \nIt fell to about 5.3 in 2015.",
+      "timestamp": "2025-09-01 17:27:29.831427",
+      "metadata": {
+        "text_id": "80c627db-9050-4be0-9883-8a331ac93041",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 17:27:55.437088",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "5d59ea1f-c420-4f71-9852-ae90bae0f14c",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8932 is below the required 0.90 threshold. This is a non-negotiable failure.\n\n- The primary reason for this failure is the excessive simplification of key terms, which resulted in a loss of lexical fidelity when compared to the original text.\n- The phrase 'political conflict' was replaced with 'fights about rules'. This simplification is too broad and loses the specific meaning, directly causing the metric to fail.\n- The term 'violent crime' was replaced with 'crimes that hurt people'. While closer in meaning, this also contributed to the drop in the fidelity score.\n- The text successfully meets the A2 classification and preserves the general meaning (MeaningBERT score 0.8357), but it does not adhere to the strict fidelity requirement.\n\nSuggestion: Revise the text to retain more of the original key vocabulary while maintaining A2 simplicity. The phrase 'fights about rules' must be rephrased to more accurately reflect 'political conflict' without using B1 vocabulary. For example, 'fights between political groups'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8932,
+          "meaningbert": 0.8357
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:28:04.355938",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some news says the world is becoming more violent.  \nBut there is hope.  \nBetween 1945 and 8 0 4 5 there were 30 wars.  \nEach war killed more than 100,000 people.  \nToday there are still wars inside a country.  \nBut most countries get along more now.  \nAttacks by groups have shot up in recent years.  \nSince World War Two, wars have killed more civilians than soldiers.  \nDeaths are nine times likely from violent crime than from political conflict.  \nThe number of killings around the world fell a little.  \nIt was 8 per 100,000 people in 2000.  \nIt fell to about 5.3 in 2015.",
+      "timestamp": "2025-09-01 17:28:04.356445",
+      "metadata": {
+        "text_id": "52a41da7-8de7-4f7e-b062-35cdc6122a8e",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:28:25.486618",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "29d93185-8f2a-4ba7-bcb3-da65dc98efea",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The text contains a critical error of fact.\n- The original text states the period is 'between the end of World War II and 1990'. Your output incorrectly states 'Between 1945 and 8 0 4 5'. This is an unacceptable deviation.\n- Fidelity Failure. The BERTScore of 0.8958 is below the required 0.90. This indicates a loss of key phrasing and lexical detail from the original text.\n- Vocabulary Violation. The B1 terms 'violent crime' and 'political conflict' are not A2 level. They must be replaced with simpler descriptions. For example, 'violent crime' can be 'when people hurt other people'.\n- Grammatical Error. The sentence 'Deaths are nine times likely...' is incorrect. It must be 'Deaths are nine times more likely...'. This omission changes the meaning.\nSuggestion: Correct the date to 1990 immediately. Rephrase sentences containing B1 vocabulary using only A2 words. Fix the grammatical error in the sentence about crime statistics.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8958,
+          "meaningbert": 0.8531
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:28:35.325689",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some news says the world is becoming more violent.  \nBut there is hope.  \nBetween 1945 and 1990 there were 30 wars.  \nEach war killed more than 100,000 people.  \nToday there are still wars inside a country.  \nBut most countries get along more now.  \nAttacks by groups have shot up in recent years.  \nSince World War Two, wars have killed more civilians than soldiers.  \nDeaths are nine times more likely from when people hurt other people.  \nThey are less likely from when groups fight over politics.  \nThe number of killings around the world fell a little.  \nIt was 8 per 100,000 people in 2000.  \nIt fell to about 5.3 in 2015.",
+      "timestamp": "2025-09-01 17:28:35.326290",
+      "metadata": {
+        "text_id": "ca9ae8ec-f82e-41cf-afa5-e9573d1a9437",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:29:07.761390",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d141f090-933d-4cc1-b073-e382e6581ae1",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8934 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\n- Primary Deviation: The low BERTScore was caused by replacing precise original terms like 'violent crime' and 'political conflict' with overly simplistic and awkward phrases like 'when people hurt other people' and 'when groups fight over politics'. This simplification sacrificed too much lexical fidelity.\n- Vocabulary Violation: The B1 word 'politics' was not successfully removed. It remains in the sentence 'They are less likely from when groups fight over politics', which violates the A2 vocabulary standard.\n- Structural Error: The sentence structure 'Deaths are nine times more likely from when...' is grammatically incorrect and unnatural. This phrasing is confusing and does not meet A2 clarity standards.\n\nSuggestion: Rephrase the sentences about crime and political conflict to be both simpler and more accurate. The structure must be corrected. Example: 'People are nine times more likely to be killed by crime than by political fighting.' This restores fidelity and removes the B1 vocabulary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8934,
+          "meaningbert": 0.8487
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:29:16.710510",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some news says the world is getting more dangerous.  \nBut there is hope.  \nBetween 1945 and 1990 there were 30 wars.  \nEach war killed more than 100,000 people.  \nToday there are still wars inside a country.  \nBut most countries get along more now.  \nAttacks by groups have shot up in recent years.  \nSince World War Two, wars have killed more people than soldiers.  \nPeople are nine times more likely to be killed by crime than by group fighting.  \nThe number of killings around the world fell a little.  \nIt was 8 per 100,000 people in 2000.  \nIt fell to about 5.3 in 2015.",
+      "timestamp": "2025-09-01 17:29:16.711611",
+      "metadata": {
+        "text_id": "6d01d749-4557-49a1-9560-c966899db6b8",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:29:38.401313",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "0049dc82-33aa-4b89-a868-f1617e280cd4",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text states that wars killed 'many more civilians than soldiers'. Your output, 'wars have killed more people than soldiers', is factually incorrect and nonsensical as 'people' includes soldiers. This is an instant failure.\n\n- Fidelity Failure: The BERTScore of 0.8965 is below the required 0.90 threshold. This metric confirms a significant loss of key words from the original text, primarily the replacement of 'civilians' with the incorrect word 'people'.\n- Vocabulary Violation: The word 'fighting' is classified as B1. It is not permitted at the A2 level. The phrase 'group fighting' is an unacceptable simplification for 'political conflict'.\n\nSuggestion: Correct the factual error immediately. The sentence must read 'wars have killed more civilians than soldiers'. Replace the B1 word 'fighting' with an A2 alternative. Rephrase 'People are nine times more likely to be killed by crime than by group fighting' to 'People are nine times more likely to be killed by crime than by war'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8965,
+          "meaningbert": 0.8036
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:29:42.921667",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some news says the world is getting more dangerous.  \nBut there is hope.  \nBetween 1945 and 1990 there were 30 wars.  \nEach war killed more than 100,000 people.  \nToday there are still wars inside a country.  \nBut most countries get along more now.  \nAttacks by groups have shot up in recent years.  \nSince World War Two, wars have killed more civilians than soldiers.  \nPeople are nine times more likely to be killed by crime than by war.  \nThe number of killings around the world fell a little.  \nIt was 8 per 100,000 people in 2000.  \nIt fell to about 5.3 in 2015.",
+      "timestamp": "2025-09-01 17:29:42.922149",
+      "metadata": {
+        "text_id": "bd6e1e71-2c02-49b8-bbe7-f5f927ddd84c",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 17:30:05.579308",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "bffb8f4c-a87a-40b8-a54f-e52eb36d9642",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8983 is below the required 0.90 threshold. This indicates a loss of key lexical items from the original text. While simplification is necessary for A2, the chosen phrasing strayed too far from the source vocabulary, resulting in a score that is too low.\n\n- Deviation: The original term 'terrorism' was replaced with 'Attacks by groups'. This simplification is too broad and loses lexical precision.\n- Deviation: The phrase 'co-existing more peacefully' was replaced with 'get along more'. The phrasal verb 'get along' is too informal and loses the specific meaning of 'peacefully'.\n- Deviation: The term 'political conflict' was simplified to 'war'. This is an oversimplification that loses the distinction from other types of wars mentioned in the text.\n\nSuggestion: Rephrase to restore lexical fidelity while maintaining A2 simplicity. The term 'terrorism' can be explained simply, for example, 'attacks by terrorists'. The concept of 'co-existing peacefully' must be retained; rephrase to 'countries live together more peacefully'. Distinguish 'political conflict' from other wars.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8983,
+          "meaningbert": 0.8304
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:30:11.482635",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some news says the world is getting more dangerous.  \nBut there is hope.  \nBetween 1945 and 1990 there were 30 wars.  \nEach war killed more than 100,000 people.  \nToday there are still civil wars.  \nCountries live together more peacefully now.  \nAttacks by terrorists have shot up in recent years.  \nSince World War Two, wars have killed more civilians than soldiers.  \nPeople are nine times more likely to be killed by violent crime than by political conflict.  \nThe number of killings around the world fell a little.  \nIt was 8 per 100,000 people in 2000.  \nIt fell to about 5.3 in 2015.",
+      "timestamp": "2025-09-01 17:30:11.483292",
+      "metadata": {
+        "text_id": "a26e2a80-5959-444d-af43-da6366ae92dd",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:30:33.953376",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c801717f-96c2-44e1-8979-acbdcc01dda6",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Compliance. The text fails due to the inclusion of vocabulary above the A2 level. The words 'civil' (B2), 'violent' (B1), 'political' (B1), and 'conflict' (B1) are not permissible at this level without simplification or definition.\n- The phrase 'civil wars' uses a B2-level adjective. This is unacceptable. Suggestion: Rephrase to 'wars inside a country'.\n- The phrase 'violent crime' uses a B1-level adjective. This is a clear violation. Suggestion: Rephrase to 'crime where people are hurt'.\n- The phrase 'political conflict' uses two B1-level words. This is too complex. Suggestion: Rephrase to 'fighting between groups about who is in charge'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.901,
+          "meaningbert": 0.8751
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:30:49.637605",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some news says the world is not safe.  \nBut there is hope.  \nBetween 1945 and 1990 there were 30 wars.  \nEach war killed more than 100,000 people.  \nToday there are still wars inside a country.  \nCountries live together more peacefully now.  \nAttacks by people who use bombs have shot up in recent years.  \nSince World War Two, wars have killed people who are not soldiers.  \nThey have also killed soldiers.  \nPeople are nine times more likely to be killed by crime.  \nThey are less likely to be killed by fighting.  \nThe fighting is between groups about who is in charge.  \nThe number of killings around the world fell a little.  \nIt was 8 per 100,000 people in 2000.  \nIt fell to about 5.3 in 2015.",
+      "timestamp": "2025-09-01 17:30:49.638274",
+      "metadata": {
+        "text_id": "21c6dbc6-259f-476a-910b-444aede387ba",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:31:11.790980",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "553fc5a8-cba8-444c-a066-9db7283befd1",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on two critical metrics. The MeaningBERT score of 0.7451 is below the required 0.75 threshold, and the BERTScore of 0.8837 is below the required 0.90. This indicates a significant loss of the original text's core message and key phrasing.\n\n- Core Meaning Lost: The original text states wars killed 'many more civilians than soldiers'. Your version, 'wars have killed people who are not soldiers. They have also killed soldiers', completely removes this crucial comparison. This is a severe alteration of the original fact and the primary reason for the low metric scores.\n\n- B1 Vocabulary Violation: The text uses the words 'fighting' and 'charge'. These are B1-level words and are not compliant with the A2 standard. The sentence 'The fighting is between groups about who is in charge' is unacceptable.\n\n- Inaccurate Simplification: Your attempt to simplify 'political conflict' resulted in the use of prohibited B1 vocabulary. This is a failure to find an A2-compliant solution.\n\nSuggestion: You must rephrase the text to restore the lost comparison between civilian and soldier deaths. Remove the B1 words 'fighting' and 'charge'. Replace the sentence about 'political conflict' with a simpler A2 construction, such as 'They are less likely to be killed when groups fight for power.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8837,
+          "meaningbert": 0.7451
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "session_id": "e65bad0b-fb99-4b26-87eb-d6c6a5237999",
+  "created_at": "2025-09-01 17:39:29.127956",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:39:29.133948",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "94-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: At the start of her work, psychologist Carol Dweck from Stanford University gave a group of ten\u2011year\u2011old children problems that were slightly too hard for them. One group answered positively, saying they liked the challenge and believed their abilities could be developed. Dweck calls this a **growth mindset**, which means they think they can improve. They focus on what they can achieve in the future. However, another group felt that their **intelligence** was being judged and that they had failed. They showed a **fixed mindset**, which means they think their ability cannot change and they cannot imagine improving. Some of these children said they might cheat later, while others tried to find someone who had done worse than them to raise their self\u2011esteem.",
+      "timestamp": "2025-09-01 17:39:29.135074",
+      "metadata": {
+        "text_id": "30e3c847-9527-4b17-b50e-68a338839661",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:39:29.142180",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3d8973b4-dccb-4318-8aab-698af80acb20",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2', which is above the target 'B1' level. This is likely due to the use of complex grammatical structures and vocabulary. The passive voice construction in the phrase 'their intelligence was being judged' is a key feature of B2-level grammar. To correct this, simplify the structure, for example: 'they felt that people were judging their intelligence'. Additionally, the vocabulary includes words like 'psychologist' and 'self-esteem' which are typically B2. Consider replacing 'self-esteem' with 'how they feel about themselves' to better align with the B1 target. Despite this, the submission successfully preserved all factual information and the core meaning of the original text, as shown by the high BERTScore and MeaningBERT scores.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9512,
+          "meaningbert": 0.8737
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:39:34.699801",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: At the start of her work, Carol Dweck from Stanford University gave a group of ten\u2011year\u2011old children problems that were a little too hard for them. One group answered positively, saying they liked the challenge and believed they could develop their abilities. Dweck calls this a growth mindset \u2013 the idea that people can improve their abilities. They focus on what they can achieve in the future. Another group felt that people were judging their intelligence and that they had failed. They showed a fixed mindset \u2013 the idea that abilities cannot change and they cannot imagine improving. Some of these children said they might cheat later, while others tried to find someone who had done worse than them to feel better about themselves.",
+      "timestamp": "2025-09-01 17:39:34.701086",
+      "metadata": {
+        "text_id": "ea7be2af-f448-4841-8d4c-84be9a943736",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 9/10 - PASS",
+      "timestamp": "2025-09-01 17:39:58.521327",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "85b0193b-b739-4a22-a450-8ea4a0ace58a",
+        "grade": 9,
+        "approval": "PASS",
+        "feedback_text": "This is an excellent simplification that passes all priority checks. Factual integrity is perfectly maintained. The MeaningBERT (0.94) and BERTScore (0.94) are very high, confirming that the core message and key details were preserved. The text correctly achieved the target B1 classification. The standout feature of this submission is the exemplary handling of keywords. Both 'growth mindset' and 'fixed mindset' were not just kept, but were clearly and simply defined in context, which is a best-practice approach. Vocabulary simplification was also strong, for instance, changing 'boost their self-esteem' to the much more accessible 'feel better about themselves'. For future improvement, consider the B2-level word 'failed'. While it is a common word, a phrase like 'had done badly' could be a slightly better fit for the B1 level. Overall, this is a high-quality and effective simplification.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9474,
+          "meaningbert": 0.9452
+        }
+      }
+    }
+  ]
+}

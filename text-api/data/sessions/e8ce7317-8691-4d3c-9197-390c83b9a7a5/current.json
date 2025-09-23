@@ -1,0 +1,37 @@
+{
+  "text": {
+    "id": "58134916-b258-4a3c-a624-0224f66abd82",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Artists sometimes paint `graffiti` on walls. They paint it in many places.\n`Graffiti` is pictures or words on walls.\nCouncils do not want artists to paint `graffiti` everywhere.\nSo, councils give artists special places to paint.\nArtists can paint only in these places.\nThis helps to stop `graffiti` on other walls.\n\nTaiwan is one place like this.\nIt has 'graffiti zones'.\nArtists can paint on walls there.\nThey can write on walls there.\n\nS\u00e3o Paulo is a city in Brazil.\nThe people who run the city also let some artists paint.\nThey paint on the city's trains that go under the city.",
+    "version": 11,
+    "created_at": "2025-09-01 17:03:36.231666",
+    "updated_at": "2025-09-01 17:03:36.231690",
+    "metrics_meaningbert": null,
+    "metrics_cefr_compliance": null
+  },
+  "feedback": {
+    "id": "8bc8aa18-dafd-43b6-bc24-a19014d7dcfe",
+    "approval": "FAIL",
+    "grade": 3,
+    "feedback": "FAIL: Meaning and Fidelity Failure. The text fails to preserve the core message and lexical fidelity of the original. The MeaningBERT score of 0.6336 is significantly below the required 0.75. The original text conveys a nuanced approach where councils 'encourage artists not to paint graffiti randomly' by 'allowing them to work in designated areas'. Your version simplifies this to 'Councils do not want artists to paint graffiti everywhere. So, councils give artists special places to paint.', which loses the collaborative and encouraging aspect, making it sound like a simple prohibition and provision. The BERTScore of 0.8941 is also below the required 0.90. This indicates a loss of key lexical detail. For example, 'encourage artists not to paint graffiti randomly' was not adequately preserved, and 'designated areas' was replaced with 'special places', which, while simpler, reduces lexical fidelity. Suggestion: Rephrase the opening to better capture the original's intent of encouraging artists to use specific areas rather than simply stopping them from painting everywhere. Ensure key phrases are retained or simplified with higher lexical similarity.",
+    "metrics": {
+      "cefr_compliance": "A2",
+      "bertscore": 0.8941,
+      "meaningbert": 0.6336
+    },
+    "created_at": "2025-09-01 17:03:52.830601"
+  },
+  "attempt_number": 11,
+  "best_attempt": {
+    "id": "10b495d2-60cd-42a9-bf48-d627b9b0c3e0",
+    "cefr_level": "A2",
+    "text_id": "text_001",
+    "text_translated": "Some councils have a problem.\nArtists paint `graffiti` on many walls.\nThe councils want to stop this.\nSo, they give artists special places.\nArtists can paint `graffiti` there.\n\nTaiwan is one place like this.\nIt has 'graffiti zones'.\nArtists can paint on walls there.\nThey can write on walls there.\n\nS\u00e3o Paulo is a city in Brazil.\nThe city council there also lets some artists paint.\nThey paint on the city's subway trains.",
+    "version": 6,
+    "created_at": "2025-09-01 17:01:23.997543",
+    "updated_at": "2025-09-01 17:01:23.997556",
+    "metrics_meaningbert": 0.6757,
+    "metrics_cefr_compliance": "A2"
+  }
+}

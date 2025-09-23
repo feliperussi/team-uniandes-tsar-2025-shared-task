@@ -1,0 +1,80 @@
+{
+  "session_id": "843a6718-9826-40d6-a970-c1c6faea8c1a",
+  "created_at": "2025-09-01 10:46:07.786909",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:46:07.790707",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "34-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: People often ask if graffiti, which is writing or pictures painted on walls and buildings, is art or vandalism. Vandalism is the crime of damaging property that doesn't belong to you. The answer depends on your opinion, but in many countries, it is considered vandalism when people write or paint on public or private property. Because of this, many street artists have been caught by the police, and some have had to pay money as a punishment. In addition, city governments often complain about how much it costs to clean the graffiti from buildings, buses and trains.",
+      "timestamp": "2025-09-01 10:46:07.790960",
+      "metadata": {
+        "text_id": "e1394a72-a0af-46dd-9b81-94946ed662b2",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 10:46:07.797863",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e4c45278-1e86-43ee-95f5-f3bd4285d371",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2', which is above the required 'B1' target level. The primary reason for this is sentence complexity. The first sentence, 'People often ask if graffiti, which is writing or pictures painted on walls and buildings, is art or vandalism,' uses a non-defining relative clause ('which is...'). This structure is too advanced for B1. Suggestion: Split this into two simpler sentences, such as: 'Graffiti is writing or pictures painted on walls. People often ask if it is art or vandalism.' Additionally, the definition of vandalism introduced the C1-level word 'damaging'. A simpler B1 alternative like 'hurting' or 'breaking' should have been used to maintain the target CEFR level.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9369,
+          "meaningbert": 0.8621
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 10:46:33.689366",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Graffiti is writing or pictures painted on walls and buildings, and people often ask if it is art or vandalism. Vandalism is the crime of breaking property that doesn't belong to you. The answer depends on your opinion, but in many countries, it is considered vandalism when people write or paint on public or private property. Because of this, many street artists have been caught by the police, and some have had to pay money as a punishment. In addition, city governments often complain about how much it costs to clean the graffiti from buildings, buses and trains.",
+      "timestamp": "2025-09-01 10:46:33.689549",
+      "metadata": {
+        "text_id": "98dc71ab-dd2f-4014-abf1-2b4e3591afd0",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 10:46:53.380549",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ab414e23-8709-4195-824b-290c0c9e2b9e",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "This is an exemplary simplification that passes all diagnostic checks. Factual integrity is perfectly maintained. The MeaningBERT (0.8572) and BERTScore (0.931) are well above the required thresholds, confirming excellent preservation of meaning and key details. The B1 CEFR classification is accurate. The submission's key strength lies in its vocabulary strategy: it successfully defines the keywords 'graffiti' and 'vandalism' at the beginning, which is an excellent technique for a B1 audience. Furthermore, the use of B1 connectors like 'Because of this' and 'In addition' improves the text's flow and cohesion. This is a model example of a successful B1 simplification.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.931,
+          "meaningbert": 0.8572
+        }
+      }
+    }
+  ]
+}

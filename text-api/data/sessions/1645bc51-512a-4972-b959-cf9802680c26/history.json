@@ -1,0 +1,413 @@
+{
+  "session_id": "1645bc51-512a-4972-b959-cf9802680c26",
+  "created_at": "2025-09-01 17:29:07.757981",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:29:08.757677",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "111-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Old scary movies show people in trouble.  \nThey cannot call for help or the police.  \nCell phones make this idea less real today.  \nHow can we keep the tension?  \nNo phone signal!  \nIf you are the main character, you will lose signal.  \nIt will happen at the key moment.  \nYou need to call for help, but there is no signal.  \nOr the phone power runs out when you try to call.  \nOr both.",
+      "timestamp": "2025-09-01 17:29:08.757846",
+      "metadata": {
+        "text_id": "646cc7c5-45cd-43b1-b83d-5b4e34905925",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:29:09.859042",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1bed4330-cc21-4355-b90d-1eac066a9745",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.879 is below the required 0.90. The MeaningBERT score of 0.7256 is also below the 0.75 threshold. This is an instant failure on meaning and fidelity preservation.\n\n- BERTScore Failure: The score is too low because key terms from the original text were oversimplified, leading to a loss of lexical detail. For example, 'suspense' and 'phone coverage' were replaced.\n\n- MeaningBERT Failure: The score is too low, indicating the core message was not fully preserved. The concept of 'maintaining suspense' is more specific than 'keep the tension'.\n\n- Vocabulary Audit Failure: The text uses the B1 word 'signal' and the B2 word 'tension'. These words are above the A2 level and are not permitted.\n\n- Suggestion: Rephrase to restore fidelity and adhere to A2 vocabulary. Replace 'tension' with an A2 phrase like 'the scary feeling'. Replace 'signal' with an A2 phrase like 'phone service' or 'connection'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.879,
+          "meaningbert": 0.7256
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:29:14.406104",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Old scary movies show people in trouble.  \nThey cannot call the police.  \nCell phones make this idea less real today.  \nHow can we keep the scary feeling?  \nThe answer is no phone service.  \nIf you are the main character, you will lose phone service.  \nIt will happen at the key moment.  \nYou need to call for help.  \nThere is no phone service.  \nOr the phone power runs out when you try to call.  \nOr both.",
+      "timestamp": "2025-09-01 17:29:14.406298",
+      "metadata": {
+        "text_id": "eabdb0dd-0bbb-43b2-bc1f-47a3f7d2be6c",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:29:35.818652",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f34700bb-3183-4d8e-8101-f0b16a7d4d4a",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on two critical metrics. The primary failure is the MeaningBERT score of 0.6933, which is significantly below the required 0.75 threshold. This indicates a substantial loss of the original text's core message. A secondary failure is the BERTScore of 0.8716, which is below the 0.90 minimum, indicating an excessive loss of key vocabulary.\n\nDiagnostic Analysis:\n- Meaning Preservation Failure (MeaningBERT): The simplification was too aggressive. The original's concept of 'suspense' is more specific than 'scary feeling'. The phrase 'in desperation' carries a stronger meaning than 'in trouble'. This cumulative loss of nuance resulted in a text that does not adequately represent the original's meaning.\n- Fidelity Failure (BERTScore): Too many key terms were replaced, causing the low score. Words like 'protagonists', 'desperation', 'believable', 'suspense', and 'coverage' were all substituted. While simplification is required, this level of replacement damages lexical fidelity.\n\nCorrective Path:\n- Rephrase to restore original meaning. The goal is not just simple words, but simple sentences that convey the correct, specific ideas.\n- Suggestion: Instead of 'keep the scary feeling', use a phrase that is closer to the meaning of 'suspense', such as 'make the movie exciting'.\n- Suggestion: Restore some key vocabulary if possible, or find closer A2-level synonyms. The current version has oversimplified to the point of inaccuracy.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8716,
+          "meaningbert": 0.6933
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:29:41.010427",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Old horror movies show heroes in desperation.  \nThey cannot call the police.  \nMobile phones make this less believable today.  \nHow can we keep the suspense?  \nThe answer is no phone service.  \nIf you are the hero, you lose phone service.  \nIt happens at the key moment.  \nYou need to call for help.  \nThere is no phone service.  \nOr the phone battery dies when you try to call.  \nOr both.",
+      "timestamp": "2025-09-01 17:29:41.010685",
+      "metadata": {
+        "text_id": "9a11b768-4b08-4d06-8440-a0ca46a296d2",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:30:04.865960",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e449b703-3fe6-4534-9ac5-055c1df8920b",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary failure is a significant deviation from the original text's meaning and fidelity, confirmed by metrics. The MeaningBERT score of 0.7142 is below the required 0.75 threshold. The BERTScore of 0.8782 is below the required 0.90 threshold. This indicates a critical loss of the original message and its specific phrasing.\n\n- Meaning Loss: The original text's concept of it being 'difficult or impossible' to call for help was reduced to the absolute 'cannot'. This loses the nuance of the struggle, which is central to the meaning.\n\n- Fidelity Loss: Key phrases like 'phone coverage' and 'maintain suspense' were replaced with 'phone service' and 'keep the suspense'. While similar, these replacements reduce the lexical fidelity to the source text, contributing to the low BERTScore.\n\n- CEFR Compliance Failure: The text was classified as B1, which is above the A2 target. The sentence 'Or the phone battery dies when you try to call' uses a subordinate time clause ('when you try to call'). This is a B1-level grammatical structure and is not compliant with the A2 standard.\n\nSuggestion: The text must be rewritten. Restore the concept of 'difficulty' from the original. Split the sentence containing the 'when' clause into two simple A2 sentences. Example: 'You try to call. Then the phone battery dies.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8782,
+          "meaningbert": 0.7142
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:30:09.280257",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Old horror movies show heroes in desperation.  \nIt is hard to call the police.  \nMobile phones make this less believable today.  \nHow can we maintain suspense?  \nNo phone coverage.  \nIf you are the hero, you lose phone coverage.  \nIt happens at the key moment.  \nYou need to call for help.  \nYou have no phone coverage.  \nYour phone battery may die.  \nYou try to call.  \nThen the battery dies.  \nOr both.",
+      "timestamp": "2025-09-01 17:30:09.280557",
+      "metadata": {
+        "text_id": "41ab05c5-d32a-4ffc-8783-c98a97bfdd31",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:30:35.176117",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "866fb0cd-e59a-44a3-8e30-5eac07055438",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8689 is below the required 0.90. This is an instant failure. The text does not retain enough of the original phrasing to be considered a faithful simplification.\n\n- CEFR Compliance Failure: The text was classified as B1. The target is A2. This is a secondary automatic failure.\n- Vocabulary Violation: The B1 classification is a direct result of using vocabulary above the A2 level. The word 'maintain' is B1. The word 'coverage' is B2. These words are not permitted at the A2 level and must be simplified.\n- Lexical Simplification Error: The low BERTScore was caused by excessive simplification. The original's 'difficult or impossible' became 'hard'. The original's 'almost certain' was removed entirely. This damages the fidelity to the source text.\n- Structural Degradation: The output is a list of choppy, disconnected sentences. This is an A1-level structure that is too simplistic and does not form a coherent paragraph.\n\nSuggestion: Replace 'maintain' with 'keep'. Replace 'coverage' with 'signal' or 'connection'. Combine the short sentences using simple connectors like 'and' or 'so' to create a text with A2-level flow. Restore the lost meaning from the original text using simple A2 words.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8689,
+          "meaningbert": 0.8433
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:30:43.102869",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Old horror movies show a hero in trouble. It is difficult or impossible for the hero to call the police. Mobile phones make this less believable today. How can we keep the fear? The hero can have no phone signal. It is likely that at the key moment the hero needs help. The signal is then gone. The phone battery may also die, or both things can happen.",
+      "timestamp": "2025-09-01 17:30:43.103261",
+      "metadata": {
+        "text_id": "943d7eb0-5bd4-4c7a-a27c-e45f0eb7dee2",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:31:06.894370",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "dab00629-092a-499e-9a35-e2db6cd0920c",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6861 is below the required 0.75 threshold. This indicates a significant loss of the original text's core message. The original's emphasis on 'suspense' and 'desperation' was not adequately preserved.\n\nDiagnostic Details:\n- Meaning Loss: The original text describes a specific feeling of 'suspense'. Your text replaces this with the more general word 'fear', which does not carry the same meaning. The nuance is lost.\n- Structural Error: The sentence 'It is likely that at the key moment the hero needs help.' is a grammatical fragment. It is an incomplete thought and cannot stand alone. This is a critical failure in sentence construction.\n- Vocabulary Violation: The word 'signal' is classified as B1 level. All vocabulary must strictly adhere to the A2 level.\n\nCorrective Actions:\n- Suggestion: Fix the sentence fragment. Combine the two sentences into one complete idea, such as: 'It is likely that the phone signal is gone at the key moment the hero needs help.'\n- Suggestion: Replace the B1 word 'signal' with an A2 alternative like 'phone service'.\n- Suggestion: Rephrase to restore the original meaning. The text must convey the idea of 'suspense', not just 'fear'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9148,
+          "meaningbert": 0.6861
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:31:12.842568",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Old horror movies show a hero in trouble.  \nIt is hard for the hero to call the police.  \nMobile phones make this less believable today.  \nHow can we keep the suspense?  \nThe hero can have no phone service.  \nIt is likely that the phone service is gone.  \nThis happens at the key moment the hero needs help.  \nThe phone battery may also die, or both may happen.",
+      "timestamp": "2025-09-01 17:31:12.842854",
+      "metadata": {
+        "text_id": "b53245e7-dad2-49ca-a3d8-520057a4ad57",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:31:40.151038",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "581f7093-eee3-4794-ab3f-f602f420516e",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for failure is the inability to preserve the core message and fidelity of the original text, as confirmed by metric analysis.\n\n- MeaningBERT Score Violation: The score of 0.7006 is significantly below the required 0.75. The original text conveys a strong sense of certainty with phrases like 'almost certain' and 'absolutely need'. Your version weakens this to 'likely', which alters the core meaning.\n- BERTScore Violation: The score of 0.8795 is below the 0.90 threshold. This is a direct result of omitting key phrases from the original, such as 'call for help' and 'just as you are making the call'. This loss of lexical detail is unacceptable.\n- B1 Grammar Intrusion: The sentence 'It is likely that the phone service is gone' uses a 'that-clause'. This is a B1 grammatical structure and is not compliant with the A2 standard, despite the classifier's incorrect assessment.\n\nSuggestion: Rephrase to restore the original's certainty. Re-insert the omitted key phrases to improve fidelity. Eliminate the B1 'that-clause' by rewriting the sentence. For example: 'The phone service is probably gone.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8795,
+          "meaningbert": 0.7006
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:31:53.938267",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Old horror movies show a hero in trouble.  \nIt is hard for the hero to call for help.  \nMobile phones make this.  \nHow can we keep the suspense?  \nThe hero will have no phone service.  \nThis happens at the key moment when the hero needs help.  \nThe phone may die just as the hero makes the call.  \nBoth problems can happen.",
+      "timestamp": "2025-09-01 17:31:53.938762",
+      "metadata": {
+        "text_id": "9fd60e30-d9d2-4864-b1a4-9707a3f9bf4d",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:32:16.153017",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4cf67657-024c-4d36-822d-1f03207e3365",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6413 is critically below the required 0.75 threshold. This indicates a severe loss of the original text's core message.\n\n- Factual Inaccuracy: The sentence 'Mobile phones make this' is a catastrophic oversimplification. It fails to convey the original meaning that mobile phones make the situation of being unable to call for help 'less believable'. This is a distortion of the source text's logic.\n- Fidelity Failure: The BERTScore of 0.8761 is below the 0.90 minimum. Key concepts like 'believable' and 'suspense' were either lost or poorly translated, resulting in a text that does not faithfully represent the original.\n- Vague Language: The word 'this' in 'Mobile phones make this' is unclear and semantically empty. It does not connect to the previous idea correctly.\n\nSuggestion: You must rewrite the third sentence to accurately convey the concept of 'believability'. Rephrase to state that mobile phones make the old problem seem less real or believable in movies today. Do not sacrifice core meaning for simplicity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8761,
+          "meaningbert": 0.6413
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:32:21.686713",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Old horror movies show a hero in trouble.  \nIt is hard for the hero to call for help.  \nMobile phones make this seem less real today.  \nHow can we keep the suspense?  \nThe hero has no phone service.  \nThis happens at the key moment when help is needed.  \nThe phone may die just as the hero calls.  \nBoth problems can happen.",
+      "timestamp": "2025-09-01 17:32:21.687239",
+      "metadata": {
+        "text_id": "25987951-728e-4194-b284-53d4af9dc29a",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:32:44.901002",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8082964f-0b35-4522-a63f-43267c3fc3fd",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7072 is below the required 0.75 threshold. Additionally, the BERTScore of 0.8761 is below the required 0.90. This indicates a significant loss of the original text's core message and specific phrasing.\n\n- The simplification from 'protagonists were in desperation' to 'a hero in trouble' loses the intensity of the original concept.\n- The phrase 'difficult or impossible' was reduced to 'hard', which fails to capture the full meaning of the original text.\n- The output is a series of disconnected statements. The original text had a more narrative flow which has been lost, contributing to the low meaning preservation score.\n- While the vocabulary and sentence structure are compliant with the A2 level, the failure to maintain the original's meaning and fidelity is a critical error.\n\nSuggestion: Revise the text to better reflect the original's tone. Use simple connectors like 'and' or 'but' to link ideas. Restore the stronger concepts of 'desperation' and 'impossibility' using A2-level vocabulary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8761,
+          "meaningbert": 0.7072
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:32:53.928017",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Old horror movies show a hero in desperation.  \nThe hero cannot call for help.  \nIt is hard or impossible to call the police.  \nMobile phones make this seem less real today.  \nTo keep the suspense, the hero has no phone coverage.  \nThe phone may have no signal at the key moment.  \nThe phone battery may die just as the hero calls.  \nBoth problems can happen.",
+      "timestamp": "2025-09-01 17:32:53.928618",
+      "metadata": {
+        "text_id": "469a7fd4-a5c3-432e-9910-88256f2f0c48",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:33:15.536941",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7b65a38c-4168-4199-9f07-ad564f907f39",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.88 is below the required 0.90. This indicates an unacceptable loss of key words and phrasing from the original text. The text also fails on CEFR compliance.\n\n- CEFR Compliance Failure: The text was classified as B1, not the required A2. This is a critical error.\n- B-Level Vocabulary Violation: The text uses the words 'coverage' (B2) and 'signal' (B1). These are not A2 words and must be removed.\n- Structural Analysis: The advanced vocabulary is the primary reason for the B1 classification.\n\nSuggestion: Remove all words above the A2 level immediately. Replace 'coverage' and 'signal' with a simple A2 phrase like 'the phone does not work' or 'there is no service'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8841,
+          "meaningbert": 0.828
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:33:28.099748",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Old horror movies show a hero in desperation.  \nThe hero cannot call for help.  \nIt is hard to call the police.  \nMobile phones make this seem less real today.  \nTo keep the fear, the phone does not work.  \nThe phone may not work at the key moment.  \nThe phone battery may die just as the hero calls.  \nBoth problems can happen.",
+      "timestamp": "2025-09-01 17:33:28.100328",
+      "metadata": {
+        "text_id": "550c381c-df12-410f-a081-0e4bfcf00390",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:33:50.355015",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8dc4f6df-cf85-407d-ac28-89eb4d902b8b",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8733 is below the required 0.90 threshold. This indicates a significant loss of key phrasing from the original text. The text also fails the CEFR compliance check, registering as B1 instead of the required A2.\n\n- Fidelity Failure: Key concepts were altered. The original's 'maintain suspense' was changed to 'keep the fear'. These are not the same. 'Suspense' is a specific concept that was lost in the simplification.\n\n- CEFR Compliance Failure: The text was classified as B1. This is due to the use of grammatical structures that are too complex for the A2 level.\n\n- B1 Structure Detected: The sentence 'To keep the fear, the phone does not work' uses an infinitive of purpose at the beginning, which is a B1 characteristic.\n\n- B1 Structure Detected: The sentence 'The phone battery may die just as the hero calls' uses the subordinating conjunction 'just as'. This is a B1-level connector.\n\nSuggestion: Rephrase the text to eliminate B1 structures. Replace 'To keep the fear...' with a simple cause-and-effect sentence using 'so'. Example: 'The movie must be scary, so the phone does not work.' Replace 'just as' with a simpler A2 connector like 'when'. Example: '...when the hero calls.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8733,
+          "meaningbert": 0.8488
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:33:57.635660",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Old horror movies show a hero in trouble.  \nThe hero cannot call for help.  \nIt is hard to call the police.  \nMobile phones make this less real today.  \nThe movie needs suspense, so the phone does not work.  \nThe phone may have no coverage at the key moment.  \nThe phone battery may die when the hero calls.  \nBoth problems can happen.",
+      "timestamp": "2025-09-01 17:33:57.636333",
+      "metadata": {
+        "text_id": "5bb14f71-f672-4db5-95f5-e5cba0c91ccf",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:34:24.847561",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c4814814-6631-4407-9d1f-2a2f23ee9ca4",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8735 is below the required 0.90. This indicates a significant loss of key descriptive words and phrasing from the original text. The simplification was too aggressive, removing concepts like 'desperation', 'believable', and the intensity of 'absolutely need to call'.\n\n- Fidelity Score Violation: BERTScore is 0.8735, failing to meet the 0.90 minimum for lexical preservation.\n- Vocabulary Violation: The B2 word 'coverage' was used. This is not A2 vocabulary. It must be replaced or simplified.\n\nSuggestion: Restore the lost meaning to increase the fidelity score. Replace 'coverage' with an A2 phrase such as 'the phone has no signal' or 'the phone cannot connect'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8735,
+          "meaningbert": 0.8482
+        }
+      }
+    }
+  ]
+}

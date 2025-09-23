@@ -1,0 +1,413 @@
+{
+  "session_id": "d7018e50-2bab-4075-8692-1a4310fb892f",
+  "created_at": "2025-09-01 17:53:14.282924",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:53:18.113259",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "05-b1",
+        "version": 1,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Potentially Hazardous Asteroids are rocks that come close enough to pass within 7.5\u202fmillion kilometres of Earth\u2019s orbit. NASA has made a map of 1,400 of these asteroids, and none of them are expected to be a threat in the next hundred years. Because the necessary technology is already available, NASA can track these objects and predict a possible impact. At that point, two defence solutions could be launched.",
+      "timestamp": "2025-09-01 17:53:18.113375",
+      "metadata": {
+        "text_id": "13e9c7e4-2308-4696-a9b2-9313d5e75638",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:53:19.003679",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "37e9d7bc-0d8a-4549-a124-37865115a86d",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The output was classified as 'B2', which is too complex for the target B1 level. This is likely because the B2-level word 'Potentially' was retained from the original text in the term 'Potentially Hazardous Asteroids'. While the text successfully preserves all factual information and meaning, it does not meet the core simplification requirement. Suggestion: To achieve a B1 level, rephrase the opening to define the term in simpler language, for example: 'Some rocks are called Potentially Hazardous Asteroids. These are rocks that come close enough...'. This would avoid leading with a B2-level word and would improve readability for the target audience.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9616,
+          "meaningbert": 0.9449
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:53:22.834803",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some rocks are called \u201cPotentially Hazardous Asteroids\u201d. These are rocks that come close enough to pass within 7.5\u202fmillion kilometres of Earth\u2019s orbit. NASA has made a map of 1,400 of these asteroids, and none of them are expected to be a threat in the next hundred years. Because the necessary technology is already available, NASA can track these objects and predict a possible impact. At that point, two defence solutions could be launched.",
+      "timestamp": "2025-09-01 17:53:22.835085",
+      "metadata": {
+        "text_id": "906e968f-7388-48ad-aa60-8e1bc6baf8f4",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:53:46.202717",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7f49d135-fd0d-4632-9c0c-125e38623ba7",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2', which is above the target 'B1' level. This is likely due to complex sentence structures. For example, the sentence 'Because the necessary technology is already available, NASA can track these objects and predict a possible impact' is long and begins with a subordinate clause, a structure more typical of a B2 level. Suggestion: Simplify this by splitting it into two sentences, such as 'NASA has the technology it needs. This means it can track these objects and predict a possible impact.' On a positive note, the submission passed all factual integrity and meaning preservation checks with excellent scores (BERTScore: 0.95, MeaningBERT: 0.90), indicating that the core information was retained correctly.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9498,
+          "meaningbert": 0.8963
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:53:59.247722",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some rocks are called \u201cHazardous Asteroids\u201d. These rocks are close enough to pass within 7.5\u202fmillion kilometres of Earth\u2019s orbit. NASA has made a map of 1,400 of these asteroids, and none of them are expected to be a threat in the next hundred years. NASA has the technology it needs. This means it can track these objects and predict a possible impact. At that point, two defence solutions could be launched.",
+      "timestamp": "2025-09-01 17:53:59.248049",
+      "metadata": {
+        "text_id": "1a4230b8-73e9-4bdb-a8c6-4a5103bfb20b",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:54:26.840120",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "23e89bb9-65ca-4d00-aea3-c33c4d375bcf",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Integrity. The primary reason for failure is a critical factual error. The original text specifies 'Potentially Hazardous Asteroids', but the output incorrectly shortens this to 'Hazardous Asteroids'. This changes the scientific meaning, as the term 'potentially' is a critical part of the official classification. Accuracy must be the top priority. Additionally, the output failed the CEFR compliance check, receiving a 'B2' classification instead of the required 'B1'. This is likely because the word 'means' was used, which is classified as a B2 level vocabulary item. The sentence 'This means it can track these objects...' raised the overall complexity. To correct this, first restore the full, accurate term 'Potentially Hazardous Asteroids'. Second, to achieve a B1 level, rephrase the final sentences. For example, instead of 'NASA has the technology it needs. This means it can track...', try a more direct B1 construction like 'Using its technology, NASA can track these objects and predict a possible impact.'",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9459,
+          "meaningbert": 0.8725
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:54:36.967663",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Potentially Hazardous Asteroids are rocks that come close enough to pass within 7.5\u202fmillion kilometres of Earth\u2019s orbit. NASA has made a map of 1,400 of these asteroids, and none of them are expected to be a threat in the next hundred years. With its technology, NASA can track these objects and predict a possible impact. At that point, two defence solutions could be launched.",
+      "timestamp": "2025-09-01 17:54:36.967984",
+      "metadata": {
+        "text_id": "e33ccbbe-17e3-4d94-8516-312bfe2eeffd",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 17:55:03.637061",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "07fe77b3-d307-43e2-9c1f-681dfcd0651e",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2', which is above the required 'B1' target level. The primary reason for this is the retention of the B2-level word 'Potentially' at the beginning of the text. While 'Potentially Hazardous Asteroids' is a technical term, using this word directly caused the text to be assessed as too complex. To correct this, the concept should be rephrased using B1 vocabulary, for example: 'Asteroids that could be dangerous are rocks that come close...'. On a positive note, the submission passed all higher-priority checks for factual integrity and meaning preservation, with excellent BERTScore (0.96) and MeaningBERT (0.94) scores.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9612,
+          "meaningbert": 0.9412
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:55:07.853227",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Asteroids that could be a threat are rocks that come close enough to pass within 7.5\u202fmillion kilometres of Earth\u2019s orbit. NASA has made a map of 1,400 of these asteroids, and none of them are expected to be a threat in the next hundred years. With its technology, NASA can track these objects and predict a possible impact. At that point, two defence solutions could be launched.",
+      "timestamp": "2025-09-01 17:55:07.853482",
+      "metadata": {
+        "text_id": "5078ef56-eacf-4353-ba62-97a2d921e786",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:55:32.662782",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1a221203-a539-4d1f-843e-b5efc1684632",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2', which is above the target 'B1' level. This failure occurred despite the text passing the higher-priority Factual Integrity and Meaning Preservation checks. The B2 classification is likely due to the syntactic complexity of the first sentence: 'Asteroids that could be a threat are rocks that come close enough to pass within 7.5\u202fmillion kilometres of Earth\u2019s orbit.' A single sentence containing two relative clauses ('that could be a threat' and 'that come close enough...') is structurally too advanced for the B1 target. To correct this, split the sentence into two simpler ideas. For example: 'Some asteroids could be a threat. These are rocks that pass within 7.5 million kilometres of Earth\u2019s orbit.' The remainder of the text was well-simplified and maintained high factual fidelity.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9512,
+          "meaningbert": 0.9003
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:55:40.237370",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some asteroids could be a threat. These are rocks that pass within 7.5\u202fmillion kilometres of Earth\u2019s orbit. NASA has made a map of 1,400 of these asteroids, and none of them are expected to be a threat in the next hundred years. With its technology, NASA can track these asteroids and predict a possible impact. At that point, two defence solutions could be launched.",
+      "timestamp": "2025-09-01 17:55:40.237864",
+      "metadata": {
+        "text_id": "2127af35-4138-4689-9eb8-505d4664125c",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:56:14.346073",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "12870dff-7c87-4790-bb88-2ccbe6c9f70e",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2' instead of the target 'B1'. This is likely due to the use of passive voice constructions, which are more characteristic of a B2 level. For instance, the phrases 'are expected to be a threat' and 'two defence solutions could be launched' increase the grammatical complexity. To meet the B1 requirement, rephrase these sentences using active voice. For example, change 'none of them are expected to be a threat' to 'NASA does not expect any of them to be a threat'. Similarly, change 'two defence solutions could be launched' to 'NASA could launch two defence solutions'. The simplification did successfully preserve the original meaning and factual details, as shown by the high MeaningBERT (0.86) and BERTScore (0.94) metrics. The core issue is purely grammatical complexity.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9443,
+          "meaningbert": 0.8554
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:56:22.226461",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some asteroids might be a threat. They are rocks that pass within 7.5\u202fmillion kilometres of Earth\u2019s orbit. NASA has made a map of 1,400 of these asteroids, and NASA does not expect any of them to be a threat in the next hundred years. With its technology, NASA can track these asteroids and predict a possible impact. If an impact looks likely, NASA could launch two defence solutions.",
+      "timestamp": "2025-09-01 17:56:22.226904",
+      "metadata": {
+        "text_id": "ac43fe33-7378-4a1f-b356-3141074481ee",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 17:56:46.892181",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a98d02a4-47f3-4945-bba6-0558124f35ff",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2' instead of the required 'B1'. While the submission passed the Factual Integrity and Meaning Preservation checks with high scores, it failed to meet the target complexity level. The B2 classification is likely due to the length and structure of the third sentence: 'NASA has made a map of 1,400 of these asteroids, and NASA does not expect any of them to be a threat in the next hundred years.' This compound sentence is 26 words long. Suggestion: To correct this and achieve a B1 classification, split this into two simpler sentences. For example: 'NASA has made a map of 1,400 of these asteroids. NASA does not expect any of them to be a threat in the next hundred years.'",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9335,
+          "meaningbert": 0.8862
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:56:51.761430",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some asteroids might be a threat. They are rocks that pass within 7.5\u202fmillion kilometres of Earth\u2019s orbit. NASA has made a map of 1,400 of these asteroids. NASA does not expect any of them to be a threat in the next hundred years. With its technology, NASA can track these asteroids and predict a possible impact. If an impact looks likely, NASA could launch two defence solutions.",
+      "timestamp": "2025-09-01 17:56:51.761794",
+      "metadata": {
+        "text_id": "41e626c1-be92-4f11-839e-39d42def6624",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-09-01 17:57:22.273861",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "b2425e47-a4e3-4f2b-8cd6-e65053f67710",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2', which is above the required 'B1' target. While the simplification is factually accurate and preserves meaning well, the final sentence, 'If an impact looks likely, NASA could launch two defence solutions,' likely caused the higher classification. This sentence uses a conditional structure combined with several B1-level vocabulary words (impact, likely, launch, defence solutions). To meet the B1 target, this sentence could be simplified further. Suggestion: Replace it with 'If an asteroid is likely to hit Earth, NASA has two ways to stop it.' This change would reduce the lexical density and bring the text into B1 compliance.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9344,
+          "meaningbert": 0.8835
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:57:29.306904",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some asteroids might be a threat. They are rocks that pass within 7.5\u202fmillion kilometres of Earth\u2019s orbit. NASA has made a map of 1,400 of these asteroids. NASA does not expect any of them to be a threat in the next hundred years. With its technology, NASA can track these asteroids and predict a possible impact. If an asteroid is likely to hit Earth, NASA has two ways to stop it.",
+      "timestamp": "2025-09-01 17:57:29.307416",
+      "metadata": {
+        "text_id": "15da112e-119c-4a7e-b4d3-c494ac96967b",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:57:58.500298",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9ae4edd7-c458-4bc8-aab9-edd51a7c486b",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2', which is too complex for the target 'B1' level. The factual accuracy and meaning preservation were excellent, with high BERTScore (0.925) and MeaningBERT (0.869) scores. However, the sentence structures are too advanced. The sentence 'They are rocks that pass within 7.5 million kilometres of Earth\u2019s orbit' uses a long relative clause, and the final sentence uses a conditional 'If...' clause. These structures likely pushed the classification to B2. Suggestion: To correct this, simplify the sentence structures. For example, split the complex sentence into two simpler ones: 'These are rocks that can pass close to Earth. They can pass within 7.5 million kilometres of our orbit.'",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.925,
+          "meaningbert": 0.8687
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:58:08.349704",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some asteroids could be a threat. They are rocks. They can pass within 7.5\u202fmillion kilometres of Earth\u2019s orbit. NASA has made a map of 1,400 of these asteroids. NASA does not expect any of them to be a threat in the next hundred years. NASA can track these asteroids with its technology. It can also predict a possible impact. NASA has two ways to stop an asteroid that might hit Earth.",
+      "timestamp": "2025-09-01 17:58:08.352218",
+      "metadata": {
+        "text_id": "08542c2a-e055-4201-a3ec-6d73285803f7",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 5/10 - FAIL",
+      "timestamp": "2025-09-01 17:58:34.456352",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3d1ff1aa-c36b-4ff7-b750-6bd164add290",
+        "grade": 5,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as 'B2' instead of the required 'B1'. The output is factually correct and successfully preserves the core meaning of the original, passing the first two priority checks. However, it fails on the target CEFR level. The B2 classification is likely due to the density of specific technical information. Phrases like '7.5 million kilometres of Earth\u2019s orbit' and the number '1,400', even when presented in simple sentences, can increase the conceptual load and be interpreted by the classifier as too complex for the B1 level. To improve, consider breaking down these technical concepts further. For instance, 'They can pass within 7.5 million kilometres of Earth\u2019s orbit' could be simplified to 'They can travel in space and pass very close to our planet, Earth' to make the concept more accessible.",
+        "metrics": {
+          "cefr_compliance": "B2",
+          "bertscore": 0.9195,
+          "meaningbert": 0.8598
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level B1",
+      "timestamp": "2025-09-01 17:58:40.972752",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "B1"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some asteroids could be a threat. They are rocks that travel in space and can pass very close to Earth. NASA has made a map of many of these asteroids. NASA does not expect any of them to be a threat in the next hundred years. With its technology NASA can track these asteroids and predict if they might hit Earth. It also has two ways to stop an asteroid that could hit our planet.",
+      "timestamp": "2025-09-01 17:58:40.973894",
+      "metadata": {
+        "text_id": "4f4859cf-9ca4-4cc6-b1ff-5a1bd4e64383",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:59:13.514987",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "bd40bc88-fa6f-4236-b6d2-be6b4395242a",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation. The MeaningBERT score of 0.7151 is below the required 0.75 threshold. This failure is caused by the removal of critical data from the original text, specifically the number of asteroids ('1,400') and the proximity definition ('7.5 million kilometres'). Replacing these facts with general terms like 'many' and 'very close' significantly weakens the core message. The submission also fails on a second high-priority check: CEFR Compliance. The output was classified as 'A2' instead of the target 'B1'. This is a result of oversimplification; the text consists of short, disconnected sentences that lack the complexity and flow required for B1. To correct this, you must reintroduce the key numbers to restore the original meaning. Additionally, combine some of the short sentences using B1-level connectors to achieve the target CEFR level. For example: 'Although NASA has mapped 1,400 of these asteroids, it does not expect any to be a threat in the next hundred years.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9086,
+          "meaningbert": 0.7151
+        }
+      }
+    }
+  ]
+}

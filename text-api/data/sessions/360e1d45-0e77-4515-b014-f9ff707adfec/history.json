@@ -1,0 +1,376 @@
+{
+  "session_id": "360e1d45-0e77-4515-b014-f9ff707adfec",
+  "created_at": "2025-09-01 17:54:59.488942",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:55:00.323444",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "16-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last two hundred years, new tools helped children live longer.  \nHealth also.  \nThis made the number of people grow fast.  \nBig families had more children.  \nThose children grew up and had their own children.  \nIn the 1960s, birth control became easy to get.  \nThen the world\u2019s usual number of babies for each woman fell.  \nIt went from six babies to about two babies.",
+      "timestamp": "2025-09-01 17:55:00.323550",
+      "metadata": {
+        "text_id": "9c94309b-768d-4a11-b721-58e71176f6ce",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:55:02.024145",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "cca71fda-28dc-413d-8d2e-030d2b547d08",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5833 is catastrophically below the required 0.75 threshold. The text has lost the core message of the original.\n\n- Primary Failure (Meaning): The original text establishes a clear cause-and-effect relationship: 'improvements in technology and health meant fewer children died young'. Your version, 'new tools helped children live longer. Health also,' breaks this critical link into two disconnected statements, fundamentally altering the logic of the text.\n\n- Secondary Failure (Fidelity): The BERTScore of 0.889 is below the minimum requirement of 0.90. This is a direct result of replacing precise terminology with vague approximations. The phrase 'global average number' was replaced with 'world\u2019s usual number', which is not an equivalent concept. Key lexical items like 'improvements' and 'availability' were completely lost.\n\n- Structural Defect: The sentence 'Health also.' is a fragment. While simple, it is grammatically incomplete and demonstrates a failure to construct a proper A2 sentence.\n\nSuggestion: Re-write the first two sentences to restore the cause-and-effect relationship. Example: 'Because of better tools and health, more children lived for a long time.' Suggestion: Restore the meaning of 'global average'. Use 'the average number for the whole world'. Suggestion: Do not use sentence fragments.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.889,
+          "meaningbert": 0.5833
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:55:07.850564",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Because of better tools and health, fewer children died young.  \nThis made the number of people grow fast.  \nBig families had many children.  \nThose children grew up and had children.  \nIn the 1960s, birth control became easy to get.  \nThen the average number for the whole world fell.  \nIt fell from six babies to about two babies.",
+      "timestamp": "2025-09-01 17:55:07.850882",
+      "metadata": {
+        "text_id": "ab5d0f21-aa13-4986-95f2-405c8e6ec398",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:55:28.321899",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "20c4eecd-f026-47ca-8c81-852ef7f9d1fc",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5801 is catastrophically below the required 0.75 threshold. The text has been simplified to the point of losing its core message.\n\n- Primary Failure: The critical concept of 'babies per woman' has been completely omitted. Your text states 'the average number for the whole world fell... from six babies to about two babies'. This is meaningless. The average number of what? This omission destroys the central fact of the original text.\n- Secondary Failure: The BERTScore of 0.8886 is below the minimum requirement of 0.90. This indicates a failure to retain key lexical information.\n- The text, while linguistically simple (A2), fails its primary purpose of conveying the original information accurately.\n\nSuggestion: You must restore the core meaning. Rephrase the final sentences to include the concept of 'per woman'. Example: 'The average number of babies for each woman fell. It went from six babies to about two babies for each woman.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8886,
+          "meaningbert": 0.5801
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:55:37.472248",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Better tools and health meant fewer children died young.  \nThis made the number of people grow fast.  \nBig families had many children.  \nThose children grew up and had children.  \nIn the 1960s birth control became easy to get.  \nThen the average number of babies per woman fell.  \nIt went from about six babies per woman.  \nIt fell to about two babies per woman.",
+      "timestamp": "2025-09-01 17:55:37.472544",
+      "metadata": {
+        "text_id": "165f39d3-196a-4527-b880-91798598b79e",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:56:06.980068",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "aec2316b-3983-4684-a60f-d1fca902116f",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.66 is significantly below the required 0.75 threshold. This indicates a critical loss of the original message's core meaning. The text also fails the fidelity check, with a BERTScore of 0.89, which is below the minimum of 0.90.\n\n- Meaning Loss: Your simplification was too aggressive. The original text establishes a clear cause-and-effect relationship between 'improvements in technology and health' and 'fuelling rapid population growth'. Your version, 'This made the number of people grow fast,' is a vague and weak connection.\n- Factual Omission: Key contextual facts were deleted, not simplified. The phrases 'In the last two centuries' and 'global average' were completely removed. This is an unacceptable loss of information.\n- Fidelity Loss: The BERTScore failure is a direct result of replacing or removing key terms like 'technology' and 'global'. While the sentence structure is correctly simplified to an A2 level, it was achieved by sacrificing essential information.\n\nSuggestion: Re-write to preserve key facts. The time frame 'in the last two centuries' must be included in simple terms. The concept of a 'global' average must be restored. The link between better health and more people must be stated more directly.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8901,
+          "meaningbert": 0.6608
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:56:22.225574",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last two centuries, better tools and health saved many children.  \nThis made the world population grow fast.  \nBig families had many children.  \nThose children grew up and had children.  \nIn the 1960s, birth control became easy to get.  \nThe world average number of babies per woman fell.  \nIt fell from about six babies per woman.  \nIt fell to about two babies per woman.",
+      "timestamp": "2025-09-01 17:56:22.225906",
+      "metadata": {
+        "text_id": "b651e3fe-decb-43ba-b485-b7508de3c732",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:56:45.139934",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2f77c452-d537-484e-b0aa-f65e3661db02",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5719 is catastrophically below the required 0.75 threshold. The text has failed its primary purpose of conveying the original message.\n\n- Primary Deviation (MeaningBERT): The score of 0.5719 indicates a severe loss of meaning. The original text establishes a direct cause and effect: 'improvements... meant fewer children died young, fuelling rapid population growth'. Your version splits this into two disconnected ideas: 'saved many children' and 'This made the world population grow fast'. This separation breaks the logical link and fails to preserve the core message.\n\n- Secondary Deviation (BERTScore): The BERTScore of 0.8958 is below the minimum requirement of 0.90. This reflects a loss of key lexical items. Phrases like 'improvements in technology' and 'wider availability of contraception' were oversimplified, losing necessary detail.\n\n- Structural Flaw: The text is excessively fragmented. The sentences 'It fell from about six babies per woman. It fell to about two babies per woman.' are redundant and demonstrate poor construction. This is not effective A2 writing; it is simply broken English.\n\n- Suggestion: Restore the cause-and-effect relationship immediately. Combine the final two sentences into a single, coherent A2 statement. Example: 'The average number of babies per woman fell from about six to two.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8958,
+          "meaningbert": 0.5719
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:56:48.616682",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Better tools and health meant fewer children died young.  \nThis caused the world population to grow fast.  \nBig families had many children.  \nThose children grew up and had children.  \nIn the 1960s birth control became easy to get.  \nThe average number of babies per woman fell from six to two.",
+      "timestamp": "2025-09-01 17:56:48.617102",
+      "metadata": {
+        "text_id": "8759b43f-fa56-429d-9547-3077b909e71d",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:57:10.857329",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "93a6eec9-0da3-4664-b077-e5b0b7c494a1",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8973 is below the required 0.90 threshold. This indicates a significant loss of key words and factual phrasing from the original text.\n- The primary cause of the low score is the oversimplification of key concepts, which removed important lexical detail. For example, 'improvements in technology' was replaced with 'Better tools', and 'wider availability of contraception' was replaced with 'birth control became easy to get'.\n- Factual context was lost by omitting the timeframe 'In the last two centuries'. This detail is necessary for full fidelity to the original text.\n- Suggestion: Rephrase to restore key terms. Use 'New technology' instead of 'Better tools'. Restore the timeframe at the beginning of the text. The goal is simplification, not complete replacement of the original's vocabulary.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8973,
+          "meaningbert": 0.8315
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:57:22.278231",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last two centuries, new technology and health helped children survive.  \nThis made the world population grow fast.  \nBig families had many children.  \nThose children grew up and had children.  \nIn the 1960s birth control became widely available.  \nThe average number of babies per woman fell from six to two.",
+      "timestamp": "2025-09-01 17:57:22.278640",
+      "metadata": {
+        "text_id": "a4e0763f-c655-424c-a5e9-650c052f9aed",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:57:43.539999",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3ef26693-bd1b-4f6d-9e1a-9e18c7fd057a",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.68 is significantly below the required 0.75 threshold. The core message was not adequately preserved.\n\n- Meaning Loss: The original text states that 'fewer children died young', which directly caused population growth. Your version, 'helped children survive', is too general and weakens this critical cause-and-effect relationship.\n- Factual Omission: You removed the word 'global' when describing the average number of babies. This is a loss of specific information from the original text.\n- Vocabulary Violation (B1): The word 'survive' is not A2 level. It must be replaced.\n- Vocabulary Violation (B2): The word 'widely' is not A2 level. It must be replaced.\n\nSuggestion: Rephrase the first sentence to explicitly state that fewer children died. Replace 'survive' with an A2 phrase like 'live longer'. Replace 'widely available' with a simpler concept like 'easy to get'. Restore the word 'global'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9072,
+          "meaningbert": 0.6843
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:57:49.997782",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last two centuries, fewer children died young.  \nThis made the world population grow fast.  \nBig families had many children.  \nThose children grew up.  \nThey had children of their own.  \nIn the 1960s, birth control became easy to get.  \nThe global average number of babies per woman fell.  \nIt fell from six to two.",
+      "timestamp": "2025-09-01 17:57:49.998293",
+      "metadata": {
+        "text_id": "0c52d54f-beb2-4607-a168-3a34795a2f5d",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:58:17.431139",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e89ec67b-72b9-4cf7-b6ac-c69cfbfe6810",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5802 is a catastrophic deviation from the required 0.75 minimum. The text has failed to preserve the core message of the original source.\n\n- Primary Failure: The original text establishes a clear cause-and-effect relationship: 'improvements in technology and health' led to fewer child deaths. Your version completely omits this critical piece of information, stating only the effect. This is an unacceptable loss of meaning.\n- Secondary Failure (Fidelity): The BERTScore of 0.8989 is below the 0.90 threshold. This is a direct result of omitting key phrases like 'improvements in technology and health'.\n- Vocabulary Violation: The word 'global' is B1-level vocabulary. It was used without simplification, violating the strict A2 word list requirement.\n\nSuggestion: You must restore the lost meaning. Re-introduce the cause for the population change. Example: 'Technology and health got better. So, fewer children died young.' Replace the word 'global' with an A2-level phrase. Example: 'in the world'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8989,
+          "meaningbert": 0.5802
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:58:24.873568",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Technology and health got better.  \nSo fewer children died young.  \nThis made the world population grow fast.  \nBig families had many children.  \nThose children grew up.  \nThey had children of their own.  \nIn the 1960s, birth control became easy to get.  \nThe average number of babies per woman fell in the world.  \nIt fell from six to two.",
+      "timestamp": "2025-09-01 17:58:24.874023",
+      "metadata": {
+        "text_id": "8c4534d6-93a4-4d6d-adac-3161120caa89",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:58:55.312467",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7e9a629d-3a0d-4d74-b915-9721bcd56deb",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on two critical metrics. The MeaningBERT score of 0.7066 is below the required 0.75 threshold, indicating a loss of the original message. The BERTScore of 0.8855 is below the 0.90 minimum, indicating a significant loss of factual detail.\n\n- Primary Failure: You completely omitted the time frame 'In the last two centuries'. This is a critical factual detail from the original text. Its removal is an unacceptable loss of information.\n- Meaning Degradation: The original text establishes a direct cause and effect: 'improvements... fuelling rapid population growth'. Your version breaks this into three disconnected sentences, which weakens the core meaning.\n- Lexical Fidelity Loss: Key phrases like 'wider availability of contraception' and 'survived into adulthood' were replaced with phrases that, while simple, contributed to the overall drop in fidelity below the required 0.90 score.\n\nSuggestion: Re-insert the omitted time frame 'In the last two centuries'. Combine the first three sentences to restore the clear cause-and-effect relationship. The text must be simplified without deleting essential facts.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8855,
+          "meaningbert": 0.7066
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:59:07.959321",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last two centuries, technology and health got better.  \nFewer children died young, so the population grew fast.  \nBig families had many children.  \nThose children grew up6.  \nThey had children.  \nIn the 1960s, birth control became more available.  \nThe average number of children per woman fell from six to two.",
+      "timestamp": "2025-09-01 17:59:07.960204",
+      "metadata": {
+        "text_id": "97b1a9e3-d0ea-40b8-8dbd-422094478948",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:59:36.248360",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9e7eb75f-6485-42ea-8656-064a103ff898",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The sentence 'Those children grew up6.' contains a numerical error. The number '6' is incorrect and corrupts the meaning of the sentence. Adherence to factual integrity is the absolute first priority; this error constitutes an instant failure.\n\nIn addition to the primary failure, the text also fails on a secondary metric.\n\n- Fidelity Failure: The BERTScore of 0.897 is below the required 0.90 threshold. This indicates a loss of key lexical detail. The concept 'survived into adulthood' was oversimplified to 'grew up', contributing to this score drop.\n- Structural Deficiency: The text is excessively fragmented. The sequence 'Big families had many children. Those children grew up. They had children.' breaks a single, connected idea from the original text into three choppy, disconnected statements.\n\nSuggestion: Remove the numerical error immediately. Combine the fragmented sentences to restore the original's logical flow using a simple connector. Rephrase to improve fidelity. Example: 'These big families had many children, and those children grew up to have their own families.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.897,
+          "meaningbert": 0.8506
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:59:42.405941",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: In the last two centuries, technology and health got better.  \nFewer children died young, so the population grew fast.  \nThese big families had many children.  \nThose children grew up and had their own families.  \nIn the 1960s, birth control became more available.  \nThe average number of children per woman fell from six to two.",
+      "timestamp": "2025-09-01 17:59:42.406484",
+      "metadata": {
+        "text_id": "39e47aae-eab5-4b96-a4bf-62c763e11717",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-09-01 18:00:08.843014",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "1ac9f93e-0188-4d7c-8b9e-6d4bd69dc2f0",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text successfully meets all A2 criteria.\n\n- Factual Integrity: All facts, numbers, and concepts from the original text are accurately represented. The timeline, cause of population growth, and specific numbers for birth rates are correct.\n- Meaning Preservation: The MeaningBERT score of 0.85 and BERTScore of 0.91 are well above the required thresholds, confirming that the core message has been maintained with high fidelity.\n- CEFR Compliance: The text correctly classifies as A2. The vocabulary and sentence structure are perfectly aligned with this level.\n- Vocabulary Audit: The vocabulary is strictly limited to A1 and A2 words. Terms like 'technology', 'population', and 'birth control' are appropriate for the A2 level.\n- Structural Analysis: The use of short, simple sentences connected by basic conjunctions like 'so' and 'and' is an exemplary execution of A2 structural requirements. The text is clear and easy to follow.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9104,
+          "meaningbert": 0.8496
+        }
+      }
+    }
+  ]
+}

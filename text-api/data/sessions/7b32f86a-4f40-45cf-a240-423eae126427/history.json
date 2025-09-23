@@ -1,0 +1,413 @@
+{
+  "session_id": "7b32f86a-4f40-45cf-a240-423eae126427",
+  "created_at": "2025-09-01 17:56:51.750412",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:56:51.795056",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "18-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Bruce Springsteen still makes new music that is very popular.  \nHis songs fill big stadiums.  \nHe is still the best even in his late 60s.  \nI am not surprised.  \nHe tells basic stories about us.  \nWhen you listen to \u201cBorn in the USA\u201d, the stories stay important.",
+      "timestamp": "2025-09-01 17:56:51.795202",
+      "metadata": {
+        "text_id": "bbfa2bd4-17af-4797-b6a6-f6b27d429332",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:56:53.333854",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "808ff402-2d59-43e2-ba7b-e59542641234",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8856 is below the required 0.90 threshold. This indicates an unacceptable loss of key information from the original text.\n\n- Fidelity Failure: The low BERTScore is a direct result of oversimplification. The original text's specific phrases 'chart-topping' and 'top of his game' were replaced with generic terms 'very popular' and 'the best'. This loses critical lexical detail and fails to meet the fidelity standard.\n- Vocabulary Violation: The text uses the word 'basic', which is classified as B1 level. All vocabulary must be strictly within the A2 word list. This is a non-negotiable rule.\n\nSuggestion: Restore the lost meaning. Instead of 'the best', use a phrase like 'He is still very successful'. Replace the B1 word 'basic' with an A2 word like 'simple'. The text must be both simple and accurate.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8856,
+          "meaningbert": 0.845
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:57:02.100942",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Bruce Springsteen still makes new music.  \nHis songs are chart\u2011topping.  \nThey fill big stadiums.  \nHe is still very successful in his late 60s.  \nI am not surprised.  \nHe tells simple stories about us.  \nWhen you listen to \u201cBorn in the USA\u201d, the stories stay important.",
+      "timestamp": "2025-09-01 17:57:02.101204",
+      "metadata": {
+        "text_id": "1cfb81b6-7feb-4bab-8688-5819f528be43",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:57:36.541177",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "31cc585a-9d7d-49e6-b530-af5aebd61c25",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8822 is below the required 0.90 threshold. This indicates a significant loss of key phrasing from the original text.\n\n- Lexical Loss: The text completely omits the original's opening concept, 'Unlike many other best-selling album artists'. This comparison is a key part of the original message and its removal caused the low fidelity score.\n- Structural Complexity: The sentence 'When you listen to \u201cBorn in the USA\u201d, the stories stay important' uses a subordinate clause starting with 'When'. This is a B1 grammatical structure and is not compliant with the A2 standard. A2 texts must use simple sentences connected by 'and', 'but', 'so', or 'because'.\n\nSuggestion: Restore the omitted meaning with a simple sentence. For example: 'Many famous singers do not make new music when they are older. But Bruce Springsteen is different.' Split the complex sentence into two simple sentences. For example: 'You can listen to his song \u201cBorn in the USA\u201d. The stories in the song are still important today.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8822,
+          "meaningbert": 0.8731
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:57:45.402127",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many famous singers do not make new music when they are older.  \nBut Bruce Springsteen is not the same.  \nHe still makes new music.  \nHis songs are chart\u2011topping.  \nThey fill big stadiums.  \nHe is still very successful in his late 60s.  \nI am not surprised.  \nHe tells stories about us.  \nYou can listen to his song \u201cBorn in the USA\u201d.  \nThe stories in the song are still important today.",
+      "timestamp": "2025-09-01 17:57:45.405590",
+      "metadata": {
+        "text_id": "d6133c68-69f7-4c06-bef0-8023f793c014",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:58:11.847068",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "abb154ea-d44d-416f-8b83-5224e1c32f71",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8685 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\n- The text was over-simplified, causing this loss. The phrase 'remains at the top of his game' was reduced to 'still very successful', and 'most fundamental stories' became just 'stories'. This simplification sacrifices too much lexical detail.\n- The text violates A2 vocabulary standards.\n- Violation: The word 'chart-topping' is a B1-level compound adjective. It is not suitable for A2.\n- Violation: The word 'stadiums' is B1-level vocabulary.\n\nSuggestion: Rephrase to maintain higher fidelity to the original's key terms. Replace 'chart-topping' with a simpler A2 phrase like 'His songs are number one'. Replace 'stadiums' with an A2 alternative like 'He plays for many people in very big places'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8685,
+          "meaningbert": 0.8059
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:58:24.866109",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many famous singers stop making new music when they are older.  \nBut Bruce Springsteen does not stop.  \nHe still makes new music.  \nHis songs are number one.  \nHe plays for many people in very big places.  \nHe is still the best singer in his late 60s.  \nI am  not surprised.  \nHe tells the most important stories about us.  \nYou can listen to his song \u201cBorn in the USA\u201d.  \nThe stories in the song are still important today.",
+      "timestamp": "2025-09-01 17:58:24.866797",
+      "metadata": {
+        "text_id": "1429f770-d729-4832-9f7c-fea6c77bb181",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:58:55.308677",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "8b8dfa6a-d113-4dd0-ab45-539c03c0f9b2",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on two primary metrics, indicating a critical loss of meaning and fidelity.\n\n- MeaningBERT Failure: The score of 0.6603 is catastrophically below the required 0.75 threshold. The original text states Springsteen is at the 'top of his game,' meaning he performs at his peak ability. Your text incorrectly changes this to 'the best singer,' which is a subjective and factually different claim. This is a severe meaning shift.\n\n- Fidelity Failure: The BERTScore of 0.8607 is below the 0.90 minimum. This failure is caused by excessive replacement of key vocabulary. The original's specific, descriptive terms ('chart-topping', 'stadium-filling', 'best-selling album artists') were replaced with overly generic phrases ('number one', 'very big places', 'famous singers'), stripping the text of its lexical precision.\n\n- Structural Degradation: The original text's comparative structure ('Unlike many other...') is completely lost. Your version is a list of simple, disconnected statements that fails to convey the relationships between the ideas.\n\nSuggestion: You must restore the original meaning. Correct the factual error 'best singer' to a phrase like 'he still performs very well'. Re-introduce the comparison to other artists at the beginning. Combine sentences to create a more logical flow without exceeding A2 complexity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8607,
+          "meaningbert": 0.6603
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:59:02.902094",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many other singers stop making new music when they are older.  \nBut Bruce Springsteen does not stop.  \nHe still makes new music.  \nHis songs are very popular.  \nHe plays in very big places.  \nHe still performs very well even in his late 60s.  \nI am not surprised.  \nHe tells important stories about us.  \nYou can listen to his song \u201cBorn in the USA\u201d.  \nThe stories in the song are still important today.",
+      "timestamp": "2025-09-01 17:59:02.902579",
+      "metadata": {
+        "text_id": "bd1cad5f-7a85-4e5d-ae25-a3a209838be7",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:59:32.448728",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a1d12e41-aec4-462b-bb8b-c92659148fd4",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6358 is significantly below the 0.75 minimum, indicating a critical loss of the original message's depth. The BERTScore of 0.8618 is also below the 0.90 threshold, confirming a loss of key vocabulary.\n\n- Meaning Loss: The original text's concept of Springsteen telling 'our most fundamental stories about ourselves' was reduced to 'tells important stories about us'. This oversimplification loses the core idea of deep, personal, and universal truths.\n\n- Fidelity Loss: Key descriptive phrases such as 'chart-topping' and 'stadium-filling' were replaced with generic terms like 'very popular' and 'very big places'. This level of simplification sacrifices too much of the original's specific information, causing the low BERTScore.\n\n- Structural Weakness: The output is a series of short, disconnected sentences. This choppy style fails to capture the comparative structure ('Unlike many other artists...') of the original text, further weakening the message.\n\n- Suggestion: Recombine sentences to improve logical flow. Restore the lost meaning by finding a simpler way to express 'fundamental stories'. The text must be simplified without erasing the core concepts of the original.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8618,
+          "meaningbert": 0.6358
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:59:42.404784",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many other singers stop making new music when they are older.  \nBruce Springsteen still makes new music.  \nHis songs are very popular.  \nThey play in big places.  \nHe still sings well even in his late 60s.  \nI am not surprised.  \nHe tells big stories about us.  \nYou can listen to his song \u201cBorn in the USA\u201d.  \nThe stories in the song are still important today.",
+      "timestamp": "2025-09-01 17:59:42.405168",
+      "metadata": {
+        "text_id": "bbbffcab-114b-49ff-8e68-39b444268273",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 18:00:08.875089",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "4b9e74be-1968-4324-9686-8c5781c305a1",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The primary reason for failure is the MeaningBERT score of 0.68, which is significantly below the required 0.75 threshold. This indicates a severe loss of the original text's core message. The text also fails the fidelity check, with a BERTScore of 0.86, below the minimum of 0.90.\n\n- Meaning Loss: The original text describes Springsteen telling 'our most fundamental stories about ourselves'. Your version, 'He tells big stories about us', is an oversimplification that loses the critical concept of 'fundamental' and personal connection.\n\n- Fidelity Loss: The BERTScore is low because key descriptive phrases from the original were completely removed instead of being simplified. 'Chart-topping' and 'stadium-filling' were replaced with the generic 'very popular' and 'play in big places', losing factual detail and lexical fidelity.\n\n- Structural Issues: The text is broken into too many short, disconnected sentences. This choppy structure contributes to the loss of meaning and makes the text read at an A1 level, not A2.\n\n- Vocabulary Deviation: The word 'making' is a B2-level gerund. This is an unacceptable deviation for the A2 standard.\n\nSuggestion: You must rephrase to better capture the original meaning. Combine short sentences using A2 connectors like 'and' or 'so'. Find closer A2 equivalents for key concepts; for example, 'chart-topping' can be simplified to 'his songs are number one' which is more precise than 'very popular'. Replace the word 'making'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8654,
+          "meaningbert": 0.6856
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 18:00:27.650148",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many singers stop new music when they are older.  \nBut Bruce Springsteen still makes new songs.  \nHis songs are number one and they fill stadiums.  \nHe is still singing well in his late 60s.  \nI am not surprised.  \nHe tells our most basic stories about us.  \nYou can listen to his song \u201cBorn in the USA\u201d.  \nThe stories in that song are still important today.",
+      "timestamp": "2025-09-01 18:00:27.650611",
+      "metadata": {
+        "text_id": "2a90f85b-3c17-4bef-8858-c035bcb18268",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 18:00:48.639040",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "785a9c29-9f61-4ad8-98a0-19f5138356b3",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.88 is below the required 0.90. This indicates a significant loss of key phrasing from the original text.\n\n- Lexical Fidelity Violation: The BERTScore is too low because key concepts were oversimplified, losing their connection to the source. The phrase 'best-selling album artists' was reduced to 'Many singers', and 'remains at the top of his game' became 'still singing well'. This level of simplification damages lexical fidelity.\n- Vocabulary Violation: The word 'basic' is B1 level. Its use in 'tells our most basic stories' is a direct violation of the A2 vocabulary standard. All vocabulary must be strictly A2 or below.\n\nSuggestion: Rephrase to restore lexical fidelity without adding complexity. Replace 'Many singers' with 'Many famous singers'. Replace the B1 word 'basic' with an A2 word like 'simple' or 'important'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8801,
+          "meaningbert": 0.769
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 18:00:57.205882",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many famous singers stop making new music when they are older.  \nBut Bruce Springsteen still makes new songs.  \nHis songs are number one and they fill stadiums.  \nHe is still a number one singer in his late 60s.  \nI am not surprised.  \nHe tells our most important stories about us.  \nYou can listen to his song \u201cBorn in the USA\u201d.  \nThe stories in that song are still important today.",
+      "timestamp": "2025-09-01 18:00:57.206748",
+      "metadata": {
+        "text_id": "0c94f43f-d554-4dc3-b39d-0a8df2033cd0",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 18:01:18.583822",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "fb1a2308-f690-4eec-a740-cbb2af8aa973",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.878 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n\n- Primary Deviation: The text sacrifices lexical fidelity for simplicity. Key concepts from the original were replaced with phrases that are too generic, causing the low BERTScore.\n- Evidence: The phrase 'best-selling album artists' was reduced to 'famous singers'. The concept 'at the top of his game' was reduced to 'a number one singer'. This oversimplification loses important detail and nuance from the source text.\n- Structural Note: While the sentence structure is appropriately simple for A2, the loss of specific vocabulary is too great.\n\nSuggestion: Revise the text to re-introduce more specific vocabulary from the original in a simple A2 structure. For example, change 'famous singers' to 'singers who sell many albums'. Change 'a number one singer' to 'still one of the best singers'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.878,
+          "meaningbert": 0.8064
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 18:01:23.361247",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many singers who have many albums stop making new music.  \nThey stop when they are old.  \nBut Bruce Springsteen still makes new songs.  \nHis songs are number one and fill stadiums.  \nHe is still one of the best singers in his late 60s.  \nI am not surprised.  \nHe tells our most important stories.  \nYou can listen to his song \u201cBorn in the USA\u201d.  \nThe stories in that song are still important today.",
+      "timestamp": "2025-09-01 18:01:23.361776",
+      "metadata": {
+        "text_id": "ac8aa731-67ee-4a27-bf76-3242e96e3c3c",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 18:01:43.112876",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "40c0050b-341d-4584-8e80-d20ad69377d4",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.87 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text. The simplification is too aggressive, sacrificing lexical fidelity. The phrase 'best-selling album artists' was replaced with 'singers who have many albums', losing the specific concept of 'best-selling'. The phrase 'remains at the top of his game' was simplified to 'is still one of the best singers', which loses the idiomatic meaning and lexical detail. The text was broken into too many short, disconnected sentences, which further reduced its fidelity to the original's structure. Suggestion: Revise the text to re-integrate key vocabulary from the source. Combine some sentences to better reflect the original's flow while maintaining A2 simplicity. For example, 'Many singers with best-selling albums stop making new music, but Bruce Springsteen is different'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8727,
+          "meaningbert": 0.831
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 18:01:49.754525",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many best-selling album artists stop making new music when they are old.  \nBut Bruce Springsteen still releases new music.  \nIt is number one and fills stadiums.  \nHe is still at the top of his game.  \nHe is in his late 60s.  \nI am not surprised.  \nHe tells our most important stories about ourselves.  \nWhen you listen to his song \u201cBorn in the USA\u201d.  \nThe stories stay important today.",
+      "timestamp": "2025-09-01 18:01:49.756492",
+      "metadata": {
+        "text_id": "c2042de7-458e-4664-a64b-18e863afd515",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 18:02:11.260415",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "050c5657-fd2a-48af-be27-97b45b53e473",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8867 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text, failing a primary diagnostic check.\n\nDetected Deviations:\n- Fidelity Loss: The low BERTScore is a direct result of replacing specific concepts like 'fundamental stories' and 'relevant today' with the generic term 'important'. This simplification loses too much of the original's lexical detail.\n- Vocabulary Violation: The text includes the word 'making', which is classified as B2 level. All vocabulary must conform to the A2 standard. This word should have been replaced.\n- Structural Error: The line 'When you listen to his song \u201cBorn in the USA\u201d.' is a sentence fragment. A dependent clause cannot stand alone as a complete sentence. This is a fundamental grammatical error.\n\nCorrective Path:\n- Suggestion: Correct the sentence fragment. Combine 'When you listen to his song \u201cBorn in the USA\u201d' with the following sentence to form a complete thought.\n- Suggestion: Remove the B2 word 'making'. Rephrase the first sentence to use A2 vocabulary, for example: 'Many best-selling album artists stop releasing new music...'\n- Suggestion: To improve fidelity, find closer A2-level synonyms for the original's concepts instead of defaulting to overly simple words.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8867,
+          "meaningbert": 0.9018
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 18:02:17.712832",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Many best-selling album artists stop releasing new music when they are old.  \nBut Bruce Springsteen still releases new music.  \nIt is number one and fills stadiums.  \nHe is still at the top of his game.  \nHe is in his late 60s.  \nI am not surprised.  \nHe tells our most important stories about ourselves.  \nWhen you listen to his song \u201cBorn in the USA\u201d, the stories stay most important today.",
+      "timestamp": "2025-09-01 18:02:17.713294",
+      "metadata": {
+        "text_id": "00fce799-8a3b-4b9c-8c93-b1b7c190da13",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 18:02:34.982452",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e5e89305-d26b-4641-a615-471f80f4c7fc",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8896 is below the required 0.90 threshold. This indicates a significant loss of key phrasing and lexical detail from the original text.\n\n- The primary error is in the final sentence. The original states the stories are 'as relevant today as they ever were'. Your version, 'the stories stay most important today', completely loses the critical comparison to the past ('as they ever were'). This is a major loss of meaning and the direct cause of the low fidelity score.\n- The replacement of 'relevant' with 'important' is an acceptable vocabulary simplification for A2, but when combined with the severe structural simplification, it contributes to the overall fidelity failure.\n\nSuggestion: Rephrase the final sentence to restore the lost meaning. Use a simple structure to make the comparison. Command: Change 'the stories stay most important today' to 'The stories are important today, just like they were in the past.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8896,
+          "meaningbert": 0.9002
+        }
+      }
+    }
+  ]
+}

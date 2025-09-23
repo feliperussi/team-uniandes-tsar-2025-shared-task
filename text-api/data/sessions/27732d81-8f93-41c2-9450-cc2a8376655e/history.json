@@ -1,0 +1,413 @@
+{
+  "session_id": "27732d81-8f93-41c2-9450-cc2a8376655e",
+  "created_at": "2025-09-01 17:23:37.156137",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:23:37.178089",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "97-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Gary Collins is a policeman who was not working.  \nHe watched the London riots on TV.  \nHe right away saw a few people.  \nHe stopped his vacation early.  \nHe wanted to help find who they were.  \nHe spent six months looking at CCTV video.  \nHe found 190 people.  \nHe did this by looking at their eyes only.  \nHis help was very important for the search.  \nThere were 200,000 hours of video.  \nA computer program found only one person.",
+      "timestamp": "2025-09-01 17:23:37.178191",
+      "metadata": {
+        "text_id": "223c2c18-50b9-4e24-82f8-f93622edfd6f",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:23:37.185802",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "de4fda23-5c53-4f5f-ad01-e6c5c9625f05",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text states he identified 'many' people from their eyes. Your version, 'He did this by looking at their eyes only,' incorrectly implies all 190 people were identified this way. This alters a key fact.\n\n- Fidelity Failure: The text also fails the fidelity check. The BERTScore of 0.8927 is below the required 0.90 threshold. This indicates a significant loss of key words and phrasing from the original text.\n- Lexical Loss: The low BERTScore is caused by oversimplifying key terms. 'Off-duty policeman' became 'policeman who was not working' and 'decisive importance' became 'very important', losing lexical precision.\n\nSuggestion: Correct the factual error immediately. The sentence must be changed to 'He found many people by looking at their eyes only.' You must maintain factual integrity above all else.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8927,
+          "meaningbert": 0.8539
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:23:45.370930",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Gary Collins is an off-duty policeman.  \nHe watched the London riots on TV.  \nHe saw some of the people on the screen.  \nHe stopped his holiday early.  \nHe wanted to help find who they were.  \nHe spent six months looking at CCTV video.  \nHe identified 190 people.  \nHe found many people by looking at their eyes only.  \nHis help was very important for the investigation.  \nThere were 200,000 hours of video.  \nA computer program found only one person.",
+      "timestamp": "2025-09-01 17:23:45.371089",
+      "metadata": {
+        "text_id": "3f277f74-a8f4-4bf3-84bb-cfbfefd19e8c",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:24:12.800739",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "7279620d-c84c-43e8-a320-6e266fbc7e52",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8986 is below the required 0.90 threshold. This indicates a significant loss of key phrasing from the original text.\n\n- Vocabulary Violation: The text uses the B2-level word 'investigation'. This is a severe deviation from the A2 standard.\n- Vocabulary Violation: The text uses the B1-level word 'identified'. This is not A2 vocabulary.\n- Vocabulary Violation: The text uses the B1-level phrase 'off-duty'. This is too complex.\n- Lexical Simplification Error: While simplification is required, replacing 'facial recognition software' with 'A computer program' and 'decisive importance' with 'very important' contributed to the low fidelity score. The core lexical items were lost.\n\nSuggestion: Replace 'investigation' with an A2 phrase like 'the police work'. Replace 'identified' with 'found' or 'knew who they were'. Rephrase 'off-duty policeman' to 'a policeman who was not working'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8986,
+          "meaningbert": 0.8552
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:24:21.030875",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Gary Collins is a policeman who was not working.  \nHe watched the London riots on TV.  \nHe saw some of the people on the screen.  \nHe stopped his holiday early.  \nHe wanted to help find who they were.  \nHe spent six months looking at CCTV video.  \nHe found 190 people.  \nHe found many people by looking at their eyes only.  \nHis help was very important for the police work.  \nThere were 200,000 hours of video.  \nA computer program that looks at faces found one person.",
+      "timestamp": "2025-09-01 17:24:21.032473",
+      "metadata": {
+        "text_id": "72691381-0db1-4254-bf03-737ec22d24cd",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 17:24:42.741118",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e6fdb180-e401-4118-9df8-06a18258b01e",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8908 is below the required 0.90 threshold. This indicates a loss of key vocabulary from the original text.\n\n*   Primary Deviation: The simplification of specific terminology, while effective for A2 readability, has resulted in a fidelity score that does not meet the standard.\n*   Evidence: The term 'investigation' was replaced with 'police work'. The phrase 'facial recognition software' was replaced with 'a computer program that looks at faces'. While these are excellent simplifications, they reduce the direct lexical overlap with the source text, causing the metric failure.\n*   The text successfully passed the Factual Integrity check, the MeaningBERT check (0.8582), and was correctly classified as A2. However, the protocol is absolute.\n\nSuggestion: To pass the fidelity check, you must retain more of the original key vocabulary. Re-introduce the word 'investigation'. This will increase the BERTScore. You must balance the need for A2 simplicity against the strict requirement for lexical fidelity.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8908,
+          "meaningbert": 0.8582
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:24:50.057177",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Gary Collins is a policeman who was off duty.  \nHe watched the London riots on TV.  \nHe saw some of the people on the screen.  \nHe stopped his holiday early.  \nHe wanted to help find who they were.  \nHe spent six months looking at CCTV video.  \nHe found 190 people.  \nHe found many people by looking at their eyes only.  \nHis help was very important for the investigation.  \nThere were 200,000 hours of video.  \nFacial recognition software found one person.",
+      "timestamp": "2025-09-01 17:24:50.057512",
+      "metadata": {
+        "text_id": "88cbddaa-9400-43e5-9108-4b9ec8bff263",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:25:20.268473",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "41e096aa-4932-429d-8877-3d04e9b032d6",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8979 is below the required 0.90 threshold. This indicates a loss of key phrasing from the original text. While simplification is necessary for A2, replacing terms like 'recognised' with 'saw' and 'decisive importance' with 'very important' has reduced lexical fidelity below the minimum standard.\n\nVocabulary Standard Violation: The text uses the B2-level words 'investigation' and 'recognition'. These are not A2-compliant. All vocabulary must strictly adhere to the A2 level.\n\nSuggestion: Rephrase to eliminate B2 vocabulary. Replace 'investigation' with a phrase like 'the police work'. Replace 'facial recognition software' with a simple description like 'software that knows faces'.\n\nSuggestion: To improve fidelity, restore more of the original meaning. Instead of 'He saw some of the people', use 'He knew who some of the people were', which is closer to the original 'recognised'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8979,
+          "meaningbert": 0.861
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:25:31.302301",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Gary Collins is a policeman who was off duty.  \nHe watched the London riots on TV.  \nHe knew who several people were on the screen.  \nHe stopped his holiday early to help find them.  \nHe spent six months looking at CCTV video.  \nHe found 190 people.  \nHe found many of them by looking at their eyes.  \nHis help was very important for the police work.  \nThere were 200,000 hours of video.  \nSoftware that knows faces found only one person.",
+      "timestamp": "2025-09-01 17:25:31.302983",
+      "metadata": {
+        "text_id": "fa481574-c88e-4fe9-9d94-7dcc3a685127",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:25:53.803004",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "fcb95c4d-728b-4da2-b46e-046124f472ab",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. Although the metrics pass, a deep qualitative audit reveals critical deviations from the A2 standard. The text contains B1-level vocabulary and grammatical structures that violate the required simplicity.\n\n- Vocabulary Failure: The word 'riots' is B1/B2 level. It was retained from the original text without simplification. This is an unacceptable complexity for an A2 reader.\n\n- Structural Failure: The sentence 'He knew who several people were on the screen' uses a 'wh-' clause as an object. This is a B1 grammatical structure. A2 level requires simpler, more direct sentences.\n\n- Suggestion: Replace 'riots' with an A2 phrase such as 'big fights in the street' or 'trouble in the city'.\n\n- Suggestion: Rephrase the complex sentence. Change 'He knew who several people were on the screen' to two distinct A2 sentences. Example: 'He saw several people on the screen. He knew them.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9034,
+          "meaningbert": 0.8505
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:26:03.221906",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Gary Collins is a policeman who was not working.  \nHe watched the big fights in the city on TV.  \nHe saw several people on the screen.  \nHe knew them.  \nHe stopped his holiday early to help find them.  \nHe spent six months looking at CCTV video.  \nHe found 190 people.  \nHe found many of them by looking at their eyes.  \nHis help was very important for the police work.  \nThere were 200,000 hours of video.  \nSoftware that knows faces found only one person.",
+      "timestamp": "2025-09-01 17:26:03.222291",
+      "metadata": {
+        "text_id": "90faea29-c252-4d3e-b2fa-0596f3111a0f",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:26:29.084773",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "d6271dcd-f0ca-4127-bd1b-d5353deb1eb4",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8912 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original text. While the text is factually correct and passes the meaning check, it has lost too much lexical detail in the simplification process. The simplification was too aggressive. The term 'London riots' was replaced with 'big fights in the city'. The term 'investigation' was replaced with 'police work'. The concept of 'identification' was reduced to 'find them'. This combination of replacements lowered the fidelity score below the minimum threshold. Suggestion: Re-integrate more precise vocabulary from the original that is still A2-accessible. Use 'police investigation' instead of 'police work' to improve lexical fidelity. You must find a better balance between simplification and preserving key terms.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8912,
+          "meaningbert": 0.8414
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:26:37.883755",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Gary Collins is a policeman who was not working.  \nHe watched the London riots on TV.  \nHe recognised several people on the screen.  \nHe stopped his holiday early to help the police investigation.  \nHe spent six months looking at CCTV footage.  \nHe identified 190 people.  \nHe identified many of them by looking at their eyes.  \nHis help was very important for the investigation.  \nThere were 200,000 hours of video.  \nFacial\u2011recognition software found only one person.",
+      "timestamp": "2025-09-01 17:26:37.885351",
+      "metadata": {
+        "text_id": "71cfad36-34f9-4122-a1d0-46e0e38c0566",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:27:05.409046",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ea37a435-b398-44bd-93df-2f4ead80a54c",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as B1, which is an immediate failure. The target level is A2. The failure is due to overly complex vocabulary and sentence structure.\n\n- Vocabulary Violation: The text includes words that are above the A2 level. You used 'investigation' (B2), 'footage' (C1), and 'recognition' (B2). These words were explicitly identified as candidates for replacement and were not simplified. This is a critical error.\n\n- Structural Violation: The first sentence, 'Gary Collins is a policeman who was not working,' uses a relative clause ('who was...'). This is a B1 grammatical structure. A2 level requires simpler, separate sentences.\n\n- Suggestion: Replace all words above the A2 level. 'investigation' must be rephrased to something like 'to help find the people'. 'footage' must be replaced with 'video'. 'Facial-recognition software' must be simplified to 'face-finding software'.\n\n- Suggestion: Split the first sentence into two simple sentences. It must be rewritten as: 'Gary Collins is a policeman. He was not working.'",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9052,
+          "meaningbert": 0.8865
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:27:12.119887",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Gary Collins is a policeman.  \nHe was not working.  \nHe watched the London riots on TV.  \nHe saw several people on the screen.  \nHe stopped his holiday early to help find the people.  \nHe spent six months looking at video.  \nHe found 190 people.  \nHe found many of them by their eyes.  \nHis help was very important.  \nThere were 200,000 hours of video.  \nFace\u2011finding software found only one person.",
+      "timestamp": "2025-09-01 17:27:12.120415",
+      "metadata": {
+        "text_id": "15b970aa-6f48-4e61-82c0-0fd03b6573b7",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:27:37.177741",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ff2838d8-78c3-470f-a0bb-50ca1e844fab",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8924 is below the required 0.90 threshold. This indicates a significant loss of key terminology from the original text.\n- The primary cause of the low score is the over-simplification of specific concepts. The term 'facial recognition software' was replaced with 'Face-finding software'. This new term is not standard English and loses the precise meaning of the original.\n- Similarly, 'decisive importance' was reduced to 'very important', and 'identification' was reduced to 'find the people'. While simpler, these changes lose lexical precision, contributing to the fidelity failure.\n- The sentence structure is excessively simple, consisting of short, disconnected statements. This is more characteristic of A1 than A2 and results in a choppy, unnatural text.\nSuggestion: Restore fidelity by using more precise A2-level descriptions. Instead of 'Face-finding software', use 'software that finds faces'. Combine some sentences using simple A2 connectors like 'and' or 'but' to improve the flow. For example: 'He was a policeman, but he was not working.' and 'He spent six months looking at video and found 190 people.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8924,
+          "meaningbert": 0.851
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:27:40.691307",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Gary Collins is a policeman who was off duty.  \nHe watched the London riots on TV, and he recognized several people on the screen.  \nHe stopped his holiday early to help with identification.  \nHe spent six months looking at CCTV video and identified 190 people.  \nHe identified many of them just by their eyes.  \nHis help was essential for the investigation.  \nThere were about 200,000 hours of video, but software that finds faces identified only one person.",
+      "timestamp": "2025-09-01 17:27:40.691688",
+      "metadata": {
+        "text_id": "a78c39c0-19e9-4351-9bf2-36bee20c6276",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:28:01.623030",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "c49c2854-111f-403c-9883-a1b0e77fa9a9",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The classifier rated the text as B1, which is an instant failure. The text is too complex for the A2 standard.\n\n- Grammatical Structure Exceeds A2 Level: The text uses defining relative clauses, which are a B1 grammatical structure. This is a critical error. The sentences \"Gary Collins is a policeman who was off duty\" and \"...software that finds faces identified only one person\" must be simplified.\n\n- Vocabulary Exceeds A2 Level: The text uses words that are not on the A2 list. 'essential' is a B1 word. 'investigation' is a B2 word. This is unacceptable.\n\n- Suggestion: Remove all relative clauses. Split complex sentences into two simple sentences. Example: \"Gary Collins is a policeman. He was off duty.\" Replace B1/B2 vocabulary immediately. Replace 'essential' with 'very important'. Replace 'investigation' with a simple phrase like 'the police work'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.927,
+          "meaningbert": 0.9287
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:28:09.348625",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Gary Collins is a policeman.  \nHe was not working.  \nHe watched the London riots on TV.  \nHe recognized several people on the screen.  \nHe stopped his holiday early to help with identification.  \nHe spent six months looking at CCTV video.  \nHe identified 190 people.  \nHe identified many of them just by their eyes.  \nHis help was very important.  \nIt helped the police work.  \nThere were about 200,000 hours of video.  \nThe software found only one person.",
+      "timestamp": "2025-09-01 17:28:09.349462",
+      "metadata": {
+        "text_id": "74c39ff5-31d2-4f0c-a337-ef6a070af0a2",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:28:30.113914",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9aebe716-24e4-4fb3-a55f-79746081746e",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8953 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original text due to oversimplification.\n\n- The phrase 'decisive importance in the investigation' was reduced to 'very important. It helped the police work.' This simplification loses the specific and important nouns 'importance' and 'investigation'.\n- The term 'facial recognition software' was replaced with 'The software'. This removes critical descriptive information and lowers lexical fidelity.\n- The original text states Gary Collins 'managed to identify' people, which implies effort. Your version 'He identified' loses this nuance.\n- The text is broken into too many short, disconnected sentences. This choppy structure contributes to the low fidelity score and reads at an A1 level of simplicity, even if the vocabulary is A2.\n\nSuggestion: Restore key nouns like 'investigation' and 'facial recognition'. Combine some of the very short sentences using simple A2 connectors like 'and' or 'but' to improve flow and better match the original text's structure. For example: 'He spent six months looking at CCTV video and he identified 190 people.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8953,
+          "meaningbert": 0.9406
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:28:33.539021",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Gary Collins is a policeman.  \nHe was off duty and watched the London riots on TV.  \nHe recognized several people on the screen.  \nHe stopped his holiday early to help with identification.  \nHe spent six months looking at CCTV video and he managed to identify 190 people.  \nHe identified many of them just by their eyes.  \nHis help was of decisive importance in the investigation.  \nThe police recorded about 200,000 hours of video.  \nFacial recognition software found only one person.",
+      "timestamp": "2025-09-01 17:28:33.549610",
+      "metadata": {
+        "text_id": "d10cb4d5-0cc3-4c6b-8bdf-573adcba2c97",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:28:53.420722",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2786ab7d-cfac-4db3-a184-109430ce461e",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: CEFR Compliance. The text was classified as B1, which is above the required A2 level. This is an instant failure.\n\n- Violation: The sentence 'His help was of decisive importance in the investigation' is copied directly from the original text. This phrase is too complex for A2. It contains the words 'decisive' (C1), 'importance' (B1), and 'investigation' (B2).\n- Violation: The phrase 'Facial recognition software' uses the B2 word 'recognition'.\n- Violation: The phrase 'off duty' uses the B1 word 'duty'.\n\nSuggestion: You must simplify all vocabulary to the A2 level. Rephrase 'His help was of decisive importance in the investigation' to 'His help was very important for the police'. Rephrase 'off duty' to 'he was not working'. Rephrase 'Facial recognition software' to 'The face software'.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.9225,
+          "meaningbert": 0.9452
+        }
+      }
+    }
+  ]
+}

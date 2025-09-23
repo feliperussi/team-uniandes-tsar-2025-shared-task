@@ -1,0 +1,80 @@
+{
+  "session_id": "3a065c1f-8747-4b23-b0eb-1b8081d5fa25",
+  "created_at": "2025-08-31 22:16:01.568359",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:16:01.616518",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "10-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I worked five days a week before.\nThen I had a baby.\nI wanted to spend more time with my children.\nThey will start school soon.\nI talked to my boss.\nWe decided I would work three days a week.\nSo my pay was much less.\nI get money for the hours I work.\nBut I saw something after that.\nMy work did not get less.\nNow I do five days of work in three days.\nBut I get much less money for it.",
+      "timestamp": "2025-08-31 22:16:01.616657",
+      "metadata": {
+        "text_id": "17af0f90-da82-4311-865e-e3bc32975794",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-08-31 22:16:02.516886",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "f4f44467-4198-4b5f-893d-d8e9df46bf0b",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.7337 is below the required 0.75. While the BERTScore of 0.9105 is acceptable, the meaning preservation is not. The original text specifies the decision to reduce working days was made 'after I came out of my parental leave', which provides a specific context of returning to work after a period off. Your version states 'Then I had a baby', which is a past event but does not fully capture the nuance of the decision being made in the context of ending parental leave and returning to work. This subtle shift in the precise trigger for the change in work schedule results in a slight loss of the original's intended meaning and context.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9105,
+          "meaningbert": 0.7337
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-08-31 22:16:09.115734",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: I worked five days a week before.\nI had a baby.\nI took time off work.\nThen I came back to work.\nI wanted to spend more time with my children.\nThey will start school soon.\nI talked to my boss.\nWe decided I would work three days a week.\nSo my pay was much less.\nI get money for the hours I work.\nBut I saw something after that.\nMy work did not get less.\nNow I do five days of work in three days.\nBut I get much less money for it.",
+      "timestamp": "2025-08-31 22:16:09.116188",
+      "metadata": {
+        "text_id": "e8f37d65-f1d7-4700-8b78-c9a20a50512e",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 10/10 - PASS",
+      "timestamp": "2025-08-31 22:16:19.627141",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "3b92ecbc-9b45-4600-afad-55e6f7b7c84e",
+        "grade": 10,
+        "approval": "PASS",
+        "feedback_text": "PASS: The text successfully meets all A2 CEFR readability standards and accurately conveys the original meaning. The MeaningBERT score of 0.7893 and BERTScore of 0.9072 confirm excellent meaning preservation and lexical fidelity. The CEFR classifier correctly identified the text as A2. The writer effectively simplified complex concepts such as 'parental leave' into 'I had a baby. I took time off work.' and 'pro-rata basis' into 'I get money for the hours I work.' Sentence structures are consistently short and simple, using appropriate A2 connectors like 'Then', 'So', and 'But'. All vocabulary is within the A2 range, demonstrating a clear understanding of the target level.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9072,
+          "meaningbert": 0.7893
+        }
+      }
+    }
+  ]
+}

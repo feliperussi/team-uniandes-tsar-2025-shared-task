@@ -1,0 +1,413 @@
+{
+  "session_id": "fc43d14d-b43b-4d29-895d-ae60f9f82888",
+  "created_at": "2025-09-01 17:14:29.884648",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:14:30.804608",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "53-a2",
+        "version": 1,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Graffiti is drawing or writing on walls without permission.  \nSome local governments ask artists not to paint graffiti randomly on walls.  \nThey let artists work in special places.  \nTaiwan is one such place.  \nIt has graffiti zones where artists can paint.  \nThey can also write on walls.  \nIn S\u00e3o Paulo, Brazil, the local government lets some graffiti artists paint.  \nThey paint on the city\u2019s train cars.",
+      "timestamp": "2025-09-01 17:14:30.804729",
+      "metadata": {
+        "text_id": "23fd7b96-140b-4360-9229-3f9f87bc57a6",
+        "version": 1
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 6/10 - FAIL",
+      "timestamp": "2025-09-01 17:14:30.843768",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "aecbb45e-9bc4-4296-8028-3289284f09d5",
+        "grade": 6,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Vocabulary Non-Compliance. The text fails the qualitative audit due to the use of vocabulary above the A2 level.\n*   Vocabulary Violation: The word 'randomly' is B1 level. All words must be on the A2 list. This is a critical failure.\n*   Factual Addition: The first sentence, 'Graffiti is drawing or writing on walls without permission,' is an addition. The task is to simplify the original text, not to add new, external information, even if it is a definition.\nSuggestion: Remove the word 'randomly'. The sentence 'Some local governments ask artists not to paint graffiti on walls' is sufficient and A2 compliant. Suggestion: Remove the first sentence as it was not part of the source material.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9091,
+          "meaningbert": 0.8504
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:14:39.915196",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 2,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some local governments ask people not to paint graffiti on walls.  \nThey let people work in special places.  \nTaiwan is one such place.  \nIt has graffiti zones where people can paint and write on walls.  \nIn S\u00e3o Paulo, Brazil, the local government lets some people paint.  \nThey paint on the city train.",
+      "timestamp": "2025-09-01 17:14:39.915490",
+      "metadata": {
+        "text_id": "da5abdf3-72bf-487a-8fcb-a91a0c47ee9e",
+        "version": 2
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:15:04.696662",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "2ed848e0-26d2-4d6a-a67b-563c16a0091e",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6991 is below the required 0.75 threshold. This is an instant failure.\n\n- The core meaning of the original text was lost. The original text explains a cause-and-effect relationship: councils provide designated areas *as a way to encourage* artists not to paint randomly. Your version splits this into two disconnected statements: 'governments ask people not to paint' and 'they let people work in special places'. This destroys the strategic meaning of the original sentence.\n- The sentence 'It has graffiti zones where people can paint and write on walls' uses a relative clause with 'where'. This is a borderline B1 structure and is too complex for A2.\n\nSuggestion: Rephrase to restore the cause-and-effect link. Example: 'Some governments want artists to stop painting on all walls. So, they give them special places to paint.'\nSuggestion: Split the complex sentence. Example: 'It has graffiti zones. In these zones, people can paint and write on walls.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.9105,
+          "meaningbert": 0.6991
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:15:21.066734",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 3,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some local governments want artists to stop painting on all walls.  \nSo they give artists special places to paint.  \nGraffiti is paint art on walls.  \nGraffiti zones are areas where graffiti is allowed.  \nTaiwan has graffiti zones.  \nIn these zones, artists can paint and write on walls.  \nS\u00e3o\u202fPaulo in Brazil also lets some artists paint on city trains.",
+      "timestamp": "2025-09-01 17:15:21.067047",
+      "metadata": {
+        "text_id": "cdd66a91-b928-4ee0-b981-01df6bb1ff86",
+        "version": 3
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:15:48.018717",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "cbb208e1-bb7f-499c-b2b7-bc00f2512a1e",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6479 is significantly below the required 0.75 threshold. This is an instant failure.\n\n- Fidelity Failure: The BERTScore of 0.8947 is also below the 0.90 minimum. This indicates a loss of key words.\n- Meaning Distortion: The original text states councils 'encourage artists not to paint graffiti randomly'. Your version, 'want artists to stop painting on all walls', is a significant oversimplification that loses the core concept of managing random graffiti, not stopping all of it.\n- Lexical Loss: Key terms like 'encourage', 'randomly', and 'councils' were removed, contributing to the low fidelity and meaning scores.\n\nSuggestion: Rephrase the first sentence to accurately reflect the original's intent. The goal is to manage random graffiti, not ban it entirely. Restore the cause-and-effect link. Example: 'Some local governments want to stop random graffiti, so they give artists special places to paint.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8947,
+          "meaningbert": 0.6479
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:16:00.464514",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 4,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some councils encourage artists not to paint graffiti randomly.  \nSo they give artists special places to paint.  \nGraffiti is paint art on walls.  \nGraffiti zones are places where graffiti is allowed.  \nTaiwan has graffiti zones.  \nIn these zones artists can paint and write on walls.  \nS\u00e3o\u202fPaulo in Brazil also lets some artists paint on city trains.",
+      "timestamp": "2025-09-01 17:16:00.464834",
+      "metadata": {
+        "text_id": "b0c2a4ff-f064-4365-8894-5012cd45acd2",
+        "version": 4
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 3/10 - FAIL",
+      "timestamp": "2025-09-01 17:16:20.021659",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "03a7ac00-2501-451c-8b38-f927e45e8f54",
+        "grade": 3,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8979 is below the required 0.90. This indicates a significant loss of key words and factual phrasing from the original text.\n\n- Lexical Deviation: The original text specified 'subway trains'. Your output used the less specific term 'city trains'. This reduces factual precision and lowers the fidelity score.\n- Vocabulary Violation: The B1 word 'encourage' was used. This word is not on the A2 list and must be replaced. All vocabulary must strictly adhere to the A2 level.\n- Structural Weakness: The original concept 'councils have tried to encourage artists not to paint graffiti randomly... by allowing them to work in designated areas' was broken into two sentences. This separation weakens the cause-and-effect link.\n\nSuggestion: Restore the exact term 'subway trains' to maintain fidelity. Replace 'encourage' with an A2-level phrase such as 'ask' or 'tell artists it is okay'. Combine the first two sentences to better show the relationship between the council's action and the artist's work.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8979,
+          "meaningbert": 0.8644
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:16:24.789430",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 5,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some councils tell artists not to paint graffiti randomly.  \nSo they give special places to paint.  \nGraffiti is paint art on walls.  \nGraffiti zones are places where graffiti is allowed.  \nTaiwan has graffiti zones.  \nIn these zones artists can paint and write on walls.  \nS\u00e3o\u202fPaulo in Brazil lets some artists paint on subway trains.",
+      "timestamp": "2025-09-01 17:16:24.789676",
+      "metadata": {
+        "text_id": "3d016dbf-5d83-4f17-abaf-6dfa09b4a7bf",
+        "version": 5
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 4/10 - FAIL",
+      "timestamp": "2025-09-01 17:16:46.961419",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ce1eae7a-4567-4d09-96c5-1fcbc1c6d69b",
+        "grade": 4,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Fidelity Failure. The BERTScore of 0.8929 is below the required 0.90 threshold. This indicates a failure to retain key lexical items from the original text. The output also contains vocabulary above the A2 level. Vocabulary Violation: The word 'randomly' is B1 level. It must be replaced. Vocabulary Violation: The word 'subway' is a B1 word. It must be replaced or simplified. Lexical Loss: The phrase 'city council' was removed, reducing fidelity to the source text. Suggestion: Replace 'randomly' with an A2 phrase like 'in any place'. Replace 'subway trains' with 'underground trains'. Restore key terms like 'city council' to meet the fidelity requirement.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8929,
+          "meaningbert": 0.8562
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:16:53.956948",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 6,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: Some councils tell artists not to paint graffiti in any place.  \nThey give special places.  \nGraffiti is paint art on10 walls.  \nGraffiti zones are places where graffiti is allowed.  \nTaiwan has graffiti zones.  \nIn these zones artists can paint and write on walls.  \nThe city council in S\u00e3o\u202fPaulo, Brazil lets some artists paint.  \nThey paint on underground trains.",
+      "timestamp": "2025-09-01 17:16:53.957337",
+      "metadata": {
+        "text_id": "3731d298-0cee-42f8-8f18-5262cf18e5c3",
+        "version": 6
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 1/10 - FAIL",
+      "timestamp": "2025-09-01 17:17:17.133226",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "a5f22085-f856-4a5f-b816-f9b592c461ea",
+        "grade": 1,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Factual Inaccuracy. The original text states councils 'encourage artists not to paint graffiti randomly... by allowing them to work in designated areas.' Your version, 'Some councils tell artists not to paint graffiti in any place,' is a factual error. It changes the meaning from redirecting an activity to prohibiting it entirely. This fundamental misrepresentation is the primary reason for failure.\n\n- Meaning Preservation Failure: The MeaningBERT score of 0.6586 is significantly below the required 0.75.\n- Fidelity Failure: The BERTScore of 0.8875 is below the 0.90 minimum.\n- Vocabulary Violation: The word 'council' is B2 level. It was not simplified.\n- Unnecessary Addition: The sentence 'Graffiti is paint art on10 walls' is not derived from the source text and contains a typo.\n\nSuggestion: You must re-read the original text to understand its meaning. Your primary task is to accurately convey that city leaders are giving artists special places to paint so they do not paint everywhere. Replace 'council' with an A2 phrase like 'city leaders'. Rewrite the first two sentences to correctly state that councils are trying to manage graffiti, not ban it.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8875,
+          "meaningbert": 0.6586
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:17:31.133708",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 7,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: City leaders want artists to paint in special places.  \nThey do not want random graffiti.  \nGraffiti is paint art on walls.  \nThey give artists special areas.  \nThese areas are graffiti zones.  \nGraffiti zones are places where graffiti is allowed.  \nIn Taiwan there are graffiti zones.  \nArtists can paint and write on walls there.  \nIn S\u00e3o\u202fPaulo, Brazil, city leaders let some artists paint.  \nThey paint on underground trains.",
+      "timestamp": "2025-09-01 17:17:31.134306",
+      "metadata": {
+        "text_id": "dd4c989a-3272-4db7-a736-b16576f1f3d8",
+        "version": 7
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:17:55.524616",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "9e4652a2-a9e1-4713-bdf4-e8840ae04e66",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.67 is significantly below the required 0.75 threshold. The text has failed to preserve the core message of the original.\n\n- Meaning Loss: The original text explains a cause-and-effect relationship: councils discourage random graffiti *by providing* designated areas. Your version presents these as two separate, disconnected facts ('They do not want random graffiti.' and 'They give artists special areas.'), which destroys the central logic of the sentence.\n- Fidelity Failure: The BERTScore of 0.88 is below the required 0.90. This reflects the loss of key concepts like 'encourage' and 'designated areas'.\n- Vocabulary Violation: The word 'random' is a B2-level word. It was used directly from the source text without simplification, violating the A2 standard.\n- Redundancy and Poor Definition: The sentences 'Graffiti zones are places where graffiti is allowed' and 'In Taiwan there are graffiti zones' are repetitive and provide no new information. The definition is circular.\n\nSuggestion: Rephrase to restore the cause-and-effect link. Example: 'City leaders do not want graffiti everywhere, so they give artists special places to paint.' Remove the B2 word 'random'. Combine the sentences about Taiwan to be more direct.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8809,
+          "meaningbert": 0.6745
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:18:03.374869",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 8,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: City leaders do not want graffiti everywhere.  \nSo they give artists special places to paint.  \nThese places are called graffiti zones.  \nGraffiti is paint art on walls.  \nIn a graffiti zone artists may paint and write on walls.  \nTaiwan has graffiti zones.  \nArtists can paint and write there.  \nIn S\u00e3o\u202fPaulo, Brazil, city leaders let some artists paint on underground trains.",
+      "timestamp": "2025-09-01 17:18:03.377057",
+      "metadata": {
+        "text_id": "819a129b-e8de-4e75-97e6-49a26849353b",
+        "version": 8
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:18:21.741700",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "e7aaa0a7-e3ae-4422-a35d-88c1cf589909",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The text fails on two critical metrics. The MeaningBERT score of 0.6259 is significantly below the required 0.75 threshold. The BERTScore of 0.887 is also below the 0.90 minimum.\n\n- Meaning Preservation Failure (MeaningBERT): The original text states that councils 'encourage artists' by providing designated areas. Your version changes this core motivation to a negative one: 'City leaders do not want graffiti everywhere.' This is a substantial shift in meaning from positive encouragement to simple containment, causing the low score.\n\n- Fidelity Failure (BERTScore): The low score is a result of replacing specific terminology with overly simple phrases. Key terms like 'encourage' and 'designated areas' were lost. This reduces the lexical fidelity to the source text.\n\n- Suggestion: Restore the original meaning. The text must convey the idea of 'encouragement' or 'helping artists', not just stopping a problem. Rephrase the opening to reflect this positive action. For example: 'City leaders want to help artists paint in the right places.'",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.887,
+          "meaningbert": 0.6259
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:18:30.761807",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 9,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: City leaders want to help artists paint in the right places.  \nThey set special areas for graffiti.  \nThese areas are called graffiti zones.  \nGraffiti is paint art on walls.  \nIn a graffiti zone artists may paint and write on walls.  \nTaiwan has graffiti zones.  \nArtists can paint and write there.  \nIn S\u00e3o\u202fPaulo, Brazil, city leaders let artists paint on underground trains.",
+      "timestamp": "2025-09-01 17:18:30.762408",
+      "metadata": {
+        "text_id": "f6633c08-8367-4b18-86ef-c0efd751252b",
+        "version": 9
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:18:55.701020",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "6e7973ea-f68d-43ae-bccc-ebacac26422f",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6365 is significantly below the required 0.75. This is an instant failure. The core message was not preserved.\n\n- Primary Failure: The original text explains that councils provide areas to 'encourage artists not to paint graffiti randomly'. Your version, 'City leaders want to help artists', completely loses this critical concept of prevention and control. It changes the entire meaning.\n- Secondary Failure (Fidelity): The BERTScore of 0.8848 is below the 0.90 minimum. This is due to replacing specific terms like 'councils' and 'subway trains' with less precise words, losing factual detail.\n- Secondary Failure (CEFR Compliance): The text was classified as B1, not the required A2. This is caused by using B1-level vocabulary. The words 'set' and 'zones' are not on the A2 list and are too advanced.\n- Suggestion: Rewrite the text to restore the original meaning about preventing random graffiti. Replace the B1 word 'set' with an A2 verb like 'made'. The keyword 'graffiti zones' must be explained using only A2 words; do not use the B1 word 'zone' in the main text. Use 'special places' or 'special areas' instead.",
+        "metrics": {
+          "cefr_compliance": "B1",
+          "bertscore": 0.8848,
+          "meaningbert": 0.6365
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:19:13.449189",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 10,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: City leaders want to stop graffiti on any wall.  \nThey made special places for graffiti.  \nThese places are called graffiti zones.  \nGraffiti is paint art on walls.  \nIn these special places artists may paint and write on walls.  \nTaiwan has graffiti zones.  \nArtists can paint and write there.  \nIn S\u00e3o\u202fPaulo Brazil city leaders let artists paint on subway trains.",
+      "timestamp": "2025-09-01 17:19:13.449719",
+      "metadata": {
+        "text_id": "29706543-8909-424a-b08c-4598979f8eef",
+        "version": 10
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:19:38.415344",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ed3d43f6-175a-4680-b71c-bc42a497a498",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.5987 is significantly below the required 0.75 threshold. This is an instant failure. The core message has been distorted.\n\n- Factual and Meaning Inaccuracy: The original text states councils 'encourage artists not to paint graffiti randomly' by providing special areas. Your text states 'City leaders want to stop graffiti on any wall.' This is a different meaning. It changes the concept from managing a problem to banning it, which is factually incorrect based on the source.\n- Fidelity Failure: The BERTScore of 0.8799 is below the 0.90 minimum. Key concepts like 'encourage' and 'randomly' were deleted, losing critical information from the original text.\n- B1 Vocabulary Violation: The word 'subway' is B1 level. It was not simplified to an A2 equivalent.\n- Poor Structure: The text is a list of short, disconnected sentences. The flow is unnatural and too simplistic, even for A2. The definition 'Graffiti is paint art on walls' is inserted awkwardly in the middle of the text.\n\nSuggestion: Rephrase the first sentence to capture the idea of 'encouraging' artists to use specific places. Combine short sentences to create better flow. Replace 'subway trains' with 'city trains'.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8799,
+          "meaningbert": 0.5987
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": "Text created/updated with CEFR level A2",
+      "timestamp": "2025-09-01 17:19:46.314373",
+      "metadata": {
+        "action": "text_update",
+        "text_id": "text_001",
+        "version": 11,
+        "cefr_level": "A2"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Text saved: City leaders ask artists to paint in special places.  \nThey want artists not to paint on any wall.  \nThe special places are called graffiti zones.  \nGraffiti is paint art on walls.  \nIn Taiwan there are graffiti zones.  \nArtists can paint and write there.  \nIn S\u00e3o\u202fPaulo, Brazil, city leaders let artists paint.  \nThey can paint on city trains.",
+      "timestamp": "2025-09-01 17:19:46.315244",
+      "metadata": {
+        "text_id": "b2a2590a-cbe5-4ffa-a03f-0ed93dd41cb0",
+        "version": 11
+      }
+    },
+    {
+      "role": "system",
+      "content": "Feedback received: Grade 2/10 - FAIL",
+      "timestamp": "2025-09-01 17:20:12.993318",
+      "metadata": {
+        "action": "feedback",
+        "feedback_id": "ba7e8c51-0dd5-4206-b67b-51096932715d",
+        "grade": 2,
+        "approval": "FAIL",
+        "feedback_text": "FAIL: Meaning Preservation Failure. The MeaningBERT score of 0.6625 is critically below the required 0.75 threshold. This indicates a severe loss of the original text's core message.\n\n*   Primary Failure: The logical connection is broken. The original text explains that councils create designated areas *in order to* stop random graffiti. Your version presents these as two separate facts: 'City leaders ask artists to paint in special places' and 'They want artists not to paint on any wall'. The cause-and-effect relationship is completely lost.\n*   Secondary Failure: The BERTScore of 0.8842 is below the 0.90 minimum, indicating a loss of key phrasing from the original text.\n*   Suggestion: You must restore the logical link. Rephrase to show cause and effect. Use a simple A2 connector. Example: 'City leaders want to stop artists from painting on any wall, so they give them special places to paint.' This correction restores the original meaning.",
+        "metrics": {
+          "cefr_compliance": "A2",
+          "bertscore": 0.8842,
+          "meaningbert": 0.6625
+        }
+      }
+    }
+  ]
+}
