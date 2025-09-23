@@ -4,9 +4,9 @@ This repository contains Team Uniandes' submission and materials for the TSAR 20
 
 ## Repository Structure
 
-### `/agents`
+### `/n8n_agents`
 
-Contains JSON configuration files for the various agents developed for the CEFR simplification task. These agents implement different approaches and strategies for text simplification.
+Contains JSON files for the various agents developed in n8n for the CEFR simplification task.
 
 ### `/prompts`
 
